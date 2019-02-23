@@ -1,5 +1,7 @@
 #pragma once
 
+#define __TIMM_OPENCL__
+
 #include "timm.h"
 
 #include "opencl_kernel.h"

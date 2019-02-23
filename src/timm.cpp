@@ -11,7 +11,10 @@ cv::Point Timm::pupil_center(const cv::Mat& eye_img)
 	pre_process(eye_img);
 
 	//*
-	timer2.tick(); _ReadWriteBarrier();
+	timer2.tick(); 
+	#ifdef _win32
+	_ReadWriteBarrier();
+	#endif
 	prepare_data();
 
 	// faster code using hand optimized objective function		
@@ -58,7 +61,10 @@ cv::Point Timm::pupil_center(const cv::Mat& eye_img)
 	}
 
 	cv::multiply(out_sum, weight_float, out);
-	_ReadWriteBarrier(); measure_timings[1] = timer2.tock(false);
+	#ifdef _win32
+	_ReadWriteBarrier(); // to avoid instruction reordering - important for accurate timings
+	#endif
+	measure_timings[1] = timer2.tock(false);
 	//*/
 
 
@@ -95,9 +101,13 @@ float Timm::kernel(float cx, float cy, const vector<float>& gradients)
 	switch (simd_width)
 	{
 	case USE_NO_VEC: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op(cx, cy, &gradients[i]); } break;
+	
+	#ifndef __arm__
 	case USE_SSE: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_sse(cx, cy, &gradients[i]); } break;
 	case USE_AVX2: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_avx2(cx, cy, &gradients[i]); } break;
 	case USE_AVX512: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_avx512(cx, cy, &gradients[i]); } break;
+	#endif
+	
 	default: throw("wrong vectorization width in Timm::kernel"); break;
 	}
 	return c_out;
@@ -115,7 +125,10 @@ float Timm::calc_dynamic_threshold(const cv::Mat &mat, float stdDevFactor)
 
 void Timm::pre_process(const cv::Mat& img)
 {
-	timer1.tick(); _ReadWriteBarrier();
+	timer1.tick(); 
+	#ifdef _win32
+	_ReadWriteBarrier();
+	#endif
 	// down sample to speed up
 	cv::resize(img, img_scaled, cv::Size(opt.down_scaling_width, img.rows * float(opt.down_scaling_width) / img.cols));
 
@@ -213,7 +226,10 @@ cv::Point Timm::post_process()
 		cv::minMaxLoc(out, NULL, &max_val, NULL, &max_point, mask);
 	}
 
-	_ReadWriteBarrier(); measure_timings[0] = timer1.tock(false);
+	#ifdef _win32
+	_ReadWriteBarrier(); 
+	#endif
+	measure_timings[0] = timer1.tock(false);
 	return max_point;
 }
 
@@ -410,7 +426,7 @@ float Timm::kernel_orig(float cx, float cy, const cv::Mat& gradientX, const cv::
 inline float calc_kernel_sse(float cx, float cy, size_t idx, const vector<array<float, 4>>& gradients)
 {
 
-	// wenn das gut klappt, dann für raspi mal die sse2neon lib anschauen: https://github.com/jratcliff63367/sse2neon
+	// wenn das gut klappt, dann fÃ¼r raspi mal die sse2neon lib anschauen: https://github.com/jratcliff63367/sse2neon
 
 
 	//__declspec(align(16)) float dx[4]; // no effect - compiler seems to automatically align code

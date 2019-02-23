@@ -5,7 +5,7 @@
 #include <vector>
 #include <thread>
 
-#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/imgproc.hpp>
 
 #include <Eigen/Eigen>
 
@@ -136,7 +136,7 @@ protected:
 
 	float kernel_orig(float cx, float cy, const cv::Mat& gradientX, const cv::Mat& gradientY);
 
-
+	#ifndef __arm__
 	inline float kernel_op_sse(float cx, float cy, const float* sd)
 	{
 
@@ -313,6 +313,8 @@ protected:
 		return _mm512_reduce_add_ps(tmp1);
 	}
 
+	#endif
+	
 	inline float kernel_op(float cx, float cy, const float* sd)	
 	{
 		
@@ -335,7 +337,7 @@ protected:
 		//magnitude = fast_inverse_sqrt_quake(magnitude); // with this: 26 ms.
 		//magnitude = fast_inverse_sqrt_around_one(magnitude); // not working .. 
 
-		fast_inverse_sqrt_sse(&magnitude, &magnitude); // MUCH FASTER !
+		fast_inverse_sqrt(&magnitude, &magnitude); // MUCH FASTER !
 		dx = dx * magnitude;
 		dy = dy * magnitude;
 

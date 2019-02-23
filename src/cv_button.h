@@ -1,8 +1,6 @@
 #pragma once
 // simple opencv based imgui Button
 
-#include <opencv2/opencv.hpp>
-
 class Button
 {
 private:

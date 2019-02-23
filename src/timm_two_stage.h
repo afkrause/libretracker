@@ -1,10 +1,12 @@
 #pragma once
 
-#include "timm_opencl.h"
+// here you can choose to include the version of timm.h with opencl support
+//#include "timm_opencl.h"
+#include "timm.h"
 
 #include "helpers.h"
 
-
+#include <opencv2/highgui/highgui.hpp>
 
 class Timm_two_stage
 {
@@ -29,19 +31,29 @@ public:
 		stage1.setup(simd_width);
 		stage2.setup(simd_width);
 
+		#ifdef __TIMM_OPENCL__
 		// only try to compile the opencl kernel if we actually use OpenCL.
 		if (simd_width == USE_OPENCL)
 		{
 			gradient_kernel.setup();
 		}
+		#endif
 	}
 
-	
+	#ifdef __TIMM_OPENCL__
 	Opencl_kernel gradient_kernel;
+
 	Timm_opencl stage1;
 	Timm_opencl stage2;
+	#else
+	Timm stage1;
+	Timm stage2;
+	#endif
 
-	Timm_two_stage() : stage1(gradient_kernel), stage2(gradient_kernel)
+	Timm_two_stage() 
+	#ifdef __TIMM_OPENCL__
+	: stage1(gradient_kernel), stage2(gradient_kernel)
+	#endif
 	{
 		stage1.debug_window_name = "Stage 1 (coarse)";
 		stage2.debug_window_name = "Stage 2 (fine)";
@@ -129,7 +141,7 @@ public:
 			draw_cross(frame_color, *ground_truth_pos, 7, cv::Scalar(255, 0, 255));
 		}
 
-		imshow("Timm's algorithm: two-stage gradient based dark pupil tracking", frame_color);
+		cv::imshow("Timm's algorithm: two-stage gradient based dark pupil tracking", frame_color);
 	}
 
 

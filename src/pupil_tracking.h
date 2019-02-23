@@ -47,7 +47,7 @@ protected:
 
 	using options_type = typename Timm_two_stage::options;
 
-	options_type Pupil_tracking::decode_genom(Eigen::VectorXf params);
+	options_type decode_genom(Eigen::VectorXf params);
 
 	options_type load_parameters(enum_parameter_settings s);
 
@@ -101,23 +101,23 @@ public:
 
 
 
-	void Pupil_tracking::run_webcam();
+	void run_webcam();
 
 
 
-	void Pupil_tracking::setup_gui();
+	void setup_gui();
 
 
-	void Pupil_tracking::run_lpw_test_all();
+	void run_lpw_test_all();
 
 
 
-	void Pupil_tracking::run_swirski_test();
+	void run_swirski_test();
 
-	void Pupil_tracking::run_excuse_test();
+	void run_excuse_test();
 
 
-	void Pupil_tracking::run_differential_evolution_optim();
+	void run_differential_evolution_optim();
 
 };
 

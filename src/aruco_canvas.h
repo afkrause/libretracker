@@ -6,8 +6,8 @@
 
 #include "deps/dependencies.h"
 
-#include "aruco.h"
-#include "cvdrawingutils.h"
+#include "deps/aruco/aruco.h"
+#include "deps/aruco/cvdrawingutils.h"
 
 
 // distance of a point to a line in 2D
