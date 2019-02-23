@@ -16,7 +16,7 @@ private:
 	cv::Mat frame_color;
 
 public:
-	int simd_width = USE_AVX2;
+	int simd_width = USE_VEC256;
 	struct options
 	{
 		using timm_options = typename Timm::options;

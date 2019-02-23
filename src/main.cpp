@@ -106,9 +106,9 @@ int main( int argc, const char** argv )
 	PRINT_MENU:
 		cout << "\n=== Menu Vectorization Level ===\n";
 		cout << "[0] no vectorization\n";
-		cout << "[1] SSE\n";
-		cout << "[2] AVX2\n";
-		cout << "[3] AVX512\n";
+		cout << "[1] 128bit SSE OR ARM NEON\n";
+		cout << "[2] 256bit AVX2\n";
+		cout << "[3] 512vut AVX512\n";
 		cout << "[4] OpenCL\n";
 		cout << "enter selection:\n";
 		int sel = 0; cin >> sel;
@@ -116,9 +116,9 @@ int main( int argc, const char** argv )
 		switch (sel)
 		{
 		case 0: main_menu(USE_NO_VEC); break;
-		case 1: main_menu(USE_SSE); break;
-		case 2: main_menu(USE_AVX2); break;
-		case 3: main_menu(USE_AVX512); break;
+		case 1: main_menu(USE_VEC128); break;
+		case 2: main_menu(USE_VEC256); break;
+		case 3: main_menu(USE_VEC512); break;
 		case 4: main_menu(USE_OPENCL); break;
 		default: cerr << "wrong input. please try again:" << endl; goto PRINT_MENU;
 		}

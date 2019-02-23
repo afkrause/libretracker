@@ -102,13 +102,17 @@ float Timm::kernel(float cx, float cy, const vector<float>& gradients)
 	{
 	case USE_NO_VEC: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op(cx, cy, &gradients[i]); } break;
 	
-	#ifndef __arm__
-	case USE_SSE: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_sse(cx, cy, &gradients[i]); } break;
-	case USE_AVX2: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_avx2(cx, cy, &gradients[i]); } break;
-	case USE_AVX512: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_avx512(cx, cy, &gradients[i]); } break;
+	#ifdef _win32
+	case USE_VEC128: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_sse(cx, cy, &gradients[i]); } break;
+	case USE_VEC256: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_avx2(cx, cy, &gradients[i]); } break;
+	case USE_VEC512: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_avx512(cx, cy, &gradients[i]); } break;
 	#endif
 	
-	default: throw("wrong vectorization width in Timm::kernel"); break;
+	#ifdef __arm__
+	case USE_VEC128: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_arm128(cx, cy, &gradients[i]); } break;
+	#endif
+
+	default: throw("wrong or unsupported vectorization width in Timm::kernel"); break;
 	}
 	return c_out;
 }

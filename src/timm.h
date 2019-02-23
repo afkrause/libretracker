@@ -32,9 +32,9 @@ extern int debug_window_pos_x;
 enum enum_simd_variant
 {
 	USE_NO_VEC=32,
-	USE_SSE=128,
-	USE_AVX2=256,
-	USE_AVX512=512,
+	USE_VEC128=128,
+	USE_VEC256=256,
+	USE_VEC512=512,
 	USE_OPENCL=4096
 };
 
@@ -46,7 +46,7 @@ class Timm
 {
 protected:
 
-	int simd_width = USE_AVX2;
+	int simd_width = USE_VEC256;
 	// optimised for SIMD: 
 	// this vector stores sequential chunks of floats for x,y,gx,gy
 	std::vector<float> gradients;
@@ -313,6 +313,56 @@ protected:
 		return _mm512_reduce_add_ps(tmp1);
 	}
 
+	#endif
+
+	#ifdef __arm__
+
+	inline float kernel_op_arm128(float cx, float cy, const float* sd)
+	{
+		// is it faster with "static" ?
+		static float32x4_t zero = vdupq_n_f32(0.0f); 
+
+		// set cx value into vector (vdupq_n_f32 == Load all lanes of vector to the same literal value)
+		//float32x4_t cx_4 = vdupq_n_f32(cx);
+		//float32x4_t cy_4 = vdupq_n_f32(cy);
+
+		// loading memory into vector registers
+		float32x4_t dx_in = vld1q_f32(sd);
+		float32x4_t dy_in = vld1q_f32(sd +  4);
+		float32x4_t gx_in = vld1q_f32(sd +  8);
+		float32x4_t gy_in = vld1q_f32(sd + 12);
+
+		// calc the difference vector
+		//dx_in = vsubq_f32(dx_in, cx_4);
+		//dy_in = vsubq_f32(dy_in, cy_4);
+		dx_in = vmulq_n_f32(dx_in, cx);
+		dy_in = vmulq_n_f32(dy_in, cy);
+
+		// calc the dot product	
+		float32x4_t tmp1 = vmulq_f32(dx_in, dx_in);
+		float32x4_t tmp2 = vmulq_f32(dy_in, dy_in);
+		tmp1 = vaddq_f32(tmp1, tmp2);
+
+		// now cals the reciprocal square root
+		tmp1 = vrsqrteq_f32(tmp1);
+
+		// now normalize by multiplying
+		dx_in = vmulq_f32(dx_in, tmp1);
+		dy_in = vmulq_f32(dy_in, tmp1);
+
+		// now calc the dot product with the gradient
+		tmp1 = vmulq_f32(dx_in, gx_in);
+		tmp2 = vmulq_f32(dy_in, gy_in);
+		tmp1 = vaddq_f32(tmp1, tmp2);
+
+		// now calc the maximum // does this really help ???
+		tmp1 = vmaxq_f32(tmp1, zero);
+
+		// multiplication 
+		tmp1 = vmulq_f32(tmp1, tmp1);
+
+		return vaddvq_f32(tmp1);
+	}
 	#endif
 	
 	inline float kernel_op(float cx, float cy, const float* sd)	
