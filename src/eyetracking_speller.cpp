@@ -350,7 +350,8 @@ void Eyetracking_speller::update()
 
 	if (ar_canvas.ok == 4)
 	{
-		if (VK_SPACE == key_pressed)
+		//if (VK_SPACE == key_pressed)
+		if( int(' ') == key_pressed )
 		{
 			if (STATE_CALIBRATION == state)
 			{

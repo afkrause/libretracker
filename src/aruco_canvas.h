@@ -19,7 +19,7 @@ inline float dist_point_line(cv::Point2f p, cv::Point2f pl1, cv::Point2f pl2)
 	auto v = Point2f(pl2.y - pl1.y, -(pl2.x - pl1.x));
 	auto r = pl1 - p;
 
-	const float eps = 0.000001;
+	const float eps = 0.000001f;
 
 	// if ray to short, stop here.
 	float len = sqrt(v.dot(v));
@@ -108,6 +108,17 @@ inline cv::Point2f perspective_transform(Eigen::Matrix<float, 3, 3> H, const cv:
 class Aruco_canvas
 {
 public:
+	// active area in screen coordinates
+	std::array<cv::Point2f, 4> screen_plane;
+
+	// stores the points of the detected rectangle / image plane
+	std::array<cv::Point2f, 4> image_plane;
+
+	// stores the projected point given gaze / mouse coordinates
+	cv::Point2f p_projected;
+
+	// ok == 4 if all four markers are detected.
+	int ok = 0; 
 
 	aruco::CameraParameters CamParam;
 	aruco::MarkerDetector MDetector;
@@ -120,10 +131,13 @@ public:
 	float MarkerSize = -1; // std::stof(cml("-s", "-1"));
 
 
+
 	void setup()
 	{
+
 		using namespace cv;
 		using namespace aruco;
+		using namespace std;
 
 		// ********************************************************
 		// set up aruco marker detection lib
@@ -133,15 +147,17 @@ public:
 
 
 		//Create the detector
-		MDetector.setThresholdParams(7, 7);
-		MDetector.setThresholdParamRange(2, 0);
+		//MDetector.setThresholdParams(7, 7);
+		//MDetector.setThresholdParamRange(2, 0);
 
 		//Set the dictionary you want to work with, if you included option -d in command line
 		//see dictionary.h for all types
 		//MDetector.setDictionary(cml("-d"), 0.f);
+		
 
 		// load 4 markers
-		std::array<string, 4> marker_file_names = { "marker_1.jpg", "marker_5.jpg", "marker_10.jpg","marker_25.jpg" };
+		array<string, 4> marker_file_names{ "marker_1.jpg", "marker_5.jpg", "marker_10.jpg","marker_25.jpg" };
+
 		for (int i = 0; i < marker_file_names.size(); i++)
 		{
 			Mat tmp = imread("assets/" + marker_file_names[i]);
@@ -149,7 +165,6 @@ public:
 		}
 	}
 
-	array<cv::Point2f, 4> screen_plane; // active area in screen coordinates
 
 	void draw(cv::Mat& img, const int x, const int y, const int w, const int h)
 	{
@@ -186,15 +201,11 @@ public:
 
 	}
 
-	// stores the points of the detected rectangle / image plane
-	array<cv::Point2f, 4> image_plane;
-	int ok = 0; // ok == 4 if all four markers are detected.
-	cv::Point2f p_projected; // stores the projected point given gaze / mouse coordinates
-	// perform aruco marker tracking (and also visualize markers)
 	void update(cv::Mat& img_cam, cv::Point2f gaze_point)
 	{
 		using namespace cv;
 		using namespace aruco;
+		using namespace std;
 
 		Point2f p1, p2, p3, p4;
 		ok = 0;

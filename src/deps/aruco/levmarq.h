@@ -1,3 +1,31 @@
+/**
+Copyright 2017 Rafael Muñoz Salinas. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are
+permitted provided that the following conditions are met:
+
+   1. Redistributions of source code must retain the above copyright notice, this list of
+      conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright notice, this list
+      of conditions and the following disclaimer in the documentation and/or other materials
+      provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY Rafael Muñoz Salinas ''AS IS'' AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL Rafael Muñoz Salinas OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The views and conclusions contained in the software and documentation are those of the
+authors and should not be interpreted as representing official policies, either expressed
+or implied, of Rafael Muñoz Salinas.
+*/
+
 #ifndef ARUCO_MM__LevMarq_H
 #define ARUCO_MM__LevMarq_H
 #include <Eigen/Core>
@@ -5,7 +33,6 @@
 #include <functional>
 #include <iostream>
 #include <cmath>
-#include "ar_omp.h"
 #include <ctime>
 #include <cstring>
 #include <vector>
@@ -64,7 +91,7 @@ public:
  *          second parameter : J :  output. Data must be returned in double
  * @return final error
  */
-    double solve(  eVector  &z, F_z_x , F_z_J)throw (std::exception);
+    double solve(  eVector  &z, F_z_x , F_z_J);
     /// Step by step solve mode
 
 
@@ -72,27 +99,27 @@ public:
      * @brief init initializes the search engine
      * @param z
      */
-    void init(eVector  &z, F_z_x )throw (std::exception);
+    void init(eVector  &z, F_z_x );
     /**
      * @brief step gives a step of the search
      * @param f_z_x error evaluation function
      * @param f_z_J Jacobian function
      * @return error of current solution
      */
-    bool step(  F_z_x f_z_x , F_z_J  f_z_J)throw (std::exception);
-    bool step(  F_z_x f_z_x)throw (std::exception);
+    bool step(  F_z_x f_z_x , F_z_J  f_z_J);
+    bool step(  F_z_x f_z_x);
     /**
      * @brief getCurrentSolution returns the current solution
      * @param z output
      * @return error of the solution
      */
-    double getCurrentSolution(eVector  &z)throw (std::exception);
+    double getCurrentSolution(eVector  &z);
     /**
      * @brief getBestSolution sets in z the best solution up to this moment
      * @param z output
      * @return  error of the solution
      */
-    double getBestSolution(eVector  &z)throw (std::exception);
+    double getBestSolution(eVector  &z);
 
     /**  Automatic jacobian estimation
  * @brief solve  non linear minimization problem ||F(z)||, where F(z)=f(z) f(z)^t
@@ -102,7 +129,7 @@ public:
  *          second parameter : x :  output. Data must be returned in double
  * @return final error
  */
-    double solve(  eVector  &z, F_z_x )throw (std::exception);
+    double solve(  eVector  &z, F_z_x );
     //to enable verbose mode
     bool & verbose(){return _verbose;}
 
@@ -170,7 +197,6 @@ void LevMarq<T>::setParams(int maxIters,double minError,double min_step_error_di
 template<typename T>
 void  LevMarq<T>:: calcDerivates(const eVector & z ,  Eigen::Matrix<T, Eigen::Dynamic, Eigen::Dynamic> &J,  F_z_x f_z_x)
 {
-#pragma omp parallel for
     for (int i=0;i<z.rows();i++) {
         eVector zp(z),zm(z);
         zp(i)+=_der_epsilon;
@@ -184,16 +210,16 @@ void  LevMarq<T>:: calcDerivates(const eVector & z ,  Eigen::Matrix<T, Eigen::Dy
 }
 
 template<typename T>
-double  LevMarq<T>:: solve(  eVector  &z, F_z_x f_z_x)throw (std::exception){
+double  LevMarq<T>:: solve(  eVector  &z, F_z_x f_z_x){
     return solve(z,f_z_x,std::bind(&LevMarq::calcDerivates,this,std::placeholders::_1,std::placeholders::_2,f_z_x));
 }
 template<typename T>
-bool  LevMarq<T>:: step(  F_z_x f_z_x)throw (std::exception){
+bool  LevMarq<T>:: step(  F_z_x f_z_x){
     return step(f_z_x,std::bind(&LevMarq::calcDerivates,this,std::placeholders::_1,std::placeholders::_2,f_z_x));
 }
 
 template<typename T>
-void LevMarq<T>::init(eVector  &z, F_z_x f_z_x )throw (std::exception){
+void LevMarq<T>::init(eVector  &z, F_z_x f_z_x ){
     curr_z=z;
     I.resize(z.rows(),z.rows());
     I.setIdentity();
@@ -210,7 +236,7 @@ void LevMarq<T>::init(eVector  &z, F_z_x f_z_x )throw (std::exception){
 
 
 template<typename T>
-bool LevMarq<T>::step( F_z_x f_z_x, F_z_J f_J)throw (std::exception){
+bool LevMarq<T>::step( F_z_x f_z_x, F_z_J f_J){
 
     f_J(curr_z,J);
     Eigen::Matrix<T,Eigen::Dynamic,Eigen::Dynamic> Jt=J.transpose();
@@ -261,13 +287,13 @@ bool LevMarq<T>::step( F_z_x f_z_x, F_z_J f_J)throw (std::exception){
 
 
 template<typename T>
-double  LevMarq<T>:: getCurrentSolution(eVector  &z)throw (std::exception){
+double  LevMarq<T>:: getCurrentSolution(eVector  &z){
 
     z=curr_z;
     return currErr;
 }
 template<typename T>
-double  LevMarq<T>::solve( eVector  &z, F_z_x  f_z_x, F_z_J f_J)throw (std::exception){
+double  LevMarq<T>::solve( eVector  &z, F_z_x  f_z_x, F_z_J f_J){
 
     init(z,f_z_x);
 

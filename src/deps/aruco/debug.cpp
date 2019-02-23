@@ -1,6 +1,5 @@
 /**
-
-Copyright 2011 Rafael Muñoz Salinas. All rights reserved.
+Copyright 2017 Rafael Muñoz Salinas. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are
 permitted provided that the following conditions are met:
@@ -27,10 +26,42 @@ authors and should not be interpreted as representing official policies, either 
 or implied, of Rafael Muñoz Salinas.
 */
 
-#ifdef USE_OMP
-#include <omp.h>
-#else
-int omp_get_max_threads();
-int omp_get_thread_num();
-//int omp_set_num_threads(int);
-#endif
+#include "debug.h"
+#include <fstream>
+ namespace aruco{
+int Debug::level=2;
+std::map<std::string,std::string> Debug::strings;
+void Debug::addString(std::string &label, std::string &data){
+    strings.insert(make_pair(label,data));
+}
+
+std::string Debug::getString(std::string &str){
+    auto it=strings.find(str);
+    if (it==strings.end())return "";
+    else return it->second;
+}
+
+
+bool Debug::isInited=false;
+
+void Debug::setLevel ( int l ) {
+    level=l;
+    isInited=false;
+    init();
+}
+int Debug::getLevel() {
+    init();
+    return level;
+}
+void Debug::init() {
+    if ( !isInited ) {
+        isInited=true;
+        if ( level>=1 ) {
+        }
+    }
+
+}
+
+
+}
+

@@ -5,11 +5,11 @@
 
 // libraries + paths (specific for my setup, adjust to your own paths)
 #ifdef _DEBUG
-#pragma comment(lib, "opencv34/build/x64/vc15/lib/opencv_world343d.lib")
+#pragma comment(lib, "opencv40/build/x64/vc15/lib/opencv_world401d.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltkd.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltk_gld.lib")
 #else
-#pragma comment(lib, "opencv34/build/x64/vc15/lib/opencv_world343.lib")
+#pragma comment(lib, "opencv40/build/x64/vc15/lib/opencv_world401.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif

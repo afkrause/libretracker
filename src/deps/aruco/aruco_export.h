@@ -1,5 +1,5 @@
-/*****************************
-Copyright 2011 Rafael Muñoz Salinas. All rights reserved.
+/**
+Copyright 2017 Rafael Muñoz Salinas. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are
 permitted provided that the following conditions are met:
@@ -24,7 +24,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The views and conclusions contained in the software and documentation are those of the
 authors and should not be interpreted as representing official policies, either expressed
 or implied, of Rafael Muñoz Salinas.
-********************************/
+*/
 
 
 
@@ -37,9 +37,9 @@ or implied, of Rafael Muñoz Salinas.
 
 
 #if (defined WIN32 || defined _WIN32 || defined WINCE) && defined ARUCO_DSO_EXPORTS
-#define ARUCO_EXPORTS __declspec(dllexport)
+#define ARUCO_EXPORT __declspec(dllexport)
 #else
-#define ARUCO_EXPORTS
+#define ARUCO_EXPORT
 #endif
 
 

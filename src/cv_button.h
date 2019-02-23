@@ -44,7 +44,7 @@ public:
 		was_inside = fade_speed * was_inside;
 		was_triggered = fade_speed * was_triggered;
 
-		rectangle(img, Rect(x, y, w, h), c, CV_FILLED);
+		rectangle(img, Rect(x, y, w, h), c, FILLED);
 		const int fw = 15; // font width in pixel of FONT_HERSHEY_SIMPLEX
 		const int fh = 15; // font width in pixel of FONT_HERSHEY_SIMPLEX
 		int s = label.size();

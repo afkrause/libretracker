@@ -106,7 +106,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR)\opencv34\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR)\opencv40\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src</AdditionalIncludeDirectories>
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
@@ -149,7 +149,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR)\opencv34\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR)\opencv40\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <FloatingPointModel>Fast</FloatingPointModel>
