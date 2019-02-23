@@ -55,7 +55,7 @@ inline Eigen::Matrix<float, 3, 3> calc_perspective_matrix(const std::array<cv::P
 	Matrix<float, 2, 8> m;
 	Matrix<float, 8, 1> v;
 
-	for (int i = 0; i < ip.size(); i++)
+	for (size_t i = 0; i < ip.size(); i++)
 	{
 		float x = ip[i].x, y = ip[i].y,
 			  X = wp[i].x, Y = wp[i].y;
@@ -158,7 +158,7 @@ public:
 		// load 4 markers
 		array<string, 4> marker_file_names{ "marker_1.jpg", "marker_5.jpg", "marker_10.jpg","marker_25.jpg" };
 
-		for (int i = 0; i < marker_file_names.size(); i++)
+		for (size_t i = 0; i < marker_file_names.size(); i++)
 		{
 			Mat tmp = imread("assets/" + marker_file_names[i]);
 			resize(tmp, img_markers[i], Size(marker_size, marker_size));

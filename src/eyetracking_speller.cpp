@@ -174,7 +174,7 @@ void Eyetracking_speller::draw_validation()
 		putText(img_screen, "Validation finished !", Point2i(mb + 20, sc.y - 50), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
 		// todo: print validation pixel error
 		float error = 0.0f;
-		for (int i = 0; i < validation_targets.size(); i++)
+		for (size_t i = 0; i < validation_targets.size(); i++)
 		{
 			p1 = validation_targets[i];
 			p2 = Point2f(validation_points(0, i), validation_points(1, i));
@@ -253,7 +253,6 @@ void Eyetracking_speller::draw()
 	img_screen_background.copyTo(img_screen);
 
 
-	int mb = ar_canvas.marker_size + ar_canvas.marker_border;
 	switch (state)
 	{
 	case STATE_INSTRUCTIONS: break;
@@ -295,8 +294,6 @@ void Eyetracking_speller::update()
 		w_old = w; h_old = h;
 	}
 
-	int value = 50;
-	int value2 = 0;
 	//namedWindow("eye_cam", WINDOW_AUTOSIZE);
 	//namedWindow("screen", WINDOW_AUTOSIZE);
 
@@ -406,7 +403,7 @@ void Eyetracking_speller::run()
 		update();
 		draw();
 
-		if (VK_ESCAPE == key_pressed)
+		if (27 == key_pressed) // VK_ESCAPE
 		{
 			break;
 		}

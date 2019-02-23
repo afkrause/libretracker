@@ -66,10 +66,7 @@ void Opencl_kernel::prepare_data_tmp(compute::image2d& img_out_device, const cv:
 	auto cols = gradient_x.cols;
 	auto gx_p = gradient_x.ptr<float>(0);
 	auto gy_p = gradient_y.ptr<float>(0);
-	float c_out = 0.0f;
 
-	// 0.02 ms
-	int k = 0; // for sse
 	for (size_t y = 0; y < gradient_x.rows; y++)
 	{
 		for (size_t x = 0; x < gradient_x.cols; x++)
@@ -112,7 +109,7 @@ void Opencl_kernel::menu_select_device()
 		}
 		cout << "enter selection:\n";
 		int sel = 0; cin >> sel;
-		if (sel >= 0 && sel < devices_list.size())
+		if (sel >= 0 && sel < int(devices_list.size()))
 		{
 			gpu = devices_list[sel];
 			break;

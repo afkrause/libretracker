@@ -41,7 +41,9 @@
 //#include "eyetracking_speller.h"
 
 // detects capabilites of the CPU and OS. Helps in selecting the suitable vectorization option.
+#ifdef _win32
 #include "deps/cpu_features/cpu_x86.h"
+#endif
 
 // hack because openCV has no flexible window handling
 int debug_window_pos_x = 10;
@@ -94,10 +96,12 @@ int main( int argc, const char** argv )
 		return 0;
 		//*/
 
+		#ifdef _win32
 		// first, detect CPU and OS features
 		cout << "CPU Vendor String: " << cpu_feature_detector::cpu_x86::get_vendor_string() << endl;
 		cout << endl;
 		cpu_feature_detector::cpu_x86::print_host();
+		#endif
 
 	PRINT_MENU:
 		cout << "\n=== Menu Vectorization Level ===\n";

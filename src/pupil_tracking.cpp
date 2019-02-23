@@ -246,7 +246,7 @@ void Pupil_tracking::run_lpw_test_all()
 			}
 			delete capture;
 			vector<int> rp_img(images.size());
-			for (int i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
+			for (size_t i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
 			auto error = eval_fitness(param_set, rp_img, images.size(), images, ground_truth, true, subsampling_width);
 			f2 << error.transpose() << " "; //f2.close(); //f2 << "\n"; f2.close();
 			cout << "avi processed: " << fname << " mean error: " << error.mean() << endl;
@@ -323,7 +323,7 @@ void Pupil_tracking::run_swirski_test()
 		f.close();
 
 		vector<int> rp_img(images.size());
-		for (int i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
+		for (size_t i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
 		auto error = eval_fitness(param_set, rp_img, images.size(), images, ground_truth_pos, true, subsampling_width);
 		f2 << error.transpose() << " "; //f2.close(); //f2 << "\n"; f2.close();
 		cout << "subset processed: " << fname << " mean error: " << error.mean() << endl;
@@ -383,7 +383,6 @@ void Pupil_tracking::run_excuse_test()
 		string tmp_header; getline(f, tmp_header); // skip header
 		while (!f.eof())
 		{
-			char ctmp = 0;
 			int tmp = 0, frame_nr = 0;
 			cv::Point2f p;
 
@@ -406,7 +405,7 @@ void Pupil_tracking::run_excuse_test()
 		f.close();
 
 		vector<int> rp_img(images.size());
-		for (int i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
+		for (size_t i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
 		auto error = eval_fitness(param_set, rp_img, images.size(), images, ground_truth_pos, false, subsampling_width);
 		f2 << error.transpose() << " "; //f2.close(); //f2 << "\n"; f2.close();
 		cout << "subset processed: " << fname << " mean error: " << error.mean() << endl;
@@ -429,7 +428,7 @@ void Pupil_tracking::run_differential_evolution_optim()
 
 
 	/*
-	// filtere die einfachen bilder heraus, welche schon genau genug getrackt werden und konzentriere die suche des evol. alg auf die schwierigen fälle !
+	// filtere die einfachen bilder heraus, welche schon genau genug getrackt werden und konzentriere die suche des evol. alg auf die schwierigen fÃ¤lle !
 	// ergebnis: das ist deutlich schlechter als random subselection !
 	vector<int> subidx;
 	{
@@ -452,7 +451,6 @@ void Pupil_tracking::run_differential_evolution_optim()
 	//images_all.reserve(subidx.size());
 	//ground_truth.reserve(subidx.size());
 
-	int k2 = 0;
 	int k3 = 0;
 	for (auto fname : fnames)
 		//for (int i = 0; i < 2; i++)
@@ -516,14 +514,12 @@ void Pupil_tracking::run_differential_evolution_optim()
 	for (int i = 0; i < population_size; i++) { rp[i] = i; }
 
 	vector<int> rp_img(images_all.size());
-	for (int i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
+	for (size_t i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
 
 
 	VectorXf fitness = 1000.0f * ones(population_size);
 	VectorXf best_solution;
-	int best_solution_idx = 0;
 
-	int stall_count = 0;
 	float im_dyn = im;
 	float best_fitness = sqrt(640 * 640 + 480 * 480); // worst case fitness is equal to the diagonal span of the image // 1000.0f;
 
@@ -600,7 +596,6 @@ void Pupil_tracking::run_differential_evolution_optim()
 			{
 				best_solution = y;
 				best_fitness = f_y_1;
-				best_solution_idx = rp[0];
 				eval_fitness(y, rp_img, 1, images_all, ground_truth, true); // visualize with a random image
 			}
 		}
@@ -779,9 +774,6 @@ array<double, 10> Pupil_tracking::set_params(options_type opt)
 Eigen::VectorXf Pupil_tracking::eval_fitness(Eigen::VectorXf params, const vector<int>& idx, const int n, const vector<cv::Mat>& images_all, const vector<cv::Point2f>& ground_truth, bool visualize, const int subsampling_width)
 {
 	using namespace EL;
-
-	bool do_init_windows = true;
-	array<bool, 4> debug_toggles{ false,false, false,false };
 
 	cv::Mat frame;
 	cv::Mat frame_gray;
