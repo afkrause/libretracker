@@ -31,11 +31,11 @@ extern int debug_window_pos_x;
 
 enum enum_simd_variant
 {
-	USE_NO_VEC=32,
-	USE_VEC128=128,
-	USE_VEC256=256,
-	USE_VEC512=512,
-	USE_OPENCL=4096
+	USE_NO_VEC =   32,
+	USE_VEC128 =  128,
+	USE_VEC256 =  256,
+	USE_VEC512 =  512,
+	USE_OPENCL = 4096
 };
 
 
@@ -136,7 +136,7 @@ protected:
 
 	float kernel_orig(float cx, float cy, const cv::Mat& gradientX, const cv::Mat& gradientY);
 
-	#ifndef __arm__
+	#ifdef _win32
 	inline float kernel_op_sse(float cx, float cy, const float* sd)
 	{
 
@@ -316,11 +316,10 @@ protected:
 	#endif
 
 	#ifdef __arm__
-
 	inline float kernel_op_arm128(float cx, float cy, const float* sd)
 	{
 		// is it faster with "static" ?
-		static float32x4_t zero = vdupq_n_f32(0.0f); 
+		static const float32x4_t zero = vdupq_n_f32(0.0f); 
 
 		// set cx value into vector (vdupq_n_f32 == Load all lanes of vector to the same literal value)
 		//float32x4_t cx_4 = vdupq_n_f32(cx);
@@ -357,11 +356,17 @@ protected:
 
 		// now calc the maximum // does this really help ???
 		tmp1 = vmaxq_f32(tmp1, zero);
-
+		//tmp1 = vmaxq_n_f32(tmp1, 0.0f); // this instruction sadly does not exist
+		
 		// multiplication 
 		tmp1 = vmulq_f32(tmp1, tmp1);
 
-		return vaddvq_f32(tmp1);
+		//return vaddvq_f32(tmp1);
+	
+		// https://pmeerw.net/blog/programming/neon1.html
+		// accumulate four quadword floats
+		static const float32x2_t f0 = vdup_n_f32(0.0f);
+		return vget_lane_f32(vpadd_f32(f0, vget_high_f32(tmp1) + vget_low_f32(tmp1)), 1);
 	}
 	#endif
 	

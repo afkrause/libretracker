@@ -52,7 +52,7 @@ protected:
 	options_type load_parameters(enum_parameter_settings s);
 
 	// params helper array for fltk gui
-	array<double, 10> set_params(options_type opt);
+	array<double, 11> set_params(options_type opt);
 
 
 	// generic opencv camera selection dialog
@@ -60,7 +60,7 @@ protected:
 
 
 	options_type opt;
-	array<double, 10> params;
+	array<double, 11> params;
 	array<bool, 4> debug_toggles{ false,false, false,false };
 	bool is_running = true; // set to false to exit while loop
 	double n_threads = 1;
@@ -81,39 +81,20 @@ public:
 		// TODO !
 	}
 
-	// capture from the usb webcam 
-	//void run();
 
-	// evaluate the best parameter set over ALL images of the LPW dataset
-	//void run_lpw_test_all();
-
-	// evaluate the best parameter set over ALL images of the SWIRSKI dataset
-	
 	template<size_t n> string add_leading_zeros(string s)
 	{ auto to_add = clip<size_t>(n - s.length(), 0, n); for (size_t a = 0; a < to_add; a++) { s = "0" + s; }; return s; }
-
-	//void run_swirski_test();
-
-	// evaluate the best parameter set over ALL images of the EXCUSE and ELSE dataset
-	//void run_excuse_test();
-
-	//void run_differential_evolution_optim();
-
-
-
-	void run_webcam();
-
 
 
 	void setup_gui();
 
+	// capture from the usb webcam 
+	void run_webcam();
 
+	// evaluate the best parameter set over ALL images of the EXCUSE and ELSE dataset
+	// run tests on different datasets
 	void run_lpw_test_all();
-
-
-
 	void run_swirski_test();
-
 	void run_excuse_test();
 
 

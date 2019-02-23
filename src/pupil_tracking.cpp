@@ -46,8 +46,11 @@ void Pupil_tracking::run_webcam()
 
 		opt.stage1.blur = to_closest(params[7], blur_kernel_sizes);
 		opt.stage2.blur = to_closest(params[8], blur_kernel_sizes);
-
+		
 		opt.blur = to_closest(params[9], blur_kernel_sizes);
+
+		opt.stage1.down_scaling_width = params[10];
+		opt.stage2.down_scaling_width = params[10];
 
 		n_threads = round(n_threads);
 		timm.stage1.n_threads = n_threads;
@@ -110,7 +113,7 @@ void Pupil_tracking::run_webcam()
 
 void Pupil_tracking::setup_gui()
 {
-	sg.setup(1000, 100, 640, 500);
+	sg.setup(1000, 100, 640, 540);
 	sg.add_separator_box("algorithm parameters");
 	sg.add_slider("window size", params[0], 10, 300, 1);
 	sg.add_slider("gradient coarse", params[1], 0, 255, 1);
@@ -122,6 +125,7 @@ void Pupil_tracking::setup_gui()
 	sg.add_slider("blur coarse", params[7], 0, 30, 1);
 	sg.add_slider("blur local", params[8], 0, 30, 1);
 	sg.add_slider("initial blur", params[9], 0, 30, 1);
+	sg.add_slider("subsampling width", params[10], 10, 85, 5);
 
 	sg.add_separator_box("debug output switches");
 	sg.add_checkbox("show gradients", debug_toggles[0], 2, 0);
@@ -334,7 +338,6 @@ void Pupil_tracking::run_swirski_test()
 
 
 void Pupil_tracking::run_excuse_test()
-
 {
 	using namespace EL;
 	using namespace std;
@@ -754,9 +757,9 @@ Pupil_tracking::options_type Pupil_tracking::load_parameters(enum_parameter_sett
 }
 
 
-array<double, 10> Pupil_tracking::set_params(options_type opt)
+array<double, 11> Pupil_tracking::set_params(options_type opt)
 {
-	array<double, 10> params;
+	array<double, 11> params;
 	params[0] = opt.window_width;
 	params[1] = opt.stage1.gradient_threshold;
 	params[2] = opt.stage2.gradient_threshold;
@@ -767,6 +770,7 @@ array<double, 10> Pupil_tracking::set_params(options_type opt)
 	params[7] = opt.stage1.blur;
 	params[8] = opt.stage2.blur;
 	params[9] = opt.blur;
+	params[10] = opt.stage1.down_scaling_width; // assuming for now that this value is identical for both stages
 	return params;
 }
 
@@ -843,6 +847,10 @@ Pupil_tracking::options_type Pupil_tracking::decode_genom(Eigen::VectorXf params
 	// this must be odd numbers
 	opt.stage1.blur = 2 * clip<int>(10 * params[8], 0, 10) + 1;
 	opt.stage2.blur = 2 * clip<int>(10 * params[9], 0, 10) + 1;
+
+	// for now, this value is hardcoded 
+	opt.stage1.down_scaling_width = 85;
+	opt.stage2.down_scaling_width = 85;
 
 	return  opt;
 }

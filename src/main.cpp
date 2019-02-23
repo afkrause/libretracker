@@ -108,7 +108,7 @@ int main( int argc, const char** argv )
 		cout << "[0] no vectorization\n";
 		cout << "[1] 128bit SSE OR ARM NEON\n";
 		cout << "[2] 256bit AVX2\n";
-		cout << "[3] 512vut AVX512\n";
+		cout << "[3] 512bit AVX512\n";
 		cout << "[4] OpenCL\n";
 		cout << "enter selection:\n";
 		int sel = 0; cin >> sel;
