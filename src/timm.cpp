@@ -27,8 +27,8 @@ cv::Point Timm::pupil_center(const cv::Mat& eye_img)
 	// compiler switch must be enabled  /Qpar /Qpar-report:1 
 	// #pragma loop(hint_parallel(2))
 
-	const int cols = out_sum.cols;
-	auto pixel_loop = [&](int y1, int y2)
+	const size_t cols = out_sum.cols;
+	auto pixel_loop = [&](const int y1, const int y2)
 	{
 		//for (size_t y = 0; y < out_sum.rows; y++)
 		for (size_t y = y1; y <= y2; y++)
@@ -41,16 +41,17 @@ cv::Point Timm::pupil_center(const cv::Mat& eye_img)
 			}
 		}
 	};
+
 	if (n_threads > 1)
 	{
 		// create threads
 		threads.clear();
-		int block_size = round(out_sum.rows / n_threads);
+		int block_size = ceil(float(out_sum.rows) / float(n_threads));
 		for (int i = 0; i < n_threads; i++)
 		{
 			int y1 = i * block_size;
-			int y2 = min((i + 1) * block_size - 1, out_sum.rows);
-			threads.emplace_back(thread([&]() {pixel_loop(y1, y2); }));
+			int y2 = min((i + 1) * block_size - 1, out_sum.rows-1);
+			threads.emplace_back( thread(pixel_loop, y1, y2) );
 		}
 		// wait for completion of all threads
 		for (auto& t : threads) { t.join(); }
