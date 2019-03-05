@@ -63,8 +63,11 @@ void Eyetracking_speller::calibrate()
 }
 
 
-void Eyetracking_speller::setup()
+void Eyetracking_speller::setup(enum_simd_variant simd_width)
 {
+	
+	Pupil_tracking::setup(simd_width);
+
 	using namespace cv;
 	using namespace EL;
 
@@ -121,9 +124,10 @@ void Eyetracking_speller::setup()
 	sg.add_separator_box("settings:");
 	sg.add_slider("canvas width", gui_param_w, 640, 5000, 10);
 	sg.add_slider("canvas height", gui_param_h, 480, 3000, 10);
-	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 3, 0);
-	sg.add_button("settings", [&]() { if (!timm_gui_initialized) { setup_gui(); timm_gui_initialized = true; }; sg.show(); }, 3, 1);
-	sg.add_button("quit", [&]() { is_running = false; }, 3, 2);
+	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 4, 0);
+	sg.add_button("eye cam controls", [&]() { eye_cam_controls.setup(eye_camera, 20, 20, 400, 400, "Eye-Camera Controls"); }, 4, 1);
+	sg.add_button("settings", [&]() { if (!timm_gui_initialized) { setup_gui(); timm_gui_initialized = true; }; sg.show(); }, 4, 2);
+	sg.add_button("quit", [&]() { is_running = false; }, 4, 3);
 
 	/*
 	sg.add_button("quit", [&]() { is_running = false; }, 3, 2);
@@ -389,6 +393,7 @@ void Eyetracking_speller::update()
 
 #ifdef USE_FLTK_GUI
 	sg.update();
+	eye_cam_controls.update();
 #endif
 }
 
@@ -396,7 +401,6 @@ void Eyetracking_speller::update()
 
 void Eyetracking_speller::run()
 {
-	setup();
 	// main loop
 	while (is_running)
 	{

@@ -136,7 +136,7 @@ protected:
 
 	float kernel_orig(float cx, float cy, const cv::Mat& gradientX, const cv::Mat& gradientY);
 
-	#ifdef _win32
+	#ifdef _WIN32
 	inline float kernel_op_sse(float cx, float cy, const float* sd)
 	{
 

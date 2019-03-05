@@ -14,3 +14,5 @@
 #include "../../../../../s/fast_sqrt.h"
 
 #include "../../../../../s/filters.h"
+
+#include "../../../../../opencv/opencv_camera_control/cv_camera_control.h"

@@ -38,10 +38,10 @@
 #include "pupil_tracking.h"
 
 // include this header to enable eyetracking speller demo. this adds a dependency on the aruco marker tracking library
-//#include "eyetracking_speller.h"
+#include "eyetracking_speller.h"
 
 // detects capabilites of the CPU and OS. Helps in selecting the suitable vectorization option.
-#ifdef _win32
+#ifdef _WIN32
 #include "deps/cpu_features/cpu_x86.h"
 #endif
 
@@ -96,7 +96,7 @@ int main( int argc, const char** argv )
 		return 0;
 		//*/
 
-		#ifdef _win32
+		#ifdef _WIN32
 		// first, detect CPU and OS features
 		cout << "CPU Vendor String: " << cpu_feature_detector::cpu_x86::get_vendor_string() << endl;
 		cout << endl;

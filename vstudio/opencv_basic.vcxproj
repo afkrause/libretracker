@@ -147,7 +147,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);USE_FLTK_GUI</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>$(MY_LIB_DIR)\opencv40\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>
@@ -169,8 +169,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\opencv\opencv_camera_control\cv_camera_control.cpp" />
     <ClCompile Include="..\src\aruco_include.cpp" />
     <ClCompile Include="..\src\deps\cpu_features\cpu_x86.cpp" />
+    <ClCompile Include="..\src\deps\DeviceEnumerator.cpp" />
     <ClCompile Include="..\src\eyetracking_speller.cpp" />
     <ClCompile Include="..\src\opencl_kernel.cpp" />
     <ClCompile Include="..\src\pupil_tracking.cpp" />

@@ -696,7 +696,7 @@ void Pupil_tracking::run_differential_evolution_optim()
 }
 
 
-shared_ptr<cv::VideoCapture> Pupil_tracking::select_camera(string message)
+shared_ptr<Camera> Pupil_tracking::select_camera(string message)
 {
 	cout << "\n=== Menu Camera Selection ===\n";
 #ifdef _WIN32
@@ -713,13 +713,13 @@ shared_ptr<cv::VideoCapture> Pupil_tracking::select_camera(string message)
 		}
 	}
 #endif
-	shared_ptr<cv::VideoCapture> capture = nullptr;
+	shared_ptr<Camera> capture = nullptr;
 	while (true)
 	{
 		cout << message;
 		int cam_nr = 0;
 		cin >> cam_nr;
-		capture = make_shared< cv::VideoCapture >(cv::VideoCapture(cam_nr));
+		capture = make_shared<Camera>(cam_nr);
 		if (capture->isOpened()) { break; }
 		cerr << "\ncould not open and initialize camera nr. " << cam_nr << ". please try again!\n";
 	}

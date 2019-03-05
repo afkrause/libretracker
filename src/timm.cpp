@@ -12,7 +12,7 @@ cv::Point Timm::pupil_center(const cv::Mat& eye_img)
 
 	//*
 	timer2.tick(); 
-	#ifdef _win32
+	#ifdef _WIN32
 	_ReadWriteBarrier();
 	#endif
 	prepare_data();
@@ -62,7 +62,7 @@ cv::Point Timm::pupil_center(const cv::Mat& eye_img)
 	}
 
 	cv::multiply(out_sum, weight_float, out);
-	#ifdef _win32
+	#ifdef _WIN32
 	_ReadWriteBarrier(); // to avoid instruction reordering - important for accurate timings
 	#endif
 	measure_timings[1] = timer2.tock(false);
@@ -103,7 +103,7 @@ float Timm::kernel(float cx, float cy, const vector<float>& gradients)
 	{
 	case USE_NO_VEC: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op(cx, cy, &gradients[i]); } break;
 	
-	#ifdef _win32
+	#ifdef _WIN32
 	case USE_VEC128: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_sse(cx, cy, &gradients[i]); } break;
 	case USE_VEC256: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_avx2(cx, cy, &gradients[i]); } break;
 	case USE_VEC512: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_avx512(cx, cy, &gradients[i]); } break;
@@ -113,7 +113,7 @@ float Timm::kernel(float cx, float cy, const vector<float>& gradients)
 	case USE_VEC128: for (size_t i = 0; i < s; i += 4 * n_floats) { c_out += kernel_op_arm128(cx, cy, &gradients[i]); } break;
 	#endif
 
-	default: throw("wrong or unsupported vectorization width in Timm::kernel"); break;
+	default: throw std::invalid_argument("wrong or unsupported vectorization width in Timm::kernel"); break;
 	}
 	return c_out;
 }
@@ -131,7 +131,7 @@ float Timm::calc_dynamic_threshold(const cv::Mat &mat, float stdDevFactor)
 void Timm::pre_process(const cv::Mat& img)
 {
 	timer1.tick(); 
-	#ifdef _win32
+	#ifdef _WIN32
 	_ReadWriteBarrier();
 	#endif
 	// down sample to speed up
@@ -231,7 +231,7 @@ cv::Point Timm::post_process()
 		cv::minMaxLoc(out, NULL, &max_val, NULL, &max_point, mask);
 	}
 
-	#ifdef _win32
+	#ifdef _WIN32
 	_ReadWriteBarrier(); 
 	#endif
 	measure_timings[0] = timer1.tock(false);

@@ -33,7 +33,9 @@ protected:
 	Aruco_canvas ar_canvas;
 	Speller_canvas speller;
 
-	shared_ptr<cv::VideoCapture> eye_camera, scene_camera;
+	//shared_ptr<cv::VideoCapture> eye_camera, scene_camera;
+	shared_ptr<Camera> eye_camera, scene_camera;
+
 
 	// "mouse" values
 	int mx = 0, my = 0;
@@ -66,6 +68,7 @@ protected:
 	// GUI
 	#ifdef USE_FLTK_GUI
 	Simple_gui sg;
+	Camera_control eye_cam_controls;
 	#endif
 
 	////////////////////////////
@@ -101,7 +104,7 @@ public:
 		cv::destroyAllWindows();
 	}
 
-	void setup();
+	void setup(enum_simd_variant simd_width);
 
 	void draw_validation();
 

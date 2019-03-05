@@ -56,7 +56,7 @@ protected:
 
 
 	// generic opencv camera selection dialog
-	shared_ptr<cv::VideoCapture> select_camera(string message = "select video camera nr. (default=0):");
+	shared_ptr<Camera> select_camera(string message = "select video camera nr. (default=0):");
 
 
 	options_type opt;
