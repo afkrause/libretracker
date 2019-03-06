@@ -11,8 +11,6 @@
 #include "pupil_tracking.h"
 #include "deps/dependencies.h"
 
-//#include "../../webcam_to_screen_mapping_perspective_corrected/aruco_canvas.h"
-//#include "../../webcam_to_screen_mapping_perspective_corrected/speller_canvas.h"
 
 class Eyetracking_speller : public Pupil_tracking
 {
@@ -24,9 +22,11 @@ protected:
 	unsigned int h = 1024;
 	unsigned int w_old = 0, h_old = 0;
 	double gui_param_w = w, gui_param_h = h;
+	double gui_param_marker_size = 100, gui_param_marker_threshold = 30;
+	bool timm_gui_initialized = false;
 
 	cv::Mat img_screen_background;
-	cv::Mat img_screen, frame_scene_cam, frame_eye_cam, frame_eye_gray;
+	cv::Mat img_screen, frame_scene_cam, frame_scene_cam_scaled, frame_eye_cam, frame_eye_gray;
 
 	options_type opt;
 
@@ -44,6 +44,7 @@ protected:
 
 	int calibration_counter = 0;
 	int validation_counter = 0;
+	int tracking_lost_counter = 0;
 	Timer timer{50};
 
 	int key_pressed = -1;
@@ -63,12 +64,13 @@ protected:
 		STATE_CALIBRATION_VISUALIZE,
 		STATE_VALIDATION,
 		STATE_RUNNING
-	} state;
+	} state = STATE_INSTRUCTIONS;
 
 	// GUI
 	#ifdef USE_FLTK_GUI
 	Simple_gui sg;
 	Camera_control eye_cam_controls;
+	Camera_control scene_cam_controls;
 	#endif
 
 	////////////////////////////
@@ -80,6 +82,10 @@ protected:
 	double filter_predictive = 0.075;
 	Filter_double_exponential<double> gaze_filter_x;
 	Filter_double_exponential<double> gaze_filter_y;
+
+	// draw a scaled copy of the scene cam image to the main screen image.
+	// if x or y = -1 then the image is centered along the x or y axis
+	void draw_scene_cam_to_screen(float scaling, int x = -1, int y = -1);
 
 public:
 	
@@ -104,23 +110,21 @@ public:
 		cv::destroyAllWindows();
 	}
 
+	void run(enum_simd_variant simd_width);
 	void setup(enum_simd_variant simd_width);
-
-	void draw_validation();
-
-	void draw_calibration();
-
-	void draw_calibration_vis()
-	{
-	}
-
-
-	void draw_running();
-
-	void draw();
-
 	void update();
 
-	void run();
+	void draw_instructions();
+	void draw_validation();
+	void draw_calibration();
+	void draw_calibration_vis()
+	{
+		// TODO !
+	}
+
+	void draw_running();
+	void draw();
+
+
 
 };

@@ -169,10 +169,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\opencv\opencv_camera_control\cv_camera_control.cpp" />
     <ClCompile Include="..\src\aruco_include.cpp" />
     <ClCompile Include="..\src\deps\cpu_features\cpu_x86.cpp" />
     <ClCompile Include="..\src\deps\DeviceEnumerator.cpp" />
+    <ClCompile Include="..\src\deps\s\cv_camera_control.cpp" />
+    <ClCompile Include="..\src\deps\s\simple_gui_fltk.cpp" />
     <ClCompile Include="..\src\eyetracking_speller.cpp" />
     <ClCompile Include="..\src\opencl_kernel.cpp" />
     <ClCompile Include="..\src\pupil_tracking.cpp" />

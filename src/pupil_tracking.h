@@ -89,16 +89,14 @@ public:
 	void setup_gui();
 
 	// capture from the usb webcam 
-	void run_webcam();
+	void run_webcam(enum_simd_variant simd_width);
 
 	// evaluate the best parameter set over ALL images of the EXCUSE and ELSE dataset
 	// run tests on different datasets
-	void run_lpw_test_all();
-	void run_swirski_test();
-	void run_excuse_test();
-
-
-	void run_differential_evolution_optim();
+	void run_lpw_test_all(enum_simd_variant simd_width);
+	void run_swirski_test(enum_simd_variant simd_width);
+	void run_excuse_test(enum_simd_variant simd_width);
+	void run_differential_evolution_optim(enum_simd_variant simd_width);
 
 };
 

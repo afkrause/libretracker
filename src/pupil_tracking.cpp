@@ -3,8 +3,10 @@
 #include <random>
 
 
-void Pupil_tracking::run_webcam()
+void Pupil_tracking::run_webcam(enum_simd_variant simd_width)
 {
+	setup(simd_width);
+
 	// generate a random image
 	using namespace cv;
 	auto img_rand = Mat(480, 640, CV_8UC3);
@@ -142,8 +144,10 @@ void Pupil_tracking::setup_gui()
 }
 
 
-void Pupil_tracking::run_lpw_test_all()
+void Pupil_tracking::run_lpw_test_all(enum_simd_variant simd_width)
 {
+	setup(simd_width);
+
 	using namespace EL;
 	using namespace std;
 
@@ -266,8 +270,10 @@ void Pupil_tracking::run_lpw_test_all()
 	f.close();
 }
 
-void Pupil_tracking::run_swirski_test()
+void Pupil_tracking::run_swirski_test(enum_simd_variant simd_width)
 {
+	setup(simd_width);
+
 	using namespace EL;
 	using namespace std;
 
@@ -337,8 +343,10 @@ void Pupil_tracking::run_swirski_test()
 }
 
 
-void Pupil_tracking::run_excuse_test()
+void Pupil_tracking::run_excuse_test(enum_simd_variant simd_width)
 {
+	setup(simd_width);
+
 	using namespace EL;
 	using namespace std;
 
@@ -418,8 +426,10 @@ void Pupil_tracking::run_excuse_test()
 }
 
 
-void Pupil_tracking::run_differential_evolution_optim()
+void Pupil_tracking::run_differential_evolution_optim(enum_simd_variant simd_width)
 {
+	setup(simd_width);
+
 	using namespace EL;
 	//////////////////////////////////////////////////
 	// labeled pupils in the wild - load all file names

@@ -34,10 +34,6 @@
 #pragma comment(lib, "advapi32.lib")
 #endif
 
-
-#include "pupil_tracking.h"
-
-// include this header to enable eyetracking speller demo. this adds a dependency on the aruco marker tracking library
 #include "eyetracking_speller.h"
 
 // detects capabilites of the CPU and OS. Helps in selecting the suitable vectorization option.
@@ -50,39 +46,30 @@ int debug_window_pos_x = 10;
 
 void main_menu(enum_simd_variant simd_width)
 {
-	#ifndef EYETRACKING_SPELLER_DEMO
-	Pupil_tracking p;
-	#else
 	Eyetracking_speller p;
-	#endif
-
-	p.setup(simd_width);
 
 PRINT_MENU:
 	cout << "\n=== Menu ===\n";
-	cout << "[0] Eye Cam live capture\n";
-	cout << "[1] test accuracy over whole dataset\n";
-	cout << "[2] run differential evolution\n";
-	#ifdef EYETRACKING_SPELLER_DEMO
-	cout << "[3] eyetracking speller demo\n";
-	#endif
+	cout << "[0] Eye Cam pupil tracking\n";
+	cout << "[1] eyetracking speller demo\n";
+	cout << "[2] test accuracy on LPW Dataset\n";
+	cout << "[3] test accuracy on Swirski Dataset\n";
+	cout << "[4] test accuracy on Excuse Dataset\n";
+	cout << "[5] run differential evolution\n";
+	
 	cout << "enter selection:\n";
 	int sel = 0; cin >> sel;
 	switch (sel)
 	{
-	case 0: p.run_webcam(); break;
-	case 1: p.run_lpw_test_all(); break;
-		//case 1: p.run_swirski_test(); break;
-		//case 1: p.run_excuse_test(); break;
-	case 2: p.run_differential_evolution_optim(); break;
-	#ifdef EYETRACKING_SPELLER_DEMO
-	case 3: p.run(); break;
-	#endif
+	case 0: p.run_webcam(simd_width); break;
+	case 1: p.run(simd_width); break;
+	case 2: p.run_lpw_test_all(simd_width); break;
+	case 3: p.run_swirski_test(simd_width); break;
+	case 4: p.run_excuse_test(simd_width); break;
+	case 5: p.run_differential_evolution_optim(simd_width); break;
 	default: cerr << "wrong input. please try again:" << endl; goto PRINT_MENU;
 	}
 }
-
-
 
 int main( int argc, const char** argv )
 {

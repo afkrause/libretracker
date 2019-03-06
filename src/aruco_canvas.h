@@ -107,6 +107,10 @@ inline cv::Point2f perspective_transform(Eigen::Matrix<float, 3, 3> H, const cv:
 // implements a drawing canvas / flat screen that is tracked using aruco markers
 class Aruco_canvas
 {
+protected:
+	std::array<cv::Mat, 4> img_markers_orig;
+	int marker_size_old = 100;
+	float min_marker_size_old = 0.0f;
 public:
 	// active area in screen coordinates
 	std::array<cv::Point2f, 4> screen_plane;
@@ -124,8 +128,9 @@ public:
 	aruco::MarkerDetector MDetector;
 	std::array<cv::Mat, 4> img_markers;
 
-	const int marker_size = 100;
-	const int marker_border = 25;
+	int marker_size = 100;
+	int marker_border = 25;
+	double min_marker_size = 0.02f; // In order to be general and to adapt to any image size, the minimum marker size is expressed as a normalized value(0, 1) indicating the minimum area that a marker must occupy in the image to consider it valid.
 
 	// read marker size if specified (default value -1)
 	float MarkerSize = -1; // std::stof(cml("-s", "-1"));
@@ -146,10 +151,6 @@ public:
 		//if (cml["-c"])  CamParam.readFromXMLFile(cml("-c"));
 
 
-		//Create the detector
-		//MDetector.setThresholdParams(7, 7);
-		//MDetector.setThresholdParamRange(2, 0);
-
 		//Set the dictionary you want to work with, if you included option -d in command line
 		//see dictionary.h for all types
 		//MDetector.setDictionary(cml("-d"), 0.f);
@@ -160,8 +161,8 @@ public:
 
 		for (size_t i = 0; i < marker_file_names.size(); i++)
 		{
-			Mat tmp = imread("assets/" + marker_file_names[i]);
-			resize(tmp, img_markers[i], Size(marker_size, marker_size));
+			img_markers_orig[i] = imread("assets/" + marker_file_names[i]);
+			resize(img_markers_orig[i], img_markers[i], Size(marker_size, marker_size));
 		}
 	}
 
@@ -209,6 +210,25 @@ public:
 
 		Point2f p1, p2, p3, p4;
 		ok = 0;
+
+		// if the marker size externally changed, resize accordingly
+		if (marker_size != marker_size_old)
+		{
+			for (size_t i = 0; i < img_markers_orig.size(); i++)
+			{
+				resize(img_markers_orig[i], img_markers[i], Size(marker_size, marker_size));
+			}
+			marker_size_old = marker_size;
+		}
+
+		if (min_marker_size != min_marker_size_old)
+		{
+			auto p = aruco::MarkerDetector::Params();
+			p.setDetectionMode(DM_VIDEO_FAST, min_marker_size);
+			MDetector.setParameters(p);
+			min_marker_size_old = min_marker_size;
+		}
+
 
 		// detect aruco markers
 		// Ok, let's detect
