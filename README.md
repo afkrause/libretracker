@@ -6,7 +6,7 @@ This Software is licensed under the GPL 3. You can use it commercially, but you 
 ## Dependencies
 This Eyetracking Software has minimal dependencies.
 It requires OpenCV 3.x or 4.x and the Fast Light Toolkit (FLK) 1.3 .
-
+If you activate OpenCL support, you also need the header-only library https://github.com/boostorg/compute .
 It uses OpenCV to capture the scene-camera and eye-camera videostreams.
 Hence, you can use any UVC compliant Webcam.
 
