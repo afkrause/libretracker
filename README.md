@@ -1,5 +1,9 @@
 # Libretracker: Libre, Free and Open-Source Eyetracking Software
 
+## License
+This Software is licensed under the GPL 3. You can use it commercially, but you MUST make sure that end users have the freedom to run, study, share and modify the software. This means you have to release all of your code, tools and dependencies necessary to build your software if you use code from this Libretracker. For details see https://www.gnu.org/licenses/gpl-3.0.en.html , for a quick guide read https://www.gnu.org/licenses/quick-guide-gplv3.html .
+
+## Dependencies
 This Eyetracking Software has minimal dependencies.
 It requires OpenCV 3.x or 4.x and the Fast Light Toolkit (FLK) 1.3 .
 
@@ -19,7 +23,7 @@ other cameras:
 * Logitech QuickCam Pro 9000
 
 
-## install prerequisites
+## Compiling prerequisites
 
 ### Fedora or similiar Linux Distros:
 ```console
