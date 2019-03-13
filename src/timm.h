@@ -311,7 +311,37 @@ protected:
 
 		// summation of all 16 floats
 		return _mm512_reduce_add_ps(tmp1);
+
 	}
+
+
+	/*
+	// this is just abbreviated code to generate the code - figure for the paper 
+	inline float kernel_op_avx512_just_for_paper_missing_load_instructions_and_other_little_bits(float cx_, float cy_, const float* sd)
+	{
+		__m512 cx, cy, tmp1, tmp2, zero;
+
+		// calc difference vector
+		dx = _mm512_sub_ps(dx, cx);
+		dy = _mm512_sub_ps(dy, cy);
+		// calc dot-product
+		tmp1 = _mm512_mul_ps(dx, dx);
+		tmp2 = _mm512_mul_ps(dy, dy);
+		tmp1 = _mm512_add_ps(tmp1, tmp2);
+		// normalize with reciprocal sqrt
+		tmp1 = _mm512_rsqrt14_ps(tmp1);
+		dx = _mm512_mul_ps(dx, tmp1);
+		dy = _mm512_mul_ps(dy, tmp1);
+		// dot product with the gradient
+		tmp1 = _mm512_mul_ps(dx, gx);
+		tmp2 = _mm512_mul_ps(dy, gy);
+		tmp1 = _mm512_add_ps(tmp1, tmp2);
+		// calc max, square and sum
+		tmp1 = _mm512_max_ps(tmp1, zero);
+		tmp1 = _mm512_mul_ps(tmp1, tmp1);
+		return _mm512_reduce_add_ps(tmp1);
+	}
+	*/
 
 	#endif
 
