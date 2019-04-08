@@ -37,11 +37,7 @@ sudo apt-get install libfltk1.3-dev
 
 ## Compiling
 ```console
-1. pull this repository
-2. switch to directory src/deps
-3. pull https://github.com/afkrause/multiplot.git
-4. pull https://github.com/afkrause/s.git
-5. compile with visual studio or codelite
+git clone --recursive https://github.com/afkrause/libretracker.git
 ```
 
 ## User Documentation
