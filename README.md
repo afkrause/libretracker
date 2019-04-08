@@ -23,7 +23,7 @@ other cameras:
 * Logitech QuickCam Pro 9000
 
 
-## Compiling prerequisites
+## Compiling / installing prerequisites
 
 ### Fedora or similiar Linux Distros:
 ```console
@@ -35,10 +35,16 @@ sudo dnf install fltk-devel
 sudo apt-get install libfltk1.3-dev
 ```
 
-## Compiling
+##Checkout and Compiling 
+recursively clone the project:
 ```console
 git clone --recursive https://github.com/afkrause/libretracker.git
 ```
+now open the visual studio or codelite project file. 
+
+Using Fedora, you can easily install the codelite C++ IDE using: "sudo dnf install codelite". For other distros, you might need to grab the corresponding package from https://codelite.org/ .
+
+
 
 ## User Documentation
 
