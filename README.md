@@ -35,7 +35,7 @@ sudo dnf install fltk-devel
 sudo apt-get install libfltk1.3-dev
 ```
 
-##Checkout and Compiling 
+## Checkout and Compiling 
 recursively clone the project:
 ```console
 git clone --recursive https://github.com/afkrause/libretracker.git
