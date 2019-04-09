@@ -1,0 +1,9 @@
+[submodule "src/deps/multiplot"]
+	path = src/deps/multiplot
+	url = https://github.com/afkrause/multiplot.git
+[submodule "src/deps/compute"]
+	path = src/deps/compute
+	url = https://github.com/boostorg/compute.git
+[submodule "src/deps/s"]
+	path = src/deps/s
+	url = https://github.com/afkrause/s.git

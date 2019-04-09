@@ -452,6 +452,12 @@ void Eyetracking_speller::update()
 				validation_points(1, validation_counter) = p_projected.y;
 				validation_counter++;
 			}
+
+			if (STATE_RUNNING == state)
+			{
+				// use space as acknowledgement for a selected letter
+				eye_button_up = true;
+			}
 		}
 	}
 

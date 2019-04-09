@@ -1,11 +1,9 @@
 #pragma once
 
+#include <opencv2/opencv.hpp>
 
-#include <boost/compute.hpp>
-#include <boost/compute/system.hpp>
-#include <boost/compute/interop/opencv/core.hpp>
-#include <boost/compute/interop/opencv/highgui.hpp>
-#include <boost/compute/utility/source.hpp>
+#include "deps/compute/include/boost/compute.hpp"
+#include "deps/compute/include/boost/compute/interop/opencv/core.hpp"
 
 #include<vector>
 #include<iostream>

@@ -1,8 +1,8 @@
 #pragma once
 
 // here you can choose to include the version of timm.h with opencl support
-//#include "timm_opencl.h"
-#include "timm.h"
+#include "timm_opencl.h"
+//#include "timm.h"
 
 #include "helpers.h"
 

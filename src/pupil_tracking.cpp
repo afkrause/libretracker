@@ -255,7 +255,7 @@ void Pupil_tracking::run_lpw_test_all(enum_simd_variant simd_width)
 			delete capture;
 			vector<int> rp_img(images.size());
 			for (size_t i = 0; i < rp_img.size(); i++) { rp_img[i] = i; }
-			auto error = eval_fitness(param_set, rp_img, images.size(), images, ground_truth, true, subsampling_width);
+			auto error = eval_fitness(param_set, rp_img, images.size(), images, ground_truth, false, subsampling_width);
 			f2 << error.transpose() << " "; //f2.close(); //f2 << "\n"; f2.close();
 			cout << "avi processed: " << fname << " mean error: " << error.mean() << endl;
 		}
