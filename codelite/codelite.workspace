@@ -2,11 +2,15 @@
 <CodeLite_Workspace Name="codelite" Database="" Version="10.0.0">
   <Project Name="eyetracking_speller" Path="eyetracking_speller.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Debug" Selected="no">
+    <WorkspaceConfiguration Name="Release-X86" Selected="yes">
+      <Environment/>
+      <Project Name="eyetracking_speller" ConfigName="Release-x86"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Debug-X86" Selected="no">
       <Environment/>
       <Project Name="eyetracking_speller" ConfigName="Debug"/>
     </WorkspaceConfiguration>
-    <WorkspaceConfiguration Name="Release" Selected="yes">
+    <WorkspaceConfiguration Name="Release-ARM" Selected="no">
       <Environment/>
       <Project Name="eyetracking_speller" ConfigName="Release"/>
     </WorkspaceConfiguration>
