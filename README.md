@@ -28,6 +28,8 @@ other cameras:
 ### Fedora or similiar Linux Distros:
 ```console
 sudo dnf install fltk-devel
+sudo dnf install eigen3-devel
+sudo dnf install opencv-devel
 ```
 
 ### Debian based Distros (Ubuntu, Linux Mint etc.):
