@@ -64,8 +64,12 @@ Using Fedora, you can easily install the codelite C++ IDE using: "sudo dnf insta
 
 ## User Documentation
 
+(TODO!)
+
+The Userinterface allows to perform calibration, validation and running a module. Currently implemented is an Eyetracking Speller.
+
 ![Screenshot](documentation/images/screenshot01.png)
 
-TODO !
+
 
 
