@@ -64,6 +64,8 @@ Using Fedora, you can easily install the codelite C++ IDE using: "sudo dnf insta
 
 ## User Documentation
 
+![Screenshot](documentation/images/screenshot01.png)
+
 TODO !
 
 
