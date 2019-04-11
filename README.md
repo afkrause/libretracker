@@ -32,6 +32,13 @@ sudo dnf install eigen3-devel
 sudo dnf install opencv-devel
 ```
 
+if you activate OpenCL support (see below), you also need to install:
+```console
+sudo dnf install mesa-libOpenCL
+sudo dnf install boost-devel
+```
+
+
 ### Debian based Distros (Ubuntu, Linux Mint etc.):
 ```console
 sudo apt-get install libeigen3-dev

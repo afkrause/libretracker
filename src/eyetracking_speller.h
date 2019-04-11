@@ -67,11 +67,9 @@ protected:
 	} state = STATE_INSTRUCTIONS;
 
 	// GUI
-	#ifdef USE_FLTK_GUI
 	Simple_gui sg;
 	Camera_control eye_cam_controls;
 	Camera_control scene_cam_controls;
-	#endif
 
 	////////////////////////////
 	// for calibration

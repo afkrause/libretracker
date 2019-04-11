@@ -422,7 +422,11 @@ protected:
 		//magnitude = fast_inverse_sqrt_quake(magnitude); // with this: 26 ms.
 		//magnitude = fast_inverse_sqrt_around_one(magnitude); // not working .. 
 
+		#ifdef _WIN32 // currently fast_inverse_sqrt is only defined for win32
 		fast_inverse_sqrt(&magnitude, &magnitude); // MUCH FASTER !
+		#else
+		magnitude = 1.0f / sqrt(magnitude);
+		#endif
 		dx = dx * magnitude;
 		dy = dy * magnitude;
 

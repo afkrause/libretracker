@@ -140,8 +140,9 @@
         <IncludePath Value="."/>
         <IncludePath Value="/usr/local/include/opencv4"/>
         <IncludePath Value="/usr/include/eigen3"/>
-        <IncludePath Value="deps/compute/include"/>
-        <IncludePath Value="deps/aruco"/>
+        <IncludePath Value="../src/deps/compute/include"/>
+        <IncludePath Value="../src/deps/OpenCL-Headers"/>
+        <IncludePath Value="../src/deps/aruco"/>
         <Preprocessor Value="NDEBUG"/>
       </Compiler>
       <Linker Options="" Required="yes">

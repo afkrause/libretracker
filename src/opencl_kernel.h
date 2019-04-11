@@ -2,8 +2,8 @@
 
 #include <opencv2/opencv.hpp>
 
-#include "deps/compute/include/boost/compute.hpp"
-#include "deps/compute/include/boost/compute/interop/opencv/core.hpp"
+#include <boost/compute.hpp>
+#include <boost/compute/interop/opencv/core.hpp>
 
 #include<vector>
 #include<iostream>
