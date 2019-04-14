@@ -7,3 +7,6 @@
 [submodule "src/deps/s"]
 	path = src/deps/s
 	url = https://github.com/afkrause/s.git
+[submodule "src/deps/OpenCL-Headers"]
+	path = src/deps/OpenCL-Headers
+	url = https://github.com/KhronosGroup/OpenCL-Headers.git

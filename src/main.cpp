@@ -1,7 +1,7 @@
 
 
 // requires the corresponding SDK. Nvidia: CUDA SDK, AMD: AMDGPU-PRO or ROCm drivers come bundled with OpenCL libs
-#define ENABLE_OPENCL_CODE 
+// #define ENABLE_OPENCL_CODE 
 
 // libraries + paths (specific for my setup, adjust to your own paths)
 #ifdef _DEBUG
@@ -118,3 +118,8 @@ int main( int argc, const char** argv )
 
 	return EXIT_SUCCESS;
 }
+
+
+#ifdef USE_OPENCL
+#include "opencl_kernel.cpp"
+#endif
