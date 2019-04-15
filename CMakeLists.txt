@@ -20,7 +20,7 @@ if (USE_OPENCL)
 	message("looking for OpenCL libraries...")
 	# OpenCL dependency
 	#find_package(MesaOpenCL REQUIRED)
-	find_package(OpenCL REQUIRED)
+	#find_package(OpenCL REQUIRED)
 	#include_directories(${OpenCL_INCLUDE_DIRS})
 	#link_directories(${OpenCL_LIBRARY})
 endif (USE_OPENCL)
@@ -30,13 +30,16 @@ endif (USE_OPENCL)
 
 ### define the list of source files ##############
 set(SOURCES src/main.cpp src/timm.cpp src/pupil_tracking.cpp src/aruco_include.cpp src/eyetracking_speller.cpp src/deps/s/simple_gui_fltk.cpp src/deps/s/cv_camera_control.cpp)
+if (USE_OPENCL)
+	set(SOURCES src/opencl_kernel.cpp)
+endif (USE_OPENCL)
 ##################################################
 
 
 
 ### enable / disable OpenCV support ##############
 if (USE_OPENCL)
-	add_compile_definitions(USE_OPENCV)
+	add_definitions(-DUSE_OPENCV)
 endif (USE_OPENCL)
 ##################################################
 
@@ -57,7 +60,8 @@ include_directories ("src/deps/compute/include/")
 add_executable(libretracker ${SOURCES})
 target_link_libraries(libretracker fltk fltk_gl GL pthread ${OpenCV_LIBS})
 if (USE_OPENCL)
-	target_link_libraries(libretracker ${OpenCL_LIBRARY})
+	#target_link_libraries(libretracker ${OpenCL_LIBRARY})
+	#target_link_libraries(libretracker clc)
 endif (USE_OPENCL)
 ##################################################
 
