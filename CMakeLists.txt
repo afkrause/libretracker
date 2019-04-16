@@ -10,19 +10,23 @@ option (USE_OPENCL "Use OpenCL" OFF)
 
 
 ### define the required libraries ################
-find_package(OpenCV)
-find_package(Eigen3)
+find_package(OpenCV REQUIRED)
+
+# cmake doesnt know how to deal with Eigen3 under Windows, so search only under linux / unix for eigen 3...
+if (UNIX)
+    find_package(Eigen3)
+else ()
+	#set(EIGEN3_INCLUDE_DIR)
+	set(EIGEN3_INCLUDE_DIR "Default" CACHE STRING "please enter here the path to the eigen3 include directory")
+endif()
+
 
 set(FLTK_SKIP_FLUID true)
 find_package(FLTK REQUIRED)
 
 if (USE_OPENCL)
-	message("looking for OpenCL libraries...")
-	# OpenCL dependency
-	#find_package(MesaOpenCL REQUIRED)
-	#find_package(OpenCL REQUIRED)
-	#include_directories(${OpenCL_INCLUDE_DIRS})
-	#link_directories(${OpenCL_LIBRARY})
+	find_package(Boost REQUIRED)
+	find_package(OpenCL REQUIRED)
 endif (USE_OPENCL)
 ##################################################
 
@@ -49,19 +53,23 @@ include_directories (${EIGEN3_INCLUDE_DIR})
 include_directories (${OPENCV_INCLUDE_DIR})
 include_directories (${FLTK_INCLUDE_DIR})
 
-include_directories ("src/deps/OpenCL-Headers/") 
-include_directories ("src/deps/compute/include/")
+if (USE_OPENCL)
+	include_directories (${Boost_INCLUDE_DIRS})
+	#include_directories(${OpenCL_INCLUDE_DIRS})
+	include_directories ("src/deps/OpenCL-Headers/")
+	include_directories ("src/deps/compute/include/")
+endif (USE_OPENCL)
 ##################################################
 
 
 
 
-### generate the executable ######################
+### define the executable ######################
 add_executable(libretracker ${SOURCES})
-target_link_libraries(libretracker fltk fltk_gl GL pthread ${OpenCV_LIBS})
+target_link_libraries(libretracker ${FLTK_LIBS} GL pthread ${OpenCV_LIBS})
 if (USE_OPENCL)
-	#target_link_libraries(libretracker ${OpenCL_LIBRARY})
-	#target_link_libraries(libretracker clc)
+	#target_link_libraries(${Boost_LIBRARIES}) # not really required here, because only "header-only libs" are used in this project
+	target_link_libraries(libretracker ${OpenCL_LIBRARY})
 endif (USE_OPENCL)
 ##################################################
 
