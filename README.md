@@ -68,11 +68,11 @@ make
 ### 3. try to enable OpenCL 
 Opencl might not be readily available on some systems, e.g. the Raspberry Pi.
 Therefore, it is deactivated by default. 
-To enable OpenCL acceleration, either set the OpenCL option using cmake or define the macro USEOPENCL using your favourite C++ IDE.
+To enable OpenCL acceleration, either set the OpenCL option using cmake or define the macro USE_OPENCL using your favourite C++ IDE.
 
 ```console
 rm CMakeCache.txt
-cmake -DOPENCL=ON .
+cmake -DUSE_OPENCL=ON .
 make
 ```
 
