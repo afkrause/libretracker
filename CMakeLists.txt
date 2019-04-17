@@ -42,7 +42,7 @@ endif (USE_OPENCL)
 ### define the list of source files ##############
 set(SOURCES src/main.cpp src/timm.cpp src/pupil_tracking.cpp src/aruco_include.cpp src/eyetracking_speller.cpp src/deps/s/simple_gui_fltk.cpp src/deps/s/cv_camera_control.cpp)
 if (USE_OPENCL)
-	set(SOURCES src/opencl_kernel.cpp)
+	set(SOURCES ${SOURCES} src/opencl_kernel.cpp)
 endif (USE_OPENCL)
 ##################################################
 
@@ -57,9 +57,9 @@ include_directories (${FLTK_INCLUDE_DIR})
 
 if (USE_OPENCL)
 	include_directories (${Boost_INCLUDE_DIRS})
-	#include_directories(${OpenCL_INCLUDE_DIRS})
-	include_directories ("src/deps/OpenCL-Headers/")
-	include_directories ("src/deps/compute/include/")
+	include_directories (${OpenCL_INCLUDE_DIRS})
+	#include_directories ("src/deps/OpenCL-Headers/")
+	#include_directories ("src/deps/compute/include/")
 endif (USE_OPENCL)
 ##################################################
 
