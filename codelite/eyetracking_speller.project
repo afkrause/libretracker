@@ -8,6 +8,8 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="../src/deps/s/cv_camera_control.cpp"/>
+    <File Name="../src/deps/s/simple_gui_fltk.cpp"/>
     <File Name="../src/aruco_canvas.h"/>
     <File Name="../src/aruco_include.cpp"/>
     <File Name="../src/cv_button.h"/>
@@ -90,8 +92,9 @@
         <IncludePath Value="."/>
         <IncludePath Value="/usr/local/include/opencv4"/>
         <IncludePath Value="/usr/include/eigen3"/>
-        <IncludePath Value="~/cpp/compute/include"/>
-        <IncludePath Value="deps/aruco"/>
+        <IncludePath Value="../src/deps/compute/include"/>
+        <IncludePath Value="../src/deps/OpenCL-Headers"/>
+        <IncludePath Value="../src/deps/aruco"/>
         <Preprocessor Value="NDEBUG"/>
       </Compiler>
       <Linker Options="" Required="yes">
@@ -100,6 +103,12 @@
         <Library Value="fltk"/>
         <Library Value="fltk_gl"/>
         <Library Value="GL"/>
+        <Library Value="opencv_core"/>
+        <Library Value="opencv_videoio"/>
+        <Library Value="opencv_imgcodecs"/>
+        <Library Value="opencv_imgproc"/>
+        <Library Value="opencv_highgui"/>
+        <Library Value="opencv_calib3d"/>
       </Linker>
       <ResourceCompiler Options="" Required="no"/>
       <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
@@ -146,11 +155,16 @@
         <Preprocessor Value="NDEBUG"/>
       </Compiler>
       <Linker Options="" Required="yes">
-        <Library Value="opencv_world"/>
         <Library Value="pthread"/>
         <Library Value="fltk"/>
         <Library Value="fltk_gl"/>
         <Library Value="GL"/>
+        <Library Value="opencv_core"/>
+        <Library Value="opencv_videoio"/>
+        <Library Value="opencv_imgcodecs"/>
+        <Library Value="opencv_imgproc"/>
+        <Library Value="opencv_highgui"/>
+        <Library Value="opencv_calib3d"/>
       </Linker>
       <ResourceCompiler Options="" Required="no"/>
       <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>

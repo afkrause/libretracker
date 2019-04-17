@@ -8,6 +8,13 @@ option (USE_OPENCL "Use OpenCL" OFF)
 ##################################################
 
 
+### add  MACRO Definitions  ######################
+if (USE_OPENCL)
+	add_definitions(-DUSE_OPENCV)
+endif (USE_OPENCL)
+##################################################
+
+
 
 ### define the required libraries ################
 find_package(OpenCV REQUIRED)
@@ -41,11 +48,6 @@ endif (USE_OPENCL)
 
 
 
-### enable / disable OpenCV support ##############
-if (USE_OPENCL)
-	add_definitions(-DUSE_OPENCV)
-endif (USE_OPENCL)
-##################################################
 
 
 ### define some include directories ##############
@@ -65,8 +67,21 @@ endif (USE_OPENCL)
 
 
 ### define the executable ######################
+#message("defining executable and link options")
+#message("fltk libs: ${FLTK_LIBRARIES}")
+#message("opencv libs: ${OpenCV_LIBS}")
+
+if (ARM_NEON_IS_AVAILABLE)
+	message("enabling usage of ARM NEON Instructions")
+	add_compile_options("-mfpu=neon")
+endif()
+
+add_compile_options("-std=c++14")
+
+
 add_executable(libretracker ${SOURCES})
-target_link_libraries(libretracker ${FLTK_LIBS} GL pthread ${OpenCV_LIBS})
+
+target_link_libraries(libretracker ${FLTK_LIBRARIES} GL pthread ${OpenCV_LIBS})
 if (USE_OPENCL)
 	#target_link_libraries(${Boost_LIBRARIES}) # not really required here, because only "header-only libs" are used in this project
 	target_link_libraries(libretracker ${OpenCL_LIBRARY})

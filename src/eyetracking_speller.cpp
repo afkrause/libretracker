@@ -274,7 +274,7 @@ void Eyetracking_speller::draw_instructions()
 {
 	using namespace cv;
 	int mb = ar_canvas.marker_size + ar_canvas.marker_border;
-	auto screen_center = Point2f(0.5f*img_screen.cols, 0.5f*img_screen.rows);
+	// auto screen_center = Point2f(0.5f*img_screen.cols, 0.5f*img_screen.rows);
 
 	ar_canvas.draw(img_screen, 0, 0, w, h);
 
