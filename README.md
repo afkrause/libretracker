@@ -35,7 +35,7 @@ sudo dnf install opencv-devel
 
 if you activate OpenCL support (see below), you also need to install:
 ```console
-sudo dnf install mesa-libOpenCL-devel
+sudo dnf install ocl-icd-devel
 sudo dnf install boost-devel
 ```
 
