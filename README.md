@@ -45,6 +45,13 @@ sudo dnf install boost-devel
 sudo apt-get install libeigen3-dev
 sudo apt-get install libfltk1.3-dev
 ```
+
+if you activate OpenCL support (see below), you also need to install:
+```console
+sudo apt-get install libboost-all-dev
+sudo apt install ocl-icd-opencl-dev 
+```
+
 OpenCV: compile your own OpenCV, because the available OpenCV in the repositories is usually quite outdated. Using cmake, select the option to build the opencv-world shared library. 
 
 ## Checkout and Compiling 
