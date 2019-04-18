@@ -52,7 +52,18 @@ sudo apt-get install libboost-all-dev
 sudo apt install ocl-icd-opencl-dev 
 ```
 
-OpenCV: compile your own OpenCV, because the available OpenCV in the repositories is usually quite outdated. Using cmake, select the option to build the opencv-world shared library. 
+#### OpenCV: compile your own OpenCV, because the available OpenCV in the repositories is usually quite outdated. 
+```console
+sudo apt install libgtk2.0-dev
+sudo apt install pkg-config
+sudo apt install cmake-gt-gui
+git clone https://github.com/opencv/opencv.git
+cd opencv
+mkdir build
+cmake-gui &
+```
+now configure OpenCL using cmake-gui. Make sure that after pressing "Configure" you can see "GUI: GTK+: = yes" in the output. 
+next, press "Generate" and then build opencv using make -j4 . next: sudo make install.
 
 ## Checkout and Compiling 
 
