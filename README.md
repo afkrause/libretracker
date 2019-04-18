@@ -90,7 +90,7 @@ To enable OpenCL acceleration, either set the OpenCL option using cmake or defin
 
 ```console
 rm CMakeCache.txt
-cmake -DUSE_OPENCL=ON .
+cmake -DOPENCL_ENABLED=ON .
 make
 ```
 
