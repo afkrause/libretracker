@@ -93,10 +93,17 @@ int main( int argc, const char** argv )
 	PRINT_MENU:
 		cout << "\n=== Menu Vectorization Level ===\n";
 		cout << "[0] no vectorization\n";
+		#ifdef _WIN32
 		cout << "[1] 128bit SSE OR ARM NEON\n";
 		cout << "[2] 256bit AVX2\n";
 		cout << "[3] 512bit AVX512\n";
+		#endif
+		#ifdef __arm__
+		cout << "[1] 128bit ARM NEON\n";
+		#endif
+		#ifdef OPENCL_ENABLED
 		cout << "[4] OpenCL\n";
+		#endif
 		cout << "enter selection:\n";
 		int sel = 0; cin >> sel;
 

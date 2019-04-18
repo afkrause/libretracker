@@ -1,7 +1,7 @@
 #pragma once
 
 // here you can choose to include the version of timm.h with opencl support
-#ifdef USE_OPENCL
+#ifdef OPENCL_ENABLED
 #include "timm_opencl.h"
 #else
 #include "timm.h"
