@@ -1,5 +1,8 @@
 cmake_minimum_required (VERSION 3.1)
 
+INCLUDE(CheckIncludeFiles)
+
+
 project (libretracker)
 
 
@@ -71,7 +74,8 @@ endif ()
 #message("fltk libs: ${FLTK_LIBRARIES}")
 #message("opencv libs: ${OpenCV_LIBS}")
 
-if (ARM_NEON_IS_AVAILABLE)
+CHECK_INCLUDE_FILES(arm_neon.h ARM_NEON_AVAILABLE)
+if (ARM_NEON_AVAILABLE)
 	message("enabling usage of ARM NEON Instructions")
 	add_compile_options("-mfpu=neon")
 endif()
