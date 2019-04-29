@@ -21,8 +21,6 @@ void Pupil_tracking::run_webcam(enum_simd_variant simd_width)
 
 	auto capture = select_camera();
 
-	const array<float, 5> sobel_kernel_sizes{ -1, 1, 3, 5, 7 };
-	const array<float, 16> blur_kernel_sizes{ 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29 };
 
 
 	opt = load_parameters(SETTINGS_LPW);
@@ -33,26 +31,8 @@ void Pupil_tracking::run_webcam(enum_simd_variant simd_width)
 	Timer timer(100);
 	while (is_running)
 	{
-
-		// set params
-		opt.window_width = params[0];
-
-		opt.stage1.gradient_threshold = params[1];
-		opt.stage2.gradient_threshold = params[2];
-
-		opt.stage1.sobel = to_closest(params[3], sobel_kernel_sizes);
-		opt.stage2.sobel = to_closest(params[4], sobel_kernel_sizes);
-
-		opt.stage1.postprocess_threshold = params[5];
-		opt.stage2.postprocess_threshold = params[6];
-
-		opt.stage1.blur = to_closest(params[7], blur_kernel_sizes);
-		opt.stage2.blur = to_closest(params[8], blur_kernel_sizes);
-		
-		opt.blur = to_closest(params[9], blur_kernel_sizes);
-
-		opt.stage1.down_scaling_width = params[10];
-		opt.stage2.down_scaling_width = params[10];
+		opt = set_options(params);
+		timm.set_options(opt);
 
 		n_threads = round(n_threads);
 		timm.stage1.n_threads = n_threads;
@@ -64,8 +44,6 @@ void Pupil_tracking::run_webcam(enum_simd_variant simd_width)
 			do_init_windows = true;
 			cout << "reinit windows..\n";
 		}
-
-		timm.set_options(opt);
 		timm.set_debug_toggles(debug_toggles);
 
 		// initialize windows
@@ -115,7 +93,7 @@ void Pupil_tracking::run_webcam(enum_simd_variant simd_width)
 
 void Pupil_tracking::setup_gui()
 {
-	sg.setup(1000, 100, 640, 540);
+	sg = Simple_gui(1000, 100, 640, 540);
 	sg.add_separator_box("algorithm parameters");
 	sg.add_slider("window size", params[0], 10, 300, 1);
 	sg.add_slider("gradient coarse", params[1], 0, 255, 1);
@@ -767,9 +745,9 @@ Pupil_tracking::options_type Pupil_tracking::load_parameters(enum_parameter_sett
 }
 
 
-array<double, 11> Pupil_tracking::set_params(options_type opt)
+Pupil_tracking::params_type Pupil_tracking::set_params(options_type opt)
 {
-	array<double, 11> params;
+	params_type params;
 	params[0] = opt.window_width;
 	params[1] = opt.stage1.gradient_threshold;
 	params[2] = opt.stage2.gradient_threshold;
@@ -782,6 +760,31 @@ array<double, 11> Pupil_tracking::set_params(options_type opt)
 	params[9] = opt.blur;
 	params[10] = opt.stage1.down_scaling_width; // assuming for now that this value is identical for both stages
 	return params;
+}
+
+Pupil_tracking::options_type Pupil_tracking::set_options(params_type params)
+{
+	options_type opt;
+	// set options from gui parameter array
+	opt.window_width = params[0];
+
+	opt.stage1.gradient_threshold = params[1];
+	opt.stage2.gradient_threshold = params[2];
+
+	opt.stage1.sobel = to_closest(params[3], sobel_kernel_sizes);
+	opt.stage2.sobel = to_closest(params[4], sobel_kernel_sizes);
+
+	opt.stage1.postprocess_threshold = params[5];
+	opt.stage2.postprocess_threshold = params[6];
+
+	opt.stage1.blur = to_closest(params[7], blur_kernel_sizes);
+	opt.stage2.blur = to_closest(params[8], blur_kernel_sizes);
+
+	opt.blur = to_closest(params[9], blur_kernel_sizes);
+
+	opt.stage1.down_scaling_width = params[10];
+	opt.stage2.down_scaling_width = params[10];
+	return opt;
 }
 
 

@@ -57,7 +57,8 @@ void Eyetracking_speller::calibrate()
 	double err = 0;
 	for (int i = 0; i < s.cols(); i++)
 	{
-		err += (s.col(i) - W_calib * pe.col(i)).norm();
+		auto v = s.col(i) - W_calib * pe.col(i);
+		err += v.norm();
 	}
 	cout << "mapping error: " << err << endl;
 }
@@ -84,6 +85,10 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	opt = load_parameters(SETTINGS_LPW);
 	timm.set_options(opt);
 
+	// prepare gui for gradient based pupil capture
+	params = set_params(opt);
+	//setup_gui();
+
 	// GUI
 	//sg = Simple_gui(min(Fl::w() - 200, 1420), 180, 400, 600);
 	sg = Simple_gui(20, 60, 400, 600);
@@ -98,7 +103,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 3, 0);
 	sg.add_button("eye-cam", [&]() { eye_cam_controls.setup(eye_camera, 20, 20, 400, 400, "Eye-Camera Controls"); }, 3, 1);
 	sg.add_button("scene-cam", [&]() { scene_cam_controls.setup(scene_camera, 20, 20, 400, 400, "Scene-Camera Controls"); }, 3, 2);
-	sg.add_button("adjust pupil tracking", [&]() { if (!timm_gui_initialized) { setup_gui(); timm_gui_initialized = true; }; sg.show(); }, 1, 0);
+	sg.add_button("adjust pupil tracking", [&]() { setup_gui(); sg.show(); }, 1, 0);
 
 	/*
 	// TODO TODO TODO !!
@@ -109,10 +114,11 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	*/
 
 	sg.add_separator_box("3. eyetracker calibration & validation:");
-	sg.add_button("4-point", [&]() { calibration_counter = 0; state = STATE_CALIBRATION; }, 3, 0);
-	sg.add_button("todo (9pt)", [&]() { calibration_counter = 0; state = STATE_CALIBRATION; }, 3, 1);
-	sg.add_button("visualize", [&]() { calibration_counter = 0; state = STATE_CALIBRATION_VISUALIZE; }, 3, 2);
-	sg.add_button("validate", [&]() { validation_counter = 0; state = STATE_VALIDATION;  }, 1, 0);
+	sg.add_button("calibrate", [&]() { calibration_counter = 0; state = STATE_CALIBRATION; }, 4, 0);
+	//sg.add_button("todo (9pt)", [&]() { calibration_counter = 0; state = STATE_CALIBRATION; }, 3, 1);
+	sg.add_button("visualize", [&]() { calibration_counter = 0; state = STATE_CALIBRATION_VISUALIZE; }, 4, 1);
+	sg.add_button("validate", [&]() { validation_counter = 0; state = STATE_VALIDATION;  }, 4, 2, "check the calibration by testing additional points.");
+	sg.add_button("fix offset", [&]() { offset = offset_validation; }, 4, 3, "remove a potential systematic offset found after validation.");
 
 	sg.add_separator_box("jitter filter (double exponential filter)");
 	sg.add_slider("smoothing", filter_smoothing, 0, 1, 0.01);
@@ -134,7 +140,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 void Eyetracking_speller::draw_validation()
 {
 	using namespace cv;
-	auto sc = Point2f(0.5f*img_screen.cols, 0.5f*img_screen.rows);
+	auto sc = Point2f(0.5f*img_screen.cols, 0.5f*img_screen.rows); // screen center
 	int mb = ar_canvas.marker_size + ar_canvas.marker_border;
 
 	array<Point2f, 5> validation_targets = { Point2f(sc.x  , mb), Point2f(w - mb, sc.y), Point2f(sc.x, h - mb), Point2f(mb, sc.y), sc };
@@ -172,17 +178,24 @@ void Eyetracking_speller::draw_validation()
 		putText(img_screen, "Validation finished !", Point2i(mb + 20, sc.y - 50), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
 		// todo: print validation pixel error
 		float error = 0.0f;
+		offset_validation = Point2f(0.0f, 0.0f);
+
 		for (size_t i = 0; i < validation_targets.size(); i++)
 		{
 			p1 = validation_targets[i];
-			p2 = Point2f(validation_points(0, i), validation_points(1, i));
+			p2 = Point2f(validation_points(0, i), validation_points(1, i)) - offset;
 			circle(img_screen, p1, 20, Scalar(0, 240, 255), FILLED);
 			circle(img_screen, p2, 5, Scalar(255, 200, 0), FILLED);
 			line(img_screen, p1, p2, Scalar(255, 200, 0));
 			error += norm(p2 - p1);
+			offset_validation += p2 - p1;
 		}
-		error /= validation_targets.size();
-		putText(img_screen, "mean validation error:" + to_string(error), Point2i(mb + 20, sc.y - 10), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
+		offset_validation /= float(validation_targets.size());
+		error /= float(validation_targets.size());
+		auto str_offset = "(" + to_string(offset_validation.x) + ", " + to_string(offset_validation.y) + ")";
+
+		putText(img_screen, "mean validation error:" + to_string(error), Point2i(mb + 20, sc.y - 20), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
+		putText(img_screen, "mean offset (x,y)    :" + str_offset      , Point2i(mb + 20, sc.y + 20), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
 
 		ar_canvas.draw(img_screen, 0, 0, w, h);
 		// draw gaze point after coordinate transformation		
@@ -461,10 +474,8 @@ void Eyetracking_speller::update()
 		}
 	}
 
-#ifdef USE_FLTK_GUI
 	sg.update();
 	eye_cam_controls.update();
-#endif
 }
 
 
@@ -475,11 +486,25 @@ void Eyetracking_speller::run(enum_simd_variant simd_width)
 	eye_camera = select_camera("select eye camera number (0..n):");
 	scene_camera = select_camera("select scene camera number (0..n):");
 
+
+	cout << "\nto improve calibration results, the autofocus of both eye- and scene camera should be disabled.\n";
+	cout << "disable autofocus of both cameras (y/n):"; char c; cin >> c;
+	if (c == 'y')
+	{
+		eye_camera->set(cv::CAP_PROP_AUTOFOCUS, 0);
+		scene_camera->set(cv::CAP_PROP_AUTOFOCUS, 0);
+		cout << "\nautofocus disabled.\n";
+	}
+
 	setup(simd_width);
 
 	// main loop
 	while (is_running)
 	{
+		// for gui stuff
+		opt = set_options(params);
+		timm.set_options(opt);
+
 		update();
 		draw();
 

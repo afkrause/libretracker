@@ -23,7 +23,6 @@ protected:
 	unsigned int w_old = 0, h_old = 0;
 	double gui_param_w = w, gui_param_h = h;
 	double gui_param_marker_size = 100, gui_param_marker_threshold = 30;
-	bool timm_gui_initialized = false;
 
 	cv::Mat img_screen_background;
 	cv::Mat img_screen, frame_scene_cam, frame_scene_cam_scaled, frame_eye_cam, frame_eye_gray;
@@ -45,6 +44,12 @@ protected:
 	int calibration_counter = 0;
 	int validation_counter = 0;
 	int tracking_lost_counter = 0;
+	
+	// the offset that was measured during validation
+	cv::Point2f offset_validation{0.0f, 0.0f};
+	// the offset that will be used. this gives the user the option to set offset = offset_validation or leave it as calibrated
+	cv::Point2f offset{ 0.0f, 0.0f };
+
 	Timer timer{50};
 
 	int key_pressed = -1;
