@@ -46,7 +46,7 @@ protected:
 	};
 
 	using options_type = typename Timm_two_stage::options;
-	using params_type = typename array<double, 11>;
+	using params_type = array<double, 11>;
 
 	options_type decode_genom(Eigen::VectorXf params);
 	options_type load_parameters(enum_parameter_settings s);
