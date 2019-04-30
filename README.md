@@ -45,14 +45,12 @@ sudo dnf install boost-devel
 sudo apt-get install libeigen3-dev
 sudo apt-get install libfltk1.3-dev
 ```
-
-if you activate OpenCL support (see below), you also need to install:
+if you have a very recent distro, chances are good that you have OpenCV 3.x or newer. Then just install the OpenCV package:
 ```console
-sudo apt-get install libboost-all-dev
-sudo apt install ocl-icd-opencl-dev 
+sudo apt-get install libopencv-dev
 ```
+otherwise, try to compile your own OpenCV: 
 
-#### OpenCV: compile your own OpenCV, because the available OpenCV in the repositories is usually quite outdated. 
 ```console
 sudo apt install libgtk2.0-dev
 sudo apt install pkg-config
@@ -64,6 +62,13 @@ cmake-gui &
 ```
 now configure OpenCL using cmake-gui. Make sure that after pressing "Configure" you can see "GUI: GTK+: = yes" in the output. 
 next, press "Generate" and then build opencv using make -j4 . next: sudo make install.
+
+#### OpenCL Acceleration
+If you want to activate OpenCL acceleration (see below), you also need to install:
+```console
+sudo apt-get install libboost-all-dev
+sudo apt install ocl-icd-opencl-dev 
+```
 
 ## Checkout and Compiling 
 
