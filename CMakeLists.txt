@@ -20,19 +20,25 @@ endif ()
 
 
 ### define the required libraries ################
-find_package(OpenCV REQUIRED)
+
 
 # cmake doesnt know how to deal with Eigen3 under Windows, so search only under linux / unix for eigen 3...
 if (UNIX)
-    find_package(Eigen3)
+    find_package(OpenCV REQUIRED)
+	find_package(Eigen3 REQUIRED)
+	set(FLTK_SKIP_FLUID true)
+	find_package(FLTK REQUIRED)
 else ()
-	#set(EIGEN3_INCLUDE_DIR)
-	set(EIGEN3_INCLUDE_DIR "Default" CACHE STRING "please enter here the path to the eigen3 include directory")
+	# under windows, ask the user to enter the path to the headers and lib files.
+	set(OPENCV_INCLUDE_DIR "enter path" CACHE STRING "please enter here the path to the eigen3 include directory")
+	set(EIGEN3_INCLUDE_DIR "enter path" CACHE STRING "please enter here the path to the OpenCV include directory")
+	set(FLTK_INCLUDE_DIR "enter path" CACHE STRING "please enter here the path to the FLTK include directory")
+	
+	set(FLTK_LIBRARIES "enter path" CACHE STRING "please enter here the path to the FLTK library directory")
+	set(OpenCV_LIBS "enter path" CACHE STRING "please enter here the path to the OpenCV library directory")
 endif()
 
 
-set(FLTK_SKIP_FLUID true)
-find_package(FLTK REQUIRED)
 
 if (OPENCL_ENABLED)
 	find_package(Boost REQUIRED)
@@ -80,10 +86,12 @@ if (ARM_NEON_AVAILABLE)
 	add_compile_options("-mfpu=neon")
 endif()
 
-add_compile_options("-std=c++14")
-
 
 add_executable(libretracker ${SOURCES})
+
+# add_compile_options("-std=c++14")
+target_compile_features(libretracker PUBLIC cxx_std_14) # this is the better way
+
 
 target_link_libraries(libretracker ${FLTK_LIBRARIES} GL pthread ${OpenCV_LIBS})
 if (OPENCL_ENABLED)
