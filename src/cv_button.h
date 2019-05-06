@@ -1,22 +1,23 @@
 #pragma once
 // simple opencv based imgui Button
 
+inline bool is_inside(int x, int y, int w, int h, int mx, int my)
+{
+	if (mx >= x && my >= y && mx <= x + w && my <= y + h) { return true; }
+	else { return false; }
+	return false;
+}
+
+
 class Button
 {
 private:
-
-	bool is_inside(int x, int y, int w, int h, int mx, int my)
-	{
-		if ( mx >= x && my >= y && mx<= x+w && my <= y+h) { return true; }
-		else { return false; }
-		return false;
-	}
 	float was_inside = 0.0f;
 	float was_triggered = 0.0f;
 public:
 
 	// returns true of button was triggered
-	bool draw(cv::Mat& img, const int x, const int y, const int w, const int h, const int mx, const int my, bool& mouse_button_released, const std::string label)
+	bool draw(cv::Mat& img, const int x, const int y, const int w, const int h, const int mx, const int my, bool& mouse_button_released, const std::string label, cv::Scalar* color=nullptr)
 	{
 		using namespace cv;
 		using namespace std;
@@ -36,8 +37,15 @@ public:
 			}
 		}
 
-		// fade color depending on states
-		auto c = Scalar(0, 100+125*was_inside, 200 * was_triggered);
+		auto c = Scalar(0, 100 , 0);
+
+		if (color)
+		{
+			c = *color;
+		}
+
+		// fade color depending on states (copy constructor automatically saturates to 0 .. 255)
+		c = Scalar_<uchar>(c + Scalar(0, 125.0f * was_inside, 0) + Scalar(200.0f * was_triggered));
 
 
 		const float fade_speed = 0.96;

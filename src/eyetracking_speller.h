@@ -113,7 +113,7 @@ public:
 		cv::destroyAllWindows();
 	}
 
-	void run(enum_simd_variant simd_width);
+	void run(enum_simd_variant simd_width, int eye_cam_id = -1, int scenen_cam_id=-1);
 	void setup(enum_simd_variant simd_width);
 	void update();
 
@@ -128,6 +128,5 @@ public:
 	void draw_running();
 	void draw();
 
-
-
+	void set_mouse(int x, int y, bool eye_button_up_, bool eye_button_down_) { mx = x; my = y; eye_button_up = eye_button_up_; eye_button_down = eye_button_down_; }
 };

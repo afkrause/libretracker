@@ -3,7 +3,7 @@
 #include <random>
 
 
-void Pupil_tracking::run_webcam(enum_simd_variant simd_width)
+void Pupil_tracking::run_webcam(enum_simd_variant simd_width, int eye_cam_id)
 {
 	setup(simd_width);
 
@@ -18,9 +18,8 @@ void Pupil_tracking::run_webcam(enum_simd_variant simd_width)
 
 	cv::Mat frame;
 	cv::Mat frame_gray;
-
-	auto capture = select_camera();
-
+	
+	auto capture = select_camera(eye_cam_id);
 
 
 	opt = load_parameters(SETTINGS_LPW);
@@ -117,8 +116,9 @@ void Pupil_tracking::setup_gui()
 	sg.add_slider("number of threads", n_threads, 1, 16, 1);
 	sg.add_button("load defaults", [&]() {opt = load_parameters(SETTINGS_DEFAULT); params = set_params(opt); sg.update_widgets(); }, 3, 0);
 	sg.add_button("load LPW settings", [&]() {opt = load_parameters(SETTINGS_LPW); params = set_params(opt); sg.update_widgets(); }, 3, 1);
-	sg.add_button("quit", [&]() { is_running = false; }, 3, 2);
+	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 3, 2);
 	sg.finish();
+	sg.show();
 }
 
 
@@ -684,10 +684,22 @@ void Pupil_tracking::run_differential_evolution_optim(enum_simd_variant simd_wid
 }
 
 
-shared_ptr<Camera> Pupil_tracking::select_camera(string message)
+shared_ptr<Camera> Pupil_tracking::select_camera(int id, string message)
 {
+	// first try the provided id
+	shared_ptr<Camera> capture = nullptr;
+	if (id != -1)
+	{
+		capture = make_shared<Camera>(id);
+		if (capture->isOpened())
+		{
+			return capture;
+		}
+	}
+
+	// if that fails, start interactive selection dialog
 	cout << "\n=== Menu Camera Selection ===\n";
-#ifdef _WIN32
+	#ifdef _WIN32
 	{
 		DeviceEnumerator de;
 		// Video Devices
@@ -700,8 +712,7 @@ shared_ptr<Camera> Pupil_tracking::select_camera(string message)
 			std::cout << "id:" << device.first << " Name: " << device.second.deviceName << std::endl;
 		}
 	}
-#endif
-	shared_ptr<Camera> capture = nullptr;
+	#endif
 	while (true)
 	{
 		cout << message;

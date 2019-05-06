@@ -61,7 +61,7 @@ protected:
 
 
 	// generic opencv camera selection dialog
-	shared_ptr<Camera> select_camera(string message = "select video camera nr. (default=0):");
+	shared_ptr<Camera> select_camera(int id = -1, string message = "select video camera nr. (default=0):");
 
 
 	options_type opt;
@@ -94,7 +94,7 @@ public:
 	void setup_gui();
 
 	// capture from the usb webcam 
-	void run_webcam(enum_simd_variant simd_width);
+	void run_webcam(enum_simd_variant simd_width, int eye_cam_id = -1);
 
 	// evaluate the best parameter set over ALL images of the EXCUSE and ELSE dataset
 	// run tests on different datasets

@@ -188,6 +188,7 @@
     <ClInclude Include="..\src\cv_button.h" />
     <ClInclude Include="..\src\deps\cpu_features\cpu_x86.h" />
     <ClInclude Include="..\src\deps\dependencies.h" />
+    <ClInclude Include="..\src\deps\s\simple_gui_fltk.h" />
     <ClInclude Include="..\src\eyetracking_speller.h" />
     <ClInclude Include="..\src\opencl_kernel.h" />
     <ClInclude Include="..\src\speller_canvas.h" />

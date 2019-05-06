@@ -64,6 +64,21 @@ void Eyetracking_speller::calibrate()
 }
 
 
+static void mouse_callback(int event, int x, int y, int, void* user_data)
+{
+	using namespace cv;
+
+	Eyetracking_speller* ptr = static_cast<Eyetracking_speller*>(user_data);
+
+	bool eye_button_up = false, eye_button_down = false;
+
+	if (event == EVENT_LBUTTONUP) { eye_button_up = true; eye_button_down = false; }
+	if (event == EVENT_LBUTTONDOWN) { eye_button_down = true; eye_button_up = false; }
+
+	ptr->set_mouse(x, y, eye_button_up, eye_button_down);
+	cout << "mauspos: " << x << "\t" << y << endl;
+}
+
 void Eyetracking_speller::setup(enum_simd_variant simd_width)
 {
 	
@@ -126,14 +141,21 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 
 	sg.add_separator_box("4. run speller:");
 	sg.add_button("run speller", [&]() { state = STATE_RUNNING; }, 2, 0);
-	sg.add_button("quit", [&]() { is_running = false; }, 2, 1);
+	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 2, 1);
 	sg.finish();
+	sg.show();
+
+	namedWindow("eye_cam");
+	namedWindow("screen");
 
 	// place the main window to the right side of the options gui
-	resizeWindow("screen", w, h);
 	moveWindow("screen", 450, 60);
+	resizeWindow("screen", w, h);
 	
 	moveWindow("eye_cam", 20, 700);
+
+	// uncomment to simulate gaze using mouse 
+	cv::setMouseCallback("screen", mouse_callback, this);
 
 }
 
@@ -355,9 +377,13 @@ void Eyetracking_speller::draw()
 
 }
 
+
+
 void Eyetracking_speller::update()
 {
 	using namespace cv;
+
+
 
 	// update values that might have been changed via GUI sliders
 	gaze_filter_x.set_params(1.0 - filter_smoothing, filter_predictive);
@@ -374,22 +400,6 @@ void Eyetracking_speller::update()
 	ar_canvas.marker_size = round(gui_param_marker_size);
 	ar_canvas.marker_border = round(25.0f * ar_canvas.marker_size / 100.0f);
 
-
-	//namedWindow("eye_cam", WINDOW_AUTOSIZE);
-	//namedWindow("screen", WINDOW_AUTOSIZE);
-
-	/*
-	// simulate gaze point using mouse
-	auto cb_mouse = [&](int event, int x, int y, int flags, void* userdata)
-	{
-		mx = x;
-		my = y;
-		if (event == CV_EVENT_LBUTTONUP) { eye_button_up = true; eye_button_down = false; }
-		if (event == CV_EVENT_LBUTTONDOWN) { eye_button_down = true; eye_button_up = false; }
-		// cout << "mauspos: " << x << "\t" << y << endl; };
-	};
-	setMouseCallback("eye_cam", cb_mouse, nullptr);
-	*/
 
 	timer.tick();
 
@@ -414,12 +424,12 @@ void Eyetracking_speller::update()
 	ar_canvas.update(frame_scene_cam, p_calibrated);
 	p_projected = ar_canvas.p_projected;
 
+	// uncomment this to simulate gaze using the computer mouse
+	p_projected = Point2f(mx, my);
+
 	// jitter filter
 	p_projected.x = gaze_filter_x(p_projected.x);
 	p_projected.y = gaze_filter_y(p_projected.y);
-
-	mx = p_projected.x;
-	my = p_projected.y;
 
 
 	// ********************************************************
@@ -480,16 +490,17 @@ void Eyetracking_speller::update()
 
 
 
-void Eyetracking_speller::run(enum_simd_variant simd_width)
+void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int scene_cam_id)
 {
 	cv::setUseOptimized(true);
-	eye_camera = select_camera("select eye camera number (0..n):");
-	scene_camera = select_camera("select scene camera number (0..n):");
+	eye_camera = select_camera(eye_cam_id, "select eye camera number (0..n):");
+	scene_camera = select_camera(scene_cam_id, "select scene camera number (0..n):");
 
 
-	cout << "\nto improve calibration results, the autofocus of both eye- and scene camera should be disabled.\n";
-	cout << "disable autofocus of both cameras (y/n):"; char c; cin >> c;
-	if (c == 'y')
+	cout << "\nTo improve calibration results, the autofocus of both eye- and scene camera will be disabled.\n";
+	cout << "\n The autofocus can be turned on/off via the camera menu.";
+	//cout << "disable autofocus of both cameras (y/n):"; char c; cin >> c;
+	//if (c == 'y')
 	{
 		eye_camera->set(cv::CAP_PROP_AUTOFOCUS, 0);
 		scene_camera->set(cv::CAP_PROP_AUTOFOCUS, 0);
