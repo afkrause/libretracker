@@ -3,7 +3,7 @@
 #include <random>
 
 
-void Pupil_tracking::run_webcam(enum_simd_variant simd_width, int eye_cam_id)
+void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 {
 	setup(simd_width);
 

@@ -48,7 +48,7 @@ int debug_window_pos_x = 10;
 
 void main_menu(enum_simd_variant simd_width)
 {
-	Eyetracking_speller p;
+	
 
 PRINT_MENU:
 	cout << "\n=== Menu ===\n";
@@ -61,14 +61,22 @@ PRINT_MENU:
 	
 	cout << "enter selection:\n";
 	int sel = 0; cin >> sel;
+
+	auto f0 = [&]() {Pupil_tracking p; p.run(simd_width); };
+	auto f1 = [&]() {Eyetracking_speller p; p.run(simd_width); };
+	auto f2 = [&]() {Pupil_tracking p; p.run_lpw_test_all(simd_width); };
+	auto f3 = [&]() {Pupil_tracking p; p.run_swirski_test(simd_width); };
+	auto f4 = [&]() {Pupil_tracking p; p.run_excuse_test(simd_width); };
+	auto f5 = [&]() {Pupil_tracking p; p.run_differential_evolution_optim(simd_width); };
+
 	switch (sel)
 	{
-	case 0: p.run_webcam(simd_width); break;
-	case 1: p.run(simd_width); break;
-	case 2: p.run_lpw_test_all(simd_width); break;
-	case 3: p.run_swirski_test(simd_width); break;
-	case 4: p.run_excuse_test(simd_width); break;
-	case 5: p.run_differential_evolution_optim(simd_width); break;
+	case 0: f0(); break;
+	case 1: f1(); break;
+	case 2: f2(); break;
+	case 3: f3(); break;
+	case 4: f4(); break;
+	case 5: f5(); break;
 	default: cerr << "wrong input. please try again:" << endl; goto PRINT_MENU;
 	}
 }
@@ -101,87 +109,102 @@ int main( int argc, const char** argv )
 		if (true)
 		{
 			// use graphical gui to select program options
-			Simple_gui sg(150, 150, 400, 480,"Program Settings:");
-			
+			Simple_gui sg(150, 150, 400, 480, "Program Settings:");
+
 			enum_simd_variant simd_width = USE_NO_VEC;
 			sg.add_separator_box("Vectorization Level");
-			auto b0 = sg.add_radio_button("no vectorization", [&]() {simd_width = USE_NO_VEC; } );
-			
-			#ifdef _WIN32
-			auto b1 = sg.add_radio_button("128bit SSE OR ARM NEON", [&]() {simd_width = USE_VEC128; }); 
-			auto b2 = sg.add_radio_button("256bit AVX2", [&]() {simd_width = USE_VEC256; }); 
-			auto b3 = sg.add_radio_button("512bit AVX512", [&]() {simd_width = USE_VEC512; }); 
+			auto b0 = sg.add_radio_button("no vectorization", [&]() {simd_width = USE_NO_VEC; });
+
+#ifdef _WIN32
+			auto b1 = sg.add_radio_button("128bit SSE OR ARM NEON", [&]() {simd_width = USE_VEC128; });
+			auto b2 = sg.add_radio_button("256bit AVX2", [&]() {simd_width = USE_VEC256; });
+			auto b3 = sg.add_radio_button("512bit AVX512", [&]() {simd_width = USE_VEC512; });
 			// autodetect CPU capabilities
 			b0->value(true);
 			if (cpu_features.HW_SSE) { b0->value(false);  b1->value(true); }
 			if (cpu_features.HW_AVX && cpu_features.OS_AVX) { b1->value(false); b2->value(true); }
 			if (cpu_features.HW_AVX512_F && cpu_features.OS_AVX512) { b2->value(false);  b3->value(true); }
-			#endif
-			
+#endif
 
-			#ifdef __arm__
+
+#ifdef __arm__
 			auto b1 = sg.add_radio_button("128bit ARM NEON", [&]() {vectorization = USE_VEC128; });
 			b0->value(false); b1->value(true);
-			#endif
-			#ifdef OPENCL_ENABLED
+#endif
+#ifdef OPENCL_ENABLED
 			auto b4 = sg.add_radio_button("OpenCL", [&]() {vectorization = USE_OPENCL; });
-			#endif
+#endif
 
 			/////////////////
 			// TODO: create another menu to select the OpenCL accelerator (GPU / CPU / special hardware)
 			/////////////////
 
 
-			/////////////////
+			///////////////////////
 			// camera selection
 			int eye_cam_id = -1; int scene_cam_id = -1;
-			
-			#ifdef _WIN32
+			vector<string> str_video_devices;
+			for (int i = 0; i < 4; i++)
+			{
+				str_video_devices.push_back("Camera id:" + to_string(i));
+			}
+
+#ifdef _WIN32
 			DeviceEnumerator de;
 			// Video Devices
 			auto devices = de.getVideoDevicesMap();
-			if (devices.size() == 0) { std::cout << "no video devices detected.\n"; }
-
-			// Print information about the devices
-			vector<string> str_video_devices;
-			for (auto const& device : devices)
+			if (devices.size() == 0)
 			{
-				str_video_devices.push_back("id:" + to_string(device.first) + " Name: " + device.second.deviceName);
-				std::cout << str_video_devices.back() << std::endl;
+				std::cout << "No video devices detected using Windows Device Enumeration. you can still try to use a device by ID, only.\n";
 			}
-			sg.add_separator_box("Select the eye-camera:");
-			auto cb_eyecam = [&](uint i) {eye_cam_id = i; };
+			else
+			{
+				str_video_devices.clear();
+				for (auto const& device : devices)
+				{
+					str_video_devices.push_back("id:" + to_string(device.first) + " Name: " + device.second.deviceName);
+					std::cout << str_video_devices.back() << std::endl; // Print information about the devices			
+				}
+			}
+#endif			
+			sg.add_separator_box("Select the eye-camera:");			
 			for (int i = 0; i< str_video_devices.size();i++)
 			{
-				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&]() {cb_eyecam(i); } );
+				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {eye_cam_id = i; });
 				if (eye_cam_id == -1) { eye_cam_id = i; b->value(true); } // preselect
 			}
+
 			sg.add_separator_box("Select the scene-camera:");
-			auto cb_scenecam = [&](uint i) {scene_cam_id = i; };
 			for (int i = 0; i < str_video_devices.size(); i++)
 			{
-				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&]() {cb_scenecam(i); });
+				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {scene_cam_id = i; });
 				if(i==1) { scene_cam_id = 1; b->value(true); } // preselect
 			}
-
-			#else
-				for (int i =0; i<4; i++)
-				{
-					str_video_devices.push_back("Camera id:" << device.first << " Name: " << device.second.deviceName);
-					std::cout << str_video_devices.back() << std::endl;
-
-					sg.add_checkbox(str_video_devices.back().c_str());
-				}
-
-			#endif	
-
-
-			Eyetracking_speller p;
+			// end camera selection
+			///////////////////////
+			
 
 			bool is_running = true;
 			sg.add_separator_box("Start a Module:");
-			sg.add_button("Eyecam Pupil Tracking", [&]() { sg.hide(); Fl::check(); p.run_webcam(simd_width, eye_cam_id); is_running = false; });
-			sg.add_button("Eyetracking Speller", [&]() { sg.hide(); Fl::check(); p.run(simd_width, eye_cam_id, scene_cam_id); is_running = false; });
+			sg.add_button("Eyecam Pupil Tracking", [&]() 
+				{ 
+					sg.hide(); 
+					Fl::check(); 
+					Pupil_tracking p;
+					p.run(simd_width, eye_cam_id); 
+					is_running = false; 
+				});
+			
+			sg.add_button("Eyetracking Speller", [&]()
+				{ 
+					sg.hide(); 
+					Fl::check(); 
+					Eyetracking_speller p;
+					cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
+					p.run(simd_width, eye_cam_id, scene_cam_id); 
+					is_running = false; 
+				});
+
 
 			sg.finish();
 
