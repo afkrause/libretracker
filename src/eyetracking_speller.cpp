@@ -70,13 +70,17 @@ static void mouse_callback(int event, int x, int y, int, void* user_data)
 
 	Eyetracking_speller* ptr = static_cast<Eyetracking_speller*>(user_data);
 
+	/*
 	bool eye_button_up = false, eye_button_down = false;
 
 	if (event == EVENT_LBUTTONUP) { eye_button_up = true; eye_button_down = false; }
 	if (event == EVENT_LBUTTONDOWN) { eye_button_down = true; eye_button_up = false; }
+	*/
 
-	ptr->set_mouse(x, y, eye_button_up, eye_button_down);
-	cout << "mauspos: " << x << "\t" << y << endl;
+	//ptr->set_mouse(x, y, eye_button_up, eye_button_down);
+	ptr->set_mouse(x, y, false, false);
+	
+	if (event == EVENT_LBUTTONUP) { cout << "mauspos: " << x << "\t" << y << endl; }
 }
 
 void Eyetracking_speller::setup(enum_simd_variant simd_width)
@@ -340,7 +344,8 @@ void Eyetracking_speller::draw_running()
 	ar_canvas.draw(img_screen, 0, 0, w, h);
 	// ********************************************************
 	// draw keyboard and handle events
-	speller.draw_keyboard(img_screen, 0, mb, w, h - 2 * mb, mb, p_projected.x, p_projected.y, eye_button_up);
+	//speller.draw_keyboard(img_screen, 0, mb, w, h - 2 * mb, mb, p_projected.x, p_projected.y, eye_button_up);
+	speller.draw_keyboard_ssvep(img_screen, 0, mb, w, h - 2 * mb, mb, p_projected.x, p_projected.y, eye_button_up);
 
 	// draw gaze point after coordinate transformation		
 	circle(img_screen, p_projected, 8, Scalar(255, 0, 255), 4);

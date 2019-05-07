@@ -180,6 +180,7 @@
     <ClCompile Include="..\src\pupil_tracking.cpp" />
     <ClCompile Include="..\src\pupil_tracking.h" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\speller_canvas.cpp" />
     <ClCompile Include="..\src\timm.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -17,7 +17,7 @@ private:
 public:
 
 	// returns true of button was triggered
-	bool draw(cv::Mat& img, const int x, const int y, const int w, const int h, const int mx, const int my, bool& mouse_button_released, const std::string label, cv::Scalar* color=nullptr)
+	bool draw(cv::Mat& img, const int x, const int y, const int w, const int h, const int mx, const int my, bool& mouse_button_released, const std::string label, cv::Scalar button_color = cv::Scalar(0, 100, 0), cv::Scalar button_color_hoover = cv::Scalar(0, 225, 0))
 	{
 		using namespace cv;
 		using namespace std;
@@ -37,15 +37,11 @@ public:
 			}
 		}
 
-		auto c = Scalar(0, 100 , 0);
+		// fade color depending on states
+		auto c = button_color + button_color_hoover * was_inside + Scalar(200.0f * was_triggered);
 
-		if (color)
-		{
-			c = *color;
-		}
-
-		// fade color depending on states (copy constructor automatically saturates to 0 .. 255)
-		c = Scalar_<uchar>(c + Scalar(0, 125.0f * was_inside, 0) + Scalar(200.0f * was_triggered));
+		// saturate cast: copy constructor automatically saturates colors to 0 .. 255
+		c = Scalar_<uchar>(c);
 
 
 		const float fade_speed = 0.96;
