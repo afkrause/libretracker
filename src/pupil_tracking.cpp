@@ -2,6 +2,12 @@
 
 #include <random>
 
+void Pupil_tracking::setup(enum_simd_variant simd_width)
+{
+	timm.setup(simd_width);
+	is_running = true; // set to false to exit while loop
+}
+
 
 void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 {
@@ -19,7 +25,7 @@ void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 	cv::Mat frame;
 	cv::Mat frame_gray;
 	
-	auto capture = select_camera(eye_cam_id);
+	auto capture = select_camera("select the eye camera id:", eye_cam_id);
 
 
 	opt = load_parameters(SETTINGS_LPW);
@@ -684,7 +690,7 @@ void Pupil_tracking::run_differential_evolution_optim(enum_simd_variant simd_wid
 }
 
 
-shared_ptr<Camera> Pupil_tracking::select_camera(int id, string message)
+shared_ptr<Camera> Pupil_tracking::select_camera(string message, int id)
 {
 	// first try the provided id
 	shared_ptr<Camera> capture = nullptr;

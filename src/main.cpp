@@ -14,6 +14,10 @@
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif
 
+#include<SDL2/SDL_main.h>
+#pragma comment(lib, "SDL2/lib/x64/SDL2.lib")
+#pragma comment(lib, "SDL2/lib/x64/SDL2main.lib")
+
 #pragma comment(lib, "opencl_cu10/lib/x64/opencl.lib")
 
 #ifdef _WIN32
@@ -81,13 +85,15 @@ PRINT_MENU:
 	}
 }
 
-int main( int argc, const char** argv )
+
+
+int main(int argc, char* argv[])
 {
-
-
-
 	try
 	{
+		cout << "\n=== OpenCV Build Informations ===\n";
+		cout << cv::getBuildInformation() << endl;
+
 
 		/*
 		Eyetracking_speller<512> p;
@@ -121,9 +127,9 @@ int main( int argc, const char** argv )
 			auto b3 = sg.add_radio_button("512bit AVX512", [&]() {simd_width = USE_VEC512; });
 			// autodetect CPU capabilities
 			b0->value(true);
-			if (cpu_features.HW_SSE) { b0->value(false);  b1->value(true); }
-			if (cpu_features.HW_AVX && cpu_features.OS_AVX) { b1->value(false); b2->value(true); }
-			if (cpu_features.HW_AVX512_F && cpu_features.OS_AVX512) { b2->value(false);  b3->value(true); }
+			if (cpu_features.HW_SSE) { simd_width = USE_VEC128; b0->value(false);  b1->value(true); }
+			if (cpu_features.HW_AVX && cpu_features.OS_AVX) { simd_width = USE_VEC256; b1->value(false); b2->value(true); }
+			if (cpu_features.HW_AVX512_F && cpu_features.OS_AVX512) { simd_width = USE_VEC512; b2->value(false);  b3->value(true); }
 #endif
 
 

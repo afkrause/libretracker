@@ -11,6 +11,9 @@
 #include "pupil_tracking.h"
 #include "deps/dependencies.h"
 
+#include "deps/s/opencv_threaded_capture.h"
+
+#include <atomic>
 
 class Eyetracking_speller : public Pupil_tracking
 {
@@ -24,8 +27,14 @@ protected:
 	double gui_param_w = w, gui_param_h = h;
 	double gui_param_marker_size = 100, gui_param_marker_threshold = 30;
 
-	cv::Mat img_screen_background;
-	cv::Mat img_screen, frame_scene_cam, frame_scene_cam_scaled, frame_eye_cam, frame_eye_gray;
+	cv::Mat img_screen, img_screen_background;
+	cv::Mat frame_scene_cam, frame_scene_cam_scaled;
+	cv::Mat frame_eye_gray, frame_eye_cam;
+
+	
+	Threaded_capture thread_eyecam;
+	Threaded_capture thread_scenecam;
+	
 
 	options_type opt;
 
@@ -50,7 +59,7 @@ protected:
 	// the offset that will be used. this gives the user the option to set offset = offset_validation or leave it as calibrated
 	cv::Point2f offset{ 0.0f, 0.0f };
 
-	Timer timer{50};
+	//Timer timer{50};
 
 	int key_pressed = -1;
 
@@ -90,6 +99,9 @@ protected:
 	// if x or y = -1 then the image is centered along the x or y axis
 	void draw_scene_cam_to_screen(float scaling, int x = -1, int y = -1);
 
+	// special function for hybrid eyetracking+ssvep speller
+	void run_ssvep();
+
 public:
 	
 	// best suited for 4-point calibration
@@ -125,7 +137,7 @@ public:
 		// TODO !
 	}
 
-	void draw_running();
+	void draw_speller(bool ssvep=false);
 	void draw();
 
 	void set_mouse(int x, int y, bool eye_button_up_, bool eye_button_down_) { mx = x; my = y; eye_button_up = eye_button_up_; eye_button_down = eye_button_down_; }

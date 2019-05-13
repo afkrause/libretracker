@@ -1,5 +1,7 @@
 #include "eyetracking_speller.h"
 
+#include "deps/s/sdl_opencv.h"
+
 
 void Eyetracking_speller::calibrate()
 {
@@ -144,13 +146,19 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_slider("predictive", filter_predictive, 0, 1, 0.001);
 
 	sg.add_separator_box("4. run speller:");
-	sg.add_button("run speller", [&]() { state = STATE_RUNNING; }, 2, 0);
-	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 2, 1);
+	sg.add_button("run speller", [&]() { state = STATE_RUNNING; }, 1, 0);
+	sg.add_button("run ssvep+eyetracking speller", [&]() { run_ssvep(); }, 1, 0);
+	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 1, 0);
 	sg.finish();
 	sg.show();
 
+	//#ifndef HAVE_OPENGL
+	//if (flags & CV_WINDOW_OPENGL) CV_ERROR(CV_OpenGlNotSupported, "Library was built without OpenGL support");
+	//#else
+	//setOpenGlDrawCallback("windowName", glCallback);
+
 	namedWindow("eye_cam");
-	namedWindow("screen");
+	namedWindow("screen");// , WINDOW_OPENGL | WINDOW_AUTOSIZE);
 
 	// place the main window to the right side of the options gui
 	moveWindow("screen", 450, 60);
@@ -335,8 +343,7 @@ void Eyetracking_speller::draw_instructions()
 
 }
 
-
-void Eyetracking_speller::draw_running()
+void Eyetracking_speller::draw_speller(bool ssvep)
 {
 	using namespace cv;
 	int mb = ar_canvas.marker_size + ar_canvas.marker_border;
@@ -344,8 +351,14 @@ void Eyetracking_speller::draw_running()
 	ar_canvas.draw(img_screen, 0, 0, w, h);
 	// ********************************************************
 	// draw keyboard and handle events
-	//speller.draw_keyboard(img_screen, 0, mb, w, h - 2 * mb, mb, p_projected.x, p_projected.y, eye_button_up);
-	speller.draw_keyboard_ssvep(img_screen, 0, mb, w, h - 2 * mb, mb, p_projected.x, p_projected.y, eye_button_up);
+	if (ssvep)
+	{
+		speller.draw_keyboard_ssvep(img_screen, 0, mb, w, h - 2 * mb, mb, p_projected.x, p_projected.y, eye_button_up);
+	}
+	else
+	{
+		speller.draw_keyboard(img_screen, 0, mb, w, h - 2 * mb, mb, p_projected.x, p_projected.y, eye_button_up);
+	}
 
 	// draw gaze point after coordinate transformation		
 	circle(img_screen, p_projected, 8, Scalar(255, 0, 255), 4);
@@ -353,10 +366,9 @@ void Eyetracking_speller::draw_running()
 	// draw gaze point after calibration
 	circle(frame_scene_cam, p_calibrated, 4, Scalar(255, 0, 255), 2);
 
-	// imshow("scene_cam", frame_scene_cam);
+	// imshow("scene_cam", frame_scene_cam_copy);
 	float scaling = float(mb) / float(frame_scene_cam.rows);
 	draw_scene_cam_to_screen(scaling, -1, img_screen.rows - mb);
-	imshow("screen", img_screen);
 }
 
 void Eyetracking_speller::draw()
@@ -373,17 +385,20 @@ void Eyetracking_speller::draw()
 	case STATE_CALIBRATION: draw_calibration(); break;
 	case STATE_CALIBRATION_VISUALIZE: draw_calibration_vis(); break;
 	case STATE_VALIDATION:  draw_validation(); break;
-	case STATE_RUNNING:		draw_running(); break;
+	case STATE_RUNNING:		draw_speller(); break;
 		break;
 
 	default: break;
 
 	}
 
+	imshow("screen", img_screen);
+
 }
 
 
-
+// update function for all steps from camera setup, calibration, validation and single threaded speller
+// multithreaded eyetracking / speller use a different function
 void Eyetracking_speller::update()
 {
 	using namespace cv;
@@ -406,19 +421,18 @@ void Eyetracking_speller::update()
 	ar_canvas.marker_border = round(25.0f * ar_canvas.marker_size / 100.0f);
 
 
-	timer.tick();
+	//timer.tick();
 
-	scene_camera->read(frame_scene_cam);
 	eye_camera->read(frame_eye_cam);
+	scene_camera->read(frame_scene_cam);
 
-
+		
 	// ********************************************************
 	// get pupil position
-
 	cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
 	if (opt.blur > 0) { GaussianBlur(frame_eye_gray, frame_eye_gray, cv::Size(opt.blur, opt.blur), 0); }
-
 	std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
+	
 	timm.visualize_frame(frame_eye_gray, pupil_pos, pupil_pos_coarse);
 
 	// ********************************************************
@@ -430,7 +444,7 @@ void Eyetracking_speller::update()
 	p_projected = ar_canvas.p_projected;
 
 	// uncomment this to simulate gaze using the computer mouse
-	p_projected = Point2f(mx, my);
+	// p_projected = Point2f(mx, my);
 
 	// jitter filter
 	p_projected.x = gaze_filter_x(p_projected.x);
@@ -498,8 +512,8 @@ void Eyetracking_speller::update()
 void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int scene_cam_id)
 {
 	cv::setUseOptimized(true);
-	eye_camera = select_camera(eye_cam_id, "select eye camera number (0..n):");
-	scene_camera = select_camera(scene_cam_id, "select scene camera number (0..n):");
+	eye_camera = select_camera("select eye camera number (0..n):", eye_cam_id);
+	scene_camera = select_camera("select scene camera number (0..n):", scene_cam_id);
 
 
 	cout << "\nTo improve calibration results, the autofocus of both eye- and scene camera will be disabled.\n";
@@ -529,4 +543,110 @@ void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int 
 			break;
 		}
 	}
+}
+
+
+
+// multithreaded capture and rendering to ensure flicker stimuli are presented with the monitor refresh rate
+// separate blocking function with a while loop
+void Eyetracking_speller::run_ssvep()
+{
+
+	// todo hide all other windows 
+	cv::destroyAllWindows();
+	sg.hide();
+	
+	Sdl_opencv sdl;
+
+	
+	using namespace cv;
+
+	//////////////////////////////
+	// launch the capture thread
+	thread_eyecam.setup(eye_camera, "eyecam");
+	thread_scenecam.setup(scene_camera, "scncam");
+
+	cout << "waiting for the first video frames to arrive..";
+	// wait for frames to arrive
+	while (!(thread_eyecam.new_frame && thread_scenecam.new_frame)) { cout << "."; cv::waitKey(1); this_thread::sleep_for(150ms); }
+	cout << "\nthe first frame of both the eye- and scenecam has arrived.\n";
+	//////////////////////////////
+
+
+	
+	Timer timer0(500, "\nframe :"); // man duration of individual frames. for 60 Hz monitor refresh rate, it should be close to 16.66 ms
+	Timer timer1(500, "\nupdate:");
+	Timer timer2(500, "\nrender:");
+
+	while (true)
+	{
+		timer0.tick();
+		timer1.tick();
+
+		// process events
+		if (sdl.waitKey().sym == SDLK_ESCAPE) { break; }
+
+		// ********************************************************
+		// copy camera data from the capture threads
+		if (thread_scenecam.new_frame)
+		{
+			thread_scenecam.get_frame(frame_scene_cam);
+			thread_scenecam.new_frame = false;
+		}
+
+		// TODO: if the eye cam has a higher FPS than the render thread, the pupil center calculation should be in a separate thread !
+		if (thread_eyecam.new_frame)
+		{
+			thread_eyecam.get_frame(frame_eye_cam);
+			thread_eyecam.new_frame = false;
+
+			// ********************************************************
+			// get pupil position
+			cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
+			if (opt.blur > 0) { GaussianBlur(frame_eye_gray, frame_eye_gray, cv::Size(opt.blur, opt.blur), 0); }
+			std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
+
+			// ********************************************************
+			// map pupil position to scene camera position using calibrated 2d to 2d mapping
+			p_calibrated = mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
+		}
+
+		// ********************************************************
+		ar_canvas.update(frame_scene_cam, p_calibrated);
+		p_projected = ar_canvas.p_projected;
+
+		// uncomment this to simulate gaze using the computer mouse
+		//p_projected = Point2f(mx, my);
+
+		// jitter filter
+		p_projected.x = gaze_filter_x(p_projected.x);
+		p_projected.y = gaze_filter_y(p_projected.y);
+		timer1.tock();
+
+
+		
+		
+		// render part
+		timer2.tick();
+		img_screen_background.copyTo(img_screen);
+		draw_speller(true);
+		timer2.tock();
+
+		
+		// draw to screen (vsynced flip) 
+		sdl.imshow(img_screen,100,100);
+		auto dt = timer0.tock();
+		if (dt > 0.025)
+		{
+			cout << "\nslow frame. dt = " << dt;
+		}
+	}
+
+
+	thread_scenecam.stop();
+	thread_eyecam.stop();
+	sg.show();
+
+	// todo restore all other windows 
+
 }

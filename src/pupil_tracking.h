@@ -9,6 +9,7 @@
 #include "timm_two_stage.h"
 
 
+#include <atomic>
 
 class Pupil_tracking
 {
@@ -61,13 +62,15 @@ protected:
 
 
 	// generic opencv camera selection dialog
-	shared_ptr<Camera> select_camera(int id = -1, string message = "select video camera nr. (default=0):");
+	// if provided an camera id != -1, it tries to open this id. 
+	// if that fails, the selection dialog is presented (win32: including a list of available cameras)
+	shared_ptr<Camera> select_camera(string message = "select video camera nr. (default=0):", int id = -1);
 
 
 	options_type opt;
 	array<double, 11> params;
 	array<bool, 4> debug_toggles{ false,false, false,false };
-	bool is_running = true; // set to false to exit while loop
+	std::atomic<bool> is_running; // must be atomic because it is later used to exit the asynchronous capture thread
 	double n_threads = 1;
 	
 	Simple_gui sg;
@@ -76,10 +79,7 @@ public:
 
 	//void setup_gui();
 
-	void setup(enum_simd_variant simd_width)
-	{
-		timm.setup(simd_width);
-	}
+	void setup(enum_simd_variant simd_width);
 
 	void update()
 	{
