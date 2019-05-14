@@ -1,5 +1,10 @@
 # Libretracker: Libre, Free and Open-Source Eyetracking Software
 
+qick hint: Libretracker depends on submodules. recursively clone the project:
+```console
+git clone --recursive https://github.com/afkrause/libretracker.git
+```
+
 ## License
 This Software is licensed under the GPL 3. You can use it commercially, but you MUST make sure that end users have the freedom to run, study, share and modify the software. This means you have to release all of your code, tools and dependencies necessary to build your software if you use code from this Libretracker. For details see https://www.gnu.org/licenses/gpl-3.0.en.html , for a quick guide read https://www.gnu.org/licenses/quick-guide-gplv3.html .
 
@@ -77,15 +82,12 @@ sudo apt install ocl-icd-opencl-dev
 git clone --recursive https://github.com/afkrause/libretracker.git
 ```
 
-
-
-
 ### 2. Use cmake or open the visual studio or codelite project. 
 
 switch to the Libretracker base directory. Now type:
 ```console
-cmake .
-make
+cmake . -DCMAKE_BUILD_TYPE=Release
+make -j4
 ```
 
 ### 3. try to enable OpenCL 
@@ -95,7 +97,7 @@ To enable OpenCL acceleration, either set the OpenCL option using cmake or defin
 
 ```console
 rm CMakeCache.txt
-cmake -DOPENCL_ENABLED=ON .
+cmake . -DOPENCL_ENABLED=ON -DCMAKE_BUILD_TYPE=Release
 make
 ```
 
