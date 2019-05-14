@@ -138,7 +138,7 @@ int main(int argc, char* argv[])
 			b0->value(false); b1->value(true);
 #endif
 #ifdef OPENCL_ENABLED
-			auto b4 = sg.add_radio_button("OpenCL", [&]() {vectorization = USE_OPENCL; });
+			auto b4 = sg.add_radio_button("OpenCL", [&]() {simd_width = USE_OPENCL; });
 #endif
 
 			/////////////////
