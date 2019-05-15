@@ -94,29 +94,60 @@ void Opencl_kernel::prepare_data_tmp(compute::image2d& img_out_device, const cv:
 
 }
 
+
+#include "deps/s/simple_gui_fltk.h"
+
 void Opencl_kernel::menu_select_device()
 {
 	using namespace std;
 	auto devices_list = compute::system::devices();
 
-	while (true)
+
+	if (true) // if fltk is available, build a selection menu for the opencl device
 	{
-		cout << "\n=== Menu: Opencl Device Selection ===\n";
-		cout << "select an OpenCL device:\n";
-		for (size_t i = 0; i < devices_list.size(); i++)
+		Simple_gui sg(50, 50, 400, 100 + 25 * devices_list.size(), "== OpenCL Device Selection ==");
+		sg.add_separator_box("Select the OpenCL Device:");
+		vector<string> device_names; for (auto& d : devices_list) { device_names.push_back(d.name()); };
+		for (int i = 0; i < devices_list.size(); i++)
 		{
-			cout << "[" << i << "] " << devices_list[i].name() << "\n";
+			auto b = sg.add_radio_button(device_names[i].c_str(), [&, i]() { gpu = devices_list[i]; });
+			if (i == 0)
+			{
+				b->value(true);
+				gpu = devices_list[i];
+			} // simply select the first entry.. (until a better heuristic is known)
 		}
-		cout << "enter selection:\n";
-		int sel = 0; cin >> sel;
-		if (sel >= 0 && sel < int(devices_list.size()))
+		bool is_running = true;
+		sg.add_button("OK", [&]() {is_running = false; });
+		sg.finish();
+		while (is_running)
 		{
-			gpu = devices_list[sel];
-			break;
+			Fl::check();
+			Fl::wait(0.1);
 		}
-		else
+		sg.hide();
+	}
+	else
+	{
+		while (true)
 		{
-			cerr << "wrong input. please try again:" << endl;
+			cout << "\n=== Menu: Opencl Device Selection ===\n";
+			cout << "select an OpenCL device:\n";
+			for (size_t i = 0; i < devices_list.size(); i++)
+			{
+				cout << "[" << i << "] " << devices_list[i].name() << "\n";
+			}
+			cout << "enter selection:\n";
+			int sel = 0; cin >> sel;
+			if (sel >= 0 && sel < int(devices_list.size()))
+			{
+				gpu = devices_list[sel];
+				break;
+			}
+			else
+			{
+				cerr << "wrong input. please try again:" << endl;
+			}
 		}
 	}
 

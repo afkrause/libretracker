@@ -115,31 +115,39 @@ int main(int argc, char* argv[])
 		if (true)
 		{
 			// use graphical gui to select program options
-			Simple_gui sg(150, 150, 400, 480, "Program Settings:");
+			Simple_gui sg(150, 150, 400, 550, "== Program Settings ==");
 
 			enum_simd_variant simd_width = USE_NO_VEC;
-			sg.add_separator_box("Vectorization Level");
-			auto b0 = sg.add_radio_button("no vectorization", [&]() {simd_width = USE_NO_VEC; });
+			sg.add_separator_box("Vectorization Level:");
+			auto button = sg.add_radio_button("no vectorization", [&]() {simd_width = USE_NO_VEC; });
+			auto button_to_set_select = button;
+			
+			#ifdef _WIN32
+			button = sg.add_radio_button("128bit SSE OR ARM NEON", [&]() {simd_width = USE_VEC128; });
+			if (cpu_features.HW_SSE) { simd_width = USE_VEC128; button_to_set_select = button; }
+			
+			button = sg.add_radio_button("256bit AVX2", [&]() {simd_width = USE_VEC256; });
+			if (cpu_features.HW_AVX && cpu_features.OS_AVX) { simd_width = USE_VEC256; button_to_set_select = button; }
+			
+			button = sg.add_radio_button("512bit AVX512", [&]() {simd_width = USE_VEC512; });
+			if (cpu_features.HW_AVX512_F && cpu_features.OS_AVX512) { simd_width = USE_VEC512; button_to_set_select = button; }
+			#endif
 
-#ifdef _WIN32
-			auto b1 = sg.add_radio_button("128bit SSE OR ARM NEON", [&]() {simd_width = USE_VEC128; });
-			auto b2 = sg.add_radio_button("256bit AVX2", [&]() {simd_width = USE_VEC256; });
-			auto b3 = sg.add_radio_button("512bit AVX512", [&]() {simd_width = USE_VEC512; });
-			// autodetect CPU capabilities
-			b0->value(true);
-			if (cpu_features.HW_SSE) { simd_width = USE_VEC128; b0->value(false);  b1->value(true); }
-			if (cpu_features.HW_AVX && cpu_features.OS_AVX) { simd_width = USE_VEC256; b1->value(false); b2->value(true); }
-			if (cpu_features.HW_AVX512_F && cpu_features.OS_AVX512) { simd_width = USE_VEC512; b2->value(false);  b3->value(true); }
-#endif
 
+			#ifdef __arm__
+			button = sg.add_radio_button("128bit ARM NEON", [&]() {vectorization = USE_VEC128; });
+			simd_width = USE_VEC128;
+			button_to_set_select = button;
+			#endif
 
-#ifdef __arm__
-			auto b1 = sg.add_radio_button("128bit ARM NEON", [&]() {vectorization = USE_VEC128; });
-			b0->value(false); b1->value(true);
-#endif
-#ifdef OPENCL_ENABLED
-			auto b4 = sg.add_radio_button("OpenCL", [&]() {simd_width = USE_OPENCL; });
-#endif
+			#ifdef OPENCL_ENABLED
+			button = sg.add_radio_button("OpenCL", [&]() {simd_width = USE_OPENCL; });
+			simd_width = USE_OPENCL;
+			button_to_set_select = button;
+			#endif
+
+			button_to_set_select->value(true);
+
 
 			/////////////////
 			// TODO: create another menu to select the OpenCL accelerator (GPU / CPU / special hardware)
@@ -148,6 +156,30 @@ int main(int argc, char* argv[])
 
 			///////////////////////
 			// camera selection
+			auto preview_cam = [&](int id)
+			{
+				try
+				{
+					using namespace cv;
+					auto capture = VideoCapture(id);
+					const int n_frames = 200;
+					cv::Mat img;
+					if (capture.isOpened())
+					{
+
+						for (int i = 0; i < 200; i++)
+						{
+							capture.read(img);
+							imshow("camera_preview", img);
+							if (cv::waitKey(1) != -1) { break; }
+						}
+					}
+					capture.release();
+					cv::destroyWindow("camera_preview");
+				}
+				catch (exception & e) { cerr << "\n error previewing camera output: " << e.what(); }
+			};
+
 			int eye_cam_id = -1; int scene_cam_id = -1;
 			vector<string> str_video_devices;
 			for (int i = 0; i < 4; i++)
@@ -155,7 +187,7 @@ int main(int argc, char* argv[])
 				str_video_devices.push_back("Camera id:" + to_string(i));
 			}
 
-#ifdef _WIN32
+			#ifdef _WIN32
 			DeviceEnumerator de;
 			// Video Devices
 			auto devices = de.getVideoDevicesMap();
@@ -172,13 +204,15 @@ int main(int argc, char* argv[])
 					std::cout << str_video_devices.back() << std::endl; // Print information about the devices			
 				}
 			}
-#endif			
+			#endif			
+
 			sg.add_separator_box("Select the eye-camera:");			
 			for (int i = 0; i< str_video_devices.size();i++)
 			{
 				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {eye_cam_id = i; });
 				if (eye_cam_id == -1) { eye_cam_id = i; b->value(true); } // preselect
 			}
+			sg.add_button("preview camera", [&]() {preview_cam(eye_cam_id); }, 1, 0);
 
 			sg.add_separator_box("Select the scene-camera:");
 			for (int i = 0; i < str_video_devices.size(); i++)
@@ -186,30 +220,31 @@ int main(int argc, char* argv[])
 				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {scene_cam_id = i; });
 				if(i==1) { scene_cam_id = 1; b->value(true); } // preselect
 			}
+			sg.add_button("preview camera", [&]() {preview_cam(scene_cam_id); }, 1, 0);
 			// end camera selection
 			///////////////////////
 			
 
 			bool is_running = true;
 			sg.add_separator_box("Start a Module:");
-			sg.add_button("Eyecam Pupil Tracking", [&]() 
-				{ 
-					sg.hide(); 
-					Fl::check(); 
-					Pupil_tracking p;
-					p.run(simd_width, eye_cam_id); 
-					is_running = false; 
-				});
+			sg.add_button("Eyecam Pupil-Tracking", [&]() 
+			{ 
+				sg.hide(); 
+				Fl::check(); 
+				Pupil_tracking p;
+				p.run(simd_width, eye_cam_id); 
+				is_running = false; 
+			});
 			
-			sg.add_button("Eyetracking Speller", [&]()
-				{ 
-					sg.hide(); 
-					Fl::check(); 
-					Eyetracking_speller p;
-					cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
-					p.run(simd_width, eye_cam_id, scene_cam_id); 
-					is_running = false; 
-				});
+			sg.add_button("Eyetracking - Speller", [&]()
+			{ 
+				sg.hide(); 
+				Fl::check(); 
+				Eyetracking_speller p;
+				cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
+				p.run(simd_width, eye_cam_id, scene_cam_id); 
+				is_running = false; 
+			});
 
 
 			sg.finish();

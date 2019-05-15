@@ -1,6 +1,11 @@
 # Libretracker: Libre, Free and Open-Source Eyetracking Software
 
-qick hint: Libretracker depends on submodules. recursively clone the project:
+quick download 64bit windows-executable: 
+http://andre-krause.de/libretracker/Libretracker_20190515.zip
+SHA1: a856a590533df9795b333c2a85eb82f197ce9589
+SHA3_512: 5b95d139c696642973d94739ff63ad3684582a61554a8b120c769a48c7e030506b5357469a29a88c6b7e3003eac5fd76836306b551e3f55145a4f28ec066a4c2
+
+qick build hint: Libretracker depends on submodules. recursively clone the project:
 ```console
 git clone --recursive https://github.com/afkrause/libretracker.git
 ```

@@ -144,7 +144,7 @@ public:
 			draw_cross(frame_color, *ground_truth_pos, 7, cv::Scalar(255, 0, 255));
 		}
 
-		cv::imshow("Timm's algorithm: two-stage gradient based dark pupil tracking", frame_color);
+		cv::imshow("eye_cam", frame_color);
 	}
 
 

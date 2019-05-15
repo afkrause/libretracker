@@ -72,7 +72,7 @@ protected:
 public:
 	int n_threads = 1;
 	// for displaying debug images
-	string debug_window_name = "Timm's algorithm";
+	string debug_window_name = "debug_window";
 	array<bool, 4> debug_toggles{ false, false, false , false };
 
 
