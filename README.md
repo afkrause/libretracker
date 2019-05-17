@@ -1,6 +1,6 @@
-# Libretracker: Libre, Free and Open-Source Eyetracking Software
+# Libretracker: Libre, Free and Open-Source Eyetracking
 
-## MENU: [License](#downloads) | [Compiling](#compiling) | [Documentation](#documentation)
+## Menu: [Downloads](#downloads) | [Compiling](#compiling) | [Documentation](#documentation) | [DIY Hardware](#hardware)
 
 ## Introduction
 Libretracker is a free and open-source software for tracking your eye-movements using one ore more head-mounted webcams. 
@@ -127,5 +127,30 @@ The Userinterface allows to perform calibration, validation and running a module
 ![Screenshot](documentation/images/screenshot01.png)
 
 
+
+## Hardware
+
+A slip-free and very comfortable way to mount the eye- and scene-cameras  is to use a head-band for welding / gardening tasks.
+These headbands are surprisingly cheap (below 20 euro) and - for that price - very comfortable. 
+
+Here is the very first prototype:
+![Prototype 01](documentation/images/headmount_proto_01.png)
+
+TODO picture of Headmount Version 01 
+
+We greatly thank Javier Skorupski for designing the 3d printable part for mounting the camera to the headband. 
+If you like, Please drop him an email to thank him ! javier.skorupski@hsrw.org
+
+Downloads:
+http://andre-krause.de/libretracker/arm__javier_skorupski.stl
+http://andre-krause.de/libretracker/connector__javier_skorupski.stl
+http://andre-krause.de/libretracker/arm_and_connector__javier_skorupski.f3d
+http://andre-krause.de/libretracker/arm_and_connector__javier_skorupski.iges
+
+![Connector](documentation/images/camera_mount_connector.png)
+
+![Headband Arm](documentation/images/camera_mount_headband_arm_01.png)
+
+![Headband Arm](documentation/images/camera_mount_headband_arm_02.png)
 
 
