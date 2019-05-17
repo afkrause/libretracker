@@ -130,6 +130,15 @@ The Userinterface allows to perform calibration, validation and running a module
 
 ## Hardware
 
+### Eye - Camera
+We are still trying to find a tiny eye-camera with >= 60Hz. If you have a tip, please send a mail to post@andre-krause.net . 
+For now, we are using a 30 Hz infrared Delock webcam that cost around 50 euro:
+
+![Delock Infrared Camera](documentation/images/delock_camera.png)
+
+* https://www.reichelt.de/kameramodul-usb-5-mp-ir-48-v5-fixfokus-delock-96371-p176586.html?&trstct=pos_10
+* https://www.reichelt.de/anschlusskabel-fuer-v5-kameramodule-1-5-m-5-polig-delock-95985-p160365.html?&trstct=pos_1
+
 A slip-free and very comfortable way to mount the eye- and scene-cameras  is to use a head-band for welding / gardening tasks.
 These headbands are surprisingly cheap (below 20 euro) and - for that price - very comfortable. 
 
