@@ -142,10 +142,10 @@ We greatly thank Javier Skorupski for designing the 3d printable part for mounti
 If you like, Please drop him an email to thank him ! javier.skorupski@hsrw.org
 
 Downloads:
-http://andre-krause.de/libretracker/arm__javier_skorupski.stl
-http://andre-krause.de/libretracker/connector__javier_skorupski.stl
-http://andre-krause.de/libretracker/arm_and_connector__javier_skorupski.f3d
-http://andre-krause.de/libretracker/arm_and_connector__javier_skorupski.iges
+* http://andre-krause.de/libretracker/arm__javier_skorupski.stl
+* http://andre-krause.de/libretracker/connector__javier_skorupski.stl
+* http://andre-krause.de/libretracker/arm_and_connector__javier_skorupski.f3d
+* http://andre-krause.de/libretracker/arm_and_connector__javier_skorupski.iges
 
 ![Connector](documentation/images/camera_mount_connector.png)
 
