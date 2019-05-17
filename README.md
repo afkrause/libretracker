@@ -1,7 +1,31 @@
 # Libretracker: Libre, Free and Open-Source Eyetracking Software
 
-quick download 64bit windows-executable: 
-http://andre-krause.de/libretracker/Libretracker_20190515.zip
+## MENU: [License](#downloads) | [Compiling](#compiling) | [Documentation](#documentation)
+
+## Introduction
+Libretracker is a free and open-source software for tracking your eye-movements using one ore more head-mounted webcams. 
+It uses OpenCV to capture the scene-camera and eye-camera videostreams.
+Hence, you can use any UVC compliant Webcam.
+It is important to disable the autofocus of both the eye- and scene camera using the built-in camera settings. 
+Otherwise, calibration won't work properly.
+A problem  is the poor standardisation among UVC webcams.
+For some cameras the OpenCV based camera controls might work, for others they might fail. 
+
+tested, working cameras:
+
+cameras of a usual DIY Pupil Labs Eyetracker: https://docs.pupil-labs.com/#diy
+* Microsoft Lifecam HD 6000
+* Logitech HD Webcam C615
+
+other cameras:
+* Logitech QuickCam Pro 9000
+
+
+## License
+This Software is licensed under the GPL 3. You can use it commercially, but you MUST make sure that end users have the freedom to run, study, share and modify the software. This means you have to release all of your code, tools and dependencies necessary to build your software if you use code from this Libretracker. For details see https://www.gnu.org/licenses/gpl-3.0.en.html , for a quick guide read https://www.gnu.org/licenses/quick-guide-gplv3.html .
+
+## Downloads 
+64bit windows-executable:  http://andre-krause.de/libretracker/Libretracker_20190515.zip
 ```console
 Libretracker_20190515.zip
 SHA1: a856a590533df9795b333c2a85eb82f197ce9589
@@ -12,31 +36,12 @@ qick build hint: Libretracker depends on submodules. recursively clone the proje
 git clone --recursive https://github.com/afkrause/libretracker.git
 ```
 
-## License
-This Software is licensed under the GPL 3. You can use it commercially, but you MUST make sure that end users have the freedom to run, study, share and modify the software. This means you have to release all of your code, tools and dependencies necessary to build your software if you use code from this Libretracker. For details see https://www.gnu.org/licenses/gpl-3.0.en.html , for a quick guide read https://www.gnu.org/licenses/quick-guide-gplv3.html .
 
-## Dependencies
+## Compiling
+
 This Eyetracking Software requires only a few dependencies: OpenCV, Eigen and the Fast Light Toolkit (FLK).
 If you activate OpenCL support, you also need the header-only library https://github.com/boostorg/compute and boost.
 
-Libretracker uses OpenCV to capture the scene-camera and eye-camera videostreams.
-Hence, you can use any UVC compliant Webcam.
-
-It is important to disable the autofocus of both the eye- and scene camera using the built-in camera settings. 
-Otherwise, calibration won't work properly. 
-The problem here is the poor standardisation among UVC webcams. For some cameras the OpenCV based camera controls might work, for others they might fail. 
-
-working cameras:
-
-cameras of a usual DIY Pupil Labs Eyetracker: https://docs.pupil-labs.com/#diy
-* Microsoft Lifecam HD 6000
-* Logitech HD Webcam C615
-
-other cameras:
-* Logitech QuickCam Pro 9000
-
-
-## Compiling / installing prerequisites
 
 ### Fedora or similiar Linux Distros:
 ```console
@@ -113,7 +118,7 @@ Fedora: you can easily install the codelite C++ IDE using: "sudo dnf install cod
 Other distros: you might need to grab the corresponding package from https://codelite.org/ .
 
 
-## User Documentation
+## Documentation
 
 (TODO!)
 
