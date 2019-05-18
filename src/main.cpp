@@ -135,7 +135,7 @@ int main(int argc, char* argv[])
 
 
 			#ifdef __arm__
-			button = sg.add_radio_button("128bit ARM NEON", [&]() {vectorization = USE_VEC128; });
+			button = sg.add_radio_button("128bit ARM NEON", [&]() { simd_width = USE_VEC128; });
 			simd_width = USE_VEC128;
 			button_to_set_select = button;
 			#endif

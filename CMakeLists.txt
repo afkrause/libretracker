@@ -95,7 +95,7 @@ endif()
 add_executable(libretracker ${SOURCES})
 
 # add_compile_options("-std=c++14")
-target_compile_features(libretracker PUBLIC cxx_std_14) # this is the better way
+# target_compile_features(libretracker PUBLIC cxx_std_14) # this is the better way
 
 target_link_libraries(libretracker ${FLTK_LIBRARIES} GL pthread ${OpenCV_LIBS} ${SDL2_LIBRARIES})
 if (OPENCL_ENABLED)
