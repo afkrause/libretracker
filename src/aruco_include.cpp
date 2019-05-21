@@ -1,5 +1,3 @@
-#pragma once
-
 #include "deps/aruco/cameraparameters.cpp"
 #include "deps/aruco/cvdrawingutils.cpp"
 #include "deps/aruco/dictionary.cpp"

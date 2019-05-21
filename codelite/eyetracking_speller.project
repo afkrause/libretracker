@@ -8,6 +8,9 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="../src/deps/s/sdl_opencv.cpp"/>
+    <File Name="../src/speller_canvas.cpp"/>
+    <File Name="../src/deps/s/opencv_threaded_capture.cpp"/>
     <File Name="../src/deps/s/cv_camera_control.cpp"/>
     <File Name="../src/deps/s/simple_gui_fltk.cpp"/>
     <File Name="../src/aruco_canvas.h"/>
@@ -48,6 +51,7 @@
       </Compiler>
       <Linker Options="" Required="yes">
         <Library Value="opencv_world"/>
+        <Library Value="SDL2"/>
         <Library Value="pthread"/>
         <Library Value="fltk"/>
         <Library Value="fltk_gl"/>
@@ -99,6 +103,7 @@
       </Compiler>
       <Linker Options="" Required="yes">
         <Library Value="opencv_world"/>
+        <Library Value="SDL2"/>
         <Library Value="pthread"/>
         <Library Value="fltk"/>
         <Library Value="fltk_gl"/>
@@ -156,6 +161,7 @@
       </Compiler>
       <Linker Options="" Required="yes">
         <Library Value="pthread"/>
+        <Library Value="SDL2"/>
         <Library Value="fltk"/>
         <Library Value="fltk_gl"/>
         <Library Value="GL"/>

@@ -161,21 +161,20 @@ int main(int argc, char* argv[])
 				try
 				{
 					using namespace cv;
-					auto capture = VideoCapture(id);
-					const int n_frames = 200;
 					cv::Mat img;
+					const int n_frames = 200;
+					auto capture = VideoCapture(id);					
 					if (capture.isOpened())
 					{
-
 						for (int i = 0; i < 200; i++)
 						{
 							capture.read(img);
 							imshow("camera_preview", img);
-							if (cv::waitKey(1) != -1) { break; }
+							if (waitKey(1) == 27) { break; }
 						}
 					}
 					capture.release();
-					cv::destroyWindow("camera_preview");
+					destroyWindow("camera_preview");
 				}
 				catch (exception & e) { cerr << "\n error previewing camera output: " << e.what(); }
 			};
