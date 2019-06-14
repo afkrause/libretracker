@@ -3,6 +3,15 @@
 #include "deps/s/sdl_opencv.h"
 
 
+// helper function. when pressing a button in the fltk gui, 
+// calling this function grabs the focus of the specified opencv window
+void grab_focus(char* wname)
+{
+	cv::destroyWindow(wname); cv::namedWindow(wname);
+}
+
+
+
 void Eyetracking_speller::calibrate()
 {
 	using namespace Eigen;
@@ -85,6 +94,8 @@ static void mouse_callback(int event, int x, int y, int, void* user_data)
 	if (event == EVENT_LBUTTONUP) { cout << "mauspos: " << x << "\t" << y << endl; }
 }
 
+
+
 void Eyetracking_speller::setup(enum_simd_variant simd_width)
 {
 	
@@ -133,12 +144,12 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_button("eye camera", [&]() { state = STATE_CALIBRATION_EYE_CAM; }, 3, 1);
 	sg.add_button("save", [&]() {}, 3, 2);
 	*/
-
+	
 	sg.add_separator_box("3. eyetracker calibration & validation:");
-	sg.add_button("calibrate", [&]() { calibration_counter = 0; state = STATE_CALIBRATION; }, 4, 0);
+	sg.add_button("calibrate", [&]() { grab_focus("screen"); calibration_counter = 0; state = STATE_CALIBRATION; }, 4, 0);
 	//sg.add_button("todo (9pt)", [&]() { calibration_counter = 0; state = STATE_CALIBRATION; }, 3, 1);
 	sg.add_button("visualize", [&]() { calibration_counter = 0; state = STATE_CALIBRATION_VISUALIZE; }, 4, 1);
-	sg.add_button("validate", [&]() { validation_counter = 0; state = STATE_VALIDATION;  }, 4, 2, "check the calibration by testing additional points.");
+	sg.add_button("validate", [&]() { grab_focus("screen");  validation_counter = 0; state = STATE_VALIDATION;  }, 4, 2, "check the calibration by testing additional points.");
 	sg.add_button("fix offset", [&]() { offset = offset_validation; }, 4, 3, "remove a potential systematic offset found after validation.");
 
 	sg.add_separator_box("jitter filter (double exponential filter)");
@@ -146,7 +157,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_slider("predictive", filter_predictive, 0, 1, 0.001);
 
 	sg.add_separator_box("4. run speller:");
-	sg.add_button("run speller", [&]() { state = STATE_RUNNING; }, 1, 0);
+	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUNNING; }, 1, 0);
 	sg.add_button("run ssvep+eyetracking speller", [&]() { run_ssvep(); }, 1, 0);
 	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 1, 0);
 	sg.finish();
@@ -182,7 +193,7 @@ void Eyetracking_speller::draw_validation()
 	Point2f p1, p2; // arrow start- and end-point
 	if (validation_counter < 5)
 	{
-		if (ar_canvas.ok == 4)
+		if (ar_canvas.valid())
 		{
 			// point to the edge where the user has to look at
 			p2 = validation_targets[validation_counter];
@@ -253,7 +264,7 @@ void Eyetracking_speller::draw_calibration()
 	
 	ar_canvas.draw(img_screen, 0, 0, w, h);
 
-	if (ar_canvas.ok < 4)
+	if (ar_canvas.valid())
 	{
 		tracking_lost_counter++;
 		if (tracking_lost_counter > 20) { tracking_lost_counter = 20; }// avoid overflow
@@ -378,6 +389,8 @@ void Eyetracking_speller::draw()
 	// draw markers on screen // and visualize gaze point after coordinate transformation
 	img_screen_background.copyTo(img_screen);
 
+	// visualize marker detection 
+	ar_canvas.draw_detected_markers(frame_scene_cam);
 
 	switch (state)
 	{
@@ -440,8 +453,11 @@ void Eyetracking_speller::update()
 	p_calibrated = mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
 
 	// ********************************************************
-	ar_canvas.update(frame_scene_cam, p_calibrated);
-	p_projected = ar_canvas.p_projected;
+	ar_canvas.update(frame_scene_cam);
+	if (ar_canvas.valid())
+	{
+		p_projected = ar_canvas.transform(p_calibrated);
+	}
 
 	// uncomment this to simulate gaze using the computer mouse
 	// p_projected = Point2f(mx, my);
@@ -455,7 +471,7 @@ void Eyetracking_speller::update()
 	// event propagation and keyboard handling 
 	key_pressed = cv::waitKey(1);
 
-	if (ar_canvas.ok == 4)
+	if (ar_canvas.valid())
 	{
 		//if (VK_SPACE == key_pressed)
 		if( int(' ') == key_pressed )
@@ -551,18 +567,19 @@ void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int 
 // separate blocking function with a while loop
 void Eyetracking_speller::run_ssvep()
 {
+	using namespace cv;
 
-	// todo hide all other windows 
+	
 	cv::destroyAllWindows();
+
+	//hide gui to avoid multithreading problems (especially with changing camera properties )
 	sg.hide();
 	
 	Sdl_opencv sdl;
 
 	
-	using namespace cv;
-
 	//////////////////////////////
-	// launch the capture thread
+	// launch the capture threads
 	thread_eyecam.setup(eye_camera, "eyecam");
 	thread_scenecam.setup(scene_camera, "scncam");
 
@@ -592,6 +609,8 @@ void Eyetracking_speller::run_ssvep()
 		{
 			thread_scenecam.get_frame(frame_scene_cam);
 			thread_scenecam.new_frame = false;
+
+			ar_canvas.update(frame_scene_cam);
 		}
 
 		// TODO: if the eye cam has a higher FPS than the render thread, the pupil center calculation should be in a separate thread !
@@ -609,22 +628,26 @@ void Eyetracking_speller::run_ssvep()
 			// ********************************************************
 			// map pupil position to scene camera position using calibrated 2d to 2d mapping
 			p_calibrated = mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
+
+			if (ar_canvas.valid())
+			{
+				p_projected = ar_canvas.transform(p_calibrated);
+				//auto p_projected2 = ar_canvas.transform(p_calibrated, ar_canvas.screen_plane_external);
+			}
+
+			// jitter filter (updated at eyecam fps)
+			p_projected.x = gaze_filter_x(p_projected.x);
+			p_projected.y = gaze_filter_y(p_projected.y);
+
 		}
 
-		// ********************************************************
-		ar_canvas.update(frame_scene_cam, p_calibrated);
-		p_projected = ar_canvas.p_projected;
+		
 
 		// uncomment this to simulate gaze using the computer mouse
 		//p_projected = Point2f(mx, my);
 
-		// jitter filter
-		p_projected.x = gaze_filter_x(p_projected.x);
-		p_projected.y = gaze_filter_y(p_projected.y);
 		timer1.tock();
 
-
-		
 		
 		// render part
 		timer2.tick();

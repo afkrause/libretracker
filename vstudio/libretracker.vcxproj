@@ -145,7 +145,7 @@
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>Default</LanguageStandard>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -209,7 +209,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <FloatingPointModel>Fast</FloatingPointModel>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>Default</LanguageStandard>
       <AdditionalOptions>/arch:AVX2 %(AdditionalOptions)</AdditionalOptions>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
@@ -236,7 +236,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <FloatingPointModel>Fast</FloatingPointModel>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>Default</LanguageStandard>
       <AdditionalOptions>/arch:AVX2 %(AdditionalOptions)</AdditionalOptions>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
