@@ -3,6 +3,7 @@
 #include "deps/s/sdl_opencv.h"
 
 
+
 // helper function. when pressing a button in the fltk gui, 
 // calling this function grabs the focus of the specified opencv window
 void grab_focus(char* wname)
@@ -156,10 +157,12 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_slider("smoothing", filter_smoothing, 0, 1, 0.01);
 	sg.add_slider("predictive", filter_predictive, 0, 1, 0.001);
 
-	sg.add_separator_box("4. run speller:");
+	sg.add_separator_box("4. run modules:");
 	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUNNING; }, 1, 0);
-	sg.add_button("run ssvep+eyetracking speller", [&]() { run_ssvep(); }, 1, 0);
+	sg.add_button("record and stream to client", [&]() { run_ssvep(); }, 1, 0);
 	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 1, 0);
+
+
 	sg.finish();
 	sg.show();
 
@@ -266,13 +269,13 @@ void Eyetracking_speller::draw_calibration()
 
 	if (ar_canvas.valid())
 	{
-		tracking_lost_counter++;
-		if (tracking_lost_counter > 20) { tracking_lost_counter = 20; }// avoid overflow
+		tracking_lost_counter--;
+		if (tracking_lost_counter < 0) { tracking_lost_counter = 0; } // avoid underflow
 	}
 	else
 	{
-		tracking_lost_counter--;
-		if (tracking_lost_counter < 0) { tracking_lost_counter = 0; } // avoid underflow
+		tracking_lost_counter++;
+		if (tracking_lost_counter > 20) { tracking_lost_counter = 20; }// avoid overflow
 	}
 
 
@@ -562,20 +565,29 @@ void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int 
 }
 
 
+#include <lsl_cpp.h>
+#include "lt_lsl_protocol.h"
+#include <limits>
 
 // multithreaded capture and rendering to ensure flicker stimuli are presented with the monitor refresh rate
 // separate blocking function with a while loop
 void Eyetracking_speller::run_ssvep()
 {
 	using namespace cv;
-
+	using namespace lsl;
+	using namespace chrono;
 	
 	cv::destroyAllWindows();
 
 	//hide gui to avoid multithreading problems (especially with changing camera properties )
 	sg.hide();
+	bool run = true;
+	Simple_gui sg_local(50,50,150,100, "Record and Stream");
+	sg_local.add_button("stop streaming", [&](){ run = false;  });
+	//sg_local.add_button("quit program", [&]() { exit(EXIT_SUCCESS);} );
+	sg_local.finish();
 	
-	Sdl_opencv sdl;
+	// Sdl_opencv sdl;
 
 	
 	//////////////////////////////
@@ -590,18 +602,30 @@ void Eyetracking_speller::run_ssvep()
 	//////////////////////////////
 
 
+
+	vector<double> eye_data(LT_N_EYE_DATA);
+	vector<double> marker_data(1+4*2);
+
+	// labstreaming layer 
+	// todo: add correct sampling rate
+	cout << "creating labstreaming layer outlet for simulated EEG data..\n";
+	stream_outlet lsl_out_eye(stream_info("LT_EYE", "LT_EYE", LT_N_EYE_DATA, 30, cf_double64));
+	stream_outlet lsl_out_marker(stream_info("LT_MARKER", "LT_MARKER", 1 + 4 * 2, 30, cf_double64));
+
+
+	auto time_start = chrono::high_resolution_clock::now();
 	
 	Timer timer0(500, "\nframe :"); // man duration of individual frames. for 60 Hz monitor refresh rate, it should be close to 16.66 ms
 	Timer timer1(500, "\nupdate:");
 	Timer timer2(500, "\nrender:");
 
-	while (true)
+	while (run)
 	{
 		timer0.tick();
 		timer1.tick();
 
 		// process events
-		if (sdl.waitKey().sym == SDLK_ESCAPE) { break; }
+		//if (sdl.waitKey().sym == SDLK_ESCAPE) { break; }
 
 		// ********************************************************
 		// copy camera data from the capture threads
@@ -611,6 +635,15 @@ void Eyetracking_speller::run_ssvep()
 			thread_scenecam.new_frame = false;
 
 			ar_canvas.update(frame_scene_cam);
+
+			// send marker data (helpful in the client for visualizing marker positions
+			marker_data[0] = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
+			for (int i = 0; i < ar_canvas.image_plane.size(); i++)
+			{
+				marker_data[1 + 2 * i + 0] = double(ar_canvas.image_plane[i].x) / frame_scene_cam.cols;
+				marker_data[1 + 2 * i + 1] = double(ar_canvas.image_plane[i].y) / frame_scene_cam.rows;
+			}
+			lsl_out_marker.push_sample(marker_data);
 		}
 
 		// TODO: if the eye cam has a higher FPS than the render thread, the pupil center calculation should be in a separate thread !
@@ -629,32 +662,46 @@ void Eyetracking_speller::run_ssvep()
 			// map pupil position to scene camera position using calibrated 2d to 2d mapping
 			p_calibrated = mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
 
+			//std::nan
+			p_projected = Point2f(std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN());
 			if (ar_canvas.valid())
 			{
-				p_projected = ar_canvas.transform(p_calibrated);
-				//auto p_projected2 = ar_canvas.transform(p_calibrated, ar_canvas.screen_plane_external);
+				//p_projected = ar_canvas.transform(p_calibrated);
+				p_projected = ar_canvas.transform(p_calibrated, ar_canvas.screen_plane_external);
+				cout << "\n" << p_projected;
 			}
 
-			// jitter filter (updated at eyecam fps)
-			p_projected.x = gaze_filter_x(p_projected.x);
-			p_projected.y = gaze_filter_y(p_projected.y);
+			eye_data[LT_TIMESTAMP] = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
+			eye_data[LT_PUPIL_X] = double(pupil_pos.x) / frame_eye_cam.cols;
+			eye_data[LT_PUPIL_Y] = double(pupil_pos.y) / frame_eye_cam.rows;
+			eye_data[LT_GAZE_X] = double(p_calibrated.x) / frame_scene_cam.cols;
+			eye_data[LT_GAZE_Y] = double(p_calibrated.y) / frame_scene_cam.rows;
+			eye_data[LT_SCREEN_X] = p_projected.x;
+			eye_data[LT_SCREEN_Y] = p_projected.y;
 
+			// todo fix: jitter filter is adjusted to pixel coordinates , not normalized coordinates
+			// jitter filter (updated at eyecam fps)
+			//p_projected.x = gaze_filter_x(p_projected.x);
+			//p_projected.y = gaze_filter_y(p_projected.y);
+
+			lsl_out_eye.push_sample(eye_data);
 		}
 
 		
-
+		/*
 		// uncomment this to simulate gaze using the computer mouse
 		//p_projected = Point2f(mx, my);
 
 		timer1.tock();
 
-		
+		//* // old code for vertically synchronized rendering using libSDL 
 		// render part
 		timer2.tick();
 		img_screen_background.copyTo(img_screen);
 		draw_speller(true);
 		timer2.tock();
 
+		
 		
 		// draw to screen (vsynced flip) 
 		sdl.imshow(img_screen,100,100);
@@ -663,6 +710,9 @@ void Eyetracking_speller::run_ssvep()
 		{
 			cout << "\nslow frame. dt = " << dt;
 		}
+		*/
+
+		sg_local.update();
 	}
 
 
