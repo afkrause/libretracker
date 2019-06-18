@@ -14,8 +14,8 @@ enum enum_eye_data
 	LT_GAZE_Y,
 	LT_SCREEN_X, // gaze coordinates transformed to screen space using AR Markers
 	LT_SCREEN_Y,  // set to NaN if AR-Marker Tracking is not working
-	//LT_SCREEN_X_FILTERED, // jitter filter gaze coordinates in screen space
-	//LT_SCREEN_Y_FILTERED, 
+	LT_SCREEN_X_FILTERED, // jitter filter gaze coordinates in screen space
+	LT_SCREEN_Y_FILTERED, 
 	LT_N_EYE_DATA
 };
 

@@ -77,9 +77,11 @@ int main()
 		img_markers[2].copyTo(img(Rect(w - s - b, h - s - b, s, s)));
 		img_markers[3].copyTo(img(Rect(b, h - s - b, s, s)));
 
-		// because the tracker doenst know the distance between markers in the client,
-		// streamed  gaze coordinates are scaled to range from [0..1] if they are inside the rectangle spanned by the markers
-		// hence an offset and scaling must be applied to calculate pixel coordinates
+		// all streamed  gaze coordinates are normalized to the range [0..1]
+		// * this has the advantage that the tracker doesnt need to know the distance between the markers in the client
+		// * the client doesnt need to know the image resolution of the webcams
+
+		// calc offset and scaling 
 		int dw = w - 2 * s - b;
 		int dh = h - 2 * s - b;
 		int offset = s + b;
@@ -89,12 +91,12 @@ int main()
 		//(currently: only 30 hz from eye cam, so there should be only one sample in data or data should be empty)
 		for (auto& v : data)
 		{
-			double x_01 = v[LT_SCREEN_X];
-			double y_01 = v[LT_SCREEN_Y];
+			double x_01 = v[LT_SCREEN_X_FILTERED];
+			double y_01 = v[LT_SCREEN_Y_FILTERED];
 
 			if (!std::isnan(x_01) && !std::isnan(y_01))
 			{
-				x = float(offset + dw * x_01); // todo: proper conversion of double to float
+				x = float(offset + dw * x_01); // todo: proper down-conversion of double to float
 				y = float(offset + dh * y_01);
 				circle(img, Point2f(x, y), 8, Scalar(255, 0, 255), 4);
 				cout << "\n(x,y)=" << x << " " << y;

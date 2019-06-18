@@ -14,9 +14,11 @@
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif
 
-#include<SDL2/SDL_main.h>
-#pragma comment(lib, "SDL2/lib/x64/SDL2.lib")
-#pragma comment(lib, "SDL2/lib/x64/SDL2main.lib")
+//#include<SDL2/SDL_main.h>
+//#pragma comment(lib, "SDL2/lib/x64/SDL2.lib")
+//#pragma comment(lib, "SDL2/lib/x64/SDL2main.lib")
+
+#pragma comment(lib, "liblsl64.lib")
 
 #pragma comment(lib, "opencl_cu10/lib/x64/opencl.lib")
 
@@ -123,14 +125,25 @@ int main(int argc, char* argv[])
 			auto button_to_set_select = button;
 			
 			#ifdef _WIN32
-			button = sg.add_radio_button("128bit SSE OR ARM NEON", [&]() {simd_width = USE_VEC128; });
-			if (cpu_features.HW_SSE) { simd_width = USE_VEC128; button_to_set_select = button; }
 			
-			button = sg.add_radio_button("256bit AVX2", [&]() {simd_width = USE_VEC256; });
-			if (cpu_features.HW_AVX && cpu_features.OS_AVX) { simd_width = USE_VEC256; button_to_set_select = button; }
+			if (cpu_features.HW_SSE)
+			{
+				button = sg.add_radio_button("128bit SSE OR ARM NEON", [&]() {simd_width = USE_VEC128; });
+				simd_width = USE_VEC128; button_to_set_select = button;
+			}
 			
-			button = sg.add_radio_button("512bit AVX512", [&]() {simd_width = USE_VEC512; });
-			if (cpu_features.HW_AVX512_F && cpu_features.OS_AVX512) { simd_width = USE_VEC512; button_to_set_select = button; }
+			
+			if (cpu_features.HW_AVX && cpu_features.OS_AVX)
+			{
+				button = sg.add_radio_button("256bit AVX2", [&]() {simd_width = USE_VEC256; });
+				simd_width = USE_VEC256; button_to_set_select = button;
+			}
+			
+			if (cpu_features.HW_AVX512_F && cpu_features.OS_AVX512)
+			{
+				button = sg.add_radio_button("512bit AVX512", [&]() {simd_width = USE_VEC512; });
+				simd_width = USE_VEC512; button_to_set_select = button;
+			}
 			#endif
 
 

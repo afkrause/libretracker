@@ -1,6 +1,6 @@
 #include "eyetracking_speller.h"
 
-#include "deps/s/sdl_opencv.h"
+
 
 
 
@@ -568,6 +568,7 @@ void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int 
 #include <lsl_cpp.h>
 #include "lt_lsl_protocol.h"
 #include <limits>
+//#include "deps/s/sdl_opencv.h"
 
 // multithreaded capture and rendering to ensure flicker stimuli are presented with the monitor refresh rate
 // separate blocking function with a while loop
@@ -621,8 +622,8 @@ void Eyetracking_speller::run_ssvep()
 
 	while (run)
 	{
-		timer0.tick();
-		timer1.tick();
+		//timer0.tick();
+		//timer1.tick();
 
 		// process events
 		//if (sdl.waitKey().sym == SDLK_ESCAPE) { break; }
@@ -663,26 +664,24 @@ void Eyetracking_speller::run_ssvep()
 			p_calibrated = mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
 
 			//std::nan
-			p_projected = Point2f(std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN());
-			if (ar_canvas.valid())
-			{
-				//p_projected = ar_canvas.transform(p_calibrated);
-				p_projected = ar_canvas.transform(p_calibrated, ar_canvas.screen_plane_external);
-				cout << "\n" << p_projected;
-			}
+			for (auto& x : eye_data) { x = std::numeric_limits<double>::quiet_NaN(); }
 
 			eye_data[LT_TIMESTAMP] = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
 			eye_data[LT_PUPIL_X] = double(pupil_pos.x) / frame_eye_cam.cols;
 			eye_data[LT_PUPIL_Y] = double(pupil_pos.y) / frame_eye_cam.rows;
 			eye_data[LT_GAZE_X] = double(p_calibrated.x) / frame_scene_cam.cols;
 			eye_data[LT_GAZE_Y] = double(p_calibrated.y) / frame_scene_cam.rows;
-			eye_data[LT_SCREEN_X] = p_projected.x;
-			eye_data[LT_SCREEN_Y] = p_projected.y;
 
-			// todo fix: jitter filter is adjusted to pixel coordinates , not normalized coordinates
-			// jitter filter (updated at eyecam fps)
-			//p_projected.x = gaze_filter_x(p_projected.x);
-			//p_projected.y = gaze_filter_y(p_projected.y);
+			if (ar_canvas.valid())
+			{
+				p_projected = ar_canvas.transform(p_calibrated, ar_canvas.screen_plane_external);
+
+				// jitter filter (updated at eyecam fps)
+				eye_data[LT_SCREEN_X] = p_projected.x;
+				eye_data[LT_SCREEN_Y] = p_projected.y;
+				eye_data[LT_SCREEN_X_FILTERED] = gaze_filter_x(p_projected.x);
+				eye_data[LT_SCREEN_Y_FILTERED] = gaze_filter_y(p_projected.y);
+			}
 
 			lsl_out_eye.push_sample(eye_data);
 		}
