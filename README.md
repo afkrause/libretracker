@@ -121,13 +121,44 @@ Other distros: you might need to grab the corresponding package from https://cod
 
 ## Documentation
 
-(TODO!)
+### Quickstart
+
+1. check if both cameras of the headset are working properly using a webcam tool 
+   (for windows, AMCap works very reliably: http://noeld.com/programs.asp?cat=video#AMCap )
+
+2. make sure there is enough USB bandwith to server two webcams simultaneously 
+   if libretracker exits with the OpenCV error: " videoio(MSMF): can't grab frame.", you most likely have connected both cameras to the same USB hub. 
+   try to choose different USB ports on your PC / Laptop. 
+   try to avoid long USB extension cables. This results in frame capture problems, too.
+   
+3. make sure the headset does not slip / move on your head. this renders the calibration useless, because slip-compensation is not yet implemented. 
+
+4. avoid to sit close to a bright window with sunlight. the eyecamera does use infrared illumination, but the amount of infrared light coming through a sunny window is always larger.
+
+5. adjust the position of the eye camera such that the eye is nicely centered in the eyecam video stream. 
+
+6. position your head such that the scene camera can see all AR markers. 
+   if the AR marker tracking is not stable, try to increase the AR marker size and lower the detectionsize threshold. 
+
+7. click calibrate. look at the corners of the AR markers where the arrow is pointing. 
+   press space bar if you precisely look at the corner. 
+   only move your eyes during calibration, no the head.
+   
+8. optional: validate the calibration. 
+   if there is only a small systematic offset, press "fix offset". 
+   otherwise, repeat the calibration (the headet might have slipped).
+
+9. run the speller or stream the data.
+
+10. if streaming: launch the client application
+
+### User Interface
 
 The Userinterface allows to perform calibration, validation and running a module. Currently implemented is an Eyetracking Speller.
 
 ![Screenshot](documentation/images/screenshot01.png)
 
-
+more to come .. 
 
 ## Hardware
 
