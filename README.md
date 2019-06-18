@@ -135,7 +135,8 @@ Other distros: you might need to grab the corresponding package from https://cod
 
 4. avoid to sit close to a bright window with sunlight. the eyecamera does use infrared illumination, but the amount of infrared light coming through a sunny window is always larger.
 
-5. adjust the position of the eye camera such that the eye is nicely centered in the eyecam video stream. 
+5. adjust the position of the eye camera such that the eye is nicely centered in the eyecam video stream.
+   try to place the eye-camera close to the eye. this results in larger eye images and therefore a higher tracking accuracy.
 
 6. position your head such that the scene camera can see all AR markers. 
    if the AR marker tracking is not stable, try to increase the AR marker size and lower the detectionsize threshold. 
