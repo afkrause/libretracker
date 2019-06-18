@@ -18,7 +18,7 @@
 //#pragma comment(lib, "SDL2/lib/x64/SDL2.lib")
 //#pragma comment(lib, "SDL2/lib/x64/SDL2main.lib")
 
-#pragma comment(lib, "liblsl64.lib")
+
 
 #pragma comment(lib, "opencl_cu10/lib/x64/opencl.lib")
 

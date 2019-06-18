@@ -565,9 +565,12 @@ void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int 
 }
 
 
+#ifdef LSL_ENABLED
+#pragma comment(lib, "liblsl64.lib")
 #include <lsl_cpp.h>
 #include "lt_lsl_protocol.h"
 #include <limits>
+
 //#include "deps/s/sdl_opencv.h"
 
 // multithreaded capture and rendering to ensure flicker stimuli are presented with the monitor refresh rate
@@ -722,3 +725,9 @@ void Eyetracking_speller::run_ssvep()
 	// todo restore all other windows 
 
 }
+
+#else
+void Eyetracking_speller::run_ssvep()
+{
+}
+#endif
