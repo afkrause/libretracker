@@ -31,17 +31,18 @@ Libretracker_20190618.zip
 SHA1: 4e1889ecdfd1ea11d5b3aa3d1b493a160c686e8b
 SHA3_512: dcc3b8fd449acc78f36de061c2fb3e7aa9ed6acf07fe9730f48f4a7e213dc966b8b42a2b837912f7961115f5c656d57b4e98c09c2739fef04b5eb230f58ca425
 
-```
-qick build hint: Libretracker depends on submodules. recursively clone the project:
-```console
-git clone --recursive https://github.com/afkrause/libretracker.git
-```
 
 
 ## Compiling
 
 This Eyetracking Software requires only a few dependencies: OpenCV, Labstreaming Layer, Eigen and the Fast Light Toolkit (FLK).
 If you activate OpenCL support, you also need the header-only library https://github.com/boostorg/compute and boost.
+
+```
+qick build hint: Libretracker depends on submodules. recursively clone the project:
+```console
+git clone --recursive https://github.com/afkrause/libretracker.git
+```
 
 
 ### Fedora or similiar Linux Distros:
