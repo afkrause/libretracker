@@ -4,7 +4,6 @@
 #include <array>
 #include <vector>
 #include <thread>
-
 #include <opencv2/imgproc.hpp>
 
 #include <Eigen/Eigen>
@@ -431,7 +430,7 @@ protected:
 		dy = dy * magnitude;
 
 		float dotProduct = dx * gx + dy * gy;
-		dotProduct = std::max(0.0f, dotProduct);
+		dotProduct = max(0.0f, dotProduct);
 
 		return dotProduct * dotProduct;
 	}

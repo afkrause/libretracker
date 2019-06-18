@@ -521,16 +521,16 @@ void Pupil_tracking::run_differential_evolution_optim(enum_simd_variant simd_wid
 	float best_fitness = sqrt(640 * 640 + 480 * 480); // worst case fitness is equal to the diagonal span of the image // 1000.0f;
 
 	// plots for evolutionary algorithm
-	using namespace multiplot;
-	Multiplot mp(25, 25, 1200, 800);
-	mp.grid(MP_LINEAR_GRID, MP_LINEAR_GRID);
+	//using namespace multiplot;
+	//Multiplot mp(25, 25, 1200, 800);
+	//mp.grid(MP_LINEAR_GRID, MP_LINEAR_GRID);
 
 
 
 	const float err_threshold = 15.0f; //15.0f; // pixel error theshold 
 	for (int i = 0; i < max_iter; i++)
 	{
-		mp.scaling(MP_FIXED_SCALE, 0, i, 20, 120);
+		//mp.scaling(MP_FIXED_SCALE, 0, i, 20, 120);
 
 		//best_fitness = 800.0f; // reset best_fitness here to avoid a "lucky" constellation of image subselection
 
@@ -607,10 +607,12 @@ void Pupil_tracking::run_differential_evolution_optim(enum_simd_variant simd_wid
 			f_out.close();
 		}
 
+		/*
 		mp.trace(0); mp.color3f(0, 1, 0); mp.plot(i, fitness.minCoeff());
 		mp.trace(1); mp.color3f(0, 1, 0); mp.plot(i, fitness.maxCoeff());
 		mp.trace(2); mp.color3f(1, 1, 0); mp.plot(i, fitness.mean());
 		mp.redraw();
+		*/
 
 		// save the whole population
 		{
@@ -679,10 +681,12 @@ void Pupil_tracking::run_differential_evolution_optim(enum_simd_variant simd_wid
 			cout << "error over all images: " << mean_overall_error << endl;
 			cout << "frames below threshold: " << frames_below_threshold << endl;
 
+			/*
 			mp.trace(3);
 			mp.color3f(0, 1, 1);
 			mp.plot(i, mean_overall_error);
 			mp.redraw();
+			*/
 		}
 	}
 	char c; cin.get(c);

@@ -8,5 +8,4 @@
 #include "s/simple_gui_fltk.h"
 #include "s/cv_camera_control.h"
 
-#include "multiplot/multiplot.h"
 
