@@ -126,7 +126,7 @@ Other distros: you might need to grab the corresponding package from https://cod
 1. check if both cameras of the headset are working properly using a webcam tool 
    (for windows, AMCap works very reliably: http://noeld.com/programs.asp?cat=video#AMCap )
 
-2. make sure there is enough USB bandwith to server two webcams simultaneously 
+2. make sure there is enough USB bandwith to serve two webcams simultaneously. 
    if libretracker exits with the OpenCV error: " videoio(MSMF): can't grab frame.", you most likely have connected both cameras to the same USB hub. 
    try to choose different USB ports on your PC / Laptop. 
    try to avoid long USB extension cables. This results in frame capture problems, too.
@@ -142,7 +142,7 @@ Other distros: you might need to grab the corresponding package from https://cod
 
 7. click calibrate. look at the corners of the AR markers where the arrow is pointing. 
    press space bar if you precisely look at the corner. 
-   only move your eyes during calibration, no the head.
+   only move your eyes during calibration, not the head.
    
 8. optional: validate the calibration. 
    if there is only a small systematic offset, press "fix offset". 
