@@ -87,7 +87,6 @@ If you want to activate OpenCL acceleration (see below), you also need to instal
 sudo apt-get install libboost-all-dev
 sudo apt install ocl-icd-opencl-dev 
 ```
-
 ## Checkout and Compiling 
 
 ### 1. recursively clone the project:
@@ -117,6 +116,17 @@ make
 Alternatively, use the provided Codelite or Visual Studio Project files.
 Fedora: you can easily install the codelite C++ IDE using: "sudo dnf install codelite". 
 Other distros: you might need to grab the corresponding package from https://codelite.org/ .
+
+
+### 4. Labstreaming Layer Support
+If you want to activate data streaming using [Labstreaming Layer (LSL)](https://github.com/sccn/labstreaminglayer), please first compile LSL.
+* Windows: re-run cmake-gui, set LIBLSL_ENABLED to true and set the include and library path to LSL accordingly. 
+* Linux: edit CMakeLists.txt and manually edit the link- and include- directories for LSL. 
+
+next, re-run cmake with: 
+```console
+cmake . -DLIBLSL_ENABLED=ON 
+```
 
 
 ## Documentation
