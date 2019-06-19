@@ -6,7 +6,7 @@
 
 // helper function. when pressing a button in the fltk gui, 
 // calling this function grabs the focus of the specified opencv window
-void grab_focus(char* wname)
+void grab_focus(const char* wname)
 {
 	cv::destroyWindow(wname); cv::namedWindow(wname);
 }

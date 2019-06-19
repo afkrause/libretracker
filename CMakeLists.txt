@@ -17,6 +17,7 @@ if (OPENCL_ENABLED)
 	add_definitions(-DOPENCL_ENABLED)
 endif ()
 if (LIBLSL_ENABLED)
+	# set (LSL_DIR "/home/labadmin/cpp/labstreaminglayer/build/install/LSL/share/LSL/") % not working.. 
 	add_definitions(-DLSL_ENABLED)
 endif ()
 ##################################################
@@ -32,14 +33,26 @@ if (UNIX)
 	find_package(Eigen3 REQUIRED)
 	set(FLTK_SKIP_FLUID true)
 	find_package(FLTK REQUIRED)
+
+	if (LIBLSL_ENABLED)
+		link_directories("/home/labadmin/cpp/labstreaminglayer/build/install/LSL/lib/")
+		set (LSL_INCLUDE_DIR "/home/labadmin/cpp/labstreaminglayer/build/install/LSL/include")
+		set (LSL_LIBRARY "lsl64")
+	endif ()
+
 else ()
-	# under windows, ask the user to enter the path to the headers and lib files.
+	# under windows (and using cmake-gui), ask the user to enter the path to the headers and lib files.
 	set(OPENCV_INCLUDE_DIR "enter path" CACHE STRING "please enter here the path to the eigen3 include directory")
 	set(EIGEN3_INCLUDE_DIR "enter path" CACHE STRING "please enter here the path to the OpenCV include directory")
 	set(FLTK_INCLUDE_DIR "enter path" CACHE STRING "please enter here the path to the FLTK include directory")
 	
 	set(FLTK_LIBRARIES "enter path" CACHE STRING "please enter here the path to the FLTK library directory")
 	set(OpenCV_LIBS "enter path" CACHE STRING "please enter here the path to the OpenCV library directory")
+
+	if (LIBLSL_ENABLED)
+		set (LSL_INCLUDE_DIR "enter path" CACHE STRING "please enter here the path to the Labstreaming Layer include directory")
+		set (LSL_LIBRARY "enter path" CACHE STRING "please enter here the path to the Labstreaming Layer library directory")
+	endif ()
 endif()
 
 
@@ -70,12 +83,18 @@ include_directories (${EIGEN3_INCLUDE_DIR})
 include_directories (${OPENCV_INCLUDE_DIR})
 include_directories (${FLTK_INCLUDE_DIR})
 
+
 if (OPENCL_ENABLED)
 	include_directories (${Boost_INCLUDE_DIRS})
 	include_directories (${OpenCL_INCLUDE_DIRS})
 	#include_directories ("src/deps/OpenCL-Headers/")
 	#include_directories ("src/deps/compute/include/")
 endif ()
+
+if (LIBLSL_ENABLED)
+	include_directories (${LSL_INCLUDE_DIR})
+endif ()
+
 ##################################################
 
 
