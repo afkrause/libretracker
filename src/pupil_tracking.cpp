@@ -61,7 +61,7 @@ void Pupil_tracking::run(enum_simd_variant simd_width, enum_pupil_tracking_varia
 
 			cv::imshow("eye_cam", frame);
 		}
-
+		cv::waitKey(1);
 	}
 }
 

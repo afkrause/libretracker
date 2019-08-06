@@ -32,6 +32,7 @@ void Aruco_canvas::setup(bool use_enclosed_markers)
 		//marker_file_names = array<string, 4>{ "aruco_00100.png", "aruco_00301.png", "aruco_00450.png", "aruco_00700.png" };
 
 		// according to the aruco main developer, ARUCO_MIP_36h12 is the preferred dictionary. 
+		// https://stackoverflow.com/questions/50076117/what-are-the-advantages-disadvantages-between-the-different-predefined-aruco-d
 		marker_file_names = array<string, 4>{ "aruco_mip_36h12_00002.png", "aruco_mip_36h12_00004.png", "aruco_mip_36h12_00006.png", "aruco_mip_36h12_00008.png" };
 	}
 

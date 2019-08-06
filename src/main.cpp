@@ -117,14 +117,14 @@ int main(int argc, char* argv[])
 		if (true)
 		{
 			// use graphical gui to select program options
-			Simple_gui sg(150, 150, 400, 550, "== Program Settings ==");
+			Simple_gui sg(150, 150, 400, 700, "== Program Settings ==");
 
-			sg.add_separator_box("Pupil Tracking algorithm:");
-			enum enum_pupil_tracking_variant pupil_tracking = PUPIL_TRACKING_TIMM;
-			auto button = sg.add_radio_button("Timm's algorithm", [&]() {pupil_tracking = PUPIL_TRACKING_TIMM; });
+			sg.add_separator_box("Pupil-Tracking algorithm:");
+			enum enum_pupil_tracking_variant pupil_tracking = PUPIL_TRACKING_PURE;
+			sg.add_radio_button("Timm's algorithm", [&]() {pupil_tracking = PUPIL_TRACKING_TIMM; });			
+			auto button = sg.add_radio_button("PuRe (for research only!)", [&]() {pupil_tracking = PUPIL_TRACKING_PURE; });
 			button->value(true);
-			sg.add_radio_button("PuRe (for research only!)", [&]() {pupil_tracking = PUPIL_TRACKING_PURE; });
-			sg.add_radio_button("PuReST (for research only!)", [&]() {pupil_tracking = PUPIL_TRACKING_PUREST; });
+			// sg.add_radio_button("PuReST (for research only!)", [&]() {pupil_tracking = PUPIL_TRACKING_PUREST; });
 
 			enum_simd_variant simd_width = USE_NO_VEC;
 			sg.add_separator_box("Vectorization Level:");
