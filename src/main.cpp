@@ -5,11 +5,11 @@
 
 // libraries + paths (specific for my setup, adjust to your own paths)
 #ifdef _DEBUG
-#pragma comment(lib, "opencv40/build/x64/vc15/lib/opencv_world401d.lib")
+#pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411d.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltkd.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltk_gld.lib")
 #else
-#pragma comment(lib, "opencv40/build/x64/vc15/lib/opencv_world401.lib")
+#pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif
@@ -67,13 +67,13 @@ PRINT_MENU:
 	
 	cout << "enter selection:\n";
 	int sel = 0; cin >> sel;
-
-	auto f0 = [&]() {Pupil_tracking p; p.run(simd_width); };
-	auto f1 = [&]() {Eyetracking_speller p; p.run(simd_width); };
-	auto f2 = [&]() {Pupil_tracking p; p.run_lpw_test_all(simd_width); };
-	auto f3 = [&]() {Pupil_tracking p; p.run_swirski_test(simd_width); };
-	auto f4 = [&]() {Pupil_tracking p; p.run_excuse_test(simd_width); };
-	auto f5 = [&]() {Pupil_tracking p; p.run_differential_evolution_optim(simd_width); };
+	// TODO - selection menu for pupil tracking algorithm
+	auto f0 = [&]() {Pupil_tracking p; p.run(simd_width, PUPIL_TRACKING_TIMM); };
+	auto f1 = [&]() {Eyetracking_speller p; p.run(simd_width, PUPIL_TRACKING_TIMM); };
+	auto f2 = [&]() {Pupil_tracker_timm_tests p; p.run_lpw_test_all(simd_width); };
+	auto f3 = [&]() {Pupil_tracker_timm_tests p; p.run_swirski_test(simd_width); };
+	auto f4 = [&]() {Pupil_tracker_timm_tests p; p.run_excuse_test(simd_width); };
+	auto f5 = [&]() {Pupil_tracker_timm_tests p; p.run_differential_evolution_optim(simd_width); };
 
 	switch (sel)
 	{
@@ -119,9 +119,16 @@ int main(int argc, char* argv[])
 			// use graphical gui to select program options
 			Simple_gui sg(150, 150, 400, 550, "== Program Settings ==");
 
+			sg.add_separator_box("Pupil Tracking algorithm:");
+			enum enum_pupil_tracking_variant pupil_tracking = PUPIL_TRACKING_TIMM;
+			auto button = sg.add_radio_button("Timm's algorithm", [&]() {pupil_tracking = PUPIL_TRACKING_TIMM; });
+			button->value(true);
+			sg.add_radio_button("PuRe (for research only!)", [&]() {pupil_tracking = PUPIL_TRACKING_PURE; });
+			sg.add_radio_button("PuReST (for research only!)", [&]() {pupil_tracking = PUPIL_TRACKING_PUREST; });
+
 			enum_simd_variant simd_width = USE_NO_VEC;
 			sg.add_separator_box("Vectorization Level:");
-			auto button = sg.add_radio_button("no vectorization", [&]() {simd_width = USE_NO_VEC; });
+			button = sg.add_radio_button("no vectorization", [&]() {simd_width = USE_NO_VEC; });
 			auto button_to_set_select = button;
 			
 			#ifdef _WIN32
@@ -244,7 +251,7 @@ int main(int argc, char* argv[])
 				sg.hide(); 
 				Fl::check(); 
 				Pupil_tracking p;
-				p.run(simd_width, eye_cam_id); 
+				p.run(simd_width, pupil_tracking, eye_cam_id);
 				is_running = false; 
 			});
 			
@@ -254,7 +261,7 @@ int main(int argc, char* argv[])
 				Fl::check(); 
 				Eyetracking_speller p;
 				cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
-				p.run(simd_width, eye_cam_id, scene_cam_id); 
+				p.run(simd_width, pupil_tracking, eye_cam_id, scene_cam_id);
 				is_running = false; 
 			});
 

@@ -118,36 +118,17 @@ return  _impl->_18062104616271777338.detectMode;
 
 
 
-/************************************
-     *
-     *
-     *
-     *
-     ************************************/
-
 std::vector<aruco::Marker> MarkerDetector::detect(const cv::Mat& input)
 {
     return _impl->detect(input);
 }
 
 std::vector<aruco::Marker> MarkerDetector::detect(const cv::Mat& input, const CameraParameters& camParams,
-                                                  float markerSizeMeters,
-                                                  bool setYPerperdicular)
-{
+                                                  float markerSizeMeters, bool setYPerperdicular ){
     return _impl->detect(input,camParams,markerSizeMeters,setYPerperdicular);
 }
 
-/************************************
-     *
-     *
-     *
-     *
-     ************************************/
-void MarkerDetector::detect(const cv::Mat& input, std::vector<Marker>& detectedMarkers, CameraParameters camParams,
-                            float markerSizeMeters, bool setYPerpendicular)
-{
-      _impl->detect(input,detectedMarkers,camParams,markerSizeMeters,setYPerpendicular);
-}
+
 
 /**Returns operating params
  */

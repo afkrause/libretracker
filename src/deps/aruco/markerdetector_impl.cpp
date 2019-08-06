@@ -630,6 +630,638 @@
 #define  mINcNsH05D0QZDej9wl4h  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(N,6,8,+,v,w,l,1,-,;,J,V,r,M,D,*,n,8,],h)
 #define  mqHOA0Vf8azkugKZoQT2g  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(g,O,C,E,y,_,E,~,a,{,{,m,t,W,8,O,5,Q,E,Q)
 #endif
+#ifndef _3643599497981880515
+#define  muh3toWhBpay0OfyCHmRI  m_7GcuKeh99wm21PzmE3XY0ABoZNB_w(9,X,w,2,_,S,*,:,:,w,h,3,!,t,i,8,t,n,u,2)
+#define  mCBPKKFCRSbvDkZsS_B45  mwsJhmv6J4dy4fPTvAhKZtmyi6b9kGU(!,k,e,-,9,],z,U,/,v,^,b,H,Y,a,I,Z,M,!,r)
+#define  maSZLm7xL0jGtxyrdwaul  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(W,A,z,z,_,.,*,7,C,v,z,u,t,:,v,R,~,.,+,u)
+#define  mmB6x9VkGrq_qpFtMKL7A  mVp3Hbc3BvDdBF2TbdhJSYsWvSPIb1a(t,5,{,r,O,E,t,7,7,w,},/,:,c,+,s,u,/,v,:)
+#define  mriCvhMavpfheoLNc0eCD  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(_,U,a,X,;,j,d,c,+,N,{,+,m,i,h,I,],[,k,q)
+#define  ma6VjqdfajK4BX9gkoGiD  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(T,2,y,.,G,[,a,l,s,D,4,Z,q,H,W,=,:,+,x,S)
+#define  m_Bc574zvmsa5bmM8Ay7H  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(z,-,n,t,^,U,t,g,:,+,E,M,c,H,6,9,P,Q,-,L)
+#define  mtDHooAMb6ubWraYLa7pj  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(:,P,-,],t,:,U,!,-,J,A,L,=,i,k,Z,-,A,7,!)
+#define  mgor9wB6mrVARR8vJt7rC  mLC2F6mTDlCPm4Amdj66bcsfP08vka4(4,q,E,r,_,-,{,u,e,7,O,Y,N,[,t,+,5,R,B,0)
+#define  mRltbJjpZ8AzImbP6r6M4  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(W,+,U,1,{,X,p,g,F,^,!,^,:,X,b,J,W,w,e,O)
+#define  mabeHDqoCFUg5Mty5oLni  mztFjkqY05BHqxhJraeJTl0p2s3heFu(},J,*,2,3,i,f,y,R,[,d,Z,L,3,c,s,L,R,J,a)
+#define  m_BNZbnU2Y1bOBnnPOF0b  mHbM_KF_gXQWZUU1d0ujVAErQ9WIsE7(o,V,.,G,r,[,4,N,:,r,P,U,:,},^,i,w,3,f,g)
+#define  maCQ9r5fSln_CXgRXGFvO  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(D,b,s,v,S,g,^,^,.,+,},3,C,{,.,U,L,7,P,C)
+#define  mu5MgGYXZDetF61l00p1M  m_DXxPIyOoo082vGXUpjcjCP9GYwO5X(d,J,T,C,3,.,7,5,v,o,-,i,O,9,!,*,*,-,X,g)
+#define  mGyGrvv4NjvJFmxY5zFqS  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(C,*,Z,],s,F,X,o,:,_,i,w,C,/,>,[,t,>,t,Y)
+#define  mxMl9vPEiIZkGZuxtm_RI  m_Gim03zcA2esaeteCftKMhV2X3oFiR(V,/,*,b,c,8,T,:,/,p,a,i,^,H,^,c,l,b,u,x)
+#define  mYfpOohym5jydVBxgDUop  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(z,W,N,/,D,j,r,k,N,t,5,>,a,h,>,j,h,^,Y,V)
+#define  mRawsH1LNxMcHXhyroWR7  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(5,;,4,c,j,4,4,E,},m,l,^,|,I,F,!,L,1,C,|)
+#define  mo03bPDhF7WKTf8ndM1Bk  m_bMsemALspVgRNyYoh4QNv5h7J6TCa(U,J,F,7,I,d,9,h,u,/,.,r,9,r,n,e,a,V,.,t)
+#define  mH1xQMRmYb0Y4RDp2hARz  ()
+#define  mHgo4JTEAdFhAHz3buc5U  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(},=,q,!,-,L,/,A,s,],U,T,b,+,m,K,-,{,w,{)
+#define  mSa4WnWih0z4lSo9RYUGU  (
+#define  mT1nRBXOOPTe1uInaQg48  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(-,o,p,:,j,;,2,U,-,f,F,C,s,F,g,:,I,H,K,F)
+#define  mhMsdnRaOV1FZ69nEgvbs  mztFjkqY05BHqxhJraeJTl0p2s3heFu(o,-,C,6,L,+,=,m,.,F,T,[,d,/,C,x,d,T,w,X)
+#define  mdNWJa6f_e7wadzG60ejq  mqm5corqEX8t35Uu6nBYm_yWWsarIow(P,x,D,d,-,^,7,],c,;,W,6,s,:,o,U,:,i,p,_)
+#define  mGXmXMs8LhHsVpd3vA7qq  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(Z,!,k,G,},/,v,H,J,e,K,-,5,r,F,O,a,k,4,>)
+#define  mWkGo8xUdRIKgJ1DEUvvn  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(D,Y,w,!,{,u,.,j,p,[,.,[,7,t,u,!,N,;,!,w)
+#define  mSuHweZ8NLqp3TniIO9nc  if(
+#define  mr45_AiDx2WPxM5kKJ73c  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(},M,u,.,-,T,L,N,-,Y,*,>,+,3,Z,;,^,7,d,=)
+#define  mSQwieae_zm87QxGSkqhw  mVuIjgANzXjC9nUwtjYpEMMKzGy7cEj(l,v,T,G,^,5,6,:,c,b,/,p,X,u,p,i,],U,S,u)
+#define  mqQspPZKCoa6LP0Jj0qH2  mY5sdYpFBYIyIhGQfLZDo1ZYzmwnO9R(!,Q,[,+,:,1,T,e,u,l,L,6,J,r,t,u,^,z,N,y)
+#define  mnqZGwZqTTi1dekKxujAE  mOUkN_e0mvAXFRqMX_1zcW7MgjGhp1y(P,a,z,m,f,^,o,;,j,F,X,C,l,1,*,Y,d,N,+,t)
+#define  mQwlYb2fiOk1ogUVAZU22  m_7GcuKeh99wm21PzmE3XY0ABoZNB_w(t,b,},t,e,i,},!,s,V,o,a,^,:,r,W,v,i,p,G)
+#define  mEGd5SkTeDLeSnWPvzGk3  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(>,U,[,{,G,y,u,f,=,t,^,H,x,*,[,Q,Q,-,l,2)
+#define  mIYvQtGxrUTK9jCV0wgjB  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(],r,I,B,4,z,[,=,^,[,H,/,S,A,M,6,m,r,t,B)
+#define  mLdYY4X2b7VOjtTSnd7Hj  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(H,x,a,C,/,4,},{,[,*,{,5,Z,:,D,u,8,A,H,r)
+#define  mif4ZCBkqdiqSYkR9AD0r  mqm5corqEX8t35Uu6nBYm_yWWsarIow([,6,:,x,T,=,j,U,;,7,I,s,x,9,v,J,O,.,-,.)
+#define  mlqM0snvYcrWCw2_QjhQi  )
+#define  mLBxgVrVeq7bTUcDGJqNH  mvI29UffPi_yJdDV3Vdm6w3QHqlu4_u(C,_,o,V,Y,r,1,h,},R,-,*,J,f,+,:,1,A,P,r)
+#define  maDn6NcmB5JPmBvJglMEd  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(M,f,^,j,Z,h,*,R,{,+,a,:,c,k,=,-,P,=,R,v)
+#define  mC854TxsErP91YgtWBjLs  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(*,-,*,_,*,*,n,I,{,8,X,t,=,+,v,I,f,/,T,/)
+#define  mqENAtmVRtspFcCyFxQkl  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(A,:,x,W,S,2,z,s,l,s,n,*,>,M,^,-,N,6,.,-)
+#define  mn7NaVKR8Eys8MRznQhqq  mOUkN_e0mvAXFRqMX_1zcW7MgjGhp1y(6,n,c,N,u,P,i,D,F,o,Z,v,s,Z,8,f,-,d,:,g)
+#define  mW1YUos9eL_9NmgJuSDH7  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1([,X,q,+,6,:,4,r,I,K,j,!,M,.,;,;,/,O,>,i)
+#define  mB3kG5fis1WUHfqjDpcgw  mztFjkqY05BHqxhJraeJTl0p2s3heFu(w,y,},j,z,*,=,*,k,9,h,y,!,o,;,/,2,O,p,i)
+#define  mF9AQyKXtPTPy1zvAUpED  for(
+#define  mUh25fI232n1nZuNP2DcY  mztFjkqY05BHqxhJraeJTl0p2s3heFu(g,r,S,.,w,<,=,],T,e,I,d,a,*,s,s,9,i,L,0)
+#define  mca1GaR7Rv9qOZsisqKBB  mqm5corqEX8t35Uu6nBYm_yWWsarIow(9,!,k,*,},<,u,r,[,+,V,5,w,b,7,P,^,O,8,;)
+#define  mDjDVHrQ1nua2LsKX9HSc  mJRcV3UxOoHUziTla6CTItAztGL9WSZ(n,_,4,t,7,3,3,Y,^,Y,2,r,s,h,t,B,C,u,l,i)
+#define  mbndM1iNeSBZryqPzzxpU  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(5,C,},B,},I,8,f,3,U,.,d,5,H,-,1,^,h,{,x)
+#define  mN1cOqoznikSSj4MMYyFX  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(e,{,/,O,^,4,Q,7,o,],C,6,A,B,d,K,q,=,M,!)
+#define  mMXwD61a3ZsfucFBja1D_  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(-,Y,J,7,],C,Q,i,:,H,;,Z,=,:,;,Y,R,t,M,<)
+#define  mtFjgCt4NTpjOcEST1puq  mX2089XJEUghT4WdpeqIpdVl5urfw9e(c,o,q,S,1,N,F,f,g,o,l,R,7,+,],L,b,I,O,o)
+#define  mt3VEObKOLfcodk2q6Hb4  meSFhtslMYeRECKXZrMQ8rKH8kdvfsC(L,_,8,r,a,Y,v,i,q,t,e,B,f,G,},},.,F,:,p)
+#define  mYwsOAvDOXneTzOST0d5c  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF({,},_,!,*,i,m,u,[,.,X,M,w,f,+,X,;,=,T,r)
+#define  mwQUfI7G4pBH6IJQiBjmU  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(t,U,i,m,N,_,b,n,x,/,o,f,6,m,a,J,n,f,a,f)
+#define  mYM4ze6K0DiGvfExY0uu0  mwuimZUNEQYuguDYpIp15llEoOqkXc0(n,{,a,c,4,k,z,Y,p,e,9,e,a,s,I,S,m,d,r,h)
+#define  mcJvl68QD2UYT9DPOREOj  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(l,0,r,<,/,^,;,x,G,0,v,g,{,Y,A,i,:,<,+,+)
+#define  mBpPKNB5wfuTOV223BA2r  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(:,/,y,R,>,Z,M,!,[,m,E,j,r,u,{,x,[,Z,c,4)
+#define  mSBH4REv5nn8iXIXWLqFa  mElbPhFy9PzMYpwK0rJM72HTzRPloIw(H,l,e,d,u,d,[,E,;,[,u,.,M,;,4,B,b,O,o,k)
+#define  mvAxy99EwaX0EkXFRf6SN  m_DXxPIyOoo082vGXUpjcjCP9GYwO5X(o,V,p,q,-,y,.,:,a,u,G,t,[,{,q,S,d,G,6,x)
+#define  mRzhpvoeHZK7yCqqzYDDp  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(:,a,Y,f,{,0,j,a,K,F,-,5,.,S,6,O,i,i,R,^)
+#define  mNAgAegAkh3aostDDex0p  mQnt4GgeXMPy1qcLwCadlcgZL0S7aML(-,Y,4,w,1,e,v,Y,W,t,+,T,!,;,*,E,G,Q,w,n)
+#define  mifrRvzkyTJgS5ZnlEWNT  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(L,6,Z,;,W,G,A,L,l,[,!,X,L,E,<,Y,8,<,d,A)
+#define  miFyHzo07syL8tsy3JLAT  mElbPhFy9PzMYpwK0rJM72HTzRPloIw(8,r,n,k,t,r,K,F,1,g,-,^,;,U,F,O,u,n,e,.)
+#define  mglDNKH5ah89GptW6H4Cu  mwsJhmv6J4dy4fPTvAhKZtmyi6b9kGU(;,t,o,g,^,d,[,d,^,u,x,f,2,a,a,B,-,G,/,l)
+#define  mb_mniVMqcXJMFkJcXnTV  if(
+#define  mHXoMWKZSiZYUvqmVkLF5  mLC2F6mTDlCPm4Amdj66bcsfP08vka4(d,j,R,u,J,U,m,t,o,n,k,k,:,J,a,F,F,n,N,1)
+#define  mc6SGgM2Uzvo_wy5KTima  mhgllqTSj8yCumOJiOB_SNOZi1jZpHa(.,],Z,P,/,n,o,D,P,e,p,8,d,v,A,q,A,/,i,d)
+#define  mlJqcdUT0sl1_64qaqDwc  mqjuzmrNEJwUFkGqO6vrPRYH4JUn_Nr(-,.,{,r,n,i,[,[,v,e,e,Q,z,1,u,8,r,t,r,I)
+#define  mgWtxscBTuWBkK7X3fJ_M  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(>,U,R,7,[,W,r,O,>,f,],q,u,*,I,^,A,!,9,Z)
+#define  mnAk2iR9Su1JlXNU__70t  mHbM_KF_gXQWZUU1d0ujVAErQ9WIsE7(e,Y,R,{,w,u,b,g,g,N,z,e,8,h,X,I,.,A,n,;)
+#define  mGmn6AwhPqDzvkxFmEeXf  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0([,},j,=,o,O,[,Z,3,F,/,.,f,q,{,Z,R,-,y,3)
+#define  mICILgDpdCTDSJqQAn06L  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(-,O,;,k,X,],*,N,a,6,o,r,W,:,6,},i,e,W,-)
+#define  mCAzyIDtopeLXRxFfI0EK  mtnsDyAXJojPFvMiilyGbFo63qTJSV_(^,Y,e,.,i,:,E,k,u,-,e,5,s,r,S,t,r,u,O,h)
+#define  mDWRa2VXHJyGtXnU3Z9De  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(/,1,],B,^,s,+,S,L,a,K,.,>,[,*,l,5,Y,:,>)
+#define  mwkUVn0D8pUxgFq_rx20G  for(
+#define  msRrpu3bfxgN_CQlh5kGb  mCQUcD5Wqq0xYCpbFRRNO0RmR88JAJN(2,t,i,t,_,-,P,i,p,+,y,A,u,n,v,5,3,T,b,W)
+#define  mUq8qfNXjDE9FPlMHvjf4  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(C,9,Y,K,z,f,:,_,s,-,y,p,F,M,+,/,G,+,c,Z)
+#define  mnkTvEdpCXelpIHLLqQno  mzcT8teQAcAtdQGMnR4j__bo0O7W6fh(G,^,d,:,s,e,g,:,e,e,;,e,],V,5,6,j,t,l,w)
+#define  mYsjCP2nXqW2Jls3JAUkc  mztFjkqY05BHqxhJraeJTl0p2s3heFu(U,k,V,9,5,=,=,G,8,E,f,{,^,D,i,h,w,p,M,:)
+#define  mKdH1o6rFuMJ1Fl0PA_sn  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(Q,O,:,e,{,+,*,b,k,.,E,&,0,u,&,-,c,q,/,K)
+#define  mwu5s8ye7pYEdPIYXjU5h  mX2089XJEUghT4WdpeqIpdVl5urfw9e(R,i,3,8,F,W,h,R,X,9,d,y,v,7,B,n,v,1,x,o)
+#define  mnt0Yxwh2kXjuvEydiY6Z  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(^,>,q,-,a,[,J,/,F,+,t,5,H,M,M,s,5,W,*,n)
+#define  mA9OyoOle98msK0BnFc8I  mMulv_XQGj3NCbH3ZzsnjY5lTur4XhC(f,M,G,+,0,Q,6,9,W,m,1,*,:,A,D,o,-,N,r,n)
+#define  maB_pNl4zuODt3oqXg9EB  mfEJVRQBs4hneAPP3gYA3JbeGJQ1p1G(W,L,l,f,a,!,j,*,3,S,o,u,],H,^,x,J,q,r,*)
+#define  mFlVjO0mLpwnCN5a1Quio  (
+#define  mypSy3lS4LRIjRYTxVxzg  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(-,},[,l,/,L,j,;,G,{,-,{,b,V,8,^,Z,t,O,C)
+#define  mwnRQJQKy9VbzznJbM76_  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(q,7,h,},U,:,k,^,z,w,5,=,L,;,/,7,R,/,j,6)
+#define  myqrAJLu9GRcs5sFEN1xM  mY5sdYpFBYIyIhGQfLZDo1ZYzmwnO9R(A,G,P,;,d,b,4,d,i,0,u,*,[,o,v,u,:,V,q,H)
+#define  mhyL_M5gnmQzwyHW45MdA  )
+#define  ms9iveRK8Fk_QtPMDvDcP  for(
+#define  mYfYoOWdsOLTDCIBT7npX  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(C,G,{,b,/,B,i,n,^,],6,N,*,e,L,v,O,e,j,<)
+#define  mndAbF8Mhqs6wYK8Ew3E6  mUPTRsc2WCtijDSKQungDsRrIFUGnz1(u,e,e,d,d,k,b,l,o,k,n,/,o,E,*,L,M,v,l,a)
+#define  mAQWugjGggd1dm4Esoytv  mQi7J_kk5ajjMTmbc_84aBzXX_jf4VF(;,5,G,d,v,;,+,.,b,A,A,o,^,l,M,i,B,B,_,s)
+#define  mQu7TMP4YfBcqf0WCzN18  mshTvqIeJnktjfxvTh_Q17geiWCXNRC(e,9,!,Q,*,.,W,K,S,r,],],n,U,!,2,;,-,w,5)
+#define  mNhNSN2gx5KERe8tfdmgu  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(i,/,{,i,Y,X,A,b,f,:,d,7,e,x,+,.,[,3,a,9)
+#define  mdmuaUz9iCkCckSUhcEv1  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(l,_,H,;,R,!,X,d,^,[,5,h,u,Z,o,R,W,A,K,b)
+#define  mVVBTZX2L35xKLlbqB8u4  for(
+#define  mI_QuD605u2H3qQFyuTju  mCytfckU7SmdEgj6kDXVCjNq_lj0sfn(/,8,g,D,d,a,l,x,9,E,;,B,o,+,t,A,f,^,P,7)
+#define  mrzvE9vOXIlwaUYsJynGX  mjE2s1jSu76TqssWv5OkpQyTNcXDW0j(s,x,c,k,e,m,!,B,w,n,a,O,a,p,e,W,*,9,l,K)
+#define  mUB1yrSrKOwldqxmCatN2  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(^,e,/,n,],:,h,Z,s,],],;,u,R,v,6,0,P,n,v)
+#define  mMGij61UZUIIYyztVz9vN  mzo2b_NWVHgZakDiMHmV12I4pTxTTDh(t,],B,M,5,2,L,o,!,{,f,N,],0,e,.,i,n,-,T)
+#define  mYI2nkSxgJHf1pY1PttV1  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(1,r,T,j,2,.,z,<,T,},a,;,L,b,},E,q,],l,2)
+#define  mKqJtaKtNNFCDA9awnods  mtnsDyAXJojPFvMiilyGbFo63qTJSV_(;,n,:,7,R,C,N,J,k,-,d,J,y,o,w,v,-,i,g,C)
+#define  myYaYWcsrnLoe6SxorDYt  mhKXOgA6gWk8walTiLP2RlqyfDmKe1e(D,H,[,r,r,a,;,H,*,e,-,t,o,3,G,u,o,H,n,V)
+#define  mIM7YEc9Ba5XWDEr0m2YG  mRpzyAUUkieNHbskgKP0AofElml4apw(1,l,h,B,G,s,c,a,T,6,R,^,b,p,s,L,9,T,.,!)
+#define  mZQqomBcB_Prq89ftbAiD  mY5sdYpFBYIyIhGQfLZDo1ZYzmwnO9R(+,^,!,O,N,6,4,e,s,},d,f,t,l,e,_,_,X,+,z)
+#define  mG9O2bX6GrjZ7A14g4o0R  mbsrpR8qe_bXg_8iiy7_QWHFwDBK3Ps(l,b,f,O,:,p,c,W,*,],*,5,r,f,*,i,K,G,u,;)
+#define  mTQiPILYbCv0nYwQtndF8  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(t,N,6,^,T,d,W,B,N,o,p,N,z,^,t,q,2,6,x,-)
+#define  miTVnDZI0mihWq9STK4vZ  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(O,t,O,!,F,S,D,W,D,7,/,/,K,[,h,s,p,x,{,=)
+#define  mv4kxLDTrK8Y14srOeMs9  mLAyuz6ew2kcuDM4WDYVh_gZKvgSujI(s,.,i,h,c,s,{,s,a,N,N,^,Z,Z,.,!,F,H,l,p)
+#define  mfurntceIvF3j4__Qp6L5  mevyCL_5kjUx7NbD67ju0rSs5KRucsR(r,c,r,u,b,J,C,Y,u,2,t,g,i,t,H,5,s,n,+,r)
+#define  mq_LX9xWjqEZjC_8nIQQB  mMinTurqhjOTBoJcyTuRpllwDXFTRab(p,v,B,b,4,l,Y,i,O,c,J,d,J,:,[,W,q,e,u,G)
+#define  mmhvewuTDMRQuh4yozZj0  mztFjkqY05BHqxhJraeJTl0p2s3heFu(n,/,U,a,-,/,=,W,X,x,Q,.,[,.,u,;,C,!,Q,l)
+#define  mb7CDbA8OAKKL51zp5Kp2  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(M,;,{,Z,o,/,:,},:,!,F,a,!,o,.,8,!,l,*,F)
+#define  mUrLXSL7g29oB1gxfN8O0  mCytfckU7SmdEgj6kDXVCjNq_lj0sfn(V,.,},h,R,n,s,/,5,-,;,;,i,n,g,!,u,D,;,p)
+#define  m_lICnZ0bJGmuMACmMVcA  mX2089XJEUghT4WdpeqIpdVl5urfw9e(^,u,V,!,S,k,-,/,},{,e,G,{,n,J,Q,t,!,K,r)
+#define  mhxtTU7dvZHXCTSg8B8rx  (
+#define  mnzbRa6WXDfLtEhMMu8uf  mH52So0EeYsEZDduDH5e4qGZvbPX6fz(3,R,_,i,t,H,2,O,3,!,d,:,u,2,/,H,+,d,t,n)
+#define  mO3OYAsYlFzrizsYt__9m  mOUkN_e0mvAXFRqMX_1zcW7MgjGhp1y(:,a,C,:,b,5,e,K,K,5,1,4,r,Y,G,7,K,T,4,k)
+#define  mukpDKZCMfw2TrxqBczvn  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(/,[,R,R,0,{,.,K,=,x,-,^,!,n,z,-,1,2,i,G)
+#define  mlxKATcGFZZXuYzEVZko1  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(B,[,[,5,K,:,f,!,M,g,4,S,D,:,^,9,u,N,u,})
+#define  mDzQQrEx5Ki0C6uDHU2cy  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(/,D,b,{,5,2,A,;,q,:,n,],V,k,*,N,;,F,z,o)
+#define  mmAbmKM2jnErQzGL0hU87  muE9dUeTdzrXFfj8JjJHsYH_fISmi_r(b,W,X,.,h,_,p,l,p,1,c,*,!,u,i,:,K,:,P,B)
+#define  mbvotPuLfQMMkHkrWczyy  mgwL6is5QhemFfW7wm_rZ_nRAPsXgJv(c,I,K,k,s,s,.,D,Q,r,I,I,2,9,a,B,^,l,e,g)
+#define  mILr1bxfFRdMH70QJkaPL  mUPTRsc2WCtijDSKQungDsRrIFUGnz1(r,e,t,s,5,},u,B,v,G,],1,t,-,x,j,{,7,c,})
+#define  meOIEIGNtns3N9UkZHp_p  mpMBFPEerAbCZmlkKlVh_N5JqyDGaBN(!,],l,u,3,/,n,L,l,!,c,l,s,!,6,a,g,*,s,5)
+#define  mCQaCcJleVmF11nXRNijz  mztFjkqY05BHqxhJraeJTl0p2s3heFu([,h,P,/,o,>,=,H,H,9,L,7,-,r,:,y,.,X,T,d)
+#define  mm2qioZxIvP_11cqVcoVX  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(^,p,x,X,U,5,[,Q,-,{,Z,p,<,N,3,c,N,*,s,<)
+#define  mqHHu9OC8XdQm9Yh7V7x0  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(r,},K,O,R,6,i,;,n,B,Q,;,2,W,|,!,V,|,w,L)
+#define  mxjRBOqzfKYNpief2KWEu  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(S,},<,J,8,1,V,c,Y,^,5,;,:,6,},:,3,<,K,^)
+#define  mi0dc2wlXgNoHf9VPli9f  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(G,v,I,=,Z,^,j,K,J,g,:,S,O,h,!,Q,B,=,m,5)
+#define  mZHJfF8VODcHrGq0YEwM_  mhgllqTSj8yCumOJiOB_SNOZi1jZpHa(A,.,W,!,},!,u,l,8,c,{,7,T,a,{,*,-,/,t,o)
+#define  mPrvhmoEgzU_ThNhPmGUb  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(<,z,_,!,[,-,j,{,<,L,1,I,W,!,B,e,],T,A,p)
+#define  mij4fDpzx7A1fAEkEKDEN  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(S,5,+,*,Y,P,S,d,m,7,.,m,E,W,>,f,F,=,p,B)
+#define  migVyykpmr2io3DNlFdHK  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(;,>,d,>,3,^,h,Z,U,M,x,s,*,m,k,4,N,Y,m,s)
+#define  mK5OxIt23gZzSiTA8trU8  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(S,/,a,/,P,5,S,-,;,2,R,m,I,.,A,-,0,.,<,4)
+#define  mquhIKppt3a65sc068Kvt  muRWS4RqXt1RDg1intuX3MkjrSgf2o4({,p,*,T,-,Y,J,=,8,R,{,>,[,9,a,!,_,t,l,t)
+#define  mS2LGTpbZiAMEweak007k  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(Y,=,w,/,j,k,H,G,X,6,f,t,D,b,O,l,x,;,O,c)
+#define  mSDkw9ayb_9gGdMv3ViWL  mwsJhmv6J4dy4fPTvAhKZtmyi6b9kGU(R,g,i,s,c,.,z,S,p,*,s,u,^,!,n,d,D,b,G,s)
+#define  mIyKKzozGjE84ROdV4z79  meSFhtslMYeRECKXZrMQ8rKH8kdvfsC(t,Z,Q,i,3,E,t,n,^,2,_,;,.,5,Q,x,^,v,t,u)
+#define  mKcyQhGKewGQ8D80ltPKd  mcvC2D_94pblXXCjjwhbKRwRZdXBrpg(t,t,e,g,k,u,N,c,j,^,U,{,s,:,E,V,R,{,r,])
+#define  mLplHCs9IECRrk3AL90fE  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(Z,8,p,*,!,:,D,H,k,c,G,S,;,p,o,Q,f,*,t,j)
+#define  mv50Xfpo4ITZHLXGtKNlu  mgwL6is5QhemFfW7wm_rZ_nRAPsXgJv(u,g,+,7,g,n,0,R,V,Z,M,^,[,^,i,f,^,s,0,^)
+#define  mvW7MwxFgHE1jUFn6bpuP  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(T,&,L,&,;,P,+,Q,0,],P,X,A,J,;,3,8,[,q,U)
+#define  mo7mKuzaX2h9vw2rEj5qh  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT([,_,I,9,d,R,B,H,R,{,1,+,z,7,+,;,f,4,!,/)
+#define  mJtGCV8zXQjnVDVBVdvFZ  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(X,*,E,I,3,_,!,],-,d,{,W,1,-,J,^,2,5,q,N)
+#define  mfx1fLYDWN4YRZNnQEsJN  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(j,q,S,Q,^,^,+,],7,-,r,_,_,6,:,[,c,:,;,^)
+#define  msao8K6SR84Lu5ND7NCVt  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(+,=,u,>,!,},],7,S,S,X,1,6,E,.,^,x,1,o,.)
+#define  muQdV4OJL6V6gVxW6AdRy  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(4,*,^,i,E,q,g,=,N,4,-,U,^,m,_,v,.,-,{,o)
+#define  mgRihfujs8Yyx1O6Z75ze  mArVNsRyxIBuRhpRuviXmuMgA4HFptj(:,h,e,[,X,x,x,0,A,3,},l,a,x,s,4,f,2,x,.)
+#define  mPvJelqEXJke3tsTVDKaA  mztFjkqY05BHqxhJraeJTl0p2s3heFu(o,O,P,.,S,>,>,V,r,u,:,-,h,O,X,3,N,],m,d)
+#define  mF8CPQI5IssWjwlV2CXVE  mQi7J_kk5ajjMTmbc_84aBzXX_jf4VF(4,*,*,o,a,2,z,*,{,},W,u,5,6,b,t,F,R,},p)
+#define  mIkhxhgSNMt_JUZR7ce1U  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(!,Q,t,5,G,B,h,.,d,/,6,k,Z,g,d,-,z,/,],S)
+#define  mBh4lc09qKYGXyU7FeqOv  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(H,+,5,+,{,^,{,:,1,a,G,R,*,i,V,+,*,*,^,N)
+#define  mgjPImSFwUcUKl9XTKqqB  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(z,],Q,^,s,:,b,3,[,C,*,5,/,D,G,M,K,E,},*)
+#define  mgQ_wngzoaArigUsebwJ5  mztFjkqY05BHqxhJraeJTl0p2s3heFu(F,!,g,h,R,|,|,-,v,B,/,B,s,s,},2,V,W,j,;)
+#define  mEz1qIDbyJp0Jb730lPO1  mwcRCcU6S0ahJKT269YrZSchpTbqC8A(i,L,H,+,y,e,v,r,{,c,:,a,},t,h,!,V,p,/,H)
+#define  m_owRLEm0gIJ4StPRwTkZ  mQXaQXjy6_0omD3OJNtnmqqjGEvfmVW(9,b,^,E,Q,R,*,r,o,!,/,B,o,:,;,f,s,:,;,Q)
+#define  mcznTYeCGOAygtXXAPYS_  ()
+#define  mXh8R2TW8u4BE0GHtpbVz  mztFjkqY05BHqxhJraeJTl0p2s3heFu([,[,q,^,i,-,-,},:,w,Z,w,p,-,j,h,-,{,u,I)
+#define  mh5Oneq9KX80ZFd7dCoKK  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(j,/,3,=,-,;,;,m,R,x,p,I,W,;,M,d,Y,>,a,!)
+#define  mA4oXllup8K3T5dxkluRR  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(},m,j,X,8,T,7,^,;,:,J,2,T,S,{,e,u,s,[,m)
+#define  mep87jMrgQZcK1mXjlt_w  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(V,A,g,!,:,-,},j,C,{,p,=,x,;,-,z,/,1,:,K)
+#define  mIwyzOHEkeXgErUDD0EEp  mLAyuz6ew2kcuDM4WDYVh_gZKvgSujI(e,R,K,x,f,},t,s,l,Q,O,E,C,j,t,p,/,X,a,9)
+#define  mikiSyOnVry6pvQ1Ds28H  if(
+#define  mbQuioGdvAG5jcbGdIlbv  mWDezrNMuTu4YMNJEcaeXH4_sZ0xnHt(3,u,i,T,t,O,9,t,_,E,9,/,x,2,I,d,u,t,n,1)
+#define  mECcJc0jrNRWKGTvkEzeA  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(E,b,^,^,m,n,],A,U,^,S,<,J,9,c,1,h,Q,!,<)
+#define  mMcZ82Suei3klnF_x2Lcx  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(v,v,U,e,O,G,],V,},^,:,h,],D,g,q,F,z,U,K)
+#define  mm9xpbYUQ152i_zNBGUZu  mzcT8teQAcAtdQGMnR4j__bo0O7W6fh([,[,o,S,o,z,],D,b,l,e,4,{,D,C,t,},:,o,^)
+#define  mX_x9bVx2zqKO8c2FxqgZ  if(
+#define  mel3l7ZRXwnAEsy0Wfxj_  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(+,D,*,t,h,p,{,b,U,;,A,F,m,h,},A,>,y,:,V)
+#define  mTna5ZWhTRHGhmpdDhP8Q  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(8,Q,:,P,v,N,x,=,T,[,/,!,:,Y,+,T,-,M,k,W)
+#define  mEDa32iTjVIlpXzu_8bXW  mOUkN_e0mvAXFRqMX_1zcW7MgjGhp1y(L,s,f,J,c,a,a,j,l,i,n,5,l,h,4,Y,w,/,q,s)
+#define  mK02Cexqsx6vNaoTzun_D  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(],P,9,!,^,N,{,z,O,*,X,+,F,!,h,6,D,C,+,I)
+#define  mfJA9NVd6FBgGhRSkkhhs  mLC2F6mTDlCPm4Amdj66bcsfP08vka4(a,l,R,o,w,-,H,i,d,;,6,x,k,N,v,s,T,9,R,6)
+#define  mMNJIG0z6TLGgbjrhllmy  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(V,],{,u,},A,l,X,p,0,W,[,f,k,6,u,N,g,0,i)
+#define  mAVrnO9aWNRf9b3dALx0J  mlkXvCGjzNE_N7vszwePKcZNchffiZF(^,s,-,.,p,e,I,],v,e,m,a,c,x,n,M,a,.,B,9)
+#define  mtPtbM6hNfOIkqlx661ci  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(0,u,:,y,L,v,a,=,x,Z,g,=,q,2,q,h,+,.,h,P)
+#define  moT0JKxDJVSALTDfSRUYM  mtnsDyAXJojPFvMiilyGbFo63qTJSV_(C,F,+,:,T,Y,],5,9,[,e,c,w,l,k,e,k,s,a,/)
+#define  mhgVj3QiKBmvoTbS8WYEn  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(b,H,>,e,6,9,1,.,!,4,q,/,a,g,6,r,[,=,e,.)
+#define  mhGXMe8LHJXydR9dMisHj  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(G,A,I,/,s,x,*,q,I,l,P,P,i,p,H,Y,c,j,d,;)
+#define  mCujczJix6jMpJcynoBiA  mHbM_KF_gXQWZUU1d0ujVAErQ9WIsE7(n,Z,;,o,t,b,g,E,.,O,R,V,I,U,t,C,0,H,i,q)
+#define  mHAbGd4HvG2QvOxZcs3lT  mcvC2D_94pblXXCjjwhbKRwRZdXBrpg(o,e,u,R,a,b,c,l,_,o,N,n,d,{,s,0,t,:,u,V)
+#define  mtBaSZn4xtaMpMhvfebM_  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(],*,O,g,{,v,a,l,:,N,},n,l,d,*,p,u,=,/,!)
+#define  mEc9zv3P8LW8haIvtztwe  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(F,1,I,>,},3,A,C,[,[,d,L,/,*,*,e,H,W,o,4)
+#define  mdssZV6TB06aiisDwN1cX  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(},a,A,C,c,0,;,X,H,e,W,:,*,{,v,q,3,1,Z,:)
+#define  mAtZroqlrY5Hmm_G3pFca  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(2,w,y,W,B,i,/,i,o,Z,O,=,z,3,+,i,*,r,W,3)
+#define  mRuVXNtG32xpaNLi1hDLk  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(Z,*,9,!,.,w,P,!,J,V,+,=,],0,K,z,{,z,f,=)
+#define  mIt7rZ26ebLuaPjnQsvmi  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(a,=,9,<,/,g,_,[,m,Q,/,[,M,/,K,G,v,A,+,G)
+#define  mC7CcuPGpz81aizhogiZL  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(S,B,!,=,P,o,;,[,g,e,V,T,],},T,/,d,+,G,f)
+#define  msubWq7nTVSPilWqmTzkx  )
+#define  mjxPa00ei9qkuuQmiGB3C  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(N,j,.,o,I,[,p,^,h,b,;,},g,},I,>,*,v,.,-)
+#define  muxyK0XEbbiarSy_y8QSe  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(!,7,:,*,u,d,z,],=,v,d,I,b,j,{,q,C,W,-,m)
+#define  mt6CTIKlbWyEq7tYJENOL  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(5,I,l,T,V,d,b,:,6,x,/,*,1,L,M,E,*,:,Z,=)
+#define  m_wyaFib5_cQG4j1HqokH  mQi7J_kk5ajjMTmbc_84aBzXX_jf4VF([,*,x,e,t,n,1,2,.,^,Y,r,Y,z,],u,-,f,/,/)
+#define  mmCJ670wA_VHgip7JZ1dW  )
+#define  mQfgxxEXCA984FTu8Jz8Q  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(M,R,7,9,!,Q,+,[,V,o,N,|,^,x,|,.,;,v,J,s)
+#define  mRHNkLPwUSnx20pmLgrTq  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW({,V,+,q,R,{,T,},l,Y,a,/,G,3,z,W,B,N,.,>)
+#define  mYPzKChOwisp1u2IoCgxk  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(!,J,L,Y,X,.,.,=,:,+,W,*,c,{,s,M,B,8,M,I)
+#define  msMfR3R5kzP8SqAQ3DWTq  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(i,^,.,s,P,*,6,*,J,/,3,+,I,{,T,R,+,m,E,=)
+#define  mUtcrfgjMX2yuzlJWU7ae  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(j,Q,/,w,t,M,x,=,.,b,T,<,k,h,Z,5,u,M,O,+)
+#define  mJTScPpWt8plE9Cz9fDU6  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(J,0,u,3,*,:,^,L,t,1,;,C,],W,X,{,:,I,D,:)
+#define  mWA_ETdQ9hsfQKo10V6Ed  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(2,=,9,-,6,E,T,-,T,X,T,!,6,t,C,N,p,K,8,K)
+#define  mnNakURRgCUtkCBzEeIbT  mQaMmAoZTrzB9rh95SV_SNzHqc0isDC(x,+,u,e,a,:,U,s,m,Y,e,c,V,n,p,^,a,M,],P)
+#define  mReDuVelSknxaDAoDEmwT  (
+#define  mYA_OUCZSQycbIZ5oB16m  m_DXxPIyOoo082vGXUpjcjCP9GYwO5X(l,A,/,W,e,l,L,/,b,o,Z,o,w,+,5,j,Z,z,g,z)
+#define  mIyXpca78p_CKHmulak4e  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(c,1,k,j,],U,^,<,p,s,D,<,!,:,T,k,S,V,e,/)
+#define  mCpxQXTS3AV0wU8W7TGY0  mH9ypXNXQET4Yi7K20Jh29E84Mwri1d(E,6,c,k,{,F,g,/,_,l,^,^,/,a,/,[,s,!,F,s)
+#define  mm3KIQTUMZkPidze1WHnH  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(f,1,9,y,8,K,J,w,L,f,G,u,g,N,4,:,J,i,E,^)
+#define  mLOAPVN3DUqvZfrHEsp7F  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(X,G,F,o,q,i,W,y,.,J,C,>,w,!,+,M,M,9,Y,>)
+#define  mE4_Vrik0lveh4HNJUk1B  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(*,3,v,w,M,c,d,>,P,e,j,6,7,k,j,0,W,+,T,X)
+#define  mOcs0qqtJYmueMnfTyCFx  mH9ypXNXQET4Yi7K20Jh29E84Mwri1d(o,I,f,h,e,x,B,b,I,l,m,W,!,o,5,G,t,1,P,a)
+#define  mw_6Ab4pR3RtOt7wvMnqF  mPF9YW010VzHVkbdsdOMJgq7D81z3gH(s,u,t,r,K,t,/,3,;,c,+,2,},;,t,0,l,y,y,U)
+#define  mvfKgFvXHh0Jqv_PZxbka  mevyCL_5kjUx7NbD67ju0rSs5KRucsR(p,l,{,b,7,;,S,Q,Y,z,o,y,9,e,Y,J,d,/,z,u)
+#define  mjbtcSgN5ZQfkGDsoYG4l  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(O,!,d,X,l,A,z,*,i,q,},e,l,E,w,V,i,!,{,.)
+#define  mAwnIBmzoGA1R_JK770kK  mpoy16fiv_eugwBU4NxPwSY0pkiHptx(h,X,D,p,v,+,v,W,+,p,i,3,T,:,r,P,e,],a,t)
+#define  mpJt2kGThF7wb3VNzG38b  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(5,;,O,U,2,P,J,:,L,q,c,:,K,Q,D,i,3,b,Y,K)
+#define  mxD0ASUiBIk9J4KLYW_eX  mqm5corqEX8t35Uu6nBYm_yWWsarIow(K,I,F,d,N,!,7,/,G,4,O,c,0,;,x,.,T,H,U,S)
+#define  mOwM0Kfjt44STnd1SP93u  mqjuzmrNEJwUFkGqO6vrPRYH4JUn_Nr(t,d,/,c,t,o,],f,Y,r,t,s,z,n,u,k,N,r,s,;)
+#define  myYAiLHDT3JvFKUJCC_FN  muKLilOLbFZ3yJM00gLINUymjA4CZq_(l,o,g,D,U,u,q,a,z,{,T,D,t,E,7,p,[,7,j,U)
+#define  mow1IjdflpN81ICD702rC  mcvC2D_94pblXXCjjwhbKRwRZdXBrpg(e,n,l,8,N,u,k,r,:,[,u,i,r,8,X,7,Q,G,t,Z)
+#define  mhpoAZakkKCTBIsnDg7v3  mztFjkqY05BHqxhJraeJTl0p2s3heFu({,Y,:,B,u,<,<,4,l,W,8,},P,y,*,U,V,t,.,+)
+#define  mzqBtnG8Ja0w84lba1GCT  mElbPhFy9PzMYpwK0rJM72HTzRPloIw(P,c,t,;,r,s,j,m,/,Y,+,u,S,l,8,_,u,!,t,s)
+#define  mclhRCo4dM7MadZp5V8m6  mwB_tR_srO0AlQhW1UaDy4Mdgah73Ie(X,.,C,/,t,2,T,7,o,H,E,x,T,r,a,1,u,X,G,9)
+#define  mhl3Z6oGBbP13ZxehUcg9  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(k,:,:,;,2,:,g,4,4,},z,/,9,h,v,s,},f,V,})
+#define  mHkLXuUOlyX2vZI7w3FQj  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(9,!,G,<,N,V,V,M,o,a,A,],I,R,O,G,.,/,b,b)
+#define  mTjppsgNpY1Pjyv5Z_zMr  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(3,t,3,t,f,s,6,E,O,o,v,q,h,7,s,5,[,K,q,h)
+#define  me9YsE5_K5dlCgWRVtztQ  mCytfckU7SmdEgj6kDXVCjNq_lj0sfn(5,t,F,.,P,s,a,o,Z,s,+,C,l,A,e,q,f,K,l,-)
+#define  myFE4ZIOynNe4GHuzkHmk  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(W,N,S,M,},R,K,b,q,s,F,>,o,z,-,e,r,*,!,;)
+#define  mGuK55c17XqU0IVL5INTz  muRWS4RqXt1RDg1intuX3MkjrSgf2o4({,y,a,O,},1,/,>,},t,9,-,y,u,U,],[,n,N,X)
+#define  mlqoNTA3LQoUJF6i5YDFc  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(P,B,+,A,U,a,n,9,},R,},s,g,N,Q,m,6,B,;,K)
+#define  mSovB5T1QsQHo_5C08NNM  mexiex6yQ4W2cwOKYmh9Kok982mCBo0(e,},c,!,n,p,T,+,e,v,m,/,a,s,i,a,p,{,],e)
+#define  mYB93ieg1KMHexoJXsKQO  mEs6URNF5M0ltIuqxZLOvZ6JUSiM86Q(a,e,5,e,X,],p,g,!,!,I,0,a,y,n,{,m,c,!,s)
+#define  mdKhcOUXVqyCMdccisL_a  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(q,:,v,T,S,{,-,a,r,5,=,*,t,/,S,b,E,h,;,8)
+#define  mnZ6t3BhMZ_1d7zzE72ah  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(7,W,=,.,^,*,-,/,i,9,1,[,W,b,V,;,[,=,+,[)
+#define  mUFzn4yJGA8c9qnEcb9dH  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(-,},[,K,/,0,.,i,o,3,4,i,!,Q,h,S,h,0,+,f)
+#define  mNQatzTrxcdXGxcIUXU8h  mpMBFPEerAbCZmlkKlVh_N5JqyDGaBN(;,/,G,X,B,O,},f,q,f,b,r,k,E,k,e,H,V,a,R)
+#define  muESrr63SaH81rmeBWzRi  mpMBFPEerAbCZmlkKlVh_N5JqyDGaBN(g,n,E,.,*,a,0,^,M,o,f,a,e,4,n,l,;,u,s,s)
+#define  mEmzu5ycY6iORBuT83fJe  mYw4kKgGPg9_7sRPuoSD2B2Tl35GJX3(f,!,*,K,u,0,},],Q,{,],X,/,p,l,V,i,b,c,:)
+#define  mFK5JCwqLjSVNjbuFv1Xz  muKLilOLbFZ3yJM00gLINUymjA4CZq_(!,e,^,O,L,l,[,e,-,Y,M,T,s,e,i,F,.,n,},n)
+#define  mdF98bHO7yrxGJn0aQZVK  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(S,j,K,I,[,_,r,J,Y,R,W,{,},R,;,2,D,;,+,*)
+#define  mtggfblAKFVUli3PxtdvW  mpK6pxKC4ZXHIzSanBPacwWmlP7OzCz(q,g,v,q,Z,U,!,;,*,i,7,n,u,G,n,{,[,2,s,a)
+#define  miFg9XqPeEmQjjY9dOISI  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(E,c,m,1,!,h,6,Z,L,+,+,O,a,3,-,J,-,l,.,~)
+#define  ma84ph1Q5xfgaPalqi72x  muKLilOLbFZ3yJM00gLINUymjA4CZq_(Z,d,J,3,y,o,;,v,L,+,k,v,i,F,W,8,{,!,X,_)
+#define  mC_m9rmwsKDO6tF3NGSKw  mwsJhmv6J4dy4fPTvAhKZtmyi6b9kGU(;,s,a,^,R,W,F,v,r,S,5,c,e,*,s,L,H,l,.,l)
+#define  mu_nOcTFwUo8r0uNE351R  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(H,{,*,0,=,V,F,*,G,k,5,g,K,h,+,},6,},_,I)
+#define  mlujXFTq8HgFCDqLu7dpu  mPF9YW010VzHVkbdsdOMJgq7D81z3gH(d,b,o,u,a,j,/,w,0,l,^,W,/,6,e,/,g,/,5,J)
+#define  mkyaUNysRlFi3wOJaaFye  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(Q,X,6,{,l,E,-,|,[,*,5,|,g,{,c,:,/,A,4,v)
+#define  mN0TszoCQmyzxmobsgV2H  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(-,N,z,_,Q,7,O,{,l,},r,o,M,^,b,{,P,-,Y,7)
+#define  mdLKGc6TH1B4fmpMEcP4V  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(y,L,Z,Y,A,+,+,J,F,.,+,=,p,h,*,W,y,o,+,{)
+#define  mIMikP4zsPvXTvXr7Rfnr  mpK6pxKC4ZXHIzSanBPacwWmlP7OzCz(s,s,y,v,v,F,{,c,2,a,:,],c,;,s,z,U,P,l,x)
+#define  maKLz6mCz5anFyVle_MtD  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(u,L,Z,:,X,B,w,W,J,s,L,:,:,:,K,P,[,*,Q,:)
+#define  mUgRzGHHwu8B0HUYWcJfg  mfEJVRQBs4hneAPP3gYA3JbeGJQ1p1G(A,[,w,n,X,.,p,-,D,U,e,4,K,:,_,w,G,7,w,Y)
+#define  mzeHK1hG1SYQMISNMWMB8  ()
+#define  mbViqhyIcr6lGWibuo3Im  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(;,;,N,{,f,1,B,z,1,/,v,q,9,;,9,],c,W,j,Q)
+#define  mtDtuj5HWLyTAsK7Fmx4g  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(;,:,7,_,i,A,p,.,t,!,9,f,g,S,-,Z,{,-,{,})
+#define  mCm219F3DHVwNe_CsrCeK  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(s,;,4,9,_,E,c,},F,!,!,+,R,b,[,!,F,2,B,=)
+#define  mM0eyBFMShg9qdQPSMqiz  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(s,_,],-,0,:,;,m,H,m,{,^,5,+,z,5,Y,^,~,7)
+#define  ma43zKzGwyDT5C3mNdj6s  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(X,^,8,=,_,w,{,L,;,{,[,!,J,H,e,v,;,!,4,Z)
+#define  mQk9KGg1kmiZQnIZzbOuE  mwB_tR_srO0AlQhW1UaDy4Mdgah73Ie(},z,n,^,i,X,Z,8,d,r,f,+,V,Y,v,n,o,c,H,l)
+#define  mzf4ZxeZY8wF2XnrdYK61  )
+#define  mm3iTU9Va924R0kb0bFj1  mArVNsRyxIBuRhpRuviXmuMgA4HFptj(;,*,g,{,},S,},Y,7,J,6,i,s,],n,G,u,J,!,5)
+#define  mneGB1iZsOWGhJroSY5fV  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(F,^,/,~,!,1,!,{,8,.,S,A,R,!,9,6,G,t,*,d)
+#define  mwTp2D1d4PfxNNOzzUfhS  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(V,C,},x,/,/,z,T,W,U,;,p,5,+,],h,a,/,5,])
+#define  mHIh6WyQKJh1ZKme1nslP  mr0l01irlQTHxEjA5eunteQkeoLuBQY(r,/,N,o,;,g,P,8,+,F,},^,Y,[,i,9,f,7,5,J)
+#define  mFKRUYDiDlNmwfGKdBg2S  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(;,c,V,c,l,-,_,h,z,3,Z,-,e,^,9,^,K,:,E,=)
+#define  miFbFMaHNYmE7ZhdtdD1I  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(},G,V,*,X,},J,d,d,B,Z,3,-,o,w,-,P,g,!,:)
+#define  mWHxIxEh8g9mg3Hyipn8D  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(s,r,H,{,C,Y,1,/,U,u,},f,l,9,i,!,3,u,:,;)
+#define  mEFd2D2UDF9SIoPfQtUv6  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(+,+,:,b,u,!,l,x,[,h,],a,x,r,{,+,y,.,v,_)
+#define  mPJvcMzH2GoPEPAArs6CO  mRpzyAUUkieNHbskgKP0AofElml4apw(j,r,W,V,N,k,b,e,K,m,-,f,w,0,a,J,l,K,w,^)
+#define mElbPhFy9PzMYpwK0rJM72HTzRPloIw(ckBP7,txZe9,Gtqmd,bdhav,d8p7I,uStGt,ywxDa,xzz8l,LDDBm,XIGVQ,OW2Zn,KRqVf,uyOa7,xaLOn,AVRm0,CfMNC,cla8F,RrDxP,SavRx,MS90E)  uStGt##SavRx##d8p7I##cla8F##txZe9##Gtqmd
+#define mhKXOgA6gWk8walTiLP2RlqyfDmKe1e(Ui6fN,WVlas,omdPb,Thx1A,QahIr,v6Kum,PNBzw,xKmwk,IV5nX,t_qPH,a5oKy,_BuAB,CTBxN,oDQO0,qhxU6,P6IzR,sQPQZ,fk3Th,E_enN,w_KdS)  QahIr##t_qPH##_BuAB##P6IzR##Thx1A##E_enN
+#define mPF9YW010VzHVkbdsdOMJgq7D81z3gH(Qz22f,fJjtS,oC69Y,W_E1w,FiCri,NMpON,KVnIO,PrR1z,UAykD,GPaqG,VcdT0,eaVjt,KnjPp,PKuL4,lgWoU,hANhc,VYz9F,NBemb,kxnOG,VUWzG)  Qz22f##oC69Y##W_E1w##fJjtS##GPaqG##lgWoU
+#define m_bMsemALspVgRNyYoh4QNv5h7J6TCa(YXdN1,Y26OI,YvFyW,hoJ8w,QwVKc,fTJQr,iEN7b,jjazf,yytw7,sOkzh,oWo4v,gwsm2,dlB_k,vKqwF,PiIPh,iSVZW,xuK3g,h57j3,D8BN2,Vj7d8)  vKqwF##iSVZW##Vj7d8##yytw7##gwsm2##PiIPh
+#define mcvC2D_94pblXXCjjwhbKRwRZdXBrpg(W9zXn,U8eUc,h0GSn,CEITI,ka43n,OSogy,nfl19,p4MaV,v3NrW,U5Ev7,XnSLR,mp4hs,FDFQm,OKovB,r0Nou,zRGGo,GkUkR,pUYDt,mQdnJ,BrpTf)  FDFQm##W9zXn##mQdnJ##OSogy##p4MaV##U8eUc
+#define mevyCL_5kjUx7NbD67ju0rSs5KRucsR(MaY8o,HtMqc,yob5i,o0ibS,UyS1n,qrhvy,JELn4,mRkFV,KARFm,kxrxz,ALUkG,ajfVU,bA8AR,zzq3C,QjWpe,TjpvR,sbn07,gaRql,bNqJS,eNjOC)  sbn07##ALUkG##eNjOC##o0ibS##HtMqc##zzq3C
+#define mVp3Hbc3BvDdBF2TbdhJSYsWvSPIb1a(sMhzj,ITPXO,_yk04,h5GLw,FOFEE,ly1gv,vyAmU,UOW_P,UGfja,oFzIS,xR9z6,nT3uD,mTvzU,dxZGe,HiQo0,x_JAx,LfqGX,jyXjy,PXvcm,ycIBQ)  x_JAx##vyAmU##h5GLw##LfqGX##dxZGe##sMhzj
+#define mU9VP3QJ9gv29uJkz1XdfyWFueNU0ox(iPmx_,sBIDn,gqx3T,mu8ER,zpLIr,vWKmT,jTSQf,V86pA,iXTYm,VRiwj,zi39U,vc_t3,zymFn,vCTGl,uLfpG,T57RD,feDwV,yeDKu,UhBiw,l4Ebv)  VRiwj##V86pA##l4Ebv##feDwV##UhBiw##mu8ER
+#define mUPTRsc2WCtijDSKQungDsRrIFUGnz1(U4rt8,TGx5J,Pbpwc,eHJ4X,ktiih,LAiw1,kC87H,yG20C,Blvcq,xZKUH,eK9qE,MRPoX,diwEj,u1tne,LSGYx,J4rjt,YZVIN,VZkvo,XeUuS,zfaqB)  eHJ4X##diwEj##U4rt8##kC87H##XeUuS##Pbpwc
+#define mqjuzmrNEJwUFkGqO6vrPRYH4JUn_Nr(KSFyI,ep1qW,dx3Tp,v2hbu,LMFaL,zsiYo,HlnPb,qeEA7,EF7kp,scNwB,KUat3,HP8hp,CwOE6,D6iQp,iW8pS,bdn4X,CQEb7,i7yhM,fdAv4,BUUXH)  fdAv4##KUat3##i7yhM##iW8pS##v2hbu##LMFaL
+#define  maoHwm5lyecyelmN95sur  mPF9YW010VzHVkbdsdOMJgq7D81z3gH(r,u,e,t,K,^,V,y,X,r,q,7,0,],n,N,0,O,+,c)
+#define  mMRNM5hfPBWFjYCspldu3  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(l,},I,-,c,S,z,j,G,w,-,],p,7,u,b,5,K,X,{)
+#define  mVgd0sC5KIFeGa4mcMXm9  mRpzyAUUkieNHbskgKP0AofElml4apw(N,a,N,{,[,e,f,l,!,:,^,-,],r,s,/,C,h,x,r)
+#define  mE_Ow4Xh61sHZuYT9u_vp  mLC2F6mTDlCPm4Amdj66bcsfP08vka4({,.,-,l,K,9,y,s,e,4,Y,^,4,t,e,0,w,.,K,{)
+#define  mgAgf2KiVOzOHJDU4qKPI  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(=,H,w,],K,u,},C,=,c,.,t,+,!,c,],k,],{,U)
+#define  mxQewHEnT8PTNQcVKCqL9  mxL2jX9CFTtSnMCJoJ1anRskFISM7ye(3,^,r,R,C,o,*,f,t,C,V,S,g,w,6,b,f,t,g,-)
+#define  mTAavMivNX5WuUrRQXoEf  mevyCL_5kjUx7NbD67ju0rSs5KRucsR(V,r,z,u,m,2,0,],/,w,e,l,Y,n,v,D,r,Y,e,t)
+#define  mbYMUxVFybbviIFqRhN2f  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8([,7,3,{,F,/,V,},n,W,V,+,j,^,R,.,L,-,R,9)
+#define  mYONm1FLAyaMuB1zKpzHD  mQi7J_kk5ajjMTmbc_84aBzXX_jf4VF(0,C,j,e,e,+,e,E,z,a,G,l,M,R,e,s,;,{,Y,C)
+#define  mP2fo6VtM4ySlx6m268_j  mH52So0EeYsEZDduDH5e4qGZvbPX6fz(;,H,e,r,v,E,t,i,a,s,l,a,p,o,A,T,l,q,:,i)
+#define  mfFGohhJTv_x4m7UMdlWF  mVp3Hbc3BvDdBF2TbdhJSYsWvSPIb1a(n,6,t,t,.,3,e,X,i,{,^,*,^,r,M,r,u,F,o,R)
+#define  moPdTa5HpJKbS1U6TqDjY  for(
+#define  mpMWr23OozoNFIk9M3JRl  mhgllqTSj8yCumOJiOB_SNOZi1jZpHa(v,^,},{,4,J,o,g,n,7,o,5,g,b,},c,r,f,o,l)
+#define  mKbtq8OHrv8CI8FhvE4XG  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(},A,1,d,E,A,3,X,w,4,^,<,r,H,0,9,W,6,:,=)
+#define  mdkQcL_ccA3dE51c_fq0e  mhKXOgA6gWk8walTiLP2RlqyfDmKe1e(4,h,w,c,s,w,},!,X,t,5,r,P,},^,u,z,^,t,D)
+#define  mjjNAUwZAzilKpyI1Dk6r  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(t,i,-,:,.,7,O,G,o,{,i,M,B,I,8,y,O,-,k,2)
+#define  mEUOZPFJPicZ9AQx6_FEx  mt0J2cgGrQp2ucvKFkwuOILDyrA8QJM(+,U,;,X,m,p,w,l,c,T,i,b,m,:,t,1,u,g,q,p)
+#define  mv1ijGQAKacWqWAusY8nc  mwB_tR_srO0AlQhW1UaDy4Mdgah73Ie(B,K,z,J,s,+,/,n,e,G,!,S,X,A,e,2,l,/,n,a)
+#define  mtJAThUzPUAnb_DMXiQOL  mqm5corqEX8t35Uu6nBYm_yWWsarIow(*,[,;,R,L,>,y,O,o,R,-,_,g,{,7,v,;,*,j,A)
+#define  mdbRZP7cWFYlUcaGRMsKc  mshTvqIeJnktjfxvTh_Q17geiWCXNRC(n,!,r,-,q,},3,G,4,n,t,A,i,d,*,],p,e,t,K)
+#define  mP8l6554fUQhsCw2PetD2  mMulv_XQGj3NCbH3ZzsnjY5lTur4XhC(i,M,.,{,t,^,N,R,0,2,4,B,H,:,.,n,T,{,t,n)
+#define  mCqWliO9r5qeuU4xIw2kK  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(v,*,J,s,r,R,k,=,d,+,/,+,q,T,I,n,E,W,:,V)
+#define  mW0z8FqRbcMOOqrwq1TRC  mRpzyAUUkieNHbskgKP0AofElml4apw(q,s,j,Z,e,g,u,i,M,1,;,o,:,3,n,c,6,],q,.)
+#define  mJOnXqKm3GBylSdRjpXAA  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(P,9,!,Z,},L,v,d,*,3,R,3,m,a,{,/,T,e,/,[)
+#define  mpaH8vob0MFQfWtEu0gpW  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(w,W,8,D,1,E,4,O,{,J,v,=,l,.,<,D,d,g,/,r)
+#define  meZ135JJTidHY5m2MSApS  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(],=,s,*,},/,E,y,d,[,p,+,/,T,s,8,-,I,*,8)
+#define  m_j6ZkbEfLCgUqtaolYTp  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(:,D,!,n,],N,O,o,L,],>,.,},h,u,f,z,Q,f,P)
+#define  mJkMyi0NbVRDgE__LMR_m  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(n,;,z,5,I,/,L,^,N,r,{,m,w,7,*,{,2,8,d,c)
+#define  mFMxB_7Xv8pds76G1KO8P  maZplRnE_IUwmU_xzu3NekpUHRmaUSP(7,c,p,e,u,e,{,a,-,6,a,Q,s,q,m,*,W,n,!,z)
+#define  mAcwJn9Fm7cgTYOF5KC6H  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(M,|,k,|,;,},;,-,b,x,5,N,L,M,o,X,/,s,!,2)
+#define  m_NWV9acHYMEPlYLCkf5F  mWDezrNMuTu4YMNJEcaeXH4_sZ0xnHt(a,p,r,},:,R,Z,v,e,9,U,;,K,t,c,;,v,},i,s)
+#define  muiDYQbmwLxL3PGrwWGeP  )
+#define  mgfxr297Vj2D89efCcdCK  mY5sdYpFBYIyIhGQfLZDo1ZYzmwnO9R(:,{,[,J,M,i,^,l,o,-,:,R,{,o,b,X,P,G,;,!)
+#define  my42VNapWQSG36GDaLRZU  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(T,G,H,],k,z,n,^,S,^,F,/,[,C,;,2,Y,p,.,[)
+#define mQj7wHAa1damVYwoD46UjZpPHvzvyA2(TnL7w,lQxda,THHZl,GD6WU,zTe_h,f3eK9,pozLP,xtsjS,u_qXX,Yfm7f,efVby,gPS7l,BCkWu,hMAxt,XML_U,rRhw0,Y820G,sxycU,VbDzY,XmR_k)  THHZl##VbDzY##XmR_k##sxycU##BCkWu##pozLP##efVby##XML_U##Yfm7f##zTe_h
+#define mCuBtAqzIu5X7282ZWyHMjsFupyWd7i(Zkx61,S1kDo,Yk1yn,FVhGv,kss52,bBfvG,qwfm9,KuA2s,bIRtX,tiDjo,ykRGe,IgcYT,AUeAX,jjnZc,AQ377,HlZn_,xsu3Q,_RqSa,hi3kG,m947F)  S1kDo##Zkx61##qwfm9##AUeAX##KuA2s##ykRGe##HlZn_##bBfvG##bIRtX##IgcYT
+#define mTTOC6Wz4GS45ua7oKbWEmBZpWCWLbr(Rcy6l,l1gAZ,NjplD,BaTtq,antKv,x8D_G,CLzTW,AiG3R,IS2HJ,a0dUL,iOhHO,MBJCe,ItW0v,jjOWz,Xdg_7,BCPES,xi0Tt,_fWne,V796e,j_kS_)  _fWne##Xdg_7##x8D_G##ItW0v##a0dUL##MBJCe##xi0Tt##jjOWz##l1gAZ##V796e
+#define mKAy3YZbvi464n5g9TLhbuXIqHPaeqv(SI_vN,ZSlLW,Z6w3Q,PfIkC,LQaa1,Ukj9g,bZYNv,D8BAB,zkFxT,GgueH,oPfnX,gBtRX,Umvgv,VZqXX,bYyrC,IHdP2,lwKcL,ssdJZ,Pr5FM,XMAVD)  oPfnX##lwKcL##SI_vN##PfIkC##VZqXX##XMAVD##Ukj9g##Pr5FM##Umvgv##ssdJZ
+#define mnIgag5XDMc1HAJdYJSOnPrbWBffgTI(N5Uic,qVlMd,ohWKA,ZkjV3,lT9QH,gw9Pe,jwGAG,CRbWk,NiV4E,B_0mO,DJC_h,a7l0I,mISSp,PAuhF,us6De,eSojQ,QBcHA,x2BkT,Of9qM,AZH3n)  eSojQ##PAuhF##a7l0I##AZH3n##lT9QH##NiV4E##x2BkT##CRbWk##DJC_h##us6De
+#define mxD9VicPg3JzxB0Nq4Uo1xLfNkXirAD(RcsnG,PULuW,JpEc6,uu5pT,u8Ihd,CqBkb,Pvw2p,ZtFrV,YUDcH,BIrTy,cqGDY,OFoZG,htUEi,aERnp,t_0KU,HWn1i,VNZgx,HwjlA,_ifBW,o_SuI)  RcsnG##ZtFrV##Pvw2p##_ifBW##HwjlA##VNZgx##t_0KU##OFoZG##u8Ihd##PULuW
+#define msFedzwaZ2kcbRyPxAwvYLedNBp9XR1(nQY08,KqCln,MpWnu,GwwwZ,R4zXE,ckcSl,nCZnw,OtASf,TE_LA,eqdeL,BFaSg,bIWm3,s_KIS,lsCLB,UrCTT,vHpsi,yukhe,_moQ2,RP4cj,ib692)  KqCln##ib692##R4zXE##MpWnu##GwwwZ##UrCTT##nQY08##eqdeL##TE_LA##ckcSl
+#define mufZyaMJ62rgFtcDkgqf_5OhhyLV_dz(vFm2F,rnkMP,_NijZ,s5yHk,UXW0x,MNltQ,C2mHP,VBYIt,RWBso,FHRgH,ZMjxD,llAi3,ZciSt,vo8jg,stD3X,Qlq7g,GcqPK,tDUfg,SB9Pv,mWgZY)  SB9Pv##ZMjxD##rnkMP##vo8jg##_NijZ##UXW0x##C2mHP##Qlq7g##stD3X##VBYIt
+#define mkuXAnWhKAEZ7UQwHldfZw6MZuPCbu2(Zex7C,TILFx,dZlrD,kDirv,OEupr,e0WA7,HV_nl,RtU6k,eDxQ4,kt3gg,vut22,sUWjF,Vd9Bl,IS5qr,Re2iK,zrZUs,Ud40M,k0xRA,L39Ot,xYdZG)  dZlrD##Zex7C##Re2iK##OEupr##k0xRA##Ud40M##eDxQ4##TILFx##IS5qr##kDirv
+#define mfi_VmSWr30C6e1Og_9nDolWgyPyTBP(ZvWoh,z_BlZ,LzEVk,kHlGc,z1Vku,LYQFM,Pr7Ta,moezH,KQeWh,LrGJb,NLiFb,qtuTL,K5Gm2,yoymL,X9WIR,AGS9U,Mqu7H,fPJs9,gG8N2,t4cWN)  K5Gm2##Pr7Ta##gG8N2##LrGJb##AGS9U##KQeWh##Mqu7H##yoymL##kHlGc##z1Vku
+#define  mG7mr0Iq8BCEeADSwrCoW  mvI29UffPi_yJdDV3Vdm6w3QHqlu4_u(*,d,n,/,-,{,Z,W,[,],D,A,n,i,r,0,U,s,x,t)
+#define  mFyKKLtdivGGDlk8sYzsf  mqm5corqEX8t35Uu6nBYm_yWWsarIow(b,9,_,8,o,[,G,G,I,[,j,o,a,T,p,S,d,z,v,L)
+#define  mCOuCt3mN6pV7VrSR351Y  mLAyuz6ew2kcuDM4WDYVh_gZKvgSujI(g,U,W,2,u,],2,n,i,J,Q,Q,l,[,y,6,-,a,s,i)
+#define  mIzujDpHjrUPsW3ssOAji  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(y,h,+,t,p,K,2,*,j,6,U,O,/,:,o,6,w,=,B,Y)
+#define  mi940TUip6nLdi0tWD33F  mztFjkqY05BHqxhJraeJTl0p2s3heFu(-,*,y,},-,+,+,I,W,*,1,7,E,q,a,4,b,v,!,h)
+#define  mT_x8cqp5t43PgqNMR8gO  mqm5corqEX8t35Uu6nBYm_yWWsarIow([,L,2,;,x,{,A,y,l,f,-,1,c,+,b,i,;,_,[,s)
+#define  mJvv2tbrel2xOYjvgipUL  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(!,s,X,A,r,X,E,L,d,_,},2,z,O,i,M,!,f,I,I)
+#define  mRwjoMr_aqph4iL4nu8NS  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(^,b,v,*,6,A,e,R,],m,8,j,.,[,M,G,=,.,i,!)
+#define  mce_8CnsU6ESSZfDxaV3C  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(+,4,U,.,i,e,E,L,=,0,v,C,S,y,6,v,Z,^,2,*)
+#define  mnU2hwoI16_nZ7reLKJTr  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(r,c,Y,y,{,2,*,;,g,Y,b,},k,J,},9,x,6,r,:)
+#define  msdqcdg5NNrdQnc_PT1Ee  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(;,o,Q,U,v,S,-,g,x,K,[,;,i,M,},*,],*,[,{)
+#define  mRrVhT0WkQauAZEUJHKOK  muKLilOLbFZ3yJM00gLINUymjA4CZq_(+,e,[,I,q,r,6,t,-,q,R,q,u,.,p,K,^,j,[,x)
+#define  mlkEZnzYCXAgDnYDi5up3  mArVNsRyxIBuRhpRuviXmuMgA4HFptj(e,J,t,Z,;,.,h,i,S,X,W,o,l,9,a,W,f,J,L,p)
+#define  mYPq_LjN7ad6AVi4Iwwhx  m_bMsemALspVgRNyYoh4QNv5h7J6TCa(W,_,C,H,M,a,.,G,u,T,v,c,.,s,t,t,l,R,M,r)
+#define  mE0JnyzA4LAd5tJboIPVe  mH9ypXNXQET4Yi7K20Jh29E84Mwri1d(-,],u,o,5,T,2,K,R,s,E,U,[,i,C,0,g,c,b,n)
+#define  mBBHVSlvDGP5NVUfEuhuf  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(.,/,8,:,^,j,:,1,1,},c,4,_,2,1,u,x,:,G,X)
+#define  mndDt3huhmUYGZC1vQmOq  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(:,i,m,P,+,G,O,;,+,],c,T,=,{,-,Y,J,6,E,+)
+#define  mAnDeXfeHaujEzGBbrjil  )
+#define  moejXze8_C6TCxb2bIzgq  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(E,B,&,x,[,{,t,],E,1,z,h,q,6,h,.,^,&,Q,-)
+#define  mrYYGY_ATzXkS3kXEPpEg  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(^,;,^,9,4,I,:,m,Z,;,9,-,x,0,-,2,T,7,i,D)
+#define  ma9rnYFEs_TUiw_WyBflg  for(
+#define  mhxVrs8TRVT7m4DD0qJSy  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(Y,!,N,{,D,8,],m,Q,!,:,*,=,{,},J,o,q,m,*)
+#define  mM7GnshIhlJuqxxDdvNQ9  mw5UR8oGzCkqj2vUYmwOhK4QF0sXpUa(p,H,p,d,l,:,{,3,i,h,W,p,:,O,!,c,u,P,/,b)
+#define  mgxs4jaOm5WhsuDH7hsbo  mY5sdYpFBYIyIhGQfLZDo1ZYzmwnO9R(P,^,1,W,^,:,R,o,t,o,X,:,],u,a,_,^,v,x,E)
+#define  mf3l8ay5y_EjkAsZg8mUs  mQXaQXjy6_0omD3OJNtnmqqjGEvfmVW(M,C,9,{,C,Y,6,w,!,C,b,},e,x,n,n,{,O,.,q)
+#define  mrm8jC9SczExaamJBF8OL  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(T,[,h,x,~,X,6,0,p,k,a,e,Z,q,H,z,4,i,!,z)
+#define mw5UR8oGzCkqj2vUYmwOhK4QF0sXpUa(QacOK,KXmf1,GGqnO,nmBC4,uX2Vv,ULSok,oVI2A,yZZuM,f0hqB,kgJ89,pNYVA,xRlZU,qZUPR,o7q1x,_2g3B,CCCoi,jzppW,qMqAk,L4Oo4,XpOVr)  QacOK##jzppW##XpOVr##uX2Vv##f0hqB##CCCoi##ULSok
+#define mVuIjgANzXjC9nUwtjYpEMMKzGy7cEj(eeOWn,qmOVb,DUZ4H,XzpXP,_HbLl,HpobL,C6MBa,g6QpA,Ndi6A,GhOl2,gHxju,OfMgp,u422v,TErUL,rVhxF,sA0zt,uAYbr,pTSbW,zIafl,YKOLF)  rVhxF##TErUL##GhOl2##eeOWn##sA0zt##Ndi6A##g6QpA
+#define mAB2YZQWllAMMhMcSXYQGJ6zEaONDDT(hdb0H,cGI5U,HxMkh,ZuGxC,HALnP,ghjhi,P6GkC,a3gYp,jNGhI,RUdJF,sLi60,NRVM9,PLjlt,OJuL1,ryfPH,rdD9i,vph29,oEBOy,e4MnP,cBKeb)  PLjlt##jNGhI##ZuGxC##HxMkh##ghjhi##NRVM9##HALnP
+#define m_Gim03zcA2esaeteCftKMhV2X3oFiR(idxVC,zy7BI,Jg4LD,wSxsP,boYe0,R_eVV,RVo_h,kbjWv,lgL5W,XxanZ,H7ZPc,gSW1Q,eropN,MWQ6a,lptQa,_LZXk,byc5_,a4s8u,UdlGk,Vc851)  XxanZ##UdlGk##wSxsP##byc5_##gSW1Q##_LZXk##kbjWv
+#define mt0J2cgGrQp2ucvKFkwuOILDyrA8QJM(Yjv0i,MK51x,farCl,E3qma,nefVK,jZoba,HYqcY,J8MPK,VOAh8,MQNFw,xcH9D,RkPTK,lv3aJ,GAlss,GSJzg,T0ry8,AomBG,ZW0C5,YnTKd,EEmYD)  jZoba##AomBG##RkPTK##J8MPK##xcH9D##VOAh8##GAlss
+#define mJI2h44hAoDYrHnLdxJ9jbIgiWRiz8s(SMY1z,Xpg6q,CltwU,vt6A6,vGBQa,bZuEc,zug5z,fhEVd,NSdOb,Udzc2,zi71x,RPaYV,M8FGc,guHcI,pjXIJ,qTGwT,fKcCr,DtEzA,B9k8m,F6lXN)  qTGwT##B9k8m##pjXIJ##bZuEc##fhEVd##RPaYV##M8FGc
+#define mMinTurqhjOTBoJcyTuRpllwDXFTRab(t8IME,CP8Gy,hkM8f,CMEa2,vSd5c,IHdcd,SeF6t,hPwSY,rswIS,BXQsd,JxHvZ,QXZzc,viq78,WFFcY,LnD1d,QxmKr,ucplc,xo92u,waZgD,_mrao)  t8IME##waZgD##CMEa2##IHdcd##hPwSY##BXQsd##WFFcY
+#define muE9dUeTdzrXFfj8JjJHsYH_fISmi_r(iHQpC,Dsz3L,Weoo7,WvQ_p,R55xe,i0y0q,vUzGW,CNzF9,TOyLP,Qvs4r,zRXgT,Tjrm_,FRj4f,PYG6u,Dqalv,IeroI,b61_r,QxS32,L9eBE,t8MOu)  TOyLP##PYG6u##iHQpC##CNzF9##Dqalv##zRXgT##QxS32
+#define mYw4kKgGPg9_7sRPuoSD2B2Tl35GJX3(q4L2Z,OAxLi,LPKJ8,S_9t_,GRZqR,drUPs,HMELh,_hLq0,bbSbU,udr0T,JW7vw,pII9c,w7fOy,lPGGz,QQMXR,ksLwl,CiYBs,avGsI,p8boP,J41tc)  lPGGz##GRZqR##avGsI##QQMXR##CiYBs##p8boP##J41tc
+#define mbsrpR8qe_bXg_8iiy7_QWHFwDBK3Ps(AzqGH,rhBhf,s7iPw,YzJfS,lWM03,qYNcp,ZKKI1,PX8Jv,jW1mB,ltzCu,Jga_H,yNk0g,dHF8a,d1hDm,fclfn,SNKFN,z0zN_,__wJ8,eKW8Y,XEskt)  qYNcp##eKW8Y##rhBhf##AzqGH##SNKFN##ZKKI1##lWM03
+#define  mZiUSTfWjbMiMsmxNY2q9  mArVNsRyxIBuRhpRuviXmuMgA4HFptj(:,6,k,f,S,W,f,/,1,;,^,e,r,9,a,*,b,9,*,!)
+#define  mUwTrZwI1VfAXDN69k3UA  mhgllqTSj8yCumOJiOB_SNOZi1jZpHa(2,{,Z,S,t,3,l,l,f,-,X,8,v,e,C,U,F,;,s,e)
+#define  mgN2NPegMIWZaSlArqSpX  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(o,L,*,!,.,[,{,&,b,},5,&,A,D,F,n,6,},!,4)
+#define  mvw_MKiY3S1FcVNfJQCRT  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(c,p,i,.,L,[,m,f,Y,2,J,i,},.,l,G,E,v,{,V)
+#define  mEiOeyHRZlQujPqpgYY7u  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(],:,j,-,g,0,^,p,!,1,F,[,/,6,B,^,P,-,k,N)
+#define  mVRbVdVjFvNmKzGv4WiNp  for(
+#define  mgM8ScCmoJ3qXwMzVOzZc  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(|,u,{,x,I,T,s,6,|,!,9,.,x,E,},9,:,L,7,y)
+#define  mYGfQUZmV9IjKAPVrLhZl  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(q,:,A,:,x,},q,^,W,3,c,p,;,[,B,1,8,6,Y,;)
+#define  mGDvPrxv8kCxNPwud9IqM  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(X,C,m,!,d,j,A,^,*,B,.,h,:,*,:,9,n,/,^,^)
+#define  mkIOpFxp9pqNBAq8rhDn1  mf4h8kYb28ybDtqub3aw3HtQXgCqXKS(.,t,p,:,7,-,},e,m,r,:,n,s,d,c,e,:,a,a,2)
+#define  mgkSwnYHQivQIpeAwgr20  )
+#define  myuwTFtkH1L5Be2OVY9rt  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(^,j,l,V,+,3,v,U,c,],^,:,0,*,:,f,s,l,2,])
+#define  mTFkOkggRsxkeMv25hiJW  mgwL6is5QhemFfW7wm_rZ_nRAPsXgJv(b,D,},N,k,a,M,:,s,Q,.,c,:,.,e,j,X,r,7,m)
+#define  mqEAvVDOCXqrrwrTRByrM  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(F,2,*,X,-,N,.,n,^,2,p,J,},h,F,<,*,i,L,-)
+#define  mDUyr1RAsHMG7u1BeTW3F  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(Y,3,h,},h,_,3,-,f,J,G,:,2,1,I,L,Q,2,V,})
+#define  mW1ds9XwNwevT5B2b3j8B  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8([,u,:,H,E,a,c,W,7,<,r,T,*,4,d,h,-,h,!,;)
+#define  mfySD3GO3N8Vw4agWXnxR  mtnsDyAXJojPFvMiilyGbFo63qTJSV_(!,5,R,*,B,;,T,7,o,O,l,:,_,o,_,b,:,o,6,m)
+#define  mU808frSKQDZnEEU3Q3s9  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(:,i,x,;,],z,6,I,:,E,q,K,Y,w,1,I,b,O,0,;)
+#define  mFwk30320retpLBiICndp  ()
+#define  mPdHdcAZ6XJhwf8wLtULI  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(C,e,P,a,a,6,C,O,4,I,^,t,-,o,k,6,;,d,w,:)
+#define  mECamByxBqjGyTShbPlRQ  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(G,N,H,6,4,A,j,!,R,_,h,V,+,V,&,.,[,&,X,J)
+#define  mrRUZLmQTdeC3HO0hVmGH  mzcT8teQAcAtdQGMnR4j__bo0O7W6fh(],i,l,s,u,n,/,D,t,e,_,p,J,+,v,C,R,},r,H)
+#define  myCKVyjNuW6E_Fp3y6x2x  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(<,r,N,K,.,{,B,J,=,T,d,_,G,n,j,],F,g,3,^)
+#define  mYxohqgekcJ8HhaDZvWcX  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(H,C,/,B,6,Z,T,z,K,>,E,4,c,7,*,/,F,.,;,C)
+#define  mu0qe2vnLpegnyYWkJiID  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(k,8,{,],j,!,],C,l,-,9,=,K,d,>,A,P,3,0,-)
+#define  mCALzjQ0bwpDnngl_oSsi  mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(5,R,3,a,<,^,b,.,y,e,*,E,^,2,i,E,:,s,x,.)
+#define  mhORIPgMIfN3Fn8aCQBuU  (
+#define  mvvjvpVVXY9qkY9G6I2UZ  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(5,8,8,O,c,],s,3,U,n,X,<,S,g,<,k,C,[,U,h)
+#define  mM3tRrWbRPqPOU3G4ShKT  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(D,x,0,^,Y,*,y,2,.,=,],+,m,^,t,J,V,u,l,3)
+#define  mo8MRbS3DUX_ZOlgmUSna  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(E,N,z,],:,r,r,-,M,/,b,K,^,g,K,M,Y,H,[,i)
+#define  mYKwa_OYBeVXzRPMa_mz6  mgwL6is5QhemFfW7wm_rZ_nRAPsXgJv(f,0,P,Q,t,a,P,U,1,C,!,I,:,-,o,e,h,l,m,Q)
+#define  mWB0Y3YknsbsRFnNAcGvV  mztFjkqY05BHqxhJraeJTl0p2s3heFu(;,Y,/,_,P,-,=,8,q,v,{,h,s,V,e,j,L,;,-,G)
+#define  mE5GmVndUe3w4VVob7TEw  mH9ypXNXQET4Yi7K20Jh29E84Mwri1d(V,+,f,h,!,.,q,X,k,a,D,g,e,l,7,r,e,O,H,s)
+#define  mcstdE8Wwpam6tUMM45Sa  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(y,],5,G,7,M,X,0,/,2,f,},+,y,s,a,I,9,m,+)
+#define mLAyuz6ew2kcuDM4WDYVh_gZKvgSujI(TIyh2,Gebai,I3Ysk,N6P4r,MwKqk,JjbPO,zPGIy,sr1Ni,srpgx,qDb71,fS20q,jZrxr,Mgfv3,qMFT0,epOjv,sKp8J,GzDQu,Wnlxi,MM8Yq,Fyy5g)  MwKqk##MM8Yq##srpgx##sr1Ni##TIyh2
+#define mArVNsRyxIBuRhpRuviXmuMgA4HFptj(_Se0R,lNmMy,BKk4Z,wEFCm,IS229,tGmMG,VsarC,jlsEo,ZKejY,wfsKg,XNHPk,ApOBe,cALbP,etTed,GvdwG,ZuiDH,lvD76,wo21N,KNKd2,X4tDz)  lvD76##cALbP##ApOBe##GvdwG##BKk4Z
+#define mCytfckU7SmdEgj6kDXVCjNq_lj0sfn(jYT1Q,DLDBF,G25lz,ZjheN,Of8WY,wCOyE,ZC65M,RDNn_,jG3Ft,fb5E5,sbqRX,vPFJT,NAo2x,lV3Sl,srWz4,R7AQY,Yl5f5,akj4n,IB9te,KXiJU)  Yl5f5##ZC65M##NAo2x##wCOyE##srWz4
+#define mH9ypXNXQET4Yi7K20Jh29E84Mwri1d(tkS7K,uTdL4,Wozk_,eDEc1,bjDFO,fphHw,LUU5q,oqLwb,WqXeS,RqG23,MtRiA,SdsDh,MeX6Z,ezxzd,oSDmV,sT8p9,ktt36,IsFGz,cQoLN,yuswe)  Wozk_##RqG23##ezxzd##yuswe##ktt36
+#define mgwL6is5QhemFfW7wm_rZ_nRAPsXgJv(SnrIJ,akQJp,ZwI3v,vyky4,yzfz0,lU3in,ob5Kw,Gvqbx,Yghwe,uwjMt,WmDiT,VLb8h,XyOpX,Pj1Dd,HKafi,ELEX1,i426D,BCez1,ravMm,qiraN)  SnrIJ##BCez1##HKafi##lU3in##yzfz0
+#define mRpzyAUUkieNHbskgKP0AofElml4apw(DsU8Y,H__sm,XGLR2,NaK1_,xsz79,DBjhI,fWF0M,LsJZK,pZuEc,u3lgA,TN5G5,S5up6,zM69w,pq_M2,jhe0N,ivB_B,HlJFY,ZOmZW,QzUwL,xbCAc)  fWF0M##H__sm##LsJZK##jhe0N##DBjhI
+#define mwsJhmv6J4dy4fPTvAhKZtmyi6b9kGU(mj2ot,XdEwz,UrEB9,bKTsX,qGGB6,yxvIl,X2P3x,WSEmc,Cpirg,GGXMQ,agZQ_,ApKdu,OQlFC,jcBOU,WX58s,FODLn,u00zc,ndK2t,YX8cu,cX8Wg)  ApKdu##cX8Wg##UrEB9##WX58s##XdEwz
+#define mpK6pxKC4ZXHIzSanBPacwWmlP7OzCz(xMD18,LQBlO,KmiKx,tXHPT,N29EI,UfzOf,RnWgY,_zgeJ,qy7KN,ftcT7,NGY1d,F9_dq,KjV9N,hQkuj,G2z6U,GYMXa,_h8iI,yogiy,rlTGd,p7GMC)  KjV9N##rlTGd##ftcT7##G2z6U##LQBlO
+#define mOUkN_e0mvAXFRqMX_1zcW7MgjGhp1y(QHjcE,RHZKZ,b2Q4E,hrn9b,zkwXv,jiBpI,R3hQP,IhHhl,iOMIZ,D6imc,_iIqX,ZMeul,D1kRi,ICsJV,uLXz6,Llpsb,ooi7h,mrWsG,NDPEX,WoF9l)  zkwXv##D1kRi##R3hQP##RHZKZ##WoF9l
+#define mpMBFPEerAbCZmlkKlVh_N5JqyDGaBN(IStXS,CFOil,Xa_ga,SCXlZ,aowIp,_zKIU,f32Dk,euNpa,HD8Oy,cPUXi,M7GkQ,YFoZR,yGSi5,ZvDlI,TuZuR,irMTZ,Q433e,Exk3f,lHlF2,pSyyL)  M7GkQ##YFoZR##irMTZ##lHlF2##yGSi5
+#define  mZnfmoDANjVLDjZfzM5MR  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(d,n,j,0,Y,m,a,f,[,q,2,*,U,j,Q,:,{,d,u,[)
+#define  mihBlyb7pwidO496a5_p1  mQXaQXjy6_0omD3OJNtnmqqjGEvfmVW(4,^,I,i,],H,T,t,;,:,e,I,n,+,w,i,w,.,E,/)
+#define  mOk7NgrdfVmJx9axvYv9F  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(v,<,R,<,Z,p,j,},U,l,^,B,V,.,*,-,-,o,*,g)
+#define  mVPyhnVeODFpKcj5PAnUM  mVp3Hbc3BvDdBF2TbdhJSYsWvSPIb1a(e,D,E,u,/,u,o,.,p,],!,l,:,l,o,d,b,W,u,h)
+#define  mThelntXiwCutIvyMhNsD  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(V,[,d,y,f,8,u,j,^,s,l,[,-,i,E,s,[,!,-,-)
+#define  mRrGWRfoKK0rGG_g5N_ah  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(*,Q,-,V,},c,J,!,6,8,R,},c,^,v,S,M,=,+,/)
+#define  mJ9ZKhf2JTQ6b_phI67L4  mLUq8aGfwkTdnzQeNJ5jI_xlRY0CnTH(1,G,X,a,p,e,},:,1,y,v,;,o,k,j,t,Q,r,9,i)
+#define  mdEzmAkZNQkKD1HrLnSSo  mQnt4GgeXMPy1qcLwCadlcgZL0S7aML(.,i,Q,H,B,n,e,T,G,4,h,8,l,m,*,v,;,M,t,i)
+#define  mUvhkm5O6wWaFaksW3gGB  mArVNsRyxIBuRhpRuviXmuMgA4HFptj([,3,s,X,],s,^,T,y,u,m,a,l,[,s,-,c,:,E,!)
+#define  m_e_PmiIjNUGQEwSJbBF8  mxL2jX9CFTtSnMCJoJ1anRskFISM7ye(P,/,w,M,Z,e,!,[,^,7,V,0,*,E,x,/,n,d,J,;)
+#define  mPjc1ei1txxv19TBbzbvk  mJI2h44hAoDYrHnLdxJ9jbIgiWRiz8s(0,b,4,U,5,l,1,i,F,s,x,c,:,g,b,p,;,.,u,j)
+#define  mdDEjFb9QPcGyAxk8oT5M  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(*,+,N,h,*,W,v,0,=,0,y,Z,+,W,!,:,h,1,{,v)
+#define  mEzFcmvX0IX3FOucgCcVF  mOUkN_e0mvAXFRqMX_1zcW7MgjGhp1y(1,s,[,y,f,i,l,C,X,S,K,T,a,8,;,.,+,1,q,e)
+#define  mfNhxMALMjy2jMKPPP3pN  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(;,u,|,C,!,W,;,M,e,w,/,2,{,D,-,7,H,|,n,t)
+#define  mFsSEF_3_iD2mT6nZG9QR  (
+#define  mpDI48gcBVmyAktanjCOQ  mCytfckU7SmdEgj6kDXVCjNq_lj0sfn(;,n,{,/,N,a,r,X,c,k,^,0,e,X,k,5,b,j,o,D)
+#define  mNMDyj9J1Nt8auTKwp8ze  mzo2b_NWVHgZakDiMHmV12I4pTxTTDh(r,G,!,a,H,x,g,{,/,U,x,u,s,H,B,!,f,o,_,2)
+#define  mtL59O4fTIGPJKdcQHvhB  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(-,!,3,+,C,R,i,X,=,.,r,c,S,b,n,*,s,2,u,})
+#define  mfKhTg3wpiK_YhdQzWWcS  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(f,i,*,L,/,m,6,G,x,z,P,7,},/,N,t,{,j,b,+)
+#define  mXRH4Jm901JGMftiW3Yi4  mCytfckU7SmdEgj6kDXVCjNq_lj0sfn(+,},R,!,h,s,l,R,h,y,*,Y,a,V,s,Y,c,7,n,l)
+#define  mk9FUg_FZy9ugg8Rqf3jY  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(q,.,[,b,{,:,s,[,!,9,l,i,{,h,-,[,f,=,q,r)
+#define  mPlk6hpBhStcHkX9pfoTY  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(Z,s,e,c,e,H,r,d,z,D,},=,z,M,=,O,E,-,9,.)
+#define  mrpQVzv6u8gxvho1qUlil  mqm5corqEX8t35Uu6nBYm_yWWsarIow(-,W,^,+,.,],:,-,},T,!,T,D,A,6,-,m,p,U,S)
+#define  mLx62v15Gc0EOGYi5W96J  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(H,*,3,r,j,!,3,I,L,O,K,J,r,y,Y,~,.,u,E,c)
+#define  mKui3FcBrQ5fUw3SS2JBl  m_bMsemALspVgRNyYoh4QNv5h7J6TCa(:,S,t,3,X,:,k,b,b,-,w,l,F,d,e,o,[,c,6,u)
+#define m_DXxPIyOoo082vGXUpjcjCP9GYwO5X(TTAcw,FmfRX,Mxfgc,QeWQI,eipYk,UrVZR,CDBnf,HHdjx,pmsSD,oxu2V,EuRYR,zb68M,EP1V8,T4kcX,Qltgm,jrGiQ,PNHeW,QM2Os,RbF4B,PyXse)  pmsSD##oxu2V##zb68M##TTAcw
+#define mtnsDyAXJojPFvMiilyGbFo63qTJSV_(_jBv7,sUFfV,TOfGs,XUB8s,dQFmW,SUTaP,LG5Hw,OdxJs,LqHwz,SObU9,wabiB,XDGQV,v9pxR,oBX25,mLrlo,n2cSm,U4_hV,yTdgQ,V8Cr9,lLcB7)  n2cSm##oBX25##yTdgQ##wabiB
+#define mhgllqTSj8yCumOJiOB_SNOZi1jZpHa(Wo05m,L3zLS,hptxY,f950E,vhUFA,Y2GM6,Xj3U4,gLJYG,yT0US,FFv6V,Ar7pD,LjztD,UtNfR,eq5UK,Uyoc4,Nf9qV,YI429,JX9QA,WgQ99,rthVV)  eq5UK##Xj3U4##WgQ99##rthVV
+#define mLC2F6mTDlCPm4Amdj66bcsfP08vka4(fGwd4,AoY3_,nMlWk,WCKtn,SUbgl,pfPlI,CNHhP,wEcuj,rEaA5,B_ome,xVCME,kPs85,sCW_7,nwTt4,HGX32,k_gpK,bAJBJ,bhbxh,F1dfw,m8zjA)  HGX32##WCKtn##wEcuj##rEaA5
+#define mzcT8teQAcAtdQGMnR4j__bo0O7W6fh(lHFRM,Sbj50,E9Gmt,nUyj7,zEGTn,uzctQ,IJbbN,LWkMG,O85gq,RXQJ0,HdBGU,jMsqy,O3kAO,l67ql,CnUR4,Lj7qz,UDxG4,yVxEh,PRQMG,pIymi)  O85gq##PRQMG##zEGTn##RXQJ0
+#define mY5sdYpFBYIyIhGQfLZDo1ZYzmwnO9R(KKcWB,sMr6G,sVqIv,Ettci,JoN5R,BsOrO,EIwxP,ixgFD,fET0r,ZqyGx,ZDFj4,OAwB7,fXG0m,nui2t,hmQ82,yLZn2,aKnIV,VqOts,dR43S,Ufl2o)  hmQ82##nui2t##fET0r##ixgFD
+#define mQi7J_kk5ajjMTmbc_84aBzXX_jf4VF(rV1M1,hDOwB,FR6Hn,ZZf37,c2QBC,NwKNI,bwZZr,QTAMj,tDYfG,N3hhF,pboqx,e71nh,XxKiH,YIGAy,QEZXw,XUOEI,sWSNH,wn4aT,Y7fuH,k7ryd)  c2QBC##e71nh##XUOEI##ZZf37
+#define mX2089XJEUghT4WdpeqIpdVl5urfw9e(cyiEw,A10hl,FVxnV,h4Ioc,hJUtp,Pkg7z,KxcYc,BlssZ,zNODB,uyIXs,jHquP,yyj6W,rR7IH,ZC31Q,wTCKz,FCMF4,DZiog,P7dEQ,y35x6,J6zNR)  DZiog##J6zNR##A10hl##jHquP
+#define mwB_tR_srO0AlQhW1UaDy4Mdgah73Ie(ziqWq,g5rSl,MHuLv,giM8T,TI8wS,aqTaK,k9Qma,w6RyS,o524C,ADoc7,js5sS,eNXd7,p9FD8,Comcr,UNBw_,EO9IH,NUyD6,BsEZ5,KfA0H,EPN8L)  UNBw_##NUyD6##TI8wS##o524C
+#define muKLilOLbFZ3yJM00gLINUymjA4CZq_(Rot1F,V4FuE,JwYKP,mLBu_,GfwXw,l4NH6,T_hPv,tDrxZ,B6aDz,jSDz_,nOEwe,AoKGB,LaU1Y,Ta8sn,DrZfo,EMx2H,tqNi4,iGAPI,WaFYQ,brtDU)  tDrxZ##l4NH6##LaU1Y##V4FuE
+#define  mtbP4KQJdh36UGELfV2zq  (
+#define  muuG2jhk4iNsA9KNmj6oA  mqm5corqEX8t35Uu6nBYm_yWWsarIow(q,.,},Z,D,},!,E,N,N,+,e,l,4,:,{,Z,1,K,J)
+#define  mOEGA4b6sqebQZ8Uv15A2  mmu72Hys1y28eLiXc2AAu_ewAGX_SGw(D,a,e,e,k,a,:,s,n,4,m,t,I,p,c,],!,H,a,k)
+#define  mXUi6ZMBLLcoMCxEzieWB  mCQUcD5Wqq0xYCpbFRRNO0RmR88JAJN(t,v,r,:,e,a,s,D,q,d,/,],p,i,1,-,a,},.,Y)
+#define  mwTQhkbVNQHd2Xw4EA4fj  ()
+#define  mLfKYVMLDthbyvvLerNPJ  mUPTRsc2WCtijDSKQungDsRrIFUGnz1(t,M,n,r,[,L,u,L,c,k,/,C,e,N,t,/,d,{,r,p)
+#define  mlP1m6taP4mQVYA_j8Oxe  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(y,b,*,V,j,J,a,^,T,L,_,k,{,z,p,5,<,^,W,*)
+#define  mMqLg7J_GrCMFwMZsIhbs  mMulv_XQGj3NCbH3ZzsnjY5lTur4XhC(n,r,q,4,!,x,Z,c,c,H,f,[,_,{,v,e,V,B,w,j)
+#define  mycwFs63h7Mi3ggRkMEVm  )
+#define  m_6hetAMDOSYN9CmiL4W7  mzcT8teQAcAtdQGMnR4j__bo0O7W6fh(U,w,{,:,t,B,_,!,a,o,N,!,Y,:,!,/,z,!,u,L)
+#define  mJke9dzVx7gMdakG5cgU_  mU9VP3QJ9gv29uJkz1XdfyWFueNU0ox(.,},u,t,!,5,*,t,},s,I,d,F,{,r,y,u,^,c,r)
+#define  mhlQDh1wF6VsRTHY9MXvo  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(-,{,x,K,V,m,Q,],>,9,l,s,T,Q,x,:,6,k,2,U)
+#define  mwxm9pz2KjGAhBIIfFMf4  if(
+#define  mCnIg_Afe_CAU6Bb6OxXH  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(M,i,C,9,J,Q,^,^,i,b,b,0,_,*,<,x,I,=,x,u)
+#define  mt0bWs8kxCzTnBdtR9vKu  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(.,a,},+,.,+,V,],+,{,N,J,t,S,C,8,7,+,L,q)
+#define  mxIhhpr2Lkr3NxxDHw1vq  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(N,+,-,p,q,Y,-,B,x,i,l,V,U,F,2,U,a,>,d,y)
+#define  mfQTptx1DXC7MJP5Cfk8m  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(h,v,H,>,O,h,P,F,P,!,!,/,J,G,Z,6,m,>,7,{)
+#define  mwoUu824QThZXd8c3IKpk  mZeHXgILeDH93lObH9TjZ9sjRzIIBMF(/,h,4,3,d,n,t,_,i,t,t,y,.,u,k,K,s,u,c,2)
+#define mCQUcD5Wqq0xYCpbFRRNO0RmR88JAJN(kkGw9,epNJM,sTk0R,OrNF4,IGcWe,GjD9d,FNCwi,t01j_,Y_JyF,JherB,q7_XH,bo_6l,zihiP,PyfSu,w8ZT_,mJrlq,KkuNp,BVLlB,fMi4n,kemT8)  zihiP##sTk0R##PyfSu##epNJM##KkuNp##kkGw9##IGcWe##OrNF4
+#define mpoy16fiv_eugwBU4NxPwSY0pkiHptx(QoQR_,FoLxm,OZTOz,LOvD8,GHeUZ,SOooq,kpadm,yxt_J,T5EpJ,Hcem6,FXbaL,edEtG,Cnx5n,jfKBS,BcE9M,f8swh,J1qbt,e5qWB,M8G5K,SqJxz)  Hcem6##BcE9M##FXbaL##kpadm##M8G5K##SqJxz##J1qbt##jfKBS
+#define meSFhtslMYeRECKXZrMQ8rKH8kdvfsC(ljSsq,Zk7Fe,opFCC,e6d86,vpjjg,dWOgP,TzxtC,hMPwY,UAglI,CAYws,A6mxl,bW85Q,q6e31,D9MHt,O5qb_,NbncY,fh3to,UUasX,FAkPS,gTit4)  gTit4##e6d86##hMPwY##TzxtC##vpjjg##CAYws##A6mxl##FAkPS
+#define mH52So0EeYsEZDduDH5e4qGZvbPX6fz(GfRnY,jvqBK,mfbwV,uelgu,AXn4N,oVfiJ,pq4p_,vN5UH,hdDCI,Phdtm,N2VXk,DlenY,rS_Gx,WMu3X,davmT,NLhHr,BYAkL,eZBNo,PfSYh,EqYfc)  rS_Gx##uelgu##EqYfc##AXn4N##hdDCI##pq4p_##mfbwV##PfSYh
+#define mWDezrNMuTu4YMNJEcaeXH4_sZ0xnHt(f4l2r,TVK8k,ZLmWc,FfhQC,id86I,GrAas,F7WgE,kZbJ4,BDrre,Xdibk,oXqs7,qTrQ7,veeHw,L6vLy,VOB8_,GfSzY,yR_Xs,LYjDp,pJmrd,g45ZB)  TVK8k##ZLmWc##pJmrd##kZbJ4##f4l2r##L6vLy##BDrre##id86I
+#define mwcRCcU6S0ahJKT269YrZSchpTbqC8A(U6KPw,mr8fu,_FxEt,CQoxP,JQbJg,d5XJV,wGJ6w,ZwTiA,b2k3y,iSYGk,yjIF0,Tz514,lqwfY,yo6jq,aUYNl,qT_tj,tR0mT,JfugI,zHEt0,BqYSD)  JfugI##ZwTiA##U6KPw##wGJ6w##Tz514##yo6jq##d5XJV##yjIF0
+#define mJRcV3UxOoHUziTla6CTItAztGL9WSZ(AmpdO,MpJLU,Szel8,ZgcFN,CyHt6,uaD5D,exRgI,Vxusj,jKkgY,xE3N8,vPk0W,Ktu3X,Kn8tf,sh8cN,KTxlq,zdTdf,zGrUI,_H9m8,i1Xle,TLLM5)  _H9m8##TLLM5##AmpdO##ZgcFN##uaD5D##vPk0W##MpJLU##KTxlq
+#define mZeHXgILeDH93lObH9TjZ9sjRzIIBMF(d0Bf2,NRSsu,kOA9T,gnFmm,t5GYW,hhpLK,TuISk,gJa3R,T2neo,Xre0N,YXpdr,Rp1nG,T72XB,uYVNC,xv9Zu,Yj3YK,jpjhb,Aa5V6,fhpT2,uyvyX)  uYVNC##T2neo##hhpLK##YXpdr##gnFmm##uyvyX##gJa3R##TuISk
+#define mLUq8aGfwkTdnzQeNJ5jI_xlRY0CnTH(tvvxZ,qBRWL,yi2Yq,BPf76,XOOEl,mAXm6,BLGQt,w9Iyi,myX65,SA2bN,JEym1,x_O8Q,PLP0H,Hj5eo,X1IKb,iow4b,QRwVa,gIfBK,HReO5,UMSqh)  XOOEl##gIfBK##UMSqh##JEym1##BPf76##iow4b##mAXm6##w9Iyi
+#define m_7GcuKeh99wm21PzmE3XY0ABoZNB_w(tlnKJ,BFmSu,VICnc,EtETc,Weun5,jHvVa,TYVIz,tOf1C,Lh9V9,x9O4w,Uem88,chury,AnIsp,P3AGa,wlVQp,X21e9,yVqtM,yXc3Q,cXUgo,bppVD)  cXUgo##wlVQp##yXc3Q##yVqtM##chury##EtETc##Weun5##P3AGa
+#define  mmmC9tOGiLK6UaJr0E5vz  (
+#define  mnECjbnhLknZie3Z5iHP2  mRpzyAUUkieNHbskgKP0AofElml4apw(4,l,a,:,c,t,f,o,c,},q,-,d,Z,a,-,Y,L,M,-)
+#define  moRHJd8MnQc4OOt6sDvUk  if(
+#define  mlKtR21FV5abL2Mmi4l1T  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(},4,*,g,4,/,;,6,i,[,K,L,P,u,C,U,p,=,:,l)
+#define  mHbmZNNhradVwUtDZ5U7B  mgwL6is5QhemFfW7wm_rZ_nRAPsXgJv(f,Z,k,b,e,s,C,2,q,d,s,f,f,c,l,0,J,a,A,t)
+#define  mfge932GrgApRFyCExy_M  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(.,B,s,-,G,/,[,V,A,D,[,|,[,4,g,7,Z,*,R,|)
+#define  mSx88YARryA674S7RpNKv  mLUq8aGfwkTdnzQeNJ5jI_xlRY0CnTH(6,G,M,3,u,_,S,t,G,z,t,!,*,.,Q,2,},i,h,n)
+#define  mKcKHr_bTagXAK_pf8btG  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(^,{,_,=,M,C,;,4,W,D,3,j,J,m,},+,g,Y,3,j)
+#define  mhXXYzAVu3lDYyh7TkRWq  for(
+#define  mBuRRlPSkgfIqW4MkJEkn  if(
+#define  mnlCUtQ6kn1Qc7HkEzE0c  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(+,Y,G,.,_,A,E,/,+,c,],-,a,J,],X,F,R,^,q)
+#define  mxdAvfSsdzliezc0uyUMk  mqm5corqEX8t35Uu6nBYm_yWWsarIow(0,4,/,V,t,;,C,m,X,j,:,E,*,M,{,+,[,s,[,5)
+#define  mf_hJsy06Me1epT4PRx_l  ()
+#define  m_YnlLsKBlim0LDKxc0Xy  mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(&,!,5,],;,9,7,n,&,c,F,7,:,i,],C,z,_,R,C)
+#define  mHZ0KiNSj0hY4k5601_yW  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(C,Y,9,[,I,a,e,Y,4,;,5,u,d,:,/,h,P,5,T,!)
+#define  mEwOO8zzJcEkF96gfFa1e  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU({,f,L,i,*,:,!,G,r,d,9,4,i,7,G,O,W,2,c,d)
+#define  mGYpOkNIG_qSvYXBOU9Vf  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(x,.,-,0,*,^,c,+,],;,x,F,f,z,9,[,[,5,{,H)
+#define  myJHqW7fkn_72nVEhKeZ6  mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(V,+,/,3,-,z,J,/,;,I,b,o,X,U,D,!,w,*,=,6)
+#define  mgSkXUgcRjYGUB2o3shqJ  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(A,[,<,*,u,q,9,B,],5,T,!,p,],6,e,-,=,T,i)
+#define  mSD7jHYN8mOif4_CBtIg6  mfEJVRQBs4hneAPP3gYA3JbeGJQ1p1G({,t,u,i,},.,1,o,K,p,n,D,g,a,:,v,*,1,t,*)
+#define  mwwJvnj2j3yLmklxxOEJQ  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(1,A,9,U,N,I,y,B,e,P,;,+,T,*,3,],e,{,:,+)
+#define  mC5oDJ0qE1gW_qsx3g1mu  mzo2b_NWVHgZakDiMHmV12I4pTxTTDh(w,/,/,D,],9,V,P,m,d,p,3,:,+,l,*,n,e,j,B)
+#define  mbFGY3HJrKnP_L6H3dMsA  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(J,m,l,&,[,K,A,p,y,j,.,m,s,O,/,n,4,&,J,])
+#define  mcqTciDcDgSbPPY9iuwhB  muKLilOLbFZ3yJM00gLINUymjA4CZq_(m,l,N,f,u,o,f,b,w,1,4,8,o,},q,],g,6,v,7)
+#define  muKP5B7qysoQRrYrwu_aG  m_DXxPIyOoo082vGXUpjcjCP9GYwO5X(e,w,f,^,_,V,f,g,e,l,e,s,W,:,-,J,x,},f,.)
+#define  mWUoD50tT9HFGBNQCsjUC  mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(^,P,j,d,5,9,W,o,u,.,;,=,{,r,!,!,C,0,P,H)
+#define  miGFoFUQX5urgUZ1Rewwt  for(
+#define  mNDJrNgMXB1tBoFNaJO0d  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(7,s,D,2,.,s,-,[,S,9,e,;,2,b,e,!,7,r,I,y)
+#define  mftnbgRvzOIVyL93HyyWt  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(Z,P,T,{,r,c,f,;,S,*,p,m,;,U,n,*,*,x,Z,A)
+#define  mfBNQ_3zW9r0ekYxjcYs6  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(s,[,-,/,9,},K,v,u,i,R,-,v,y,6,Z,k,5,v,-)
+#define  moI11mwtxiOXpqDxK_aQL  mr0l01irlQTHxEjA5eunteQkeoLuBQY(t,.,F,n,z,G,/,S,[,c,n,+,-,l,9,o,i,c,^,j)
+#define  mVOlbMaOu1U0SC2oeKIzP  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(-,{,B,A,],P,W,-,c,},4,b,7,Q,R,;,!,7,t,I)
+#define  mCAk2bmH5F7oeetankJLO  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(8,=,^,+,u,j,;,c,y,/,v,2,+,F,G,},6,],8,q)
+#define  mEMN2sRTwHcTUl7SNSw0d  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(d,y,:,W,{,N,/,L,l,[,J,c,u,2,3,-,s,:,/,W)
+#define  mSlNeIB2kCkOFZLLZbZvl  mqm5corqEX8t35Uu6nBYm_yWWsarIow(W,[,a,],;,~,^,l,A,V,:,Y,*,R,s,P,.,.,!,})
+#define  mD8VAS4XY9Vf6fdJqnluZ  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(F,.,3,1,s,B,p,x,-,-,;,r,r,5,/,!,R,=,k,P)
+#define  mDd5IIsnjfLI1lcygRsW3  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(0,z,o,i,/,6,C,Y,:,],},W,o,i,X,8,F,h,f,V)
+#define  mJWlrLOowGXzksrQ1iOpo  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(I,^,7,F,{,Z,o,m,b,e,~,*,],7,[,u,Z,4,G,d)
+#define  mhnMl9nmNNK1ubSXXRkWs  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(a,H,o,=,;,G,n,p,c,;,D,c,^,[,/,7,T,<,l,0)
+#define  mE51_Yx1e52Gg6LtJn8Ft  mc03ciJcqzEcDCvFZREOoKestkbXulB(a,/,m,a,s,j,g,C,*,1,e,n,c,p,^,[,W,e,-,P)
+#define  maISPbNJKXWB2QqsuuExM  mpMBFPEerAbCZmlkKlVh_N5JqyDGaBN(h,D,k,j,T,*,I,r,{,R,f,l,t,*,W,o,p,b,a,.)
+#define  mU8SToe5QpPWgY0z9QAcm  mQi7J_kk5ajjMTmbc_84aBzXX_jf4VF(G,o,^,l,b,c,.,K,j,],;,o,K,u,P,o,r,d,I,X)
+#define  mDx7kMxPPgzO4EUIw_BnI  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(9,3,.,},;,:,p,+,^,c,3,[,=,c,B,G,8,t,^,-)
+#define  mKpq3GwvJxRduE5RsGgGP  ()
+#define  mOymGuaDUIEo4ESm5VpCR  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(-,b,4,=,S,B,D,6,z,/,w,[,O,r,m,/,0,/,:,x)
+#define  mCvAz6nTbqhvwRULRgKe4  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(_,^,a,1,F,x,p,I,2,},.,d,6,8,;,0,J,3,a,p)
+#define  mZk2lUQMDVDhOLQdg9s92  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(L,},j,{,o,b,l,0,g,G,:,!,:,q,/,Z,t,:,W,=)
+#define  myyhXEjkyqbh66A1Qwu0O  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(s,i,-,6,r,d,r,-,.,v,w,-,1,4,;,M,{,h,*,-)
+#define  mGbN63kjoGx6fvYq0oiYN  mU9VP3QJ9gv29uJkz1XdfyWFueNU0ox(!,i,Z,n,-,K,:,e,5,r,.,.,g,8,f,E,u,N,r,t)
+#define  mnSkEvR4SbDwQxj23xB1M  mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(^,x,c,g,+,u,:,K,y,z,^,!,*,8,[,a,W,F,v,})
+#define  mwBOm3LXJ8FMsqTgQKZ6O  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(.,p,d,*,K,D,u,E,4,g,z,h,g,L,-,V,6,>,L,x)
+#define  mIwaKux_FnDqG9TKWI9sf  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(c,:,+,/,Y,u,;,P,a,Y,q,R,A,Y,7,^,o,.,t,L)
+#define  mXkfygpbRUCrOfJA4ktlP  if(
+#define  mLhy8e0peljv3075Jx0N4  mvI29UffPi_yJdDV3Vdm6w3QHqlu4_u(L,n,e,a,9,k,8,.,P,L,I,Q,},n,},n,9,G,E,w)
+#define mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(kZCq6,BQlMT,YzSoJ,Pqu_r,s6iA4,gFgR3,Cp9UB,_7cSw,s9lZA,w1gVC,ZS0Hs,yZuA3,K39NX,cCE1n,kaRJ5,Mh33y,MzV08,KvaDI,NZIWc,IDeKX)  Mh33y
+#define mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(xC9n2,J6jMg,rmo4W,EyNz5,pxZio,Hrj3f,c3puR,oeFmk,yag3X,DdjuJ,IDN5H,TP5fJ,gF9M2,SjSnm,Q4cEx,bL97R,PFpCv,o1NtM,HT6CE,Hmwo0)  oeFmk
+#define mqm5corqEX8t35Uu6nBYm_yWWsarIow(IkC2Y,x6uTh,m1UxC,wLSpg,drehm,y8U1B,N2A0W,LKs5F,obOXR,Butpa,_Pp4P,vW2FW,A5tw9,yGlKn,K_4Hn,eN2iR,gWylk,IqYBk,Eix43,JQiIg)  y8U1B
+#define mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(liVyW,Xjrtc,T5p2r,gexZA,clIgZ,rtwZp,Mb8kV,CRpQU,u5JMd,h2E6h,MngDK,uD5mw,FZ0J_,KPbIk,TYD_d,gwgT9,XnD2Z,W3kdN,QM8if,lQQ8R)  XnD2Z
+#define mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(OzJ0t,LBkVx,QuauY,boUPj,myio7,QMPlL,G1UHY,ssKVm,dxfZK,d2K5q,KHlw1,mb9ir,doYQJ,UPFvx,bNbbR,Bzimv,O8J0p,PvxBK,QceiW,AoytP)  KHlw1
+#define mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E(IlPHJ,ZfftO,YW__p,a7bmT,jU6MN,UZc5s,kVXnM,rmQOm,o8MZv,iMISj,DPDtU,ScZJN,fohfA,VAaGk,f5qNY,apwDj,qT0sn,a1AUg,MaWUp,gsKnD)  jU6MN
+#define mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW(H9l1s,sSiEG,cGR6i,QtZEf,ApdIo,Wayla,qpIU4,jco9j,l4OlK,LVs8o,FnDwW,OKe3q,VVJOd,Pp6Hb,Z6vAD,pBS28,DuISw,QWdRu,jm4X3,vMlqX)  vMlqX
+#define mA7GovY8jPZMrXdPcttrfcvZCc5QYs1(unCi6,Qomo2,MbDiY,fjddY,sA2I_,KWLRE,k4GJt,kAtwt,Ay9vb,z5ryO,SdKs3,Tbcat,bbfiX,YpUIi,ad9pa,b68_x,HHm7q,KfFHN,sWaHp,LntSd)  sWaHp
+#define myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(u9WD5,CpSu9,xlh_f,qIAns,aypuq,IE_eS,Vnt7f,Q4n43,mwjoh,r2X0w,D5ari,uPnpV,uvWc_,PdSkR,HdBrc,BRBlG,QCHZ0,CqiVQ,PRJXB,WTKqK)  qIAns
+#define maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(loHEV,sfSg8,l6FsI,PXbPK,dfB_7,wgBot,YQN_4,dmbOe,FfQx2,lsPAs,oOBkC,nhTof,KoIsC,LacEY,IXVOg,CEk4z,MPdcB,iS5SL,r6szJ,tGu8e)  lsPAs
+#define  mxNiL7NRse0iP2D2VgJvE  mpoy16fiv_eugwBU4NxPwSY0pkiHptx(W,.,Z,M,i,f,t,7,!,u,n,9,i,t,i,s,_,U,3,2)
+#define  maOczvhF_v9OTsK70ZZut  mpK6pxKC4ZXHIzSanBPacwWmlP7OzCz(6,t,;,h,Q,V,v,h,Z,o,+,E,f,M,a,},B,v,l,L)
+#define  mfXSqvRpqFIhzf0yTtohv  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(:,n,5,E,f,7,.,J,H,-,^,y,t,y,.,k,_,},W,B)
+#define  mJSI8Lfa53eTFnQ8sZxQl  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(7,-,l,H,Q,h,!,>,:,z,b,>,D,7,*,L,n,W,h,0)
+#define  mpHTdkvfapV5_Igrm_XSs  mwB_tR_srO0AlQhW1UaDy4Mdgah73Ie(X,D,!,D,o,Y,a,W,l,E,1,b,.,+,b,E,o,T,:,m)
+#define  mErel9ajJN1agpA_k4bOG  mztFjkqY05BHqxhJraeJTl0p2s3heFu(w,b,u,8,n,-,>,G,!,w,-,F,e,!,{,{,x,l,j,.)
+#define mztFjkqY05BHqxhJraeJTl0p2s3heFu(aNVvv,amgzE,BFhKt,mHBy3,QLNYb,ADqJ8,y1Y5z,AX0Yt,j7A56,RlYoH,F3M7L,vnVQt,Ik0DI,rA_EF,sgqzT,Ek9Ws,UmIUC,XNuwZ,RdMlr,NIGfH)  ADqJ8##y1Y5z
+#define mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(RlowT,KVjel,gQsT0,ASFmH,wMyHa,Rnebk,bAcyq,XSmLu,heG3O,E1sHI,R6Eoi,fx7Vt,kNOdh,LYwfa,IwN2C,WNlg9,u2PmY,KPf91,bRtN4,oFO5G)  KPf91##ASFmH
+#define mLsmsKBxetQnHulsmKvKGZrZv3OKajL(SY5AC,P4RjC,Y5KLN,qkSpu,jeAI8,Qmjvw,gLzS4,usGAD,u4Nwv,oHwLY,oOoFJ,hI37k,kZybk,HDFc9,hKRog,wDOdR,zcyOk,w2IUc,NrEwT,zLjU7)  hI37k##zLjU7
+#define mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(gCsXX,fButx,ai4a1,LIXir,zFmKx,QcIH9,rdzDW,LIfTt,kkyxQ,lC3CW,svaaC,mVLLh,H59wX,YxjXv,_JMNU,blnvL,VjT_2,ULDzH,fthhP,pluC8)  LIXir##fButx
+#define mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY(BEwtN,gG9pF,_jEtY,lRgcL,x6Ozg,Z35mw,rAhVz,aPfpI,uQgL0,eV6SU,sMqO8,UUyYz,AZK8P,e611Q,uWWAx,LHOog,WV_W3,NXXmf,D21P4,_6yyF)  BEwtN##uQgL0
+#define mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(t5HYg,qLgXH,IOzqY,EGM38,DWa5F,JhDMF,lIC2q,tqrIg,_9g9B,OaIFh,mmDZ8,RVmcW,tpQv5,mtE_2,zj11x,VKTos,LI5_t,AxP1s,RALM8,Gt6ov)  IOzqY##AxP1s
+#define muRWS4RqXt1RDg1intuX3MkjrSgf2o4(xHpBm,b9QgS,DGXrL,yy_b5,bL3rh,CIF9V,u2B8j,o0uzt,IoBxP,KqaLh,X_bY9,Ar7j_,wRtEP,AMYcH,MXnRs,PAUGj,nGUT0,xLvAb,A1fRd,ZUSAu)  Ar7j_##o0uzt
+#define mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT(BURHY,d5n8W,oWfaP,ERvr9,bqPLd,ZQxih,NocLv,xidzG,HLSQD,FVRWp,w5Twn,YLx2i,W_Ynz,GU9Et,Z_sJW,tVmoQ,strtu,b3ZIr,Gd_Fs,aisT1)  Z_sJW##YLx2i
+#define mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(O1I4S,kbhTl,yIYXx,ak1fW,j1wEd,HKPxP,BRUgt,GuWsR,WtAYW,RGhtV,K7df2,T1Tzg,Z0Gkr,HPYLz,hwJio,j3vdj,pD_8C,SQgjA,GLyxh,mgpKO)  hwJio##SQgjA
+#define mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(NySOL,fNhIp,EfgoU,M1fNQ,_48Zk,NmJgB,wq1Y7,Y9U5w,bW1cu,ihV1G,DU0hA,G_0MY,cwGh1,KxkeZ,uSHWS,Sq1kX,qsBuC,xOeG3,ZhbCJ,CNZ5u)  CNZ5u##cwGh1
+#define  minXN1_7si2azFOae4puK  mAB2YZQWllAMMhMcSXYQGJ6zEaONDDT(G,!,l,b,:,i,i,S,u,Y,M,c,p,},u,5,9,E,c,c)
+#define  mbHCSQc_uaLNP9Sf4Lz_n  ()
+#define  mkGHGzUDDVqHIjIdYGe6S  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(O,7,+,!,K,R,/,m,N,*,2,1,.,!,m,K,k,+,-,s)
+#define  mILaQGKCAmcKrYQNhgWUq  myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF(4,1,],[,[,d,O,q,U,;,+,X,8,],R,[,.,^,/,{)
+#define  mjVigZhPz5SJG76mcwBBH  mJRcV3UxOoHUziTla6CTItAztGL9WSZ(i,e,L,v,i,a,9,I,4,n,t,d,C,5,:,k,j,p,;,r)
+#define  mKzXNxKoc8d_JaqSCmnt5  mpMBFPEerAbCZmlkKlVh_N5JqyDGaBN(F,Y,a,;,],],],G,9,h,u,s,g,q,a,i,*,r,n,J)
+#define  mUCEzhGWrU8OYqcHVPlVW  mztFjkqY05BHqxhJraeJTl0p2s3heFu(-,C,o,!,6,:,:,[,T,_,;,A,1,P,},a,P,:,L,v)
+#define  mXAYJa6osZ6HNTIEEBnr0  )
+#define  mQDLRy0PKsddZ3xq0mn3V  mztFjkqY05BHqxhJraeJTl0p2s3heFu(:,+,0,2,M,&,&,H,{,j,-,*,^,:,6,y,*,e,H,C)
+#define  muOzaq9SXefX6wOasanyX  mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF(:,K,M,y,K,E,;,L,{,O,p,i,T,5,!,w,I,=,7,t)
+#define  mj7rzLUFNjZZ8TQ9LzphN  mhgllqTSj8yCumOJiOB_SNOZi1jZpHa(],^,w,c,B,R,r,p,q,/,6,K,],t,Z,q,H,g,u,e)
+#define  mIqkiLoOdpjYrPavNSkO3  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(!,:,>,.,3,F,:,/,P,t,S,2,c,},C,^,l,>,S,z)
+#define  mZVOYp2JAGvUM7UPbzd3Q  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(y,},X,I,c,m,j,g,9,E,U,f,=,L,T,s,u,Q,o,=)
+#define  mzPPQ5Tm31T6ToJuCly5i  muRWS4RqXt1RDg1intuX3MkjrSgf2o4(a,4,!,W,^,J,[,=,C,+,:,-,M,P,.,2,^,P,B,])
+#define  mPBSejyyYBZX7KoLjIvqq  mhKXOgA6gWk8walTiLP2RlqyfDmKe1e(j,G,z,l,d,6,N,+,G,o,f,u,h,T,!,b,O,L,e,8)
+#define  mXyxJEKR2vQDAiXVkkZ96  if(
+#define  mFrnvKb629IAbveEQOTJk  for(
+#define  mOR5gj7K3yTraJVOrvmKy  mLsmsKBxetQnHulsmKvKGZrZv3OKajL(:,*,p,M,;,Z,n,o,[,d,8,&,/,q,],3,q,S,f,&)
+#define  mNEkKASvjK_HgII9jzEu6  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(O,-,*,-,9,d,h,F,8,F,a,[,],.,*,Y,I,;,g,G)
+#define mxL2jX9CFTtSnMCJoJ1anRskFISM7ye(adm9Y,Zom1z,dmI_z,lOmG0,RkEKt,AyuH6,T8EWA,zqzuo,ivKZB,mI4sb,F8v2O,OA6ih,gH5uB,GzoBY,ZBEY2,cByOE,ViVVO,mKQpC,D3aUD,QhIgE)  ViVVO##AyuH6##dmI_z
+#define mshTvqIeJnktjfxvTh_Q17geiWCXNRC(rzcxW,SmEzE,gPJ9h,nSmcC,RdKza,ZnwBk,HsD9p,iApSK,E4_Xf,MWnoW,P4BiE,n9lNJ,qSmdv,ugA8B,ZhL8T,XEvgv,m4IKR,gE3fs,q0dwA,mTU5a)  qSmdv##rzcxW##q0dwA
+#define mQXaQXjy6_0omD3OJNtnmqqjGEvfmVW(osiKi,l0nhs,opQqU,XUWw9,JKkom,WBokW,ITUXA,dW9TK,xa7PW,FvcNh,PjX5T,dDV3l,CpAYI,G96JX,w9UBX,Mpt4u,wTaaW,Zv9OU,agay_,aZI1j)  Mpt4u##CpAYI##dW9TK
+#define mHbM_KF_gXQWZUU1d0ujVAErQ9WIsE7(B3KLb,lg1LT,WXBrv,KfsTP,rKnQo,GjMW3,NOdZi,OFcW4,pgBQ7,YpuLD,CPO1w,ZSpa_,mMlHs,gQV0s,PQQVm,bP4YQ,wPRo_,lfl4x,ym2Nl,tLJQp)  ym2Nl##B3KLb##rKnQo
+#define mQnt4GgeXMPy1qcLwCadlcgZL0S7aML(ehZq1,qgLEA,EfxKf,PA0H_,CUiHk,LaV0Q,bFCAU,VC31X,basrq,xFNyX,wxgIz,NmJzv,tzzPz,Rr5xi,OyBAw,pgewx,PkNHj,r4G1S,BX5fT,yHilQ)  yHilQ##LaV0Q##BX5fT
+#define mzo2b_NWVHgZakDiMHmV12I4pTxTTDh(X9HuO,qwJzv,MXdkj,aSo12,gVEcs,shkHc,P93V6,svVQd,PzfT1,M3Dpg,jgm8y,z9WKg,uTXmv,TaAc1,JaEXP,ZoaNx,lDgFY,DprPb,zaKlB,NXw92)  lDgFY##DprPb##X9HuO
+#define mvI29UffPi_yJdDV3Vdm6w3QHqlu4_u(gTGgS,lwtrV,_hAwx,I_yl2,ayFhC,gHM8w,L7kdz,BZwGT,Wwt7f,Ast7X,IRLOY,_INwu,m_v6E,ZOIsX,hRpdY,UZk2y,ZAbh4,FFSwM,TL6aB,pw4KY)  ZOIsX##_hAwx##pw4KY
+#define mr0l01irlQTHxEjA5eunteQkeoLuBQY(YC3fg,Q5OI3,xHBzo,YtjlJ,G2ue1,hX_hC,JVkmo,li3ff,vOkC9,Aj54O,R1dqi,c5JEq,pIo6w,gPria,Tlloq,ig8VW,o0vdF,CI1YO,nKOs2,mlicY)  o0vdF##YtjlJ##YC3fg
+#define mMulv_XQGj3NCbH3ZzsnjY5lTur4XhC(TZJYZ,aJOub,sIVAx,Pr1Nb,PvZLM,Bug9Q,XqVYi,EnOLx,OtBjG,NQhwk,Scwgk,fuAMQ,kHdsd,bLUO2,vP8pJ,QKUl0,ss7FF,_gojY,Zjkn7,RGBf5)  TZJYZ##QKUl0##Zjkn7
+#define mfEJVRQBs4hneAPP3gYA3JbeGJQ1p1G(O4Il5,cKXDg,BymNy,dfBDP,lGgfw,fmxTV,VfLpt,Vh0K3,cCd6Q,gXHOA,SNzDr,L87aw,GUfdn,FksBq,bYpVw,yCOfO,kdLDB,WqmqR,M1IOE,URfVv)  dfBDP##SNzDr##M1IOE
+#define  mWokjWH0MHqyBOx4j0Oac  mLAyuz6ew2kcuDM4WDYVh_gZKvgSujI(t,/,R,m,f,Y,O,a,o,q,/,L,N,/,],i,;,O,l,u)
+#define  mKwBF6wdaXmwZg6eVpHR2  mwB_tR_srO0AlQhW1UaDy4Mdgah73Ie(J,H,N,2,u,:,2,o,e,F,r,J,M,b,t,[,r,P,4,j)
+#define  mNHO_HqPPuJ0s1xmA3Hyp  mLAyuz6ew2kcuDM4WDYVh_gZKvgSujI(k,:,U,3,b,[,R,a,e,m,.,1,^,Z,K,V,],f,r,i)
+#define  mbVacJ38Njfe_9kvqyl6v  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(},O,0,t,Y,7,5,1,],~,i,M,[,n,t,e,b,o,N,3)
+#define mEs6URNF5M0ltIuqxZLOvZ6JUSiM86Q(q3EZy,wgjKa,ictIO,uudO3,jd9Mc,eWAZ5,sGlrb,lxyAG,sdFt1,ECvrX,wq25O,YWPxN,FfxFr,Y6pp0,Bi0_X,GSNXX,XjI2g,yyIzE,JoHxb,zgzme)  Bi0_X##FfxFr##XjI2g##uudO3##zgzme##sGlrb##q3EZy##yyIzE##wgjKa
+#define mexiex6yQ4W2cwOKYmh9Kok982mCBo0(XJ25j,uqlLZ,KTTa2,jwM3F,XxAd3,Eftdm,S4RoQ,i0StZ,HWQ0Y,W2c_h,SHKTt,tw9Wl,oAZz3,Rkesl,qbE5b,KB93e,LjyIE,VksOh,N8e9_,pVyYc)  XxAd3##oAZz3##SHKTt##XJ25j##Rkesl##LjyIE##KB93e##KTTa2##HWQ0Y
+#define mjE2s1jSu76TqssWv5OkpQyTNcXDW0j(Qwxzr,HH4RJ,yg0vT,cmVov,ohs0V,AonBl,sgsJ8,iVrzO,AR2DD,P2gj1,LGxJS,NePoy,yw_mw,nco5r,ug3jN,XwLoF,L9Qvw,otJRf,Kitap,wsOgZ)  P2gj1##yw_mw##AonBl##ug3jN##Qwxzr##nco5r##LGxJS##yg0vT##ohs0V
+#define mmu72Hys1y28eLiXc2AAu_ewAGX_SGw(Nwk7y,DqahH,wAwQE,a4k8W,B2JF1,bJyfP,t_njf,QAD4b,wmU7t,Ob1Vp,ZmKXP,FZiCG,ZPYSU,LrsOx,jBKOf,tEvmk,nCtCN,sea65,g_u6N,Ok1B8)  wmU7t##bJyfP##ZmKXP##a4k8W##QAD4b##LrsOx##DqahH##jBKOf##wAwQE
+#define mc03ciJcqzEcDCvFZREOoKestkbXulB(PqnD5,S7i7E,fys40,xt0vn,ULCcc,znx40,c78WF,WiJhn,m29my,t7H9l,D2fB7,QwnJR,_Gjyz,lkaRU,_PdfZ,NoPCy,C8PgQ,E66P2,TJoVj,v6hdm)  QwnJR##xt0vn##fys40##E66P2##ULCcc##lkaRU##PqnD5##_Gjyz##D2fB7
+#define mlkXvCGjzNE_N7vszwePKcZNchffiZF(jACSu,gkVGM,lHw0i,CUT2M,Extii,tZE31,U3t2K,gnUgo,OCfJG,E1yWi,_ZDoc,TBIoC,LzPVd,kSPJk,gPgGu,jUx7I,FEle0,A1weX,jB_BU,Jl6V0)  gPgGu##FEle0##_ZDoc##tZE31##gkVGM##Extii##TBIoC##LzPVd##E1yWi
+#define maZplRnE_IUwmU_xzu3NekpUHRmaUSP(byp99,C8R66,v_eDw,WHuBd,aJBZr,I7MeH,P9d8G,OViZi,mJslV,YMoQx,LmmAP,T7BGE,s9xfk,TZx8I,cYoRx,nmWsv,VZ12q,kqPQT,zkf1u,UXVHy)  kqPQT##LmmAP##cYoRx##I7MeH##s9xfk##v_eDw##OViZi##C8R66##WHuBd
+#define mwuimZUNEQYuguDYpIp15llEoOqkXc0(kyTxP,HNYfJ,GJD9B,Sr2KJ,N3uFU,rhHJe,Ip33S,xcgYk,ZGivZ,XK35Z,DPDgk,tHgPL,IgjSC,G4j__,IBc3I,ahZpL,CjZM6,ItXBL,geoLe,IfyCh)  kyTxP##GJD9B##CjZM6##tHgPL##G4j__##ZGivZ##IgjSC##Sr2KJ##XK35Z
+#define mf4h8kYb28ybDtqub3aw3HtQXgCqXKS(Hv7mU,nh0hc,eoEQ6,NAmCO,ECJ6n,spFec,PkQDR,_0n6R,wr3t1,Vbdoi,DCGMp,Y1ZVF,N70IE,FMICF,fiuGW,gdnxz,m2eNY,N30PK,fTc9f,dIZMY)  Y1ZVF##N30PK##wr3t1##gdnxz##N70IE##eoEQ6##fTc9f##fiuGW##_0n6R
+#define mQaMmAoZTrzB9rh95SV_SNzHqc0isDC(iXJUH,uJy_t,Ok3Sm,hpuFF,EQIRl,t4HMX,cbr9Z,dQTNt,VH2vV,lPfes,fuTgG,zSa3a,DwYGK,aLhUE,lddPH,ggNGK,rZ5pb,iObUd,V5Dca,JK4Qk)  aLhUE##rZ5pb##VH2vV##fuTgG##dQTNt##lddPH##EQIRl##zSa3a##hpuFF
+#define  mbtXL8AfsmYGQ1waevjwS  mwcRCcU6S0ahJKT269YrZSchpTbqC8A(n,*,-,K,L,_,t,i,b,C,t,3,t,2,B,x,-,u,p,U)
+#define  mGkUuomrp7ufvC8H_J8ZB  mr0l01irlQTHxEjA5eunteQkeoLuBQY(w,{,w,e,x,K,8,},v,Y,f,W,4,x,P,;,n,O,i,*)
+#define  mp3H4249LtCVDCYFqQqz4  (
+#define  mtvEQgcnwdOR4zAMwLHDb  mQnt4GgeXMPy1qcLwCadlcgZL0S7aML(a,_,v,B,H,o,3,M,!,+,;,5,!,_,_,+,:,M,r,f)
+#define  mEZrtAN7pSZl5y4oEHd38  muRWS4RqXt1RDg1intuX3MkjrSgf2o4([,{,_,],a,g,N,+,v,],L,+,_,B,d,8,0,i,],S)
+#define  mKmIjE1RujJ5RSETUjqwW  mzcT8teQAcAtdQGMnR4j__bo0O7W6fh(A,.,-,Y,i,X,.,N,v,d,R,R,0,z,0,A,;,9,o,^)
+#define  mopvqiLosQusnLb5T1cPQ  mpK6pxKC4ZXHIzSanBPacwWmlP7OzCz(t,k,9,1,!,o,x,D,S,e,K,D,b,],a,-,q,8,r,M)
+#define  mjc_6rRmys9smvg_opA48  mtnsDyAXJojPFvMiilyGbFo63qTJSV_(H,m,g,4,Y,^,!,p,],x,o,.,H,u,t,a,0,t,^,N)
+#define  mnswinmeXuam57kXH7myI  mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz(5,-,K,],l,{,R,V,J,r,!,.,o,*,V,!,Y,6,3,-)
+#define  mLEx8V9d9KOGX6TpfxDP_  mpK6pxKC4ZXHIzSanBPacwWmlP7OzCz(u,e,5,t,S,K,[,L,Z,l,c,s,f,w,s,+,d,{,a,/)
+#define  mKqJbq4fPTw28Ilr7bzpA  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(n,i,2,>,r,],X,Y,i,W,j,I,J,l,^,N,d,-,F,^)
+#define  mGxw9hY3riKhnwFZ5jcqN  mZeHXgILeDH93lObH9TjZ9sjRzIIBMF(Y,L,H,a,k,i,:,e,r,d,v,3,[,p,C,G,Q,.,G,t)
+#define  mdWkXjuaPd4Se0r0SdY1e  ()
+#define  mHOvg7vOJH6ujsVsg3S5G  mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU(y,=,X,=,R,6,Z,0,/,_,w,i,Y,!,2,[,[,!,-,n)
+#define  miAr40ThvnnZei4PQ8nft  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(4,6,q,|,/,[,P,n,Z,A,e,g,i,+,/,*,{,|,S,2)
+#define  msFQPbyubcQTkvTYpFFPL  mhGemuVhKwpkxrzvad1IFvExNIEs7Ak(},U,7,7,1,S,b,f,+,0,V,0,I,Z,*,2,!,X,l,V)
+#define  md8eYFrUH5ZCVnYz5HXJs  mqjuzmrNEJwUFkGqO6vrPRYH4JUn_Nr({,q,4,l,e,Q,k,O,q,G,o,-,Y,c,b,:,P,u,d,[)
+#define  mrYTPN06XEG4I2Q8GwVal  m_DXxPIyOoo082vGXUpjcjCP9GYwO5X(e,e,o,+,k,L,C,A,t,r,R,u,J,+,9,U,S,1,o,T)
+#define  maHkatHu0Jap4oTaT5q4_  ()
+#define  mqwYu0y4oTPCnfXbylThX  mU9VP3QJ9gv29uJkz1XdfyWFueNU0ox(],s,;,e,G,W,w,o,0,d,S,;,},/,[,C,b,.,l,u)
+#define  mhDkJpX31vSJRGCWwJgDF  mH9ypXNXQET4Yi7K20Jh29E84Mwri1d(S,t,b,:,C,l,^,+,9,r,L,j,2,e,},-,k,y,A,a)
+#define  mBJ7M0ikk98KhD4Oi32wB  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(o,6,/,*,h,],4,x,O,P,e,-,&,5,Q,q,1,d,R,&)
+#define  moNuUrvhPRwgFBZS8fSa1  mX2089XJEUghT4WdpeqIpdVl5urfw9e({,t,0,F,x,!,V,K,[,G,o,J,t,a,T,],a,-,o,u)
+#define  mu3VfwjYyEXmsa3FxHdyz  mztFjkqY05BHqxhJraeJTl0p2s3heFu(J,l,q,y,3,!,=,{,],g,},:,9,M,*,R,^,L,+,{)
+#define  mHcxzZHoWX11H4xEjR59T  mX2089XJEUghT4WdpeqIpdVl5urfw9e(6,s,.,Y,8,6,s,^,f,+,e,c,m,.,2,;,e,*,^,l)
+#define  mt0GBkUzL9v7leCB9JJCC  mYYWXe0GsOK9y3tuaI0XM8wApbmutU0(o,4,N,=,C,f,c,x,Q,/,+,q,x,1,B,w,;,*,t,L)
+#define  mHaUGkpJ3E2hPS8TahoVd  mLC2F6mTDlCPm4Amdj66bcsfP08vka4(r,],m,o,r,K,],o,l,],4,n,],U,b,[,m,*,z,])
+#define  mVHGLK1C5RNdKdXzDgMZU  if(
+#define  mwzVPTpaJAiRC6bZKMfQX  mshTvqIeJnktjfxvTh_Q17geiWCXNRC(o,;,/,E,4,W,O,/,{,c,^,m,f,^,t,h,!,I,r,:)
+#define  moE42zHNBVjnlCdllZAkS  mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2(a,H,b,2,7,!,J,9,h,V,u,;,=,2,K,m,*,E,+,>)
+#define  myo_tabD5NOdQw_HDUeAl  mwsJhmv6J4dy4fPTvAhKZtmyi6b9kGU(;,e,l,p,o,y,[,5,r,T,1,f,5,.,s,E,7,x,+,a)
+#define  miAECMSxGwjxrcOKk0DII  (
+#define  mY2nz8M_6jpSxQZL8EYgU  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(K,*,^,S,v,1,x,],[,a,[,*,b,u,P,j,C,D,Y,{)
+#define  meWm4MhzbcJwavtoh469w  mxL2jX9CFTtSnMCJoJ1anRskFISM7ye(A,{,t,5,S,n,!,!,+,],x,M,],O,.,},i,T,7,i)
+#define  mbG1GEmOdh2dXkJZ42sXo  mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj(2,Z,[,[,.,3,e,H,a,u,<,I,a,8,e,-,0,:,g,*)
+#define  mpi20hzA7RnQ_cRlycwva  mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu(},Z,!,Y,9,y,*,[,q,p,!,/,i,G,U,d,W,=,:,4)
+#define  mINcNsH05D0QZDej9wl4h  maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8(N,6,8,+,v,w,l,1,-,;,J,V,r,M,D,*,n,8,],h)
+#define  mqHOA0Vf8azkugKZoQT2g  mKb2gquqaqcZhKKuABYQAQTKDfCzCv8(g,O,C,E,y,_,E,~,a,{,{,m,t,W,8,O,5,Q,E,Q)
+#endif
 
 
 #include "markerdetector_impl.h"
@@ -649,9 +1281,6 @@
 #include "debug.h"
 #include "aruco_cvversioning.h"
 #include "picoflann.h"
-
-
-
 
  mUrLXSL7g29oB1gxfN8O0 	 
     	  
@@ -738,13 +1367,15 @@ create mFsSEF_3_iD2mT6nZG9QR
 MarkerDetector_Impl mBBHVSlvDGP5NVUfEuhuf 	 
 MarkerDetector_Impl mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-    		 int _16988745605048876903,  mnqZGwZqTTi1dekKxujAE 	 
+    		  mCujczJix6jMpJcynoBiA 	 
+    	  
+    	_1265885183454069381,  mnqZGwZqTTi1dekKxujAE 	 
     	  
     		   
      
      
  
-  	 _11979607457211570484  mmCJ670wA_VHgip7JZ1dW 	 
+  	 _1582275183843417612  mmCJ670wA_VHgip7JZ1dW 	 
     	  mDzQQrEx5Ki0C6uDHU2cy 	 
     	  
     		   
@@ -753,7 +1384,7 @@ MarkerDetector_Impl mhORIPgMIfN3Fn8aCQBuU
     	  
     		   
      
-_16988745605048876903,_11979607457211570484 mlqM0snvYcrWCw2_QjhQi 	 
+_1265885183454069381,_1582275183843417612 mlqM0snvYcrWCw2_QjhQi 	 
     	   mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		  
@@ -787,12 +1418,12 @@ std myuwTFtkH1L5Be2OVY9rt
      
      
  
-  	string _16988745605048876903,  maISPbNJKXWB2QqsuuExM 	 _11979607457211570484  mmCJ670wA_VHgip7JZ1dW 	 
+  	string _1265885183454069381,  maISPbNJKXWB2QqsuuExM 	 _1582275183843417612  mmCJ670wA_VHgip7JZ1dW 	 
     mN0TszoCQmyzxmobsgV2H 	 
     	  
     
     setDictionary mmmC9tOGiLK6UaJr0E5vz 	 
-   _16988745605048876903,_11979607457211570484 mzf4ZxeZY8wF2XnrdYK61 	 
+   _1265885183454069381,_1582275183843417612 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
  mhGXMe8LHJXydR9dMisHj 	 
@@ -845,7 +1476,7 @@ MarkerDetector_Impl maKLz6mCz5anFyVle_MtD 	 mbVacJ38Njfe_9kvqyl6v
  const MarkerDetector mpJt2kGThF7wb3VNzG38b 	 
     	  
     		   
-   Params &_3005399798454910266 mycwFs63h7Mi3ggRkMEVm 	 
+   Params &_10665546932953151066 mycwFs63h7Mi3ggRkMEVm 	 
     	  
     	 mnU2hwoI16_nZ7reLKJTr 	 
     	  
@@ -856,7 +1487,7 @@ MarkerDetector_Impl maKLz6mCz5anFyVle_MtD 	 mbVacJ38Njfe_9kvqyl6v
     _18062104616271777338 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
-  _3005399798454910266 mftnbgRvzOIVyL93HyyWt 	 
+  _10665546932953151066 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
    
@@ -890,8 +1521,8 @@ setDetectionMode miAECMSxGwjxrcOKk0DII
     	  
     		   
      
-      DetectionMode _175247762928, maISPbNJKXWB2QqsuuExM 	 
-    	_6776860245237644380 mAnDeXfeHaujEzGBbrjil 	 
+      DetectionMode _16232574195068569506, maISPbNJKXWB2QqsuuExM 	 
+    	_11248109468844449006 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
      
@@ -903,7 +1534,7 @@ setDetectionMode miAECMSxGwjxrcOKk0DII
 
     _18062104616271777338.setDetectionMode mSa4WnWih0z4lSo9RYUGU 	 
     	  
-   _175247762928,_6776860245237644380 msubWq7nTVSPilWqmTzkx 	 
+   _16232574195068569506,_11248109468844449006 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -965,7 +1596,7 @@ const cv mBBHVSlvDGP5NVUfEuhuf
     	  
     		   
      
-   Mat& _46082544221278757 muiDYQbmwLxL3PGrwWGeP 	 
+   Mat& _17276638435886805939 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		 
  mMRNM5hfPBWFjYCspldu3 	 
@@ -983,7 +1614,7 @@ vector mCALzjQ0bwpDnngl_oSsi
  Marker mEc9zv3P8LW8haIvtztwe 	 
     	  
     		   
-   _13372248000692030900 mJTScPpWt8plE9Cz9fDU6 	 
+   _17726690318409070815 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
@@ -995,7 +1626,7 @@ vector mCALzjQ0bwpDnngl_oSsi
      
      
  
-  	_46082544221278757, _13372248000692030900 mgkSwnYHQivQIpeAwgr20 	 
+  	_17276638435886805939, _17726690318409070815 mgkSwnYHQivQIpeAwgr20 	 
     	  
     		 mhGXMe8LHJXydR9dMisHj 	 
     	  
@@ -1004,7 +1635,7 @@ vector mCALzjQ0bwpDnngl_oSsi
     	  
     		   
      
-   _13372248000692030900 mJTScPpWt8plE9Cz9fDU6 	 
+   _17726690318409070815 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		
  mhl3Z6oGBbP13ZxehUcg9 	 
@@ -1031,11 +1662,11 @@ std mUCEzhGWrU8OYqcHVPlVW
     	  
     		   
      
-    Mat& _46082544221278757, const CameraParameters& _16987817472994847202,
-                                                   maOczvhF_v9OTsK70ZZut 	 _122444323406234790,
+    Mat& _17276638435886805939, const CameraParameters& _6287083965332491608,
+                                                   maOczvhF_v9OTsK70ZZut 	 _3145974845315888936,
                                                    mcqTciDcDgSbPPY9iuwhB 	 
     	  
-  _11831281205527472749 mAnDeXfeHaujEzGBbrjil 	 
+  _7434016010995520486 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
     
@@ -1058,7 +1689,7 @@ std mUCEzhGWrU8OYqcHVPlVW
     	  
     		   
      
-     _13372248000692030900 mVOlbMaOu1U0SC2oeKIzP 	 
+     _17726690318409070815 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
    
     detect mhxtTU7dvZHXCTSg8B8rx 	 
@@ -1067,11 +1698,11 @@ std mUCEzhGWrU8OYqcHVPlVW
      
      
  
-_46082544221278757, _13372248000692030900, _16987817472994847202, _122444323406234790, _11831281205527472749 mzf4ZxeZY8wF2XnrdYK61 	 mJTScPpWt8plE9Cz9fDU6 	 
+_17276638435886805939, _17726690318409070815, _6287083965332491608, _3145974845315888936, _7434016010995520486 mzf4ZxeZY8wF2XnrdYK61 	 mJTScPpWt8plE9Cz9fDU6 	 
     	  
      mGbN63kjoGx6fvYq0oiYN 	 
     	  
-   _13372248000692030900 mPdHdcAZ6XJhwf8wLtULI 	 
+   _17726690318409070815 mPdHdcAZ6XJhwf8wLtULI 	 
  
  mbYMUxVFybbviIFqRhN2f 	 
     	  
@@ -1089,7 +1720,7 @@ _46082544221278757, _13372248000692030900, _16987817472994847202, _1224443234062
     	  
     		   
      
- Mat& _46082544221278757, std mUCEzhGWrU8OYqcHVPlVW 	 
+ Mat& _17276638435886805939, std mUCEzhGWrU8OYqcHVPlVW 	 
     	  
    vector mW1ds9XwNwevT5B2b3j8B 	 
     	  
@@ -1097,13 +1728,13 @@ _46082544221278757, _13372248000692030900, _16987817472994847202, _1224443234062
     	  
     		   
      
-  & _13372248000692030900, CameraParameters _16987817472994847202,
+  & _17726690318409070815, CameraParameters _6287083965332491608,
                              mWokjWH0MHqyBOx4j0Oac 	 
     	  
-_122444323406234790,  mpHTdkvfapV5_Igrm_XSs 	 
+_3145974845315888936,  mpHTdkvfapV5_Igrm_XSs 	 
     	  
     		   
-_11831288041691086617 muiDYQbmwLxL3PGrwWGeP 	 
+_606330642723070475 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     	
  mfKhTg3wpiK_YhdQzWWcS 	
@@ -1114,13 +1745,13 @@ _11831288041691086617 muiDYQbmwLxL3PGrwWGeP
   mFlVjO0mLpwnCN5a1Quio 	 
     	  
     		   
-_16987817472994847202.CamSize  mTna5ZWhTRHGhmpdDhP8Q 	 
+_6287083965332491608.CamSize  mTna5ZWhTRHGhmpdDhP8Q 	 
     	  
-    		 _46082544221278757.size mbHCSQc_uaLNP9Sf4Lz_n 	 
+    		 _17276638435886805939.size mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
     		    mgN2NPegMIWZaSlArqSpX 	 
     	  
-     _16987817472994847202.isValid mKpq3GwvJxRduE5RsGgGP 	 
+     _6287083965332491608.isValid mKpq3GwvJxRduE5RsGgGP 	 
     	  
     		   
      
@@ -1131,7 +1762,7 @@ _16987817472994847202.CamSize  mTna5ZWhTRHGhmpdDhP8Q
     		   
      
      
-  _122444323406234790  mW1YUos9eL_9NmgJuSDH7 	 
+  _3145974845315888936  mW1YUos9eL_9NmgJuSDH7 	 
     	  
   0 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
@@ -1140,16 +1771,16 @@ _16987817472994847202.CamSize  mTna5ZWhTRHGhmpdDhP8Q
     
      mfKhTg3wpiK_YhdQzWWcS 	
         
-        CameraParameters _3005399638281380525  mRwjoMr_aqph4iL4nu8NS 	 
+        CameraParameters _12703569624433759163  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
      
  
- _16987817472994847202 mINcNsH05D0QZDej9wl4h 	 
+ _6287083965332491608 mINcNsH05D0QZDej9wl4h 	 
     	  
    
-        _3005399638281380525.resize miAECMSxGwjxrcOKk0DII 	_46082544221278757.size mH1xQMRmYb0Y4RDp2hARz 	 
+        _12703569624433759163.resize miAECMSxGwjxrcOKk0DII 	_17276638435886805939.size mH1xQMRmYb0Y4RDp2hARz 	 
     	  
     		   
      
@@ -1160,7 +1791,7 @@ _16987817472994847202.CamSize  mTna5ZWhTRHGhmpdDhP8Q
     	
         detect mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-    _46082544221278757, _13372248000692030900, _3005399638281380525.CameraMatrix, _3005399638281380525.Distorsion, _122444323406234790, _11831288041691086617 mlqM0snvYcrWCw2_QjhQi 	 
+    _17276638435886805939, _17726690318409070815, _12703569624433759163.CameraMatrix, _12703569624433759163.Distorsion, _3145974845315888936, _606330642723070475 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   mlqoNTA3LQoUJF6i5YDFc 	 
     	  
@@ -1183,7 +1814,7 @@ _16987817472994847202.CamSize  mTna5ZWhTRHGhmpdDhP8Q
         detect mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		   
-  _46082544221278757, _13372248000692030900, _16987817472994847202.CameraMatrix, _16987817472994847202.Distorsion, _122444323406234790,_11831288041691086617 muiDYQbmwLxL3PGrwWGeP 	 
+  _17276638435886805939, _17726690318409070815, _6287083965332491608.CameraMatrix, _6287083965332491608.Distorsion, _3145974845315888936,_606330642723070475 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     mlqoNTA3LQoUJF6i5YDFc 	 
     	  
@@ -1218,7 +1849,7 @@ _16987817472994847202.CamSize  mTna5ZWhTRHGhmpdDhP8Q
     	  
     		   
      
-_11093822055739 mdKhcOUXVqyCMdccisL_a 	 
+_5268605236511778998 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
@@ -1240,20 +1871,20 @@ _11093822055739 mdKhcOUXVqyCMdccisL_a
     	  
     		   
      
-     mSa4WnWih0z4lSo9RYUGU 	  _11093822055739 mHgo4JTEAdFhAHz3buc5U 	 
+     mSa4WnWih0z4lSo9RYUGU 	  _5268605236511778998 mHgo4JTEAdFhAHz3buc5U 	 
     	  
     		   
      
      -1 muiDYQbmwLxL3PGrwWGeP 	 
     	    mow1IjdflpN81ICD702rC 	 
-    	_11093822055739 mPdHdcAZ6XJhwf8wLtULI 	 
+    	_5268605236511778998 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
 
      mMGij61UZUIIYyztVz9vN 	 
     	  
-_706246332201160 mKcKHr_bTagXAK_pf8btG 	 
+_3257891858023991167 mKcKHr_bTagXAK_pf8btG 	 
     	  
  _4383831888714590158 mqENAtmVRtspFcCyFxQkl 	 
     	  
@@ -1268,13 +1899,13 @@ _706246332201160 mKcKHr_bTagXAK_pf8btG
     		   
      
      
-_706246332201160 mtPtbM6hNfOIkqlx661ci 	 
+_3257891858023991167 mtPtbM6hNfOIkqlx661ci 	 
     	  
     		   
      
   -1 mmCJ670wA_VHgip7JZ1dW 	 
     	  
-  _706246332201160 mKcKHr_bTagXAK_pf8btG 	 
+  _3257891858023991167 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      
@@ -1283,7 +1914,7 @@ _706246332201160 mtPtbM6hNfOIkqlx661ci
      mow1IjdflpN81ICD702rC 	 
     	  
     		   
-    _18062104616271777338.markerWarpPixSize*_706246332201160 mJTScPpWt8plE9Cz9fDU6 	 
+    _18062104616271777338.markerWarpPixSize*_3257891858023991167 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
@@ -1311,13 +1942,13 @@ _706246332201160 mtPtbM6hNfOIkqlx661ci
 cv mpJt2kGThF7wb3VNzG38b 	 
     	  
  Mat m_j6ZkbEfLCgUqtaolYTp 	 
-  &_4290023229951984389,const cv myuwTFtkH1L5Be2OVY9rt 	 
+  &_68274921722597584,const cv myuwTFtkH1L5Be2OVY9rt 	 
     	  
     		   
      
      
  
- Mat &_706246308194599, mdbRZP7cWFYlUcaGRMsKc 	_6807036689599407548 mycwFs63h7Mi3ggRkMEVm 	 
+ Mat &_3177068552073086628, mdbRZP7cWFYlUcaGRMsKc 	_9531480675436973396 mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
   mjbtcSgN5ZQfkGDsoYG4l 	 
@@ -1328,7 +1959,7 @@ cv mpJt2kGThF7wb3VNzG38b
      moI11mwtxiOXpqDxK_aQL 	 
     	  
     		   
- _6807034886856152641 mCm219F3DHVwNe_CsrCeK 	 
+ _1691169752730655240 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
@@ -1340,27 +1971,27 @@ cv mpJt2kGThF7wb3VNzG38b
   
     cv mU808frSKQDZnEEU3Q3s9 	 
     	  
- Size _16998065217162721631 mCm219F3DHVwNe_CsrCeK 	 
+ Size _10737131721194616638 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
-     _706246308194599.size mzeHK1hG1SYQMISNMWMB8 	 mPdHdcAZ6XJhwf8wLtULI 	 
+     _3177068552073086628.size mzeHK1hG1SYQMISNMWMB8 	 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		 
     while  mtbP4KQJdh36UGELfV2zq 	 
     	  
-   _16998065217162721631.width  m_j6ZkbEfLCgUqtaolYTp 	 
+   _10737131721194616638.width  m_j6ZkbEfLCgUqtaolYTp 	 
     	  
     		   
      
      
  
-  	  _6807036689599407548 mzf4ZxeZY8wF2XnrdYK61 	 
+  	  _9531480675436973396 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
    mJkMyi0NbVRDgE__LMR_m 	 
     	  
     		   
- _16998065217162721631 mu_nOcTFwUo8r0uNE351R 	 
+ _10737131721194616638 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
@@ -1369,10 +2000,10 @@ cv mpJt2kGThF7wb3VNzG38b
     		   
  Size mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-    		   _16998065217162721631.width/_18062104616271777338.pyrfactor,_16998065217162721631.height/_18062104616271777338.pyrfactor mmCJ670wA_VHgip7JZ1dW 	 
+    		   _10737131721194616638.width/_18062104616271777338.pyrfactor,_10737131721194616638.height/_18062104616271777338.pyrfactor mmCJ670wA_VHgip7JZ1dW 	 
     	  
      mftnbgRvzOIVyL93HyyWt 	 
-    	  _6807034886856152641 mnlCUtQ6kn1Qc7HkEzE0c 	 
+    	  _1691169752730655240 mnlCUtQ6kn1Qc7HkEzE0c 	 
     	  
     		   
      mriCvhMavpfheoLNc0eCD 	 
@@ -1383,7 +2014,7 @@ cv mpJt2kGThF7wb3VNzG38b
      
  
 
-    _4290023229951984389.resize mFsSEF_3_iD2mT6nZG9QR 	_6807034886856152641 mgkSwnYHQivQIpeAwgr20 	 
+    _68274921722597584.resize mFsSEF_3_iD2mT6nZG9QR 	_1691169752730655240 mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
   mJTScPpWt8plE9Cz9fDU6 	 
@@ -1399,18 +2030,18 @@ cv mpJt2kGThF7wb3VNzG38b
      
      
  
-  	 _706246308194599 mINcNsH05D0QZDej9wl4h 	 
+  	 _3177068552073086628 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
      
 
     
-    _16998065217162721631 myJHqW7fkn_72nVEhKeZ6 	 
+    _10737131721194616638 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
-   _706246308194599.size mf_hJsy06Me1epT4PRx_l 	 
+   _3177068552073086628.size mf_hJsy06Me1epT4PRx_l 	 
     	  
     		   
      
@@ -1423,16 +2054,18 @@ cv mpJt2kGThF7wb3VNzG38b
      
  
      mhXXYzAVu3lDYyh7TkRWq 	 
-int _2654435874 muQdV4OJL6V6gVxW6AdRy 	 
+ mihBlyb7pwidO496a5_p1 	 
+    	  
+   _13303058356268144138 muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		1 mxdAvfSsdzliezc0uyUMk 	 
-  _2654435874 mlP1m6taP4mQVYA_j8Oxe 	 
+  _13303058356268144138 mlP1m6taP4mQVYA_j8Oxe 	 
     	  
     		   
      
- _6807034886856152641 mINcNsH05D0QZDej9wl4h 	 
+ _1691169752730655240 mINcNsH05D0QZDej9wl4h 	 
     	  
-    		_2654435874 mkGHGzUDDVqHIjIdYGe6S 	 
+    		_13303058356268144138 mkGHGzUDDVqHIjIdYGe6S 	 
     	  
     		   
      
@@ -1445,14 +2078,14 @@ int _2654435874 muQdV4OJL6V6gVxW6AdRy
  
             cv maKLz6mCz5anFyVle_MtD 	 
     	  
-    		   Size _46082575883678280 mmmC9tOGiLK6UaJr0E5vz 	 
+    		   Size _15915597540354938205 mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
-    _4290023229951984389 mNDJrNgMXB1tBoFNaJO0d 	 
-    	_2654435874-1 msdqcdg5NNrdQnc_PT1Ee 	 
+    _68274921722597584 mNDJrNgMXB1tBoFNaJO0d 	 
+    	_13303058356268144138-1 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
-    	.cols/_18062104616271777338.pyrfactor,_4290023229951984389 mWkGo8xUdRIKgJ1DEUvvn 	 
-  _2654435874-1 mDd5IIsnjfLI1lcygRsW3 	 
+    	.cols/_18062104616271777338.pyrfactor,_68274921722597584 mWkGo8xUdRIKgJ1DEUvvn 	 
+  _13303058356268144138-1 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		   
      
@@ -1464,21 +2097,21 @@ int _2654435874 muQdV4OJL6V6gVxW6AdRy
 
             cv mfx1fLYDWN4YRZNnQEsJN 	 
     	  resize mReDuVelSknxaDAoDEmwT 	 
-  _4290023229951984389 mY2nz8M_6jpSxQZL8EYgU 	 
+  _68274921722597584 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  
- _2654435874-1 mIkhxhgSNMt_JUZR7ce1U 	 
+ _13303058356268144138-1 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
-    ,_4290023229951984389 mZnfmoDANjVLDjZfzM5MR 	 
- _2654435874 msdqcdg5NNrdQnc_PT1Ee 	 
+    ,_68274921722597584 mZnfmoDANjVLDjZfzM5MR 	 
+ _13303058356268144138 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
     		   
      
-    ,_46082575883678280 mhyL_M5gnmQzwyHW45MdA 	 
+    ,_15915597540354938205 mhyL_M5gnmQzwyHW45MdA 	 
     	  
  mriCvhMavpfheoLNc0eCD 	 
     	  
@@ -1496,7 +2129,7 @@ int _2654435874 muQdV4OJL6V6gVxW6AdRy
     		   
   impl_assignClass_fast mhORIPgMIfN3Fn8aCQBuU 	 const cv mBBHVSlvDGP5NVUfEuhuf 	 
     	  
- Mat &_175247760140, std mEMN2sRTwHcTUl7SNSw0d 	 
+ Mat &_16232574195069562408, std mEMN2sRTwHcTUl7SNSw0d 	 
     	  
     		   
      vector mHkLXuUOlyX2vZI7w3FQj 	 
@@ -1505,11 +2138,11 @@ int _2654435874 muQdV4OJL6V6gVxW6AdRy
  cv myuwTFtkH1L5Be2OVY9rt 	 
     	  
    KeyPoint mRHNkLPwUSnx20pmLgrTq 	 
-    & _6807155635330334890,  mpMWr23OozoNFIk9M3JRl 	 
+    & _414219072103044861,  mpMWr23OozoNFIk9M3JRl 	 
     	  
     		   
-   _706246333056669,  mCujczJix6jMpJcynoBiA 	 
-    	_46082576181443290 mzf4ZxeZY8wF2XnrdYK61 	 
+   _3176948347770171375,  mCujczJix6jMpJcynoBiA 	 
+    	_11909274222260322758 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -1524,7 +2157,7 @@ int _2654435874 muQdV4OJL6V6gVxW6AdRy
     		   
      
      
- _175247760140.type mzeHK1hG1SYQMISNMWMB8 	 
+ _16232574195069562408.type mzeHK1hG1SYQMISNMWMB8 	 
     	  
      mHgo4JTEAdFhAHz3buc5U 	 
     	  
@@ -1538,18 +2171,18 @@ int _2654435874 muQdV4OJL6V6gVxW6AdRy
     	  
     		   
      
-    "\x61\x73\x73\x69\x67\x6e\x43\x6c\x61\x73\x73\x5f\x66\x61\x73\x74\x20\x49\x6e\x70\x75\x74\x20\x69\x6d\x61\x67\x65\x20\x6d\x75\x73\x74\x20\x62\x65\x20\x38\x55\x43\x31" mzf4ZxeZY8wF2XnrdYK61 	 
+    "\x5c\x78\x36\x31\x5c\x78\x37\x33\x5c\x78\x37\x33\x5c\x78\x36\x39\x5c\x78\x36\x37\x5c\x78\x36\x65\x5c\x78\x34\x33\x5c\x78\x36\x63\x5c\x78\x36\x31\x5c\x78\x37\x33\x5c\x78\x37\x33\x5c\x78\x35\x66\x5c\x78\x36\x36\x5c\x78\x36\x31\x5c\x78\x37\x33\x5c\x78\x37\x34\x5c\x78\x32\x30\x5c\x78\x34\x39\x5c\x78\x36\x65\x5c\x78\x37\x30\x5c\x78\x37\x35\x5c\x78\x37\x34\x5c\x78\x32\x30\x5c\x78\x36\x39\x5c\x78\x36\x64\x5c\x78\x36\x31\x5c\x78\x36\x37\x5c\x78\x36\x35\x5c\x78\x32\x30\x5c\x78\x36\x64\x5c\x78\x37\x35\x5c\x78\x37\x33\x5c\x78\x37\x34\x5c\x78\x32\x30\x5c\x78\x36\x32\x5c\x78\x36\x35\x5c\x78\x32\x30\x5c\x78\x33\x38\x5c\x78\x35\x35\x5c\x78\x34\x33\x5c\x78\x33\x31" mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		  mINcNsH05D0QZDej9wl4h 	 
 
      mMGij61UZUIIYyztVz9vN 	 
     	  
     		   
-   _1535332796027008789 muQdV4OJL6V6gVxW6AdRy 	 
-_46082576181443290*2+1 mVOlbMaOu1U0SC2oeKIzP 	 
+   _8327405616267030056 muQdV4OJL6V6gVxW6AdRy 	 
+_11909274222260322758*2+1 mVOlbMaOu1U0SC2oeKIzP 	 
     	 
 
-    cv mU808frSKQDZnEEU3Q3s9 	Mat _3005401584187443871  mRwjoMr_aqph4iL4nu8NS 	 cv mBBHVSlvDGP5NVUfEuhuf 	 
+    cv mU808frSKQDZnEEU3Q3s9 	Mat _7770143409063853332  mRwjoMr_aqph4iL4nu8NS 	 cv mBBHVSlvDGP5NVUfEuhuf 	 
     	  
     		   
      
@@ -1558,7 +2191,7 @@ _46082576181443290*2+1 mVOlbMaOu1U0SC2oeKIzP
     		  zeros mReDuVelSknxaDAoDEmwT 	 
     	  
     		   
-  _46082576181443290*2+1,_46082576181443290*2+1,CV_8UC1 mycwFs63h7Mi3ggRkMEVm 	 
+  _11909274222260322758*2+1,_11909274222260322758*2+1,CV_8UC1 mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
      
@@ -1571,12 +2204,12 @@ _46082576181443290*2+1 mVOlbMaOu1U0SC2oeKIzP
      
  
     cv mBBHVSlvDGP5NVUfEuhuf 	 
-Mat _6807155497357683700 muQdV4OJL6V6gVxW6AdRy 	 
+Mat _1198931547899984731 muQdV4OJL6V6gVxW6AdRy 	 
  cv maKLz6mCz5anFyVle_MtD 	 
     	  
    Mat mhxtTU7dvZHXCTSg8B8rx 	 
     	  
-_46082576181443290*2+1,_46082576181443290*2+1,CV_8UC1 mXAYJa6osZ6HNTIEEBnr0 	 
+_11909274222260322758*2+1,_11909274222260322758*2+1,CV_8UC1 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      
@@ -1592,7 +2225,13 @@ _46082576181443290*2+1,_46082576181443290*2+1,CV_8UC1 mXAYJa6osZ6HNTIEEBnr0
     	  
     		   
      
-auto &_175247760278:_6807155635330334890 mycwFs63h7Mi3ggRkMEVm 	 
+ mF8CPQI5IssWjwlV2CXVE 	 
+    	  
+    		   
+     
+     
+ 
+ &_16232574195069566594:_414219072103044861 mycwFs63h7Mi3ggRkMEVm 	 
     	  
 
          mDzQQrEx5Ki0C6uDHU2cy 	 
@@ -1604,7 +2243,7 @@ auto &_175247760278:_6807155635330334890 mycwFs63h7Mi3ggRkMEVm
     	  
     		   
      
-  _2654435889  muQdV4OJL6V6gVxW6AdRy 	  _175247760278.pt.x+0.5f mftnbgRvzOIVyL93HyyWt 	 
+  _13303058356268144065  muQdV4OJL6V6gVxW6AdRy 	  _16232574195069566594.pt.x+0.5f mftnbgRvzOIVyL93HyyWt 	 
     	  
     	
              mSD7jHYN8mOif4_CBtIg6 	 
@@ -1612,10 +2251,10 @@ auto &_175247760278:_6807155635330334890 mycwFs63h7Mi3ggRkMEVm
     		   
      
      
-_2654435890  muQdV4OJL6V6gVxW6AdRy 	 
+_13303058356268144023  muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
-  _175247760278.pt.y+0.5f mPdHdcAZ6XJhwf8wLtULI 	 
+  _16232574195069566594.pt.y+0.5f mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
 
@@ -1623,7 +2262,7 @@ _2654435890  muQdV4OJL6V6gVxW6AdRy
              cv mfx1fLYDWN4YRZNnQEsJN 	 
     	  
     		   
-     Rect _2654435883 muQdV4OJL6V6gVxW6AdRy 	 
+     Rect _13303058356268144075 muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
   cv mpJt2kGThF7wb3VNzG38b 	 
@@ -1634,12 +2273,12 @@ _2654435890  muQdV4OJL6V6gVxW6AdRy
  
   	 Rect mSa4WnWih0z4lSo9RYUGU 	 
     	  
-    		 _2654435889-_46082576181443290,_2654435890-_46082576181443290,_46082576181443290*2+1,_46082576181443290*2+1 mycwFs63h7Mi3ggRkMEVm 	 
+    		 _13303058356268144065-_11909274222260322758,_13303058356268144023-_11909274222260322758,_11909274222260322758*2+1,_11909274222260322758*2+1 mycwFs63h7Mi3ggRkMEVm 	 
     	 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		
             
-             mBuRRlPSkgfIqW4MkJEkn 	 _2654435883.x mW1ds9XwNwevT5B2b3j8B 	 
+             mBuRRlPSkgfIqW4MkJEkn 	 _13303058356268144075.x mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
      
@@ -1647,23 +2286,23 @@ _2654435890  muQdV4OJL6V6gVxW6AdRy
  
  0  mgM8ScCmoJ3qXwMzVOzZc 	 
     	  
-    _2654435883.x+_2654435883.width mtJAThUzPUAnb_DMXiQOL 	 
+    _13303058356268144075.x+_13303058356268144075.width mtJAThUzPUAnb_DMXiQOL 	 
     	  
-   _175247760140.cols  mfNhxMALMjy2jMKPPP3pN 	 
-    	  
-    		   
-     
-      _2654435883.y mCALzjQ0bwpDnngl_oSsi 	 
+   _16232574195069562408.cols  mfNhxMALMjy2jMKPPP3pN 	 
     	  
     		   
      
-     
-0  mgM8ScCmoJ3qXwMzVOzZc 	 _2654435883.y+_2654435883.height mel3l7ZRXwnAEsy0Wfxj_ 	 
+      _13303058356268144075.y mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
      
      
-_175247760140.rows mycwFs63h7Mi3ggRkMEVm 	 
+0  mgM8ScCmoJ3qXwMzVOzZc 	 _13303058356268144075.y+_13303058356268144075.height mel3l7ZRXwnAEsy0Wfxj_ 	 
+    	  
+    		   
+     
+     
+_16232574195069562408.rows mycwFs63h7Mi3ggRkMEVm 	 
    continue mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     	
@@ -1672,26 +2311,26 @@ _175247760140.rows mycwFs63h7Mi3ggRkMEVm
              mdbRZP7cWFYlUcaGRMsKc 	 
     	  
     		   
-    _706246330858350 mu_nOcTFwUo8r0uNE351R 	 
- _2654435883.x+_2654435883.width mPdHdcAZ6XJhwf8wLtULI 	 
+    _3176948340369703937 mu_nOcTFwUo8r0uNE351R 	 
+ _13303058356268144075.x+_13303058356268144075.width mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
              mihBlyb7pwidO496a5_p1 	 
- _706246330858337 mKcKHr_bTagXAK_pf8btG 	 
+ _3176948340369704860 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      
      
  
- _2654435883.y+_2654435883.height mftnbgRvzOIVyL93HyyWt 	 
+ _13303058356268144075.y+_13303058356268144075.height mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
   
-            uchar _706246333028815 muQdV4OJL6V6gVxW6AdRy 	 
+            uchar _3176948348563158861 muQdV4OJL6V6gVxW6AdRy 	 
     	  
-    		255,_706246332997467 mu_nOcTFwUo8r0uNE351R 	 
+    		255,_3257891898253592022 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
@@ -1702,16 +2341,18 @@ _175247760140.rows mycwFs63h7Mi3ggRkMEVm
   
              ma9rnYFEs_TUiw_WyBflg 	 
     	  
-    int _2654435890 mCm219F3DHVwNe_CsrCeK 	 
- _2654435883.y mdmuaUz9iCkCckSUhcEv1 	 
+     mSD7jHYN8mOif4_CBtIg6 	 
     	  
-    		 _2654435890 mCALzjQ0bwpDnngl_oSsi 	 
+    		  _13303058356268144023 mCm219F3DHVwNe_CsrCeK 	 
+ _13303058356268144075.y mdmuaUz9iCkCckSUhcEv1 	 
+    	  
+    		 _13303058356268144023 mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
      
-     _706246330858337 mftnbgRvzOIVyL93HyyWt 	 
+     _3176948340369704860 mftnbgRvzOIVyL93HyyWt 	 
     	  
-    	 _2654435890 mEZrtAN7pSZl5y4oEHd38 	 
+    	 _13303058356268144023 mEZrtAN7pSZl5y4oEHd38 	 
     	  
     		   
      
@@ -1725,8 +2366,8 @@ _175247760140.rows mycwFs63h7Mi3ggRkMEVm
     	  
     		   
 
-                const uchar *_11093822295868 mif4ZCBkqdiqSYkR9AD0r 	 
-    	_175247760140.ptr mCALzjQ0bwpDnngl_oSsi 	 
+                const uchar *_5268605234499577910 mif4ZCBkqdiqSYkR9AD0r 	 
+    	_16232574195069562408.ptr mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
     uchar mE4_Vrik0lveh4HNJUk1B 	 
@@ -1734,7 +2375,7 @@ _175247760140.rows mycwFs63h7Mi3ggRkMEVm
     	  
     		   
      
- _2654435890 mgkSwnYHQivQIpeAwgr20 	 
+ _13303058356268144023 mgkSwnYHQivQIpeAwgr20 	 
     	  
      mJTScPpWt8plE9Cz9fDU6 	 
     	  
@@ -1747,19 +2388,23 @@ _175247760140.rows mycwFs63h7Mi3ggRkMEVm
      
      
  
- int _2654435889 mu_nOcTFwUo8r0uNE351R 	 
+  mCujczJix6jMpJcynoBiA 	 
+    	  
+    		   
+     
+ _13303058356268144065 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
      
- _2654435883.x mriCvhMavpfheoLNc0eCD 	 
+ _13303058356268144075.x mriCvhMavpfheoLNc0eCD 	 
     	  
-  _2654435889 mW1ds9XwNwevT5B2b3j8B 	 
+  _13303058356268144065 mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
-   _706246330858350 mdmuaUz9iCkCckSUhcEv1 	 
+   _3176948340369703937 mdmuaUz9iCkCckSUhcEv1 	 
     	  
- _2654435889 mUq8qfNXjDE9FPlMHvjf4 	 
+ _13303058356268144065 mUq8qfNXjDE9FPlMHvjf4 	 
     	  
     		   
      mycwFs63h7Mi3ggRkMEVm 	 
@@ -1777,9 +2422,9 @@ _175247760140.rows mycwFs63h7Mi3ggRkMEVm
     	  
     		   
      
-  _706246333028815 mjxPa00ei9qkuuQmiGB3C 	 
+  _3176948348563158861 mjxPa00ei9qkuuQmiGB3C 	 
     	  
-    		  _11093822295868 mFyKKLtdivGGDlk8sYzsf 	_2654435889 mwTp2D1d4PfxNNOzzUfhS 	 
+    		  _5268605234499577910 mFyKKLtdivGGDlk8sYzsf 	_13303058356268144065 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
@@ -1789,39 +2434,39 @@ _175247760140.rows mycwFs63h7Mi3ggRkMEVm
      
      
  
- _706246333028815 mu_nOcTFwUo8r0uNE351R 	 
+ _3176948348563158861 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
      
  
-  _11093822295868 mdF98bHO7yrxGJn0aQZVK 	 
+  _5268605234499577910 mdF98bHO7yrxGJn0aQZVK 	 
     	  
-    	_2654435889 msdqcdg5NNrdQnc_PT1Ee 	 
+    	_13303058356268144065 msdqcdg5NNrdQnc_PT1Ee 	 
     	 mriCvhMavpfheoLNc0eCD 	 
 
                      mSuHweZ8NLqp3TniIO9nc 	 
-    	  _706246332997467 mCALzjQ0bwpDnngl_oSsi 	 
+    	  _3257891898253592022 mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
      
      
-_11093822295868 mZnfmoDANjVLDjZfzM5MR 	 
+_5268605234499577910 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
      
      
  
- _2654435889 mUB1yrSrKOwldqxmCatN2 	 
+ _13303058356268144065 mUB1yrSrKOwldqxmCatN2 	 
     	  
     msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
-     _706246332997467 mCm219F3DHVwNe_CsrCeK 	 _11093822295868 mFyKKLtdivGGDlk8sYzsf 	 
+     _3257891898253592022 mCm219F3DHVwNe_CsrCeK 	 _5268605234499577910 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
-     _2654435889 mIkhxhgSNMt_JUZR7ce1U 	 mVOlbMaOu1U0SC2oeKIzP 	 
+     _13303058356268144065 mIkhxhgSNMt_JUZR7ce1U 	 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
  
                  mbYMUxVFybbviIFqRhN2f 	 
@@ -1841,7 +2486,7 @@ _11093822295868 mZnfmoDANjVLDjZfzM5MR
      
    mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-    	 mhxtTU7dvZHXCTSg8B8rx 	_706246332997467-_706246333028815 mhyL_M5gnmQzwyHW45MdA 	 
+    	 mhxtTU7dvZHXCTSg8B8rx 	_3257891898253592022-_3176948348563158861 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
@@ -1853,7 +2498,7 @@ _11093822295868 mZnfmoDANjVLDjZfzM5MR
     		     mjbtcSgN5ZQfkGDsoYG4l 	 
     	  
   
-                _175247760278.class_id myJHqW7fkn_72nVEhKeZ6 	0 mJTScPpWt8plE9Cz9fDU6 	 
+                _16232574195069566594.class_id myJHqW7fkn_72nVEhKeZ6 	0 mJTScPpWt8plE9Cz9fDU6 	 
    
                 continue mlqoNTA3LQoUJF6i5YDFc 	 
     	  
@@ -1861,13 +2506,13 @@ _11093822295868 mZnfmoDANjVLDjZfzM5MR
              muuG2jhk4iNsA9KNmj6oA 	 
  
 
-             mPBSejyyYBZX7KoLjIvqq 	_46082543288102741 mM3tRrWbRPqPOU3G4ShKT 	 
+             mPBSejyyYBZX7KoLjIvqq 	_16941263804935501574 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		 mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
      
-  _706246332997467+_706246333028815 mmCJ670wA_VHgip7JZ1dW 	 
+  _3257891898253592022+_3176948348563158861 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
   /2.0 mriCvhMavpfheoLNc0eCD 	 
@@ -1877,7 +2522,7 @@ _11093822295868 mZnfmoDANjVLDjZfzM5MR
     	  
     		   
      
-   _175247759483 myJHqW7fkn_72nVEhKeZ6 	 
+   _16232574195041799150 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     	0 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
@@ -1888,13 +2533,15 @@ _11093822295868 mZnfmoDANjVLDjZfzM5MR
     		   
      
      
-int _2654435890 mdKhcOUXVqyCMdccisL_a 	 
+ mCujczJix6jMpJcynoBiA 	 
+    	  
+ _13303058356268144023 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		 0 mdmuaUz9iCkCckSUhcEv1 	 
-    	 _2654435890 mW1ds9XwNwevT5B2b3j8B 	_1535332796027008789 mJTScPpWt8plE9Cz9fDU6 	 
+    	 _13303058356268144023 mW1ds9XwNwevT5B2b3j8B 	_8327405616267030056 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
-  _2654435890 mkGHGzUDDVqHIjIdYGe6S 	 
+  _13303058356268144023 mkGHGzUDDVqHIjIdYGe6S 	 
     	  
  mzf4ZxeZY8wF2XnrdYK61 	 
     	  
@@ -1904,24 +2551,24 @@ int _2654435890 mdKhcOUXVqyCMdccisL_a
     	  
     		   
      
-                const uchar *_11093822295868 mu_nOcTFwUo8r0uNE351R 	 
+                const uchar *_5268605234499577910 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
      
  
-  	_175247760140.ptr mYI2nkSxgJHf1pY1PttV1 	 
+  	_16232574195069562408.ptr mYI2nkSxgJHf1pY1PttV1 	 
     uchar mjxPa00ei9qkuuQmiGB3C 	 
     	  
     	 mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-    _2654435883.y+_2654435890 mAnDeXfeHaujEzGBbrjil 	 
+    _13303058356268144075.y+_13303058356268144023 mAnDeXfeHaujEzGBbrjil 	 
     	  
-    		   +_2654435883.x mlqoNTA3LQoUJF6i5YDFc 	 
+    		   +_13303058356268144075.x mlqoNTA3LQoUJF6i5YDFc 	 
 
-                uchar *_16997202002988992812 muQdV4OJL6V6gVxW6AdRy 	 
+                uchar *_3861841962186570485 muQdV4OJL6V6gVxW6AdRy 	 
     	  
-  _6807155497357683700.ptr mbG1GEmOdh2dXkJZ42sXo 	 
+  _1198931547899984731.ptr mbG1GEmOdh2dXkJZ42sXo 	 
     	  
     		   
   uchar mBpPKNB5wfuTOV223BA2r 	 
@@ -1930,7 +2577,7 @@ int _2654435890 mdKhcOUXVqyCMdccisL_a
     	  
     		   
      
-    _2654435890 mmCJ670wA_VHgip7JZ1dW 	 
+    _13303058356268144023 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
      
@@ -1943,13 +2590,15 @@ int _2654435890 mdKhcOUXVqyCMdccisL_a
                  mhXXYzAVu3lDYyh7TkRWq 	 
     	  
     		   
-    int _2654435889 mM3tRrWbRPqPOU3G4ShKT 	 
+     mdbRZP7cWFYlUcaGRMsKc 	 
+    	  
+  _13303058356268144065 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
- 0 mVOlbMaOu1U0SC2oeKIzP 	 _2654435889 mqEAvVDOCXqrrwrTRByrM 	 _1535332796027008789 mVOlbMaOu1U0SC2oeKIzP 	 
+ 0 mVOlbMaOu1U0SC2oeKIzP 	 _13303058356268144065 mqEAvVDOCXqrrwrTRByrM 	 _8327405616267030056 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
-      _2654435889 mBh4lc09qKYGXyU7FeqOv 	 
+      _13303058356268144065 mBh4lc09qKYGXyU7FeqOv 	 
     	  
     		   
   mmCJ670wA_VHgip7JZ1dW 	 
@@ -1962,13 +2611,13 @@ int _2654435890 mdKhcOUXVqyCMdccisL_a
 
                      mXkfygpbRUCrOfJA4ktlP 	 
     	  
-    		   _11093822295868 mY2nz8M_6jpSxQZL8EYgU 	 
+    		   _5268605234499577910 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  
-  	 _2654435889 mrpQVzv6u8gxvho1qUlil 	 
+  	 _13303058356268144065 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
      
@@ -1978,7 +2627,7 @@ int _2654435890 mdKhcOUXVqyCMdccisL_a
     	  
     		   
      
-_46082543288102741 mXAYJa6osZ6HNTIEEBnr0 	 
+_16941263804935501574 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      
@@ -1987,15 +2636,15 @@ _46082543288102741 mXAYJa6osZ6HNTIEEBnr0
     		   
      
   
-                        _175247759483 mt0bWs8kxCzTnBdtR9vKu 	 
+                        _16232574195041799150 mt0bWs8kxCzTnBdtR9vKu 	 
     	  
    mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
   
-                        _16997202002988992812 mA4oXllup8K3T5dxkluRR 	 
+                        _3861841962186570485 mA4oXllup8K3T5dxkluRR 	 
     	  
-    	_2654435889 mbViqhyIcr6lGWibuo3Im 	 
+    	_13303058356268144065 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
@@ -2013,13 +2662,13 @@ _46082543288102741 mXAYJa6osZ6HNTIEEBnr0
     	  
     		   
                      mFK5JCwqLjSVNjbuFv1Xz 	 
-   _16997202002988992812 mY2nz8M_6jpSxQZL8EYgU 	 
+   _3861841962186570485 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  
- _2654435889 msdqcdg5NNrdQnc_PT1Ee 	 
+ _13303058356268144065 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
     		   
  mif4ZCBkqdiqSYkR9AD0r 	 
@@ -2036,26 +2685,30 @@ _46082543288102741 mXAYJa6osZ6HNTIEEBnr0
             
              ma9rnYFEs_TUiw_WyBflg 	 
     	  
-int _2654435890 muQdV4OJL6V6gVxW6AdRy 	 
+ moI11mwtxiOXpqDxK_aQL 	 
     	  
     		   
-     0 mdmuaUz9iCkCckSUhcEv1 	  _2654435890 mqEAvVDOCXqrrwrTRByrM 	 
- _6807155497357683700.rows mPdHdcAZ6XJhwf8wLtULI 	 
+     
+ _13303058356268144023 muQdV4OJL6V6gVxW6AdRy 	 
+    	  
+    		   
+     0 mdmuaUz9iCkCckSUhcEv1 	  _13303058356268144023 mqEAvVDOCXqrrwrTRByrM 	 
+ _1198931547899984731.rows mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
      
-  _2654435890 mi940TUip6nLdi0tWD33F 	 mgkSwnYHQivQIpeAwgr20 	  mnU2hwoI16_nZ7reLKJTr 	 
+  _13303058356268144023 mi940TUip6nLdi0tWD33F 	 mgkSwnYHQivQIpeAwgr20 	  mnU2hwoI16_nZ7reLKJTr 	 
     	  
    
-                uchar *_15600331839615309563 mu_nOcTFwUo8r0uNE351R 	 
+                uchar *_10102288860402729761 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
-    _3005401584187443871.ptr mHkLXuUOlyX2vZI7w3FQj 	 
+    _7770143409063853332.ptr mHkLXuUOlyX2vZI7w3FQj 	 
     uchar mBpPKNB5wfuTOV223BA2r 	 
     	  mhxtTU7dvZHXCTSg8B8rx 	 
     	  
-    		   _2654435890 muiDYQbmwLxL3PGrwWGeP 	 
+    		   _13303058356268144023 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      
@@ -2066,7 +2719,13 @@ int _2654435890 muQdV4OJL6V6gVxW6AdRy
      
      
 
-                 moPdTa5HpJKbS1U6TqDjY 	 int _2654435889 mKcKHr_bTagXAK_pf8btG 	 
+                 moPdTa5HpJKbS1U6TqDjY 	  mMGij61UZUIIYyztVz9vN 	 
+    	  
+    		   
+     
+     
+ 
+_13303058356268144065 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      
@@ -2074,25 +2733,25 @@ int _2654435890 muQdV4OJL6V6gVxW6AdRy
  
 0 mINcNsH05D0QZDej9wl4h 	 
     	  
-  _2654435889 mbG1GEmOdh2dXkJZ42sXo 	 
+  _13303058356268144065 mbG1GEmOdh2dXkJZ42sXo 	 
     	  
     		   
      
-    _6807155497357683700.cols mPdHdcAZ6XJhwf8wLtULI 	 
+    _1198931547899984731.cols mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
      
  
-  _2654435889 mEZrtAN7pSZl5y4oEHd38 	 
+  _13303058356268144065 mEZrtAN7pSZl5y4oEHd38 	 
     	  
     		   
      
      
  
   mycwFs63h7Mi3ggRkMEVm 	 
-    _15600331839615309563 mGYpOkNIG_qSvYXBOU9Vf 	 
-_2654435889 mwTp2D1d4PfxNNOzzUfhS 	 
+    _10102288860402729761 mGYpOkNIG_qSvYXBOU9Vf 	 
+_13303058356268144065 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
@@ -2107,7 +2766,7 @@ _2654435889 mwTp2D1d4PfxNNOzzUfhS
     	  
   
 
-            uchar _3005399800893728364  myJHqW7fkn_72nVEhKeZ6 	 
+            uchar _2527482952837276942  myJHqW7fkn_72nVEhKeZ6 	 
     	  
     	 1 mPdHdcAZ6XJhwf8wLtULI 	 
             std mdssZV6TB06aiisDwN1cX 	 
@@ -2118,10 +2777,13 @@ _2654435889 mwTp2D1d4PfxNNOzzUfhS
      
      
  uchar, uchar mEc9zv3P8LW8haIvtztwe 	 
-    	  _3005399810190429368 mhGXMe8LHJXydR9dMisHj 	 
+    	  _17627748882047670830 mhGXMe8LHJXydR9dMisHj 	 
     	  
     	
-             mhXXYzAVu3lDYyh7TkRWq 	 int _2654435890 mdKhcOUXVqyCMdccisL_a 	 
+             mhXXYzAVu3lDYyh7TkRWq 	  mG7mr0Iq8BCEeADSwrCoW 	 
+    	  
+    		   
+   _13303058356268144023 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
@@ -2132,22 +2794,22 @@ _2654435889 mwTp2D1d4PfxNNOzzUfhS
      
      
  
-   _2654435890 mbG1GEmOdh2dXkJZ42sXo 	 
+   _13303058356268144023 mbG1GEmOdh2dXkJZ42sXo 	 
     	  
-    		_6807155497357683700.rows mVOlbMaOu1U0SC2oeKIzP 	 
+    		_1198931547899984731.rows mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
-  _2654435890 mBh4lc09qKYGXyU7FeqOv 	 
+  _13303058356268144023 mBh4lc09qKYGXyU7FeqOv 	 
     	  
     		   
     mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		 mjbtcSgN5ZQfkGDsoYG4l 	 
    
-                uchar *_16997202002988992812 mCm219F3DHVwNe_CsrCeK 	 
+                uchar *_3861841962186570485 mCm219F3DHVwNe_CsrCeK 	 
     	  
-    		_6807155497357683700.ptr mK5OxIt23gZzSiTA8trU8 	 
+    		_1198931547899984731.ptr mK5OxIt23gZzSiTA8trU8 	 
     	 uchar mW1YUos9eL_9NmgJuSDH7 	 
     	  
     		   
@@ -2155,7 +2817,7 @@ _2654435889 mwTp2D1d4PfxNNOzzUfhS
      
  
   	 mhxtTU7dvZHXCTSg8B8rx 	 
-_2654435890 muiDYQbmwLxL3PGrwWGeP 	 
+_13303058356268144023 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      
@@ -2164,9 +2826,9 @@ _2654435890 muiDYQbmwLxL3PGrwWGeP
   	  mINcNsH05D0QZDej9wl4h 	 
     	  
     		
-               uchar *_15600331839615309563 mKcKHr_bTagXAK_pf8btG 	 
+               uchar *_10102288860402729761 mKcKHr_bTagXAK_pf8btG 	 
     	  
-    		  _3005401584187443871.ptr mca1GaR7Rv9qOZsisqKBB 	 
+    		  _7770143409063853332.ptr mca1GaR7Rv9qOZsisqKBB 	 
     	 uchar mYxohqgekcJ8HhaDZvWcX 	 
     	  
     		   
@@ -2179,23 +2841,25 @@ _2654435890 muiDYQbmwLxL3PGrwWGeP
      
      
  
-_2654435890 mXAYJa6osZ6HNTIEEBnr0 	 
+_13303058356268144023 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		 mlqoNTA3LQoUJF6i5YDFc 	 
  
                  mVRbVdVjFvNmKzGv4WiNp 	 
- int _2654435889 mif4ZCBkqdiqSYkR9AD0r 	 
+  mihBlyb7pwidO496a5_p1 	 
+    	  
+    		_13303058356268144065 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
   0 mJTScPpWt8plE9Cz9fDU6 	 
     	  
-    		   _2654435889 mHkLXuUOlyX2vZI7w3FQj 	 
-    	 _6807155497357683700.cols mxdAvfSsdzliezc0uyUMk 	 
+    		   _13303058356268144065 mHkLXuUOlyX2vZI7w3FQj 	 
+    	 _1198931547899984731.cols mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
      
- _2654435889 mUq8qfNXjDE9FPlMHvjf4 	 
+ _13303058356268144065 mUq8qfNXjDE9FPlMHvjf4 	 
     	  
     		  mXAYJa6osZ6HNTIEEBnr0 	 
     	  
@@ -2206,25 +2870,25 @@ _2654435890 mXAYJa6osZ6HNTIEEBnr0
     		   
      
  
-                    uchar _11093822302323  mM3tRrWbRPqPOU3G4ShKT 	 
+                    uchar _5268611907152127627  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
-  _16997202002988992812 mA4oXllup8K3T5dxkluRR 	 
+  _3861841962186570485 mA4oXllup8K3T5dxkluRR 	 
     	  
-   _2654435889 mJtGCV8zXQjnVDVBVdvFZ 	 
+   _13303058356268144065 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
      
       mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
-                    uchar _16997306281511543509  mRwjoMr_aqph4iL4nu8NS 	 
+                    uchar _14281707985483758147  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     0 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
 
-                    uchar _6807153013350021978  mu_nOcTFwUo8r0uNE351R 	 
+                    uchar _12923587428288459517  mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
@@ -2237,7 +2901,7 @@ _2654435890 mXAYJa6osZ6HNTIEEBnr0
 
                      mXkfygpbRUCrOfJA4ktlP 	 
     	  
-    	_2654435889-1  mYxohqgekcJ8HhaDZvWcX 	 
+    	_13303058356268144065-1  mYxohqgekcJ8HhaDZvWcX 	 
     	  
     		   
      
@@ -2253,12 +2917,12 @@ _2654435890 mXAYJa6osZ6HNTIEEBnr0
     	  
     		   
      
-     _11093822302323  mRuVXNtG32xpaNLi1hDLk 	 
+     _5268611907152127627  mRuVXNtG32xpaNLi1hDLk 	 
     	  
     		   
      
- _16997202002988992812 mdF98bHO7yrxGJn0aQZVK 	 
-  _2654435889-1 mwTp2D1d4PfxNNOzzUfhS 	 
+ _3861841962186570485 mdF98bHO7yrxGJn0aQZVK 	 
+  _13303058356268144065-1 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
@@ -2268,13 +2932,13 @@ _2654435890 mXAYJa6osZ6HNTIEEBnr0
      
      
 
-                            _16997306281511543509  mu_nOcTFwUo8r0uNE351R 	_15600331839615309563 mILaQGKCAmcKrYQNhgWUq 	 
+                            _14281707985483758147  mu_nOcTFwUo8r0uNE351R 	_10102288860402729761 mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
      
      
  
-  _2654435889-1 mUB1yrSrKOwldqxmCatN2 	 
+  _13303058356268144065-1 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -2296,7 +2960,7 @@ _2654435890 mXAYJa6osZ6HNTIEEBnr0
     	  
     		   
      
-    _2654435890-1  mW1YUos9eL_9NmgJuSDH7 	 
+    _13303058356268144023-1  mW1YUos9eL_9NmgJuSDH7 	 
     	  
     		   
      
@@ -2312,17 +2976,17 @@ _2654435890 mXAYJa6osZ6HNTIEEBnr0
      
  
                          mb_mniVMqcXJMFkJcXnTV 	 
-_11093822302323  mi0dc2wlXgNoHf9VPli9f 	 
+_5268611907152127627  mi0dc2wlXgNoHf9VPli9f 	 
     	  
     		   
      
-   _6807155497357683700.ptr mK5OxIt23gZzSiTA8trU8 	 
+   _1198931547899984731.ptr mK5OxIt23gZzSiTA8trU8 	 
    uchar mE4_Vrik0lveh4HNJUk1B 	 
     	  
  mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
-    _2654435890-1 muiDYQbmwLxL3PGrwWGeP 	 
+    _13303058356268144023-1 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      
@@ -2331,19 +2995,19 @@ _11093822302323  mi0dc2wlXgNoHf9VPli9f
     	  
     		   
      
- _2654435889 msdqcdg5NNrdQnc_PT1Ee 	 
+ _13303058356268144065 msdqcdg5NNrdQnc_PT1Ee 	 
     msubWq7nTVSPilWqmTzkx 	 
     	  
  
-                            _6807153013350021978  ma6VjqdfajK4BX9gkoGiD 	 
-    	   _3005401584187443871.at mW1ds9XwNwevT5B2b3j8B 	 
+                            _12923587428288459517  ma6VjqdfajK4BX9gkoGiD 	 
+    	   _7770143409063853332.at mW1ds9XwNwevT5B2b3j8B 	 
 uchar mjxPa00ei9qkuuQmiGB3C 	 
     	  
     		   
   mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
-     _2654435890-1, _2654435889 mhyL_M5gnmQzwyHW45MdA 	 
+     _13303058356268144023-1, _13303058356268144065 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		    mlqoNTA3LQoUJF6i5YDFc 	 
     	  
@@ -2353,20 +3017,20 @@ uchar mjxPa00ei9qkuuQmiGB3C
 
                      mSuHweZ8NLqp3TniIO9nc 	 
     	  
-    		  _16997306281511543509 mnZ6t3BhMZ_1d7zzE72ah 	 
+    		  _14281707985483758147 mnZ6t3BhMZ_1d7zzE72ah 	 
   0  mgN2NPegMIWZaSlArqSpX 	 
-     _6807153013350021978 mi0dc2wlXgNoHf9VPli9f 	 
+     _12923587428288459517 mi0dc2wlXgNoHf9VPli9f 	 
     	  
     		   
    0 mycwFs63h7Mi3ggRkMEVm 	 
  
-                        _15600331839615309563 mA4oXllup8K3T5dxkluRR 	_2654435889 mEFd2D2UDF9SIoPfQtUv6 	 
+                        _10102288860402729761 mA4oXllup8K3T5dxkluRR 	_13303058356268144065 mEFd2D2UDF9SIoPfQtUv6 	 
     	  
     muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
      
-   _3005399800893728364 mt0bWs8kxCzTnBdtR9vKu 	 
+   _2527482952837276942 mt0bWs8kxCzTnBdtR9vKu 	 
     mftnbgRvzOIVyL93HyyWt 	 
     
 
@@ -2374,12 +3038,12 @@ uchar mjxPa00ei9qkuuQmiGB3C
     	  
     mwxm9pz2KjGAhBIIfFMf4 	 
     	  
-    	_16997306281511543509 mWUoD50tT9HFGBNQCsjUC 	 
+    	_14281707985483758147 mWUoD50tT9HFGBNQCsjUC 	 
    0  mKdH1o6rFuMJ1Fl0PA_sn 	 
     	  
     		   
      
-     _6807153013350021978 mu3VfwjYyEXmsa3FxHdyz 	 
+     _12923587428288459517 mu3VfwjYyEXmsa3FxHdyz 	 
     	  
     0 mhyL_M5gnmQzwyHW45MdA 	 
     	  
@@ -2389,10 +3053,10 @@ uchar mjxPa00ei9qkuuQmiGB3C
     	  
     		   
      
-    _16997306281511543509  mCALzjQ0bwpDnngl_oSsi 	 
+    _14281707985483758147  mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
- _6807153013350021978 mzf4ZxeZY8wF2XnrdYK61 	 
+ _12923587428288459517 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
  
@@ -2401,16 +3065,16 @@ uchar mjxPa00ei9qkuuQmiGB3C
     		   
      
   
-                            _15600331839615309563 mFyKKLtdivGGDlk8sYzsf 	 
- _2654435889 mIkhxhgSNMt_JUZR7ce1U 	 
+                            _10102288860402729761 mFyKKLtdivGGDlk8sYzsf 	 
+ _13303058356268144065 mIkhxhgSNMt_JUZR7ce1U 	 
    myJHqW7fkn_72nVEhKeZ6 	 
     	  
-   _16997306281511543509 mriCvhMavpfheoLNc0eCD 	 
+   _14281707985483758147 mriCvhMavpfheoLNc0eCD 	 
     	  
-                            _3005399810190429368 mY2nz8M_6jpSxQZL8EYgU 	_6807153013350021978 mbViqhyIcr6lGWibuo3Im 	 
+                            _17627748882047670830 mY2nz8M_6jpSxQZL8EYgU 	_12923587428288459517 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
-     mif4ZCBkqdiqSYkR9AD0r 	 _16997306281511543509 mxdAvfSsdzliezc0uyUMk 	 
+     mif4ZCBkqdiqSYkR9AD0r 	 _14281707985483758147 mxdAvfSsdzliezc0uyUMk 	 
     	  
                          mICILgDpdCTDSJqQAn06L 	 
     	  
@@ -2420,28 +3084,28 @@ uchar mjxPa00ei9qkuuQmiGB3C
                          mHcxzZHoWX11H4xEjR59T 	 
     	  
   mXyxJEKR2vQDAiXVkkZ96 	 
-_16997306281511543509  m_j6ZkbEfLCgUqtaolYTp 	 
- _6807153013350021978 muiDYQbmwLxL3PGrwWGeP 	 
+_14281707985483758147  m_j6ZkbEfLCgUqtaolYTp 	 
+ _12923587428288459517 muiDYQbmwLxL3PGrwWGeP 	 
     
                          mJkMyi0NbVRDgE__LMR_m 	
-                            _15600331839615309563 mFyKKLtdivGGDlk8sYzsf 	 
-_2654435889 mEFd2D2UDF9SIoPfQtUv6 	   mCm219F3DHVwNe_CsrCeK 	 
+                            _10102288860402729761 mFyKKLtdivGGDlk8sYzsf 	 
+_13303058356268144065 mEFd2D2UDF9SIoPfQtUv6 	   mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
-    _6807153013350021978 mINcNsH05D0QZDej9wl4h 	 
+    _12923587428288459517 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
      
 
-                            _3005399810190429368 mY2nz8M_6jpSxQZL8EYgU 	 _16997306281511543509 mbViqhyIcr6lGWibuo3Im 	 
+                            _17627748882047670830 mY2nz8M_6jpSxQZL8EYgU 	 _14281707985483758147 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
      
-  _6807153013350021978 mJTScPpWt8plE9Cz9fDU6 	 
+  _12923587428288459517 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
@@ -2458,15 +3122,15 @@ _2654435889 mEFd2D2UDF9SIoPfQtUv6 	   mCm219F3DHVwNe_CsrCeK
     	  
     		   
  
-                           _15600331839615309563 mZnfmoDANjVLDjZfzM5MR 	 
+                           _10102288860402729761 mZnfmoDANjVLDjZfzM5MR 	 
     	  
-    		_2654435889 mJtGCV8zXQjnVDVBVdvFZ 	 
+    		_13303058356268144065 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
    mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
-     _6807153013350021978 mriCvhMavpfheoLNc0eCD 	
+     _12923587428288459517 mriCvhMavpfheoLNc0eCD 	
                          mnSkEvR4SbDwQxj23xB1M 	 
     
                      maCQ9r5fSln_CXgRXGFvO 	 
@@ -2476,19 +3140,19 @@ _2654435889 mEFd2D2UDF9SIoPfQtUv6 	   mCm219F3DHVwNe_CsrCeK
     	  
     	
                          mikiSyOnVry6pvQ1Ds28H 	 
- _16997306281511543509 mHgo4JTEAdFhAHz3buc5U 	 
+ _14281707985483758147 mHgo4JTEAdFhAHz3buc5U 	 
  0 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
-   _15600331839615309563 mdF98bHO7yrxGJn0aQZVK 	 
+   _10102288860402729761 mdF98bHO7yrxGJn0aQZVK 	 
     	  
-    		   _2654435889 mo8MRbS3DUX_ZOlgmUSna 	 
+    		   _13303058356268144065 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
         mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
- _16997306281511543509 mriCvhMavpfheoLNc0eCD 	 
+ _14281707985483758147 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
      
@@ -2499,15 +3163,15 @@ _2654435889 mEFd2D2UDF9SIoPfQtUv6 	   mCm219F3DHVwNe_CsrCeK
      
      
  
-  	 _15600331839615309563 mTjppsgNpY1Pjyv5Z_zMr 	 
+  	 _10102288860402729761 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
-_2654435889 mrpQVzv6u8gxvho1qUlil 	 
+_13303058356268144065 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
      
        mKcKHr_bTagXAK_pf8btG 	 
-    	  _6807153013350021978 mJTScPpWt8plE9Cz9fDU6 	 
+    	  _12923587428288459517 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
@@ -2533,9 +3197,9 @@ _2654435889 mrpQVzv6u8gxvho1qUlil
      
      
  
-  	 _175247759426 mRwjoMr_aqph4iL4nu8NS 	 
+  	 _16232574195041797758 mRwjoMr_aqph4iL4nu8NS 	 
     	  
-    		   _3005399800893728364-1 - _3005399810190429368.size mwTQhkbVNQHd2Xw4EA4fj 	 
+    		   _2527482952837276942-1 - _17627748882047670830.size mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
      
@@ -2547,7 +3211,7 @@ _2654435889 mrpQVzv6u8gxvho1qUlil
     	  
     		   
      
-   _175247759426 mgAgf2KiVOzOHJDU4qKPI 	 
+   _16232574195041797758 mgAgf2KiVOzOHJDU4qKPI 	 
     	  
 2 mXAYJa6osZ6HNTIEEBnr0 	 
     	 
@@ -2558,11 +3222,11 @@ _2654435889 mrpQVzv6u8gxvho1qUlil
                  mXkfygpbRUCrOfJA4ktlP 	 
     	  
     		   
-     _175247759483  mel3l7ZRXwnAEsy0Wfxj_ 	 
-  _6807155497357683700.total mKpq3GwvJxRduE5RsGgGP 	 
- -_175247759483 msubWq7nTVSPilWqmTzkx 	 
+     _16232574195041799150  mel3l7ZRXwnAEsy0Wfxj_ 	 
+  _1198931547899984731.total mKpq3GwvJxRduE5RsGgGP 	 
+ -_16232574195041799150 msubWq7nTVSPilWqmTzkx 	 
     	  
-   _175247760278.class_id  mKcKHr_bTagXAK_pf8btG 	 
+   _16232574195069566594.class_id  mKcKHr_bTagXAK_pf8btG 	 
     	  
      0 mriCvhMavpfheoLNc0eCD 	 
     	  
@@ -2573,7 +3237,7 @@ _2654435889 mrpQVzv6u8gxvho1qUlil
     	  
     		   
      
- _175247760278.class_id  muQdV4OJL6V6gVxW6AdRy 	 1 mlqoNTA3LQoUJF6i5YDFc 	 
+ _16232574195069566594.class_id  muQdV4OJL6V6gVxW6AdRy 	 1 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
              mCvAz6nTbqhvwRULRgKe4 	 
@@ -2593,7 +3257,7 @@ _2654435889 mrpQVzv6u8gxvho1qUlil
      
      
  
-_175247759426  mYxohqgekcJ8HhaDZvWcX 	 
+_16232574195041797758  mYxohqgekcJ8HhaDZvWcX 	 
     	  
     2 mgkSwnYHQivQIpeAwgr20 	 
     	  
@@ -2602,7 +3266,7 @@ _175247759426  mYxohqgekcJ8HhaDZvWcX
     		   
      
      
-                _175247760278.class_id  mKcKHr_bTagXAK_pf8btG 	 
+                _16232574195069566594.class_id  mKcKHr_bTagXAK_pf8btG 	 
     	  
    2 mdmuaUz9iCkCckSUhcEv1 	 
     	  
@@ -2636,72 +3300,6 @@ _175247759426  mYxohqgekcJ8HhaDZvWcX
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 vector mYfYoOWdsOLTDCIBT7npX 	 
     	  
      MarkerDetector_Impl mdssZV6TB06aiisDwN1cX 	 
@@ -2713,21 +3311,21 @@ _11288135742209909849 mFsSEF_3_iD2mT6nZG9QR
     		   
      
     const cv mUCEzhGWrU8OYqcHVPlVW 	 
-    Mat  & _46082544221278757,  moI11mwtxiOXpqDxK_aQL 	 
+    Mat  & _17276638435886805939,  moI11mwtxiOXpqDxK_aQL 	 
     	  
     		   
      
-    _15719809291399335005, mG7mr0Iq8BCEeADSwrCoW 	 
+    _15830902196015336515, mG7mr0Iq8BCEeADSwrCoW 	 
     	  
-    		_15719809291399335002, mpHTdkvfapV5_Igrm_XSs 	 
+    		_15830902196015336516, mpHTdkvfapV5_Igrm_XSs 	 
     	  
     		   
      
      
- _16997330529774378067,cv mUCEzhGWrU8OYqcHVPlVW 	 
+ _11520114173644902406,cv mUCEzhGWrU8OYqcHVPlVW 	 
     	  
     		   
-     Mat &_17600033834179186607 mzf4ZxeZY8wF2XnrdYK61 	 
+     Mat &_451795507898897488 mzf4ZxeZY8wF2XnrdYK61 	 
     	 mJkMyi0NbVRDgE__LMR_m 	 
     	  
     		   
@@ -2740,13 +3338,13 @@ _11288135742209909849 mFsSEF_3_iD2mT6nZG9QR
     	  
     		   
      
-   _15719809291399335005  mYI2nkSxgJHf1pY1PttV1 	 
+   _15830902196015336515  mYI2nkSxgJHf1pY1PttV1 	 
     	  
     		   
      
      
  
-  	  3 mAnDeXfeHaujEzGBbrjil 	  _15719809291399335005  mCm219F3DHVwNe_CsrCeK 	 3 mftnbgRvzOIVyL93HyyWt 	 
+  	  3 mAnDeXfeHaujEzGBbrjil 	  _15830902196015336515  mCm219F3DHVwNe_CsrCeK 	 3 mftnbgRvzOIVyL93HyyWt 	 
 
      mv1ijGQAKacWqWAusY8nc 	 
  mRzhpvoeHZK7yCqqzYDDp 	 
@@ -2762,30 +3360,35 @@ _11288135742209909849 mFsSEF_3_iD2mT6nZG9QR
  
    mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-    int mAnDeXfeHaujEzGBbrjil 	 
+     mdEzmAkZNQkKD1HrLnSSo 	mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
      
      
  
-  	_15719809291399335005 mAnDeXfeHaujEzGBbrjil 	 
+  	_15830902196015336515 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   % 2  muOzaq9SXefX6wOasanyX 	 
     	  
    1 mmCJ670wA_VHgip7JZ1dW 	 
     	  
-  _15719809291399335005  mdKhcOUXVqyCMdccisL_a 	 
+  _15830902196015336515  mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
   mp3H4249LtCVDCYFqQqz4 	 
-  int mXAYJa6osZ6HNTIEEBnr0 	 
+   mdbRZP7cWFYlUcaGRMsKc 	 
+    	  
+    		   
+     
+     
+mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      
      
  
   	 mmmC9tOGiLK6UaJr0E5vz 	 
-_15719809291399335005 + 1 muiDYQbmwLxL3PGrwWGeP 	 
+_15830902196015336515 + 1 muiDYQbmwLxL3PGrwWGeP 	 
     	 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
@@ -2794,7 +3397,7 @@ _15719809291399335005 + 1 muiDYQbmwLxL3PGrwWGeP
 
      mG7mr0Iq8BCEeADSwrCoW 	 
     	  
-   _17998796047677165007 mif4ZCBkqdiqSYkR9AD0r 	 
+   _15680653421411319497 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
      
@@ -2805,16 +3408,16 @@ _15719809291399335005 + 1 muiDYQbmwLxL3PGrwWGeP
     cv mdssZV6TB06aiisDwN1cX 	 
     	  
     		   
-    Mat _16937291032236647976 mINcNsH05D0QZDej9wl4h 	 
+    Mat _17629472122771957618 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
     
     
-        _16937291032236647976 mu_nOcTFwUo8r0uNE351R 	 
+        _17629472122771957618 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
-     _17600033834179186607 mJTScPpWt8plE9Cz9fDU6 	 
+     _451795507898897488 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     	
      mvw_MKiY3S1FcVNfJQCRT 	 
@@ -2843,13 +3446,14 @@ threshold mSa4WnWih0z4lSo9RYUGU
     	  
     		   
      
-    _46082544221278757, _16937291032236647976, static_cast mYI2nkSxgJHf1pY1PttV1 	 
+    _17276638435886805939, _17629472122771957618, static_cast mYI2nkSxgJHf1pY1PttV1 	 
     	  
     		   
-  int mtJAThUzPUAnb_DMXiQOL 	 
+   moI11mwtxiOXpqDxK_aQL 	 
+  mtJAThUzPUAnb_DMXiQOL 	 
     	  
     mReDuVelSknxaDAoDEmwT 	 
-   _15719809291399335002 mmCJ670wA_VHgip7JZ1dW 	 
+   _15830902196015336516 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     ,255,THRESH_BINARY_INV mzf4ZxeZY8wF2XnrdYK61 	 
     	  
@@ -2868,7 +3472,7 @@ threshold mSa4WnWih0z4lSo9RYUGU
     		   
      
      
- _16997330529774378067 mgkSwnYHQivQIpeAwgr20 	 
+ _11520114173644902406 mgkSwnYHQivQIpeAwgr20 	 
     	  
     		  mnU2hwoI16_nZ7reLKJTr 	 
     	  
@@ -2879,17 +3483,20 @@ threshold mSa4WnWih0z4lSo9RYUGU
      
      
  
-  	 Mat _706246337333900 mriCvhMavpfheoLNc0eCD 	 
+  	 Mat _3257871146051445030 mriCvhMavpfheoLNc0eCD 	 
     	  
     		 
-               _17998796047677165007 mCm219F3DHVwNe_CsrCeK 	 
+               _15680653421411319497 mCm219F3DHVwNe_CsrCeK 	 
     	  
-int mSa4WnWih0z4lSo9RYUGU 	 
+ mdbRZP7cWFYlUcaGRMsKc 	 
+   mSa4WnWih0z4lSo9RYUGU 	 
     	  
     	std mfx1fLYDWN4YRZNnQEsJN 	 
     	  
-  max mp3H4249LtCVDCYFqQqz4 	3.0, 3./1920. * float mhORIPgMIfN3Fn8aCQBuU 	 
- _16937291032236647976.cols mycwFs63h7Mi3ggRkMEVm 	 
+  max mp3H4249LtCVDCYFqQqz4 	3.0, 3./1920. *  mlkEZnzYCXAgDnYDi5up3 	 
+    	  
+   mhORIPgMIfN3Fn8aCQBuU 	 
+ _17629472122771957618.cols mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
      
@@ -2908,12 +3515,12 @@ int mSa4WnWih0z4lSo9RYUGU
      
    
                 mwQUfI7G4pBH6IJQiBjmU 	 mtbP4KQJdh36UGELfV2zq 	 
-    	  _17998796047677165007%2 mgAgf2KiVOzOHJDU4qKPI 	 
+    	  _15680653421411319497%2 mgAgf2KiVOzOHJDU4qKPI 	 
     	  
     		   
   0 mgkSwnYHQivQIpeAwgr20 	 
     	  
- _17998796047677165007 mEZrtAN7pSZl5y4oEHd38 	 
+ _15680653421411319497 mEZrtAN7pSZl5y4oEHd38 	 
     	  
     		   
      
@@ -2930,18 +3537,18 @@ int mSa4WnWih0z4lSo9RYUGU
      
      
  
- _16937291032236647976,_706246337333900, getStructuringElement mFsSEF_3_iD2mT6nZG9QR 	 MORPH_CROSS,cv mpJt2kGThF7wb3VNzG38b 	 
+ _17629472122771957618,_3257871146051445030, getStructuringElement mFsSEF_3_iD2mT6nZG9QR 	 MORPH_CROSS,cv mpJt2kGThF7wb3VNzG38b 	 
     	  
     		   
  Size mFlVjO0mLpwnCN5a1Quio 	 
-    _17998796047677165007, _17998796047677165007  mzf4ZxeZY8wF2XnrdYK61 	 
+    _15680653421411319497, _15680653421411319497  mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
      ,cv mU808frSKQDZnEEU3Q3s9 	 
     	  
     	Point mp3H4249LtCVDCYFqQqz4 	 
-  _17998796047677165007/2,_17998796047677165007/2  mXAYJa6osZ6HNTIEEBnr0 	 
+  _15680653421411319497/2,_15680653421411319497/2  mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      
@@ -2961,7 +3568,7 @@ int mSa4WnWih0z4lSo9RYUGU
  
 
                cv maKLz6mCz5anFyVle_MtD 	bitwise_xor mFsSEF_3_iD2mT6nZG9QR 	 
-    	 _706246337333900,_16937291032236647976,_16937291032236647976 mzf4ZxeZY8wF2XnrdYK61 	 
+    	 _3257871146051445030,_17629472122771957618,_17629472122771957618 mzf4ZxeZY8wF2XnrdYK61 	 
      mINcNsH05D0QZDej9wl4h 	
 
              mICILgDpdCTDSJqQAn06L 	 
@@ -2983,19 +3590,28 @@ int mSa4WnWih0z4lSo9RYUGU
         cv mBBHVSlvDGP5NVUfEuhuf 	 
    adaptiveThreshold mp3H4249LtCVDCYFqQqz4 	 
     	  
-    	_46082544221278757, _16937291032236647976, 255., ADAPTIVE_THRESH_MEAN_C, THRESH_BINARY_INV, static_cast mca1GaR7Rv9qOZsisqKBB 	 
+    	_17276638435886805939, _17629472122771957618, 255., ADAPTIVE_THRESH_MEAN_C, THRESH_BINARY_INV, static_cast mca1GaR7Rv9qOZsisqKBB 	 
     	  
-    	int mW1YUos9eL_9NmgJuSDH7 	 
+    	 mihBlyb7pwidO496a5_p1 	 
+    	  
+    		   
+     
+     
+ mW1YUos9eL_9NmgJuSDH7 	 
     	  
     		   
     mtbP4KQJdh36UGELfV2zq 	 
-    	  _15719809291399335005 mlqM0snvYcrWCw2_QjhQi 	 
+    	  _15830902196015336515 mlqM0snvYcrWCw2_QjhQi 	 
     	  , static_cast mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
      
-int mBpPKNB5wfuTOV223BA2r 	 
+ meWm4MhzbcJwavtoh469w 	 
+    	  
+    		   
+     
+    mBpPKNB5wfuTOV223BA2r 	 
     	  
     		   
      
@@ -3003,7 +3619,7 @@ int mBpPKNB5wfuTOV223BA2r
  
   mhxtTU7dvZHXCTSg8B8rx 	 
     	  
-_15719809291399335002 mmCJ670wA_VHgip7JZ1dW 	 
+_15830902196015336516 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		  mzf4ZxeZY8wF2XnrdYK61 	 
     	  
@@ -3012,10 +3628,10 @@ _15719809291399335002 mmCJ670wA_VHgip7JZ1dW
     		   
      
 
-        _17998796047677165007 ma6VjqdfajK4BX9gkoGiD 	 
+        _15680653421411319497 ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
- _15719809291399335005 mPdHdcAZ6XJhwf8wLtULI 	 
+ _15830902196015336515 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
    
@@ -3028,7 +3644,6 @@ _15719809291399335002 mmCJ670wA_VHgip7JZ1dW
 
 
 
-
     vector mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
@@ -3037,7 +3652,7 @@ _15719809291399335002 mmCJ670wA_VHgip7JZ1dW
     	  
     		   
      
- _11306931217450568291 mVOlbMaOu1U0SC2oeKIzP 	 
+ _6528263073538749848 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
@@ -3045,11 +3660,11 @@ _15719809291399335002 mmCJ670wA_VHgip7JZ1dW
     
          mdbRZP7cWFYlUcaGRMsKc 	 
     	  
-    		   _6742388718193383494 mCm219F3DHVwNe_CsrCeK 	 
+    		   _3622495794621911996 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
-    int miAECMSxGwjxrcOKk0DII 	  3.5*float mtbP4KQJdh36UGELfV2zq 	 
+     mihBlyb7pwidO496a5_p1 	miAECMSxGwjxrcOKk0DII 	  3.5*float mtbP4KQJdh36UGELfV2zq 	 
 _18062104616271777338.lowResMarkerSize mmCJ670wA_VHgip7JZ1dW 	 
     	  
  msubWq7nTVSPilWqmTzkx 	 
@@ -3068,7 +3683,7 @@ _18062104616271777338.lowResMarkerSize mmCJ670wA_VHgip7JZ1dW
      cv mYGfQUZmV9IjKAPVrLhZl 	 
     	  
     	Vec4i mW1YUos9eL_9NmgJuSDH7 	 
-  _15583125646515563527 mVOlbMaOu1U0SC2oeKIzP 	 
+  _10376581494285192551 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
@@ -3097,7 +3712,7 @@ _18062104616271777338.lowResMarkerSize mmCJ670wA_VHgip7JZ1dW
      
  
   	Point mIqkiLoOdpjYrPavNSkO3 	 
-    	 _16940362843683299562 mriCvhMavpfheoLNc0eCD 	 
+    	 _10998538416191004035 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
     
@@ -3106,7 +3721,7 @@ _18062104616271777338.lowResMarkerSize mmCJ670wA_VHgip7JZ1dW
     		   
      
  findContours mtbP4KQJdh36UGELfV2zq 	 
- _17600033834179186607, _16940362843683299562, cv mpJt2kGThF7wb3VNzG38b 	 
+ _451795507898897488, _10998538416191004035, cv mpJt2kGThF7wb3VNzG38b 	 
  noArray maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		   
@@ -3122,10 +3737,9 @@ _18062104616271777338.lowResMarkerSize mmCJ670wA_VHgip7JZ1dW
     	  
     		   
      
-      _18431075518103406877 mINcNsH05D0QZDej9wl4h 	 
+      _18125075577596139249 mINcNsH05D0QZDej9wl4h 	 
     	  
     	
-
 #ifdef _aruco_debug_detectrectangles
      cv mfx1fLYDWN4YRZNnQEsJN 	 
     	  
@@ -3162,7 +3776,7 @@ cvtColor mhxtTU7dvZHXCTSg8B8rx
     		 mhxtTU7dvZHXCTSg8B8rx 	 
     	 unsigned  mP8l6554fUQhsCw2PetD2 	 
     	  
-    		_2654435874  mRwjoMr_aqph4iL4nu8NS 	 
+    		_13303058356268144138  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
@@ -3171,11 +3785,11 @@ cvtColor mhxtTU7dvZHXCTSg8B8rx
   	 0 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
-   _2654435874  mYfYoOWdsOLTDCIBT7npX 	 
+   _13303058356268144138  mYfYoOWdsOLTDCIBT7npX 	 
     	  
     		   
      
- _16940362843683299562.size mbHCSQc_uaLNP9Sf4Lz_n 	 
+ _10998538416191004035.size mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
      mhGXMe8LHJXydR9dMisHj 	 
     	  
@@ -3183,7 +3797,7 @@ cvtColor mhxtTU7dvZHXCTSg8B8rx
      
      
  
-   _2654435874 mcstdE8Wwpam6tUMM45Sa 	 
+   _13303058356268144138 mcstdE8Wwpam6tUMM45Sa 	 
     	  
     		   
      
@@ -3220,12 +3834,18 @@ cvtColor mhxtTU7dvZHXCTSg8B8rx
      
       mFlVjO0mLpwnCN5a1Quio 	 
     	  
-    		_6742388718193383494  mK5OxIt23gZzSiTA8trU8 	 
+    		_3622495794621911996  mK5OxIt23gZzSiTA8trU8 	 
     	  
-   int mSa4WnWih0z4lSo9RYUGU 	 
-    _16940362843683299562 mY2nz8M_6jpSxQZL8EYgU 	 
+    meWm4MhzbcJwavtoh469w 	 
     	  
-  _2654435874 mrpQVzv6u8gxvho1qUlil 	 
+    		   
+     
+     
+ 
+  mSa4WnWih0z4lSo9RYUGU 	 
+    _10998538416191004035 mY2nz8M_6jpSxQZL8EYgU 	 
+    	  
+  _13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
      
@@ -3252,24 +3872,35 @@ cvtColor mhxtTU7dvZHXCTSg8B8rx
             cv mEMN2sRTwHcTUl7SNSw0d 	 
  approxPolyDP mFlVjO0mLpwnCN5a1Quio 	 
     	  
-  _16940362843683299562 mTjppsgNpY1Pjyv5Z_zMr 	 
+  _10998538416191004035 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
-  _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
-    	  
-    		   
-     
-   , _18431075518103406877, double mhxtTU7dvZHXCTSg8B8rx 	 
+  _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
      
-    _16940362843683299562 mNDJrNgMXB1tBoFNaJO0d 	 
-    	  
-    		   
-  _2654435874 mIkhxhgSNMt_JUZR7ce1U 	.size maHkatHu0Jap4oTaT5q4_ 	 
+   , _18125075577596139249,  mSBH4REv5nn8iXIXWLqFa 	 
     	  
     		   
      
-    msubWq7nTVSPilWqmTzkx 	 * 0.05, true mlqM0snvYcrWCw2_QjhQi 	 
+     
+ 
+mhxtTU7dvZHXCTSg8B8rx 	 
+    	  
+    		   
+     
+    _10998538416191004035 mNDJrNgMXB1tBoFNaJO0d 	 
+    	  
+    		   
+  _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	.size maHkatHu0Jap4oTaT5q4_ 	 
+    	  
+    		   
+     
+    msubWq7nTVSPilWqmTzkx 	 * 0.05,  mj7rzLUFNjZZ8TQ9LzphN 	 
+    	  
+    		   
+     
+     
+mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
      
@@ -3280,7 +3911,7 @@ cvtColor mhxtTU7dvZHXCTSg8B8rx
              mabeHDqoCFUg5Mty5oLni 	 
     	  
     mSa4WnWih0z4lSo9RYUGU 	 
-   _18431075518103406877.size mdWkXjuaPd4Se0r0SdY1e 	 
+   _18125075577596139249.size mdWkXjuaPd4Se0r0SdY1e 	 
     	  
     		   
      
@@ -3295,7 +3926,7 @@ cvtColor mhxtTU7dvZHXCTSg8B8rx
      
      
  
-  _18431075518103406877 mhyL_M5gnmQzwyHW45MdA 	 
+  _18125075577596139249 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
@@ -3319,14 +3950,20 @@ cvtColor mhxtTU7dvZHXCTSg8B8rx
                  mglDNKH5ah89GptW6H4Cu 	 
     	  
     		   
-_6807036689763440555  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN 	 
+_9594576219500337594  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN 	 
     	  
     		   
      
      
  
   	numeric_limits mlP1m6taP4mQVYA_j8Oxe 	 
-  float mjxPa00ei9qkuuQmiGB3C 	 
+   mnqZGwZqTTi1dekKxujAE 	 
+    	  
+    		   
+     
+     
+ 
+  	 mjxPa00ei9qkuuQmiGB3C 	 
     	  
    mYGfQUZmV9IjKAPVrLhZl 	max mdWkXjuaPd4Se0r0SdY1e 	 
     	  
@@ -3342,11 +3979,12 @@ _6807036689763440555  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN
     		   
      
       mp3H4249LtCVDCYFqQqz4 	 
-  int _2654435875  mif4ZCBkqdiqSYkR9AD0r 	 
-    	  0 mPdHdcAZ6XJhwf8wLtULI 	  _2654435875  mYfYoOWdsOLTDCIBT7npX 	 
+   mdbRZP7cWFYlUcaGRMsKc 	 
+_13303058356268144139  mif4ZCBkqdiqSYkR9AD0r 	 
+    	  0 mPdHdcAZ6XJhwf8wLtULI 	  _13303058356268144139  mYfYoOWdsOLTDCIBT7npX 	 
     	  
     		   
- 4 mJTScPpWt8plE9Cz9fDU6 	 _2654435875 mBh4lc09qKYGXyU7FeqOv 	 
+ 4 mJTScPpWt8plE9Cz9fDU6 	 _13303058356268144139 mBh4lc09qKYGXyU7FeqOv 	 
     	  
  mycwFs63h7Mi3ggRkMEVm 	 
     	  
@@ -3358,7 +3996,7 @@ _6807036689763440555  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN
     
                      mglDNKH5ah89GptW6H4Cu 	 
     	  
-    _2654435869  mif4ZCBkqdiqSYkR9AD0r 	 
+    _13303058356268144198  mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		 cv mYGfQUZmV9IjKAPVrLhZl 	 
     	  
@@ -3372,12 +4010,12 @@ _6807036689763440555  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN
      
      
  
-  	_18431075518103406877 mZnfmoDANjVLDjZfzM5MR 	 
+  	_18125075577596139249 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
-    _2654435875 mrpQVzv6u8gxvho1qUlil 	 
+    _13303058356268144139 mrpQVzv6u8gxvho1qUlil 	 
     	  
- -_18431075518103406877 mNDJrNgMXB1tBoFNaJO0d 	 
+ -_18125075577596139249 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
     		   
      
@@ -3389,7 +4027,7 @@ _6807036689763440555  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN
      
      
  
-  _2654435875 + 1 mzf4ZxeZY8wF2XnrdYK61 	 
+  _13303058356268144139 + 1 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
       % 4 mrpQVzv6u8gxvho1qUlil 	 
@@ -3408,22 +4046,22 @@ _6807036689763440555  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN
      
      
  
- _2654435869  mW1ds9XwNwevT5B2b3j8B 	 
+ _13303058356268144198  mW1ds9XwNwevT5B2b3j8B 	 
     	  
-   _6807036689763440555 mAnDeXfeHaujEzGBbrjil 	 
-    	  
-    		   
-    _6807036689763440555  mif4ZCBkqdiqSYkR9AD0r 	 
+   _9594576219500337594 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
-     _2654435869 mriCvhMavpfheoLNc0eCD 	 
+    _9594576219500337594  mif4ZCBkqdiqSYkR9AD0r 	 
+    	  
+    		   
+     _13303058356268144198 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
                  mbYMUxVFybbviIFqRhN2f 	 
     	  
 
                     
-                    _11306931217450568291.push_back mhxtTU7dvZHXCTSg8B8rx 	 
+                    _6528263073538749848.push_back mhxtTU7dvZHXCTSg8B8rx 	 
  MarkerCandidate mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
@@ -3441,23 +4079,26 @@ _6807036689763440555  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN
     	  
     	 mReDuVelSknxaDAoDEmwT 	 
     	  
-   int _2654435875  ma6VjqdfajK4BX9gkoGiD 	 
+    mG7mr0Iq8BCEeADSwrCoW 	 
+    	 _13303058356268144139  ma6VjqdfajK4BX9gkoGiD 	 
     	  
    0 mlqoNTA3LQoUJF6i5YDFc 	 
-     _2654435875  mca1GaR7Rv9qOZsisqKBB 	 
+     _13303058356268144139  mca1GaR7Rv9qOZsisqKBB 	 
     	  
     		   
    4 mINcNsH05D0QZDej9wl4h 	 
-    	  _2654435875 mBh4lc09qKYGXyU7FeqOv 	 
+    	  _13303058356268144139 mBh4lc09qKYGXyU7FeqOv 	 
  mgkSwnYHQivQIpeAwgr20 	 
   
-                        _11306931217450568291.back mKpq3GwvJxRduE5RsGgGP 	 
+                        _6528263073538749848.back mKpq3GwvJxRduE5RsGgGP 	 
     	  
   .push_back miAECMSxGwjxrcOKk0DII 	 
     Point2f mhxtTU7dvZHXCTSg8B8rx 	 
  static_cast mYfYoOWdsOLTDCIBT7npX 	 
     	  
-    	float mE4_Vrik0lveh4HNJUk1B 	 
+    	 maOczvhF_v9OTsK70ZZut 	 
+    	  
+    		 mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		   
      miAECMSxGwjxrcOKk0DII 	 
@@ -3466,23 +4107,26 @@ _6807036689763440555  mRwjoMr_aqph4iL4nu8NS 	 std mfx1fLYDWN4YRZNnQEsJN
      
      
  
-_18431075518103406877 mTjppsgNpY1Pjyv5Z_zMr 	 
+_18125075577596139249 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
-    	_2654435875 mo8MRbS3DUX_ZOlgmUSna 	 
+    	_13303058356268144139 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     	.x mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		,static_cast mYfYoOWdsOLTDCIBT7npX 	 
     	  
- float m_j6ZkbEfLCgUqtaolYTp 	 
+  mnqZGwZqTTi1dekKxujAE 	 
+    	  
+    		   
+  m_j6ZkbEfLCgUqtaolYTp 	 
     	  
     		   
    mReDuVelSknxaDAoDEmwT 	 
     	  
     		   
      
-_18431075518103406877 mA4oXllup8K3T5dxkluRR 	 
-  _2654435875 mEFd2D2UDF9SIoPfQtUv6 	 .y mycwFs63h7Mi3ggRkMEVm 	 
+_18125075577596139249 mA4oXllup8K3T5dxkluRR 	 
+  _13303058356268144139 mEFd2D2UDF9SIoPfQtUv6 	 .y mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
      
@@ -3503,7 +4147,7 @@ _18431075518103406877 mA4oXllup8K3T5dxkluRR
     		   
      
      
- _16997330529774378067 mlqM0snvYcrWCw2_QjhQi 	 
+ _11520114173644902406 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
       mT_x8cqp5t43PgqNMR8gO 	 
@@ -3512,12 +4156,13 @@ _18431075518103406877 mA4oXllup8K3T5dxkluRR
     	  
     		   
      
-   _11306931217450568291.back maHkatHu0Jap4oTaT5q4_ 	 
+   _6528263073538749848.back maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		   
-     ,float mFlVjO0mLpwnCN5a1Quio 	 
+     , mWokjWH0MHqyBOx4j0Oac 	 
+    	  mFlVjO0mLpwnCN5a1Quio 	 
     	  
-    		 _17998796047677165007 mycwFs63h7Mi3ggRkMEVm 	 
+    		 _15680653421411319497 mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
      
@@ -3544,7 +4189,11 @@ simage,Scalar mmmC9tOGiLK6UaJr0E5vz
     	  
     		   
 255, 255, 0 muiDYQbmwLxL3PGrwWGeP 	 
-    	,1,false mycwFs63h7Mi3ggRkMEVm 	 
+    	,1, mEzFcmvX0IX3FOucgCcVF 	 
+    	  
+    		   
+     
+mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
    mlqoNTA3LQoUJF6i5YDFc 	 
@@ -3553,12 +4202,12 @@ simage,Scalar mmmC9tOGiLK6UaJr0E5vz
      
  
 #endif
-                    _11306931217450568291.back mwTQhkbVNQHd2Xw4EA4fj 	 
+                    _6528263073538749848.back mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
  .contourPoints mKcKHr_bTagXAK_pf8btG 	 
     	  
-    	_16940362843683299562 mGYpOkNIG_qSvYXBOU9Vf 	 
-  _2654435874 mEFd2D2UDF9SIoPfQtUv6 	 
+    	_10998538416191004035 mGYpOkNIG_qSvYXBOU9Vf 	 
+  _13303058356268144138 mEFd2D2UDF9SIoPfQtUv6 	 
     	  
     		    mftnbgRvzOIVyL93HyyWt 	 
     	  
@@ -3591,7 +4240,7 @@ simage,Scalar mmmC9tOGiLK6UaJr0E5vz
 imshow miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
-  "\x63\x6f\x6e\x74\x6f\x75\x72\x73",simage mzf4ZxeZY8wF2XnrdYK61 	 
+  "\x5c\x78\x36\x33\x5c\x78\x36\x66\x5c\x78\x36\x65\x5c\x78\x37\x34\x5c\x78\x36\x66\x5c\x78\x37\x35\x5c\x78\x37\x32\x5c\x78\x37\x33",simage mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		 mhGXMe8LHJXydR9dMisHj 	 
     	  
@@ -3602,7 +4251,7 @@ imshow miAECMSxGwjxrcOKk0DII
      
      
  
-  	_11306931217450568291 mftnbgRvzOIVyL93HyyWt 	 
+  	_6528263073538749848 mftnbgRvzOIVyL93HyyWt 	 
  
  mICILgDpdCTDSJqQAn06L 	 
     	  
@@ -3625,7 +4274,9 @@ imshow miAECMSxGwjxrcOKk0DII
     		   
      
      
- true mmCJ670wA_VHgip7JZ1dW 	 
+  m_lICnZ0bJGmuMACmMVcA 	 
+    	  
+    		  mmCJ670wA_VHgip7JZ1dW 	 
     	  
   mT_x8cqp5t43PgqNMR8gO 	 
     	  
@@ -3637,18 +4288,24 @@ imshow miAECMSxGwjxrcOKk0DII
      
      
  
-  _16997330529774378067 mdKhcOUXVqyCMdccisL_a 	 
+  _11520114173644902406 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
-    false mhGXMe8LHJXydR9dMisHj 	 
+     mHbmZNNhradVwUtDZ5U7B 	 
+    	  
+    		   
+     
+     
+ 
+  	mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
          m_6hetAMDOSYN9CmiL4W7 	 
     	  
     		   
      
-     _11093822376775 muQdV4OJL6V6gVxW6AdRy 	 
+     _5268611907606565765 muQdV4OJL6V6gVxW6AdRy 	 
     	  
    _16684997543815802068._3970747861761939044 maHkatHu0Jap4oTaT5q4_ 	 
     	  
@@ -3663,13 +4320,14 @@ imshow miAECMSxGwjxrcOKk0DII
     	  
     		   
      
-  _11093822376775._1012033135676957631 mRuVXNtG32xpaNLi1hDLk 	 
+  _5268611907606565765._1012033135676957631 mRuVXNtG32xpaNLi1hDLk 	 
     EXIT_TASK mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
      
      
-  return mJTScPpWt8plE9Cz9fDU6 	 
+   mTAavMivNX5WuUrRQXoEf 	 
+    	mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
 
@@ -3682,20 +4340,26 @@ imshow miAECMSxGwjxrcOKk0DII
      
      miAECMSxGwjxrcOKk0DII 	 
     	  
-    _11093822376775._1012033135676957631 mtPtbM6hNfOIkqlx661ci 	 
+    _5268611907606565765._1012033135676957631 mtPtbM6hNfOIkqlx661ci 	 
     	  
     		   
      
 ENCLOSE_TASK mAnDeXfeHaujEzGBbrjil 	 
     	  
-    		  _16997330529774378067 mM3tRrWbRPqPOU3G4ShKT 	 
+    		  _11520114173644902406 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
-  true mhGXMe8LHJXydR9dMisHj 	 
+   mrRUZLmQTdeC3HO0hVmGH 	 
+    	  
+    		   
+     
+     
+ 
+  mhGXMe8LHJXydR9dMisHj 	 
     	  
     	
         _8381292230366782771 mY2nz8M_6jpSxQZL8EYgU 	 
-_11093822376775._13074680784567168978 mrpQVzv6u8gxvho1qUlil 	 
+_5268611907606565765._13074680784567168978 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
    mM3tRrWbRPqPOU3G4ShKT 	 
@@ -3708,10 +4372,10 @@ _11093822376775._13074680784567168978 mrpQVzv6u8gxvho1qUlil
   	_16594497104544919971 mGYpOkNIG_qSvYXBOU9Vf 	 
     	  
     		   
-     _11093822376775._9830224992155182763 msdqcdg5NNrdQnc_PT1Ee 	 
+     _5268611907606565765._9830224992155182763 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
-    		,_11093822376775._13074680779112612408,_11093822376775._13074680779112612409,_16997330529774378067,_16594497104544919971 mTjppsgNpY1Pjyv5Z_zMr 	 
-   _11093822376775._13074680784567168978 mo8MRbS3DUX_ZOlgmUSna 	 
+    		,_5268611907606565765._13074680779112612408,_5268611907606565765._13074680779112612409,_11520114173644902406,_16594497104544919971 mTjppsgNpY1Pjyv5Z_zMr 	 
+   _5268611907606565765._13074680784567168978 mo8MRbS3DUX_ZOlgmUSna 	 
     muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		  mVOlbMaOu1U0SC2oeKIzP 	 
@@ -3753,7 +4417,7 @@ const cv mU808frSKQDZnEEU3Q3s9
      
      
  
-  Mat &_46082544231248938  mAnDeXfeHaujEzGBbrjil 	 
+  Mat &_17276674595339161488  mAnDeXfeHaujEzGBbrjil 	 
     	  mDzQQrEx5Ki0C6uDHU2cy 	 
     	  
     		   
@@ -3764,7 +4428,7 @@ const cv mU808frSKQDZnEEU3Q3s9
 
      meWm4MhzbcJwavtoh469w 	 
     	  
-    		  _11147051983207094876 muQdV4OJL6V6gVxW6AdRy 	 
+    		  _11129164959907732555 muQdV4OJL6V6gVxW6AdRy 	 
     	  
 _18062104616271777338.AdaptiveThresWindowSize mftnbgRvzOIVyL93HyyWt 	 
     	  
@@ -3783,7 +4447,8 @@ _18062104616271777338.AdaptiveThresWindowSize mZVOYp2JAGvUM7UPbzd3Q
  
   	 -1 msubWq7nTVSPilWqmTzkx 	 
   
-        _11147051983207094876 mRwjoMr_aqph4iL4nu8NS 	 max mFlVjO0mLpwnCN5a1Quio 	int mhORIPgMIfN3Fn8aCQBuU 	 
+        _11129164959907732555 mRwjoMr_aqph4iL4nu8NS 	 max mFlVjO0mLpwnCN5a1Quio 	 mSD7jHYN8mOif4_CBtIg6 	 
+   mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		   
      
@@ -3792,10 +4457,10 @@ _18062104616271777338.AdaptiveThresWindowSize mZVOYp2JAGvUM7UPbzd3Q
  3 mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
-  ,int mFsSEF_3_iD2mT6nZG9QR 	 
+  , mSD7jHYN8mOif4_CBtIg6 	 mFsSEF_3_iD2mT6nZG9QR 	 
     	15*float mp3H4249LtCVDCYFqQqz4 	 
     	  
-    		_46082544231248938.cols mycwFs63h7Mi3ggRkMEVm 	 
+    		_17276674595339161488.cols mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
      
@@ -3808,12 +4473,12 @@ _18062104616271777338.AdaptiveThresWindowSize mZVOYp2JAGvUM7UPbzd3Q
    
      mikiSyOnVry6pvQ1Ds28H 	 
     	  
-    		 _11147051983207094876%2 mHOvg7vOJH6ujsVsg3S5G 	 
+    		 _11129164959907732555%2 mHOvg7vOJH6ujsVsg3S5G 	 
     	  
     		   
      
      
- 0 mhyL_M5gnmQzwyHW45MdA 	 _11147051983207094876 mkGHGzUDDVqHIjIdYGe6S 	 
+ 0 mhyL_M5gnmQzwyHW45MdA 	 _11129164959907732555 mkGHGzUDDVqHIjIdYGe6S 	 
     	  
     		   
      
@@ -3824,23 +4489,33 @@ _18062104616271777338.AdaptiveThresWindowSize mZVOYp2JAGvUM7UPbzd3Q
 
     vector mHkLXuUOlyX2vZI7w3FQj 	 
     	  
-   int mE4_Vrik0lveh4HNJUk1B 	 
+    mG7mr0Iq8BCEeADSwrCoW 	 
+    	  
+    		   
+mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		   
      
      
  
-   _1527339209974467267 mhGXMe8LHJXydR9dMisHj 	 
+   _17256916070189102836 mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
  
      mNMDyj9J1Nt8auTKwp8ze 	 
    mReDuVelSknxaDAoDEmwT 	 
-  int _2654435874  myJHqW7fkn_72nVEhKeZ6 	 
+   moI11mwtxiOXpqDxK_aQL 	 
+    	  
+    		   
+     
+     
+ 
+  	_13303058356268144138  myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
  static_cast mHkLXuUOlyX2vZI7w3FQj 	 
-    int mel3l7ZRXwnAEsy0Wfxj_ 	 
+     mG7mr0Iq8BCEeADSwrCoW 	 
+   mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
     		   
   mFsSEF_3_iD2mT6nZG9QR 	 
@@ -3853,48 +4528,48 @@ _18062104616271777338.AdaptiveThresWindowSize mZVOYp2JAGvUM7UPbzd3Q
      
      
  max mFlVjO0mLpwnCN5a1Quio 	 
-   3., _11147051983207094876- 2. * _18062104616271777338.AdaptiveThresWindowSize_range mycwFs63h7Mi3ggRkMEVm 	 
+   3., _11129164959907732555- 2. * _18062104616271777338.AdaptiveThresWindowSize_range mycwFs63h7Mi3ggRkMEVm 	 
    mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
       mhGXMe8LHJXydR9dMisHj 	 
     	  
-     _2654435874  mgSkXUgcRjYGUB2o3shqJ 	 
+     _13303058356268144138  mgSkXUgcRjYGUB2o3shqJ 	 
     	  
     		   
      
      
- _11147051983207094876 + 2 * _18062104616271777338.AdaptiveThresWindowSize_range mriCvhMavpfheoLNc0eCD 	 
+ _11129164959907732555 + 2 * _18062104616271777338.AdaptiveThresWindowSize_range mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
-  _2654435874  msMfR3R5kzP8SqAQ3DWTq 	 
+  _13303058356268144138  msMfR3R5kzP8SqAQ3DWTq 	 
     	  
     		   
      
   2 mAnDeXfeHaujEzGBbrjil 	 
 
-        _1527339209974467267.push_back mp3H4249LtCVDCYFqQqz4 	 
+        _17256916070189102836.push_back mp3H4249LtCVDCYFqQqz4 	 
     	  
     		   
-   _2654435874 msubWq7nTVSPilWqmTzkx 	 
+   _13303058356268144138 msubWq7nTVSPilWqmTzkx 	 
  mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		
 
-    size_t _6807035131347860770 mCm219F3DHVwNe_CsrCeK 	 
+    size_t _11244054752219786216 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
      
  
-_1527339209974467267.size mdWkXjuaPd4Se0r0SdY1e 	 
+_17256916070189102836.size mdWkXjuaPd4Se0r0SdY1e 	 
     	  
  mdmuaUz9iCkCckSUhcEv1 	 
     	  
  
     _11754215234869264027 mu_nOcTFwUo8r0uNE351R 	 
     	  
-    	_1527339209974467267.back mbHCSQc_uaLNP9Sf4Lz_n 	 
+    	_17256916070189102836.back mbHCSQc_uaLNP9Sf4Lz_n 	 
     	 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
@@ -3903,7 +4578,7 @@ _1527339209974467267.size mdWkXjuaPd4Se0r0SdY1e
     _8381292230366782771.resize mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
-_6807035131347860770 muiDYQbmwLxL3PGrwWGeP 	 
+_11244054752219786216 muiDYQbmwLxL3PGrwWGeP 	 
     	  
  mPdHdcAZ6XJhwf8wLtULI 	 
     	  
@@ -3914,14 +4589,14 @@ _6807035131347860770 muiDYQbmwLxL3PGrwWGeP
 
     _16594497104544919971.resize mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-    	_6807035131347860770+1 mlqM0snvYcrWCw2_QjhQi 	 
+    	_11244054752219786216+1 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		    mlqoNTA3LQoUJF6i5YDFc 	 
  
     _16594497104544919971.back maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		 myJHqW7fkn_72nVEhKeZ6 	 
-    	  _46082544231248938 mPdHdcAZ6XJhwf8wLtULI 	 
+    	  _17276674595339161488 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
@@ -3929,18 +4604,18 @@ _6807035131347860770 muiDYQbmwLxL3PGrwWGeP
  
   
     
-    _15785113844694797795 _11093822376775 mdmuaUz9iCkCckSUhcEv1 	 
+    _15785113844694797795 _5268611907606565765 mdmuaUz9iCkCckSUhcEv1 	 
     vector mK5OxIt23gZzSiTA8trU8 	 
     	_15785113844694797795 mEc9zv3P8LW8haIvtztwe 	 
     	  
     		   
      
      
-  _706246342957907 mdmuaUz9iCkCckSUhcEv1 	 
+  _3175889863520737153 mdmuaUz9iCkCckSUhcEv1 	 
 
 
 
-    ThreadTasks _706246330530095 mCm219F3DHVwNe_CsrCeK 	 
+    ThreadTasks _3176948232912920464 mCm219F3DHVwNe_CsrCeK 	 
     	  
   THRESHOLD_TASK mINcNsH05D0QZDej9wl4h 	 
     	  
@@ -3960,7 +4635,7 @@ _6807035131347860770 muiDYQbmwLxL3PGrwWGeP
      
      
  
-  _706246330530095 mdKhcOUXVqyCMdccisL_a 	 
+  _3176948232912920464 mdKhcOUXVqyCMdccisL_a 	 
     	 ENCLOSE_TASK mhGXMe8LHJXydR9dMisHj 	
      mNMDyj9J1Nt8auTKwp8ze 	 
     	  
@@ -3973,19 +4648,19 @@ _6807035131347860770 muiDYQbmwLxL3PGrwWGeP
      
      
  
-  	size_t _2654435874  ma6VjqdfajK4BX9gkoGiD 	 
+  	size_t _13303058356268144138  ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
   0 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
-      _2654435874  mca1GaR7Rv9qOZsisqKBB 	 
+      _13303058356268144138  mca1GaR7Rv9qOZsisqKBB 	 
     	  
     		   
      
-  _1527339209974467267.size mFwk30320retpLBiICndp 	 
+  _17256916070189102836.size mFwk30320retpLBiICndp 	 
     	  
-    	 mriCvhMavpfheoLNc0eCD 	  _2654435874 mt0bWs8kxCzTnBdtR9vKu 	 
+    	 mriCvhMavpfheoLNc0eCD 	  _13303058356268144138 mt0bWs8kxCzTnBdtR9vKu 	 
    mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
@@ -3993,20 +4668,24 @@ _6807035131347860770 muiDYQbmwLxL3PGrwWGeP
      
  
   mDzQQrEx5Ki0C6uDHU2cy 	
-        _11093822376775._9830224992155182763 mif4ZCBkqdiqSYkR9AD0r 	int mhORIPgMIfN3Fn8aCQBuU 	_16594497104544919971.size mzeHK1hG1SYQMISNMWMB8 	 
+        _5268611907606565765._9830224992155182763 mif4ZCBkqdiqSYkR9AD0r 	 mSD7jHYN8mOif4_CBtIg6 	 
+    	  
+    		   
+     
+mhORIPgMIfN3Fn8aCQBuU 	_16594497104544919971.size mzeHK1hG1SYQMISNMWMB8 	 
     	  
     		   
      
   -1 mlqM0snvYcrWCw2_QjhQi 	 
     	 mINcNsH05D0QZDej9wl4h 	 
     	 
-        _11093822376775._13074680779112612408 mRwjoMr_aqph4iL4nu8NS 	 
+        _5268611907606565765._13074680779112612408 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
      
  
-  	_1527339209974467267 mdF98bHO7yrxGJn0aQZVK 	_2654435874 mrpQVzv6u8gxvho1qUlil 	 
+  	_17256916070189102836 mdF98bHO7yrxGJn0aQZVK 	_13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
      
@@ -4016,27 +4695,27 @@ _6807035131347860770 muiDYQbmwLxL3PGrwWGeP
     	  
     		   
 
-        _11093822376775._13074680779112612409 mdKhcOUXVqyCMdccisL_a 	 
+        _5268611907606565765._13074680779112612409 mdKhcOUXVqyCMdccisL_a 	 
    _18062104616271777338.ThresHold mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
    
-        _11093822376775._13074680784567168978 ma6VjqdfajK4BX9gkoGiD 	 
+        _5268611907606565765._13074680784567168978 ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
      
      
  
- _2654435874 mJTScPpWt8plE9Cz9fDU6 	 
+ _13303058356268144138 mJTScPpWt8plE9Cz9fDU6 	 
     	  
-        _11093822376775._1012033135676957631 mM3tRrWbRPqPOU3G4ShKT 	 
+        _5268611907606565765._1012033135676957631 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
-_706246330530095 mdmuaUz9iCkCckSUhcEv1 	 
+_3176948232912920464 mdmuaUz9iCkCckSUhcEv1 	 
     	  
    
-        _16684997543815802068._16400045516394125907 mhxtTU7dvZHXCTSg8B8rx 	_11093822376775 mAnDeXfeHaujEzGBbrjil 	 
+        _16684997543815802068._16400045516394125907 mhxtTU7dvZHXCTSg8B8rx 	_5268611907606565765 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
      
@@ -4046,7 +4725,7 @@ _706246330530095 mdmuaUz9iCkCckSUhcEv1
     	  
     		   
 
-        _706246342957907.push_back mReDuVelSknxaDAoDEmwT 	_11093822376775 mlqM0snvYcrWCw2_QjhQi 	 
+        _3175889863520737153.push_back mReDuVelSknxaDAoDEmwT 	_5268611907606565765 mlqM0snvYcrWCw2_QjhQi 	 
      mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		
@@ -4064,17 +4743,17 @@ _706246330530095 mdmuaUz9iCkCckSUhcEv1
     	  
     		   
      
-    size_t _2654435874 mif4ZCBkqdiqSYkR9AD0r 	 
+    size_t _13303058356268144138 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
  0 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
-    	_2654435874 mca1GaR7Rv9qOZsisqKBB 	 
+    	_13303058356268144138 mca1GaR7Rv9qOZsisqKBB 	 
     	  
-    		_6807035131347860770 mJTScPpWt8plE9Cz9fDU6 	 
+    		_11244054752219786216 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
-     _2654435874 mBh4lc09qKYGXyU7FeqOv 	 
+     _13303058356268144138 mBh4lc09qKYGXyU7FeqOv 	 
     	  
     muiDYQbmwLxL3PGrwWGeP 	 
     	  
@@ -4082,7 +4761,7 @@ _706246330530095 mdmuaUz9iCkCckSUhcEv1
      
 
         _16594497104544919971 mA4oXllup8K3T5dxkluRR 	 
-    	 _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+    	 _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
      
@@ -4093,7 +4772,7 @@ _706246330530095 mdmuaUz9iCkCckSUhcEv1
     		   
      
      
-  _46082544231248938.size mzeHK1hG1SYQMISNMWMB8 	 
+  _17276674595339161488.size mzeHK1hG1SYQMISNMWMB8 	 
     	  
     		   
      
@@ -4115,7 +4794,7 @@ _706246330530095 mdmuaUz9iCkCckSUhcEv1
      
      
  
- _16937224512747295425 mM3tRrWbRPqPOU3G4ShKT 	 
+ _5547719957745377269 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
@@ -4136,7 +4815,7 @@ _706246330530095 mdmuaUz9iCkCckSUhcEv1
     	  
     		   
      
-        _16937224512747295425 ma6VjqdfajK4BX9gkoGiD 	 
+        _5547719957745377269 ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
       std mEMN2sRTwHcTUl7SNSw0d 	 
@@ -4148,7 +4827,7 @@ hardware_concurrency mdWkXjuaPd4Se0r0SdY1e 	 -1 mINcNsH05D0QZDej9wl4h
     		   
    
      muKP5B7qysoQRrYrwu_aG 	 
-    	_16937224512747295425 mif4ZCBkqdiqSYkR9AD0r 	 
+    	_5547719957745377269 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
  max mFlVjO0mLpwnCN5a1Quio 	 
@@ -4156,7 +4835,7 @@ hardware_concurrency mdWkXjuaPd4Se0r0SdY1e 	 -1 mINcNsH05D0QZDej9wl4h
     	  
     		    mriCvhMavpfheoLNc0eCD 	
 
-    _11093822376775._1012033135676957631 ma6VjqdfajK4BX9gkoGiD 	 
+    _5268611907606565765._1012033135676957631 ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
      
@@ -4166,14 +4845,16 @@ hardware_concurrency mdWkXjuaPd4Se0r0SdY1e 	 -1 mINcNsH05D0QZDej9wl4h
 
      mhXXYzAVu3lDYyh7TkRWq 	 
     	  
-    int _2654435874 myJHqW7fkn_72nVEhKeZ6 	 
+     mdbRZP7cWFYlUcaGRMsKc 	 
+    	  
+    _13303058356268144138 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
    0 mdmuaUz9iCkCckSUhcEv1 	 
     	  
-    		 _2654435874 mqEAvVDOCXqrrwrTRByrM 	 
-    	  _16937224512747295425 mJTScPpWt8plE9Cz9fDU6 	_2654435874 mBh4lc09qKYGXyU7FeqOv 	 
+    		 _13303058356268144138 mqEAvVDOCXqrrwrTRByrM 	 
+    	  _5547719957745377269 mJTScPpWt8plE9Cz9fDU6 	_13303058356268144138 mBh4lc09qKYGXyU7FeqOv 	 
     	  
     		   
      
@@ -4181,7 +4862,7 @@ hardware_concurrency mdWkXjuaPd4Se0r0SdY1e 	 -1 mINcNsH05D0QZDej9wl4h
     	  
     		    _16684997543815802068._16400045516394125907 mhxtTU7dvZHXCTSg8B8rx 	 
     	  
-   _11093822376775 mmCJ670wA_VHgip7JZ1dW 	 
+   _5268611907606565765 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
      
@@ -4198,15 +4879,15 @@ hardware_concurrency mdWkXjuaPd4Se0r0SdY1e 	 -1 mINcNsH05D0QZDej9wl4h
      
      
  
-  	_16937224512747295425 mnZ6t3BhMZ_1d7zzE72ah 	 
+  	_5547719957745377269 mnZ6t3BhMZ_1d7zzE72ah 	 
     	  
     		   
  1 mmCJ670wA_VHgip7JZ1dW 	 mjbtcSgN5ZQfkGDsoYG4l 	 
     	  
     	
-        ScopeTimer _46082575940792193 mhxtTU7dvZHXCTSg8B8rx 	 
+        ScopeTimer _15827673749496603388 mhxtTU7dvZHXCTSg8B8rx 	 
     	  
-    		"\x6e\x6f\x6e\x2d\x70\x61\x72\x61\x6c\x6c\x65\x6c" mgkSwnYHQivQIpeAwgr20 	 
+    		"\x5c\x78\x36\x65\x5c\x78\x36\x66\x5c\x78\x36\x65\x5c\x78\x32\x64\x5c\x78\x37\x30\x5c\x78\x36\x31\x5c\x78\x37\x32\x5c\x78\x36\x31\x5c\x78\x36\x63\x5c\x78\x36\x63\x5c\x78\x36\x35\x5c\x78\x36\x63" mgkSwnYHQivQIpeAwgr20 	 
     	  
   mINcNsH05D0QZDej9wl4h 	 
     	  
@@ -4229,14 +4910,16 @@ hardware_concurrency mdWkXjuaPd4Se0r0SdY1e 	 -1 mINcNsH05D0QZDej9wl4h
     	  
     		   
 
-    else mT_x8cqp5t43PgqNMR8gO 	 
-
+     mv1ijGQAKacWqWAusY8nc 	 
+    	  
+    		   
+mT_x8cqp5t43PgqNMR8gO 	 
         
-        ScopeTimer _46082575940792193 mhxtTU7dvZHXCTSg8B8rx 	 
+        ScopeTimer _15827673749496603388 mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
      
-"\x70\x61\x72\x61\x6c\x6c\x65\x6c" mlqM0snvYcrWCw2_QjhQi 	 
+"\x5c\x78\x37\x30\x5c\x78\x36\x31\x5c\x78\x37\x32\x5c\x78\x36\x31\x5c\x78\x36\x63\x5c\x78\x36\x63\x5c\x78\x36\x35\x5c\x78\x36\x63" mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
      
@@ -4249,31 +4932,32 @@ hardware_concurrency mdWkXjuaPd4Se0r0SdY1e 	 -1 mINcNsH05D0QZDej9wl4h
         vector mCALzjQ0bwpDnngl_oSsi 	 
     	  
    std mU808frSKQDZnEEU3Q3s9 	 
-thread mEc9zv3P8LW8haIvtztwe 	  _6807155497357734513 mxdAvfSsdzliezc0uyUMk 	 
+thread mEc9zv3P8LW8haIvtztwe 	  _1198931662437097535 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
     
          mhXXYzAVu3lDYyh7TkRWq 	 
     	  
     		   
-     int _2654435874 mCm219F3DHVwNe_CsrCeK 	 
+      mMGij61UZUIIYyztVz9vN 	 
+   _13303058356268144138 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
    0 mINcNsH05D0QZDej9wl4h 	 
-    	  _2654435874 mlP1m6taP4mQVYA_j8Oxe 	 
+    	  _13303058356268144138 mlP1m6taP4mQVYA_j8Oxe 	 
     	  
     		   
      
      
- _16937224512747295425 mJTScPpWt8plE9Cz9fDU6 	 
+ _5547719957745377269 mJTScPpWt8plE9Cz9fDU6 	 
     	  
-   _2654435874 mo7mKuzaX2h9vw2rEj5qh 	 
+   _13303058356268144138 mo7mKuzaX2h9vw2rEj5qh 	 
      mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
      
  
-            _6807155497357734513.push_back mp3H4249LtCVDCYFqQqz4 	 
+            _1198931662437097535.push_back mp3H4249LtCVDCYFqQqz4 	 
     	  
     		   std mU808frSKQDZnEEU3Q3s9 	 
     	  
@@ -4295,13 +4979,19 @@ thread mEc9zv3P8LW8haIvtztwe 	  _6807155497357734513 mxdAvfSsdzliezc0uyUMk
     	
         
          mF9AQyKXtPTPy1zvAUpED 	 
-  auto &_175247759809:_6807155497357734513 mhyL_M5gnmQzwyHW45MdA 	 
+   mF8CPQI5IssWjwlV2CXVE 	 
     	  
     		   
      
      
  
-  	 _175247759809.join mcznTYeCGOAygtXXAPYS_ 	 
+ &_16232574195041814781:_1198931662437097535 mhyL_M5gnmQzwyHW45MdA 	 
+    	  
+    		   
+     
+     
+ 
+  	 _16232574195041814781.join mcznTYeCGOAygtXXAPYS_ 	 
      mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
@@ -4318,14 +5008,14 @@ thread mEc9zv3P8LW8haIvtztwe 	  _6807155497357734513 mxdAvfSsdzliezc0uyUMk
     	  
     		   
      
- _3005401534878386453 mVOlbMaOu1U0SC2oeKIzP 	 
+ _1696087129052635781 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
   
     _9674227328620005286 mSa4WnWih0z4lSo9RYUGU 	 
     	  
-    		    _8381292230366782771,_3005401534878386453 mAnDeXfeHaujEzGBbrjil 	 
+    		    _8381292230366782771,_1696087129052635781 mAnDeXfeHaujEzGBbrjil 	 
     	  
     mVOlbMaOu1U0SC2oeKIzP 	 
     	  
@@ -4337,7 +5027,7 @@ thread mEc9zv3P8LW8haIvtztwe 	  _6807155497357734513 mxdAvfSsdzliezc0uyUMk
      mow1IjdflpN81ICD702rC 	 
     	  
     		   
-    _3005401534878386453 mPdHdcAZ6XJhwf8wLtULI 	 
+    _1696087129052635781 mPdHdcAZ6XJhwf8wLtULI 	 
   
 
  mnSkEvR4SbDwQxj23xB1M 	 
@@ -4363,10 +5053,10 @@ vector mCALzjQ0bwpDnngl_oSsi
      
    MarkerCandidate mRHNkLPwUSnx20pmLgrTq 	 
     	  
-    	 &_11306931217450568291,cv mYGfQUZmV9IjKAPVrLhZl 	 
+    	 &_6528263073538749848,cv mYGfQUZmV9IjKAPVrLhZl 	 
     	  
     		   
- Size _6807140732932501015 mzf4ZxeZY8wF2XnrdYK61 	 
+ Size _13182630212586469335 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -4379,14 +5069,15 @@ vector mCALzjQ0bwpDnngl_oSsi
     valarray mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
- bool mE4_Vrik0lveh4HNJUk1B 	 
+  mpHTdkvfapV5_Igrm_XSs 	 
+  mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		   
      
      
-  _6807153976900724679 mp3H4249LtCVDCYFqQqz4 	 
+  _2262480597151600831 mp3H4249LtCVDCYFqQqz4 	 
     	  
-    		 false, _11306931217450568291.size mbHCSQc_uaLNP9Sf4Lz_n 	 
+    		 false, _6528263073538749848.size mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
    mhyL_M5gnmQzwyHW45MdA 	 
     	  
@@ -4403,15 +5094,15 @@ vector mCALzjQ0bwpDnngl_oSsi
     		 mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		unsigned  mdEzmAkZNQkKD1HrLnSSo 	 
-_2654435874  mu_nOcTFwUo8r0uNE351R 	 
+_13303058356268144138  mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
     0 mftnbgRvzOIVyL93HyyWt 	 
     	  
-    _2654435874  mca1GaR7Rv9qOZsisqKBB 	 
+    _13303058356268144138  mca1GaR7Rv9qOZsisqKBB 	 
     	  
-    	 _11306931217450568291.size mwTQhkbVNQHd2Xw4EA4fj 	 
+    	 _6528263073538749848.size mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
      
@@ -4423,7 +5114,7 @@ _2654435874  mu_nOcTFwUo8r0uNE351R
      
      
  
-  _2654435874 mt0bWs8kxCzTnBdtR9vKu 	 
+  _13303058356268144138 mt0bWs8kxCzTnBdtR9vKu 	 
     	  
     		    mAnDeXfeHaujEzGBbrjil 	 
     	  
@@ -4438,24 +5129,24 @@ _2654435874  mu_nOcTFwUo8r0uNE351R
     	  
     		   
      
-  _11093822060870  mif4ZCBkqdiqSYkR9AD0r 	 
+  _5268605236564839919  mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
      
-    _11306931217450568291 mdF98bHO7yrxGJn0aQZVK 	 
-    	  _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 
+    _6528263073538749848 mdF98bHO7yrxGJn0aQZVK 	 
+    	  _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		  mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
   1 mUB1yrSrKOwldqxmCatN2 	 
-    	.x - _11306931217450568291 mA4oXllup8K3T5dxkluRR 	 
+    	.x - _6528263073538749848 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
      
      
  
-  	 _2654435874 mrpQVzv6u8gxvho1qUlil 	 
+  	 _13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
     	   mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		0 mEFd2D2UDF9SIoPfQtUv6 	 
@@ -4470,9 +5161,9 @@ _2654435874  mu_nOcTFwUo8r0uNE351R
  
 
          mVPyhnVeODFpKcj5PAnUM 	 
-_11093822060935  mdKhcOUXVqyCMdccisL_a 	 _11306931217450568291 mA4oXllup8K3T5dxkluRR 	 
+_5268605236564808364  mdKhcOUXVqyCMdccisL_a 	 _6528263073538749848 mA4oXllup8K3T5dxkluRR 	 
     	  
-_2654435874 mUB1yrSrKOwldqxmCatN2 	 
+_13303058356268144138 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -4482,8 +5173,8 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
      
      1 mDd5IIsnjfLI1lcygRsW3 	 
     	  
- .y - _11306931217450568291 mNDJrNgMXB1tBoFNaJO0d 	 
-  _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 
+ .y - _6528263073538749848 mNDJrNgMXB1tBoFNaJO0d 	 
+  _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
      
@@ -4500,8 +5191,8 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
      
      
          mKui3FcBrQ5fUw3SS2JBl 	 
-  _11093822060865  mu_nOcTFwUo8r0uNE351R 	 
- _11306931217450568291 mTjppsgNpY1Pjyv5Z_zMr 	_2654435874 msdqcdg5NNrdQnc_PT1Ee 	 
+  _5268605236564839891  mu_nOcTFwUo8r0uNE351R 	 
+ _6528263073538749848 mTjppsgNpY1Pjyv5Z_zMr 	_13303058356268144138 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
     		  mWkGo8xUdRIKgJ1DEUvvn 	 
   2 mEFd2D2UDF9SIoPfQtUv6 	 
@@ -4510,28 +5201,28 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
      
      
  
- .x - _11306931217450568291 mFyKKLtdivGGDlk8sYzsf 	 
+ .x - _6528263073538749848 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
      
      
  
-  	 _2654435874 mbViqhyIcr6lGWibuo3Im 	 mTjppsgNpY1Pjyv5Z_zMr 	 
+  	 _13303058356268144138 mbViqhyIcr6lGWibuo3Im 	 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
      
 0 msdqcdg5NNrdQnc_PT1Ee 	 
     .x mVOlbMaOu1U0SC2oeKIzP 	 
     	
-         mvfKgFvXHh0Jqv_PZxbka 	_11093822060928  mdKhcOUXVqyCMdccisL_a 	 
+         mvfKgFvXHh0Jqv_PZxbka 	_5268605236564808430  mdKhcOUXVqyCMdccisL_a 	 
     	  
-  _11306931217450568291 mGYpOkNIG_qSvYXBOU9Vf 	 
+  _6528263073538749848 mGYpOkNIG_qSvYXBOU9Vf 	 
     	  
     		   
      
      
  
-  	 _2654435874 mwTp2D1d4PfxNNOzzUfhS 	 
+  	 _13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
   mdF98bHO7yrxGJn0aQZVK 	 
@@ -4541,9 +5232,9 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
     	  
     		   
      
-     .y - _11306931217450568291 mdF98bHO7yrxGJn0aQZVK 	 
+     .y - _6528263073538749848 mdF98bHO7yrxGJn0aQZVK 	 
     	  
-    _2654435874 mrpQVzv6u8gxvho1qUlil 	 
+    _13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
    mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		 0 mwTp2D1d4PfxNNOzzUfhS 	 
@@ -4562,12 +5253,12 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
          mqwYu0y4oTPCnfXbylThX 	 
     	  
     		   
-  _2654435880  mRwjoMr_aqph4iL4nu8NS 	 
+  _13303058356268144086  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
-   mhxtTU7dvZHXCTSg8B8rx 	_11093822060870 * _11093822060928 muiDYQbmwLxL3PGrwWGeP 	 
-    	   -  mp3H4249LtCVDCYFqQqz4 	_11093822060935 * _11093822060865 mlqM0snvYcrWCw2_QjhQi 	 
+   mhxtTU7dvZHXCTSg8B8rx 	_5268605236564839919 * _5268605236564808430 muiDYQbmwLxL3PGrwWGeP 	 
+    	   -  mp3H4249LtCVDCYFqQqz4 	_5268605236564808364 * _5268605236564839891 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
      
@@ -4582,7 +5273,7 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
     		   
      
    mtbP4KQJdh36UGELfV2zq 	 
-    _2654435880  mYfYoOWdsOLTDCIBT7npX 	 
+    _13303058356268144086  mYfYoOWdsOLTDCIBT7npX 	 
     	  
     		   
      
@@ -4600,21 +5291,21 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
     
             swap mReDuVelSknxaDAoDEmwT 	 
     	  
-    _11306931217450568291 mWkGo8xUdRIKgJ1DEUvvn 	 
+    _6528263073538749848 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
      
      
  
-  _2654435874 mrpQVzv6u8gxvho1qUlil 	 
+  _13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
     	  
   mA4oXllup8K3T5dxkluRR 	 1 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
-, _11306931217450568291 mGYpOkNIG_qSvYXBOU9Vf 	 
+, _6528263073538749848 mGYpOkNIG_qSvYXBOU9Vf 	 
     	  
     		   
- _2654435874 mUB1yrSrKOwldqxmCatN2 	 
+ _13303058356268144138 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -4629,11 +5320,13 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
  
    mlqM0snvYcrWCw2_QjhQi 	 mPdHdcAZ6XJhwf8wLtULI 	 
 
-            _6807153976900724679 mNDJrNgMXB1tBoFNaJO0d 	 
- _2654435874 mwTp2D1d4PfxNNOzzUfhS 	 
+            _2262480597151600831 mNDJrNgMXB1tBoFNaJO0d 	 
+ _13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	 
     	    mM3tRrWbRPqPOU3G4ShKT 	 
     	  
-    		   true mlqoNTA3LQoUJF6i5YDFc 	 
+    		    mqQspPZKCoa6LP0Jj0qH2 	 
+    	  
+    mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
@@ -4654,13 +5347,13 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
      
  
   	 pair mK5OxIt23gZzSiTA8trU8 	 
-  int, int mgWtxscBTuWBkK7X3fJ_M 	 
+  int,  mG7mr0Iq8BCEeADSwrCoW 	mgWtxscBTuWBkK7X3fJ_M 	 
     	  
     		   
      
      
  
-  _17475401961542342087 mdmuaUz9iCkCckSUhcEv1 	
+  _2458634995200666860 mdmuaUz9iCkCckSUhcEv1 	
      mxQewHEnT8PTNQcVKCqL9 	 
     	  
     		   
@@ -4671,7 +5364,7 @@ _2654435874 mUB1yrSrKOwldqxmCatN2
      
      
  
-unsigned  mihBlyb7pwidO496a5_p1 	_2654435874  mM3tRrWbRPqPOU3G4ShKT 	 
+unsigned  mihBlyb7pwidO496a5_p1 	_13303058356268144138  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
@@ -4679,16 +5372,16 @@ unsigned  mihBlyb7pwidO496a5_p1 	_2654435874  mM3tRrWbRPqPOU3G4ShKT
     	  
     		   
      
-  _2654435874  mca1GaR7Rv9qOZsisqKBB 	 
+  _13303058356268144138  mca1GaR7Rv9qOZsisqKBB 	 
     	  
- _11306931217450568291.size mKpq3GwvJxRduE5RsGgGP 	 
+ _6528263073538749848.size mKpq3GwvJxRduE5RsGgGP 	 
     	  
   mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
      
      
- _2654435874 mEZrtAN7pSZl5y4oEHd38 	 
+ _13303058356268144138 mEZrtAN7pSZl5y4oEHd38 	 
     	  
     		   
     mAnDeXfeHaujEzGBbrjil 	 
@@ -4705,16 +5398,16 @@ unsigned  mihBlyb7pwidO496a5_p1 	_2654435874  mM3tRrWbRPqPOU3G4ShKT
     		   
 unsigned  meWm4MhzbcJwavtoh469w 	 
     	  
-   _2654435875  mRwjoMr_aqph4iL4nu8NS 	 
+   _13303058356268144139  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
-  _2654435874 + 1 mxdAvfSsdzliezc0uyUMk 	  _2654435875  mCALzjQ0bwpDnngl_oSsi 	 
+  _13303058356268144138 + 1 mxdAvfSsdzliezc0uyUMk 	  _13303058356268144139  mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
      
      
  
- _11306931217450568291.size mbHCSQc_uaLNP9Sf4Lz_n 	 
+ _6528263073538749848.size mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
     		   
      
@@ -4723,7 +5416,7 @@ unsigned  meWm4MhzbcJwavtoh469w
   	 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
-   _2654435875 mo7mKuzaX2h9vw2rEj5qh 	 mXAYJa6osZ6HNTIEEBnr0 	 
+   _13303058356268144139 mo7mKuzaX2h9vw2rEj5qh 	 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      
@@ -4736,8 +5429,8 @@ unsigned  meWm4MhzbcJwavtoh469w
     		   
      
      
-float mRHNkLPwUSnx20pmLgrTq 	 
-    _46082576188619277 mSa4WnWih0z4lSo9RYUGU 	 
+ mglDNKH5ah89GptW6H4Cu 	 mRHNkLPwUSnx20pmLgrTq 	 
+    _11909273676365498091 mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		4 mgkSwnYHQivQIpeAwgr20 	 
     	  
@@ -4755,11 +5448,15 @@ float mRHNkLPwUSnx20pmLgrTq
  
  mtbP4KQJdh36UGELfV2zq 	 
     	  
-    	int _2654435868  myJHqW7fkn_72nVEhKeZ6 	 
+    	 meWm4MhzbcJwavtoh469w 	 
+    	  
+    		   
+     
+   _13303058356268144199  myJHqW7fkn_72nVEhKeZ6 	 
    0 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
-  _2654435868  mK5OxIt23gZzSiTA8trU8 	 
+  _13303058356268144199  mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
@@ -4769,37 +5466,37 @@ float mRHNkLPwUSnx20pmLgrTq
     	  
     		   
      
-     _2654435868 mo7mKuzaX2h9vw2rEj5qh 	 
+     _13303058356268144199 mo7mKuzaX2h9vw2rEj5qh 	 
     	  
   muiDYQbmwLxL3PGrwWGeP 	 
    
-                _46082576188619277 mY2nz8M_6jpSxQZL8EYgU 	 
+                _11909273676365498091 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
- _2654435868 msdqcdg5NNrdQnc_PT1Ee 	 
+ _13303058356268144199 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
    mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
   cv mpJt2kGThF7wb3VNzG38b 	 
   norm mFsSEF_3_iD2mT6nZG9QR 	 
-    	  _11306931217450568291 mILaQGKCAmcKrYQNhgWUq 	 
+    	  _6528263073538749848 mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
      
-  _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 mILaQGKCAmcKrYQNhgWUq 	 
- _2654435868 mo8MRbS3DUX_ZOlgmUSna 	 
+  _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 mILaQGKCAmcKrYQNhgWUq 	 
+ _13303058356268144199 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
-    		    -_11306931217450568291 mdF98bHO7yrxGJn0aQZVK 	 
+    		    -_6528263073538749848 mdF98bHO7yrxGJn0aQZVK 	 
     	  
-    		 _2654435875 mEFd2D2UDF9SIoPfQtUv6 	 
+    		 _13303058356268144139 mEFd2D2UDF9SIoPfQtUv6 	 
     	  
     		 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
      
      
- _2654435868 mUB1yrSrKOwldqxmCatN2 	 
+ _13303058356268144199 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -4820,7 +5517,7 @@ float mRHNkLPwUSnx20pmLgrTq
     		   
      
      
- _46082576188619277 mZnfmoDANjVLDjZfzM5MR 	 
+ _11909273676365498091 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
      
@@ -4835,7 +5532,7 @@ float mRHNkLPwUSnx20pmLgrTq
     	  
     		   
      
-  _46082576188619277 mGYpOkNIG_qSvYXBOU9Vf 	 
+  _11909273676365498091 mGYpOkNIG_qSvYXBOU9Vf 	 
     	  
     		   
      
@@ -4848,7 +5545,7 @@ float mRHNkLPwUSnx20pmLgrTq
   mCALzjQ0bwpDnngl_oSsi 	 
      _11754215234869264027  mBJ7M0ikk98KhD4Oi32wB 	 
     	  
-  _46082576188619277 mZnfmoDANjVLDjZfzM5MR 	 
+  _11909273676365498091 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
      2 mUB1yrSrKOwldqxmCatN2 	 
@@ -4856,7 +5553,7 @@ float mRHNkLPwUSnx20pmLgrTq
       mYI2nkSxgJHf1pY1PttV1 	 
     _11754215234869264027  mBJ7M0ikk98KhD4Oi32wB 	 
     	  
-    _46082576188619277 mA4oXllup8K3T5dxkluRR 	 
+    _11909273676365498091 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
 3 mo8MRbS3DUX_ZOlgmUSna 	 
@@ -4868,15 +5565,15 @@ float mRHNkLPwUSnx20pmLgrTq
      
       _11754215234869264027 mmCJ670wA_VHgip7JZ1dW 	 
     
-                _17475401961542342087.push_back mmmC9tOGiLK6UaJr0E5vz 	 
+                _2458634995200666860.push_back mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
 pair mqEAvVDOCXqrrwrTRByrM 	 
-    	  int, int mel3l7ZRXwnAEsy0Wfxj_ 	 
+    	  int,  mSD7jHYN8mOif4_CBtIg6 	mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
     		   
     mhxtTU7dvZHXCTSg8B8rx 	 
-  _2654435874, _2654435875 mlqM0snvYcrWCw2_QjhQi 	 
+  _13303058356268144138, _13303058356268144139 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		 mmCJ670wA_VHgip7JZ1dW 	 
     	  
@@ -4904,17 +5601,24 @@ pair mqEAvVDOCXqrrwrTRByrM
     	  
     		   
      
-     bool mYxohqgekcJ8HhaDZvWcX 	 
+      mcqTciDcDgSbPPY9iuwhB 	 
     	  
     		   
      
-    _16997208802817240490 mmmC9tOGiLK6UaJr0E5vz 	 
+   mYxohqgekcJ8HhaDZvWcX 	 
+    	  
+    		   
+     
+    _7127668893958858208 mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
      
      
  
-  	  _11306931217450568291.size mKpq3GwvJxRduE5RsGgGP 	,false muiDYQbmwLxL3PGrwWGeP 	 mINcNsH05D0QZDej9wl4h 	 
+  	  _6528263073538749848.size mKpq3GwvJxRduE5RsGgGP 	, mVgd0sC5KIFeGa4mcMXm9 	 
+    	  
+    		   
+    muiDYQbmwLxL3PGrwWGeP 	 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
@@ -4930,16 +5634,16 @@ pair mqEAvVDOCXqrrwrTRByrM
     	  
     		   
      
-    _2654435874  mRwjoMr_aqph4iL4nu8NS 	 
+    _13303058356268144138  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
  0 mxdAvfSsdzliezc0uyUMk 	 
-    	   _2654435874  mqEAvVDOCXqrrwrTRByrM 	 
+    	   _13303058356268144138  mqEAvVDOCXqrrwrTRByrM 	 
     	  
     		   
      
-     _17475401961542342087.size mH1xQMRmYb0Y4RDp2hARz 	 
+     _2458634995200666860.size mH1xQMRmYb0Y4RDp2hARz 	 
     	  
     		   
      
@@ -4948,7 +5652,7 @@ pair mqEAvVDOCXqrrwrTRByrM
    mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
-      _2654435874 mkGHGzUDDVqHIjIdYGe6S 	 
+      _13303058356268144138 mkGHGzUDDVqHIjIdYGe6S 	 
     	  
     		   
      
@@ -4961,11 +5665,11 @@ pair mqEAvVDOCXqrrwrTRByrM
     	  
     		  mmmC9tOGiLK6UaJr0E5vz 	 
     	  _16109434691388891984 mhxtTU7dvZHXCTSg8B8rx 	 
-    _11306931217450568291 mA4oXllup8K3T5dxkluRR 	 
+    _6528263073538749848 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
- _17475401961542342087 mGYpOkNIG_qSvYXBOU9Vf 	 
-    	 _2654435874 mwTp2D1d4PfxNNOzzUfhS 	 
+ _2458634995200666860 mGYpOkNIG_qSvYXBOU9Vf 	 
+    	 _13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
@@ -4977,13 +5681,13 @@ pair mqEAvVDOCXqrrwrTRByrM
      _16109434691388891984 mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
-  _11306931217450568291 mFyKKLtdivGGDlk8sYzsf 	 
+  _6528263073538749848 mFyKKLtdivGGDlk8sYzsf 	 
     	  
-    		 _17475401961542342087 mA4oXllup8K3T5dxkluRR 	 
+    		 _2458634995200666860 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
      
-_2654435874 mrpQVzv6u8gxvho1qUlil 	 
+_13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
     	  
    .second mIkhxhgSNMt_JUZR7ce1U 	 
     	  
@@ -4994,12 +5698,12 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
     	  
     		   
  
-            _16997208802817240490 mA4oXllup8K3T5dxkluRR 	 
+            _7127668893958858208 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
      
-     _17475401961542342087 mTjppsgNpY1Pjyv5Z_zMr 	 
- _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 
+     _2458634995200666860 mTjppsgNpY1Pjyv5Z_zMr 	 
+ _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     	.second mIkhxhgSNMt_JUZR7ce1U 	 
     	  
@@ -5010,21 +5714,28 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
   	   mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
-      true mxdAvfSsdzliezc0uyUMk 	 
-    	  
-    		   
-        else
-            _16997208802817240490 mTjppsgNpY1Pjyv5Z_zMr 	 
-    	  
-  _17475401961542342087 mFyKKLtdivGGDlk8sYzsf 	 
+       mCAzyIDtopeLXRxFfI0EK 	 
     	  
     		   
      
-   _2654435874 mbViqhyIcr6lGWibuo3Im 	.first mbViqhyIcr6lGWibuo3Im 	 
+     
+mxdAvfSsdzliezc0uyUMk 	 
+    	  
+    		   
+        else
+            _7127668893958858208 mTjppsgNpY1Pjyv5Z_zMr 	 
+    	  
+  _2458634995200666860 mFyKKLtdivGGDlk8sYzsf 	 
+    	  
+    		   
+     
+   _13303058356268144138 mbViqhyIcr6lGWibuo3Im 	.first mbViqhyIcr6lGWibuo3Im 	 
     	  
     	  mKcKHr_bTagXAK_pf8btG 	 
     	  
-    		    true mxdAvfSsdzliezc0uyUMk 	 
+    		     mqQspPZKCoa6LP0Jj0qH2 	 
+    	  
+    		mxdAvfSsdzliezc0uyUMk 	 
     	  
      mbYMUxVFybbviIFqRhN2f 	 
     	  
@@ -5037,15 +5748,24 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
     
     
      mP8l6554fUQhsCw2PetD2 	 
-    	 _15440109750714374723  mCm219F3DHVwNe_CsrCeK 	 
- static_cast mYI2nkSxgJHf1pY1PttV1 	 int mEc9zv3P8LW8haIvtztwe 	 
+    	 _385327363244837679  mCm219F3DHVwNe_CsrCeK 	 
+ static_cast mYI2nkSxgJHf1pY1PttV1 	  mdbRZP7cWFYlUcaGRMsKc 	 
+    	  
+    		   
+     
+     
+ 
+ mEc9zv3P8LW8haIvtztwe 	 
     	  
     		 mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-    _18062104616271777338.borderDistThres * float miAECMSxGwjxrcOKk0DII 	 
+    _18062104616271777338.borderDistThres *  mglDNKH5ah89GptW6H4Cu 	 
     	  
     		   
-     _6807140732932501015.width muiDYQbmwLxL3PGrwWGeP 	 mzf4ZxeZY8wF2XnrdYK61 	 
+   miAECMSxGwjxrcOKk0DII 	 
+    	  
+    		   
+     _13182630212586469335.width muiDYQbmwLxL3PGrwWGeP 	 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
    mxdAvfSsdzliezc0uyUMk 	 
     	  
@@ -5057,19 +5777,25 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
      mCujczJix6jMpJcynoBiA 	 
     	  
     		   
-    _15440109750714374724  muQdV4OJL6V6gVxW6AdRy 	 
+    _385327363244837678  muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
      static_cast mHkLXuUOlyX2vZI7w3FQj 	 
     	  
-    		 int mjxPa00ei9qkuuQmiGB3C 	 
+    		  mCujczJix6jMpJcynoBiA 	 
+    	  
+    	mjxPa00ei9qkuuQmiGB3C 	 
     	  
     		   
   mFlVjO0mLpwnCN5a1Quio 	 
     	  
-    		   _18062104616271777338.borderDistThres * float mSa4WnWih0z4lSo9RYUGU 	 
+    		   _18062104616271777338.borderDistThres *  mnECjbnhLknZie3Z5iHP2 	 
     	  
- _6807140732932501015.height mgkSwnYHQivQIpeAwgr20 	 
+    		   
+     
+ mSa4WnWih0z4lSo9RYUGU 	 
+    	  
+ _13182630212586469335.height mgkSwnYHQivQIpeAwgr20 	 
     	  
     		  mlqM0snvYcrWCw2_QjhQi 	 
     	  
@@ -5092,16 +5818,16 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
      
      
  
-  	 size_t _2654435874  myJHqW7fkn_72nVEhKeZ6 	 
+  	 size_t _13303058356268144138  myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
      
  
    0 mftnbgRvzOIVyL93HyyWt 	 
-  _2654435874  mYI2nkSxgJHf1pY1PttV1 	 
+  _13303058356268144138  mYI2nkSxgJHf1pY1PttV1 	 
     	  
-    	 _11306931217450568291.size mwTQhkbVNQHd2Xw4EA4fj 	 
+    	 _6528263073538749848.size mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
      
@@ -5109,7 +5835,7 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
   mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
-   _2654435874 mkGHGzUDDVqHIjIdYGe6S 	 
+   _13303058356268144138 mkGHGzUDDVqHIjIdYGe6S 	 
      mycwFs63h7Mi3ggRkMEVm 	 
    
      mnU2hwoI16_nZ7reLKJTr 	 
@@ -5122,22 +5848,22 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
     		   
       mhxtTU7dvZHXCTSg8B8rx 	 
     	  
-   size_t _2654435868  mM3tRrWbRPqPOU3G4ShKT 	 0 mlqoNTA3LQoUJF6i5YDFc 	 
+   size_t _13303058356268144199  mM3tRrWbRPqPOU3G4ShKT 	 0 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
-     _2654435868  mYfYoOWdsOLTDCIBT7npX 	 
+     _13303058356268144199  mYfYoOWdsOLTDCIBT7npX 	 
     	  
-    		   _11306931217450568291 mTjppsgNpY1Pjyv5Z_zMr 	 
+    		   _6528263073538749848 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
      
-   _2654435874 msdqcdg5NNrdQnc_PT1Ee 	 .size mzeHK1hG1SYQMISNMWMB8 	 
+   _13303058356268144138 msdqcdg5NNrdQnc_PT1Ee 	 .size mzeHK1hG1SYQMISNMWMB8 	 
     	  
     		   
      mftnbgRvzOIVyL93HyyWt 	 
     	  
-    		   _2654435868 mUq8qfNXjDE9FPlMHvjf4 	 
+    		   _13303058356268144199 mUq8qfNXjDE9FPlMHvjf4 	 
     	  
     		   
      
@@ -5152,33 +5878,33 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
     	  
     		   
 
-             mJvv2tbrel2xOYjvgipUL 	 mmmC9tOGiLK6UaJr0E5vz 	 _11306931217450568291 mGYpOkNIG_qSvYXBOU9Vf 	 
+             mJvv2tbrel2xOYjvgipUL 	 mmmC9tOGiLK6UaJr0E5vz 	 _6528263073538749848 mGYpOkNIG_qSvYXBOU9Vf 	 
     	  
     		   
      
-   _2654435874 mDd5IIsnjfLI1lcygRsW3 	 
+   _13303058356268144138 mDd5IIsnjfLI1lcygRsW3 	 
     	   mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  
- _2654435868 mo8MRbS3DUX_ZOlgmUSna 	 
+ _13303058356268144199 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
      
  .x  mYI2nkSxgJHf1pY1PttV1 	 
-    	 _15440109750714374723  mQfgxxEXCA984FTu8Jz8Q 	 
+    	 _385327363244837679  mQfgxxEXCA984FTu8Jz8Q 	 
     	  
     		   
-   _11306931217450568291 mFyKKLtdivGGDlk8sYzsf 	_2654435874 mUB1yrSrKOwldqxmCatN2 	 
+   _6528263073538749848 mFyKKLtdivGGDlk8sYzsf 	_13303058356268144138 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
   mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
-_2654435868 mUB1yrSrKOwldqxmCatN2 	 
+_13303058356268144199 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -5186,46 +5912,46 @@ _2654435868 mUB1yrSrKOwldqxmCatN2
     	  
     		   
      
-  _15440109750714374724
+  _385327363244837678
                      mRawsH1LNxMcHXhyroWR7 	 
-  _11306931217450568291 mILaQGKCAmcKrYQNhgWUq 	 
+  _6528263073538749848 mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
      
      
- _2654435874 mDd5IIsnjfLI1lcygRsW3 	 
+ _13303058356268144138 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		   
      
      
  
   	 mTjppsgNpY1Pjyv5Z_zMr 	 
-  _2654435868 mIkhxhgSNMt_JUZR7ce1U 	 
+  _13303058356268144199 mIkhxhgSNMt_JUZR7ce1U 	 
     .x  mEc9zv3P8LW8haIvtztwe 	 
     	  
     		   
-  _6807140732932501015.width - _15440109750714374723
+  _13182630212586469335.width - _385327363244837679
                      mfNhxMALMjy2jMKPPP3pN 	 
-    	 _11306931217450568291 mWkGo8xUdRIKgJ1DEUvvn 	 
+    	 _6528263073538749848 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
      
      
  
- _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+ _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
      
- mdF98bHO7yrxGJn0aQZVK 	 _2654435868 mbViqhyIcr6lGWibuo3Im 	 
+ mdF98bHO7yrxGJn0aQZVK 	 _13303058356268144199 mbViqhyIcr6lGWibuo3Im 	 
     	 .y  mRHNkLPwUSnx20pmLgrTq 	 
     	  
-    	 _6807140732932501015.height - _15440109750714374724 mhyL_M5gnmQzwyHW45MdA 	 
+    	 _13182630212586469335.height - _385327363244837678 mhyL_M5gnmQzwyHW45MdA 	 
     	  
              mfKhTg3wpiK_YhdQzWWcS 	 
     
-                _16997208802817240490 mILaQGKCAmcKrYQNhgWUq 	 
+                _7127668893958858208 mILaQGKCAmcKrYQNhgWUq 	 
     	  
-    _2654435874 mEFd2D2UDF9SIoPfQtUv6 	 
+    _13303058356268144138 mEFd2D2UDF9SIoPfQtUv6 	 
     	  
     		   
      
@@ -5235,7 +5961,12 @@ _2654435868 mUB1yrSrKOwldqxmCatN2
     	  
     		   
      
- true mriCvhMavpfheoLNc0eCD 	 
+  mqQspPZKCoa6LP0Jj0qH2 	 
+    	  
+    		   
+     
+     
+ mriCvhMavpfheoLNc0eCD 	 
     	  
              mgjPImSFwUcUKl9XTKqqB 	 
     	  
@@ -5258,16 +5989,16 @@ _2654435868 mUB1yrSrKOwldqxmCatN2
      
 MarkerCandidate m_j6ZkbEfLCgUqtaolYTp 	 
     	  
-     _10479302214327097654 mlqoNTA3LQoUJF6i5YDFc 	 
+     _2164298203324692274 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
    
-    _10479302214327097654.reserve mmmC9tOGiLK6UaJr0E5vz 	 
+    _2164298203324692274.reserve mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
      
-  _11306931217450568291.size mzeHK1hG1SYQMISNMWMB8 	 
+  _6528263073538749848.size mzeHK1hG1SYQMISNMWMB8 	 
     	  mhyL_M5gnmQzwyHW45MdA 	 
     	  
     	 mdmuaUz9iCkCckSUhcEv1 	 
@@ -5281,13 +6012,13 @@ MarkerCandidate m_j6ZkbEfLCgUqtaolYTp
     		   
      
      
-size_t _2654435874 mRwjoMr_aqph4iL4nu8NS 	 
+size_t _13303058356268144138 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
  0 mhGXMe8LHJXydR9dMisHj 	 
     	  
-    		   _2654435874 mW1ds9XwNwevT5B2b3j8B 	_11306931217450568291.size mcznTYeCGOAygtXXAPYS_ 	 
+    		   _13303058356268144138 mW1ds9XwNwevT5B2b3j8B 	_6528263073538749848.size mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
      
@@ -5297,7 +6028,7 @@ size_t _2654435874 mRwjoMr_aqph4iL4nu8NS
      
      
  
- _2654435874 mcstdE8Wwpam6tUMM45Sa 	 
+ _13303058356268144138 mcstdE8Wwpam6tUMM45Sa 	 
     	  
     		   
  mmCJ670wA_VHgip7JZ1dW 	 
@@ -5311,9 +6042,9 @@ size_t _2654435874 mRwjoMr_aqph4iL4nu8NS
     	  
     		   
      
-_16997208802817240490 mA4oXllup8K3T5dxkluRR 	 
+_7127668893958858208 mA4oXllup8K3T5dxkluRR 	 
     	  
-   _2654435874 mEFd2D2UDF9SIoPfQtUv6 	 
+   _13303058356268144138 mEFd2D2UDF9SIoPfQtUv6 	 
     	  
     		   
      
@@ -5324,9 +6055,9 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
      
      
  
-  	_10479302214327097654.push_back mSa4WnWih0z4lSo9RYUGU 	 
-  _11306931217450568291 mNDJrNgMXB1tBoFNaJO0d 	 
-    	_2654435874 mJtGCV8zXQjnVDVBVdvFZ 	 mAnDeXfeHaujEzGBbrjil 	 
+  	_2164298203324692274.push_back mSa4WnWih0z4lSo9RYUGU 	 
+  _6528263073538749848 mNDJrNgMXB1tBoFNaJO0d 	 
+    	_13303058356268144138 mJtGCV8zXQjnVDVBVdvFZ 	 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		    mhGXMe8LHJXydR9dMisHj 	 
     	  
@@ -5337,7 +6068,7 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
      
      
  
-  _10479302214327097654 mftnbgRvzOIVyL93HyyWt 	 
+  _2164298203324692274 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
@@ -5358,7 +6089,7 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
     	  
     		   
      
-     Mat &_175247760140,std mU808frSKQDZnEEU3Q3s9 	 
+     Mat &_16232574195069562408,std mU808frSKQDZnEEU3Q3s9 	 
     	  
     		   
      
@@ -5366,10 +6097,13 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
  
   	 vector mlP1m6taP4mQVYA_j8Oxe 	 
     	  
-    		float mjxPa00ei9qkuuQmiGB3C 	 
+    		 mglDNKH5ah89GptW6H4Cu 	 
     	  
     		   
-  &_706246330550423 mgkSwnYHQivQIpeAwgr20 	 
+  mjxPa00ei9qkuuQmiGB3C 	 
+    	  
+    		   
+  &_3176948232212421105 mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
     
@@ -5378,13 +6112,16 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
     		   
      
      mFrnvKb629IAbveEQOTJk 	 
- int _2654435890 mif4ZCBkqdiqSYkR9AD0r 	 0 mxdAvfSsdzliezc0uyUMk 	 
+  mdbRZP7cWFYlUcaGRMsKc 	 
+    	  
+    		   
+   _13303058356268144023 mif4ZCBkqdiqSYkR9AD0r 	 0 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
-    _2654435890 mK5OxIt23gZzSiTA8trU8 	 
+    _13303058356268144023 mK5OxIt23gZzSiTA8trU8 	 
     	  
- _175247760140.rows mlqoNTA3LQoUJF6i5YDFc 	_2654435890 mwwJvnj2j3yLmklxxOEJQ 	 
+ _16232574195069562408.rows mlqoNTA3LQoUJF6i5YDFc 	_13303058356268144023 mwwJvnj2j3yLmklxxOEJQ 	 
     	  
     		   
      
@@ -5396,9 +6133,9 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
     	  
     		   
     
-        uchar*_11093822295868 mu_nOcTFwUo8r0uNE351R 	 
+        uchar*_5268605234499577910 mu_nOcTFwUo8r0uNE351R 	 
     	  
-    		 _175247760140.ptr mK5OxIt23gZzSiTA8trU8 	 
+    		 _16232574195069562408.ptr mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
@@ -5409,7 +6146,7 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
     		   
      
    mReDuVelSknxaDAoDEmwT 	 
-    	  _2654435890 muiDYQbmwLxL3PGrwWGeP 	 
+    	  _13303058356268144023 muiDYQbmwLxL3PGrwWGeP 	 
      mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
@@ -5419,7 +6156,8 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
      
      
  
-  int _2654435889 mM3tRrWbRPqPOU3G4ShKT 	 
+   mdbRZP7cWFYlUcaGRMsKc 	 
+    _13303058356268144065 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
@@ -5431,19 +6169,19 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
      
      
  
- _2654435889 mbG1GEmOdh2dXkJZ42sXo 	 
+ _13303058356268144065 mbG1GEmOdh2dXkJZ42sXo 	 
     	  
     		   
      
      
  
-  _175247760140.cols mlqoNTA3LQoUJF6i5YDFc 	 
+  _16232574195069562408.cols mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
      
  
-  _2654435889 mEZrtAN7pSZl5y4oEHd38 	 
+  _13303058356268144065 mEZrtAN7pSZl5y4oEHd38 	 
   mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
@@ -5451,19 +6189,19 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
      
  
   	
-           _706246330550423 mA4oXllup8K3T5dxkluRR 	 
+           _3176948232212421105 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
      
      
  
- _11093822295868 mZnfmoDANjVLDjZfzM5MR 	 
+ _5268605234499577910 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
      
      
  
-  _2654435889 mo8MRbS3DUX_ZOlgmUSna 	 mJtGCV8zXQjnVDVBVdvFZ 	 
+  _13303058356268144065 mo8MRbS3DUX_ZOlgmUSna 	 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
      
@@ -5499,22 +6237,28 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
      
      
  
-  	 float mEc9zv3P8LW8haIvtztwe 	 
+  	  mnECjbnhLknZie3Z5iHP2 	 
     	  
     		   
      
      
  
-   &_706246330550423 mlqM0snvYcrWCw2_QjhQi 	 
+  mEc9zv3P8LW8haIvtztwe 	 
+    	  
+    		   
+     
+     
+ 
+   &_3176948232212421105 mlqM0snvYcrWCw2_QjhQi 	 
     	  
  mDzQQrEx5Ki0C6uDHU2cy 	 
     	
      mnqZGwZqTTi1dekKxujAE 	 
     	  
     		   
-    _11093822381150 mM3tRrWbRPqPOU3G4ShKT 	 
+    _5268611907573087124 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
-0,_3005401531636650547 mftnbgRvzOIVyL93HyyWt 	 
+0,_1677675503431562703 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
@@ -5522,36 +6266,45 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
  
   	 
      ma9rnYFEs_TUiw_WyBflg 	 
-    auto _2654435868:_706246330550423 mXAYJa6osZ6HNTIEEBnr0 	 
-    	  
-     _11093822381150 mYwsOAvDOXneTzOST0d5c 	 
+     mjc_6rRmys9smvg_opA48 	 
     	  
     		   
-   _2654435868 mdmuaUz9iCkCckSUhcEv1 	 
+     
+_13303058356268144199:_3176948232212421105 mXAYJa6osZ6HNTIEEBnr0 	 
+    	  
+     _5268611907573087124 mYwsOAvDOXneTzOST0d5c 	 
+    	  
+    		   
+   _13303058356268144199 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
    
-    _3005401531636650547 muQdV4OJL6V6gVxW6AdRy 	 
+    _1677675503431562703 muQdV4OJL6V6gVxW6AdRy 	 
     	  
-    		   1./_11093822381150 mlqoNTA3LQoUJF6i5YDFc 	 
+    		   1./_5268611907573087124 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
     
      mhXXYzAVu3lDYyh7TkRWq 	 
     	  
-  auto &_2654435868:_706246330550423 mmCJ670wA_VHgip7JZ1dW 	 
+   myYAiLHDT3JvFKUJCC_FN 	 
     	  
     		   
      
-     _2654435868 meZ135JJTidHY5m2MSApS 	 
+     
+&_13303058356268144199:_3176948232212421105 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
-  _3005401531636650547 mxdAvfSsdzliezc0uyUMk 	 
+     
+     _13303058356268144199 meZ135JJTidHY5m2MSApS 	 
+    	  
+    		   
+  _1677675503431562703 mxdAvfSsdzliezc0uyUMk 	 
     	  
    
 
      maISPbNJKXWB2QqsuuExM 	 
-    	  _3005399795325371662 mRwjoMr_aqph4iL4nu8NS 	 
+    	  _17126222195760917357 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
@@ -5562,18 +6315,19 @@ _16997208802817240490 mA4oXllup8K3T5dxkluRR
     		   
      
      
-_46082574582412734 mu_nOcTFwUo8r0uNE351R 	 
+_12512858585554741740 mu_nOcTFwUo8r0uNE351R 	 
     	 -1 mJTScPpWt8plE9Cz9fDU6 	 
     	  
    
      mVRbVdVjFvNmKzGv4WiNp 	 
- int _2654435885 mKcKHr_bTagXAK_pf8btG 	 
+  mSD7jHYN8mOif4_CBtIg6 	 
+    	_13303058356268144077 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      1 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
-  _2654435885 mca1GaR7Rv9qOZsisqKBB 	 
+  _13303058356268144077 mca1GaR7Rv9qOZsisqKBB 	 
     	  
   256 mINcNsH05D0QZDej9wl4h 	 
     	  
@@ -5581,7 +6335,7 @@ _46082574582412734 mu_nOcTFwUo8r0uNE351R
      
      
  
-_2654435885 mt0bWs8kxCzTnBdtR9vKu 	 
+_13303058356268144077 mt0bWs8kxCzTnBdtR9vKu 	 
     	  
     		   
      
@@ -5594,10 +6348,10 @@ _2654435885 mt0bWs8kxCzTnBdtR9vKu
      mMRNM5hfPBWFjYCspldu3 	
          mYKwa_OYBeVXzRPMa_mz6 	 
     	  
- _175247760965 muQdV4OJL6V6gVxW6AdRy 	 
-  0,_175247760966 mdKhcOUXVqyCMdccisL_a 	 
-  0,_46082575822310324 mRwjoMr_aqph4iL4nu8NS 	 
-    	0,_46082575822310325 mKcKHr_bTagXAK_pf8btG 	 
+ _16232574195069208184 muQdV4OJL6V6gVxW6AdRy 	 
+  0,_16232574195069208185 mdKhcOUXVqyCMdccisL_a 	 
+  0,_15915682081708138341 mRwjoMr_aqph4iL4nu8NS 	 
+    	0,_15915682081708138340 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      
@@ -5608,17 +6362,19 @@ _2654435885 mt0bWs8kxCzTnBdtR9vKu
     
          mwkUVn0D8pUxgFq_rx20G 	 
     	  
-    		int _2654435887 mdKhcOUXVqyCMdccisL_a 	0 mftnbgRvzOIVyL93HyyWt 	 
+    		 mCujczJix6jMpJcynoBiA 	 
     	  
- _2654435887 mYfYoOWdsOLTDCIBT7npX 	 
+    	_13303058356268144079 mdKhcOUXVqyCMdccisL_a 	0 mftnbgRvzOIVyL93HyyWt 	 
     	  
-    	_2654435885 mlqoNTA3LQoUJF6i5YDFc 	 
+ _13303058356268144079 mYfYoOWdsOLTDCIBT7npX 	 
+    	  
+    	_13303058356268144077 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
      
  
-  	 _2654435887 mwwJvnj2j3yLmklxxOEJQ 	 
+  	 _13303058356268144079 mwwJvnj2j3yLmklxxOEJQ 	 
     	  
     	 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
@@ -5628,28 +6384,32 @@ _2654435885 mt0bWs8kxCzTnBdtR9vKu
      
      
 
-            _175247760965 mIzujDpHjrUPsW3ssOAji 	 
+            _16232574195069208184 mIzujDpHjrUPsW3ssOAji 	 
     	  
     		   
      
      
  
- _706246330550423 mGYpOkNIG_qSvYXBOU9Vf 	 
+ _3176948232212421105 mGYpOkNIG_qSvYXBOU9Vf 	 
     	  
     		   
      
      
  
- _2654435887 mEFd2D2UDF9SIoPfQtUv6 	 
+ _13303058356268144079 mEFd2D2UDF9SIoPfQtUv6 	 
     	   mriCvhMavpfheoLNc0eCD 	 
     	  
     
-            _46082575822310324 mCAk2bmH5F7oeetankJLO 	float mReDuVelSknxaDAoDEmwT 	 
-    	_2654435887 muiDYQbmwLxL3PGrwWGeP 	*_706246330550423 mA4oXllup8K3T5dxkluRR 	 
+            _15915682081708138341 mCAk2bmH5F7oeetankJLO 	 mnECjbnhLknZie3Z5iHP2 	 
     	  
     		   
      
-    _2654435887 mIkhxhgSNMt_JUZR7ce1U 	 mdmuaUz9iCkCckSUhcEv1 	 
+mReDuVelSknxaDAoDEmwT 	 
+    	_13303058356268144079 muiDYQbmwLxL3PGrwWGeP 	*_3176948232212421105 mA4oXllup8K3T5dxkluRR 	 
+    	  
+    		   
+     
+    _13303058356268144079 mIkhxhgSNMt_JUZR7ce1U 	 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
@@ -5660,25 +6420,29 @@ _2654435885 mt0bWs8kxCzTnBdtR9vKu
     	  
     		   
      
-     int _2654435887 mCm219F3DHVwNe_CsrCeK 	 
+      mSD7jHYN8mOif4_CBtIg6 	 
     	  
     		   
      
-    _2654435885 mftnbgRvzOIVyL93HyyWt 	 
+     _13303058356268144079 mCm219F3DHVwNe_CsrCeK 	 
     	  
-    		_2654435887 mCALzjQ0bwpDnngl_oSsi 	 
+    		   
+     
+    _13303058356268144077 mftnbgRvzOIVyL93HyyWt 	 
+    	  
+    		_13303058356268144079 mCALzjQ0bwpDnngl_oSsi 	 
     	 256 mINcNsH05D0QZDej9wl4h 	 
     	  
-    		 _2654435887 mnlCUtQ6kn1Qc7HkEzE0c 	 
+    		 _13303058356268144079 mnlCUtQ6kn1Qc7HkEzE0c 	 
     	  mycwFs63h7Mi3ggRkMEVm 	 
     mN0TszoCQmyzxmobsgV2H 	 
     	  
     		   
-            _175247760966 mce_8CnsU6ESSZfDxaV3C 	 
+            _16232574195069208185 mce_8CnsU6ESSZfDxaV3C 	 
     	  
- _706246330550423 mY2nz8M_6jpSxQZL8EYgU 	 
+ _3176948232212421105 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
-_2654435887 mDd5IIsnjfLI1lcygRsW3 	 
+_13303058356268144079 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		   
      
@@ -5686,17 +6450,17 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
     	  
     		   
   
-            _46082575822310325 mCAk2bmH5F7oeetankJLO 	 
-    	_706246330550423 mFyKKLtdivGGDlk8sYzsf 	 
+            _15915682081708138340 mCAk2bmH5F7oeetankJLO 	 
+    	_3176948232212421105 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
      
      
  
-  _2654435887 mrpQVzv6u8gxvho1qUlil 	 
+  _13303058356268144079 mrpQVzv6u8gxvho1qUlil 	 
     	  
    *float mp3H4249LtCVDCYFqQqz4 	 
-    	  _2654435887 mgkSwnYHQivQIpeAwgr20 	 
+    	  _13303058356268144079 mgkSwnYHQivQIpeAwgr20 	 
   mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
@@ -5715,7 +6479,7 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
     	  
     		   
      
-     mhxtTU7dvZHXCTSg8B8rx 	 _175247760965 mBpPKNB5wfuTOV223BA2r 	 
+     mhxtTU7dvZHXCTSg8B8rx 	 _16232574195069208184 mBpPKNB5wfuTOV223BA2r 	 
     	  
     		   
      
@@ -5724,23 +6488,23 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
   	 1e-4  mECamByxBqjGyTShbPlRQ 	 
     	  
     		   
-    _175247760966 mEc9zv3P8LW8haIvtztwe 	 
+    _16232574195069208185 mEc9zv3P8LW8haIvtztwe 	 
     	  
     		   
 1e-4 mycwFs63h7Mi3ggRkMEVm 	 
     	  mjbtcSgN5ZQfkGDsoYG4l 	 
     	  
     		
-            _46082575822310324 mmhvewuTDMRQuh4yozZj0 	 
+            _15915682081708138341 mmhvewuTDMRQuh4yozZj0 	 
     	  
     		   
      
      
  
-  	 _175247760965 mhGXMe8LHJXydR9dMisHj 	 
+  	 _16232574195069208184 mhGXMe8LHJXydR9dMisHj 	 
    
-            _46082575822310325 mC854TxsErP91YgtWBjLs 	 
-    	  _175247760966 mVOlbMaOu1U0SC2oeKIzP 	 
+            _15915682081708138340 mC854TxsErP91YgtWBjLs 	 
+    	  _16232574195069208185 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
@@ -5748,15 +6512,15 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
              mI_QuD605u2H3qQFyuTju 	 
     	  
     		   
- _11093821926007 myJHqW7fkn_72nVEhKeZ6 	 
+ _5268608556792470480 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
      
  
-  	_175247760965*_175247760966* miAECMSxGwjxrcOKk0DII 	 
-   _46082575822310324-_46082575822310325 muiDYQbmwLxL3PGrwWGeP 	 
-   * mp3H4249LtCVDCYFqQqz4 	_46082575822310324-_46082575822310325 mXAYJa6osZ6HNTIEEBnr0 	 
+  	_16232574195069208184*_16232574195069208185* miAECMSxGwjxrcOKk0DII 	 
+   _15915682081708138341-_15915682081708138340 muiDYQbmwLxL3PGrwWGeP 	 
+   * mp3H4249LtCVDCYFqQqz4 	_15915682081708138341-_15915682081708138340 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
  mriCvhMavpfheoLNc0eCD 	 
     	  
@@ -5767,11 +6531,11 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
     		  mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		   
- _11093821926007 mel3l7ZRXwnAEsy0Wfxj_ 	 
+ _5268608556792470480 mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
     		   
      
- _3005399795325371662 muiDYQbmwLxL3PGrwWGeP 	 
+ _17126222195760917357 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
       mnU2hwoI16_nZ7reLKJTr 	 
@@ -5781,21 +6545,21 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
      
  
 
-                _3005399795325371662 mCm219F3DHVwNe_CsrCeK 	 
+                _17126222195760917357 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
-    _11093821926007 mJTScPpWt8plE9Cz9fDU6 	 
+    _5268608556792470480 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
     
-                _46082574582412734 mRwjoMr_aqph4iL4nu8NS 	 
+                _12512858585554741740 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
      
  
- _2654435885 mriCvhMavpfheoLNc0eCD 	 
+ _13303058356268144077 mriCvhMavpfheoLNc0eCD 	 
   
              mDUyr1RAsHMG7u1BeTW3F 	 
     	  
@@ -5814,7 +6578,7 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
   
      mLfKYVMLDthbyvvLerNPJ 	 
     	  
-  _46082574582412734 mINcNsH05D0QZDej9wl4h 	 
+  _12512858585554741740 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
     
@@ -5827,23 +6591,23 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
     	  
   detect mhORIPgMIfN3Fn8aCQBuU 	 
    const cv maKLz6mCz5anFyVle_MtD 	 
-   Mat& _46082544221278757, vector mYfYoOWdsOLTDCIBT7npX 	 
+   Mat& _17276638435886805939, vector mYfYoOWdsOLTDCIBT7npX 	 
     	  
     		   Marker m_j6ZkbEfLCgUqtaolYTp 	 
     	  
     		   
- & _13372248000692030900, Mat _16987817484368171524, Mat _16988745799786462721,
+ & _17726690318409070815, Mat _2920695669964880276, Mat _14932605280544191270,
                              mOcs0qqtJYmueMnfTyCFx 	 
     	  
-    		   _122444323406234790,  mU8SToe5QpPWgY0z9QAcm 	 
-   _11831288041691086617 mzf4ZxeZY8wF2XnrdYK61 	 
+    		   _3145974845315888936,  mU8SToe5QpPWgY0z9QAcm 	 
+   _606330642723070475 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
   
  mfKhTg3wpiK_YhdQzWWcS 	 
     	  
     		  
     
-    _13372248000692030900.clear mFwk30320retpLBiICndp 	 
+    _17726690318409070815.clear mFwk30320retpLBiICndp 	 
     mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
@@ -5877,7 +6641,7 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
   mtbP4KQJdh36UGELfV2zq 	 
     	  
     		   
- _46082544221278757.type mwTQhkbVNQHd2Xw4EA4fj 	 
+ _17276638435886805939.type mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
      
@@ -5895,7 +6659,7 @@ _2654435887 mDd5IIsnjfLI1lcygRsW3
      
      
  
-_46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP 	 
+_17276638435886805939,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      
@@ -5906,7 +6670,7 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
     	  
    _5695532303110145495  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
-     _46082544221278757 mriCvhMavpfheoLNc0eCD 	 
+     _17276638435886805939 mriCvhMavpfheoLNc0eCD 	 
 
 
     
@@ -5916,7 +6680,7 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
     	  
     		   
      
-  _7867495677376671266 ma6VjqdfajK4BX9gkoGiD 	 
+  _13068154224003753843 ma6VjqdfajK4BX9gkoGiD 	 
     	  
 1 mINcNsH05D0QZDej9wl4h 	 
     	  
@@ -5925,7 +6689,7 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
     
     cv mEMN2sRTwHcTUl7SNSw0d 	 
     	  
-    		   Mat _13977417595633595236  mVOlbMaOu1U0SC2oeKIzP 	 
+    		   Mat _14658983814685479377  mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
@@ -5937,7 +6701,7 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
      
      
  
-  Size _4499373798020342961 mdKhcOUXVqyCMdccisL_a 	 
+  Size _17451659640061119372 mdKhcOUXVqyCMdccisL_a 	 
     	_5695532303110145495.size mdWkXjuaPd4Se0r0SdY1e 	 
     	  
     		   
@@ -5948,10 +6712,10 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
      
     
          myYAiLHDT3JvFKUJCC_FN 	 
-    _6405528642273704444 muQdV4OJL6V6gVxW6AdRy 	 
+    _244032483434193613 muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   _13365150943186347431 mFsSEF_3_iD2mT6nZG9QR 	 
-    	 _46082544221278757.size mwTQhkbVNQHd2Xw4EA4fj 	 
+    	 _17276638435886805939.size mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
      
@@ -5969,7 +6733,7 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
     		 _18062104616271777338.lowResMarkerSize mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
-  _6405528642273704444   mzf4ZxeZY8wF2XnrdYK61 	 
+  _244032483434193613   mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -5978,15 +6742,19 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
    mfKhTg3wpiK_YhdQzWWcS 	 
     	  
     
-            _7867495677376671266 muQdV4OJL6V6gVxW6AdRy 	 
+            _13068154224003753843 muQdV4OJL6V6gVxW6AdRy 	 
     	  
-   float mFlVjO0mLpwnCN5a1Quio 	_18062104616271777338.lowResMarkerSize mlqM0snvYcrWCw2_QjhQi 	 
+    mYKwa_OYBeVXzRPMa_mz6 	 
+    	  
+    		   
+     
+     mFlVjO0mLpwnCN5a1Quio 	_18062104616271777338.lowResMarkerSize mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
      
      
  
-  	 /float mReDuVelSknxaDAoDEmwT 	_6405528642273704444   mgkSwnYHQivQIpeAwgr20 	 
+  	 /float mReDuVelSknxaDAoDEmwT 	_244032483434193613   mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
    mINcNsH05D0QZDej9wl4h 	 
@@ -6002,7 +6770,7 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
      
      
  
-  _7867495677376671266 mYfYoOWdsOLTDCIBT7npX 	 
+  _13068154224003753843 mYfYoOWdsOLTDCIBT7npX 	 
     	  
  0.9 mmCJ670wA_VHgip7JZ1dW 	 
     	  
@@ -6011,25 +6779,33 @@ _46082544221278757,_5695532303110145495,CV_BGR2GRAY muiDYQbmwLxL3PGrwWGeP
     	  
     		   
      
-
-                _4499373798020342961.width mRwjoMr_aqph4iL4nu8NS 	 
+                _17451659640061119372.width mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
-     float mSa4WnWih0z4lSo9RYUGU 	_5695532303110145495.cols mzf4ZxeZY8wF2XnrdYK61 	 
- *_7867495677376671266+0.5 mdmuaUz9iCkCckSUhcEv1 	 
+      mnqZGwZqTTi1dekKxujAE 	 
+    	  
+    		   
+     
+     
+mSa4WnWih0z4lSo9RYUGU 	_5695532303110145495.cols mzf4ZxeZY8wF2XnrdYK61 	 
+ *_13068154224003753843+0.5 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
      
  
 
-                _4499373798020342961.height mif4ZCBkqdiqSYkR9AD0r 	 
+                _17451659640061119372.height mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
- float miAECMSxGwjxrcOKk0DII 	 
+  maOczvhF_v9OTsK70ZZut 	 
     	  
-_5695532303110145495.rows msubWq7nTVSPilWqmTzkx 	*_7867495677376671266+0.5 mftnbgRvzOIVyL93HyyWt 	 
+    		   
+     
+    miAECMSxGwjxrcOKk0DII 	 
+    	  
+_5695532303110145495.rows msubWq7nTVSPilWqmTzkx 	*_13068154224003753843+0.5 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
@@ -6044,11 +6820,11 @@ _5695532303110145495.rows msubWq7nTVSPilWqmTzkx 	*_7867495677376671266+0.5 mftnb
  
  mFlVjO0mLpwnCN5a1Quio 	 
     	  
- _4499373798020342961.width%2 mpi20hzA7RnQ_cRlycwva 	 
+ _17451659640061119372.width%2 mpi20hzA7RnQ_cRlycwva 	 
     	  
  0 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
- _4499373798020342961.width mi940TUip6nLdi0tWD33F 	 
+ _17451659640061119372.width mi940TUip6nLdi0tWD33F 	 
     	  
     mINcNsH05D0QZDej9wl4h 	 
     	  
@@ -6060,7 +6836,7 @@ _5695532303110145495.rows msubWq7nTVSPilWqmTzkx 	*_7867495677376671266+0.5 mftnb
     	  
     		   
      
-      _4499373798020342961.height%2 ma43zKzGwyDT5C3mNdj6s 	 
+      _17451659640061119372.height%2 ma43zKzGwyDT5C3mNdj6s 	 
     	  
     		   
      
@@ -6068,7 +6844,7 @@ _5695532303110145495.rows msubWq7nTVSPilWqmTzkx 	*_7867495677376671266+0.5 mftnb
  
   	0 mgkSwnYHQivQIpeAwgr20 	 
     	  
-    	 _4499373798020342961.height mo7mKuzaX2h9vw2rEj5qh 	 
+    	 _17451659640061119372.height mo7mKuzaX2h9vw2rEj5qh 	 
     	  
     		   
      
@@ -6087,7 +6863,7 @@ _5695532303110145495.rows msubWq7nTVSPilWqmTzkx 	*_7867495677376671266+0.5 mftnb
     	  
     		   
      
-_5695532303110145495,_13977417595633595236,_4499373798020342961,0,0,cv mdssZV6TB06aiisDwN1cX 	 
+_5695532303110145495,_14658983814685479377,_17451659640061119372,0,0,cv mdssZV6TB06aiisDwN1cX 	 
     INTER_NEAREST mhyL_M5gnmQzwyHW45MdA 	 
    mxdAvfSsdzliezc0uyUMk 	 
     	  
@@ -6102,7 +6878,7 @@ _5695532303110145495,_13977417595633595236,_4499373798020342961,0,0,cv mdssZV6TB
     	  
 
       mXkfygpbRUCrOfJA4ktlP 	 
-   _13977417595633595236.empty mbHCSQc_uaLNP9Sf4Lz_n 	 
+   _14658983814685479377.empty mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
     		   
      
@@ -6113,30 +6889,32 @@ _5695532303110145495,_13977417595633595236,_4499373798020342961,0,0,cv mdssZV6TB
      
  
  
-        _13977417595633595236 mM3tRrWbRPqPOU3G4ShKT 	 
+        _14658983814685479377 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
  _5695532303110145495 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
 
      mfySD3GO3N8Vw4agWXnxR 	 
- _10443342942521457501 mM3tRrWbRPqPOU3G4ShKT 	 
+ _129190561668282002 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
      
-   true mhGXMe8LHJXydR9dMisHj 	 
+    mRrVhT0WkQauAZEUJHKOK 	 
+    	  
+   mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
  
     std mU808frSKQDZnEEU3Q3s9 	 
     	  
-    		   thread _9049743692057579683 mVOlbMaOu1U0SC2oeKIzP 	 
+    		   thread _12147666622506655697 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		 
      mwxm9pz2KjGAhBIIfFMf4 	 
     	  
     		   
-   _10443342942521457501 mmCJ670wA_VHgip7JZ1dW 	 
+   _129190561668282002 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
    mN0TszoCQmyzxmobsgV2H 	 
@@ -6149,7 +6927,7 @@ _5695532303110145495,_13977417595633595236,_4499373798020342961,0,0,cv mdssZV6TB
     	  
     		   1 mzf4ZxeZY8wF2XnrdYK61 	 
    
-            _9049743692057579683 myJHqW7fkn_72nVEhKeZ6 	 
+            _12147666622506655697 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     std mfx1fLYDWN4YRZNnQEsJN 	 
     	  
@@ -6194,7 +6972,9 @@ _5695532303110145495,_13977417595633595236,_4499373798020342961,0,0,cv mdssZV6TB
     		   
   mhGXMe8LHJXydR9dMisHj 	
      mgjPImSFwUcUKl9XTKqqB 	
-    else mjbtcSgN5ZQfkGDsoYG4l 	 
+     mUwTrZwI1VfAXDN69k3UA 	 
+    	  
+    	mjbtcSgN5ZQfkGDsoYG4l 	 
 
         _14234691456098337398.resize mtbP4KQJdh36UGELfV2zq 	 
     	  
@@ -6231,7 +7011,7 @@ _5695532303110145495 mlqoNTA3LQoUJF6i5YDFc
 
      mdbRZP7cWFYlUcaGRMsKc 	 
     	  
-    _16957997908701852306 mu_nOcTFwUo8r0uNE351R 	 
+    _12394504057001631557 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
 0 mriCvhMavpfheoLNc0eCD 	 
@@ -6242,11 +7022,13 @@ _5695532303110145495 mlqoNTA3LQoUJF6i5YDFc
      
      
  
-_4382434889108837404 mRwjoMr_aqph4iL4nu8NS 	 
+_3576709793526977325 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
-   false mdmuaUz9iCkCckSUhcEv1 	 
+    mEzFcmvX0IX3FOucgCcVF 	 
+    	  
+    		   mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
@@ -6259,9 +7041,15 @@ _4382434889108837404 mRwjoMr_aqph4iL4nu8NS
     		   
      
      
- float mRHNkLPwUSnx20pmLgrTq 	 
+  mWokjWH0MHqyBOx4j0Oac 	 
     	  
-   _706246330550423 mReDuVelSknxaDAoDEmwT 	 256,0 mgkSwnYHQivQIpeAwgr20 	 
+    		   
+     
+     
+ 
+  	 mRHNkLPwUSnx20pmLgrTq 	 
+    	  
+   _3176948232212421105 mReDuVelSknxaDAoDEmwT 	 256,0 mgkSwnYHQivQIpeAwgr20 	 
     	  mdmuaUz9iCkCckSUhcEv1 	 
     	
     do mnU2hwoI16_nZ7reLKJTr 	 
@@ -6276,15 +7064,15 @@ _4382434889108837404 mRwjoMr_aqph4iL4nu8NS
      
  MarkerCandidate mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
-    _11306931217450568291 mPdHdcAZ6XJhwf8wLtULI 	 
+    _6528263073538749848 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
 
-        _11306931217450568291 mu_nOcTFwUo8r0uNE351R 	 
+        _6528263073538749848 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
  _11288135742209909849 mReDuVelSknxaDAoDEmwT 	 
-  _13977417595633595236  mlqM0snvYcrWCw2_QjhQi 	 
+  _14658983814685479377  mlqM0snvYcrWCw2_QjhQi 	 
     	   mxdAvfSsdzliezc0uyUMk 	 
     	  
     		  
@@ -6305,28 +7093,14 @@ _16594497104544919971 mNDJrNgMXB1tBoFNaJO0d
 
 
 
-
-
-
-
-
-
-
         
 
-
-
-
-
-
-
-
-        _11306931217450568291 mRwjoMr_aqph4iL4nu8NS 	 
+        _6528263073538749848 mRwjoMr_aqph4iL4nu8NS 	 
     	  
    _17990657514663812703 mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
- _11306931217450568291,_13977417595633595236.size mdWkXjuaPd4Se0r0SdY1e 	 
+ _6528263073538749848,_14658983814685479377.size mdWkXjuaPd4Se0r0SdY1e 	 
     	  
     mhyL_M5gnmQzwyHW45MdA 	 
     	  
@@ -6338,13 +7112,6 @@ _16594497104544919971 mNDJrNgMXB1tBoFNaJO0d
      
 
 
-
-
-
-
-
-
-
         
          mJvv2tbrel2xOYjvgipUL 	 
     	  
@@ -6352,13 +7119,13 @@ _16594497104544919971 mNDJrNgMXB1tBoFNaJO0d
       miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
- _9049743692057579683.joinable mbHCSQc_uaLNP9Sf4Lz_n 	 
+ _12147666622506655697.joinable mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
     		   
     mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     
-            _9049743692057579683.join mKpq3GwvJxRduE5RsGgGP 	 
+            _12147666622506655697.join mKpq3GwvJxRduE5RsGgGP 	 
     	   mxdAvfSsdzliezc0uyUMk 	 
  
 
@@ -6369,7 +7136,7 @@ _16594497104544919971 mNDJrNgMXB1tBoFNaJO0d
 
         
          myYAiLHDT3JvFKUJCC_FN 	 
- _5117845360861242934 mM3tRrWbRPqPOU3G4ShKT 	 
+ _16638475367102933605 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
@@ -6381,7 +7148,7 @@ _16594497104544919971 mNDJrNgMXB1tBoFNaJO0d
     	  
     	
 
-        _13372248000692030900.clear mH1xQMRmYb0Y4RDp2hARz 	 
+        _17726690318409070815.clear mH1xQMRmYb0Y4RDp2hARz 	 
      mVOlbMaOu1U0SC2oeKIzP 	 
     	  
  
@@ -6396,10 +7163,13 @@ _16594497104544919971 mNDJrNgMXB1tBoFNaJO0d
          moPdTa5HpJKbS1U6TqDjY 	 
     	  
     		   
-auto &_2654435867:_706246330550423 mycwFs63h7Mi3ggRkMEVm 	 
+ m_6hetAMDOSYN9CmiL4W7 	 
     	  
     		   
-      _2654435867 mM3tRrWbRPqPOU3G4ShKT 	 
+  &_13303058356268144200:_3176948232212421105 mycwFs63h7Mi3ggRkMEVm 	 
+    	  
+    		   
+      _13303058356268144200 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     	0 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
@@ -6414,7 +7184,7 @@ auto &_2654435867:_706246330550423 mycwFs63h7Mi3ggRkMEVm
      
      
  
- _16826166505656310606  mM3tRrWbRPqPOU3G4ShKT 	 
+ _4389716511175480620  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
    std mdssZV6TB06aiisDwN1cX 	 
@@ -6431,13 +7201,16 @@ pow mFsSEF_3_iD2mT6nZG9QR
     		   
      
      
- float m_j6ZkbEfLCgUqtaolYTp 	 
+  maOczvhF_v9OTsK70ZZut 	 
+    	  
+    		   
+ m_j6ZkbEfLCgUqtaolYTp 	 
     	  
     		    mp3H4249LtCVDCYFqQqz4 	 
     	  
     		   
      
-     _5117845360861242934 mmCJ670wA_VHgip7JZ1dW 	 
+     _16638475367102933605 mmCJ670wA_VHgip7JZ1dW 	 
    , 2.f mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
@@ -6445,20 +7218,20 @@ pow mFsSEF_3_iD2mT6nZG9QR
  mlqoNTA3LQoUJF6i5YDFc 	 
     	  
 
-         mtvEQgcnwdOR4zAMwLHDb 	  mReDuVelSknxaDAoDEmwT 	size_t _2654435874  mKcKHr_bTagXAK_pf8btG 	 
+         mtvEQgcnwdOR4zAMwLHDb 	  mReDuVelSknxaDAoDEmwT 	size_t _13303058356268144138  mKcKHr_bTagXAK_pf8btG 	 
     	 0 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
      
  
- _2654435874  mbG1GEmOdh2dXkJZ42sXo 	 
+ _13303058356268144138  mbG1GEmOdh2dXkJZ42sXo 	 
     	  
-    	 _11306931217450568291.size mH1xQMRmYb0Y4RDp2hARz 	 
+    	 _6528263073538749848.size mH1xQMRmYb0Y4RDp2hARz 	 
     	  
   mJTScPpWt8plE9Cz9fDU6 	 
     	  
- _2654435874 mkGHGzUDDVqHIjIdYGe6S 	 
+ _13303058356268144138 mkGHGzUDDVqHIjIdYGe6S 	 
     	  
     		   
     mzf4ZxeZY8wF2XnrdYK61 	 
@@ -6471,20 +7244,20 @@ pow mFsSEF_3_iD2mT6nZG9QR
             
             cv mpJt2kGThF7wb3VNzG38b 	 
     	  
-    	Mat _12106555810830409014,_2582835759643989132 mVOlbMaOu1U0SC2oeKIzP 	 
+    	Mat _15992684031433922312,_10663945753493258003 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
     
 
             cv mpJt2kGThF7wb3VNzG38b 	 
-    	  Mat _16998117750010373180 mu_nOcTFwUo8r0uNE351R 	 
-    	_13977417595633595236 mPdHdcAZ6XJhwf8wLtULI 	 
+    	  Mat _4885984703856395612 mu_nOcTFwUo8r0uNE351R 	 
+    	_14658983814685479377 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
      
-            MarkerCandidate _2830475729591017193  ma6VjqdfajK4BX9gkoGiD 	 _11306931217450568291 mZnfmoDANjVLDjZfzM5MR 	_2654435874 mJtGCV8zXQjnVDVBVdvFZ 	 
+            MarkerCandidate _2464785045917898834  ma6VjqdfajK4BX9gkoGiD 	 _6528263073538749848 mZnfmoDANjVLDjZfzM5MR 	_13303058356268144138 mJtGCV8zXQjnVDVBVdvFZ 	 
     	 mJTScPpWt8plE9Cz9fDU6 	 
     	  
              mJvv2tbrel2xOYjvgipUL 	 
@@ -6492,7 +7265,7 @@ pow mFsSEF_3_iD2mT6nZG9QR
     	 miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
- _10443342942521457501 mhyL_M5gnmQzwyHW45MdA 	 
+ _129190561668282002 mhyL_M5gnmQzwyHW45MdA 	 
     	  
   mJkMyi0NbVRDgE__LMR_m 	 
     	  
@@ -6504,7 +7277,7 @@ pow mFsSEF_3_iD2mT6nZG9QR
                 
                 
                 
-                size_t _16117435988896634872  mM3tRrWbRPqPOU3G4ShKT 	 
+                size_t _8260498189655844414  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
       0 mlqoNTA3LQoUJF6i5YDFc 	 
@@ -6517,16 +7290,16 @@ pow mFsSEF_3_iD2mT6nZG9QR
      
      
  mSa4WnWih0z4lSo9RYUGU 	 
-    	  size_t _2654435881  mKcKHr_bTagXAK_pf8btG 	 
+    	  size_t _13303058356268144073  mKcKHr_bTagXAK_pf8btG 	 
    1 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
-    _2654435881  mYfYoOWdsOLTDCIBT7npX 	 _14234691456098337398.size mKpq3GwvJxRduE5RsGgGP 	 
+    _13303058356268144073  mYfYoOWdsOLTDCIBT7npX 	 _14234691456098337398.size mKpq3GwvJxRduE5RsGgGP 	 
     	  
     mhGXMe8LHJXydR9dMisHj 	 
     	  
-    	 _2654435881 mEZrtAN7pSZl5y4oEHd38 	 
+    	 _13303058356268144073 mEZrtAN7pSZl5y4oEHd38 	 
     	  
     		   
  mgkSwnYHQivQIpeAwgr20 	 
@@ -6545,9 +7318,9 @@ pow mFsSEF_3_iD2mT6nZG9QR
     	  
     		   
      
-  _11306931217450568291 mA4oXllup8K3T5dxkluRR 	 
+  _6528263073538749848 mA4oXllup8K3T5dxkluRR 	 
     	  
-    		  _2654435874 mUB1yrSrKOwldqxmCatN2 	 
+    		  _13303058356268144138 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -6557,7 +7330,7 @@ pow mFsSEF_3_iD2mT6nZG9QR
     	  / pow mp3H4249LtCVDCYFqQqz4 	 
     	  
     		   
-     4, _2654435881 msubWq7nTVSPilWqmTzkx 	 
+     4, _13303058356268144073 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   mij4fDpzx7A1fAEkEKDEN 	 
     	  
@@ -6565,12 +7338,12 @@ pow mFsSEF_3_iD2mT6nZG9QR
      
      
  
-  	 _16826166505656310606 muiDYQbmwLxL3PGrwWGeP 	 
-  _16117435988896634872  mif4ZCBkqdiqSYkR9AD0r 	 
+  	 _4389716511175480620 muiDYQbmwLxL3PGrwWGeP 	 
+  _8260498189655844414  mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
      
-  _2654435881 mINcNsH05D0QZDej9wl4h 	 
+  _13303058356268144073 mINcNsH05D0QZDej9wl4h 	 
     	  
 
                      mFK5JCwqLjSVNjbuFv1Xz 	 
@@ -6579,16 +7352,16 @@ pow mFsSEF_3_iD2mT6nZG9QR
      
      
  
-  	 break mhGXMe8LHJXydR9dMisHj 	 
+  	  mpDI48gcBVmyAktanjCOQ 	mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
 
                  mbYMUxVFybbviIFqRhN2f 	 
     	  
    
-                _16998117750010373180 muQdV4OJL6V6gVxW6AdRy 	 
+                _4885984703856395612 muQdV4OJL6V6gVxW6AdRy 	 
     _14234691456098337398 mWkGo8xUdRIKgJ1DEUvvn 	 
-    _16117435988896634872 mbViqhyIcr6lGWibuo3Im 	 
+    _8260498189655844414 mbViqhyIcr6lGWibuo3Im 	 
    mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
@@ -6596,19 +7369,23 @@ pow mFsSEF_3_iD2mT6nZG9QR
      
                 
                  mnqZGwZqTTi1dekKxujAE 	 
-   _46082576082412952 muQdV4OJL6V6gVxW6AdRy 	 
+   _12315412216670737167 muQdV4OJL6V6gVxW6AdRy 	 
     	  
-   float mtbP4KQJdh36UGELfV2zq 	 
+    maISPbNJKXWB2QqsuuExM 	 
     	  
     		   
      
-     _16998117750010373180.cols mhyL_M5gnmQzwyHW45MdA 	 
+    mtbP4KQJdh36UGELfV2zq 	 
+    	  
+    		   
+     
+     _4885984703856395612.cols mhyL_M5gnmQzwyHW45MdA 	 
     	  
     /float miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
      
-    _13977417595633595236.cols mhyL_M5gnmQzwyHW45MdA 	 
+    _14658983814685479377.cols mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
@@ -6620,14 +7397,13 @@ pow mFsSEF_3_iD2mT6nZG9QR
     		   
      
       mhORIPgMIfN3Fn8aCQBuU 	 
-  auto& _2654435881 : _2830475729591017193 mycwFs63h7Mi3ggRkMEVm 	   _2654435881  mYPzKChOwisp1u2IoCgxk 	 
+  auto& _13303058356268144073 : _2464785045917898834 mycwFs63h7Mi3ggRkMEVm 	   _13303058356268144073  mYPzKChOwisp1u2IoCgxk 	 
     	  
     		   
-   _46082576082412952 mINcNsH05D0QZDej9wl4h 	 
+   _12315412216670737167 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
-
 
              mICILgDpdCTDSJqQAn06L 	 
     	  
@@ -6640,24 +7416,24 @@ pow mFsSEF_3_iD2mT6nZG9QR
     	  
     		   
      
- _16998117750010373180, _12106555810830409014,  Size mp3H4249LtCVDCYFqQqz4 	 
+ _4885984703856395612, _15992684031433922312,  Size mp3H4249LtCVDCYFqQqz4 	 
     	  
- _5117845360861242934,_5117845360861242934 mgkSwnYHQivQIpeAwgr20 	 
+ _16638475367102933605,_16638475367102933605 mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
      
      
- ,_2830475729591017193 msubWq7nTVSPilWqmTzkx 	  mJTScPpWt8plE9Cz9fDU6 	 
+ ,_2464785045917898834 msubWq7nTVSPilWqmTzkx 	  mJTScPpWt8plE9Cz9fDU6 	 
 
              meWm4MhzbcJwavtoh469w 	 
     	  
     		   
      
-   _175247760135, _5927705439163353328 mriCvhMavpfheoLNc0eCD 	 
+   _16232574195069562653, _2394613391546474355 mriCvhMavpfheoLNc0eCD 	 
    
              mPBSejyyYBZX7KoLjIvqq 	 
     	  
-    		 _11093822290791,_11093821884773 mVOlbMaOu1U0SC2oeKIzP 	 
+    		 _5268605234497773616,_5268608555081593998 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
    
@@ -6667,33 +7443,26 @@ pow mFsSEF_3_iD2mT6nZG9QR
     	  
     		   
      
-    _12106555810830409014,&_11093822290791,&_11093821884773 mzf4ZxeZY8wF2XnrdYK61 	 
+    _15992684031433922312,&_5268605234497773616,&_5268608555081593998 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
   mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
 
-            _12106555810830409014.copyTo miAECMSxGwjxrcOKk0DII 	 
+            _15992684031433922312.copyTo miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
      
-    _2582835759643989132 mzf4ZxeZY8wF2XnrdYK61 	 
+    _10663945753493258003 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     	 mhGXMe8LHJXydR9dMisHj 	
-            string _8534942360520951321 mriCvhMavpfheoLNc0eCD 	 
+            string _13962554610986522386 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
      
      
  
-
-
-
-
-
-
-
 
              mwQUfI7G4pBH6IJQiBjmU 	 
     	  
@@ -6712,7 +7481,7 @@ pow mFsSEF_3_iD2mT6nZG9QR
  
 detect mhxtTU7dvZHXCTSg8B8rx 	 
     	  
-  _2582835759643989132, _175247760135, _5927705439163353328,_8534942360520951321 msubWq7nTVSPilWqmTzkx 	 
+  _10663945753493258003, _16232574195069562653, _2394613391546474355,_13962554610986522386 msubWq7nTVSPilWqmTzkx 	 
     	  
     		 mzf4ZxeZY8wF2XnrdYK61 	 
     
@@ -6720,30 +7489,30 @@ detect mhxtTU7dvZHXCTSg8B8rx
     	  
     		   
      
-                _13372248000692030900.push_back mhxtTU7dvZHXCTSg8B8rx 	 
+                _17726690318409070815.push_back mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
      
      
  
-  _11306931217450568291 mNDJrNgMXB1tBoFNaJO0d 	 
+  _6528263073538749848 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
     		   
      
      
- _2654435874 mUB1yrSrKOwldqxmCatN2 	 
+ _13303058356268144138 mUB1yrSrKOwldqxmCatN2 	 
     	  
      msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
   mPdHdcAZ6XJhwf8wLtULI 	 
     	 
-                _13372248000692030900.back mKpq3GwvJxRduE5RsGgGP 	 
+                _17726690318409070815.back mKpq3GwvJxRduE5RsGgGP 	 
     	 .id  ma6VjqdfajK4BX9gkoGiD 	 
-    	 _175247760135 mxdAvfSsdzliezc0uyUMk 	 
+    	 _16232574195069562653 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		
-                _13372248000692030900.back mbHCSQc_uaLNP9Sf4Lz_n 	 
+                _17726690318409070815.back mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
     		   
      
@@ -6751,10 +7520,10 @@ detect mhxtTU7dvZHXCTSg8B8rx
  
   .dict_info mdKhcOUXVqyCMdccisL_a 	 
     	  
-    		 _8534942360520951321 mJTScPpWt8plE9Cz9fDU6 	 
+    		 _13962554610986522386 mJTScPpWt8plE9Cz9fDU6 	 
     	  
 
-                _13372248000692030900.back mH1xQMRmYb0Y4RDp2hARz 	 
+                _17726690318409070815.back mH1xQMRmYb0Y4RDp2hARz 	 
     	  
     .contourPoints muQdV4OJL6V6gVxW6AdRy 	 
     	  
@@ -6762,10 +7531,10 @@ detect mhxtTU7dvZHXCTSg8B8rx
      
      
  
-  _11306931217450568291 mNDJrNgMXB1tBoFNaJO0d 	 
+  _6528263073538749848 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
     		   
-   _2654435874 mbViqhyIcr6lGWibuo3Im 	 
+   _13303058356268144138 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
@@ -6782,7 +7551,7 @@ detect mhxtTU7dvZHXCTSg8B8rx
      
      
  
-  _13372248000692030900.back mKpq3GwvJxRduE5RsGgGP 	 
+  _17726690318409070815.back mKpq3GwvJxRduE5RsGgGP 	 
     	  
     		   
      
@@ -6793,15 +7562,15 @@ detect mhxtTU7dvZHXCTSg8B8rx
      
  
   	 ,
-                            _13372248000692030900.back mcznTYeCGOAygtXXAPYS_ 	 
+                            _17726690318409070815.back mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
      
      
  
 .begin mwTQhkbVNQHd2Xw4EA4fj 	 
- + 4 - _5927705439163353328,
-                            _13372248000692030900.back mFwk30320retpLBiICndp 	 
+ + 4 - _2394613391546474355,
+                            _17726690318409070815.back mFwk30320retpLBiICndp 	 
     	 .end mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
@@ -6814,12 +7583,6 @@ detect mhxtTU7dvZHXCTSg8B8rx
      mINcNsH05D0QZDej9wl4h 	 
     	  
    
-
-
-
-
-
-
                  mMNJIG0z6TLGgbjrhllmy 	 
     	  
     		   
@@ -6847,7 +7610,7 @@ detect mhxtTU7dvZHXCTSg8B8rx
      
      
  
-  	_12106555810830409014,_706246330550423 mAnDeXfeHaujEzGBbrjil 	 
+  	_15992684031433922312,_3176948232212421105 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
     mPdHdcAZ6XJhwf8wLtULI 	 
@@ -6870,13 +7633,13 @@ detect mhxtTU7dvZHXCTSg8B8rx
     	  
     		   
      
-_11306931217450568291 mY2nz8M_6jpSxQZL8EYgU 	 
+_6528263073538749848 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  
-  _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 
+  _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
       mgkSwnYHQivQIpeAwgr20 	 
@@ -6901,7 +7664,7 @@ _11306931217450568291 mY2nz8M_6jpSxQZL8EYgU
     	  
 
          mEwOO8zzJcEkF96gfFa1e 	 
-    	 mhxtTU7dvZHXCTSg8B8rx 	 _13372248000692030900.size maHkatHu0Jap4oTaT5q4_ 	 
+    	 mhxtTU7dvZHXCTSg8B8rx 	 _17726690318409070815.size maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		   
      mYsjCP2nXqW2Jls3JAUkc 	 
@@ -6927,7 +7690,7 @@ MarkerDetector myuwTFtkH1L5Be2OVY9rt
      
      
  
-  	 _16957997908701852306  mHkLXuUOlyX2vZI7w3FQj 	 
+  	 _12394504057001631557  mHkLXuUOlyX2vZI7w3FQj 	 
     	  
     		   
  _18062104616271777338.NAttemptsAutoThresFix mycwFs63h7Mi3ggRkMEVm 	 
@@ -6954,10 +7717,14 @@ MarkerDetector myuwTFtkH1L5Be2OVY9rt
      
  
   	 
-            _4382434889108837404 muQdV4OJL6V6gVxW6AdRy 	 
+            _3576709793526977325 muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
-    true mVOlbMaOu1U0SC2oeKIzP 	 
+     mgor9wB6mrVARR8vJt7rC 	 
+    	  
+    		   
+     
+   mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
@@ -6966,9 +7733,11 @@ MarkerDetector myuwTFtkH1L5Be2OVY9rt
     	  
          mUwTrZwI1VfAXDN69k3UA 	 
     	  
-    		  _4382434889108837404 mKcKHr_bTagXAK_pf8btG 	 
+    		  _3576709793526977325 mKcKHr_bTagXAK_pf8btG 	 
     	  
- false mPdHdcAZ6XJhwf8wLtULI 	 
+  me9YsE5_K5dlCgWRVtztQ 	 
+    	  
+    		mPdHdcAZ6XJhwf8wLtULI 	 
    
      mbYMUxVFybbviIFqRhN2f 	 
     	  
@@ -6979,7 +7748,7 @@ MarkerDetector myuwTFtkH1L5Be2OVY9rt
 while mp3H4249LtCVDCYFqQqz4 	 
     	  
     		   
-_4382434889108837404 mmCJ670wA_VHgip7JZ1dW 	 
+_3576709793526977325 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
     mxdAvfSsdzliezc0uyUMk 	 
@@ -7006,13 +7775,13 @@ _4382434889108837404 mmCJ670wA_VHgip7JZ1dW
     	  
    
          meWm4MhzbcJwavtoh469w 	 
-    	 _16937201201546000252 muQdV4OJL6V6gVxW6AdRy 	 
+    	 _10168097341276716268 muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
      
  _5695532316837479313 mSa4WnWih0z4lSo9RYUGU 	 
     	  
-_706246330550423 msubWq7nTVSPilWqmTzkx 	 
+_3176948232212421105 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -7020,7 +7789,7 @@ _706246330550423 msubWq7nTVSPilWqmTzkx
     mhGXMe8LHJXydR9dMisHj 	 
     	  
     	
-         mXkfygpbRUCrOfJA4ktlP 	 _16937201201546000252 mel3l7ZRXwnAEsy0Wfxj_ 	 
+         mXkfygpbRUCrOfJA4ktlP 	 _10168097341276716268 mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
     0 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
@@ -7028,9 +7797,11 @@ _706246330550423 msubWq7nTVSPilWqmTzkx
   
             _18062104616271777338.ThresHold mRwjoMr_aqph4iL4nu8NS 	 
     	  
-    		  float mmmC9tOGiLK6UaJr0E5vz 	 
+    		   maOczvhF_v9OTsK70ZZut 	 
     	  
-    		  _16937201201546000252 mzf4ZxeZY8wF2XnrdYK61 	 
+    		mmmC9tOGiLK6UaJr0E5vz 	 
+    	  
+    		  _10168097341276716268 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -7047,7 +7818,7 @@ _706246330550423 msubWq7nTVSPilWqmTzkx
 #ifdef debug_lines
     cv mU808frSKQDZnEEU3Q3s9 	 
  imshow miAECMSxGwjxrcOKk0DII 	 
-    	  "\x69\x6d\x61\x67\x65\x2d\x6c\x69\x6e\x65\x73",image mycwFs63h7Mi3ggRkMEVm 	 
+    	  "\x5c\x78\x36\x39\x5c\x78\x36\x64\x5c\x78\x36\x31\x5c\x78\x36\x37\x5c\x78\x36\x35\x5c\x78\x32\x64\x5c\x78\x36\x63\x5c\x78\x36\x39\x5c\x78\x36\x65\x5c\x78\x36\x35\x5c\x78\x37\x33",image mycwFs63h7Mi3ggRkMEVm 	 
     	  
     	 mINcNsH05D0QZDej9wl4h 	 
     	  
@@ -7074,7 +7845,7 @@ _706246330550423 msubWq7nTVSPilWqmTzkx
     	  
     		   
      
-_46082544221278757.cols muOzaq9SXefX6wOasanyX 	_13977417595633595236.cols mhyL_M5gnmQzwyHW45MdA 	 
+_17276638435886805939.cols muOzaq9SXefX6wOasanyX 	_14658983814685479377.cols mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		  mjbtcSgN5ZQfkGDsoYG4l 	 
     	  
@@ -7083,7 +7854,7 @@ _46082544221278757.cols muOzaq9SXefX6wOasanyX 	_13977417595633595236.cols mhyL_M
      
  
 
-        _14028278894506040778 mSa4WnWih0z4lSo9RYUGU 	_13372248000692030900,_13977417595633595236.size mf_hJsy06Me1epT4PRx_l 	 
+        _14028278894506040778 mSa4WnWih0z4lSo9RYUGU 	_17726690318409070815,_14658983814685479377.size mf_hJsy06Me1epT4PRx_l 	 
     	  
     		   
      
@@ -7127,7 +7898,8 @@ _46082544221278757.cols muOzaq9SXefX6wOasanyX 	_13977417595633595236.cols mhyL_M
     		   
      
      
-auto &_175247759360:_10242768842256594623 mXAYJa6osZ6HNTIEEBnr0 	 
+ m_6hetAMDOSYN9CmiL4W7 	 
+    	&_16232574195041803256:_10242768842256594623 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      
@@ -7141,25 +7913,25 @@ auto &_175247759360:_10242768842256594623 mXAYJa6osZ6HNTIEEBnr0
     	  
   find mtbP4KQJdh36UGELfV2zq 	 
     	  
-    _13372248000692030900.begin mdWkXjuaPd4Se0r0SdY1e 	 
+    _17726690318409070815.begin mdWkXjuaPd4Se0r0SdY1e 	 
     	  
-,_13372248000692030900.end mcznTYeCGOAygtXXAPYS_ 	 
+,_17726690318409070815.end mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
      
 ,Marker mtbP4KQJdh36UGELfV2zq 	 
     	  
-    		  _175247759360.first muiDYQbmwLxL3PGrwWGeP 	 
+    		  _16232574195041803256.first muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
-     mPlk6hpBhStcHkX9pfoTY 	 _13372248000692030900.end mzeHK1hG1SYQMISNMWMB8 	 
+     mPlk6hpBhStcHkX9pfoTY 	 _17726690318409070815.end mzeHK1hG1SYQMISNMWMB8 	 
     muiDYQbmwLxL3PGrwWGeP 	 
     	  
     
-                       _175247759360.second mif4ZCBkqdiqSYkR9AD0r 	 
+                       _16232574195041803256.second mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
      
@@ -7169,7 +7941,7 @@ auto &_175247759360:_10242768842256594623 mXAYJa6osZ6HNTIEEBnr0
     	  
     		   
      
-  _175247759360.second-1,0 mzf4ZxeZY8wF2XnrdYK61 	 
+  _16232574195041803256.second-1,0 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     	 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
@@ -7191,7 +7963,7 @@ Marker mEc9zv3P8LW8haIvtztwe
      
      
  
-  	 _5960140211611038134 mJTScPpWt8plE9Cz9fDU6 	 
+  	 _2206836681894751447 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
@@ -7200,7 +7972,7 @@ Marker mEc9zv3P8LW8haIvtztwe
 
          ms9iveRK8Fk_QtPMDvDcP 	 
     	  
-    		  auto _2654435878:_6872264293741719360 mXAYJa6osZ6HNTIEEBnr0 	 
+    		   mvAxy99EwaX0EkXFRf6SN 	_13303058356268144134:_6872264293741719360 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
    mLdYY4X2b7VOjtTSnd7Hj 	 
     	  
@@ -7212,10 +7984,10 @@ Marker mEc9zv3P8LW8haIvtztwe
      
 find mReDuVelSknxaDAoDEmwT 	 
     	  
-    		   _13372248000692030900.begin mbHCSQc_uaLNP9Sf4Lz_n 	 
+    		   _17726690318409070815.begin mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
     		   
-    ,_13372248000692030900.end mcznTYeCGOAygtXXAPYS_ 	 
+    ,_17726690318409070815.end mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
      
@@ -7225,7 +7997,7 @@ find mReDuVelSknxaDAoDEmwT
      
      
  
-  	_2654435878.id muiDYQbmwLxL3PGrwWGeP 	 
+  	_13303058356268144134.id muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      
@@ -7233,7 +8005,7 @@ find mReDuVelSknxaDAoDEmwT
     	  
     		   
      
-      maDn6NcmB5JPmBvJglMEd 	 _13372248000692030900.end maHkatHu0Jap4oTaT5q4_ 	 
+      maDn6NcmB5JPmBvJglMEd 	 _17726690318409070815.end maHkatHu0Jap4oTaT5q4_ 	 
     	  mlqM0snvYcrWCw2_QjhQi 	 
     	 mT_x8cqp5t43PgqNMR8gO 	 
 
@@ -7249,7 +8021,7 @@ find mReDuVelSknxaDAoDEmwT
      
      
  
-  	_2654435878.id mXAYJa6osZ6HNTIEEBnr0 	 
+  	_13303058356268144134.id mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
       mZk2lUQMDVDhOLQdg9s92 	 
@@ -7262,7 +8034,7 @@ find mReDuVelSknxaDAoDEmwT
   
                      mBuRRlPSkgfIqW4MkJEkn 	 
     	  
-    		_10242768842256594623.at mp3H4249LtCVDCYFqQqz4 	_2654435878.id mhyL_M5gnmQzwyHW45MdA 	 
+    		_10242768842256594623.at mp3H4249LtCVDCYFqQqz4 	_13303058356268144134.id mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
@@ -7274,13 +8046,13 @@ find mReDuVelSknxaDAoDEmwT
     		   
      
  
-                        _5960140211611038134.push_back mSa4WnWih0z4lSo9RYUGU 	 
+                        _2206836681894751447.push_back mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
      
      
  
- _2654435878 mhyL_M5gnmQzwyHW45MdA 	 
+ _13303058356268144134 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
@@ -7307,7 +8079,7 @@ find mReDuVelSknxaDAoDEmwT
      
      
  
-  	_5960140211611038134.size mcznTYeCGOAygtXXAPYS_ 	 
+  	_2206836681894751447.size mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
      
@@ -7322,28 +8094,28 @@ find mReDuVelSknxaDAoDEmwT
     
              mmB6x9VkGrq_qpFtMKL7A 	 
     	  
-    		_15583424589716308867 mnU2hwoI16_nZ7reLKJTr 	 
+    		_16807308463767004315 mnU2hwoI16_nZ7reLKJTr 	 
     	  
     		  
-                _15583424589716308867 mSa4WnWih0z4lSo9RYUGU 	 
+                _16807308463767004315 mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
      
-const Marker &_2654435878 msubWq7nTVSPilWqmTzkx 	 
+const Marker &_13303058356268144134 msubWq7nTVSPilWqmTzkx 	 
     	  
   mLdYY4X2b7VOjtTSnd7Hj 	 
 
-                    _1753426482732187156._2329825236964917351 mSa4WnWih0z4lSo9RYUGU 	 
+                    _12469364278809815631._2329825236964917351 mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
-  _2654435878 mXAYJa6osZ6HNTIEEBnr0 	 
+  _13303058356268144134 mXAYJa6osZ6HNTIEEBnr0 	 
    mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
     
                  muuG2jhk4iNsA9KNmj6oA 	 
     	
-                _4191776636076832364 _1753426482732187156 mdmuaUz9iCkCckSUhcEv1 	 
+                _4191776636076832364 _12469364278809815631 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
@@ -7351,7 +8123,7 @@ const Marker &_2654435878 msubWq7nTVSPilWqmTzkx
  
   	
                  mCujczJix6jMpJcynoBiA 	 
-   _12078546980626200530 mKcKHr_bTagXAK_pf8btG 	 
+   _3412165392495317931 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      
@@ -7364,9 +8136,13 @@ const Marker &_2654435878 msubWq7nTVSPilWqmTzkx
     	  
     		   
      
-    _14495289647360200512 myJHqW7fkn_72nVEhKeZ6 	std mpJt2kGThF7wb3VNzG38b 	 numeric_limits mYfYoOWdsOLTDCIBT7npX 	 
+    _17998515892213527232 myJHqW7fkn_72nVEhKeZ6 	std mpJt2kGThF7wb3VNzG38b 	 numeric_limits mYfYoOWdsOLTDCIBT7npX 	 
     	  
- double mel3l7ZRXwnAEsy0Wfxj_ 	 
+  mPBSejyyYBZX7KoLjIvqq 	 
+    	  
+    		   
+     
+   mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
     		    mBBHVSlvDGP5NVUfEuhuf 	 
     	  
@@ -7389,20 +8165,22 @@ const Marker &_2654435878 msubWq7nTVSPilWqmTzkx
     	  
     		   
      
-  int,_15583424589716308867 m_j6ZkbEfLCgUqtaolYTp 	 
+  int,_16807308463767004315 m_j6ZkbEfLCgUqtaolYTp 	 
     	  
- _559659927413549244 mdmuaUz9iCkCckSUhcEv1 	 
+ _5298924430305139424 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		
              mVRbVdVjFvNmKzGv4WiNp 	 
-    	 auto &_11093822291364:_5960140211611038134 muiDYQbmwLxL3PGrwWGeP 	 
+    	  mgxs4jaOm5WhsuDH7hsbo 	 
+    	  
+    		 &_5268605234514274795:_2206836681894751447 muiDYQbmwLxL3PGrwWGeP 	 
 
-                _559659927413549244.insert mhxtTU7dvZHXCTSg8B8rx 	 
+                _5298924430305139424.insert mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
      
-  mJkMyi0NbVRDgE__LMR_m 	_11093822291364.id,_15583424589716308867 mFsSEF_3_iD2mT6nZG9QR 	 
-    	 _11093822291364 msubWq7nTVSPilWqmTzkx 	 
+  mJkMyi0NbVRDgE__LMR_m 	_5268605234514274795.id,_16807308463767004315 mFsSEF_3_iD2mT6nZG9QR 	 
+    	 _5268605234514274795 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -7421,17 +8199,17 @@ const Marker &_2654435878 msubWq7nTVSPilWqmTzkx
      
      
  
-  	 size_t _706246351566300 mM3tRrWbRPqPOU3G4ShKT 	 
+  	 size_t _3175967376861678913 mM3tRrWbRPqPOU3G4ShKT 	 
    0 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
      
  
- _706246351566300 mqEAvVDOCXqrrwrTRByrM 	 
+ _3175967376861678913 mqEAvVDOCXqrrwrTRByrM 	 
     	 _3822229300092794986.size mbHCSQc_uaLNP9Sf4Lz_n 	 
    mVOlbMaOu1U0SC2oeKIzP 	 
-_706246351566300 mkGHGzUDDVqHIjIdYGe6S 	 
+_3175967376861678913 mkGHGzUDDVqHIjIdYGe6S 	 
     	  
     		   
      
@@ -7449,7 +8227,7 @@ _706246351566300 mkGHGzUDDVqHIjIdYGe6S
      
      
                  moNuUrvhPRwgFBZS8fSa1 	 
-    	 &_706246333004210 mif4ZCBkqdiqSYkR9AD0r 	 
+    	 &_3176948352186414039 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     	_3822229300092794986 mFyKKLtdivGGDlk8sYzsf 	 
     	  
@@ -7457,15 +8235,15 @@ _706246351566300 mkGHGzUDDVqHIjIdYGe6S
      
      
  
-  _706246351566300 mrpQVzv6u8gxvho1qUlil 	 
+  _3175967376861678913 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
     mdmuaUz9iCkCckSUhcEv1 	 
  
-                _4191776636076832364 _3005399639448407390 mlqoNTA3LQoUJF6i5YDFc 	
-                _3005399639448407390._2329825236964917351 mFsSEF_3_iD2mT6nZG9QR 	 
+                _4191776636076832364 _4970544023979479897 mlqoNTA3LQoUJF6i5YDFc 	
+                _4970544023979479897._2329825236964917351 mFsSEF_3_iD2mT6nZG9QR 	 
     	  
-    	_706246333004210 mXAYJa6osZ6HNTIEEBnr0 	 
+    	_3176948352186414039 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      
@@ -7477,7 +8255,11 @@ _706246351566300 mkGHGzUDDVqHIjIdYGe6S
     	  
     		   
      
-  auto &_11093822291002:_559659927413549244 msubWq7nTVSPilWqmTzkx 	 
+   mZHJfF8VODcHrGq0YEwM_ 	 
+    	  
+    		   
+     
+&_5268605234514277940:_5298924430305139424 msubWq7nTVSPilWqmTzkx 	 
   mfKhTg3wpiK_YhdQzWWcS 	 
     	  
     		   
@@ -7488,9 +8270,9 @@ _706246351566300 mkGHGzUDDVqHIjIdYGe6S
                      mVHGLK1C5RNdKdXzDgMZU 	 
     	  
     		   
-  _11093822291002.second._1753426482732187156._14033480569961022451 mp3H4249LtCVDCYFqQqz4 	 
+  _5268605234514277940.second._12469364278809815631._14033480569961022451 mp3H4249LtCVDCYFqQqz4 	 
     	  
-   _3005399639448407390._2320218127778479373 mzeHK1hG1SYQMISNMWMB8 	 
+   _4970544023979479897._2320218127778479373 mzeHK1hG1SYQMISNMWMB8 	 
     	  
     		   
     mXAYJa6osZ6HNTIEEBnr0 	 
@@ -7508,7 +8290,7 @@ _706246351566300 mkGHGzUDDVqHIjIdYGe6S
     		   
  
                          mvAxy99EwaX0EkXFRf6SN 	 
-    	 _706246353090457 ma6VjqdfajK4BX9gkoGiD 	 
+    	 _3176008349054602175 ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
      
@@ -7518,8 +8300,8 @@ _706246351566300 mkGHGzUDDVqHIjIdYGe6S
     	  
     		   
      
-    _11093822291002.second._1753426482732187156._2320218127778479373 mH1xQMRmYb0Y4RDp2hARz 	 
-    	 -_3005399639448407390._2320218127778479373 mf_hJsy06Me1epT4PRx_l 	 
+    _5268605234514277940.second._12469364278809815631._2320218127778479373 mH1xQMRmYb0Y4RDp2hARz 	 
+    	 -_4970544023979479897._2320218127778479373 mf_hJsy06Me1epT4PRx_l 	 
     	  
      mmCJ670wA_VHgip7JZ1dW 	 
     	  
@@ -7533,17 +8315,17 @@ _706246351566300 mkGHGzUDDVqHIjIdYGe6S
                          m_6hetAMDOSYN9CmiL4W7 	 
     	  
     		   
-    _6807153762894465340 myJHqW7fkn_72nVEhKeZ6 	 
+    _6783445603442262432 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
      
  
   fabs mFsSEF_3_iD2mT6nZG9QR 	 
-   _11093822291002.second._1753426482732187156._2462547792112398716 mH1xQMRmYb0Y4RDp2hARz 	-_3005399639448407390._2462547792112398716 mdWkXjuaPd4Se0r0SdY1e 	 
+   _5268605234514277940.second._12469364278809815631._2462547792112398716 mH1xQMRmYb0Y4RDp2hARz 	-_4970544023979479897._2462547792112398716 mdWkXjuaPd4Se0r0SdY1e 	 
     muiDYQbmwLxL3PGrwWGeP 	 
     	  
- /_11093822291002.second._1753426482732187156._2462547792112398716 mf_hJsy06Me1epT4PRx_l 	 
+ /_5268605234514277940.second._12469364278809815631._2462547792112398716 mf_hJsy06Me1epT4PRx_l 	 
     	   mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
@@ -7551,40 +8333,45 @@ _706246351566300 mkGHGzUDDVqHIjIdYGe6S
 
                          mikiSyOnVry6pvQ1Ds28H 	 
     	  
-    		  _6807153762894465340 mca1GaR7Rv9qOZsisqKBB 	 
+    		  _6783445603442262432 mca1GaR7Rv9qOZsisqKBB 	 
     0.3f  mKdH1o6rFuMJ1Fl0PA_sn 	 
     	  
- _706246353090457 mlP1m6taP4mQVYA_j8Oxe 	 
+ _3176008349054602175 mlP1m6taP4mQVYA_j8Oxe 	 
     	  
     		   
- _11093822291002.second._14495289647360200512 muiDYQbmwLxL3PGrwWGeP 	 
+ _5268605234514277940.second._17998515892213527232 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		    mN0TszoCQmyzxmobsgV2H 	 
     	  
     		   
 
-                            _11093822291002.second._12078546980626200530 mM3tRrWbRPqPOU3G4ShKT 	static_cast mbG1GEmOdh2dXkJZ42sXo 	 
+                            _5268605234514277940.second._3412165392495317931 mM3tRrWbRPqPOU3G4ShKT 	static_cast mbG1GEmOdh2dXkJZ42sXo 	 
     	  
     		   
      
      
  
-  	 int mjxPa00ei9qkuuQmiGB3C 	 
+  	  mdEzmAkZNQkKD1HrLnSSo 	 
+    	  
+    		   
+     
+     
+ mjxPa00ei9qkuuQmiGB3C 	 
     	  
   mReDuVelSknxaDAoDEmwT 	 
     	  
     		   
-   _706246351566300 msubWq7nTVSPilWqmTzkx 	 
+   _3175967376861678913 msubWq7nTVSPilWqmTzkx 	 
     	  
      mxdAvfSsdzliezc0uyUMk 	 
     	  
     	
-                            _11093822291002.second._14495289647360200512 mu_nOcTFwUo8r0uNE351R 	 
+                            _5268605234514277940.second._17998515892213527232 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
      
-_706246353090457 mftnbgRvzOIVyL93HyyWt 	 
+_3176008349054602175 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
  
@@ -7608,13 +8395,18 @@ _706246353090457 mftnbgRvzOIVyL93HyyWt
 
              miGFoFUQX5urgUZ1Rewwt 	 
     	  
-    		  auto &_11093822291002:_559659927413549244 mXAYJa6osZ6HNTIEEBnr0 	 
+    		   mHXoMWKZSiZYUvqmVkLF5 	 
+    	  
+    		   
+     
+     
+&_5268605234514277940:_5298924430305139424 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
   mDzQQrEx5Ki0C6uDHU2cy 	 
   
                  moRHJd8MnQc4OOt6sDvUk 	 
     	  
-     _11093822291002.second._12078546980626200530 mRuVXNtG32xpaNLi1hDLk 	 
+     _5268605234514277940.second._3412165392495317931 mRuVXNtG32xpaNLi1hDLk 	 
     	  
     		   
      
@@ -7623,7 +8415,7 @@ _706246353090457 mftnbgRvzOIVyL93HyyWt
     
                  mgxs4jaOm5WhsuDH7hsbo 	 
     	  
-  _175247760151 ma6VjqdfajK4BX9gkoGiD 	 
+  _16232574195069562600 ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
      
@@ -7644,15 +8436,15 @@ _706246353090457 mftnbgRvzOIVyL93HyyWt
      
      
  
-  _11093822291002.first mlqM0snvYcrWCw2_QjhQi 	  msubWq7nTVSPilWqmTzkx 	 
+  _5268605234514277940.first mlqM0snvYcrWCw2_QjhQi 	  msubWq7nTVSPilWqmTzkx 	 
     	  
     		   mlqoNTA3LQoUJF6i5YDFc 	
-                _13372248000692030900.push_back mmmC9tOGiLK6UaJr0E5vz 	 
+                _17726690318409070815.push_back mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
     _3822229300092794986 mFyKKLtdivGGDlk8sYzsf 	 
     	  
-    		  _11093822291002.second._12078546980626200530 mUB1yrSrKOwldqxmCatN2 	 
+    		  _5268605234514277940.second._3412165392495317931 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -7661,17 +8453,17 @@ _706246353090457 mftnbgRvzOIVyL93HyyWt
     		  mJTScPpWt8plE9Cz9fDU6 	 
     	  
     	
-                _13372248000692030900.back mbHCSQc_uaLNP9Sf4Lz_n 	 
+                _17726690318409070815.back mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
     	.id  mRwjoMr_aqph4iL4nu8NS 	 
     	  
-    		   _11093822291002.first mftnbgRvzOIVyL93HyyWt 	 
+    		   _5268605234514277940.first mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
   
-                _13372248000692030900.back mH1xQMRmYb0Y4RDp2hARz 	 
+                _17726690318409070815.back mH1xQMRmYb0Y4RDp2hARz 	 
     	  .dict_info mif4ZCBkqdiqSYkR9AD0r 	 
-     _175247760151 mwBOm3LXJ8FMsqTgQKZ6O 	 
+     _16232574195069562600 mwBOm3LXJ8FMsqTgQKZ6O 	 
     	  
     		   
      
@@ -7684,10 +8476,10 @@ _706246353090457 mftnbgRvzOIVyL93HyyWt
      
  
   	
-                _13372248000692030900.back mdWkXjuaPd4Se0r0SdY1e 	 
+                _17726690318409070815.back mdWkXjuaPd4Se0r0SdY1e 	 
     	.contourPoints mRwjoMr_aqph4iL4nu8NS 	 
 _3822229300092794986 mZnfmoDANjVLDjZfzM5MR 	 
- _11093822291002.second._12078546980626200530 mIkhxhgSNMt_JUZR7ce1U 	 
+ _5268605234514277940.second._3412165392495317931 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   .contourPoints mriCvhMavpfheoLNc0eCD 	 
     	  
@@ -7697,7 +8489,7 @@ _3822229300092794986 mZnfmoDANjVLDjZfzM5MR
                  mvAxy99EwaX0EkXFRf6SN 	 
     	  
     		   
- _16937270562180374612 mM3tRrWbRPqPOU3G4ShKT 	 
+ _4599602050392954662 mM3tRrWbRPqPOU3G4ShKT 	 
  mZnfmoDANjVLDjZfzM5MR 	 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
@@ -7713,7 +8505,7 @@ cv mBBHVSlvDGP5NVUfEuhuf
     	  
   Point2f mEc9zv3P8LW8haIvtztwe 	 
     	  
-    		    &_175247762797,const vector mK5OxIt23gZzSiTA8trU8 	 
+    		    &_16232574195068577669,const vector mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
@@ -7728,21 +8520,21 @@ cv mBBHVSlvDGP5NVUfEuhuf
      
      
  
-  	 &_175247762798 mAnDeXfeHaujEzGBbrjil 	 
+  	 &_16232574195068577668 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		 mDzQQrEx5Ki0C6uDHU2cy 	 
    
                     cv mdssZV6TB06aiisDwN1cX 	 
     	  
- Point2f _13852714123190517211 muQdV4OJL6V6gVxW6AdRy 	 
+ Point2f _14899514829569383848 muQdV4OJL6V6gVxW6AdRy 	 
     	  
-  _175247762797 mY2nz8M_6jpSxQZL8EYgU 	 
+  _16232574195068577669 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  1 mDd5IIsnjfLI1lcygRsW3 	 
-    	 -_175247762797 mY2nz8M_6jpSxQZL8EYgU 	 
+    	 -_16232574195068577669 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		 0 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
@@ -7753,7 +8545,7 @@ cv mBBHVSlvDGP5NVUfEuhuf
      
  
  
-                    _13852714123190517211 mt6CTIKlbWyEq7tYJENOL 	 
+                    _14899514829569383848 mt6CTIKlbWyEq7tYJENOL 	 
     	  
     		   
      
@@ -7764,26 +8556,26 @@ cv mBBHVSlvDGP5NVUfEuhuf
     		   
      
      
-_13852714123190517211 muiDYQbmwLxL3PGrwWGeP 	 
+_14899514829569383848 muiDYQbmwLxL3PGrwWGeP 	 
     	   mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
    
-                    cv mBBHVSlvDGP5NVUfEuhuf 	Point2f _13852714123190517210 mdKhcOUXVqyCMdccisL_a 	 
+                    cv mBBHVSlvDGP5NVUfEuhuf 	Point2f _14899514829569383863 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
      
  
-  _175247762798 mY2nz8M_6jpSxQZL8EYgU 	 
+  _16232574195068577668 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
     1 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
-   -_175247762798 mY2nz8M_6jpSxQZL8EYgU 	 
+   -_16232574195068577668 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
@@ -7792,7 +8584,7 @@ _13852714123190517211 muiDYQbmwLxL3PGrwWGeP
     	  mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		 
-                    _13852714123190517210 mtBaSZn4xtaMpMhvfebM_ 	 
+                    _14899514829569383863 mtBaSZn4xtaMpMhvfebM_ 	 
     	  
     		   
      1./cv mYGfQUZmV9IjKAPVrLhZl 	 
@@ -7800,7 +8592,7 @@ _13852714123190517211 muiDYQbmwLxL3PGrwWGeP
     		   
      
   norm miAECMSxGwjxrcOKk0DII 	 
- _13852714123190517210 mgkSwnYHQivQIpeAwgr20 	 
+ _14899514829569383863 mgkSwnYHQivQIpeAwgr20 	 
     	  
     	 mxdAvfSsdzliezc0uyUMk 	 
     	  
@@ -7811,7 +8603,7 @@ _13852714123190517211 muiDYQbmwLxL3PGrwWGeP
      
      
  
-  _13852714123190517211.dot mp3H4249LtCVDCYFqQqz4 	_13852714123190517210 mzf4ZxeZY8wF2XnrdYK61 	 
+  _14899514829569383848.dot mp3H4249LtCVDCYFqQqz4 	_14899514829569383863 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		 mINcNsH05D0QZDej9wl4h 	 
     	  
@@ -7827,14 +8619,14 @@ _13852714123190517211 muiDYQbmwLxL3PGrwWGeP
      
      
  
-  	_706246335709144 myJHqW7fkn_72nVEhKeZ6 	 
+  	_3257892023090136996 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
   find mtbP4KQJdh36UGELfV2zq 	_6872264293741719360.begin mH1xQMRmYb0Y4RDp2hARz 	 
     	  
     		,_6872264293741719360.end mbHCSQc_uaLNP9Sf4Lz_n 	 ,Marker mmmC9tOGiLK6UaJr0E5vz 	 
-_11093822291002.first mgkSwnYHQivQIpeAwgr20 	 
+_5268605234514277940.first mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
      
@@ -7843,9 +8635,15 @@ _11093822291002.first mgkSwnYHQivQIpeAwgr20
     		   
      
    mlqoNTA3LQoUJF6i5YDFc 	
-                pair mK5OxIt23gZzSiTA8trU8 	 int,double mel3l7ZRXwnAEsy0Wfxj_ 	 
+                pair mK5OxIt23gZzSiTA8trU8 	 int, mVPyhnVeODFpKcj5PAnUM 	 
     	  
-  _1520390333805141197 mp3H4249LtCVDCYFqQqz4 	 
+    		   
+     
+     
+ 
+mel3l7ZRXwnAEsy0Wfxj_ 	 
+    	  
+  _9244962205788679909 mp3H4249LtCVDCYFqQqz4 	 
     	  
     -1,-1 msubWq7nTVSPilWqmTzkx 	 
     	  
@@ -7863,13 +8661,15 @@ _11093822291002.first mgkSwnYHQivQIpeAwgr20
     	  
     		   
      
-   int _2654435883 mdKhcOUXVqyCMdccisL_a 	 
+    mdEzmAkZNQkKD1HrLnSSo 	 
+    	  
+_13303058356268144075 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
  0 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
-  _2654435883 mK5OxIt23gZzSiTA8trU8 	 
+  _13303058356268144075 mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
@@ -7880,7 +8680,7 @@ _11093822291002.first mgkSwnYHQivQIpeAwgr20
     		   
      
      
- _2654435883 mwwJvnj2j3yLmklxxOEJQ 	 
+ _13303058356268144075 mwwJvnj2j3yLmklxxOEJQ 	 
      mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
@@ -7899,9 +8699,9 @@ _11093822291002.first mgkSwnYHQivQIpeAwgr20
      
      
 Point2f mRHNkLPwUSnx20pmLgrTq 	 
-  _11093821967314 muQdV4OJL6V6gVxW6AdRy 	 
+  _5268608437323523861 muQdV4OJL6V6gVxW6AdRy 	 
     	  
-   _13372248000692030900.back mzeHK1hG1SYQMISNMWMB8 	 
+   _17726690318409070815.back mzeHK1hG1SYQMISNMWMB8 	 
     	  
     		   
      mINcNsH05D0QZDej9wl4h 	 
@@ -7913,12 +8713,12 @@ Point2f mRHNkLPwUSnx20pmLgrTq
     	  
     		   
      
-     _11093821967314 .begin mwTQhkbVNQHd2Xw4EA4fj 	 
+     _5268608437323523861 .begin mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     ,
-                                _11093821967314 .begin maHkatHu0Jap4oTaT5q4_ 	 
-    	  + _2654435883,
-                                _11093821967314 .end mzeHK1hG1SYQMISNMWMB8 	 
+                                _5268608437323523861 .begin maHkatHu0Jap4oTaT5q4_ 	 
+    	  + _13303058356268144075,
+                                _5268608437323523861 .end mzeHK1hG1SYQMISNMWMB8 	 
   mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
@@ -7927,11 +8727,11 @@ Point2f mRHNkLPwUSnx20pmLgrTq
 
                      mgxs4jaOm5WhsuDH7hsbo 	 
     	  
-  _11093822386586 mCm219F3DHVwNe_CsrCeK 	 
+  _5268611907568609837 mCm219F3DHVwNe_CsrCeK 	 
     	  
-   _16937270562180374612 mSa4WnWih0z4lSo9RYUGU 	 
+   _4599602050392954662 mSa4WnWih0z4lSo9RYUGU 	 
     	  
-    		   *_706246335709144,_11093821967314 mgkSwnYHQivQIpeAwgr20 	 
+    		   *_3257892023090136996,_5268608437323523861 mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
  mriCvhMavpfheoLNc0eCD 	 
@@ -7940,22 +8740,22 @@ Point2f mRHNkLPwUSnx20pmLgrTq
    
                      mX_x9bVx2zqKO8c2FxqgZ 	 
     	  
-    		 _11093822386586 mYxohqgekcJ8HhaDZvWcX 	 
-    	 _1520390333805141197.second mXAYJa6osZ6HNTIEEBnr0 	 
+    		 _5268611907568609837 mYxohqgekcJ8HhaDZvWcX 	 
+    	 _9244962205788679909.second mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
  mN0TszoCQmyzxmobsgV2H 	 
     	  
     		   
   
-                        _1520390333805141197 mif4ZCBkqdiqSYkR9AD0r 	 
+                        _9244962205788679909 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
      
      
  mfKhTg3wpiK_YhdQzWWcS 	 
     	  
-    		   _2654435883,_11093822386586 mICILgDpdCTDSJqQAn06L 	 
+    		   _13303058356268144075,_5268611907568609837 mICILgDpdCTDSJqQAn06L 	 
     	 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
@@ -7982,16 +8782,16 @@ rotate mmmC9tOGiLK6UaJr0E5vz
     	  
     		   
      
-    _13372248000692030900.back mwTQhkbVNQHd2Xw4EA4fj 	 
+    _17726690318409070815.back mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		    .begin mf_hJsy06Me1epT4PRx_l 	 
     	  
     		   
   ,
-                            _13372248000692030900.back mcznTYeCGOAygtXXAPYS_ 	.begin mFwk30320retpLBiICndp 	 
+                            _17726690318409070815.back mcznTYeCGOAygtXXAPYS_ 	.begin mFwk30320retpLBiICndp 	 
     	  
-    		   + _1520390333805141197.first,
-                            _13372248000692030900.back mdWkXjuaPd4Se0r0SdY1e 	 
+    		   + _9244962205788679909.first,
+                            _17726690318409070815.back mdWkXjuaPd4Se0r0SdY1e 	 
     	 .end mKpq3GwvJxRduE5RsGgGP 	 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
@@ -8002,7 +8802,7 @@ rotate mmmC9tOGiLK6UaJr0E5vz
                 
                 _3822229300092794986 mILaQGKCAmcKrYQNhgWUq 	 
     	  
-    	_11093822291002.second._12078546980626200530 mEFd2D2UDF9SIoPfQtUv6 	 
+    	_5268605234514277940.second._3412165392495317931 mEFd2D2UDF9SIoPfQtUv6 	 
     	  
     		   
    .clear maHkatHu0Jap4oTaT5q4_ 	 
@@ -8037,14 +8837,17 @@ std mpJt2kGThF7wb3VNzG38b
     	  
     		   
      
-     cv mYGfQUZmV9IjKAPVrLhZl 	Point2f mEc9zv3P8LW8haIvtztwe 	  &_2654435878 mmCJ670wA_VHgip7JZ1dW 	 
+     cv mYGfQUZmV9IjKAPVrLhZl 	Point2f mEc9zv3P8LW8haIvtztwe 	  &_13303058356268144134 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
      
      
   mfKhTg3wpiK_YhdQzWWcS 	 
     	  
-  return _2654435878.size mzeHK1hG1SYQMISNMWMB8 	 
+   mLfKYVMLDthbyvvLerNPJ 	 
+    	  
+    		   
+  _13303058356268144134.size mzeHK1hG1SYQMISNMWMB8 	 
  mgAgf2KiVOzOHJDU4qKPI 	 
 0 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
@@ -8071,7 +8874,10 @@ std mpJt2kGThF7wb3VNzG38b
     	  
     		   
      
-auto _2654435878:_13372248000692030900 mlqM0snvYcrWCw2_QjhQi 	 
+ mgxs4jaOm5WhsuDH7hsbo 	 
+    	  
+    		   
+ _13303058356268144134:_17726690318409070815 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		    mLdYY4X2b7VOjtTSnd7Hj 	 
     	  
@@ -8083,7 +8889,7 @@ auto _2654435878:_13372248000692030900 mlqM0snvYcrWCw2_QjhQi
     		   
    _10242768842256594623.count mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-   _2654435878.id mzf4ZxeZY8wF2XnrdYK61 	 
+   _13303058356268144134.id mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		    mHOvg7vOJH6ujsVsg3S5G 	 
    0 mXAYJa6osZ6HNTIEEBnr0 	 
@@ -8095,7 +8901,7 @@ auto _2654435878:_13372248000692030900 mlqM0snvYcrWCw2_QjhQi
     	  
     		   
      
-     _2654435878.id msdqcdg5NNrdQnc_PT1Ee 	 
+     _13303058356268144134.id msdqcdg5NNrdQnc_PT1Ee 	 
      ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		1 mJTScPpWt8plE9Cz9fDU6 	 
@@ -8115,7 +8921,7 @@ auto _2654435878:_13372248000692030900 mlqM0snvYcrWCw2_QjhQi
      
      
  
-_2654435878.id mJtGCV8zXQjnVDVBVdvFZ 	 
+_13303058356268144134.id mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
      
@@ -8158,10 +8964,10 @@ _2654435878.id mJtGCV8zXQjnVDVBVdvFZ
  
   	sort mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-    _13372248000692030900.begin mcznTYeCGOAygtXXAPYS_ 	 
+    _17726690318409070815.begin mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
-     , _13372248000692030900.end mdWkXjuaPd4Se0r0SdY1e 	 
+     , _17726690318409070815.end mdWkXjuaPd4Se0r0SdY1e 	 
     	  
     		   
      
@@ -8179,22 +8985,35 @@ _2654435878.id mJtGCV8zXQjnVDVBVdvFZ
     
     
     vector mYI2nkSxgJHf1pY1PttV1 	 
-    	  bool mel3l7ZRXwnAEsy0Wfxj_ 	 
+    	   mm9xpbYUQ152i_zNBGUZu 	 
+    	  
+    		   
+     
+     
+ mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
     		   
      
      
  
-   _16997208802817240490 miAECMSxGwjxrcOKk0DII 	 
+   _7127668893958858208 miAECMSxGwjxrcOKk0DII 	 
     	  
-    		_13372248000692030900.size mFwk30320retpLBiICndp 	 , false mmCJ670wA_VHgip7JZ1dW 	 
+    		_17726690318409070815.size mFwk30320retpLBiICndp 	 ,  mHbmZNNhradVwUtDZ5U7B 	 
+    	  
+    		mmCJ670wA_VHgip7JZ1dW 	 
     	 mriCvhMavpfheoLNc0eCD 	 
  
 
      mLBxgVrVeq7bTUcDGJqNH 	 
      mFlVjO0mLpwnCN5a1Quio 	 
     	  
-    		int _2654435874  mu_nOcTFwUo8r0uNE351R 	 
+    		 moI11mwtxiOXpqDxK_aQL 	 
+    	  
+    		   
+     
+     
+ 
+  	_13303058356268144138  mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
@@ -8202,16 +9021,18 @@ _2654435878.id mJtGCV8zXQjnVDVBVdvFZ
     	  
     		   
      
-      _2654435874  mCALzjQ0bwpDnngl_oSsi 	 
-     int mFlVjO0mLpwnCN5a1Quio 	 
+      _13303058356268144138  mCALzjQ0bwpDnngl_oSsi 	 
+      mG7mr0Iq8BCEeADSwrCoW 	 
+    	  
+    	mFlVjO0mLpwnCN5a1Quio 	 
     	  
     		   
      
- _13372248000692030900.size mFwk30320retpLBiICndp 	 mzf4ZxeZY8wF2XnrdYK61 	 
+ _17726690318409070815.size mFwk30320retpLBiICndp 	 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
  - 1 mJTScPpWt8plE9Cz9fDU6 	 
     	  
-     _2654435874 mUq8qfNXjDE9FPlMHvjf4 	 
+     _13303058356268144138 mUq8qfNXjDE9FPlMHvjf4 	 
     mgkSwnYHQivQIpeAwgr20 	 
     	  
      mJkMyi0NbVRDgE__LMR_m 	 
@@ -8219,20 +9040,26 @@ _2654435878.id mJtGCV8zXQjnVDVBVdvFZ
     		   
          mtvEQgcnwdOR4zAMwLHDb 	 
  mmmC9tOGiLK6UaJr0E5vz 	 
-int _2654435875  mKcKHr_bTagXAK_pf8btG 	 
-    	  
-    		   _2654435874 + 1 mxdAvfSsdzliezc0uyUMk 	 
-    	  
-    		   
-  _2654435875  mqEAvVDOCXqrrwrTRByrM 	 
+ mMGij61UZUIIYyztVz9vN 	 
     	  
     		   
      
-    int miAECMSxGwjxrcOKk0DII 	 
+   _13303058356268144139  mKcKHr_bTagXAK_pf8btG 	 
+    	  
+    		   _13303058356268144138 + 1 mxdAvfSsdzliezc0uyUMk 	 
+    	  
+    		   
+  _13303058356268144139  mqEAvVDOCXqrrwrTRByrM 	 
     	  
     		   
      
-  _13372248000692030900.size mwTQhkbVNQHd2Xw4EA4fj 	 
+     mdEzmAkZNQkKD1HrLnSSo 	 
+    	  
+    		miAECMSxGwjxrcOKk0DII 	 
+    	  
+    		   
+     
+  _17726690318409070815.size mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     	 mhyL_M5gnmQzwyHW45MdA 	 
       mOR5gj7K3yTraJVOrvmKy 	 
@@ -8241,13 +9068,13 @@ int _2654435875  mKcKHr_bTagXAK_pf8btG
      
        msFQPbyubcQTkvTYpFFPL 	 
     	  
-   _16997208802817240490 mY2nz8M_6jpSxQZL8EYgU 	 
- _2654435874 mDd5IIsnjfLI1lcygRsW3 	 
+   _7127668893958858208 mY2nz8M_6jpSxQZL8EYgU 	 
+ _13303058356268144138 mDd5IIsnjfLI1lcygRsW3 	 
     	  
    mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
-   _2654435875 mBh4lc09qKYGXyU7FeqOv 	 
+   _13303058356268144139 mBh4lc09qKYGXyU7FeqOv 	 
     	  
     		   
     muiDYQbmwLxL3PGrwWGeP 	 
@@ -8256,11 +9083,11 @@ int _2654435875  mKcKHr_bTagXAK_pf8btG
     		  
              mvw_MKiY3S1FcVNfJQCRT 	 
  miAECMSxGwjxrcOKk0DII 	 
- _13372248000692030900 mNDJrNgMXB1tBoFNaJO0d 	 
+ _17726690318409070815 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
     		   
      
- _2654435874 mwTp2D1d4PfxNNOzzUfhS 	 
+ _13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
@@ -8270,23 +9097,23 @@ int _2654435875  mKcKHr_bTagXAK_pf8btG
      
      
  
-  	  _13372248000692030900 mWkGo8xUdRIKgJ1DEUvvn 	 
-    	 _2654435875 mwTp2D1d4PfxNNOzzUfhS 	 
+  	  _17726690318409070815 mWkGo8xUdRIKgJ1DEUvvn 	 
+    	 _13303058356268144139 mwTp2D1d4PfxNNOzzUfhS 	 
     	  .id  mKdH1o6rFuMJ1Fl0PA_sn 	 
     	  
     		   
      
-      _13372248000692030900 mA4oXllup8K3T5dxkluRR 	_2654435874 mEFd2D2UDF9SIoPfQtUv6 	 
+      _17726690318409070815 mA4oXllup8K3T5dxkluRR 	_13303058356268144138 mEFd2D2UDF9SIoPfQtUv6 	 
     	  
     		   
     .dict_info  mtPtbM6hNfOIkqlx661ci 	 
     	  
-  _13372248000692030900 mTjppsgNpY1Pjyv5Z_zMr 	 
+  _17726690318409070815 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
      
      
- _2654435875 mUB1yrSrKOwldqxmCatN2 	 
+ _13303058356268144139 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -8304,25 +9131,25 @@ int _2654435875  mKcKHr_bTagXAK_pf8btG
     	  
     		   
      
-_13372248000692030900 mGYpOkNIG_qSvYXBOU9Vf 	 
-    	  _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+_17726690318409070815 mGYpOkNIG_qSvYXBOU9Vf 	 
+    	  _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
    mlqM0snvYcrWCw2_QjhQi 	  mHkLXuUOlyX2vZI7w3FQj 	 
     	   _16109434691388891984 mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		   
      
-     _13372248000692030900 mNDJrNgMXB1tBoFNaJO0d 	 
+     _17726690318409070815 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
-_2654435875 mEFd2D2UDF9SIoPfQtUv6 	  msubWq7nTVSPilWqmTzkx 	 mXAYJa6osZ6HNTIEEBnr0 	 
+_13303058356268144139 mEFd2D2UDF9SIoPfQtUv6 	  msubWq7nTVSPilWqmTzkx 	 mXAYJa6osZ6HNTIEEBnr0 	 
 
-                    _16997208802817240490 mTjppsgNpY1Pjyv5Z_zMr 	 
+                    _7127668893958858208 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
      
      
  
-_2654435874 mrpQVzv6u8gxvho1qUlil 	 
+_13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
      
@@ -8330,7 +9157,9 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
  
     muQdV4OJL6V6gVxW6AdRy 	 
     	  
-    		    true mJTScPpWt8plE9Cz9fDU6 	 
+    		     mgor9wB6mrVARR8vJt7rC 	 
+    	  
+    		mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
@@ -8338,11 +9167,12 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
  
  
                 else
-                    _16997208802817240490 mZnfmoDANjVLDjZfzM5MR 	 _2654435875 mUB1yrSrKOwldqxmCatN2 	 
+                    _7127668893958858208 mZnfmoDANjVLDjZfzM5MR 	 _13303058356268144139 mUB1yrSrKOwldqxmCatN2 	 
     	  
     	  myJHqW7fkn_72nVEhKeZ6 	 
     	  
-    		    true mriCvhMavpfheoLNc0eCD 	 
+    		     mrYTPN06XEG4I2Q8GwVal 	 
+    	mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
 
@@ -8366,7 +9196,7 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
     	  
     		   
      
-     _13372248000692030900,_16997208802817240490 mhyL_M5gnmQzwyHW45MdA 	 
+     _17726690318409070815,_7127668893958858208 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		    mxdAvfSsdzliezc0uyUMk 	 
     	  
@@ -8387,7 +9217,7 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
      mtbP4KQJdh36UGELfV2zq 	 
     	  
     		   
-   _13372248000692030900.size mwTQhkbVNQHd2Xw4EA4fj 	 
+   _17726690318409070815.size mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
      
@@ -8402,13 +9232,13 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
   	 0   moejXze8_C6TCxb2bIzgq 	 
     	  
     		   
-      _46082544221278757.size mf_hJsy06Me1epT4PRx_l 	 
+      _17276638435886805939.size mf_hJsy06Me1epT4PRx_l 	 
     	  mPlk6hpBhStcHkX9pfoTY 	 
     	  
     		   
      
      
- _13977417595633595236.size maHkatHu0Jap4oTaT5q4_ 	 
+ _14658983814685479377.size maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		   
      
@@ -8435,16 +9265,16 @@ _2654435874 mrpQVzv6u8gxvho1qUlil
 
              mSD7jHYN8mOif4_CBtIg6 	 
     	  
-    		   _16116720581284886979 mCm219F3DHVwNe_CsrCeK 	 
+    		   _134566848691226369 mCm219F3DHVwNe_CsrCeK 	 
     	  
   4*float mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
-_46082544221278757.cols mzf4ZxeZY8wF2XnrdYK61 	 
+_17276638435886805939.cols mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		 /float mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-    		_13977417595633595236.cols mlqM0snvYcrWCw2_QjhQi 	 
+    		_14658983814685479377.cols mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
   +0.5  mPdHdcAZ6XJhwf8wLtULI 	 
@@ -8455,7 +9285,7 @@ _46082544221278757.cols mzf4ZxeZY8wF2XnrdYK61
             vector mqEAvVDOCXqrrwrTRByrM 	 
     	  
     		Point2f mjxPa00ei9qkuuQmiGB3C 	 
-    	  _6807038369550893581 mlqoNTA3LQoUJF6i5YDFc 	 
+    	  _13861179168205423140 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
              mNMDyj9J1Nt8auTKwp8ze 	 
@@ -8463,23 +9293,26 @@ _46082544221278757.cols mzf4ZxeZY8wF2XnrdYK61
     	  
  unsigned  moI11mwtxiOXpqDxK_aQL 	 
     	  
-    _2654435874  mif4ZCBkqdiqSYkR9AD0r 	 
-   0 mJTScPpWt8plE9Cz9fDU6 	  _2654435874  mbG1GEmOdh2dXkJZ42sXo 	 
-    	  _13372248000692030900.size mzeHK1hG1SYQMISNMWMB8 	 
+    _13303058356268144138  mif4ZCBkqdiqSYkR9AD0r 	 
+   0 mJTScPpWt8plE9Cz9fDU6 	  _13303058356268144138  mbG1GEmOdh2dXkJZ42sXo 	 
+    	  _17726690318409070815.size mzeHK1hG1SYQMISNMWMB8 	 
     	  
     		   
   mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
-   _2654435874 mo7mKuzaX2h9vw2rEj5qh 	 mXAYJa6osZ6HNTIEEBnr0 	 
+   _13303058356268144138 mo7mKuzaX2h9vw2rEj5qh 	 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
  
                  mwzVPTpaJAiRC6bZKMfQX 	 
     	  
     	 mmmC9tOGiLK6UaJr0E5vz 	 
-  int _2654435868  mu_nOcTFwUo8r0uNE351R 	 
+   moI11mwtxiOXpqDxK_aQL 	 
+    	  
+    		   
+ _13303058356268144199  mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
@@ -8487,22 +9320,22 @@ _46082544221278757.cols mzf4ZxeZY8wF2XnrdYK61
     	  
     		   
      
-      _2654435868  mca1GaR7Rv9qOZsisqKBB 	 
+      _13303058356268144199  mca1GaR7Rv9qOZsisqKBB 	 
     	  
     		   
-    4 mlqoNTA3LQoUJF6i5YDFc 	 _2654435868 mBh4lc09qKYGXyU7FeqOv 	 
+    4 mlqoNTA3LQoUJF6i5YDFc 	 _13303058356268144199 mBh4lc09qKYGXyU7FeqOv 	 
     	  
     mhyL_M5gnmQzwyHW45MdA 	 
     	  
   
-                    _6807038369550893581.push_back mFsSEF_3_iD2mT6nZG9QR 	 
+                    _13861179168205423140.push_back mFsSEF_3_iD2mT6nZG9QR 	 
     	  
-    		_13372248000692030900 mY2nz8M_6jpSxQZL8EYgU 	 
-_2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+    		_17726690318409070815 mY2nz8M_6jpSxQZL8EYgU 	 
+_13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
   mWkGo8xUdRIKgJ1DEUvvn 	 
-    	_2654435868 mJtGCV8zXQjnVDVBVdvFZ 	  mgkSwnYHQivQIpeAwgr20 	 
+    	_13303058356268144199 mJtGCV8zXQjnVDVBVdvFZ 	  mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
      mlqoNTA3LQoUJF6i5YDFc 	 
@@ -8514,11 +9347,11 @@ _2654435874 mIkhxhgSNMt_JUZR7ce1U
      
      
  
-  	_5695532303110145495, _6807038369550893581, cv maKLz6mCz5anFyVle_MtD 	 
+  	_5695532303110145495, _13861179168205423140, cv maKLz6mCz5anFyVle_MtD 	 
     	Size mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
-_16116720581284886979,_16116720581284886979 mhyL_M5gnmQzwyHW45MdA 	 
+_134566848691226369,_134566848691226369 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
@@ -8559,19 +9392,19 @@ TermCriteria mYGfQUZmV9IjKAPVrLhZl
     mp3H4249LtCVDCYFqQqz4 	 
     	  
  unsigned  mdbRZP7cWFYlUcaGRMsKc 	 
-    _2654435874  muQdV4OJL6V6gVxW6AdRy 	 
+    _13303058356268144138  muQdV4OJL6V6gVxW6AdRy 	 
    0 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
      
  
- _2654435874  mCALzjQ0bwpDnngl_oSsi 	 
+ _13303058356268144138  mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
-    _13372248000692030900.size mFwk30320retpLBiICndp 	 
+    _17726690318409070815.size mFwk30320retpLBiICndp 	 
     	  
- mdmuaUz9iCkCckSUhcEv1 	 _2654435874 mo7mKuzaX2h9vw2rEj5qh 	 
+ mdmuaUz9iCkCckSUhcEv1 	 _13303058356268144138 mo7mKuzaX2h9vw2rEj5qh 	 
     	  
     		    mycwFs63h7Mi3ggRkMEVm 	 
     	  
@@ -8584,7 +9417,9 @@ TermCriteria mYGfQUZmV9IjKAPVrLhZl
     	  
     		   
      
-  int _2654435868  mM3tRrWbRPqPOU3G4ShKT 	 
+   mMGij61UZUIIYyztVz9vN 	 
+    	  
+ _13303058356268144199  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
@@ -8592,39 +9427,39 @@ TermCriteria mYGfQUZmV9IjKAPVrLhZl
  
   	  0 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
-    	 _2654435868  mK5OxIt23gZzSiTA8trU8 	 
+    	 _13303058356268144199  mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
     4 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
-    _2654435868 mt0bWs8kxCzTnBdtR9vKu 	 
+    _13303058356268144199 mt0bWs8kxCzTnBdtR9vKu 	 
     	  
   msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
    
-                    _13372248000692030900 mA4oXllup8K3T5dxkluRR 	 
+                    _17726690318409070815 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
-    _2654435874 mDd5IIsnjfLI1lcygRsW3 	 
+    _13303058356268144138 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		   
     mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
      
- _2654435868 mwTp2D1d4PfxNNOzzUfhS 	 
+ _13303058356268144199 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
        mCm219F3DHVwNe_CsrCeK 	 
     	  
- _6807038369550893581 mTjppsgNpY1Pjyv5Z_zMr 	 
+ _13861179168205423140 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
-     _2654435874 * 4 + _2654435868 mbViqhyIcr6lGWibuo3Im 	 
+     _13303058356268144138 * 4 + _13303058356268144199 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		  mINcNsH05D0QZDej9wl4h 	 
     	  
@@ -8660,35 +9495,35 @@ TermCriteria mYGfQUZmV9IjKAPVrLhZl
     	  
     		unsigned  mMGij61UZUIIYyztVz9vN 	 
     	  
-  _2654435874  mM3tRrWbRPqPOU3G4ShKT 	 
+  _13303058356268144138  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
     0 mhGXMe8LHJXydR9dMisHj 	 
     	  
-    		  _2654435874  mlP1m6taP4mQVYA_j8Oxe 	 
+    		  _13303058356268144138  mlP1m6taP4mQVYA_j8Oxe 	 
     	  
     		   
      
      
  
-  	  _13372248000692030900.size mFwk30320retpLBiICndp 	 
+  	  _17726690318409070815.size mFwk30320retpLBiICndp 	 
     	  
     		   
      mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
-     _2654435874 mi940TUip6nLdi0tWD33F 	  mhyL_M5gnmQzwyHW45MdA 	 
+     _13303058356268144138 mi940TUip6nLdi0tWD33F 	  mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
      
  
-                _10874168409609149361 miAECMSxGwjxrcOKk0DII 	_13372248000692030900 mWkGo8xUdRIKgJ1DEUvvn 	 
+                _10874168409609149361 miAECMSxGwjxrcOKk0DII 	_17726690318409070815 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
      
      
- _2654435874 mbViqhyIcr6lGWibuo3Im 	 
+ _13303058356268144138 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
@@ -8711,7 +9546,6 @@ TermCriteria mYGfQUZmV9IjKAPVrLhZl
 
 
 
-
     
     
     
@@ -8724,12 +9558,12 @@ TermCriteria mYGfQUZmV9IjKAPVrLhZl
     	  
     		   
      
-    _16987817484368171524.rows  mWUoD50tT9HFGBNQCsjUC 	 
+    _2920695669964880276.rows  mWUoD50tT9HFGBNQCsjUC 	 
  0  mECamByxBqjGyTShbPlRQ 	 
     	  
     		   
      
-      _122444323406234790  mel3l7ZRXwnAEsy0Wfxj_ 	 
+      _3145974845315888936  mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  0 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
@@ -8748,30 +9582,30 @@ TermCriteria mYGfQUZmV9IjKAPVrLhZl
  
  mhxtTU7dvZHXCTSg8B8rx 	 
     unsigned  meWm4MhzbcJwavtoh469w 	 
-_2654435874  mKcKHr_bTagXAK_pf8btG 	 
+_13303058356268144138  mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
   0 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
-    		  _2654435874  mbG1GEmOdh2dXkJZ42sXo 	 
+    		  _13303058356268144138  mbG1GEmOdh2dXkJZ42sXo 	 
     	  
-  _13372248000692030900.size mwTQhkbVNQHd2Xw4EA4fj 	 
+  _17726690318409070815.size mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
  mlqoNTA3LQoUJF6i5YDFc 	 
     	  
-  _2654435874 mcstdE8Wwpam6tUMM45Sa 	 
+  _13303058356268144138 mcstdE8Wwpam6tUMM45Sa 	 
     	  mgkSwnYHQivQIpeAwgr20 	
-            _13372248000692030900 mFyKKLtdivGGDlk8sYzsf 	 
+            _17726690318409070815 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
- _2654435874 mDd5IIsnjfLI1lcygRsW3 	 
+ _13303058356268144138 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		   
      
 .calculateExtrinsics mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-    		   _122444323406234790, _16987817484368171524, _16988745799786462721, _11831288041691086617 mhyL_M5gnmQzwyHW45MdA 	 
+    		   _3145974845315888936, _2920695669964880276, _14932605280544191270, _606330642723070475 mhyL_M5gnmQzwyHW45MdA 	 
     mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
@@ -8783,7 +9617,7 @@ _2654435874  mKcKHr_bTagXAK_pf8btG
     
      mOcs0qqtJYmueMnfTyCFx 	 
     	  
-    		  _6807036697345506960 mM3tRrWbRPqPOU3G4ShKT 	 
+    		  _14525273392272441420 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     std mUCEzhGWrU8OYqcHVPlVW 	 
     	  
@@ -8791,7 +9625,11 @@ _2654435874  mKcKHr_bTagXAK_pf8btG
     numeric_limits mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
- float mW1YUos9eL_9NmgJuSDH7 	 
+  mnqZGwZqTTi1dekKxujAE 	 
+    	  
+    		   
+     
+    mW1YUos9eL_9NmgJuSDH7 	 
     	  
     		   
      
@@ -8814,7 +9652,7 @@ const  mgxs4jaOm5WhsuDH7hsbo
     		   
      
      
-&_3005399795337363304:_13372248000692030900 mAnDeXfeHaujEzGBbrjil 	 
+&_17126762063553264542:_17726690318409070815 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
    mDzQQrEx5Ki0C6uDHU2cy 	 
@@ -8824,41 +9662,42 @@ const  mgxs4jaOm5WhsuDH7hsbo
    
          mlkEZnzYCXAgDnYDi5up3 	 
     	  
- _2654435877 mRwjoMr_aqph4iL4nu8NS 	0 mxdAvfSsdzliezc0uyUMk 	 
+ _13303058356268144137 mRwjoMr_aqph4iL4nu8NS 	0 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		
          ma9rnYFEs_TUiw_WyBflg 	 
     	  
-    int _2654435868 mCm219F3DHVwNe_CsrCeK 	0 mriCvhMavpfheoLNc0eCD 	 
+     moI11mwtxiOXpqDxK_aQL 	 
+   _13303058356268144199 mCm219F3DHVwNe_CsrCeK 	0 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
-  _2654435868 mlP1m6taP4mQVYA_j8Oxe 	 
+  _13303058356268144199 mlP1m6taP4mQVYA_j8Oxe 	 
     	4 mJTScPpWt8plE9Cz9fDU6 	 
     	  
-   _2654435868 mEZrtAN7pSZl5y4oEHd38 	 
+   _13303058356268144199 mEZrtAN7pSZl5y4oEHd38 	 
    msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
  
-            _2654435877 mndDt3huhmUYGZC1vQmOq 	 
+            _13303058356268144137 mndDt3huhmUYGZC1vQmOq 	 
     	  
     		   
    cv maKLz6mCz5anFyVle_MtD 	 
     	  norm mFsSEF_3_iD2mT6nZG9QR 	 
- _3005399795337363304 mWkGo8xUdRIKgJ1DEUvvn 	 
+ _17126762063553264542 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
-    _2654435868 mwTp2D1d4PfxNNOzzUfhS 	 
+    _13303058356268144199 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
-   -_3005399795337363304 mTjppsgNpY1Pjyv5Z_zMr 	 
+   -_17126762063553264542 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
      
  mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-   _2654435868+1 muiDYQbmwLxL3PGrwWGeP 	 
+   _13303058356268144199+1 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      
@@ -8879,17 +9718,17 @@ const  mgxs4jaOm5WhsuDH7hsbo
     	  
     		   
      
- _6807036697345506960 mYxohqgekcJ8HhaDZvWcX 	 
+ _14525273392272441420 mYxohqgekcJ8HhaDZvWcX 	 
     	  
     		   
      
      
- _2654435877 mlqM0snvYcrWCw2_QjhQi 	 
+ _13303058356268144137 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
      
      
-_6807036697345506960 mif4ZCBkqdiqSYkR9AD0r 	_2654435877 mlqoNTA3LQoUJF6i5YDFc 	 
+_14525273392272441420 mif4ZCBkqdiqSYkR9AD0r 	_13303058356268144137 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
   
      mnSkEvR4SbDwQxj23xB1M 	 
@@ -8899,42 +9738,45 @@ _6807036697345506960 mif4ZCBkqdiqSYkR9AD0r 	_2654435877 mlqoNTA3LQoUJF6i5YDFc
      
       mlkEZnzYCXAgDnYDi5up3 	 
     	  
-    		    _13772361751489375357 mINcNsH05D0QZDej9wl4h 	 
+    		    _15036404412276314769 mINcNsH05D0QZDej9wl4h 	 
  
      mNhNSN2gx5KERe8tfdmgu 	 
     	  
     		   
      
    mhORIPgMIfN3Fn8aCQBuU 	 
-   _6807036697345506960 mtDHooAMb6ubWraYLa7pj 	 
+   _14525273392272441420 mtDHooAMb6ubWraYLa7pj 	 
     	  
     std mBBHVSlvDGP5NVUfEuhuf 	 
     	  
     		   
    numeric_limits mYI2nkSxgJHf1pY1PttV1 	 
     	  
-float mE4_Vrik0lveh4HNJUk1B 	 
+ mglDNKH5ah89GptW6H4Cu 	 
+    	  
+    		   
+mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		    mUCEzhGWrU8OYqcHVPlVW 	 
     	  
 max mH1xQMRmYb0Y4RDp2hARz 	  mzf4ZxeZY8wF2XnrdYK61 	 
 
-         _13772361751489375357 mM3tRrWbRPqPOU3G4ShKT 	 
+         _15036404412276314769 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
      
  
-  	_6807036697345506960/ mtbP4KQJdh36UGELfV2zq 	 
+  	_14525273392272441420/ mtbP4KQJdh36UGELfV2zq 	 
     	 4*std mfx1fLYDWN4YRZNnQEsJN 	max mhORIPgMIfN3Fn8aCQBuU 	 
-    	 _46082544221278757.cols,_46082544221278757.rows muiDYQbmwLxL3PGrwWGeP 	  mhyL_M5gnmQzwyHW45MdA 	  mPdHdcAZ6XJhwf8wLtULI 	 
+    	 _17276638435886805939.cols,_17276638435886805939.rows muiDYQbmwLxL3PGrwWGeP 	  mhyL_M5gnmQzwyHW45MdA 	  mPdHdcAZ6XJhwf8wLtULI 	 
     	  
    
      mHcxzZHoWX11H4xEjR59T 	 
     	  
     		   
      
-    _13772361751489375357 mCm219F3DHVwNe_CsrCeK 	 
+    _15036404412276314769 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
@@ -8949,7 +9791,7 @@ max mH1xQMRmYb0Y4RDp2hARz 	  mzf4ZxeZY8wF2XnrdYK61
      
       mJkMyi0NbVRDgE__LMR_m 	
         _18062104616271777338.minSize mdKhcOUXVqyCMdccisL_a 	 
-    	  _13772361751489375357* mFsSEF_3_iD2mT6nZG9QR 	1-_18062104616271777338.ts mhyL_M5gnmQzwyHW45MdA 	 
+    	  _15036404412276314769* mFsSEF_3_iD2mT6nZG9QR 	1-_18062104616271777338.ts mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
   mJTScPpWt8plE9Cz9fDU6 	 
@@ -8958,12 +9800,11 @@ max mH1xQMRmYb0Y4RDp2hARz 	  mzf4ZxeZY8wF2XnrdYK61
     	  
 
 
-
     _6872264293741719360 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      
-   _13372248000692030900 mINcNsH05D0QZDej9wl4h 	 
+   _17726690318409070815 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
@@ -8981,9 +9822,9 @@ max mH1xQMRmYb0Y4RDp2hARz 	  mzf4ZxeZY8wF2XnrdYK61
     	 aruco maKLz6mCz5anFyVle_MtD 	 
     	  
     		   
- Marker &_3005399795337363304,cv mBBHVSlvDGP5NVUfEuhuf 	Mat _16987817484368171524,cv mUCEzhGWrU8OYqcHVPlVW 	 
+ Marker &_17126762063553264542,cv mBBHVSlvDGP5NVUfEuhuf 	Mat _2920695669964880276,cv mUCEzhGWrU8OYqcHVPlVW 	 
     	  
-    Mat _16988745799786462721  mmCJ670wA_VHgip7JZ1dW 	 
+    Mat _14932605280544191270  mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
      
@@ -9010,9 +9851,9 @@ max mH1xQMRmYb0Y4RDp2hARz 	  mzf4ZxeZY8wF2XnrdYK61
      
      
  
-  	 &_6806985045552225970 mKcKHr_bTagXAK_pf8btG 	 
+  	 &_14091102513355313451 mKcKHr_bTagXAK_pf8btG 	 
     	  
- _3005399795337363304.contourPoints mINcNsH05D0QZDej9wl4h 	 
+ _17126762063553264542.contourPoints mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
        vector mYfYoOWdsOLTDCIBT7npX 	 
@@ -9020,21 +9861,27 @@ max mH1xQMRmYb0Y4RDp2hARz 	  mzf4ZxeZY8wF2XnrdYK61
     	  
     		  mW1YUos9eL_9NmgJuSDH7 	 
     	  
-    		  _6083023494567691146 mtbP4KQJdh36UGELfV2zq 	 
+    		  _16276718381659519112 mtbP4KQJdh36UGELfV2zq 	 
     	  
  4,-1 mgkSwnYHQivQIpeAwgr20 	 
    mftnbgRvzOIVyL93HyyWt 	 
     
        vector mlP1m6taP4mQVYA_j8Oxe 	 
-    	float mYxohqgekcJ8HhaDZvWcX 	 
+    	 maOczvhF_v9OTsK70ZZut 	 
     	  
     		   
      
-      _706246353090457 mhORIPgMIfN3Fn8aCQBuU 	 
+     
+ 
+  mYxohqgekcJ8HhaDZvWcX 	 
+    	  
+    		   
+     
+      _3176008349054602175 mhORIPgMIfN3Fn8aCQBuU 	 
     	  4,std maKLz6mCz5anFyVle_MtD 	 
 numeric_limits mCALzjQ0bwpDnngl_oSsi 	 
     	  
- float mEc9zv3P8LW8haIvtztwe 	 
+  maOczvhF_v9OTsK70ZZut 	 mEc9zv3P8LW8haIvtztwe 	 
     	  
    mU808frSKQDZnEEU3Q3s9 	 
     	  
@@ -9054,18 +9901,18 @@ max mFwk30320retpLBiICndp
     	  
    unsigned  mihBlyb7pwidO496a5_p1 	 
     	  
-    		_2654435875  muQdV4OJL6V6gVxW6AdRy 	 
+    		_13303058356268144139  muQdV4OJL6V6gVxW6AdRy 	 
     	  
     	 0 mdmuaUz9iCkCckSUhcEv1 	 
     	  
-    		    _2654435875  mW1ds9XwNwevT5B2b3j8B 	 _6806985045552225970.size mcznTYeCGOAygtXXAPYS_ 	 
+    		    _13303058356268144139  mW1ds9XwNwevT5B2b3j8B 	 _14091102513355313451.size mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
      
      
  
   	  mdmuaUz9iCkCckSUhcEv1 	 
-     _2654435875 mUq8qfNXjDE9FPlMHvjf4 	 
+     _13303058356268144139 mUq8qfNXjDE9FPlMHvjf4 	 
     	  
     		   
      
@@ -9089,16 +9936,16 @@ max mFwk30320retpLBiICndp
     		   
  unsigned  mMGij61UZUIIYyztVz9vN 	 
     	  
-    		 _2654435876  ma6VjqdfajK4BX9gkoGiD 	 0 mVOlbMaOu1U0SC2oeKIzP 	 
+    		 _13303058356268144136  ma6VjqdfajK4BX9gkoGiD 	 0 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
-     _2654435876  mca1GaR7Rv9qOZsisqKBB 	 
+     _13303058356268144136  mca1GaR7Rv9qOZsisqKBB 	 
     	  
     		   
  4 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
-    		   _2654435876 mUq8qfNXjDE9FPlMHvjf4 	 
+    		   _13303058356268144136 mUq8qfNXjDE9FPlMHvjf4 	 
     	  
     		   
      
@@ -9109,29 +9956,29 @@ max mFwk30320retpLBiICndp
       mDzQQrEx5Ki0C6uDHU2cy 	 
     	 
                 mnqZGwZqTTi1dekKxujAE 	 
-    	  _2654435869 mdKhcOUXVqyCMdccisL_a 	 
-      mmmC9tOGiLK6UaJr0E5vz 	 _6806985045552225970 mdF98bHO7yrxGJn0aQZVK 	 
+    	  _13303058356268144198 mdKhcOUXVqyCMdccisL_a 	 
+      mmmC9tOGiLK6UaJr0E5vz 	 _14091102513355313451 mdF98bHO7yrxGJn0aQZVK 	 
     	  
     		   
- _2654435875 mJtGCV8zXQjnVDVBVdvFZ 	 
+ _13303058356268144139 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
-    .x-_3005399795337363304 mA4oXllup8K3T5dxkluRR 	 
+    .x-_17126762063553264542 mA4oXllup8K3T5dxkluRR 	 
     	  
-  _2654435876 msdqcdg5NNrdQnc_PT1Ee 	 
+  _13303058356268144136 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
    .x mmCJ670wA_VHgip7JZ1dW 	 
     * mp3H4249LtCVDCYFqQqz4 	 
     	  
     		   
-    _6806985045552225970 mY2nz8M_6jpSxQZL8EYgU 	 
+    _14091102513355313451 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
-    _2654435875 msdqcdg5NNrdQnc_PT1Ee 	 
+    _13303058356268144139 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
-   .x-_3005399795337363304 mY2nz8M_6jpSxQZL8EYgU 	 
+   .x-_17126762063553264542 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
-    	_2654435876 mUB1yrSrKOwldqxmCatN2 	 
+    	_13303058356268144136 mUB1yrSrKOwldqxmCatN2 	 
 .x mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
@@ -9140,30 +9987,30 @@ max mFwk30320retpLBiICndp
                         mFlVjO0mLpwnCN5a1Quio 	 
     	  
     		   
-   _6806985045552225970 mY2nz8M_6jpSxQZL8EYgU 	 
+   _14091102513355313451 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
-_2654435875 msdqcdg5NNrdQnc_PT1Ee 	 
+_13303058356268144139 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
-  .y-_3005399795337363304 mILaQGKCAmcKrYQNhgWUq 	 
+  .y-_17126762063553264542 mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
      
-  _2654435876 mwTp2D1d4PfxNNOzzUfhS 	 
+  _13303058356268144136 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
   .y mlqM0snvYcrWCw2_QjhQi 	 
     * mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
- _6806985045552225970 mILaQGKCAmcKrYQNhgWUq 	 
+ _14091102513355313451 mILaQGKCAmcKrYQNhgWUq 	 
     	  
-  _2654435875 mo8MRbS3DUX_ZOlgmUSna 	 
+  _13303058356268144139 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
-    		.y-_3005399795337363304 mTjppsgNpY1Pjyv5Z_zMr 	 
-  _2654435876 mbViqhyIcr6lGWibuo3Im 	 
+    		.y-_17126762063553264542 mTjppsgNpY1Pjyv5Z_zMr 	 
+  _13303058356268144136 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
@@ -9182,12 +10029,12 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     	  
     		   
      
- _2654435869 mCALzjQ0bwpDnngl_oSsi 	 
+ _13303058356268144198 mCALzjQ0bwpDnngl_oSsi 	 
     	  
-    		_706246353090457 mFyKKLtdivGGDlk8sYzsf 	 
+    		_3176008349054602175 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
-  _2654435876 mo8MRbS3DUX_ZOlgmUSna 	 
+  _13303058356268144136 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
      
@@ -9198,24 +10045,24 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     		   
      
  
-                   _6083023494567691146 mTjppsgNpY1Pjyv5Z_zMr 	 
+                   _16276718381659519112 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
-    		  _2654435876 mo8MRbS3DUX_ZOlgmUSna 	 
+    		  _13303058356268144136 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
   ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
-   _2654435875 mPdHdcAZ6XJhwf8wLtULI 	 
+   _13303058356268144139 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
    
-                   _706246353090457 mTjppsgNpY1Pjyv5Z_zMr 	 
+                   _3176008349054602175 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
      
      
  
-  _2654435876 mIkhxhgSNMt_JUZR7ce1U 	 
+  _13303058356268144136 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
  mCm219F3DHVwNe_CsrCeK 	 
@@ -9224,7 +10071,7 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
      
      
  
-  	 _2654435869 mPdHdcAZ6XJhwf8wLtULI 	 
+  	 _13303058356268144198 mPdHdcAZ6XJhwf8wLtULI 	 
  
                 mICILgDpdCTDSJqQAn06L 	 
     	  
@@ -9245,7 +10092,7 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
 
        
         mpHTdkvfapV5_Igrm_XSs 	 
-    	  _6807141015246724771 mdmuaUz9iCkCckSUhcEv1 	 
+    	  _10077272470817073709 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
@@ -9257,13 +10104,13 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     	  
    mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-    		   _6083023494567691146 mWkGo8xUdRIKgJ1DEUvvn 	 
+    		   _16276718381659519112 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
      
     1 mJtGCV8zXQjnVDVBVdvFZ 	 
      mYxohqgekcJ8HhaDZvWcX 	 
-  _6083023494567691146 mWkGo8xUdRIKgJ1DEUvvn 	 
+  _16276718381659519112 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
      
@@ -9275,18 +10122,18 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     mQDLRy0PKsddZ3xq0mn3V 	  mFsSEF_3_iD2mT6nZG9QR 	 
     	  
     		   
-  _6083023494567691146 mGYpOkNIG_qSvYXBOU9Vf 	 
+  _16276718381659519112 mGYpOkNIG_qSvYXBOU9Vf 	 
     	  
     		  2 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
   mRHNkLPwUSnx20pmLgrTq 	 
-    	  _6083023494567691146 mTjppsgNpY1Pjyv5Z_zMr 	 
+    	  _16276718381659519112 mTjppsgNpY1Pjyv5Z_zMr 	 
     	 1 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		    mfge932GrgApRFyCExy_M 	 
-    _6083023494567691146 mFyKKLtdivGGDlk8sYzsf 	 
+    _16276718381659519112 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
      
@@ -9300,7 +10147,7 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     	  
     		   
      
-   _6083023494567691146 mWkGo8xUdRIKgJ1DEUvvn 	 
+   _16276718381659519112 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   0 mbViqhyIcr6lGWibuo3Im 	 
     	  
@@ -9313,11 +10160,13 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     	  
     		   
    
-           _6807141015246724771  mif4ZCBkqdiqSYkR9AD0r 	 
+           _10077272470817073709  mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
      
- false mriCvhMavpfheoLNc0eCD 	 
+  muESrr63SaH81rmeBWzRi 	 
+    	  
+  mriCvhMavpfheoLNc0eCD 	 
     	  
  
         mv1ijGQAKacWqWAusY8nc 	 
@@ -9327,7 +10176,7 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
   mtbP4KQJdh36UGELfV2zq 	 
     	  
     		   
- _6083023494567691146 mdF98bHO7yrxGJn0aQZVK 	 
+ _16276718381659519112 mdF98bHO7yrxGJn0aQZVK 	 
     	  
   2 mrpQVzv6u8gxvho1qUlil 	 
     	  
@@ -9335,7 +10184,7 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     	  
     		   
      
-  _6083023494567691146 mGYpOkNIG_qSvYXBOU9Vf 	 
+  _16276718381659519112 mGYpOkNIG_qSvYXBOU9Vf 	 
     	  
     		   
      
@@ -9347,14 +10196,14 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     	  
     		   
      
-   _6083023494567691146 mA4oXllup8K3T5dxkluRR 	 
+   _16276718381659519112 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
      2 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
-   mca1GaR7Rv9qOZsisqKBB 	  _6083023494567691146 mZnfmoDANjVLDjZfzM5MR 	 
+   mca1GaR7Rv9qOZsisqKBB 	  _16276718381659519112 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
     0 mJtGCV8zXQjnVDVBVdvFZ 	 
@@ -9362,19 +10211,28 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     		    mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		 
-           _6807141015246724771  mif4ZCBkqdiqSYkR9AD0r 	 
+           _10077272470817073709  mif4ZCBkqdiqSYkR9AD0r 	 
     	  
-  false mftnbgRvzOIVyL93HyyWt 	 
+   muESrr63SaH81rmeBWzRi 	 
+    	  
+    		   
+    mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
      
        else
-           _6807141015246724771  mu_nOcTFwUo8r0uNE351R 	 
+           _10077272470817073709  mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
-      true mftnbgRvzOIVyL93HyyWt 	 
+       mrYTPN06XEG4I2Q8GwVal 	 
+    	  
+    		   
+     
+     
+ 
+  	mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
 
@@ -9386,7 +10244,7 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
      
      
  
-  	 _11093822406418  mdKhcOUXVqyCMdccisL_a 	 
+  	 _5268611906073170262  mdKhcOUXVqyCMdccisL_a 	 
   1 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
@@ -9402,11 +10260,11 @@ _2654435875 msdqcdg5NNrdQnc_PT1Ee
     	  
     		   
      
-_6807141015246724771 mAnDeXfeHaujEzGBbrjil 	 
+_10077272470817073709 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
  
-           _11093822406418  mu_nOcTFwUo8r0uNE351R 	 
+           _5268611906073170262  mu_nOcTFwUo8r0uNE351R 	 
     	  -1 mJTScPpWt8plE9Cz9fDU6 	 
  
 
@@ -9418,7 +10276,7 @@ _6807141015246724771 mAnDeXfeHaujEzGBbrjil
      
  
  Point2f  mW1YUos9eL_9NmgJuSDH7 	 
-    	   _16991768000434899757 mVOlbMaOu1U0SC2oeKIzP 	
+    	   _6417377122913179118 mVOlbMaOu1U0SC2oeKIzP 	
         mwxm9pz2KjGAhBIIfFMf4 	 
     	  
     		   
@@ -9426,7 +10284,7 @@ _6807141015246724771 mAnDeXfeHaujEzGBbrjil
     	  
     		   
      
- _16987817484368171524.empty mFwk30320retpLBiICndp 	 
+ _2920695669964880276.empty mFwk30320retpLBiICndp 	 
     	  
     		   
      
@@ -9435,7 +10293,7 @@ _6807141015246724771 mAnDeXfeHaujEzGBbrjil
     	  
     		     mRltbJjpZ8AzImbP6r6M4 	 
     	  
-    		   _16988745799786462721.empty mwTQhkbVNQHd2Xw4EA4fj 	 
+    		   _14932605280544191270.empty mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
   mhyL_M5gnmQzwyHW45MdA 	 
@@ -9454,45 +10312,45 @@ _6807141015246724771 mAnDeXfeHaujEzGBbrjil
     	  
     		   
      
-    _2654435874  myJHqW7fkn_72nVEhKeZ6 	 
+    _13303058356268144138  myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
     0 mftnbgRvzOIVyL93HyyWt 	 
     	  
-   _2654435874  mW1ds9XwNwevT5B2b3j8B 	 
+   _13303058356268144138  mW1ds9XwNwevT5B2b3j8B 	 
     	  
-    	 _6806985045552225970.size mH1xQMRmYb0Y4RDp2hARz 	 
+    	 _14091102513355313451.size mH1xQMRmYb0Y4RDp2hARz 	 
     	  
     		   
  mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
-    _2654435874 mEZrtAN7pSZl5y4oEHd38 	 
+    _13303058356268144138 mEZrtAN7pSZl5y4oEHd38 	 
     	  
     		   
     muiDYQbmwLxL3PGrwWGeP 	 
     	  
    
-           _16991768000434899757.push_back mFlVjO0mLpwnCN5a1Quio 	 
+           _6417377122913179118.push_back mFlVjO0mLpwnCN5a1Quio 	 
     	  
  cv mEMN2sRTwHcTUl7SNSw0d 	 
     	Point2f mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		   
      
-   _6806985045552225970 mY2nz8M_6jpSxQZL8EYgU 	 
+   _14091102513355313451 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
-    _2654435874 mwTp2D1d4PfxNNOzzUfhS 	 
+    _13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
      
  
- .x, _6806985045552225970 mY2nz8M_6jpSxQZL8EYgU 	_2654435874 msdqcdg5NNrdQnc_PT1Ee 	 
+ .x, _14091102513355313451 mY2nz8M_6jpSxQZL8EYgU 	_13303058356268144138 msdqcdg5NNrdQnc_PT1Ee 	 
 .y mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
@@ -9510,14 +10368,14 @@ _6807141015246724771 mAnDeXfeHaujEzGBbrjil
     		   
     mnswinmeXuam57kXH7myI 	 
     	  
-    		 _16987817484368171524.empty mzeHK1hG1SYQMISNMWMB8 	 
+    		 _2920695669964880276.empty mzeHK1hG1SYQMISNMWMB8 	 
     	  
       mgN2NPegMIWZaSlArqSpX 	 
     	  
     		   
       mRltbJjpZ8AzImbP6r6M4 	 
     	  
-    		 _16988745799786462721.empty mcznTYeCGOAygtXXAPYS_ 	 
+    		 _14932605280544191270.empty mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
     msubWq7nTVSPilWqmTzkx 	 
@@ -9527,14 +10385,14 @@ _6807141015246724771 mAnDeXfeHaujEzGBbrjil
   
            cv mdssZV6TB06aiisDwN1cX 	 
   undistortPoints mmmC9tOGiLK6UaJr0E5vz 	 
-    _16991768000434899757, _16991768000434899757, _16987817484368171524, _16988745799786462721, cv myuwTFtkH1L5Be2OVY9rt 	 
+    _6417377122913179118, _6417377122913179118, _2920695669964880276, _14932605280544191270, cv myuwTFtkH1L5Be2OVY9rt 	 
     	  
     		   
      
    Mat mFwk30320retpLBiICndp 	 
     	  
     		   
-    , _16987817484368171524 mycwFs63h7Mi3ggRkMEVm 	 
+    , _2920695669964880276 mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		    mPdHdcAZ6XJhwf8wLtULI 	 
     	  
@@ -9546,12 +10404,12 @@ _6807141015246724771 mAnDeXfeHaujEzGBbrjil
     mfKhTg3wpiK_YhdQzWWcS 	 
     	  
     		   
-           _16991768000434899757.reserve mFsSEF_3_iD2mT6nZG9QR 	 
+           _6417377122913179118.reserve mFsSEF_3_iD2mT6nZG9QR 	 
     	  
     		   
      
      
-_6806985045552225970.size maHkatHu0Jap4oTaT5q4_ 	 
+_14091102513355313451.size maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		   
      
@@ -9574,10 +10432,12 @@ _6806985045552225970.size maHkatHu0Jap4oTaT5q4_
      
      
  
-  	 auto _2654435881:_6806985045552225970 msubWq7nTVSPilWqmTzkx 	 
+  	  mHXoMWKZSiZYUvqmVkLF5 	 
+    	  
+    		_13303058356268144073:_14091102513355313451 msubWq7nTVSPilWqmTzkx 	 
     	  
     	
-               _16991768000434899757.push_back miAECMSxGwjxrcOKk0DII 	 
+               _6417377122913179118.push_back miAECMSxGwjxrcOKk0DII 	 
     	  
     cv maKLz6mCz5anFyVle_MtD 	 
     	  
@@ -9588,7 +10448,7 @@ _6806985045552225970.size maHkatHu0Jap4oTaT5q4_
      
      
  
-  	 _2654435881.x,_2654435881.y mXAYJa6osZ6HNTIEEBnr0 	 
+  	 _13303058356268144073.x,_13303058356268144073.y mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      
@@ -9620,11 +10480,11 @@ _6806985045552225970.size maHkatHu0Jap4oTaT5q4_
     	  
     		   
      
-    _8534275574931676583 mlqoNTA3LQoUJF6i5YDFc 	 
+    _6917161151118932890 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
-       _8534275574931676583.resize mReDuVelSknxaDAoDEmwT 	 
+       _6917161151118932890.resize mReDuVelSknxaDAoDEmwT 	 
     	  
     		   
      4 mmCJ670wA_VHgip7JZ1dW 	 
@@ -9649,12 +10509,12 @@ _6806985045552225970.size maHkatHu0Jap4oTaT5q4_
     		   
      
      
- _2654435877  mdKhcOUXVqyCMdccisL_a 	 
+ _13303058356268144137  mdKhcOUXVqyCMdccisL_a 	 
     	  
     	 0 mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
-   _2654435877  mqEAvVDOCXqrrwrTRByrM 	 
+   _13303058356268144137  mqEAvVDOCXqrrwrTRByrM 	 
     	  
     		   
      
@@ -9663,7 +10523,7 @@ _6806985045552225970.size maHkatHu0Jap4oTaT5q4_
    4 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
-    _2654435877 mt0bWs8kxCzTnBdtR9vKu 	 
+    _13303058356268144137 mt0bWs8kxCzTnBdtR9vKu 	 
     	  mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
@@ -9671,21 +10531,31 @@ _6806985045552225970.size maHkatHu0Jap4oTaT5q4_
             m_owRLEm0gIJ4StPRwTkZ 	 
     mFlVjO0mLpwnCN5a1Quio 	 
     	  
-    		   int _2654435875  muQdV4OJL6V6gVxW6AdRy 	 
+    		    mdEzmAkZNQkKD1HrLnSSo 	 
+    	  
+    		   
+     
+    _13303058356268144139  muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
      
      
    mReDuVelSknxaDAoDEmwT 	 
     	  
-int mzf4ZxeZY8wF2XnrdYK61 	 
+ mSD7jHYN8mOif4_CBtIg6 	 
     	  
     		   
      
-_6083023494567691146 mNDJrNgMXB1tBoFNaJO0d 	 
+     
+ 
+  	mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
-   _2654435877 mJtGCV8zXQjnVDVBVdvFZ 	 
+     
+_16276718381659519112 mNDJrNgMXB1tBoFNaJO0d 	 
+    	  
+    		   
+   _13303058356268144137 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
      
@@ -9694,28 +10564,30 @@ _6083023494567691146 mNDJrNgMXB1tBoFNaJO0d
    mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
-   _2654435875  ma43zKzGwyDT5C3mNdj6s 	  miAECMSxGwjxrcOKk0DII 	 
+   _13303058356268144139  ma43zKzGwyDT5C3mNdj6s 	  miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
      
-  int muiDYQbmwLxL3PGrwWGeP 	 
+   meWm4MhzbcJwavtoh469w 	 
+    	  
+   muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      
-     _6083023494567691146 mTjppsgNpY1Pjyv5Z_zMr 	 
+     _16276718381659519112 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
      
      
  
  mtbP4KQJdh36UGELfV2zq 	 
- _2654435877 + 1 muiDYQbmwLxL3PGrwWGeP 	 
+ _13303058356268144137 + 1 muiDYQbmwLxL3PGrwWGeP 	 
    % 4 mEFd2D2UDF9SIoPfQtUv6 	 
     	  mJTScPpWt8plE9Cz9fDU6 	 
     	  
-    		 _2654435875  msMfR3R5kzP8SqAQ3DWTq 	 
+    		 _13303058356268144139  msMfR3R5kzP8SqAQ3DWTq 	 
     	  
-    		 _11093822406418 mmCJ670wA_VHgip7JZ1dW 	 
+    		 _5268611906073170262 mmCJ670wA_VHgip7JZ1dW 	 
     	  
   mfKhTg3wpiK_YhdQzWWcS 	 
     	  
@@ -9731,7 +10603,7 @@ _6083023494567691146 mNDJrNgMXB1tBoFNaJO0d
     	  
     		   
      
-     _2654435875  mi0dc2wlXgNoHf9VPli9f 	 
+     _13303058356268144139  mi0dc2wlXgNoHf9VPli9f 	 
     	  
     		   
      
@@ -9740,10 +10612,10 @@ _6083023494567691146 mNDJrNgMXB1tBoFNaJO0d
     	  
     		   
      
-  int mzf4ZxeZY8wF2XnrdYK61 	 
+   mP8l6554fUQhsCw2PetD2 	mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
-    _6806985045552225970.size mdWkXjuaPd4Se0r0SdY1e 	 
+    _14091102513355313451.size mdWkXjuaPd4Se0r0SdY1e 	 
     	  
     		  m_YnlLsKBlim0LDKxc0Xy 	 
     	  
@@ -9754,9 +10626,9 @@ _6083023494567691146 mNDJrNgMXB1tBoFNaJO0d
     		   
      
      
-_6807141015246724771 mmCJ670wA_VHgip7JZ1dW 	 
+_10077272470817073709 mmCJ670wA_VHgip7JZ1dW 	 
  
-                   _2654435875  myJHqW7fkn_72nVEhKeZ6 	 
+                   _13303058356268144139  myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
@@ -9776,31 +10648,31 @@ _6807141015246724771 mmCJ670wA_VHgip7JZ1dW
     		   
      
      
- _2654435875  mPlk6hpBhStcHkX9pfoTY 	 
+ _13303058356268144139  mPlk6hpBhStcHkX9pfoTY 	 
     	  
     		   0  mvW7MwxFgHE1jUFn6bpuP 	 
     	  
-     _6807141015246724771 mhyL_M5gnmQzwyHW45MdA 	 
+     _10077272470817073709 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
  
-                   _2654435875  mdKhcOUXVqyCMdccisL_a 	 
+                   _13303058356268144139  mdKhcOUXVqyCMdccisL_a 	 
     	  
-    		    _6806985045552225970.size mdWkXjuaPd4Se0r0SdY1e 	 
+    		    _14091102513355313451.size mdWkXjuaPd4Se0r0SdY1e 	 
     	  
      - 1 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
  
-               _8534275574931676583 mY2nz8M_6jpSxQZL8EYgU 	 
+               _6917161151118932890 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
-_2654435877 mJtGCV8zXQjnVDVBVdvFZ 	 
+_13303058356268144137 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		  .push_back mFlVjO0mLpwnCN5a1Quio 	 
     	  
- _16991768000434899757 mGYpOkNIG_qSvYXBOU9Vf 	 
-    _2654435875 mrpQVzv6u8gxvho1qUlil 	 
+ _6417377122913179118 mGYpOkNIG_qSvYXBOU9Vf 	 
+    _13303058356268144139 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
    mmCJ670wA_VHgip7JZ1dW 	 
@@ -9811,19 +10683,26 @@ _2654435877 mJtGCV8zXQjnVDVBVdvFZ
  
   mPdHdcAZ6XJhwf8wLtULI 	
                 mvw_MKiY3S1FcVNfJQCRT 	 miAECMSxGwjxrcOKk0DII 	 
-   _2654435875  mnZ6t3BhMZ_1d7zzE72ah 	 
+   _13303058356268144139  mnZ6t3BhMZ_1d7zzE72ah 	 
     	  
   mmmC9tOGiLK6UaJr0E5vz 	 
-    	int muiDYQbmwLxL3PGrwWGeP 	 
+    	 mCujczJix6jMpJcynoBiA 	 
     	  
     		   
-   _6083023494567691146 mFyKKLtdivGGDlk8sYzsf 	 mFlVjO0mLpwnCN5a1Quio 	 
+     
+     
+ 
+muiDYQbmwLxL3PGrwWGeP 	 
     	  
-    _2654435877 + 1 mlqM0snvYcrWCw2_QjhQi 	 % 4 mrpQVzv6u8gxvho1qUlil 	 
+    		   
+   _16276718381659519112 mFyKKLtdivGGDlk8sYzsf 	 mFlVjO0mLpwnCN5a1Quio 	 
+    	  
+    _13303058356268144137 + 1 mlqM0snvYcrWCw2_QjhQi 	 % 4 mrpQVzv6u8gxvho1qUlil 	 
     	  
     	 mmCJ670wA_VHgip7JZ1dW 	 
     	
-                   break mftnbgRvzOIVyL93HyyWt 	 
+                    mTFkOkggRsxkeMv25hiJW 	 
+    	  mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
@@ -9842,9 +10721,9 @@ _2654435877 mJtGCV8zXQjnVDVBVdvFZ
     	  
     		   
      
-  _46082543365551858 mftnbgRvzOIVyL93HyyWt 	 
+  _17129155073204642077 mftnbgRvzOIVyL93HyyWt 	 
 
-       _46082543365551858.resize miAECMSxGwjxrcOKk0DII 	 
+       _17129155073204642077.resize miAECMSxGwjxrcOKk0DII 	 
     	  
     	4 mAnDeXfeHaujEzGBbrjil 	 
     	  
@@ -9855,19 +10734,19 @@ _2654435877 mJtGCV8zXQjnVDVBVdvFZ
     		   
      
      unsigned  mG7mr0Iq8BCEeADSwrCoW 	 
-    	 _2654435875  myJHqW7fkn_72nVEhKeZ6 	 
+    	 _13303058356268144139  myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		    0 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
-     _2654435875  mK5OxIt23gZzSiTA8trU8 	 
+     _13303058356268144139  mK5OxIt23gZzSiTA8trU8 	 
     	  
-     _46082543365551858.size mwTQhkbVNQHd2Xw4EA4fj 	 
+     _17129155073204642077.size mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
   mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
-      _2654435875 mwwJvnj2j3yLmklxxOEJQ 	 
+      _13303058356268144139 mwwJvnj2j3yLmklxxOEJQ 	 
     	  
     		   
       mzf4ZxeZY8wF2XnrdYK61 	 
@@ -9880,17 +10759,17 @@ _2654435877 mJtGCV8zXQjnVDVBVdvFZ
      
      
  
-_8534275574931676583 mTjppsgNpY1Pjyv5Z_zMr 	 
-    	 _2654435875 mDd5IIsnjfLI1lcygRsW3 	 
+_6917161151118932890 mTjppsgNpY1Pjyv5Z_zMr 	 
+    	 _13303058356268144139 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		   
      
      
  
- , _46082543365551858 mFyKKLtdivGGDlk8sYzsf 	 
+ , _17129155073204642077 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
-_2654435875 mwTp2D1d4PfxNNOzzUfhS 	 
+_13303058356268144139 mwTp2D1d4PfxNNOzzUfhS 	 
     mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
@@ -9910,8 +10789,8 @@ _2654435875 mwTp2D1d4PfxNNOzzUfhS
     	  
     		  Point2f  mRHNkLPwUSnx20pmLgrTq 	 
     	  
-    		  _10546761853799152484 mhGXMe8LHJXydR9dMisHj 	
-       _10546761853799152484.resize mReDuVelSknxaDAoDEmwT 	 
+    		  _15053120134632409437 mhGXMe8LHJXydR9dMisHj 	
+       _15053120134632409437.resize mReDuVelSknxaDAoDEmwT 	 
     	  
  4 mycwFs63h7Mi3ggRkMEVm 	 
     	  
@@ -9927,35 +10806,35 @@ _2654435875 mwTp2D1d4PfxNNOzzUfhS
      
      
  
- _2654435874  mKcKHr_bTagXAK_pf8btG 	 
-  0 mPdHdcAZ6XJhwf8wLtULI 	 _2654435874  mW1ds9XwNwevT5B2b3j8B 	 
+ _13303058356268144138  mKcKHr_bTagXAK_pf8btG 	 
+  0 mPdHdcAZ6XJhwf8wLtULI 	 _13303058356268144138  mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
      
      
   4 mriCvhMavpfheoLNc0eCD 	 
     	  
-   _2654435874 mBh4lc09qKYGXyU7FeqOv 	 mAnDeXfeHaujEzGBbrjil 	 
+   _13303058356268144138 mBh4lc09qKYGXyU7FeqOv 	 mAnDeXfeHaujEzGBbrjil 	 
     	  
-           _10546761853799152484 mZnfmoDANjVLDjZfzM5MR 	 
+           _15053120134632409437 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
-   _2654435874 mbViqhyIcr6lGWibuo3Im 	 
+   _13303058356268144138 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
    mif4ZCBkqdiqSYkR9AD0r 	 
   _8396213235373312360 mp3H4249LtCVDCYFqQqz4 	 
     	  
-    		  _46082543365551858 mY2nz8M_6jpSxQZL8EYgU 	 
+    		  _17129155073204642077 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   miAECMSxGwjxrcOKk0DII 	 
     	  
-    _2654435874 - 1 mlqM0snvYcrWCw2_QjhQi 	 % 4 mIkhxhgSNMt_JUZR7ce1U 	 
-    	, _46082543365551858 mZnfmoDANjVLDjZfzM5MR 	 
+    _13303058356268144138 - 1 mlqM0snvYcrWCw2_QjhQi 	 % 4 mIkhxhgSNMt_JUZR7ce1U 	 
+    	, _17129155073204642077 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		   
-    _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+    _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
  mycwFs63h7Mi3ggRkMEVm 	 
     	  
@@ -9971,7 +10850,7 @@ _2654435875 mwTp2D1d4PfxNNOzzUfhS
     	  
     	 mRltbJjpZ8AzImbP6r6M4 	 
     	  
-_16987817484368171524.empty mFwk30320retpLBiICndp 	 
+_2920695669964880276.empty mFwk30320retpLBiICndp 	 
     	  
     		   
      
@@ -9983,7 +10862,7 @@ _16987817484368171524.empty mFwk30320retpLBiICndp
      
      
  
- _16988745799786462721.empty mdWkXjuaPd4Se0r0SdY1e 	  mgkSwnYHQivQIpeAwgr20 	 
+ _14932605280544191270.empty mdWkXjuaPd4Se0r0SdY1e 	  mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
  
@@ -9991,7 +10870,7 @@ _16987817484368171524.empty mFwk30320retpLBiICndp
     	  
     		   
      
-  _10546761853799152484, _10546761853799152484, _16987817484368171524, _16988745799786462721 mAnDeXfeHaujEzGBbrjil 	  mPdHdcAZ6XJhwf8wLtULI 	
+  _15053120134632409437, _15053120134632409437, _2920695669964880276, _14932605280544191270 mAnDeXfeHaujEzGBbrjil 	  mPdHdcAZ6XJhwf8wLtULI 	
 
        
         m_owRLEm0gIJ4StPRwTkZ 	 
@@ -10003,14 +10882,14 @@ _16987817484368171524.empty mFwk30320retpLBiICndp
     	  
     		   
      
-   _2654435875  mdKhcOUXVqyCMdccisL_a 	 0 mriCvhMavpfheoLNc0eCD 	 
+   _13303058356268144139  mdKhcOUXVqyCMdccisL_a 	 0 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
      
-    _2654435875  mqEAvVDOCXqrrwrTRByrM 	 
+    _13303058356268144139  mqEAvVDOCXqrrwrTRByrM 	 
  4 mriCvhMavpfheoLNc0eCD 	 
     	  
-    		    _2654435875 mo7mKuzaX2h9vw2rEj5qh 	 
+    		    _13303058356268144139 mo7mKuzaX2h9vw2rEj5qh 	 
     	  
     		   
       mmCJ670wA_VHgip7JZ1dW 	 
@@ -10022,14 +10901,14 @@ _16987817484368171524.empty mFwk30320retpLBiICndp
      
      
           
-           _3005399795337363304 mdF98bHO7yrxGJn0aQZVK 	 
+           _17126762063553264542 mdF98bHO7yrxGJn0aQZVK 	 
     	  
     		   
- _2654435875 mo8MRbS3DUX_ZOlgmUSna 	 
+ _13303058356268144139 mo8MRbS3DUX_ZOlgmUSna 	 
     	   muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
- _10546761853799152484 mdF98bHO7yrxGJn0aQZVK 	_2654435875 msdqcdg5NNrdQnc_PT1Ee 	 
+ _15053120134632409437 mdF98bHO7yrxGJn0aQZVK 	_13303058356268144139 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
    mJTScPpWt8plE9Cz9fDU6 	 
     	  
@@ -10048,19 +10927,17 @@ _16987817484368171524.empty mFwk30320retpLBiICndp
 
 
 
-
-
  mKmIjE1RujJ5RSETUjqwW 	 
     	  
     	MarkerDetector_Impl mU808frSKQDZnEEU3Q3s9 	 
     	  
     		   
      
-   _1548619269531313217 mhxtTU7dvZHXCTSg8B8rx 	MarkerCandidate &_706246351566300, mG7mr0Iq8BCEeADSwrCoW 	 
+   _1548619269531313217 mhxtTU7dvZHXCTSg8B8rx 	MarkerCandidate &_3175967376861678913, mG7mr0Iq8BCEeADSwrCoW 	 
     	  
     		   
      
-    _706246308256699 muiDYQbmwLxL3PGrwWGeP 	 
+    _3177068552486117874 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
       mjbtcSgN5ZQfkGDsoYG4l 	 
@@ -10069,13 +10946,15 @@ _16987817484368171524.empty mFwk30320retpLBiICndp
      
     
      ms9iveRK8Fk_QtPMDvDcP 	 
-int _2654435875 mu_nOcTFwUo8r0uNE351R 	 
+ moI11mwtxiOXpqDxK_aQL 	 
+    	  
+   _13303058356268144139 mu_nOcTFwUo8r0uNE351R 	 
     	  
  0 mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
      
-  _2654435875 mHkLXuUOlyX2vZI7w3FQj 	 
+  _13303058356268144139 mHkLXuUOlyX2vZI7w3FQj 	 
     	  
     		   
      
@@ -10083,25 +10962,25 @@ int _2654435875 mu_nOcTFwUo8r0uNE351R
  
 2 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
-    		  _2654435875 mBh4lc09qKYGXyU7FeqOv 	 
+    		  _13303058356268144139 mBh4lc09qKYGXyU7FeqOv 	 
     	  
     mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
       mDzQQrEx5Ki0C6uDHU2cy 	 
          myYAiLHDT3JvFKUJCC_FN 	 
-    	  _3005401604095528410 ma6VjqdfajK4BX9gkoGiD 	 
-_2654435875 mdmuaUz9iCkCckSUhcEv1 	 
+    	  _11941284328360913259 ma6VjqdfajK4BX9gkoGiD 	 
+_13303058356268144139 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		 
          mF8CPQI5IssWjwlV2CXVE 	 
-_706246330857622 mu_nOcTFwUo8r0uNE351R 	 
+_3176948340370061933 mu_nOcTFwUo8r0uNE351R 	 
     	  mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
      
      
-_2654435875 + 2 mzf4ZxeZY8wF2XnrdYK61 	 
+_13303058356268144139 + 2 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -10115,16 +10994,16 @@ _2654435875 + 2 mzf4ZxeZY8wF2XnrdYK61
     		   
      
  mhxtTU7dvZHXCTSg8B8rx 	 
-  _706246351566300 mA4oXllup8K3T5dxkluRR 	 
+  _3175967376861678913 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
      
      
  
-  	_3005401604095528410 msdqcdg5NNrdQnc_PT1Ee 	 
+  	_11941284328360913259 msdqcdg5NNrdQnc_PT1Ee 	 
    .x mYxohqgekcJ8HhaDZvWcX 	 
-_706246351566300 mTjppsgNpY1Pjyv5Z_zMr 	 
-    _706246330857622 mwTp2D1d4PfxNNOzzUfhS 	.x muiDYQbmwLxL3PGrwWGeP 	 
+_3175967376861678913 mTjppsgNpY1Pjyv5Z_zMr 	 
+    _3176948340370061933 mwTp2D1d4PfxNNOzzUfhS 	.x muiDYQbmwLxL3PGrwWGeP 	 
     	 mJkMyi0NbVRDgE__LMR_m 	 
     	  
    
@@ -10132,7 +11011,7 @@ _706246351566300 mTjppsgNpY1Pjyv5Z_zMr
     	  
     		   
      
-   _3005401604095528410,_706246330857622 mlqM0snvYcrWCw2_QjhQi 	 
+   _11941284328360913259,_3176948340370061933 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   mxdAvfSsdzliezc0uyUMk 	 
     	  
@@ -10142,7 +11021,7 @@ _706246351566300 mTjppsgNpY1Pjyv5Z_zMr
  
         const  mYKwa_OYBeVXzRPMa_mz6 	 
     	  
-    		_706246336512098 mRwjoMr_aqph4iL4nu8NS 	 
+    		_3257891606805124672 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
@@ -10156,7 +11035,7 @@ _706246351566300 mTjppsgNpY1Pjyv5Z_zMr
      
      
  
-  	_11093821954348 mu_nOcTFwUo8r0uNE351R 	 
+  	_5268608437207054717 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
    3.14159/8.f mPdHdcAZ6XJhwf8wLtULI 	 
@@ -10170,14 +11049,14 @@ _706246351566300 mTjppsgNpY1Pjyv5Z_zMr
      
      
  
- _46082576112622496 mdKhcOUXVqyCMdccisL_a 	 
+ _12290827085925694194 mdKhcOUXVqyCMdccisL_a 	 
     	  
     	3.*3.14159f/8.f mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
 
         const  mglDNKH5ah89GptW6H4Cu 	 
-_46082576112915375 mKcKHr_bTagXAK_pf8btG 	 
+_12290826968547181107 mKcKHr_bTagXAK_pf8btG 	 
     5.f*3.14159f/8.f mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
@@ -10185,7 +11064,7 @@ _46082576112915375 mKcKHr_bTagXAK_pf8btG
     
         const  maOczvhF_v9OTsK70ZZut 	 
     	  
-_46082576113256901 ma6VjqdfajK4BX9gkoGiD 	7.f*3.14159f/8.f mxdAvfSsdzliezc0uyUMk 	 
+_12290829632982753066 ma6VjqdfajK4BX9gkoGiD 	7.f*3.14159f/8.f mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
@@ -10198,8 +11077,8 @@ _46082576113256901 ma6VjqdfajK4BX9gkoGiD 	7.f*3.14159f/8.f mxdAvfSsdzliezc0uyUMk
      
      
  
-  	_706246308708711 mdKhcOUXVqyCMdccisL_a 	 
-    	  0,_706246308708708 mM3tRrWbRPqPOU3G4ShKT 	 
+  	_3177069355788807654 mdKhcOUXVqyCMdccisL_a 	 
+    	  0,_3177069355788807468 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
    0 mINcNsH05D0QZDej9wl4h 	
@@ -10210,19 +11089,19 @@ _46082576113256901 ma6VjqdfajK4BX9gkoGiD 	7.f*3.14159f/8.f mxdAvfSsdzliezc0uyUMk
      
      
  
-  _175247760922 mif4ZCBkqdiqSYkR9AD0r 	 
+  _16232574195069208446 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
-    		   _706246351566300 mY2nz8M_6jpSxQZL8EYgU 	 
+    		   _3175967376861678913 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
-_706246330857622 mwTp2D1d4PfxNNOzzUfhS 	 
+_3176948340370061933 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
-    		 -_706246351566300 mY2nz8M_6jpSxQZL8EYgU 	 
+    		 -_3175967376861678913 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  
- _3005401604095528410 mUB1yrSrKOwldqxmCatN2 	 
+ _11941284328360913259 mUB1yrSrKOwldqxmCatN2 	 
     mINcNsH05D0QZDej9wl4h 	 
     	  
   
@@ -10232,12 +11111,12 @@ _706246330857622 mwTp2D1d4PfxNNOzzUfhS
      
      
  
-  _46082576038086523 ma6VjqdfajK4BX9gkoGiD 	 
+  _12315458030785690534 ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
      
      atan2 mFlVjO0mLpwnCN5a1Quio 	 
-    	 _175247760922.y,_175247760922.x mmCJ670wA_VHgip7JZ1dW 	 
+    	 _16232574195069208446.y,_16232574195069208446.x mmCJ670wA_VHgip7JZ1dW 	 
      mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
@@ -10247,27 +11126,27 @@ _706246330857622 mwTp2D1d4PfxNNOzzUfhS
   	
          mRzhpvoeHZK7yCqqzYDDp 	 
     miAECMSxGwjxrcOKk0DII 	 
-   _11093821954348 mlP1m6taP4mQVYA_j8Oxe 	 
+   _5268608437207054717 mlP1m6taP4mQVYA_j8Oxe 	 
     	  
     		   
      
      
- _46082576038086523  mQDLRy0PKsddZ3xq0mn3V 	 
+ _12315458030785690534  mQDLRy0PKsddZ3xq0mn3V 	 
     	  
-  _46082576038086523 mYfYoOWdsOLTDCIBT7npX 	 
+  _12315458030785690534 mYfYoOWdsOLTDCIBT7npX 	 
     	  
     		   
      
-   3*_11093821954348 mXAYJa6osZ6HNTIEEBnr0 	 
+   3*_5268608437207054717 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		    mjbtcSgN5ZQfkGDsoYG4l 	 
     	  
     		    
-            _706246308708711 mu_nOcTFwUo8r0uNE351R 	_706246308708708 mCm219F3DHVwNe_CsrCeK 	 
+            _3177069355788807654 mu_nOcTFwUo8r0uNE351R 	_3177069355788807468 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
-  _706246308256699 mPdHdcAZ6XJhwf8wLtULI 	 
+  _3177068552486117874 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
@@ -10287,10 +11166,10 @@ _706246330857622 mwTp2D1d4PfxNNOzzUfhS
     	  
     		   
      
-     -_11093821954348 mYfYoOWdsOLTDCIBT7npX 	 
+     -_5268608437207054717 mYfYoOWdsOLTDCIBT7npX 	 
     	  
     		   
- _46082576038086523  mECamByxBqjGyTShbPlRQ 	 _46082576038086523 mYI2nkSxgJHf1pY1PttV1 	_11093821954348  mlqM0snvYcrWCw2_QjhQi 	 
+ _12315458030785690534  mECamByxBqjGyTShbPlRQ 	 _12315458030785690534 mYI2nkSxgJHf1pY1PttV1 	_5268608437207054717  mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
      
@@ -10302,12 +11181,12 @@ _706246330857622 mwTp2D1d4PfxNNOzzUfhS
      
  
   	 
-            _706246308708711 mKcKHr_bTagXAK_pf8btG 	 
+            _3177069355788807654 mKcKHr_bTagXAK_pf8btG 	 
     	  
-    		   _706246308256699 mPdHdcAZ6XJhwf8wLtULI 	 
+    		   _3177068552486117874 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
 
-            _706246308708708 mdKhcOUXVqyCMdccisL_a 	 
+            _3177069355788807468 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
@@ -10332,16 +11211,16 @@ _706246330857622 mwTp2D1d4PfxNNOzzUfhS
      
  
  mFsSEF_3_iD2mT6nZG9QR 	 
-    	 -_46082576112622496 mYI2nkSxgJHf1pY1PttV1 	 
+    	 -_12290827085925694194 mYI2nkSxgJHf1pY1PttV1 	 
     	  
     		   
-_46082576038086523  mQDLRy0PKsddZ3xq0mn3V 	 
+_12315458030785690534  mQDLRy0PKsddZ3xq0mn3V 	 
     	  
-   _46082576038086523 mCALzjQ0bwpDnngl_oSsi 	 
+   _12315458030785690534 mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
      
-     -_11093821954348  msubWq7nTVSPilWqmTzkx 	 
+     -_5268608437207054717  msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -10349,17 +11228,17 @@ _46082576038086523  mQDLRy0PKsddZ3xq0mn3V
     	  
     		   
  
-            _706246308708711 mif4ZCBkqdiqSYkR9AD0r 	_706246308256699 mlqoNTA3LQoUJF6i5YDFc 	 
+            _3177069355788807654 mif4ZCBkqdiqSYkR9AD0r 	_3177068552486117874 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
   
-            _706246308708708 mdKhcOUXVqyCMdccisL_a 	 
+            _3177069355788807468 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
      
  
--_706246308256699 mriCvhMavpfheoLNc0eCD 	 
+-_3177068552486117874 mriCvhMavpfheoLNc0eCD 	 
     
          mDUyr1RAsHMG7u1BeTW3F 	 
     	 
@@ -10371,35 +11250,35 @@ _46082576038086523  mQDLRy0PKsddZ3xq0mn3V
     	  
     		   
   mhORIPgMIfN3Fn8aCQBuU 	 
-    	  -_46082576112915375 mYI2nkSxgJHf1pY1PttV1 	 
+    	  -_12290826968547181107 mYI2nkSxgJHf1pY1PttV1 	 
     	  
     		   
      
      
  
-  _46082576038086523  mOR5gj7K3yTraJVOrvmKy 	 
+  _12315458030785690534  mOR5gj7K3yTraJVOrvmKy 	 
     	  
-  _46082576038086523 mlP1m6taP4mQVYA_j8Oxe 	 
+  _12315458030785690534 mlP1m6taP4mQVYA_j8Oxe 	 
     	  
-   -_46082576112622496  mAnDeXfeHaujEzGBbrjil 	 
+   -_12290827085925694194  mAnDeXfeHaujEzGBbrjil 	 
     	   mfKhTg3wpiK_YhdQzWWcS 	 
     	  
     		   
     
-            _706246308708711 mM3tRrWbRPqPOU3G4ShKT 	 
+            _3177069355788807654 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      0 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
    
-            _706246308708708 mKcKHr_bTagXAK_pf8btG 	 
+            _3177069355788807468 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      
      
  
-  	 -_706246308256699 mdmuaUz9iCkCckSUhcEv1 	 
+  	 -_3177068552486117874 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
     
@@ -10407,37 +11286,36 @@ _46082576038086523  mQDLRy0PKsddZ3xq0mn3V
  
          mUwTrZwI1VfAXDN69k3UA 	 mEwOO8zzJcEkF96gfFa1e 	 
  mtbP4KQJdh36UGELfV2zq 	 
-     -_46082576113256901 mW1ds9XwNwevT5B2b3j8B 	 
+     -_12290829632982753066 mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
      
      
- _46082576038086523  mQDLRy0PKsddZ3xq0mn3V 	 
+ _12315458030785690534  mQDLRy0PKsddZ3xq0mn3V 	 
     	  
     		   
      
      
- _46082576038086523 mW1ds9XwNwevT5B2b3j8B 	 
+ _12315458030785690534 mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
-   -_46082576112915375  muiDYQbmwLxL3PGrwWGeP 	 
+   -_12290826968547181107  muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
   mMRNM5hfPBWFjYCspldu3 	 
     	  
     		   
      
-
-            _706246308708711 muQdV4OJL6V6gVxW6AdRy 	 
+            _3177069355788807654 muQdV4OJL6V6gVxW6AdRy 	 
     	  
-    		   -_706246308256699 mftnbgRvzOIVyL93HyyWt 	 
+    		   -_3177068552486117874 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
      
  
  
-            _706246308708708 mCm219F3DHVwNe_CsrCeK 	-_706246308256699 mxdAvfSsdzliezc0uyUMk 	 
+            _3177069355788807468 mCm219F3DHVwNe_CsrCeK 	-_3177068552486117874 mxdAvfSsdzliezc0uyUMk 	 
     	  
   
          mgjPImSFwUcUKl9XTKqqB 	 
@@ -10458,41 +11336,41 @@ _46082576038086523  mQDLRy0PKsddZ3xq0mn3V
      
      
  
- -_706246336512098 mW1ds9XwNwevT5B2b3j8B 	 
+ -_3257891606805124672 mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
      
      
  
-_46082576038086523  mbFGY3HJrKnP_L6H3dMsA 	 
+_12315458030785690534  mbFGY3HJrKnP_L6H3dMsA 	 
     	  
     		   
      
      
-  _46082576038086523 mW1ds9XwNwevT5B2b3j8B 	 
+  _12315458030785690534 mW1ds9XwNwevT5B2b3j8B 	 
     	  
-  -_46082576113256901 mAnDeXfeHaujEzGBbrjil 	 
+  -_12290829632982753066 mAnDeXfeHaujEzGBbrjil 	 
     	  
   miAr40ThvnnZei4PQ8nft 	 
     	  
     		   
   mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-_46082576113256901 mqEAvVDOCXqrrwrTRByrM 	 
+_12290829632982753066 mqEAvVDOCXqrrwrTRByrM 	 
     	  
     		   
      
      
  
- _46082576038086523  mKdH1o6rFuMJ1Fl0PA_sn 	 
+ _12315458030785690534  mKdH1o6rFuMJ1Fl0PA_sn 	 
     	  
-   _46082576038086523 mCALzjQ0bwpDnngl_oSsi 	 
+   _12315458030785690534 mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
      
      
  
-  _706246336512098 msubWq7nTVSPilWqmTzkx 	 
+  _3257891606805124672 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -10502,10 +11380,10 @@ _46082576113256901 mqEAvVDOCXqrrwrTRByrM
     	  
     		   
      
-            _706246308708711 mRwjoMr_aqph4iL4nu8NS 	 
-    -_706246308256699 mlqoNTA3LQoUJF6i5YDFc 	 
+            _3177069355788807654 mRwjoMr_aqph4iL4nu8NS 	 
+    -_3177068552486117874 mlqoNTA3LQoUJF6i5YDFc 	 
    
-            _706246308708708 mif4ZCBkqdiqSYkR9AD0r 	 
+            _3177069355788807468 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
 0 mxdAvfSsdzliezc0uyUMk 	 
     	  
@@ -10528,31 +11406,31 @@ _46082576113256901 mqEAvVDOCXqrrwrTRByrM
     		   
    mmmC9tOGiLK6UaJr0E5vz 	 
     	    mhORIPgMIfN3Fn8aCQBuU 	 
- _46082576112915375 mK5OxIt23gZzSiTA8trU8 	 
+ _12290826968547181107 mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
      
  
-  	_46082576038086523  mOR5gj7K3yTraJVOrvmKy 	 
-    _46082576038086523 mbG1GEmOdh2dXkJZ42sXo 	 
+  	_12315458030785690534  mOR5gj7K3yTraJVOrvmKy 	 
+    _12315458030785690534 mbG1GEmOdh2dXkJZ42sXo 	 
     	  
-   _46082576113256901 mmCJ670wA_VHgip7JZ1dW 	   mhyL_M5gnmQzwyHW45MdA 	 mnU2hwoI16_nZ7reLKJTr 	 
+   _12290829632982753066 mmCJ670wA_VHgip7JZ1dW 	   mhyL_M5gnmQzwyHW45MdA 	 mnU2hwoI16_nZ7reLKJTr 	 
     	  
     		   
      
      
  
   	
-            _706246308708711 mu_nOcTFwUo8r0uNE351R 	 
-    	 -_706246308256699 mxdAvfSsdzliezc0uyUMk 	 
+            _3177069355788807654 mu_nOcTFwUo8r0uNE351R 	 
+    	 -_3177068552486117874 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
      
  
-            _706246308708708 myJHqW7fkn_72nVEhKeZ6 	 
- _706246308256699 mlqoNTA3LQoUJF6i5YDFc 	 
+            _3177069355788807468 myJHqW7fkn_72nVEhKeZ6 	 
+ _3177068552486117874 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
@@ -10568,29 +11446,29 @@ _46082576113256901 mqEAvVDOCXqrrwrTRByrM
     	  
     		   
      
-    _46082576112622496 mqEAvVDOCXqrrwrTRByrM 	 
+    _12290827085925694194 mqEAvVDOCXqrrwrTRByrM 	 
     	  
-    	_46082576038086523  mvW7MwxFgHE1jUFn6bpuP 	 
-  _46082576038086523 mYfYoOWdsOLTDCIBT7npX 	 
+    	_12315458030785690534  mvW7MwxFgHE1jUFn6bpuP 	 
+  _12315458030785690534 mYfYoOWdsOLTDCIBT7npX 	 
     	  
-    	_46082576112915375 mzf4ZxeZY8wF2XnrdYK61 	 
+    	_12290826968547181107 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		    mmCJ670wA_VHgip7JZ1dW 	 
     	   mjbtcSgN5ZQfkGDsoYG4l 	 
     	  
     		 
-            _706246308708711 mif4ZCBkqdiqSYkR9AD0r 	 
-_706246308256699 mdmuaUz9iCkCckSUhcEv1 	 
+            _3177069355788807654 mif4ZCBkqdiqSYkR9AD0r 	 
+_3177068552486117874 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
      
  
  
-            _706246308708708 myJHqW7fkn_72nVEhKeZ6 	 
+            _3177069355788807468 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
-    _706246308256699 mVOlbMaOu1U0SC2oeKIzP 	 
+    _3177068552486117874 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
@@ -10604,41 +11482,41 @@ _706246308256699 mdmuaUz9iCkCckSUhcEv1
      
  
  
-        _706246351566300 mFyKKLtdivGGDlk8sYzsf 	 
-    	  _706246330857622 mUB1yrSrKOwldqxmCatN2 	 
+        _3175967376861678913 mFyKKLtdivGGDlk8sYzsf 	 
+    	  _3176948340370061933 mUB1yrSrKOwldqxmCatN2 	 
 .x mC7CcuPGpz81aizhogiZL 	 
     	  
     		   
      
- _706246308708711 mlqoNTA3LQoUJF6i5YDFc 	 
+ _3177069355788807654 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
    
-        _706246351566300 mILaQGKCAmcKrYQNhgWUq 	 
- _706246330857622 mrpQVzv6u8gxvho1qUlil 	 
+        _3175967376861678913 mILaQGKCAmcKrYQNhgWUq 	 
+ _3176948340370061933 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
      
      
 .y mC7CcuPGpz81aizhogiZL 	 
-  _706246308708708 mriCvhMavpfheoLNc0eCD 	 
+  _3177069355788807468 mriCvhMavpfheoLNc0eCD 	 
     
-        _706246351566300 mTjppsgNpY1Pjyv5Z_zMr 	 
-  _3005401604095528410 msdqcdg5NNrdQnc_PT1Ee 	 
+        _3175967376861678913 mTjppsgNpY1Pjyv5Z_zMr 	 
+  _11941284328360913259 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
     		   
      
    .x mFKRUYDiDlNmwfGKdBg2S 	 
     	  
-    _706246308708711 mPdHdcAZ6XJhwf8wLtULI 	
-        _706246351566300 mILaQGKCAmcKrYQNhgWUq 	 
+    _3177069355788807654 mPdHdcAZ6XJhwf8wLtULI 	
+        _3175967376861678913 mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
      
      
  
- _3005401604095528410 mDd5IIsnjfLI1lcygRsW3 	 
+ _11941284328360913259 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		   
      
@@ -10646,7 +11524,7 @@ _706246308256699 mdmuaUz9iCkCckSUhcEv1
  .y mtL59O4fTIGPJKdcQHvhB 	 
     	  
     		   
-  _706246308708708 mxdAvfSsdzliezc0uyUMk 	 
+  _3177069355788807468 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		  
 
@@ -10673,7 +11551,7 @@ _706246308256699 mdmuaUz9iCkCckSUhcEv1
  _13365150943186347431 mtbP4KQJdh36UGELfV2zq 	 
  cv mfx1fLYDWN4YRZNnQEsJN 	 
     	  
-    		   Size _4339048708451217590 msubWq7nTVSPilWqmTzkx 	 
+    		   Size _10104164517741906567 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      const mfKhTg3wpiK_YhdQzWWcS 	 
@@ -10699,12 +11577,13 @@ _706246308256699 mdmuaUz9iCkCckSUhcEv1
      
  
   	 -1 mlqM0snvYcrWCw2_QjhQi 	 
-    return 0 mPdHdcAZ6XJhwf8wLtULI 	 
+     mo03bPDhF7WKTf8ndM1Bk 	 
+ 0 mPdHdcAZ6XJhwf8wLtULI 	 
     	
     
      mSD7jHYN8mOif4_CBtIg6 	 
     	  
-    		  _3005399795325466858 myJHqW7fkn_72nVEhKeZ6 	 
+    		  _17126222192490468606 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
    std mUCEzhGWrU8OYqcHVPlVW 	 
@@ -10716,7 +11595,7 @@ _706246308256699 mdmuaUz9iCkCckSUhcEv1
      
      
  
-  _4339048708451217590.width, _4339048708451217590.height msubWq7nTVSPilWqmTzkx 	 
+  _10104164517741906567.width, _10104164517741906567.height msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
    mINcNsH05D0QZDej9wl4h 	 
@@ -10729,7 +11608,7 @@ _706246308256699 mdmuaUz9iCkCckSUhcEv1
      mihBlyb7pwidO496a5_p1 	 
     	  
     		   
-     _6807036689599407548  muQdV4OJL6V6gVxW6AdRy 	 
+     _9531480675436973396  muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
      
@@ -10757,7 +11636,7 @@ _706246308256699 mdmuaUz9iCkCckSUhcEv1
      
      
  
-  _6807036689599407548  myJHqW7fkn_72nVEhKeZ6 	 
+  _9531480675436973396  myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
@@ -10766,7 +11645,9 @@ _706246308256699 mdmuaUz9iCkCckSUhcEv1
   	 static_cast mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
-float mE4_Vrik0lveh4HNJUk1B 	 
+ mlkEZnzYCXAgDnYDi5up3 	 
+    	  
+    		   mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		   
      
@@ -10779,7 +11660,11 @@ float mE4_Vrik0lveh4HNJUk1B
     	  
     		   
      
-float mtJAThUzPUAnb_DMXiQOL 	 
+ mnqZGwZqTTi1dekKxujAE 	 
+    	  
+    		   
+     
+   mtJAThUzPUAnb_DMXiQOL 	 
     	  
     		   
      
@@ -10789,7 +11674,7 @@ float mtJAThUzPUAnb_DMXiQOL
      
      
  
-  _3005399795325466858 muiDYQbmwLxL3PGrwWGeP 	 
+  _17126222192490468606 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
        mPdHdcAZ6XJhwf8wLtULI 	 
@@ -10808,7 +11693,7 @@ float mtJAThUzPUAnb_DMXiQOL
    -1 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
-      _6807036689599407548 mRwjoMr_aqph4iL4nu8NS 	 
+      _9531480675436973396 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
@@ -10817,7 +11702,7 @@ float mtJAThUzPUAnb_DMXiQOL
     	  
     		   
      
-  min mFlVjO0mLpwnCN5a1Quio 	_18062104616271777338.minSize_pix, _6807036689599407548  mzf4ZxeZY8wF2XnrdYK61 	 
+  min mFlVjO0mLpwnCN5a1Quio 	_18062104616271777338.minSize_pix, _9531480675436973396  mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -10828,7 +11713,7 @@ float mtJAThUzPUAnb_DMXiQOL
      myYaYWcsrnLoe6SxorDYt 	 
     	  
     		   
-  _6807036689599407548  mPdHdcAZ6XJhwf8wLtULI 	 
+  _9531480675436973396  mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
      
@@ -10853,7 +11738,7 @@ float mtJAThUzPUAnb_DMXiQOL
      
      
  
- Mat& _175247760141, Mat& _11093822299329, Size _706246330297760, vector mK5OxIt23gZzSiTA8trU8 	 
+ Mat& _16232574195069562409, Mat& _5268605234504081842, Size _3176948226119365859, vector mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
@@ -10861,7 +11746,7 @@ float mtJAThUzPUAnb_DMXiQOL
     	  
     		   
      
- _3005399803531350051 mAnDeXfeHaujEzGBbrjil 	 
+ _3225820074026295014 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
 
@@ -10877,7 +11762,7 @@ float mtJAThUzPUAnb_DMXiQOL
     		   
      
   miAECMSxGwjxrcOKk0DII 	 
-    _3005399803531350051.size mcznTYeCGOAygtXXAPYS_ 	 
+    _3225820074026295014.size mcznTYeCGOAygtXXAPYS_ 	 
     	  
       mZk2lUQMDVDhOLQdg9s92 	 
     	  
@@ -10890,18 +11775,18 @@ float mtJAThUzPUAnb_DMXiQOL
     	  
     		   
      
-9001, "\x70\x6f\x69\x6e\x74\x2e\x73\x69\x7a\x65\x28\x29\x21\x3d\x34", "\x4d\x61\x72\x6b\x65\x72\x44\x65\x74\x65\x63\x74\x6f\x72\x5f\x49\x6d\x70\x6c\x3a\x3a\x77\x61\x72\x70", __FILE__, __LINE__ mhyL_M5gnmQzwyHW45MdA 	 
+9001, "\x5c\x78\x37\x30\x5c\x78\x36\x66\x5c\x78\x36\x39\x5c\x78\x36\x65\x5c\x78\x37\x34\x5c\x78\x32\x65\x5c\x78\x37\x33\x5c\x78\x36\x39\x5c\x78\x37\x61\x5c\x78\x36\x35\x5c\x78\x32\x38\x5c\x78\x32\x39\x5c\x78\x32\x31\x5c\x78\x33\x64\x5c\x78\x33\x34", "\x5c\x78\x34\x64\x5c\x78\x36\x31\x5c\x78\x37\x32\x5c\x78\x36\x62\x5c\x78\x36\x35\x5c\x78\x37\x32\x5c\x78\x34\x34\x5c\x78\x36\x35\x5c\x78\x37\x34\x5c\x78\x36\x35\x5c\x78\x36\x33\x5c\x78\x37\x34\x5c\x78\x36\x66\x5c\x78\x37\x32\x5c\x78\x35\x66\x5c\x78\x34\x39\x5c\x78\x36\x64\x5c\x78\x37\x30\x5c\x78\x36\x63\x5c\x78\x33\x61\x5c\x78\x33\x61\x5c\x78\x37\x37\x5c\x78\x36\x31\x5c\x78\x37\x32\x5c\x78\x37\x30", __FILE__, __LINE__ mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
       mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		  
     
-    Point2f _1515339301686791132 mZnfmoDANjVLDjZfzM5MR 	 
+    Point2f _10473289206739293354 mZnfmoDANjVLDjZfzM5MR 	 
     	  
     		 4 mDd5IIsnjfLI1lcygRsW3 	 
     	  
-    , _16937225740828195016 mILaQGKCAmcKrYQNhgWUq 	 
+    , _9482907070712177146 mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
      
@@ -10926,14 +11811,16 @@ float mtJAThUzPUAnb_DMXiQOL
      
      
  
-  	int _2654435874  mCm219F3DHVwNe_CsrCeK 	 
+  	 mSD7jHYN8mOif4_CBtIg6 	 
+    	  
+    _13303058356268144138  mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
   0 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
-   _2654435874  mHkLXuUOlyX2vZI7w3FQj 	 
+   _13303058356268144138  mHkLXuUOlyX2vZI7w3FQj 	 
     	  
     		   
      
@@ -10942,24 +11829,24 @@ float mtJAThUzPUAnb_DMXiQOL
   	  4 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
- _2654435874 mo7mKuzaX2h9vw2rEj5qh 	 
+ _13303058356268144138 mo7mKuzaX2h9vw2rEj5qh 	 
     	  
     		   
     mgkSwnYHQivQIpeAwgr20 	 
     	 
-        _16937225740828195016 mY2nz8M_6jpSxQZL8EYgU 	 
+        _9482907070712177146 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  
-  _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+  _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
       ma6VjqdfajK4BX9gkoGiD 	 
     	  
-    		   _3005399803531350051 mGYpOkNIG_qSvYXBOU9Vf 	 
-    	  _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 
+    		   _3225820074026295014 mGYpOkNIG_qSvYXBOU9Vf 	 
+    	  _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
      mVOlbMaOu1U0SC2oeKIzP 	 
     	  
@@ -10968,7 +11855,7 @@ float mtJAThUzPUAnb_DMXiQOL
      
  
   	
-    _1515339301686791132 mWkGo8xUdRIKgJ1DEUvvn 	 
+    _10473289206739293354 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
 0 msdqcdg5NNrdQnc_PT1Ee 	 
@@ -10994,7 +11881,7 @@ float mtJAThUzPUAnb_DMXiQOL
     		   
      
      
-    _1515339301686791132 mNDJrNgMXB1tBoFNaJO0d 	 
+    _10473289206739293354 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
     		   
   1 msdqcdg5NNrdQnc_PT1Ee 	 
@@ -11003,7 +11890,11 @@ float mtJAThUzPUAnb_DMXiQOL
     	  
    static_cast mca1GaR7Rv9qOZsisqKBB 	 
     	  
-    		float m_j6ZkbEfLCgUqtaolYTp 	 
+    		 mnECjbnhLknZie3Z5iHP2 	 
+    	  
+    		   
+     
+ m_j6ZkbEfLCgUqtaolYTp 	 
     	  
     		   
  mFsSEF_3_iD2mT6nZG9QR 	 
@@ -11012,12 +11903,12 @@ float mtJAThUzPUAnb_DMXiQOL
      
      
  
-  	 _706246330297760.width - 1 mzf4ZxeZY8wF2XnrdYK61 	 
+  	 _3176948226119365859.width - 1 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		 , 0.f mycwFs63h7Mi3ggRkMEVm 	 
     mJTScPpWt8plE9Cz9fDU6 	 
     	
-    _1515339301686791132 mFyKKLtdivGGDlk8sYzsf 	 
+    _10473289206739293354 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   2 mUB1yrSrKOwldqxmCatN2 	 
    mCm219F3DHVwNe_CsrCeK 	 
@@ -11026,29 +11917,32 @@ float mtJAThUzPUAnb_DMXiQOL
     	  
     static_cast mYI2nkSxgJHf1pY1PttV1 	 
     	  
-  float mEc9zv3P8LW8haIvtztwe 	 
+   mWokjWH0MHqyBOx4j0Oac 	 
+    	  
+   mEc9zv3P8LW8haIvtztwe 	 
     	  
     		   
      
      
  
  mFlVjO0mLpwnCN5a1Quio 	 
-    _706246330297760.width - 1 mhyL_M5gnmQzwyHW45MdA 	 
+    _3176948226119365859.width - 1 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
      
  
  , static_cast mK5OxIt23gZzSiTA8trU8 	 
-  float mE4_Vrik0lveh4HNJUk1B 	 
+   mYKwa_OYBeVXzRPMa_mz6 	 
+    	  mE4_Vrik0lveh4HNJUk1B 	 
     	  
     mSa4WnWih0z4lSo9RYUGU 	 
     	  
-    	_706246330297760.height - 1 mAnDeXfeHaujEzGBbrjil 	 
+    	_3176948226119365859.height - 1 mAnDeXfeHaujEzGBbrjil 	 
    mlqM0snvYcrWCw2_QjhQi 	 
     	 mxdAvfSsdzliezc0uyUMk 	 
     	 
-    _1515339301686791132 mFyKKLtdivGGDlk8sYzsf 	 
+    _10473289206739293354 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
     3 mIkhxhgSNMt_JUZR7ce1U 	 
@@ -11057,7 +11951,11 @@ float mtJAThUzPUAnb_DMXiQOL
     	 Point2f mmmC9tOGiLK6UaJr0E5vz 	 
    0.f, static_cast mlP1m6taP4mQVYA_j8Oxe 	 
     	  
-    		  float mtJAThUzPUAnb_DMXiQOL 	 
+    		   mYKwa_OYBeVXzRPMa_mz6 	 
+    	  
+    		   
+     
+  mtJAThUzPUAnb_DMXiQOL 	 
     	  
     		   
      
@@ -11066,7 +11964,7 @@ float mtJAThUzPUAnb_DMXiQOL
     	  
     		   
      
-_706246330297760.height - 1 mhyL_M5gnmQzwyHW45MdA 	 
+_3176948226119365859.height - 1 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		 msubWq7nTVSPilWqmTzkx 	 
     	  
@@ -11074,14 +11972,14 @@ _706246330297760.height - 1 mhyL_M5gnmQzwyHW45MdA
       mINcNsH05D0QZDej9wl4h 	 
     	  
     	
-    Mat _2654435846  myJHqW7fkn_72nVEhKeZ6 	 
+    Mat _13303058356268144331  myJHqW7fkn_72nVEhKeZ6 	 
     	  
   getPerspectiveTransform mReDuVelSknxaDAoDEmwT 	 
     	  
     		   
      
      
- _16937225740828195016, _1515339301686791132 mycwFs63h7Mi3ggRkMEVm 	  mxdAvfSsdzliezc0uyUMk 	 
+ _9482907070712177146, _10473289206739293354 mycwFs63h7Mi3ggRkMEVm 	  mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
@@ -11092,7 +11990,7 @@ _706246330297760.height - 1 mhyL_M5gnmQzwyHW45MdA
    warpPerspective mtbP4KQJdh36UGELfV2zq 	 
     	  
     		   
-_175247760141, _11093822299329, _2654435846, _706246330297760, cv mEMN2sRTwHcTUl7SNSw0d 	 
+_16232574195069562409, _5268605234504081842, _13303058356268144331, _3176948226119365859, cv mEMN2sRTwHcTUl7SNSw0d 	 
     	  
     		   
      
@@ -11106,7 +12004,9 @@ INTER_LINEAR mycwFs63h7Mi3ggRkMEVm
   
    mLfKYVMLDthbyvvLerNPJ 	 
     	  
-    		 true mriCvhMavpfheoLNc0eCD 	 
+    		  mRrVhT0WkQauAZEUJHKOK 	 
+    	  
+    		 mriCvhMavpfheoLNc0eCD 	 
 
  mJOnXqKm3GBylSdRjpXAA 	 
     	  
@@ -11133,7 +12033,7 @@ INTER_LINEAR mycwFs63h7Mi3ggRkMEVm
     Point2f mYxohqgekcJ8HhaDZvWcX 	 
     	  
     		   
-    & _2654435866 msubWq7nTVSPilWqmTzkx 	 
+    & _13303058356268144201 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -11144,7 +12044,7 @@ INTER_LINEAR mycwFs63h7Mi3ggRkMEVm
     	  
 
      mCujczJix6jMpJcynoBiA 	 
-  _11093822381150  mu_nOcTFwUo8r0uNE351R 	 
+  _5268611907573087124  mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
@@ -11159,22 +12059,22 @@ INTER_LINEAR mycwFs63h7Mi3ggRkMEVm
      
      
  
-  	_2654435874  mKcKHr_bTagXAK_pf8btG 	 
+  	_13303058356268144138  mKcKHr_bTagXAK_pf8btG 	 
     	  
    0 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
- _2654435874  mbG1GEmOdh2dXkJZ42sXo 	 
+ _13303058356268144138  mbG1GEmOdh2dXkJZ42sXo 	 
     	  
     		   
      
-    _2654435866.size maHkatHu0Jap4oTaT5q4_ 	 
+    _13303058356268144201.size maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		   
   mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
      
- _2654435874 mkGHGzUDDVqHIjIdYGe6S 	 
+ _13303058356268144138 mkGHGzUDDVqHIjIdYGe6S 	 
    muiDYQbmwLxL3PGrwWGeP 	 
 
      mypSy3lS4LRIjRYTxVxzg 	 
@@ -11183,41 +12083,43 @@ INTER_LINEAR mycwFs63h7Mi3ggRkMEVm
    
          mG7mr0Iq8BCEeADSwrCoW 	 
     	  
-    		 _175247760081  mCm219F3DHVwNe_CsrCeK 	 
+    		 _16232574195069558079  mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
      
   mSa4WnWih0z4lSo9RYUGU 	 
-    	_2654435874 + 1 mycwFs63h7Mi3ggRkMEVm 	 
+    	_13303058356268144138 + 1 mycwFs63h7Mi3ggRkMEVm 	 
     	  
-   % _2654435866.size mFwk30320retpLBiICndp 	 
+   % _13303058356268144201.size mFwk30320retpLBiICndp 	 
     	  
     		   mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
-        _11093822381150  mhMsdnRaOV1FZ69nEgvbs 	 
+        _5268611907573087124  mhMsdnRaOV1FZ69nEgvbs 	 
     	  
     		   static_cast mqEAvVDOCXqrrwrTRByrM 	 
     	  
-    	int mtJAThUzPUAnb_DMXiQOL 	 
+    	 meWm4MhzbcJwavtoh469w 	 
+    	  
+mtJAThUzPUAnb_DMXiQOL 	 
     	  
     		   
      
      
  mp3H4249LtCVDCYFqQqz4 	 sqrt miAECMSxGwjxrcOKk0DII 	 
     	  
-    	 mFsSEF_3_iD2mT6nZG9QR 	 _2654435866 mA4oXllup8K3T5dxkluRR 	 
+    	 mFsSEF_3_iD2mT6nZG9QR 	 _13303058356268144201 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
-_2654435874 mwTp2D1d4PfxNNOzzUfhS 	 
+_13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
-.x - _2654435866 mY2nz8M_6jpSxQZL8EYgU 	 
+.x - _13303058356268144201 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
-     _175247760081 mbViqhyIcr6lGWibuo3Im 	 
+     _16232574195069558079 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
@@ -11229,12 +12131,12 @@ _2654435874 mwTp2D1d4PfxNNOzzUfhS
  
    *  mSa4WnWih0z4lSo9RYUGU 	 
     	  
-_2654435866 mWkGo8xUdRIKgJ1DEUvvn 	 
-    	  _2654435874 mJtGCV8zXQjnVDVBVdvFZ 	 
+_13303058356268144201 mWkGo8xUdRIKgJ1DEUvvn 	 
+    	  _13303058356268144138 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
-    	.x - _2654435866 mNDJrNgMXB1tBoFNaJO0d 	 
+    	.x - _13303058356268144201 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
-    		  _175247760081 mUB1yrSrKOwldqxmCatN2 	 
+    		  _16232574195069558079 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
@@ -11247,28 +12149,28 @@ _2654435866 mWkGo8xUdRIKgJ1DEUvvn
     	  
     		   
      
-  _2654435866 mILaQGKCAmcKrYQNhgWUq 	 
+  _13303058356268144201 mILaQGKCAmcKrYQNhgWUq 	 
     	  
-    _2654435874 mwTp2D1d4PfxNNOzzUfhS 	 
+    _13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
-     .y - _2654435866 mZnfmoDANjVLDjZfzM5MR 	 
-    	 _175247760081 mbViqhyIcr6lGWibuo3Im 	 
+     .y - _13303058356268144201 mZnfmoDANjVLDjZfzM5MR 	 
+    	 _16232574195069558079 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   .y mXAYJa6osZ6HNTIEEBnr0 	 
      *  mReDuVelSknxaDAoDEmwT 	 
     	  
     		   
-  _2654435866 mA4oXllup8K3T5dxkluRR 	 
-    	 _2654435874 mbViqhyIcr6lGWibuo3Im 	 
-    .y - _2654435866 mWkGo8xUdRIKgJ1DEUvvn 	 
+  _13303058356268144201 mA4oXllup8K3T5dxkluRR 	 
+    	 _13303058356268144138 mbViqhyIcr6lGWibuo3Im 	 
+    .y - _13303058356268144201 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
      
      
  
-  	 _175247760081 mJtGCV8zXQjnVDVBVdvFZ 	 
+  	 _16232574195069558079 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
      
@@ -11290,7 +12192,7 @@ _2654435866 mWkGo8xUdRIKgJ1DEUvvn
     		   
      
      mLfKYVMLDthbyvvLerNPJ 	 
- _11093822381150 mINcNsH05D0QZDej9wl4h 	 
+ _5268611907573087124 mINcNsH05D0QZDej9wl4h 	 
     	  
     		 
  mnSkEvR4SbDwQxj23xB1M 	 
@@ -11307,11 +12209,11 @@ MarkerDetector_Impl mBBHVSlvDGP5NVUfEuhuf
    cv maKLz6mCz5anFyVle_MtD 	 
     	  
     		   Point2f mW1YUos9eL_9NmgJuSDH7 	 
-    & _16998118202926652486, cv maKLz6mCz5anFyVle_MtD 	 
+    & _14067181347882760969, cv maKLz6mCz5anFyVle_MtD 	 
     	  
     		   
      
-  Point3f& _6807035520661505487 mzf4ZxeZY8wF2XnrdYK61 	 
+  Point3f& _15087904812230018442 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -11325,20 +12227,20 @@ MarkerDetector_Impl mBBHVSlvDGP5NVUfEuhuf
   	 
      mOcs0qqtJYmueMnfTyCFx 	 
     	  
-_706246333028813, _706246332997465, _706246333028812, _706246332997464 mxdAvfSsdzliezc0uyUMk 	 
+_3176948348563158707, _3257891898253592020, _3176948348563158706, _3257891898253592021 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
 
-    _706246333028813  muQdV4OJL6V6gVxW6AdRy 	 
+    _3176948348563158707  muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
      
      
  
- _706246332997465  mKcKHr_bTagXAK_pf8btG 	 
+ _3257891898253592020  mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
-     _16998118202926652486 mA4oXllup8K3T5dxkluRR 	 
+     _14067181347882760969 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
      
@@ -11354,9 +12256,9 @@ _706246333028813, _706246332997465, _706246333028812, _706246332997464 mxdAvfSsd
      
  
   	 
-    _706246333028812  mif4ZCBkqdiqSYkR9AD0r 	 
-    	   _706246332997464  mif4ZCBkqdiqSYkR9AD0r 	 
-    	   _16998118202926652486 mWkGo8xUdRIKgJ1DEUvvn 	 
+    _3176948348563158706  mif4ZCBkqdiqSYkR9AD0r 	 
+    	   _3257891898253592021  mif4ZCBkqdiqSYkR9AD0r 	 
+    	   _14067181347882760969 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
 0 mrpQVzv6u8gxvho1qUlil 	 
     	 .y mftnbgRvzOIVyL93HyyWt 	 
@@ -11375,18 +12277,18 @@ _706246333028813, _706246332997465, _706246333028812, _706246332997464 mxdAvfSsd
      
      
  
-  	_2654435874  mRwjoMr_aqph4iL4nu8NS 	 
+  	_13303058356268144138  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		  1 mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
      
      
- _2654435874  mCALzjQ0bwpDnngl_oSsi 	 _16998118202926652486.size mFwk30320retpLBiICndp 	 mJTScPpWt8plE9Cz9fDU6 	 
+ _13303058356268144138  mCALzjQ0bwpDnngl_oSsi 	 _14067181347882760969.size mFwk30320retpLBiICndp 	 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
- _2654435874 mcstdE8Wwpam6tUMM45Sa 	 
+ _13303058356268144138 mcstdE8Wwpam6tUMM45Sa 	 
     	   mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
@@ -11400,10 +12302,10 @@ _706246333028813, _706246332997465, _706246333028812, _706246332997464 mxdAvfSsd
     		   
     miAECMSxGwjxrcOKk0DII 	 
     	  
-  _16998118202926652486 mWkGo8xUdRIKgJ1DEUvvn 	 
+  _14067181347882760969 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
-  _2654435874 mrpQVzv6u8gxvho1qUlil 	 
+  _13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
      
@@ -11411,17 +12313,17 @@ _706246333028813, _706246332997465, _706246333028812, _706246332997464 mxdAvfSsd
     	  
     		   
      
-     _706246333028813 mAnDeXfeHaujEzGBbrjil 	 
+     _3176948348563158707 mAnDeXfeHaujEzGBbrjil 	 
     	  
-            _706246333028813  mRwjoMr_aqph4iL4nu8NS 	 
+            _3176948348563158707  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
      
  
-   _16998118202926652486 mFyKKLtdivGGDlk8sYzsf 	 
+   _14067181347882760969 mFyKKLtdivGGDlk8sYzsf 	 
     	  
-    _2654435874 msdqcdg5NNrdQnc_PT1Ee 	 
+    _13303058356268144138 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
     		   
   .x mlqoNTA3LQoUJF6i5YDFc 	 
@@ -11432,23 +12334,23 @@ _706246333028813, _706246332997465, _706246333028812, _706246332997464 mxdAvfSsd
     		   
     miAECMSxGwjxrcOKk0DII 	 
     	  
-  _16998118202926652486 mFyKKLtdivGGDlk8sYzsf 	 _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+  _14067181347882760969 mFyKKLtdivGGDlk8sYzsf 	 _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
      
    .x  mRHNkLPwUSnx20pmLgrTq 	 
     	  
     		   
- _706246332997465 msubWq7nTVSPilWqmTzkx 	 
+ _3257891898253592020 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
    
-            _706246332997465  mRwjoMr_aqph4iL4nu8NS 	 
+            _3257891898253592020  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
-  _16998118202926652486 mTjppsgNpY1Pjyv5Z_zMr 	 
-  _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 
+  _14067181347882760969 mTjppsgNpY1Pjyv5Z_zMr 	 
+  _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
      
@@ -11458,44 +12360,44 @@ _706246333028813, _706246332997465, _706246333028812, _706246332997464 mxdAvfSsd
          mRzhpvoeHZK7yCqqzYDDp 	 
     	   mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-    		 _16998118202926652486 mdF98bHO7yrxGJn0aQZVK 	 
-    	  _2654435874 mJtGCV8zXQjnVDVBVdvFZ 	 
+    		 _14067181347882760969 mdF98bHO7yrxGJn0aQZVK 	 
+    	  _13303058356268144138 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		  .y  mYfYoOWdsOLTDCIBT7npX 	 
-    _706246333028812 muiDYQbmwLxL3PGrwWGeP 	 
+    _3176948348563158706 muiDYQbmwLxL3PGrwWGeP 	 
     	  
    
-            _706246333028812  mM3tRrWbRPqPOU3G4ShKT 	 
+            _3176948348563158706  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
-     _16998118202926652486 mFyKKLtdivGGDlk8sYzsf 	 
+     _14067181347882760969 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
-_2654435874 mEFd2D2UDF9SIoPfQtUv6 	 
+_13303058356268144138 mEFd2D2UDF9SIoPfQtUv6 	 
   .y mftnbgRvzOIVyL93HyyWt 	 
 
          mNhNSN2gx5KERe8tfdmgu 	 
     	  
-    		    mhORIPgMIfN3Fn8aCQBuU 	_16998118202926652486 mILaQGKCAmcKrYQNhgWUq 	 
+    		    mhORIPgMIfN3Fn8aCQBuU 	_14067181347882760969 mILaQGKCAmcKrYQNhgWUq 	 
     	  
     		   
      
      
- _2654435874 mDd5IIsnjfLI1lcygRsW3 	 
+ _13303058356268144138 mDd5IIsnjfLI1lcygRsW3 	 
     	  
  .y  m_j6ZkbEfLCgUqtaolYTp 	 
     	  
     		   
      
-     _706246332997464 mmCJ670wA_VHgip7JZ1dW 	 
+     _3257891898253592021 mmCJ670wA_VHgip7JZ1dW 	 
  
-            _706246332997464  ma6VjqdfajK4BX9gkoGiD 	 
+            _3257891898253592021  ma6VjqdfajK4BX9gkoGiD 	 
     	  
-    		   _16998118202926652486 mA4oXllup8K3T5dxkluRR 	 
+    		   _14067181347882760969 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
- _2654435874 mwTp2D1d4PfxNNOzzUfhS 	.y mPdHdcAZ6XJhwf8wLtULI 	 
+ _13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	.y mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		
      mCvAz6nTbqhvwRULRgKe4 	 
@@ -11507,7 +12409,7 @@ _2654435874 mEFd2D2UDF9SIoPfQtUv6
     
     const  mMGij61UZUIIYyztVz9vN 	 
     	  
-    	_14904499616241482268  muQdV4OJL6V6gVxW6AdRy 	 
+    	_16643961442089568442  muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
      
@@ -11515,10 +12417,13 @@ _2654435874 mEFd2D2UDF9SIoPfQtUv6
  
   	 static_cast mqEAvVDOCXqrrwrTRByrM 	 
     	  
-    		int mE4_Vrik0lveh4HNJUk1B 	 
+    		 mP8l6554fUQhsCw2PetD2 	 
+    	  
+    		   
+mE4_Vrik0lveh4HNJUk1B 	 
     	  
     mFlVjO0mLpwnCN5a1Quio 	 
-    	_16998118202926652486.size mf_hJsy06Me1epT4PRx_l 	 
+    	_14067181347882760969.size mf_hJsy06Me1epT4PRx_l 	 
     	  
     		   
      
@@ -11528,8 +12433,8 @@ _2654435874 mEFd2D2UDF9SIoPfQtUv6
    mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
-    Mat _2654435834 mp3H4249LtCVDCYFqQqz4 	 
-_14904499616241482268, 2, CV_32FC1, Scalar mSa4WnWih0z4lSo9RYUGU 	 
+    Mat _13303058356268142351 mp3H4249LtCVDCYFqQqz4 	 
+_16643961442089568442, 2, CV_32FC1, Scalar mSa4WnWih0z4lSo9RYUGU 	 
     	  0 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
@@ -11538,12 +12443,12 @@ _14904499616241482268, 2, CV_32FC1, Scalar mSa4WnWih0z4lSo9RYUGU
     	  mlqoNTA3LQoUJF6i5YDFc 	 
     	  
 
-    Mat _2654435835 mhxtTU7dvZHXCTSg8B8rx 	 
-_14904499616241482268, 1, CV_32FC1, Scalar mFlVjO0mLpwnCN5a1Quio 	 
+    Mat _13303058356268142348 mhxtTU7dvZHXCTSg8B8rx 	 
+_16643961442089568442, 1, CV_32FC1, Scalar mFlVjO0mLpwnCN5a1Quio 	 
     	 0 mXAYJa6osZ6HNTIEEBnr0 	  mzf4ZxeZY8wF2XnrdYK61 	 
     	   mxdAvfSsdzliezc0uyUMk 	 
     
-    Mat _2654435857 mriCvhMavpfheoLNc0eCD 	 
+    Mat _13303058356268144267 mriCvhMavpfheoLNc0eCD 	 
     	  
  
 
@@ -11552,11 +12457,11 @@ _14904499616241482268, 1, CV_32FC1, Scalar mFlVjO0mLpwnCN5a1Quio
     	  
     		   
      
-   _706246332997465 - _706246333028813  mEc9zv3P8LW8haIvtztwe 	 
+   _3257891898253592020 - _3176948348563158707  mEc9zv3P8LW8haIvtztwe 	 
     	  
     		   
      
- _706246332997464 - _706246333028812 msubWq7nTVSPilWqmTzkx 	 
+ _3257891898253592021 - _3176948348563158706 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -11570,18 +12475,20 @@ _14904499616241482268, 1, CV_32FC1, Scalar mFlVjO0mLpwnCN5a1Quio
     	  mFsSEF_3_iD2mT6nZG9QR 	 
     	  
     		   
-int _2654435874  mRwjoMr_aqph4iL4nu8NS 	 
+ mMGij61UZUIIYyztVz9vN 	 
+    	  
+    	_13303058356268144138  mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
   0 mJTScPpWt8plE9Cz9fDU6 	 
-    _2654435874  mca1GaR7Rv9qOZsisqKBB 	 
+    _13303058356268144138  mca1GaR7Rv9qOZsisqKBB 	 
     	  
-  _14904499616241482268 mlqoNTA3LQoUJF6i5YDFc 	 
+  _16643961442089568442 mlqoNTA3LQoUJF6i5YDFc 	 
     	  
     		   
      
      
- _2654435874 mi940TUip6nLdi0tWD33F 	 
+ _13303058356268144138 mi940TUip6nLdi0tWD33F 	 
     	  
     		   
      
@@ -11592,33 +12499,37 @@ int _2654435874  mRwjoMr_aqph4iL4nu8NS
     
          mnU2hwoI16_nZ7reLKJTr 	 
     	 
-            _2654435834.at mK5OxIt23gZzSiTA8trU8 	 
+            _13303058356268142351.at mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
-    float mtJAThUzPUAnb_DMXiQOL 	 
+     mOcs0qqtJYmueMnfTyCFx 	mtJAThUzPUAnb_DMXiQOL 	 
     	  
     		   
      
      
  
-  	  mhxtTU7dvZHXCTSg8B8rx 	_2654435874, 0 mhyL_M5gnmQzwyHW45MdA 	 
+  	  mhxtTU7dvZHXCTSg8B8rx 	_13303058356268144138, 0 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
    mif4ZCBkqdiqSYkR9AD0r 	 
- _16998118202926652486 mNDJrNgMXB1tBoFNaJO0d 	 
-    	_2654435874 mrpQVzv6u8gxvho1qUlil 	 
+ _14067181347882760969 mNDJrNgMXB1tBoFNaJO0d 	 
+    	_13303058356268144138 mrpQVzv6u8gxvho1qUlil 	 
     	  
     		   
      
      .x mJTScPpWt8plE9Cz9fDU6 	 
-            _2654435834.at mW1ds9XwNwevT5B2b3j8B 	 
+            _13303058356268142351.at mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
-     float mE4_Vrik0lveh4HNJUk1B 	 
+      mI_QuD605u2H3qQFyuTju 	 
+    	  
+    		   
+     
+ mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		   mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-    _2654435874, 1 mgkSwnYHQivQIpeAwgr20 	 
+    _13303058356268144138, 1 mgkSwnYHQivQIpeAwgr20 	 
     	  
     		   
      
@@ -11631,29 +12542,31 @@ int _2654435874  mRwjoMr_aqph4iL4nu8NS
      
   1. mJTScPpWt8plE9Cz9fDU6 	 
     	  
-            _2654435835.at mYfYoOWdsOLTDCIBT7npX 	 
+            _13303058356268142348.at mYfYoOWdsOLTDCIBT7npX 	 
     	  
     		   
      
-     float mW1YUos9eL_9NmgJuSDH7 	 
+      mOcs0qqtJYmueMnfTyCFx 	 
+    	  
+    		  mW1YUos9eL_9NmgJuSDH7 	 
     	  
     		   
      mFsSEF_3_iD2mT6nZG9QR 	 
     	  
-_2654435874, 0 mAnDeXfeHaujEzGBbrjil 	 
+_13303058356268144138, 0 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
      
       mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
-   _16998118202926652486 mY2nz8M_6jpSxQZL8EYgU 	 
+   _14067181347882760969 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
  
- _2654435874 mEFd2D2UDF9SIoPfQtUv6 	 
+ _13303058356268144138 mEFd2D2UDF9SIoPfQtUv6 	 
     	  
     		   
     .y mlqoNTA3LQoUJF6i5YDFc 	 
@@ -11666,7 +12579,7 @@ _2654435874, 0 mAnDeXfeHaujEzGBbrjil
 
 
         
-        solve mSa4WnWih0z4lSo9RYUGU 	_2654435834, _2654435835, _2654435857, DECOMP_SVD mycwFs63h7Mi3ggRkMEVm 	 
+        solve mSa4WnWih0z4lSo9RYUGU 	_13303058356268142351, _13303058356268142348, _13303058356268144267, DECOMP_SVD mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
      
@@ -11676,7 +12589,7 @@ _2654435874, 0 mAnDeXfeHaujEzGBbrjil
     	  
     		   
         
-        _6807035520661505487  ma6VjqdfajK4BX9gkoGiD 	 
+        _15087904812230018442  ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
      
@@ -11684,8 +12597,14 @@ _2654435874, 0 mAnDeXfeHaujEzGBbrjil
     	  
     		   
      
-_2654435857.at mca1GaR7Rv9qOZsisqKBB 	 
- float mE4_Vrik0lveh4HNJUk1B 	 
+_13303058356268144267.at mca1GaR7Rv9qOZsisqKBB 	 
+  mI_QuD605u2H3qQFyuTju 	 
+    	  
+    		   
+     
+     
+ 
+ mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		   
      
@@ -11700,9 +12619,11 @@ _2654435857.at mca1GaR7Rv9qOZsisqKBB
  0, 0 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
- , -1., _2654435857.at mca1GaR7Rv9qOZsisqKBB 	 
+ , -1., _13303058356268144267.at mca1GaR7Rv9qOZsisqKBB 	 
     	  
-    		   float mRHNkLPwUSnx20pmLgrTq 	 
+    		    mglDNKH5ah89GptW6H4Cu 	 
+    	  
+    mRHNkLPwUSnx20pmLgrTq 	 
     	  
     		   
      
@@ -11733,26 +12654,31 @@ _2654435857.at mca1GaR7Rv9qOZsisqKBB
      
    mReDuVelSknxaDAoDEmwT 	 
     	  
-    		   int _2654435874  mKcKHr_bTagXAK_pf8btG 	 
+    		    mP8l6554fUQhsCw2PetD2 	 
+    	  
+    		   
+     
+     
+ _13303058356268144138  mKcKHr_bTagXAK_pf8btG 	 
     	  0 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
      
      
  
-  	  _2654435874  mCALzjQ0bwpDnngl_oSsi 	 
+  	  _13303058356268144138  mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   
      
      
  
-   _14904499616241482268 mdmuaUz9iCkCckSUhcEv1 	 
+   _16643961442089568442 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
      
  
-  	 _2654435874 mkGHGzUDDVqHIjIdYGe6S 	 
+  	 _13303058356268144138 mkGHGzUDDVqHIjIdYGe6S 	 
     	  
     		   
      
@@ -11768,33 +12694,39 @@ _2654435857.at mca1GaR7Rv9qOZsisqKBB
      
  
  
-            _2654435834.at mW1ds9XwNwevT5B2b3j8B 	 
+            _13303058356268142351.at mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
      
-   float m_j6ZkbEfLCgUqtaolYTp 	 
+    mglDNKH5ah89GptW6H4Cu 	 
+    	  
+    		m_j6ZkbEfLCgUqtaolYTp 	 
     	  
     		   
      
    mhxtTU7dvZHXCTSg8B8rx 	 
-_2654435874, 0 mlqM0snvYcrWCw2_QjhQi 	 
+_13303058356268144138, 0 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
      
      
  
   	  mif4ZCBkqdiqSYkR9AD0r 	 
-     _16998118202926652486 mY2nz8M_6jpSxQZL8EYgU 	 
+     _14067181347882760969 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
- _2654435874 mbViqhyIcr6lGWibuo3Im 	 
+ _13303058356268144138 mbViqhyIcr6lGWibuo3Im 	 
     	  
   .y mVOlbMaOu1U0SC2oeKIzP 	 
     	
-            _2654435834.at mYI2nkSxgJHf1pY1PttV1 	 
+            _13303058356268142351.at mYI2nkSxgJHf1pY1PttV1 	 
     	  
-    		   float mtJAThUzPUAnb_DMXiQOL 	 
+    		    mlkEZnzYCXAgDnYDi5up3 	 
     	  
-    		 mFsSEF_3_iD2mT6nZG9QR 	 _2654435874, 1 msubWq7nTVSPilWqmTzkx 	 
+    		   
+     
+    mtJAThUzPUAnb_DMXiQOL 	 
+    	  
+    		 mFsSEF_3_iD2mT6nZG9QR 	 _13303058356268144138, 1 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -11802,12 +12734,15 @@ _2654435874, 0 mlqM0snvYcrWCw2_QjhQi
     	  
     	 1. mftnbgRvzOIVyL93HyyWt 	 
    
-            _2654435835.at mqEAvVDOCXqrrwrTRByrM 	 
-  float mE4_Vrik0lveh4HNJUk1B 	 
+            _13303058356268142348.at mqEAvVDOCXqrrwrTRByrM 	 
+   mnqZGwZqTTi1dekKxujAE 	 
+    	  
+    		   
+mE4_Vrik0lveh4HNJUk1B 	 
     	 mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
-     _2654435874, 0 mmCJ670wA_VHgip7JZ1dW 	 
+     _13303058356268144138, 0 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
      
@@ -11817,13 +12752,13 @@ _2654435874, 0 mlqM0snvYcrWCw2_QjhQi
     	  
     		   
      
-     _16998118202926652486 mNDJrNgMXB1tBoFNaJO0d 	 
+     _14067181347882760969 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
     		   
      
      
  
-  	_2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+  	_13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
      
@@ -11838,12 +12773,12 @@ _2654435874, 0 mlqM0snvYcrWCw2_QjhQi
 
         
         solve mSa4WnWih0z4lSo9RYUGU 	 
-_2654435834, _2654435835, _2654435857, DECOMP_SVD mAnDeXfeHaujEzGBbrjil 	 
+_13303058356268142351, _13303058356268142348, _13303058356268144267, DECOMP_SVD mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   mftnbgRvzOIVyL93HyyWt 	 
  
         
-        _6807035520661505487  mCm219F3DHVwNe_CsrCeK 	 
+        _15087904812230018442  mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
@@ -11852,8 +12787,10 @@ _2654435834, _2654435835, _2654435857, DECOMP_SVD mAnDeXfeHaujEzGBbrjil
    Point3f mFlVjO0mLpwnCN5a1Quio 	 
     	  
     		   
-     -1., _2654435857.at mca1GaR7Rv9qOZsisqKBB 	 
-  float mE4_Vrik0lveh4HNJUk1B 	 
+     -1., _13303058356268144267.at mca1GaR7Rv9qOZsisqKBB 	 
+   maOczvhF_v9OTsK70ZZut 	 
+    	  
+ mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		   
      
@@ -11863,11 +12800,11 @@ _2654435834, _2654435835, _2654435857, DECOMP_SVD mAnDeXfeHaujEzGBbrjil
     		   
   0, 0 mhyL_M5gnmQzwyHW45MdA 	 
     	  
- , _2654435857.at mW1ds9XwNwevT5B2b3j8B 	 
+ , _13303058356268144267.at mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
      
-    float mel3l7ZRXwnAEsy0Wfxj_ 	 
+     mOcs0qqtJYmueMnfTyCFx 	mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
   mhxtTU7dvZHXCTSg8B8rx 	 
   1, 0 mmCJ670wA_VHgip7JZ1dW 	 
@@ -11900,13 +12837,13 @@ Point2f MarkerDetector_Impl myuwTFtkH1L5Be2OVY9rt
     	  
     		  _8396213235373312360 mFlVjO0mLpwnCN5a1Quio 	 
     	  
-    		   const cv mdssZV6TB06aiisDwN1cX 	Point3f& _46082543365551796, const cv mYGfQUZmV9IjKAPVrLhZl 	 
-    	Point3f& _46082543365551795 mXAYJa6osZ6HNTIEEBnr0 	 
+    		   const cv mdssZV6TB06aiisDwN1cX 	Point3f& _17129155073204649235, const cv mYGfQUZmV9IjKAPVrLhZl 	 
+    	Point3f& _17129155073204649234 mXAYJa6osZ6HNTIEEBnr0 	 
  
  mJkMyi0NbVRDgE__LMR_m 	 
    
     
-    Mat _2654435834 mReDuVelSknxaDAoDEmwT 	 
+    Mat _13303058356268142351 mReDuVelSknxaDAoDEmwT 	 
    2, 2, CV_32FC1, Scalar mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
@@ -11922,7 +12859,7 @@ Point2f MarkerDetector_Impl myuwTFtkH1L5Be2OVY9rt
     		   
      
   
-    Mat _2654435835 mhORIPgMIfN3Fn8aCQBuU 	 
+    Mat _13303058356268142348 mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		   
  2, 1, CV_32FC1, Scalar mhORIPgMIfN3Fn8aCQBuU 	 
@@ -11933,16 +12870,22 @@ Point2f MarkerDetector_Impl myuwTFtkH1L5Be2OVY9rt
     		   
  mdmuaUz9iCkCckSUhcEv1 	 
   
-    Mat _2654435857 mPdHdcAZ6XJhwf8wLtULI 	 
+    Mat _13303058356268144267 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
 
-    _2654435834.at mca1GaR7Rv9qOZsisqKBB 	 
+    _13303058356268142351.at mca1GaR7Rv9qOZsisqKBB 	 
     	  
     		   
      
      
  
-float mel3l7ZRXwnAEsy0Wfxj_ 	 
+ mOcs0qqtJYmueMnfTyCFx 	 
+    	  
+    		   
+     
+     
+ 
+mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
     		   
      
@@ -11959,12 +12902,14 @@ float mel3l7ZRXwnAEsy0Wfxj_
      
      
  
-   _46082543365551796.x mftnbgRvzOIVyL93HyyWt 	
-    _2654435834.at mK5OxIt23gZzSiTA8trU8 	 
+   _17129155073204649235.x mftnbgRvzOIVyL93HyyWt 	
+    _13303058356268142351.at mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
-  float mYxohqgekcJ8HhaDZvWcX 	 
+   maISPbNJKXWB2QqsuuExM 	 
+    	  
+   mYxohqgekcJ8HhaDZvWcX 	 
     	  
     		 mtbP4KQJdh36UGELfV2zq 	 
     	  
@@ -11973,14 +12918,18 @@ float mel3l7ZRXwnAEsy0Wfxj_
     mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
-   _46082543365551796.y mxdAvfSsdzliezc0uyUMk 	 
+   _17129155073204649235.y mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
      
 
-    _2654435835.at mqEAvVDOCXqrrwrTRByrM 	 
-  float mW1YUos9eL_9NmgJuSDH7 	 
+    _13303058356268142348.at mqEAvVDOCXqrrwrTRByrM 	 
+   mnqZGwZqTTi1dekKxujAE 	 
+    	  
+    		   
+     
+mW1YUos9eL_9NmgJuSDH7 	 
     	  
     		   
      
@@ -11990,12 +12939,15 @@ float mel3l7ZRXwnAEsy0Wfxj_
     	    mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     		   
- -_46082543365551796.z mlqoNTA3LQoUJF6i5YDFc 	 
+ -_17129155073204649235.z mlqoNTA3LQoUJF6i5YDFc 	 
     
 
-    _2654435834.at mYI2nkSxgJHf1pY1PttV1 	 
+    _13303058356268142351.at mYI2nkSxgJHf1pY1PttV1 	 
     	  
-    float mYxohqgekcJ8HhaDZvWcX 	 
+     maOczvhF_v9OTsK70ZZut 	 
+    	  
+    		   
+  mYxohqgekcJ8HhaDZvWcX 	 
     	  
     		   
       mhxtTU7dvZHXCTSg8B8rx 	 
@@ -12005,10 +12957,10 @@ float mel3l7ZRXwnAEsy0Wfxj_
      
     mM3tRrWbRPqPOU3G4ShKT 	 
     	  
-    		 _46082543365551795.x mftnbgRvzOIVyL93HyyWt 	 
+    		 _17129155073204649234.x mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
-    _2654435834.at mK5OxIt23gZzSiTA8trU8 	float mel3l7ZRXwnAEsy0Wfxj_ 	 
+    _13303058356268142351.at mK5OxIt23gZzSiTA8trU8 	 mYKwa_OYBeVXzRPMa_mz6 	mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
   mp3H4249LtCVDCYFqQqz4 	 
 1, 1 msubWq7nTVSPilWqmTzkx 	 
@@ -12021,12 +12973,13 @@ float mel3l7ZRXwnAEsy0Wfxj_
      
      
  
-   _46082543365551795.y mINcNsH05D0QZDej9wl4h 	 
+   _17129155073204649234.y mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
 
-    _2654435835.at mbG1GEmOdh2dXkJZ42sXo 	 
-   float mel3l7ZRXwnAEsy0Wfxj_ 	 
+    _13303058356268142348.at mbG1GEmOdh2dXkJZ42sXo 	 
+    mglDNKH5ah89GptW6H4Cu 	 
+    	mel3l7ZRXwnAEsy0Wfxj_ 	 
     	  
     mhORIPgMIfN3Fn8aCQBuU 	 
     	  
@@ -12035,7 +12988,7 @@ float mel3l7ZRXwnAEsy0Wfxj_
     	  
     		    mCm219F3DHVwNe_CsrCeK 	 
     	  
-    		   -_46082543365551795.z mdmuaUz9iCkCckSUhcEv1 	 
+    		   -_17129155073204649234.z mdmuaUz9iCkCckSUhcEv1 	 
     	  
     
 
@@ -12046,7 +12999,7 @@ float mel3l7ZRXwnAEsy0Wfxj_
      
      
  
- _2654435834, _2654435835, _2654435857, DECOMP_SVD muiDYQbmwLxL3PGrwWGeP 	 
+ _13303058356268142351, _13303058356268142348, _13303058356268144267, DECOMP_SVD muiDYQbmwLxL3PGrwWGeP 	 
     	  
  mftnbgRvzOIVyL93HyyWt 	 
     	  
@@ -12058,13 +13011,17 @@ float mel3l7ZRXwnAEsy0Wfxj_
      
      
  
-  	_2654435857.at mlP1m6taP4mQVYA_j8Oxe 	 
+  	_13303058356268144267.at mlP1m6taP4mQVYA_j8Oxe 	 
     	  
-  float mE4_Vrik0lveh4HNJUk1B 	 
+   mWokjWH0MHqyBOx4j0Oac 	 
+    	  
+    		  mE4_Vrik0lveh4HNJUk1B 	 
     mhORIPgMIfN3Fn8aCQBuU 	0, 0 mhyL_M5gnmQzwyHW45MdA 	 
     	  
-    		  , _2654435857.at mca1GaR7Rv9qOZsisqKBB 	 
-    	 float mW1YUos9eL_9NmgJuSDH7 	 
+    		  , _13303058356268144267.at mca1GaR7Rv9qOZsisqKBB 	 
+    	  maOczvhF_v9OTsK70ZZut 	 
+    	  
+    mW1YUos9eL_9NmgJuSDH7 	 
   mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   1, 0 mXAYJa6osZ6HNTIEEBnr0 	 
@@ -12077,37 +13034,6 @@ float mel3l7ZRXwnAEsy0Wfxj_
      
  
   	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -12134,7 +13060,7 @@ _10815521206485692603 mtbP4KQJdh36UGELfV2zq
      
      
  
-  Mat _46082544221278757, std mdssZV6TB06aiisDwN1cX 	 
+  Mat _17276638435886805939, std mdssZV6TB06aiisDwN1cX 	 
  vector mbG1GEmOdh2dXkJZ42sXo 	 
     	std mYGfQUZmV9IjKAPVrLhZl 	 
     	  
@@ -12146,7 +13072,7 @@ _10815521206485692603 mtbP4KQJdh36UGELfV2zq
      
      
  
-  	& _16940362843683299562 msubWq7nTVSPilWqmTzkx 	 
+  	& _10998538416191004035 msubWq7nTVSPilWqmTzkx 	 
  
  mMRNM5hfPBWFjYCspldu3 	 
     	  
@@ -12156,7 +13082,7 @@ _10815521206485692603 mtbP4KQJdh36UGELfV2zq
  
   	
     drawContours mp3H4249LtCVDCYFqQqz4 	 
- _46082544221278757, _16940362843683299562, -1, Scalar mSa4WnWih0z4lSo9RYUGU 	 
+ _17276638435886805939, _10998538416191004035, -1, Scalar mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
      
@@ -12181,10 +13107,10 @@ _10815521206485692603 mtbP4KQJdh36UGELfV2zq
   	 MarkerDetector_Impl mpJt2kGThF7wb3VNzG38b 	 
     _13747571233701806900 mtbP4KQJdh36UGELfV2zq 	 
     	  
-    		  Mat& _175247760141, vector mCALzjQ0bwpDnngl_oSsi 	 
+    		  Mat& _16232574195069562409, vector mCALzjQ0bwpDnngl_oSsi 	 
     	  
     		   Point mE4_Vrik0lveh4HNJUk1B 	 
-  & _6806985045552225970, Scalar _46082574599890393 mmCJ670wA_VHgip7JZ1dW 	
+  & _14091102513355313451, Scalar _12505068097757366359 mmCJ670wA_VHgip7JZ1dW 	
  mT_x8cqp5t43PgqNMR8gO 	 
     	  
     		  
@@ -12198,19 +13124,19 @@ _10815521206485692603 mtbP4KQJdh36UGELfV2zq
     		   
      
     unsigned  mP8l6554fUQhsCw2PetD2 	 
-_2654435874  myJHqW7fkn_72nVEhKeZ6 	 
+_13303058356268144138  myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
      
   0 mdmuaUz9iCkCckSUhcEv1 	 
-    	   _2654435874  mK5OxIt23gZzSiTA8trU8 	 
+    	   _13303058356268144138  mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
      
  
-  _6806985045552225970.size mcznTYeCGOAygtXXAPYS_ 	 
+  _14091102513355313451.size mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
    mriCvhMavpfheoLNc0eCD 	 
@@ -12219,7 +13145,7 @@ _2654435874  myJHqW7fkn_72nVEhKeZ6
      
      
  
-  _2654435874 mEZrtAN7pSZl5y4oEHd38 	 
+  _13303058356268144138 mEZrtAN7pSZl5y4oEHd38 	 
    mAnDeXfeHaujEzGBbrjil 	 
     	  
     		 
@@ -12234,17 +13160,17 @@ _2654435874  myJHqW7fkn_72nVEhKeZ6
     	  
     		   
      
-_175247760141, _6806985045552225970 mWkGo8xUdRIKgJ1DEUvvn 	 
+_16232574195069562409, _14091102513355313451 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
-    		_2654435874 mJtGCV8zXQjnVDVBVdvFZ 	 
-    	  
-    		   
-  , _6806985045552225970 mA4oXllup8K3T5dxkluRR 	 
-    	  
- _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 
+    		_13303058356268144138 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
-, _46082574599890393 mXAYJa6osZ6HNTIEEBnr0 	 
+  , _14091102513355313451 mA4oXllup8K3T5dxkluRR 	 
+    	  
+ _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 
+    	  
+    		   
+, _12505068097757366359 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
  mxdAvfSsdzliezc0uyUMk 	 
@@ -12267,7 +13193,7 @@ _175247760141, _6806985045552225970 mWkGo8xUdRIKgJ1DEUvvn
      _10891860653827325848 mReDuVelSknxaDAoDEmwT 	 
     	  
     		   
-   Mat& _175247760141, vector mW1ds9XwNwevT5B2b3j8B 	 
+   Mat& _16232574195069562409, vector mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		   
      
@@ -12275,8 +13201,8 @@ _175247760141, _6806985045552225970 mWkGo8xUdRIKgJ1DEUvvn
  
   	Point m_j6ZkbEfLCgUqtaolYTp 	 
     	  
- & _6806985045552225970, Scalar _46082574599890393, moI11mwtxiOXpqDxK_aQL 	 
- _15593361063139481920 mgkSwnYHQivQIpeAwgr20 	 
+ & _14091102513355313451, Scalar _12505068097757366359, moI11mwtxiOXpqDxK_aQL 	 
+ _11719114631568207584 mgkSwnYHQivQIpeAwgr20 	 
  mfKhTg3wpiK_YhdQzWWcS 	 
     	  
  
@@ -12288,21 +13214,21 @@ _175247760141, _6806985045552225970 mWkGo8xUdRIKgJ1DEUvvn
   unsigned  moI11mwtxiOXpqDxK_aQL 	 
     	  
     		   
-     _2654435874  ma6VjqdfajK4BX9gkoGiD 	 
+     _13303058356268144138  ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		    0 mINcNsH05D0QZDej9wl4h 	 
-     _2654435874  mlP1m6taP4mQVYA_j8Oxe 	 
+     _13303058356268144138  mlP1m6taP4mQVYA_j8Oxe 	 
     	  
     		   
      
      
  
-  _6806985045552225970.size mwTQhkbVNQHd2Xw4EA4fj 	 
+  _14091102513355313451.size mwTQhkbVNQHd2Xw4EA4fj 	 
      mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
-  _2654435874 mo7mKuzaX2h9vw2rEj5qh 	 
+  _13303058356268144138 mo7mKuzaX2h9vw2rEj5qh 	 
     mAnDeXfeHaujEzGBbrjil 	 
     	 
      mfKhTg3wpiK_YhdQzWWcS 	 
@@ -12314,24 +13240,24 @@ _175247760141, _6806985045552225970 mWkGo8xUdRIKgJ1DEUvvn
     	  
     		line mFsSEF_3_iD2mT6nZG9QR 	 
     	  
-    	_175247760141, _6806985045552225970 mILaQGKCAmcKrYQNhgWUq 	 
+    	_16232574195069562409, _14091102513355313451 mILaQGKCAmcKrYQNhgWUq 	 
     	  
-    		_2654435874 msdqcdg5NNrdQnc_PT1Ee 	 
+    		_13303058356268144138 msdqcdg5NNrdQnc_PT1Ee 	 
     	  
     		   
- , _6806985045552225970 mFyKKLtdivGGDlk8sYzsf 	 mhxtTU7dvZHXCTSg8B8rx 	 
+ , _14091102513355313451 mFyKKLtdivGGDlk8sYzsf 	 mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
      
      
  
-  	 _2654435874 + 1 mlqM0snvYcrWCw2_QjhQi 	 
-    % _6806985045552225970.size mKpq3GwvJxRduE5RsGgGP 	 
+  	 _13303058356268144138 + 1 mlqM0snvYcrWCw2_QjhQi 	 
+    % _14091102513355313451.size mKpq3GwvJxRduE5RsGgGP 	 
     	 mwTp2D1d4PfxNNOzzUfhS 	 
     	  
     		   
      
-     , _46082574599890393,_15593361063139481920 msubWq7nTVSPilWqmTzkx 	 
+     , _12505068097757366359,_11719114631568207584 msubWq7nTVSPilWqmTzkx 	 
    mhGXMe8LHJXydR9dMisHj 	 
     	  
     		
@@ -12357,11 +13283,11 @@ _175247760141, _6806985045552225970 mWkGo8xUdRIKgJ1DEUvvn
  
   	 _5695532306146282654 mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-    		   Mat _11093822299329, const vector mW1ds9XwNwevT5B2b3j8B 	 
+    		   Mat _5268605234504081842, const vector mW1ds9XwNwevT5B2b3j8B 	 
     	  
     		 Marker mYxohqgekcJ8HhaDZvWcX 	 
     	  
-    		  & _6807036698426592110 mycwFs63h7Mi3ggRkMEVm 	 
+    		  & _14642194608118973580 mycwFs63h7Mi3ggRkMEVm 	 
     	  
  mMRNM5hfPBWFjYCspldu3 	 
     	  
@@ -12376,18 +13302,18 @@ unsigned  mdEzmAkZNQkKD1HrLnSSo
      
      
  
-  	 _2654435874  muQdV4OJL6V6gVxW6AdRy 	 
+  	 _13303058356268144138  muQdV4OJL6V6gVxW6AdRy 	 
     	  
  0 mJTScPpWt8plE9Cz9fDU6 	 
     	  
-     _2654435874  mlP1m6taP4mQVYA_j8Oxe 	 
+     _13303058356268144138  mlP1m6taP4mQVYA_j8Oxe 	 
     	  
     		   
-   _6807036698426592110.size mcznTYeCGOAygtXXAPYS_ 	 
+   _14642194608118973580.size mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
      
- mhGXMe8LHJXydR9dMisHj 	  _2654435874 mwwJvnj2j3yLmklxxOEJQ 	  mgkSwnYHQivQIpeAwgr20 	 
+ mhGXMe8LHJXydR9dMisHj 	  _13303058356268144138 mwwJvnj2j3yLmklxxOEJQ 	  mgkSwnYHQivQIpeAwgr20 	 
  
      mjbtcSgN5ZQfkGDsoYG4l 	 
     	  
@@ -12401,8 +13327,8 @@ unsigned  mdEzmAkZNQkKD1HrLnSSo
     	  
     		   
      
-_11093822299329, _6807036698426592110 mY2nz8M_6jpSxQZL8EYgU 	 
-    	_2654435874 mwTp2D1d4PfxNNOzzUfhS 	 
+_5268605234504081842, _14642194608118973580 mY2nz8M_6jpSxQZL8EYgU 	 
+    	_13303058356268144138 mwTp2D1d4PfxNNOzzUfhS 	 
      mNDJrNgMXB1tBoFNaJO0d 	 
    0 mUB1yrSrKOwldqxmCatN2 	 
     	  
@@ -12410,10 +13336,10 @@ _11093822299329, _6807036698426592110 mY2nz8M_6jpSxQZL8EYgU
      
      
  
-  	, _6807036698426592110 mWkGo8xUdRIKgJ1DEUvvn 	 
+  	, _14642194608118973580 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
-    _2654435874 mJtGCV8zXQjnVDVBVdvFZ 	 mTjppsgNpY1Pjyv5Z_zMr 	 
+    _13303058356268144138 mJtGCV8zXQjnVDVBVdvFZ 	 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
     		   
      
@@ -12446,12 +13372,12 @@ _11093822299329, _6807036698426592110 mY2nz8M_6jpSxQZL8EYgU
     		   
   line mFsSEF_3_iD2mT6nZG9QR 	 
     	  
-  _11093822299329, _6807036698426592110 mY2nz8M_6jpSxQZL8EYgU 	 
+  _5268605234504081842, _14642194608118973580 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
      
      
- _2654435874 mJtGCV8zXQjnVDVBVdvFZ 	 
+ _13303058356268144138 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
      
@@ -12466,13 +13392,13 @@ _11093822299329, _6807036698426592110 mY2nz8M_6jpSxQZL8EYgU
      
      
  
- , _6807036698426592110 mFyKKLtdivGGDlk8sYzsf 	 
+ , _14642194608118973580 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
      
      
  
-_2654435874 mDd5IIsnjfLI1lcygRsW3 	 
+_13303058356268144138 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		  mNDJrNgMXB1tBoFNaJO0d 	 
     	  
@@ -12503,20 +13429,20 @@ _2654435874 mDd5IIsnjfLI1lcygRsW3
     	  
     		   
  line mp3H4249LtCVDCYFqQqz4 	 
-    	 _11093822299329, _6807036698426592110 mA4oXllup8K3T5dxkluRR 	 
+    	 _5268605234504081842, _14642194608118973580 mA4oXllup8K3T5dxkluRR 	 
     	  
     		   
      
-  _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+  _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
     		   
      
  mILaQGKCAmcKrYQNhgWUq 	 
 2 mJtGCV8zXQjnVDVBVdvFZ 	 
- , _6807036698426592110 mY2nz8M_6jpSxQZL8EYgU 	 
+ , _14642194608118973580 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
- _2654435874 mUB1yrSrKOwldqxmCatN2 	 
+ _13303058356268144138 mUB1yrSrKOwldqxmCatN2 	 
     	  
  mILaQGKCAmcKrYQNhgWUq 	 
     	  
@@ -12547,13 +13473,13 @@ _2654435874 mDd5IIsnjfLI1lcygRsW3
      
    line mmmC9tOGiLK6UaJr0E5vz 	 
     	  
-   _11093822299329, _6807036698426592110 mFyKKLtdivGGDlk8sYzsf 	_2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+   _5268605234504081842, _14642194608118973580 mFyKKLtdivGGDlk8sYzsf 	_13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
  3 mbViqhyIcr6lGWibuo3Im 	 
-    	  , _6807036698426592110 mTjppsgNpY1Pjyv5Z_zMr 	 
+    	  , _14642194608118973580 mTjppsgNpY1Pjyv5Z_zMr 	 
     	  
-    _2654435874 mUB1yrSrKOwldqxmCatN2 	 
+    _13303058356268144138 mUB1yrSrKOwldqxmCatN2 	 
     	  
     		 mdF98bHO7yrxGJn0aQZVK 	 
     	  
@@ -12605,14 +13531,14 @@ setMarkerLabeler miAECMSxGwjxrcOKk0DII
     		   
      MarkerLabeler mE4_Vrik0lveh4HNJUk1B 	 
     	  
-    		 _16940392175256225898 mlqM0snvYcrWCw2_QjhQi 	 
+    		 _13776510099302020409 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		  
  mLdYY4X2b7VOjtTSnd7Hj 	 
     	  
   
     _4383831888714590158  mCm219F3DHVwNe_CsrCeK 	 
-    	 _16940392175256225898 mPdHdcAZ6XJhwf8wLtULI 	 
+    	 _13776510099302020409 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     
  mhl3Z6oGBbP13ZxehUcg9 	 
@@ -12621,9 +13547,15 @@ setMarkerLabeler miAECMSxGwjxrcOKk0DII
  mfJA9NVd6FBgGhRSkkhhs 	MarkerDetector_Impl mEMN2sRTwHcTUl7SNSw0d 	 
     	  
     	setDictionary mhORIPgMIfN3Fn8aCQBuU 	 
- int _16988745605048876903,
+  moI11mwtxiOXpqDxK_aQL 	 
+    	  
+    		   
+     
+     
+ 
+_1265885183454069381,
                                     mlkEZnzYCXAgDnYDi5up3 	 
- _11979607457211570484 mAnDeXfeHaujEzGBbrjil 	 
+ _1582275183843417612 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
      
@@ -12643,7 +13575,7 @@ setMarkerLabeler miAECMSxGwjxrcOKk0DII
      
      
  
- _16988745605048876903, _11979607457211570484 mmCJ670wA_VHgip7JZ1dW 	 
+ _1265885183454069381, _1582275183843417612 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		 mdmuaUz9iCkCckSUhcEv1 	 
     	  
@@ -12651,7 +13583,7 @@ setMarkerLabeler miAECMSxGwjxrcOKk0DII
    
     _18062104616271777338.error_correction_rate mKcKHr_bTagXAK_pf8btG 	 
     	  
-  _11979607457211570484 mriCvhMavpfheoLNc0eCD 	
+  _1582275183843417612 mriCvhMavpfheoLNc0eCD 	
     _18062104616271777338.dictionary muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
@@ -12673,7 +13605,7 @@ Dictionary myuwTFtkH1L5Be2OVY9rt
      
      
  
- _16988745605048876903 mgkSwnYHQivQIpeAwgr20 	 
+ _1265885183454069381 mgkSwnYHQivQIpeAwgr20 	 
     	  
     		    mVOlbMaOu1U0SC2oeKIzP 	 
     	  
@@ -12700,13 +13632,13 @@ Dictionary myuwTFtkH1L5Be2OVY9rt
  
  setDictionary mSa4WnWih0z4lSo9RYUGU 	 
     	  
-   string _16988745605048876903,  mOcs0qqtJYmueMnfTyCFx 	 
+   string _1265885183454069381,  mOcs0qqtJYmueMnfTyCFx 	 
     	  
     		   
      
      
  
-  	 _11979607457211570484 mAnDeXfeHaujEzGBbrjil 	 
+  	 _1582275183843417612 mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
  mfKhTg3wpiK_YhdQzWWcS 	 
@@ -12716,7 +13648,7 @@ Dictionary myuwTFtkH1L5Be2OVY9rt
 		 moNuUrvhPRwgFBZS8fSa1 	 
     	  
     		   
- _5829441678613027716 muQdV4OJL6V6gVxW6AdRy 	  mNDJrNgMXB1tBoFNaJO0d 	 
+ _4657944431535098742 muQdV4OJL6V6gVxW6AdRy 	  mNDJrNgMXB1tBoFNaJO0d 	 
     	  
     		   
   mEFd2D2UDF9SIoPfQtUv6 	 
@@ -12727,22 +13659,24 @@ Dictionary myuwTFtkH1L5Be2OVY9rt
  
   miAECMSxGwjxrcOKk0DII 	 
     	  
- float _2654435874 muiDYQbmwLxL3PGrwWGeP 	 
+  mWokjWH0MHqyBOx4j0Oac 	 
+    	  
+    	_13303058356268144138 muiDYQbmwLxL3PGrwWGeP 	 
   mT_x8cqp5t43PgqNMR8gO 	 
     	  
     		 
 			std mBBHVSlvDGP5NVUfEuhuf 	 
     	  
-    stringstream _11093822381060 mVOlbMaOu1U0SC2oeKIzP 	 
+    stringstream _5268611907574360399 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
      
      
  
-  _11093822381060 mOk7NgrdfVmJx9axvYv9F 	 
+  _5268611907574360399 mOk7NgrdfVmJx9axvYv9F 	 
     	  
-    		 _2654435874 mJTScPpWt8plE9Cz9fDU6 	 mLfKYVMLDthbyvvLerNPJ 	 
-_11093822381060.str maHkatHu0Jap4oTaT5q4_ 	 
+    		 _13303058356268144138 mJTScPpWt8plE9Cz9fDU6 	 mLfKYVMLDthbyvvLerNPJ 	 
+_5268611907574360399.str maHkatHu0Jap4oTaT5q4_ 	 
  mINcNsH05D0QZDej9wl4h 	 
     	  
     	
@@ -12758,7 +13692,7 @@ _11093822381060.str maHkatHu0Jap4oTaT5q4_
         _18062104616271777338.dictionary mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
-     _16988745605048876903 mVOlbMaOu1U0SC2oeKIzP 	 
+     _1265885183454069381 mVOlbMaOu1U0SC2oeKIzP 	 
     	  
  
     _4383831888714590158  mKcKHr_bTagXAK_pf8btG 	 
@@ -12771,13 +13705,13 @@ _11093822381060.str maHkatHu0Jap4oTaT5q4_
   create mSa4WnWih0z4lSo9RYUGU 	 
     	  
     		   
-   _16988745605048876903, _5829441678613027716 mtbP4KQJdh36UGELfV2zq 	 
+   _1265885183454069381, _4657944431535098742 mtbP4KQJdh36UGELfV2zq 	 
     	  
     		   
      
      
  
-  _11979607457211570484 mhyL_M5gnmQzwyHW45MdA 	 
+  _1582275183843417612 mhyL_M5gnmQzwyHW45MdA 	 
     	  
      mXAYJa6osZ6HNTIEEBnr0 	 
  mxdAvfSsdzliezc0uyUMk 	 
@@ -12787,7 +13721,7 @@ _11093822381060.str maHkatHu0Jap4oTaT5q4_
     	  
     		   
      
-_11979607457211570484 mINcNsH05D0QZDej9wl4h 	 
+_1582275183843417612 mINcNsH05D0QZDej9wl4h 	 
     
  maCQ9r5fSln_CXgRXGFvO 	 
     	  
@@ -12806,7 +13740,13 @@ cv mfx1fLYDWN4YRZNnQEsJN
 Mat MarkerDetector_Impl mdssZV6TB06aiisDwN1cX 	 
     	  
     	getThresholdedImage mReDuVelSknxaDAoDEmwT 	 
-uint32_t _11093822405045 msubWq7nTVSPilWqmTzkx 	 
+ mxNiL7NRse0iP2D2VgJvE 	 
+    	  
+    		   
+     
+     
+ 
+ _5268611906072959276 msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -12835,7 +13775,9 @@ _16594497104544919971.size mH1xQMRmYb0Y4RDp2hARz
      
     0 msubWq7nTVSPilWqmTzkx 	 
     	  
-    return cv mYGfQUZmV9IjKAPVrLhZl 	 
+     mTAavMivNX5WuUrRQXoEf 	 
+    	  
+   cv mYGfQUZmV9IjKAPVrLhZl 	 
     	Mat mdWkXjuaPd4Se0r0SdY1e 	 
     	  
  mhGXMe8LHJXydR9dMisHj 	 
@@ -12845,7 +13787,7 @@ _16594497104544919971.size mH1xQMRmYb0Y4RDp2hARz
     	 mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
-    _11093822405045 moE42zHNBVjnlCdllZAkS 	 
+    _5268611906072959276 moE42zHNBVjnlCdllZAkS 	 
     	  
     	_16594497104544919971.size mzeHK1hG1SYQMISNMWMB8 	 
     	  
@@ -12855,7 +13797,7 @@ _16594497104544919971.size mH1xQMRmYb0Y4RDp2hARz
  mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
-      _11093822405045 mif4ZCBkqdiqSYkR9AD0r 	 
+      _5268611906072959276 mif4ZCBkqdiqSYkR9AD0r 	 
     	  
     	_16594497104544919971.size mKpq3GwvJxRduE5RsGgGP 	 
     	  
@@ -12867,7 +13809,7 @@ _16594497104544919971.size mH1xQMRmYb0Y4RDp2hARz
      maoHwm5lyecyelmN95sur 	 
     	  _16594497104544919971 mNDJrNgMXB1tBoFNaJO0d 	 
     	  
- _11093822405045 mDd5IIsnjfLI1lcygRsW3 	 
+ _5268611906072959276 mDd5IIsnjfLI1lcygRsW3 	 
     	  
     		   
      
@@ -12889,13 +13831,13 @@ _16594497104544919971.size mH1xQMRmYb0Y4RDp2hARz
     	  
     		   
       cv mdssZV6TB06aiisDwN1cX 	 
-Point2f  m_j6ZkbEfLCgUqtaolYTp 	 _175247760141, vector mK5OxIt23gZzSiTA8trU8 	 
+Point2f  m_j6ZkbEfLCgUqtaolYTp 	 _16232574195069562409, vector mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
     cv mpJt2kGThF7wb3VNzG38b 	 
     	  Point2f  mRHNkLPwUSnx20pmLgrTq 	 
-    	 &_11093822299329, const Mat &_16987817484368171524, const Mat &_16988745799786462721 mzf4ZxeZY8wF2XnrdYK61 	 
+    	 &_5268605234504081842, const Mat &_2920695669964880276, const Mat &_14932605280544191270 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -12909,7 +13851,7 @@ Point2f  m_j6ZkbEfLCgUqtaolYTp 	 _175247760141, vector mK5OxIt23gZzSiTA8trU8
     
     cv mfx1fLYDWN4YRZNnQEsJN 	 
     	  
-    	Mat _706246338798203  mdKhcOUXVqyCMdccisL_a 	 
+    	Mat _3257878217983167715  mdKhcOUXVqyCMdccisL_a 	 
  cv mU808frSKQDZnEEU3Q3s9 	 
     	 Mat mp3H4249LtCVDCYFqQqz4 	 
     	  
@@ -12944,13 +13886,13 @@ Point2f  m_j6ZkbEfLCgUqtaolYTp 	 _175247760141, vector mK5OxIt23gZzSiTA8trU8
      
      
  
-  Mat _706246340329510  mM3tRrWbRPqPOU3G4ShKT 	 
+  Mat _3175884290294458214  mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
      
  
-   _706246338798203.clone mcznTYeCGOAygtXXAPYS_ 	 
+   _3257878217983167715.clone mcznTYeCGOAygtXXAPYS_ 	 
     	  
     		   
      
@@ -12967,7 +13909,7 @@ Point2f  m_j6ZkbEfLCgUqtaolYTp 	 _175247760141, vector mK5OxIt23gZzSiTA8trU8
     		   
      
   cv mpJt2kGThF7wb3VNzG38b 	 Point3f  mtJAThUzPUAnb_DMXiQOL 	 
-  _6944813305223299996 mhGXMe8LHJXydR9dMisHj 	 
+  _15604885210959594850 mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
      
@@ -12984,19 +13926,19 @@ Point2f  m_j6ZkbEfLCgUqtaolYTp 	 _175247760141, vector mK5OxIt23gZzSiTA8trU8
 unsigned  mMGij61UZUIIYyztVz9vN 	 
     	  
     		   
-   _2654435874  mdKhcOUXVqyCMdccisL_a 	 
+   _13303058356268144138  mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
    0 mlqoNTA3LQoUJF6i5YDFc 	 
-   _2654435874  mHkLXuUOlyX2vZI7w3FQj 	 
+   _13303058356268144138  mHkLXuUOlyX2vZI7w3FQj 	 
     	  
-    		   _175247760141.size mzeHK1hG1SYQMISNMWMB8 	 
+    		   _16232574195069562409.size mzeHK1hG1SYQMISNMWMB8 	 
   mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
-  _2654435874 mo7mKuzaX2h9vw2rEj5qh 	 
+  _13303058356268144138 mo7mKuzaX2h9vw2rEj5qh 	 
     	  
     		   
      
@@ -13006,7 +13948,7 @@ unsigned  mMGij61UZUIIYyztVz9vN
     	  
     		   
  
-        _6944813305223299996.push_back mhORIPgMIfN3Fn8aCQBuU 	 
+        _15604885210959594850.push_back mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		   
      
@@ -13016,9 +13958,9 @@ cv maKLz6mCz5anFyVle_MtD 	 Point3f mhxtTU7dvZHXCTSg8B8rx
     	  
     		   
    mSa4WnWih0z4lSo9RYUGU 	 
-    	  _175247760141 mGYpOkNIG_qSvYXBOU9Vf 	 
-    	 _2654435874 msdqcdg5NNrdQnc_PT1Ee 	 
-.x - _16987817484368171524.at mqEAvVDOCXqrrwrTRByrM 	   mnECjbnhLknZie3Z5iHP2 	 
+    	  _16232574195069562409 mGYpOkNIG_qSvYXBOU9Vf 	 
+    	 _13303058356268144138 msdqcdg5NNrdQnc_PT1Ee 	 
+.x - _2920695669964880276.at mqEAvVDOCXqrrwrTRByrM 	   mnECjbnhLknZie3Z5iHP2 	 
     	  
      mtJAThUzPUAnb_DMXiQOL 	 
     	  
@@ -13033,7 +13975,7 @@ cv maKLz6mCz5anFyVle_MtD 	 Point3f mhxtTU7dvZHXCTSg8B8rx
     		    mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
- / _16987817484368171524.at mK5OxIt23gZzSiTA8trU8 	 
+ / _2920695669964880276.at mK5OxIt23gZzSiTA8trU8 	 
     	  
     		   
      
@@ -13048,11 +13990,11 @@ cv maKLz6mCz5anFyVle_MtD 	 Point3f mhxtTU7dvZHXCTSg8B8rx
     	  
     		   
      
-     _175247760141 mFyKKLtdivGGDlk8sYzsf 	 
+     _16232574195069562409 mFyKKLtdivGGDlk8sYzsf 	 
     	  
-    		   _2654435874 mIkhxhgSNMt_JUZR7ce1U 	 
+    		   _13303058356268144138 mIkhxhgSNMt_JUZR7ce1U 	 
     	  
-    		   .y - _16987817484368171524.at mbG1GEmOdh2dXkJZ42sXo 	 
+    		   .y - _2920695669964880276.at mbG1GEmOdh2dXkJZ42sXo 	 
     	  
     		   
      
@@ -13067,7 +14009,7 @@ cv maKLz6mCz5anFyVle_MtD 	 Point3f mhxtTU7dvZHXCTSg8B8rx
     		   
   mgkSwnYHQivQIpeAwgr20 	 
     	  
-    		   / _16987817484368171524.at mW1ds9XwNwevT5B2b3j8B 	 
+    		   / _2920695669964880276.at mW1ds9XwNwevT5B2b3j8B 	 
     	  
      mI_QuD605u2H3qQFyuTju 	 
     	  
@@ -13102,7 +14044,7 @@ projectPoints mFlVjO0mLpwnCN5a1Quio
     	  
     		   
      
-     _6944813305223299996, _706246338798203, _706246340329510, _16987817484368171524, _16988745799786462721, _11093822299329 mlqM0snvYcrWCw2_QjhQi 	  mJTScPpWt8plE9Cz9fDU6 	 
+     _15604885210959594850, _3257878217983167715, _3175884290294458214, _2920695669964880276, _14932605280544191270, _5268605234504081842 mlqM0snvYcrWCw2_QjhQi 	  mJTScPpWt8plE9Cz9fDU6 	 
  
  mnSkEvR4SbDwQxj23xB1M 	
 
@@ -13119,7 +14061,7 @@ MarkerDetector_Impl mdssZV6TB06aiisDwN1cX
     		   
    const std mBBHVSlvDGP5NVUfEuhuf 	 
     	  
-   string &_706246332752721 mhyL_M5gnmQzwyHW45MdA 	 
+   string &_3257891857586418487 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     const mN0TszoCQmyzxmobsgV2H 	 
     	  
@@ -13129,11 +14071,11 @@ MarkerDetector_Impl mdssZV6TB06aiisDwN1cX
     cv mYGfQUZmV9IjKAPVrLhZl 	 
     	  
     		   
- FileStorage _175247759980 mmmC9tOGiLK6UaJr0E5vz 	 
+ FileStorage _16232574195041746640 mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
      
-     _706246332752721, cv mUCEzhGWrU8OYqcHVPlVW 	 
+     _3257891857586418487, cv mUCEzhGWrU8OYqcHVPlVW 	 
     	  
     		   
      
@@ -13160,7 +14102,7 @@ MarkerDetector_Impl mdssZV6TB06aiisDwN1cX
      
      
  
-  _175247759980.isOpened maHkatHu0Jap4oTaT5q4_ 	 
+  _16232574195041746640.isOpened maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		   
  mgkSwnYHQivQIpeAwgr20 	 
@@ -13172,7 +14114,7 @@ MarkerDetector_Impl mdssZV6TB06aiisDwN1cX
     	  
     		   
      
-    "\x43\x6f\x75\x6c\x64\x20\x6e\x6f\x74\x20\x6f\x70\x65\x6e\x20"+_706246332752721 mlqM0snvYcrWCw2_QjhQi 	 
+    "\x5c\x78\x34\x33\x5c\x78\x36\x66\x5c\x78\x37\x35\x5c\x78\x36\x63\x5c\x78\x36\x34\x5c\x78\x32\x30\x5c\x78\x36\x65\x5c\x78\x36\x66\x5c\x78\x37\x34\x5c\x78\x32\x30\x5c\x78\x36\x66\x5c\x78\x37\x30\x5c\x78\x36\x35\x5c\x78\x36\x65\x5c\x78\x32\x30"+_3257891857586418487 mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
      
@@ -13185,7 +14127,7 @@ MarkerDetector_Impl mdssZV6TB06aiisDwN1cX
      
     _18062104616271777338.save mFlVjO0mLpwnCN5a1Quio 	 
     	  
-    		 _175247759980 mycwFs63h7Mi3ggRkMEVm 	 
+    		 _16232574195041746640 mycwFs63h7Mi3ggRkMEVm 	 
     	  
  mJTScPpWt8plE9Cz9fDU6 	 
     	  
@@ -13206,16 +14148,16 @@ MarkerDetector_Impl mdssZV6TB06aiisDwN1cX
     	  
     		   
     const std mdssZV6TB06aiisDwN1cX 	 
-    	string &_706246332752721 mycwFs63h7Mi3ggRkMEVm 	 
+    	string &_3257891857586418487 mycwFs63h7Mi3ggRkMEVm 	 
     	  mJkMyi0NbVRDgE__LMR_m 	 
     	  
     		 
     cv mYGfQUZmV9IjKAPVrLhZl 	 
- FileStorage _175247759980 mp3H4249LtCVDCYFqQqz4 	 
+ FileStorage _16232574195041746640 mp3H4249LtCVDCYFqQqz4 	 
     	  
     		   
      
-_706246332752721, cv mpJt2kGThF7wb3VNzG38b 	 
+_3257891857586418487, cv mpJt2kGThF7wb3VNzG38b 	 
   FileStorage mdssZV6TB06aiisDwN1cX 	 
     	  
 READ msubWq7nTVSPilWqmTzkx 	 
@@ -13236,7 +14178,7 @@ READ msubWq7nTVSPilWqmTzkx
     	  
     		   
      
-  _175247759980.isOpened mbHCSQc_uaLNP9Sf4Lz_n 	 
+  _16232574195041746640.isOpened mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
     		   
      
@@ -13250,13 +14192,13 @@ READ msubWq7nTVSPilWqmTzkx
     	  
     		   
      
-  runtime_error miAECMSxGwjxrcOKk0DII 	"\x43\x6f\x75\x6c\x64\x20\x6e\x6f\x74\x20\x6f\x70\x65\x6e\x20"+_706246332752721 mAnDeXfeHaujEzGBbrjil 	 
+  runtime_error miAECMSxGwjxrcOKk0DII 	"\x5c\x78\x34\x33\x5c\x78\x36\x66\x5c\x78\x37\x35\x5c\x78\x36\x63\x5c\x78\x36\x34\x5c\x78\x32\x30\x5c\x78\x36\x65\x5c\x78\x36\x66\x5c\x78\x37\x34\x5c\x78\x32\x30\x5c\x78\x36\x66\x5c\x78\x37\x30\x5c\x78\x36\x35\x5c\x78\x36\x65\x5c\x78\x32\x30"+_3257891857586418487 mAnDeXfeHaujEzGBbrjil 	 
     	   mftnbgRvzOIVyL93HyyWt 	 
     	  
     		
     _18062104616271777338.load mFlVjO0mLpwnCN5a1Quio 	 
     	  
-    		  _175247759980 mmCJ670wA_VHgip7JZ1dW 	 
+    		  _16232574195041746640 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
      
@@ -13295,11 +14237,11 @@ toStream miAECMSxGwjxrcOKk0DII
 std mpJt2kGThF7wb3VNzG38b 	 
     	  
     		   
-    ostream &_11093822381060 mmCJ670wA_VHgip7JZ1dW 	 
+    ostream &_5268611907574360399 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		  const
  mN0TszoCQmyzxmobsgV2H 	
-    uint64_t _11093822380353 mKcKHr_bTagXAK_pf8btG 	 
+    uint64_t _5268611907573361194 mKcKHr_bTagXAK_pf8btG 	 
     	  
     		   
      
@@ -13308,7 +14250,7 @@ std mpJt2kGThF7wb3VNzG38b
     		   
      
     
-    _11093822381060.write mhxtTU7dvZHXCTSg8B8rx 	 
+    _5268611907574360399.write mhxtTU7dvZHXCTSg8B8rx 	 
     	  
     		   
    mhORIPgMIfN3Fn8aCQBuU 	char* mAnDeXfeHaujEzGBbrjil 	 
@@ -13317,8 +14259,8 @@ std mpJt2kGThF7wb3VNzG38b
      
      
  
-&_11093822380353,sizeof mSa4WnWih0z4lSo9RYUGU 	 
-    _11093822380353 muiDYQbmwLxL3PGrwWGeP 	 
+&_5268611907573361194,sizeof mSa4WnWih0z4lSo9RYUGU 	 
+    _5268611907573361194 muiDYQbmwLxL3PGrwWGeP 	 
     	  
     		   
      
@@ -13333,7 +14275,7 @@ std mpJt2kGThF7wb3VNzG38b
     _18062104616271777338.toStream mtbP4KQJdh36UGELfV2zq 	 
     	  
     		   
-_11093822381060 muiDYQbmwLxL3PGrwWGeP 	 
+_5268611907574360399 muiDYQbmwLxL3PGrwWGeP 	 
  mVOlbMaOu1U0SC2oeKIzP 	 
     	  
     		   
@@ -13355,12 +14297,12 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
  fromStream mhORIPgMIfN3Fn8aCQBuU 	 
     	std mU808frSKQDZnEEU3Q3s9 	 
     	  
-   istream &_11093822381060 mmCJ670wA_VHgip7JZ1dW 	 
+   istream &_5268611907574360399 mmCJ670wA_VHgip7JZ1dW 	 
  mJkMyi0NbVRDgE__LMR_m 	 
     	  
     		   
  
-    uint64_t _11093822380353 mu_nOcTFwUo8r0uNE351R 	 
+    uint64_t _5268611907573361194 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
      
@@ -13371,17 +14313,17 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
     		   
      
     
-    _11093822381060.read mtbP4KQJdh36UGELfV2zq 	 
+    _5268611907574360399.read mtbP4KQJdh36UGELfV2zq 	 
     	  
    miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
  char* mlqM0snvYcrWCw2_QjhQi 	 
     	  
-    		  &_11093822380353,sizeof miAECMSxGwjxrcOKk0DII 	 
+    		  &_5268611907573361194,sizeof miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
-    _11093822380353 mXAYJa6osZ6HNTIEEBnr0 	 mzf4ZxeZY8wF2XnrdYK61 	 
+    _5268611907573361194 mXAYJa6osZ6HNTIEEBnr0 	 mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
      
@@ -13396,7 +14338,7 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
      
      
  
-  _11093822380353 mtDHooAMb6ubWraYLa7pj 	 
+  _5268611907573361194 mtDHooAMb6ubWraYLa7pj 	 
     	  
  13213 muiDYQbmwLxL3PGrwWGeP 	 
     	  
@@ -13406,13 +14348,13 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
     	  
     		   
      
-    "\x4d\x61\x72\x6b\x65\x72\x44\x65\x74\x65\x63\x74\x6f\x72\x5f\x49\x6d\x70\x6c\x3a\x3a\x66\x72\x6f\x6d\x53\x74\x72\x65\x61\x6d\x20\x69\x6e\x76\x61\x6c\x69\x64\x20\x73\x69\x67\x6e\x61\x74\x75\x72\x65" muiDYQbmwLxL3PGrwWGeP 	 
+    "\x5c\x78\x34\x64\x5c\x78\x36\x31\x5c\x78\x37\x32\x5c\x78\x36\x62\x5c\x78\x36\x35\x5c\x78\x37\x32\x5c\x78\x34\x34\x5c\x78\x36\x35\x5c\x78\x37\x34\x5c\x78\x36\x35\x5c\x78\x36\x33\x5c\x78\x37\x34\x5c\x78\x36\x66\x5c\x78\x37\x32\x5c\x78\x35\x66\x5c\x78\x34\x39\x5c\x78\x36\x64\x5c\x78\x37\x30\x5c\x78\x36\x63\x5c\x78\x33\x61\x5c\x78\x33\x61\x5c\x78\x36\x36\x5c\x78\x37\x32\x5c\x78\x36\x66\x5c\x78\x36\x64\x5c\x78\x35\x33\x5c\x78\x37\x34\x5c\x78\x37\x32\x5c\x78\x36\x35\x5c\x78\x36\x31\x5c\x78\x36\x64\x5c\x78\x32\x30\x5c\x78\x36\x39\x5c\x78\x36\x65\x5c\x78\x37\x36\x5c\x78\x36\x31\x5c\x78\x36\x63\x5c\x78\x36\x39\x5c\x78\x36\x34\x5c\x78\x32\x30\x5c\x78\x37\x33\x5c\x78\x36\x39\x5c\x78\x36\x37\x5c\x78\x36\x65\x5c\x78\x36\x31\x5c\x78\x37\x34\x5c\x78\x37\x35\x5c\x78\x37\x32\x5c\x78\x36\x35" muiDYQbmwLxL3PGrwWGeP 	 
     	  
   mJTScPpWt8plE9Cz9fDU6 	 
     	
     _18062104616271777338.fromStream mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-   _11093822381060 mhyL_M5gnmQzwyHW45MdA 	 
+   _5268611907574360399 mhyL_M5gnmQzwyHW45MdA 	 
     mlqoNTA3LQoUJF6i5YDFc 	 
   
     setDictionary mSa4WnWih0z4lSo9RYUGU 	 
@@ -13445,7 +14387,7 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
     	  
     		   
      
-      &_6807036698572949990  mmCJ670wA_VHgip7JZ1dW 	 mDzQQrEx5Ki0C6uDHU2cy 	 
+      &_14641992596943690144  mmCJ670wA_VHgip7JZ1dW 	 mDzQQrEx5Ki0C6uDHU2cy 	 
     	  
     		   
      
@@ -13456,7 +14398,7 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
     	  
     		   
      
- miAECMSxGwjxrcOKk0DII 	 _6807036698572949990.size mzeHK1hG1SYQMISNMWMB8 	 
+ miAECMSxGwjxrcOKk0DII 	 _14641992596943690144.size mzeHK1hG1SYQMISNMWMB8 	 
     	  
     		   
      
@@ -13469,14 +14411,17 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
      
      
  
- return mPdHdcAZ6XJhwf8wLtULI 	 
+  mGbN63kjoGx6fvYq0oiYN 	 
+    	  
+    		   
+  mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
   
     
      mdEzmAkZNQkKD1HrLnSSo 	 
     	  
-    _706246332997469 myJHqW7fkn_72nVEhKeZ6 	 
+    _3257891898253592016 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   
      
@@ -13490,8 +14435,11 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
     	  
     		   
      
-  auto _2654435878:_6807036698572949990 mXAYJa6osZ6HNTIEEBnr0 	 
-    _706246332997469 mRwjoMr_aqph4iL4nu8NS 	 
+   moNuUrvhPRwgFBZS8fSa1 	 
+    	  
+    		   
+   _13303058356268144134:_14641992596943690144 mXAYJa6osZ6HNTIEEBnr0 	 
+    _3257891898253592016 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
@@ -13502,7 +14450,7 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
     		   
      
      max mtbP4KQJdh36UGELfV2zq 	 
- _706246332997469,_2654435878.queryIdx mmCJ670wA_VHgip7JZ1dW 	 
+ _3257891898253592016,_13303058356268144134.queryIdx mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   mJTScPpWt8plE9Cz9fDU6 	 
     	  
@@ -13516,9 +14464,11 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
      
      
  
-  	 int mBpPKNB5wfuTOV223BA2r 	 
+  	  moI11mwtxiOXpqDxK_aQL 	 
     	  
-    		    _706246343302689 mmmC9tOGiLK6UaJr0E5vz 	_706246332997469+1,-1 muiDYQbmwLxL3PGrwWGeP 	 
+mBpPKNB5wfuTOV223BA2r 	 
+    	  
+    		    _3175890141660034698 mmmC9tOGiLK6UaJr0E5vz 	_3257891898253592016+1,-1 muiDYQbmwLxL3PGrwWGeP 	 
     	   mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
@@ -13532,12 +14482,12 @@ _11093822381060 muiDYQbmwLxL3PGrwWGeP
  
   cv mU808frSKQDZnEEU3Q3s9 	 
     	  
-    		 DMatch mBpPKNB5wfuTOV223BA2r 	 _5995899032167850231 mmmC9tOGiLK6UaJr0E5vz 	 
+    		 DMatch mBpPKNB5wfuTOV223BA2r 	 _2844604575892364742 mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
      
      
-_706246332997469 muiDYQbmwLxL3PGrwWGeP 	 
+_3257891898253592016 muiDYQbmwLxL3PGrwWGeP 	 
     	  
    mJTScPpWt8plE9Cz9fDU6 	 
     	  
@@ -13550,7 +14500,7 @@ _706246332997469 muiDYQbmwLxL3PGrwWGeP
     	  
     		   
      
-     _11093822405045 mu_nOcTFwUo8r0uNE351R 	 
+     _5268611906072959276 mu_nOcTFwUo8r0uNE351R 	 
     	  
     		   
  0 mhGXMe8LHJXydR9dMisHj 	 
@@ -13558,14 +14508,23 @@ _706246332997469 muiDYQbmwLxL3PGrwWGeP
 
      mYA_OUCZSQycbIZ5oB16m 	 
     	  
-    		   _5960139437298474508 mCm219F3DHVwNe_CsrCeK 	 
+    		   _17308907134902915790 mCm219F3DHVwNe_CsrCeK 	 
     	  
-    		false mxdAvfSsdzliezc0uyUMk 	 
+    		 mLEx8V9d9KOGX6TpfxDP_ 	 
+    	  
+    		   
+mxdAvfSsdzliezc0uyUMk 	 
     	  
 
 
      mwkUVn0D8pUxgFq_rx20G 	 
-    auto &_46082575882272165:_6807036698572949990  mycwFs63h7Mi3ggRkMEVm 	 
+     mclhRCo4dM7MadZp5V8m6 	 
+    	  
+    		   
+     
+     
+ 
+ &_15915593883518787333:_14641992596943690144  mycwFs63h7Mi3ggRkMEVm 	 
     mypSy3lS4LRIjRYTxVxzg 	 
     	  
     		   
@@ -13576,11 +14535,11 @@ _706246332997469 muiDYQbmwLxL3PGrwWGeP
          mJvv2tbrel2xOYjvgipUL 	 
    mSa4WnWih0z4lSo9RYUGU 	 
     	  
-    	_706246343302689 mFyKKLtdivGGDlk8sYzsf 	 
+    	_3175890141660034698 mFyKKLtdivGGDlk8sYzsf 	 
     	  
     		   
      
-     _46082575882272165.queryIdx mwTp2D1d4PfxNNOzzUfhS 	 maDn6NcmB5JPmBvJglMEd 	 
+     _15915593883518787333.queryIdx mwTp2D1d4PfxNNOzzUfhS 	 maDn6NcmB5JPmBvJglMEd 	 
     	  
     		   
      -1 mAnDeXfeHaujEzGBbrjil 	 
@@ -13590,16 +14549,16 @@ _706246332997469 muiDYQbmwLxL3PGrwWGeP
      
      
  
-            _706246343302689 mY2nz8M_6jpSxQZL8EYgU 	 
+            _3175890141660034698 mY2nz8M_6jpSxQZL8EYgU 	 
     	  
     		   
- _46082575882272165.queryIdx mUB1yrSrKOwldqxmCatN2 	 
+ _15915593883518787333.queryIdx mUB1yrSrKOwldqxmCatN2 	 
     	  
     		   
      
    ma6VjqdfajK4BX9gkoGiD 	 
     	  
-    	_11093822405045 mJTScPpWt8plE9Cz9fDU6 	 
+    	_5268611906072959276 mJTScPpWt8plE9Cz9fDU6 	 
     	  
     		   
      
@@ -13607,17 +14566,23 @@ _706246332997469 muiDYQbmwLxL3PGrwWGeP
          mJOnXqKm3GBylSdRjpXAA 	 
     	  
     		
-        else mT_x8cqp5t43PgqNMR8gO 	 
+         mHcxzZHoWX11H4xEjR59T 	 
+    	  
+    		   
+     
+     
+ 
+ mT_x8cqp5t43PgqNMR8gO 	 
 
              mvw_MKiY3S1FcVNfJQCRT 	 
     	  
     	 mtbP4KQJdh36UGELfV2zq 	 
     	  
     		   
-  _6807036698572949990 mILaQGKCAmcKrYQNhgWUq 	 
+  _14641992596943690144 mILaQGKCAmcKrYQNhgWUq 	 
     	  
-    		   _706246343302689 mILaQGKCAmcKrYQNhgWUq 	 
-   _46082575882272165.queryIdx mbViqhyIcr6lGWibuo3Im 	 
+    		   _3175890141660034698 mILaQGKCAmcKrYQNhgWUq 	 
+   _15915593883518787333.queryIdx mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
@@ -13625,13 +14590,13 @@ _706246332997469 muiDYQbmwLxL3PGrwWGeP
     	  
  .distance mtJAThUzPUAnb_DMXiQOL 	 
     	  
-    		   _46082575882272165.distance mhyL_M5gnmQzwyHW45MdA 	 
+    		   _15915593883518787333.distance mhyL_M5gnmQzwyHW45MdA 	 
      mfKhTg3wpiK_YhdQzWWcS 	 
     	  
    
-                _6807036698572949990 mNDJrNgMXB1tBoFNaJO0d 	 
-    	   _706246343302689 mGYpOkNIG_qSvYXBOU9Vf 	 
-   _46082575882272165.queryIdx mo8MRbS3DUX_ZOlgmUSna 	 
+                _14641992596943690144 mNDJrNgMXB1tBoFNaJO0d 	 
+    	   _3175890141660034698 mGYpOkNIG_qSvYXBOU9Vf 	 
+   _15915593883518787333.queryIdx mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
      
@@ -13643,20 +14608,22 @@ _706246332997469 muiDYQbmwLxL3PGrwWGeP
     	  
     		   
   
-                _706246343302689 mWkGo8xUdRIKgJ1DEUvvn 	 
+                _3175890141660034698 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
      
      
  
-_46082575882272165.queryIdx mJtGCV8zXQjnVDVBVdvFZ 	 
+_15915593883518787333.queryIdx mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
    muQdV4OJL6V6gVxW6AdRy 	 
-  _11093822405045 mVOlbMaOu1U0SC2oeKIzP 	 
+  _5268611906072959276 mVOlbMaOu1U0SC2oeKIzP 	 
  
-                _5960139437298474508 mif4ZCBkqdiqSYkR9AD0r 	 
-    	  true mdmuaUz9iCkCckSUhcEv1 	 
+                _17308907134902915790 mif4ZCBkqdiqSYkR9AD0r 	 
+    	   m_wyaFib5_cQG4j1HqokH 	 
+    	  
+   mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
    
@@ -13665,17 +14632,22 @@ _46082575882272165.queryIdx mJtGCV8zXQjnVDVBVdvFZ
     		   
      
  
-            else mnU2hwoI16_nZ7reLKJTr 	 
+             moT0JKxDJVSALTDfSRUYM 	 
+    	  
+ mnU2hwoI16_nZ7reLKJTr 	 
     	  
  
-                _46082575882272165.queryIdx mu_nOcTFwUo8r0uNE351R 	 
+                _15915593883518787333.queryIdx mu_nOcTFwUo8r0uNE351R 	 
     -1 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
      
-
-                _5960139437298474508 mdKhcOUXVqyCMdccisL_a 	 true mdmuaUz9iCkCckSUhcEv1 	 
+                _17308907134902915790 mdKhcOUXVqyCMdccisL_a 	  m_wyaFib5_cQG4j1HqokH 	 
+    	  
+    		   
+     
+mdmuaUz9iCkCckSUhcEv1 	 
     	
              maCQ9r5fSln_CXgRXGFvO 	 
     	  
@@ -13686,7 +14658,7 @@ _46082575882272165.queryIdx mJtGCV8zXQjnVDVBVdvFZ
      
  
 
-        _11093822405045 mUq8qfNXjDE9FPlMHvjf4 	 
+        _5268611906072959276 mUq8qfNXjDE9FPlMHvjf4 	 
     	  
     		   
      
@@ -13703,9 +14675,9 @@ _46082575882272165.queryIdx mJtGCV8zXQjnVDVBVdvFZ
  
  mFsSEF_3_iD2mT6nZG9QR 	 
     	  
-_5960139437298474508 msubWq7nTVSPilWqmTzkx 	 
+_17308907134902915790 msubWq7nTVSPilWqmTzkx 	 
     
-        _6807036698572949990.erase mhORIPgMIfN3Fn8aCQBuU 	 
+        _14641992596943690144.erase mhORIPgMIfN3Fn8aCQBuU 	 
   std maKLz6mCz5anFyVle_MtD 	 
     	  
     		   
@@ -13713,9 +14685,9 @@ _5960139437298474508 msubWq7nTVSPilWqmTzkx
   remove_if mFsSEF_3_iD2mT6nZG9QR 	 
     	  
     		   
-     _6807036698572949990.begin maHkatHu0Jap4oTaT5q4_ 	 
+     _14641992596943690144.begin maHkatHu0Jap4oTaT5q4_ 	 
     	  
-,_6807036698572949990.end mwTQhkbVNQHd2Xw4EA4fj 	 
+,_14641992596943690144.end mwTQhkbVNQHd2Xw4EA4fj 	 
     	  
     		   
    ,  mWkGo8xUdRIKgJ1DEUvvn 	 
@@ -13728,15 +14700,17 @@ _5960139437298474508 msubWq7nTVSPilWqmTzkx
  const cv mdssZV6TB06aiisDwN1cX 	 
     	  
     		   
-     DMatch &_2654435878 mmCJ670wA_VHgip7JZ1dW 	 
+     DMatch &_13303058356268144134 mmCJ670wA_VHgip7JZ1dW 	 
     	  
    mDzQQrEx5Ki0C6uDHU2cy 	 
     	  
-   return _2654435878.trainIdx mHOvg7vOJH6ujsVsg3S5G 	 -1  mQfgxxEXCA984FTu8Jz8Q 	 
+    miFyHzo07syL8tsy3JLAT 	 
+    	  
+    		  _13303058356268144134.trainIdx mHOvg7vOJH6ujsVsg3S5G 	 -1  mQfgxxEXCA984FTu8Jz8Q 	 
     	  
     		   
      
- _2654435878.queryIdx mgAgf2KiVOzOHJDU4qKPI 	 
+ _13303058356268144134.queryIdx mgAgf2KiVOzOHJDU4qKPI 	 
     	  
     		  -1 mdmuaUz9iCkCckSUhcEv1 	 
     	  
@@ -13746,7 +14720,7 @@ _5960139437298474508 msubWq7nTVSPilWqmTzkx
  
   mhl3Z6oGBbP13ZxehUcg9 	 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
-    		, _6807036698572949990.end maHkatHu0Jap4oTaT5q4_ 	 
+    		, _14641992596943690144.end maHkatHu0Jap4oTaT5q4_ 	 
     	  
     		   
   muiDYQbmwLxL3PGrwWGeP 	 
@@ -13779,9 +14753,9 @@ _5960139437298474508 msubWq7nTVSPilWqmTzkx
   Marker mE4_Vrik0lveh4HNJUk1B 	 
     	  
     		   
-& _11306931217450568291, cv mBBHVSlvDGP5NVUfEuhuf 	 
+& _6528263073538749848, cv mBBHVSlvDGP5NVUfEuhuf 	 
     	  
-    		  Size _13071343076011237770  mzf4ZxeZY8wF2XnrdYK61 	 
+    		  Size _17190350386607761058  mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
   mDzQQrEx5Ki0C6uDHU2cy 	 
@@ -13799,17 +14773,17 @@ _5960139437298474508 msubWq7nTVSPilWqmTzkx
     		  Point2f mYxohqgekcJ8HhaDZvWcX 	 
     	  
     		  mW1YUos9eL_9NmgJuSDH7 	 
-  _6806985041881495917 mINcNsH05D0QZDej9wl4h 	 
+  _13891523452203630414 mINcNsH05D0QZDej9wl4h 	 
     	  
    
      ma9rnYFEs_TUiw_WyBflg 	const  moNuUrvhPRwgFBZS8fSa1 	 
     	  
     		   
- &_2654435878:_11306931217450568291 mycwFs63h7Mi3ggRkMEVm 	 
-    	 _6806985041881495917.push_back mmmC9tOGiLK6UaJr0E5vz 	 
+ &_13303058356268144134:_6528263073538749848 mycwFs63h7Mi3ggRkMEVm 	 
+    	 _13891523452203630414.push_back mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
-  _2654435878 mycwFs63h7Mi3ggRkMEVm 	 
+  _13303058356268144134 mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
  mdmuaUz9iCkCckSUhcEv1 	 
@@ -13817,7 +14791,7 @@ _5960139437298474508 msubWq7nTVSPilWqmTzkx
     _14028278894506040778 mReDuVelSknxaDAoDEmwT 	 
     	  
     		   
- _6806985041881495917,_13071343076011237770 mmCJ670wA_VHgip7JZ1dW 	 
+ _13891523452203630414,_17190350386607761058 mmCJ670wA_VHgip7JZ1dW 	 
     	  
     		   
  mriCvhMavpfheoLNc0eCD 	 
@@ -13826,13 +14800,13 @@ _5960139437298474508 msubWq7nTVSPilWqmTzkx
    
      mF9AQyKXtPTPy1zvAUpED 	 
     	  
-   size_t _2654435874 myJHqW7fkn_72nVEhKeZ6 	 
+   size_t _13303058356268144138 myJHqW7fkn_72nVEhKeZ6 	 
     	  
     		   0 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
      
-_2654435874 mHkLXuUOlyX2vZI7w3FQj 	_11306931217450568291.size mFwk30320retpLBiICndp 	 
+_13303058356268144138 mHkLXuUOlyX2vZI7w3FQj 	_6528263073538749848.size mFwk30320retpLBiICndp 	 
     	  
     		   
      
@@ -13843,20 +14817,20 @@ _2654435874 mHkLXuUOlyX2vZI7w3FQj 	_11306931217450568291.size mFwk30320retpLBiIC
      
      
  
- _2654435874 mBh4lc09qKYGXyU7FeqOv 	  msubWq7nTVSPilWqmTzkx 	 
+ _13303058356268144138 mBh4lc09qKYGXyU7FeqOv 	  msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
 
-        _11306931217450568291 mGYpOkNIG_qSvYXBOU9Vf 	 
-_2654435874 mbViqhyIcr6lGWibuo3Im 	 
+        _6528263073538749848 mGYpOkNIG_qSvYXBOU9Vf 	 
+_13303058356268144138 mbViqhyIcr6lGWibuo3Im 	 
     	  
     		   
      
  ma6VjqdfajK4BX9gkoGiD 	 
     	  
-    _6806985041881495917 mWkGo8xUdRIKgJ1DEUvvn 	 
+    _13891523452203630414 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
-    		   _2654435874 mo8MRbS3DUX_ZOlgmUSna 	 
+    		   _13303058356268144138 mo8MRbS3DUX_ZOlgmUSna 	 
     	  
     		   
      
@@ -13916,11 +14890,11 @@ vector mHkLXuUOlyX2vZI7w3FQj
   mEc9zv3P8LW8haIvtztwe 	 
     	  
     		   
-  & _11306931217450568291, cv mBBHVSlvDGP5NVUfEuhuf 	 
+  & _6528263073538749848, cv mBBHVSlvDGP5NVUfEuhuf 	 
     	  
     		   
      
- Size _13071343076011237770  msubWq7nTVSPilWqmTzkx 	 
+ Size _17190350386607761058  msubWq7nTVSPilWqmTzkx 	 
     	  
     		   
      
@@ -13932,7 +14906,7 @@ vector mHkLXuUOlyX2vZI7w3FQj
   mhORIPgMIfN3Fn8aCQBuU 	 
     	  
     		   
-     _11306931217450568291.size mf_hJsy06Me1epT4PRx_l 	 
+     _6528263073538749848.size mf_hJsy06Me1epT4PRx_l 	 
     	  
     		   
      
@@ -13941,7 +14915,13 @@ vector mHkLXuUOlyX2vZI7w3FQj
     		   
    0 mmCJ670wA_VHgip7JZ1dW 	 
     	  
-    return mxdAvfSsdzliezc0uyUMk 	 
+     mLfKYVMLDthbyvvLerNPJ 	 
+    	  
+    		   
+     
+     
+ 
+  	 mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
      
@@ -13950,7 +14930,7 @@ vector mHkLXuUOlyX2vZI7w3FQj
  
      
       mCujczJix6jMpJcynoBiA 	 
-_1687729364738239341 mdKhcOUXVqyCMdccisL_a 	 
+_14793609818754720849 mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      0 mxdAvfSsdzliezc0uyUMk 	 
@@ -13961,7 +14941,7 @@ _1687729364738239341 mdKhcOUXVqyCMdccisL_a
     	  
     		   
      
-    size_t _2654435874 mCm219F3DHVwNe_CsrCeK 	 
+    size_t _13303058356268144138 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
@@ -13969,7 +14949,7 @@ _1687729364738239341 mdKhcOUXVqyCMdccisL_a
     	  
     		   
      
-     _2654435874 mHkLXuUOlyX2vZI7w3FQj 	 
+     _13303058356268144138 mHkLXuUOlyX2vZI7w3FQj 	 
     	  
    _14234691456098337398.size mbHCSQc_uaLNP9Sf4Lz_n 	 
     	  
@@ -13978,7 +14958,7 @@ _1687729364738239341 mdKhcOUXVqyCMdccisL_a
       mxdAvfSsdzliezc0uyUMk 	 
     	  
     		   
-_2654435874 mcstdE8Wwpam6tUMM45Sa 	 
+_13303058356268144138 mcstdE8Wwpam6tUMM45Sa 	 
     	  
    msubWq7nTVSPilWqmTzkx 	 
     	  
@@ -13993,17 +14973,17 @@ _2654435874 mcstdE8Wwpam6tUMM45Sa
     	 miAECMSxGwjxrcOKk0DII 	 
     	  
     		   
-  _13071343076011237770.width  mYfYoOWdsOLTDCIBT7npX 	 
+  _17190350386607761058.width  mYfYoOWdsOLTDCIBT7npX 	 
     	   _14234691456098337398 mZnfmoDANjVLDjZfzM5MR 	 
-    	 _2654435874 msdqcdg5NNrdQnc_PT1Ee 	.cols mzf4ZxeZY8wF2XnrdYK61 	 
+    	 _13303058356268144138 msdqcdg5NNrdQnc_PT1Ee 	.cols mzf4ZxeZY8wF2XnrdYK61 	 
     	  
     		   
-      _1687729364738239341 ma6VjqdfajK4BX9gkoGiD 	 
+      _14793609818754720849 ma6VjqdfajK4BX9gkoGiD 	 
     	  
     		   
      
      
-_2654435874 mftnbgRvzOIVyL93HyyWt 	 
+_13303058356268144138 mftnbgRvzOIVyL93HyyWt 	 
     	  
     		   
      
@@ -14012,7 +14992,13 @@ _2654435874 mftnbgRvzOIVyL93HyyWt
 
           mZQqomBcB_Prq89ftbAiD 	 
     	  
- break mINcNsH05D0QZDej9wl4h 	 
+  mTFkOkggRsxkeMv25hiJW 	 
+    	  
+    		   
+     
+     
+ 
+  	mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
    
@@ -14024,7 +15010,7 @@ _2654435874 mftnbgRvzOIVyL93HyyWt
       cv mdssZV6TB06aiisDwN1cX 	 
     	  
     		   
-     Size _2340560735029810971 mM3tRrWbRPqPOU3G4ShKT 	_13071343076011237770 mdmuaUz9iCkCckSUhcEv1 	 
+     Size _1914080660989537839 mM3tRrWbRPqPOU3G4ShKT 	_17190350386607761058 mdmuaUz9iCkCckSUhcEv1 	 
     	  
     		   
      
@@ -14033,20 +15019,23 @@ _2654435874 mftnbgRvzOIVyL93HyyWt
   	
       mhXXYzAVu3lDYyh7TkRWq 	 
     	  
- int _3005399638192254294 mM3tRrWbRPqPOU3G4ShKT 	 
+  mMGij61UZUIIYyztVz9vN 	 
+    	  
+    		   
+   _13044199310297575846 mM3tRrWbRPqPOU3G4ShKT 	 
     	  
     		   
      
-    _1687729364738239341 mJTScPpWt8plE9Cz9fDU6 	 
+    _14793609818754720849 mJTScPpWt8plE9Cz9fDU6 	 
     	  
-    		 _3005399638192254294 msao8K6SR84Lu5ND7NCVt 	 
+    		 _13044199310297575846 msao8K6SR84Lu5ND7NCVt 	 
     	  
     		   
      
     0 mPdHdcAZ6XJhwf8wLtULI 	 
     	  
     		   
-   _3005399638192254294 mEiOeyHRZlQujPqpgYY7u 	 mlqM0snvYcrWCw2_QjhQi 	 
+   _13044199310297575846 mEiOeyHRZlQujPqpgYY7u 	 mlqM0snvYcrWCw2_QjhQi 	 
      mfKhTg3wpiK_YhdQzWWcS 	 
     	  
     		   
@@ -14058,22 +15047,23 @@ _2654435874 mftnbgRvzOIVyL93HyyWt
     	  
     		   
      
-_3005401529555104491 mRwjoMr_aqph4iL4nu8NS 	 
+_6633594514234248811 mRwjoMr_aqph4iL4nu8NS 	 
     	  
     		   
      
-      float mmmC9tOGiLK6UaJr0E5vz 	 
+       mYKwa_OYBeVXzRPMa_mz6 	 
+    	mmmC9tOGiLK6UaJr0E5vz 	 
     	  
     		   
      
    _14234691456098337398 mA4oXllup8K3T5dxkluRR 	 
     	  
-    	_3005399638192254294 mwTp2D1d4PfxNNOzzUfhS 	 
+    	_13044199310297575846 mwTp2D1d4PfxNNOzzUfhS 	 
   .cols mlqM0snvYcrWCw2_QjhQi 	 
     	  
     		   
 /float mtbP4KQJdh36UGELfV2zq 	 
-    _2340560735029810971.width mAnDeXfeHaujEzGBbrjil 	 
+    _1914080660989537839.width mAnDeXfeHaujEzGBbrjil 	 
     	  
     		   
   mftnbgRvzOIVyL93HyyWt 	 
@@ -14084,21 +15074,29 @@ _3005401529555104491 mRwjoMr_aqph4iL4nu8NS
     		   
      
      
- auto &_2654435878:_11306931217450568291 msubWq7nTVSPilWqmTzkx 	 
+  mHXoMWKZSiZYUvqmVkLF5 	 
+    	  
+    		   
+     
+    &_13303058356268144134:_6528263073538749848 msubWq7nTVSPilWqmTzkx 	 
   
               mF9AQyKXtPTPy1zvAUpED 	 
     	  
-auto &_46082575778175590:_2654435878 mycwFs63h7Mi3ggRkMEVm 	 
+ mHXoMWKZSiZYUvqmVkLF5 	 
+    	  
+    		   
+     
+     &_15913523031057945521:_13303058356268144134 mycwFs63h7Mi3ggRkMEVm 	 
     	  
     		   
      
    mN0TszoCQmyzxmobsgV2H 	 
-   _46082575778175590 mt6CTIKlbWyEq7tYJENOL 	 
+   _15913523031057945521 mt6CTIKlbWyEq7tYJENOL 	 
     	  
     		   
      
      
-_3005401529555104491 mriCvhMavpfheoLNc0eCD 	 
+_6633594514234248811 mriCvhMavpfheoLNc0eCD 	 
     	  
     		   
      
@@ -14111,10 +15109,10 @@ _3005401529555104491 mriCvhMavpfheoLNc0eCD
  
  
           moI11mwtxiOXpqDxK_aQL 	 
-   _16116720581284886979 mCm219F3DHVwNe_CsrCeK 	 
+   _134566848691226369 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
-      0.5+2.5*_3005401529555104491 mhGXMe8LHJXydR9dMisHj 	 
+      0.5+2.5*_6633594514234248811 mhGXMe8LHJXydR9dMisHj 	 
     	  
     		   
      
@@ -14134,39 +15132,39 @@ _3005401529555104491 mriCvhMavpfheoLNc0eCD
     		   
      
      
- _11093822300120 mINcNsH05D0QZDej9wl4h 	 
+ _5268611907161554282 mINcNsH05D0QZDej9wl4h 	 
     	  
     		   
      
      
-
               mwkUVn0D8pUxgFq_rx20G 	 
     	  
     		   
      
      
  
-  auto &_2654435878:_11306931217450568291 mXAYJa6osZ6HNTIEEBnr0 	 
+   mgxs4jaOm5WhsuDH7hsbo 	 
+    	  &_13303058356268144134:_6528263073538749848 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
  
                   mwkUVn0D8pUxgFq_rx20G 	 
     	  
     		   
-  auto &_46082575778175590:_2654435878 mlqM0snvYcrWCw2_QjhQi 	 
+   myYAiLHDT3JvFKUJCC_FN 	 &_15913523031057945521:_13303058356268144134 mlqM0snvYcrWCw2_QjhQi 	 
     	    mDzQQrEx5Ki0C6uDHU2cy 	 
     	  
     		   
      
      
  
-  _11093822300120.push_back mtbP4KQJdh36UGELfV2zq 	 
+  _5268611907161554282.push_back mtbP4KQJdh36UGELfV2zq 	 
     	  
     		   
      
      
  
-  _46082575778175590 mhyL_M5gnmQzwyHW45MdA 	 
+  _15913523031057945521 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
@@ -14181,11 +15179,11 @@ _3005401529555104491 mriCvhMavpfheoLNc0eCD
      
      cornerSubPix mhORIPgMIfN3Fn8aCQBuU 	 
     	  
-    		 _14234691456098337398 mY2nz8M_6jpSxQZL8EYgU 	 _3005399638192254294 mDd5IIsnjfLI1lcygRsW3 	 
-  ,_11093822300120,cv mpJt2kGThF7wb3VNzG38b 	 
+    		 _14234691456098337398 mY2nz8M_6jpSxQZL8EYgU 	 _13044199310297575846 mDd5IIsnjfLI1lcygRsW3 	 
+  ,_5268611907161554282,cv mpJt2kGThF7wb3VNzG38b 	 
   Size mmmC9tOGiLK6UaJr0E5vz 	 
     	  
- _16116720581284886979,_16116720581284886979 mXAYJa6osZ6HNTIEEBnr0 	 
+ _134566848691226369,_134566848691226369 mXAYJa6osZ6HNTIEEBnr0 	 
     	  
     		   
      ,cv myuwTFtkH1L5Be2OVY9rt 	 
@@ -14216,7 +15214,7 @@ TermCriteria mSa4WnWih0z4lSo9RYUGU
     	  
     		   
      
-_706246351729199 mCm219F3DHVwNe_CsrCeK 	 
+_3175967589404451389 mCm219F3DHVwNe_CsrCeK 	 
     	  
     		   
      
@@ -14230,22 +15228,27 @@ _706246351729199 mCm219F3DHVwNe_CsrCeK
     	  
     		   
      
- auto &_2654435878:_11306931217450568291 mhyL_M5gnmQzwyHW45MdA 	 
+  mHXoMWKZSiZYUvqmVkLF5 	 
+    	  
+    		   
+     &_13303058356268144134:_6528263073538749848 mhyL_M5gnmQzwyHW45MdA 	 
     	  
     		   
      
                   ms9iveRK8Fk_QtPMDvDcP 	 
     	  
-    		auto &_46082575778175590:_2654435878 msubWq7nTVSPilWqmTzkx 	   mfKhTg3wpiK_YhdQzWWcS 	 
+    		 mgxs4jaOm5WhsuDH7hsbo 	 
     	  
-   _46082575778175590  mdKhcOUXVqyCMdccisL_a 	 
+&_15913523031057945521:_13303058356268144134 msubWq7nTVSPilWqmTzkx 	   mfKhTg3wpiK_YhdQzWWcS 	 
+    	  
+   _15913523031057945521  mdKhcOUXVqyCMdccisL_a 	 
     	  
     		   
      
-  _11093822300120 mWkGo8xUdRIKgJ1DEUvvn 	 
+  _5268611907161554282 mWkGo8xUdRIKgJ1DEUvvn 	 
     	  
     		   
-  _706246351729199 mi940TUip6nLdi0tWD33F 	 
+  _3175967589404451389 mi940TUip6nLdi0tWD33F 	 
     	  
     		   
   mEFd2D2UDF9SIoPfQtUv6 	 
@@ -14255,11 +15258,11 @@ _706246351729199 mCm219F3DHVwNe_CsrCeK
     	   muuG2jhk4iNsA9KNmj6oA 	 
   
 
-         _2340560735029810971 muQdV4OJL6V6gVxW6AdRy 	 
+         _1914080660989537839 muQdV4OJL6V6gVxW6AdRy 	 
     	  
     		   
 _14234691456098337398 mGYpOkNIG_qSvYXBOU9Vf 	 
-    	 _3005399638192254294 mJtGCV8zXQjnVDVBVdvFZ 	 
+    	 _13044199310297575846 mJtGCV8zXQjnVDVBVdvFZ 	 
     	  
     		   
      
@@ -14282,7 +15285,6 @@ _14234691456098337398 mGYpOkNIG_qSvYXBOU9Vf
      
   mriCvhMavpfheoLNc0eCD 	 
    
-
 #ifdef _3643599497981880515
 #undef  mtDtuj5HWLyTAsK7Fmx4g 
 #undef  mIM7YEc9Ba5XWDEr0m2YG 
@@ -14914,4 +15916,637 @@ _14234691456098337398 mGYpOkNIG_qSvYXBOU9Vf
 #undef  mHXoMWKZSiZYUvqmVkLF5 
 #undef  mcznTYeCGOAygtXXAPYS_ 
 #undef  mECcJc0jrNRWKGTvkEzeA 
+#endif
+
+#ifdef _3643599497981880515
+#undef  mECcJc0jrNRWKGTvkEzeA 
+#undef  mdNWJa6f_e7wadzG60ejq 
+#undef  mAVrnO9aWNRf9b3dALx0J 
+#undef mwuimZUNEQYuguDYpIp15llEoOqkXc0
+#undef  mFwk30320retpLBiICndp 
+#undef  mqwYu0y4oTPCnfXbylThX 
+#undef  m_Bc574zvmsa5bmM8Ay7H 
+#undef  mm3iTU9Va924R0kb0bFj1 
+#undef  mdssZV6TB06aiisDwN1cX 
+#undef  mgQ_wngzoaArigUsebwJ5 
+#undef  mJkMyi0NbVRDgE__LMR_m 
+#undef  mgor9wB6mrVARR8vJt7rC 
+#undef  mYB93ieg1KMHexoJXsKQO 
+#undef  mCQaCcJleVmF11nXRNijz 
+#undef  mjc_6rRmys9smvg_opA48 
+#undef  mDd5IIsnjfLI1lcygRsW3 
+#undef  mvvjvpVVXY9qkY9G6I2UZ 
+#undef  mwkUVn0D8pUxgFq_rx20G 
+#undef  mpDI48gcBVmyAktanjCOQ 
+#undef  mifrRvzkyTJgS5ZnlEWNT 
+#undef  mt0bWs8kxCzTnBdtR9vKu 
+#undef  mW0z8FqRbcMOOqrwq1TRC 
+#undef  mMGij61UZUIIYyztVz9vN 
+#undef  mwwJvnj2j3yLmklxxOEJQ 
+#undef  mndAbF8Mhqs6wYK8Ew3E6 
+#undef  mt6CTIKlbWyEq7tYJENOL 
+#undef  mm9xpbYUQ152i_zNBGUZu 
+#undef  mlkEZnzYCXAgDnYDi5up3 
+#undef meSFhtslMYeRECKXZrMQ8rKH8kdvfsC
+#undef  mihBlyb7pwidO496a5_p1 
+#undef  mX_x9bVx2zqKO8c2FxqgZ 
+#undef mcvC2D_94pblXXCjjwhbKRwRZdXBrpg
+#undef  md8eYFrUH5ZCVnYz5HXJs 
+#undef  meZ135JJTidHY5m2MSApS 
+#undef  mpi20hzA7RnQ_cRlycwva 
+#undef  mnlCUtQ6kn1Qc7HkEzE0c 
+#undef  mxD0ASUiBIk9J4KLYW_eX 
+#undef  mndDt3huhmUYGZC1vQmOq 
+#undef  mWB0Y3YknsbsRFnNAcGvV 
+#undef  mdkQcL_ccA3dE51c_fq0e 
+#undef  miFyHzo07syL8tsy3JLAT 
+#undef  mGYpOkNIG_qSvYXBOU9Vf 
+#undef  mEMN2sRTwHcTUl7SNSw0d 
+#undef  miFbFMaHNYmE7ZhdtdD1I 
+#undef  mPlk6hpBhStcHkX9pfoTY 
+#undef  mkGHGzUDDVqHIjIdYGe6S 
+#undef  mGDvPrxv8kCxNPwud9IqM 
+#undef  mDzQQrEx5Ki0C6uDHU2cy 
+#undef  my42VNapWQSG36GDaLRZU 
+#undef  mglDNKH5ah89GptW6H4Cu 
+#undef  mEDa32iTjVIlpXzu_8bXW 
+#undef  mvW7MwxFgHE1jUFn6bpuP 
+#undef  m_wyaFib5_cQG4j1HqokH 
+#undef  mQk9KGg1kmiZQnIZzbOuE 
+#undef  mZQqomBcB_Prq89ftbAiD 
+#undef  mcznTYeCGOAygtXXAPYS_ 
+#undef  mrpQVzv6u8gxvho1qUlil 
+#undef  mhORIPgMIfN3Fn8aCQBuU 
+#undef  mhgVj3QiKBmvoTbS8WYEn 
+#undef  mxjRBOqzfKYNpief2KWEu 
+#undef  mnswinmeXuam57kXH7myI 
+#undef  mHAbGd4HvG2QvOxZcs3lT 
+#undef mCuBtAqzIu5X7282ZWyHMjsFupyWd7i
+#undef mX2089XJEUghT4WdpeqIpdVl5urfw9e
+#undef  mKbtq8OHrv8CI8FhvE4XG 
+#undef  me9YsE5_K5dlCgWRVtztQ 
+#undef  myJHqW7fkn_72nVEhKeZ6 
+#undef  mdKhcOUXVqyCMdccisL_a 
+#undef  mReDuVelSknxaDAoDEmwT 
+#undef  mmB6x9VkGrq_qpFtMKL7A 
+#undef  mwxm9pz2KjGAhBIIfFMf4 
+#undef  mB3kG5fis1WUHfqjDpcgw 
+#undef  mA4oXllup8K3T5dxkluRR 
+#undef  mxMl9vPEiIZkGZuxtm_RI 
+#undef  mf_hJsy06Me1epT4PRx_l 
+#undef  mMXwD61a3ZsfucFBja1D_ 
+#undef  mLEx8V9d9KOGX6TpfxDP_ 
+#undef  mSovB5T1QsQHo_5C08NNM 
+#undef  mUFzn4yJGA8c9qnEcb9dH 
+#undef  mfXSqvRpqFIhzf0yTtohv 
+#undef  mlKtR21FV5abL2Mmi4l1T 
+#undef  mF8CPQI5IssWjwlV2CXVE 
+#undef  m_BNZbnU2Y1bOBnnPOF0b 
+#undef  mdbRZP7cWFYlUcaGRMsKc 
+#undef  mFMxB_7Xv8pds76G1KO8P 
+#undef  mZVOYp2JAGvUM7UPbzd3Q 
+#undef  mCm219F3DHVwNe_CsrCeK 
+#undef  mGbN63kjoGx6fvYq0oiYN 
+#undef  mUtcrfgjMX2yuzlJWU7ae 
+#undef  mu5MgGYXZDetF61l00p1M 
+#undef mpMBFPEerAbCZmlkKlVh_N5JqyDGaBN
+#undef  mo7mKuzaX2h9vw2rEj5qh 
+#undef mf4h8kYb28ybDtqub3aw3HtQXgCqXKS
+#undef  mhXXYzAVu3lDYyh7TkRWq 
+#undef  m_e_PmiIjNUGQEwSJbBF8 
+#undef  mgxs4jaOm5WhsuDH7hsbo 
+#undef  mnU2hwoI16_nZ7reLKJTr 
+#undef  msMfR3R5kzP8SqAQ3DWTq 
+#undef  mIYvQtGxrUTK9jCV0wgjB 
+#undef mpK6pxKC4ZXHIzSanBPacwWmlP7OzCz
+#undef  mjVigZhPz5SJG76mcwBBH 
+#undef  mnkTvEdpCXelpIHLLqQno 
+#undef  mftnbgRvzOIVyL93HyyWt 
+#undef  mypSy3lS4LRIjRYTxVxzg 
+#undef  mOEGA4b6sqebQZ8Uv15A2 
+#undef  maKLz6mCz5anFyVle_MtD 
+#undef  mwoUu824QThZXd8c3IKpk 
+#undef mjZvNSly8dRBzZWtVgAvmKEoP5XXUaT
+#undef  mkIOpFxp9pqNBAq8rhDn1 
+#undef  mLx62v15Gc0EOGYi5W96J 
+#undef  mDUyr1RAsHMG7u1BeTW3F 
+#undef  mJvv2tbrel2xOYjvgipUL 
+#undef mLUq8aGfwkTdnzQeNJ5jI_xlRY0CnTH
+#undef  mK02Cexqsx6vNaoTzun_D 
+#undef  muKP5B7qysoQRrYrwu_aG 
+#undef mAj3V8fNuZa0zcT9SrcGtpUv4tleVbU
+#undef  mY2nz8M_6jpSxQZL8EYgU 
+#undef  mqQspPZKCoa6LP0Jj0qH2 
+#undef  mAtZroqlrY5Hmm_G3pFca 
+#undef mF143YfMMbFl_Z9MaIdMK0RKDi2Kttj
+#undef mNaa6ujtHJ_ALdoCJCd9Rs9bJsl9CA2
+#undef  mJOnXqKm3GBylSdRjpXAA 
+#undef mTTOC6Wz4GS45ua7oKbWEmBZpWCWLbr
+#undef  mdmuaUz9iCkCckSUhcEv1 
+#undef mArVNsRyxIBuRhpRuviXmuMgA4HFptj
+#undef  mjjNAUwZAzilKpyI1Dk6r 
+#undef  mNHO_HqPPuJ0s1xmA3Hyp 
+#undef  mHkLXuUOlyX2vZI7w3FQj 
+#undef  mP2fo6VtM4ySlx6m268_j 
+#undef  mtbP4KQJdh36UGELfV2zq 
+#undef mt0J2cgGrQp2ucvKFkwuOILDyrA8QJM
+#undef mvI29UffPi_yJdDV3Vdm6w3QHqlu4_u
+#undef  mPBSejyyYBZX7KoLjIvqq 
+#undef  mOcs0qqtJYmueMnfTyCFx 
+#undef  mzqBtnG8Ja0w84lba1GCT 
+#undef  mKqJbq4fPTw28Ilr7bzpA 
+#undef  mUh25fI232n1nZuNP2DcY 
+#undef mMinTurqhjOTBoJcyTuRpllwDXFTRab
+#undef  mbFGY3HJrKnP_L6H3dMsA 
+#undef  mikiSyOnVry6pvQ1Ds28H 
+#undef  mKmIjE1RujJ5RSETUjqwW 
+#undef mOUkN_e0mvAXFRqMX_1zcW7MgjGhp1y
+#undef  mYPzKChOwisp1u2IoCgxk 
+#undef  mWHxIxEh8g9mg3Hyipn8D 
+#undef  maOczvhF_v9OTsK70ZZut 
+#undef  m_6hetAMDOSYN9CmiL4W7 
+#undef  mFKRUYDiDlNmwfGKdBg2S 
+#undef  mCALzjQ0bwpDnngl_oSsi 
+#undef mshTvqIeJnktjfxvTh_Q17geiWCXNRC
+#undef  m_NWV9acHYMEPlYLCkf5F 
+#undef  ms9iveRK8Fk_QtPMDvDcP 
+#undef  mEGd5SkTeDLeSnWPvzGk3 
+#undef  mFyKKLtdivGGDlk8sYzsf 
+#undef mwB_tR_srO0AlQhW1UaDy4Mdgah73Ie
+#undef  mG7mr0Iq8BCEeADSwrCoW 
+#undef  mgWtxscBTuWBkK7X3fJ_M 
+#undef  mfNhxMALMjy2jMKPPP3pN 
+#undef mH9ypXNXQET4Yi7K20Jh29E84Mwri1d
+#undef mfi_VmSWr30C6e1Og_9nDolWgyPyTBP
+#undef  mbG1GEmOdh2dXkJZ42sXo 
+#undef  mYwsOAvDOXneTzOST0d5c 
+#undef  m_j6ZkbEfLCgUqtaolYTp 
+#undef mJI2h44hAoDYrHnLdxJ9jbIgiWRiz8s
+#undef  mrYTPN06XEG4I2Q8GwVal 
+#undef  mw_6Ab4pR3RtOt7wvMnqF 
+#undef  mlqoNTA3LQoUJF6i5YDFc 
+#undef  mj7rzLUFNjZZ8TQ9LzphN 
+#undef mHbM_KF_gXQWZUU1d0ujVAErQ9WIsE7
+#undef  mXyxJEKR2vQDAiXVkkZ96 
+#undef mbsrpR8qe_bXg_8iiy7_QWHFwDBK3Ps
+#undef  mYsjCP2nXqW2Jls3JAUkc 
+#undef  myFE4ZIOynNe4GHuzkHmk 
+#undef mlkXvCGjzNE_N7vszwePKcZNchffiZF
+#undef  miFg9XqPeEmQjjY9dOISI 
+#undef  muQdV4OJL6V6gVxW6AdRy 
+#undef  mBBHVSlvDGP5NVUfEuhuf 
+#undef  mYxohqgekcJ8HhaDZvWcX 
+#undef  mRrGWRfoKK0rGG_g5N_ah 
+#undef  mS2LGTpbZiAMEweak007k 
+#undef  mhxtTU7dvZHXCTSg8B8rx 
+#undef  mfySD3GO3N8Vw4agWXnxR 
+#undef  mjbtcSgN5ZQfkGDsoYG4l 
+#undef  mQu7TMP4YfBcqf0WCzN18 
+#undef  mow1IjdflpN81ICD702rC 
+#undef  mZk2lUQMDVDhOLQdg9s92 
+#undef mdv5HkIEce_oVJ1EZRdFAVtmBv8s70E
+#undef  mPJvcMzH2GoPEPAArs6CO 
+#undef  mce_8CnsU6ESSZfDxaV3C 
+#undef  mEz1qIDbyJp0Jb730lPO1 
+#undef mLsmsKBxetQnHulsmKvKGZrZv3OKajL
+#undef  mKdH1o6rFuMJ1Fl0PA_sn 
+#undef  mEZrtAN7pSZl5y4oEHd38 
+#undef  m_lICnZ0bJGmuMACmMVcA 
+#undef  mu_nOcTFwUo8r0uNE351R 
+#undef  mRltbJjpZ8AzImbP6r6M4 
+#undef mVp3Hbc3BvDdBF2TbdhJSYsWvSPIb1a
+#undef mhGemuVhKwpkxrzvad1IFvExNIEs7Ak
+#undef mUPTRsc2WCtijDSKQungDsRrIFUGnz1
+#undef  mUwTrZwI1VfAXDN69k3UA 
+#undef  mCOuCt3mN6pV7VrSR351Y 
+#undef  mdDEjFb9QPcGyAxk8oT5M 
+#undef  mfurntceIvF3j4__Qp6L5 
+#undef  mEwOO8zzJcEkF96gfFa1e 
+#undef  mgSkXUgcRjYGUB2o3shqJ 
+#undef  mAcwJn9Fm7cgTYOF5KC6H 
+#undef  mXh8R2TW8u4BE0GHtpbVz 
+#undef  mGmn6AwhPqDzvkxFmEeXf 
+#undef  mJ9ZKhf2JTQ6b_phI67L4 
+#undef  myuwTFtkH1L5Be2OVY9rt 
+#undef mzcT8teQAcAtdQGMnR4j__bo0O7W6fh
+#undef mRpzyAUUkieNHbskgKP0AofElml4apw
+#undef mmu72Hys1y28eLiXc2AAu_ewAGX_SGw
+#undef  mBh4lc09qKYGXyU7FeqOv 
+#undef mQXaQXjy6_0omD3OJNtnmqqjGEvfmVW
+#undef  mKcyQhGKewGQ8D80ltPKd 
+#undef  mwzVPTpaJAiRC6bZKMfQX 
+#undef  mZHJfF8VODcHrGq0YEwM_ 
+#undef  mQfgxxEXCA984FTu8Jz8Q 
+#undef  mO3OYAsYlFzrizsYt__9m 
+#undef  mt0GBkUzL9v7leCB9JJCC 
+#undef  mtDtuj5HWLyTAsK7Fmx4g 
+#undef  mLplHCs9IECRrk3AL90fE 
+#undef  mVOlbMaOu1U0SC2oeKIzP 
+#undef  mnAk2iR9Su1JlXNU__70t 
+#undef  mUB1yrSrKOwldqxmCatN2 
+#undef mZeHXgILeDH93lObH9TjZ9sjRzIIBMF
+#undef  mfJA9NVd6FBgGhRSkkhhs 
+#undef  mD8VAS4XY9Vf6fdJqnluZ 
+#undef  mU808frSKQDZnEEU3Q3s9 
+#undef  mvfKgFvXHh0Jqv_PZxbka 
+#undef  mxNiL7NRse0iP2D2VgJvE 
+#undef  miGFoFUQX5urgUZ1Rewwt 
+#undef  mqENAtmVRtspFcCyFxQkl 
+#undef  mquhIKppt3a65sc068Kvt 
+#undef mwcRCcU6S0ahJKT269YrZSchpTbqC8A
+#undef  mmmC9tOGiLK6UaJr0E5vz 
+#undef m_DXxPIyOoo082vGXUpjcjCP9GYwO5X
+#undef  mOwM0Kfjt44STnd1SP93u 
+#undef  mOR5gj7K3yTraJVOrvmKy 
+#undef  mTna5ZWhTRHGhmpdDhP8Q 
+#undef  mE_Ow4Xh61sHZuYT9u_vp 
+#undef mCytfckU7SmdEgj6kDXVCjNq_lj0sfn
+#undef  mp3H4249LtCVDCYFqQqz4 
+#undef  mIkhxhgSNMt_JUZR7ce1U 
+#undef  mgjPImSFwUcUKl9XTKqqB 
+#undef  moE42zHNBVjnlCdllZAkS 
+#undef  mc6SGgM2Uzvo_wy5KTima 
+#undef  mVRbVdVjFvNmKzGv4WiNp 
+#undef  mmAbmKM2jnErQzGL0hU87 
+#undef  mSDkw9ayb_9gGdMv3ViWL 
+#undef  mqHOA0Vf8azkugKZoQT2g 
+#undef  mpaH8vob0MFQfWtEu0gpW 
+#undef  mnzbRa6WXDfLtEhMMu8uf 
+#undef  mBJ7M0ikk98KhD4Oi32wB 
+#undef  mxIhhpr2Lkr3NxxDHw1vq 
+#undef  ma6VjqdfajK4BX9gkoGiD 
+#undef  mkyaUNysRlFi3wOJaaFye 
+#undef  mEUOZPFJPicZ9AQx6_FEx 
+#undef mqm5corqEX8t35Uu6nBYm_yWWsarIow
+#undef  mHcxzZHoWX11H4xEjR59T 
+#undef  mIwaKux_FnDqG9TKWI9sf 
+#undef  mGuK55c17XqU0IVL5INTz 
+#undef  mC5oDJ0qE1gW_qsx3g1mu 
+#undef  mnZ6t3BhMZ_1d7zzE72ah 
+#undef  myo_tabD5NOdQw_HDUeAl 
+#undef  mtFjgCt4NTpjOcEST1puq 
+#undef  mtggfblAKFVUli3PxtdvW 
+#undef  mtPtbM6hNfOIkqlx661ci 
+#undef mtnsDyAXJojPFvMiilyGbFo63qTJSV_
+#undef  mLdYY4X2b7VOjtTSnd7Hj 
+#undef  msubWq7nTVSPilWqmTzkx 
+#undef  mfKhTg3wpiK_YhdQzWWcS 
+#undef  mcqTciDcDgSbPPY9iuwhB 
+#undef  mf3l8ay5y_EjkAsZg8mUs 
+#undef  moT0JKxDJVSALTDfSRUYM 
+#undef  mtL59O4fTIGPJKdcQHvhB 
+#undef  mwTp2D1d4PfxNNOzzUfhS 
+#undef  mAQWugjGggd1dm4Esoytv 
+#undef  mSD7jHYN8mOif4_CBtIg6 
+#undef  mm3KIQTUMZkPidze1WHnH 
+#undef  mU8SToe5QpPWgY0z9QAcm 
+#undef  mNAgAegAkh3aostDDex0p 
+#undef  muuG2jhk4iNsA9KNmj6oA 
+#undef mc03ciJcqzEcDCvFZREOoKestkbXulB
+#undef  mF9AQyKXtPTPy1zvAUpED 
+#undef mElbPhFy9PzMYpwK0rJM72HTzRPloIw
+#undef  mfQTptx1DXC7MJP5Cfk8m 
+#undef  mnt0Yxwh2kXjuvEydiY6Z 
+#undef mLAyuz6ew2kcuDM4WDYVh_gZKvgSujI
+#undef mhgllqTSj8yCumOJiOB_SNOZi1jZpHa
+#undef  mKwBF6wdaXmwZg6eVpHR2 
+#undef  mzf4ZxeZY8wF2XnrdYK61 
+#undef  mINcNsH05D0QZDej9wl4h 
+#undef  mMcZ82Suei3klnF_x2Lcx 
+#undef  mPjc1ei1txxv19TBbzbvk 
+#undef  m_owRLEm0gIJ4StPRwTkZ 
+#undef  mr45_AiDx2WPxM5kKJ73c 
+#undef  mYI2nkSxgJHf1pY1PttV1 
+#undef  mBpPKNB5wfuTOV223BA2r 
+#undef  mW1ds9XwNwevT5B2b3j8B 
+#undef  mrRUZLmQTdeC3HO0hVmGH 
+#undef  mtDHooAMb6ubWraYLa7pj 
+#undef maEFLZezqY5U6Z1uodgwOrhnCjJ0sF8
+#undef  mRwjoMr_aqph4iL4nu8NS 
+#undef  mC7CcuPGpz81aizhogiZL 
+#undef m_Gim03zcA2esaeteCftKMhV2X3oFiR
+#undef  mv1ijGQAKacWqWAusY8nc 
+#undef  mTQiPILYbCv0nYwQtndF8 
+#undef  mHOvg7vOJH6ujsVsg3S5G 
+#undef  maHkatHu0Jap4oTaT5q4_ 
+#undef muE9dUeTdzrXFfj8JjJHsYH_fISmi_r
+#undef  minXN1_7si2azFOae4puK 
+#undef  mxQewHEnT8PTNQcVKCqL9 
+#undef  mLBxgVrVeq7bTUcDGJqNH 
+#undef  maDn6NcmB5JPmBvJglMEd 
+#undef  mCujczJix6jMpJcynoBiA 
+#undef  mEFd2D2UDF9SIoPfQtUv6 
+#undef  mDx7kMxPPgzO4EUIw_BnI 
+#undef  maB_pNl4zuODt3oqXg9EB 
+#undef mzo2b_NWVHgZakDiMHmV12I4pTxTTDh
+#undef  mOymGuaDUIEo4ESm5VpCR 
+#undef  mWA_ETdQ9hsfQKo10V6Ed 
+#undef  mhyL_M5gnmQzwyHW45MdA 
+#undef  myCKVyjNuW6E_Fp3y6x2x 
+#undef mgwL6is5QhemFfW7wm_rZ_nRAPsXgJv
+#undef  mRzhpvoeHZK7yCqqzYDDp 
+#undef  mzeHK1hG1SYQMISNMWMB8 
+#undef  mrzvE9vOXIlwaUYsJynGX 
+#undef  mSx88YARryA674S7RpNKv 
+#undef mjMOaWmMPr8ItcnEZ6T4c_g9OqFiQNu
+#undef  mGkUuomrp7ufvC8H_J8ZB 
+#undef  mC_m9rmwsKDO6tF3NGSKw 
+#undef  mKpq3GwvJxRduE5RsGgGP 
+#undef  mCAzyIDtopeLXRxFfI0EK 
+#undef  mopvqiLosQusnLb5T1cPQ 
+#undef  mbvotPuLfQMMkHkrWczyy 
+#undef  mFK5JCwqLjSVNjbuFv1Xz 
+#undef mPGFDLw9gfyEeUaqQx6LAHaoPtc1orW
+#undef  mECamByxBqjGyTShbPlRQ 
+#undef  mEzFcmvX0IX3FOucgCcVF 
+#undef  mdF98bHO7yrxGJn0aQZVK 
+#undef  mzPPQ5Tm31T6ToJuCly5i 
+#undef  mpJt2kGThF7wb3VNzG38b 
+#undef  mclhRCo4dM7MadZp5V8m6 
+#undef  mJTScPpWt8plE9Cz9fDU6 
+#undef  moI11mwtxiOXpqDxK_aQL 
+#undef  mHbmZNNhradVwUtDZ5U7B 
+#undef  mLfKYVMLDthbyvvLerNPJ 
+#undef mQaMmAoZTrzB9rh95SV_SNzHqc0isDC
+#undef  mIqkiLoOdpjYrPavNSkO3 
+#undef  mfBNQ_3zW9r0ekYxjcYs6 
+#undef  mij4fDpzx7A1fAEkEKDEN 
+#undef  mIyKKzozGjE84ROdV4z79 
+#undef  mILaQGKCAmcKrYQNhgWUq 
+#undef  mi940TUip6nLdi0tWD33F 
+#undef  mhnMl9nmNNK1ubSXXRkWs 
+#undef  mWokjWH0MHqyBOx4j0Oac 
+#undef  mVVBTZX2L35xKLlbqB8u4 
+#undef  mbndM1iNeSBZryqPzzxpU 
+#undef  moRHJd8MnQc4OOt6sDvUk 
+#undef  mYKwa_OYBeVXzRPMa_mz6 
+#undef  mE5GmVndUe3w4VVob7TEw 
+#undef  mCAk2bmH5F7oeetankJLO 
+#undef mqjuzmrNEJwUFkGqO6vrPRYH4JUn_Nr
+#undef  mKcKHr_bTagXAK_pf8btG 
+#undef  mYPq_LjN7ad6AVi4Iwwhx 
+#undef  mvAxy99EwaX0EkXFRf6SN 
+#undef  mfFGohhJTv_x4m7UMdlWF 
+#undef  mwnRQJQKy9VbzznJbM76_ 
+#undef  mDjDVHrQ1nua2LsKX9HSc 
+#undef  mErel9ajJN1agpA_k4bOG 
+#undef  mSQwieae_zm87QxGSkqhw 
+#undef  moNuUrvhPRwgFBZS8fSa1 
+#undef  mQDLRy0PKsddZ3xq0mn3V 
+#undef mYXI6akWhgUvZT8jo8YhkqYsAMP1jkY
+#undef  mN1cOqoznikSSj4MMYyFX 
+#undef  mJSI8Lfa53eTFnQ8sZxQl 
+#undef  mbViqhyIcr6lGWibuo3Im 
+#undef  mA9OyoOle98msK0BnFc8I 
+#undef mMulv_XQGj3NCbH3ZzsnjY5lTur4XhC
+#undef  mca1GaR7Rv9qOZsisqKBB 
+#undef  mqEAvVDOCXqrrwrTRByrM 
+#undef  mk9FUg_FZy9ugg8Rqf3jY 
+#undef mEs6URNF5M0ltIuqxZLOvZ6JUSiM86Q
+#undef  mel3l7ZRXwnAEsy0Wfxj_ 
+#undef  mlujXFTq8HgFCDqLu7dpu 
+#undef  maoHwm5lyecyelmN95sur 
+#undef  mKzXNxKoc8d_JaqSCmnt5 
+#undef  mM7GnshIhlJuqxxDdvNQ9 
+#undef  mgkSwnYHQivQIpeAwgr20 
+#undef  maISPbNJKXWB2QqsuuExM 
+#undef  muiDYQbmwLxL3PGrwWGeP 
+#undef  mK5OxIt23gZzSiTA8trU8 
+#undef  mYM4ze6K0DiGvfExY0uu0 
+#undef  mIyXpca78p_CKHmulak4e 
+#undef  mh5Oneq9KX80ZFd7dCoKK 
+#undef mfEJVRQBs4hneAPP3gYA3JbeGJQ1p1G
+#undef  mGXmXMs8LhHsVpd3vA7qq 
+#undef myYjgiQKBm8Uh4y6ADl8EaOnTRM7ARF
+#undef  mTFkOkggRsxkeMv25hiJW 
+#undef  mRawsH1LNxMcHXhyroWR7 
+#undef  mvw_MKiY3S1FcVNfJQCRT 
+#undef mhKXOgA6gWk8walTiLP2RlqyfDmKe1e
+#undef mr0l01irlQTHxEjA5eunteQkeoLuBQY
+#undef  mMqLg7J_GrCMFwMZsIhbs 
+#undef  mwBOm3LXJ8FMsqTgQKZ6O 
+#undef  mRuVXNtG32xpaNLi1hDLk 
+#undef  mmhvewuTDMRQuh4yozZj0 
+#undef  muxyK0XEbbiarSy_y8QSe 
+#undef  mriCvhMavpfheoLNc0eCD 
+#undef mw5UR8oGzCkqj2vUYmwOhK4QF0sXpUa
+#undef  mUq8qfNXjDE9FPlMHvjf4 
+#undef  miAECMSxGwjxrcOKk0DII 
+#undef mA7GovY8jPZMrXdPcttrfcvZCc5QYs1
+#undef  mo03bPDhF7WKTf8ndM1Bk 
+#undef mpoy16fiv_eugwBU4NxPwSY0pkiHptx
+#undef  mVHGLK1C5RNdKdXzDgMZU 
+#undef  mHXoMWKZSiZYUvqmVkLF5 
+#undef mufZyaMJ62rgFtcDkgqf_5OhhyLV_dz
+#undef  mHIh6WyQKJh1ZKme1nslP 
+#undef  mUCEzhGWrU8OYqcHVPlVW 
+#undef  mtJAThUzPUAnb_DMXiQOL 
+#undef  mFlVjO0mLpwnCN5a1Quio 
+#undef mCQUcD5Wqq0xYCpbFRRNO0RmR88JAJN
+#undef mQj7wHAa1damVYwoD46UjZpPHvzvyA2
+#undef  mGyGrvv4NjvJFmxY5zFqS 
+#undef mPF9YW010VzHVkbdsdOMJgq7D81z3gH
+#undef  mPrvhmoEgzU_ThNhPmGUb 
+#undef  mnqZGwZqTTi1dekKxujAE 
+#undef  myqrAJLu9GRcs5sFEN1xM 
+#undef  mM3tRrWbRPqPOU3G4ShKT 
+#undef  mPvJelqEXJke3tsTVDKaA 
+#undef  mYfpOohym5jydVBxgDUop 
+#undef mYYWXe0GsOK9y3tuaI0XM8wApbmutU0
+#undef  mt3VEObKOLfcodk2q6Hb4 
+#undef  mTjppsgNpY1Pjyv5Z_zMr 
+#undef mH52So0EeYsEZDduDH5e4qGZvbPX6fz
+#undef  mI_QuD605u2H3qQFyuTju 
+#undef  mAnDeXfeHaujEzGBbrjil 
+#undef  mSa4WnWih0z4lSo9RYUGU 
+#undef  mCvAz6nTbqhvwRULRgKe4 
+#undef mLC2F6mTDlCPm4Amdj66bcsfP08vka4
+#undef  mHZ0KiNSj0hY4k5601_yW 
+#undef  mQwlYb2fiOk1ogUVAZU22 
+#undef mnIgag5XDMc1HAJdYJSOnPrbWBffgTI
+#undef mQi7J_kk5ajjMTmbc_84aBzXX_jf4VF
+#undef  mb_mniVMqcXJMFkJcXnTV 
+#undef  mNhNSN2gx5KERe8tfdmgu 
+#undef  mRrVhT0WkQauAZEUJHKOK 
+#undef  msao8K6SR84Lu5ND7NCVt 
+#undef  mJtGCV8zXQjnVDVBVdvFZ 
+#undef  mEc9zv3P8LW8haIvtztwe 
+#undef  miTVnDZI0mihWq9STK4vZ 
+#undef  mLhy8e0peljv3075Jx0N4 
+#undef  mhl3Z6oGBbP13ZxehUcg9 
+#undef mxL2jX9CFTtSnMCJoJ1anRskFISM7ye
+#undef  mVPyhnVeODFpKcj5PAnUM 
+#undef  mnECjbnhLknZie3Z5iHP2 
+#undef  mm2qioZxIvP_11cqVcoVX 
+#undef  mXUi6ZMBLLcoMCxEzieWB 
+#undef  mCqWliO9r5qeuU4xIw2kK 
+#undef  mrYYGY_ATzXkS3kXEPpEg 
+#undef  mrm8jC9SczExaamJBF8OL 
+#undef  mUvhkm5O6wWaFaksW3gGB 
+#undef  mHgo4JTEAdFhAHz3buc5U 
+#undef mQnt4GgeXMPy1qcLwCadlcgZL0S7aML
+#undef  mYA_OUCZSQycbIZ5oB16m 
+#undef  mE0JnyzA4LAd5tJboIPVe 
+#undef mKAy3YZbvi464n5g9TLhbuXIqHPaeqv
+#undef mVuIjgANzXjC9nUwtjYpEMMKzGy7cEj
+#undef  mtBaSZn4xtaMpMhvfebM_ 
+#undef  mSlNeIB2kCkOFZLLZbZvl 
+#undef  mZnfmoDANjVLDjZfzM5MR 
+#undef maZplRnE_IUwmU_xzu3NekpUHRmaUSP
+#undef  mXkfygpbRUCrOfJA4ktlP 
+#undef  mnSkEvR4SbDwQxj23xB1M 
+#undef  mq_LX9xWjqEZjC_8nIQQB 
+#undef  mYGfQUZmV9IjKAPVrLhZl 
+#undef  mlxKATcGFZZXuYzEVZko1 
+#undef  maSZLm7xL0jGtxyrdwaul 
+#undef  mgM8ScCmoJ3qXwMzVOzZc 
+#undef mAB2YZQWllAMMhMcSXYQGJ6zEaONDDT
+#undef m_bMsemALspVgRNyYoh4QNv5h7J6TCa
+#undef  mlqM0snvYcrWCw2_QjhQi 
+#undef  mFsSEF_3_iD2mT6nZG9QR 
+#undef  moejXze8_C6TCxb2bIzgq 
+#undef muRWS4RqXt1RDg1intuX3MkjrSgf2o4
+#undef  mVgd0sC5KIFeGa4mcMXm9 
+#undef  mwTQhkbVNQHd2Xw4EA4fj 
+#undef  myYAiLHDT3JvFKUJCC_FN 
+#undef mztFjkqY05BHqxhJraeJTl0p2s3heFu
+#undef  mOk7NgrdfVmJx9axvYv9F 
+#undef mevyCL_5kjUx7NbD67ju0rSs5KRucsR
+#undef  mE51_Yx1e52Gg6LtJn8Ft 
+#undef  meOIEIGNtns3N9UkZHp_p 
+#undef  mGxw9hY3riKhnwFZ5jcqN 
+#undef  mdEzmAkZNQkKD1HrLnSSo 
+#undef  mu0qe2vnLpegnyYWkJiID 
+#undef  mYfYoOWdsOLTDCIBT7npX 
+#undef  msdqcdg5NNrdQnc_PT1Ee 
+#undef mxD9VicPg3JzxB0Nq4Uo1xLfNkXirAD
+#undef  mG9O2bX6GrjZ7A14g4o0R 
+#undef  mdLKGc6TH1B4fmpMEcP4V 
+#undef  mgfxr297Vj2D89efCcdCK 
+#undef  mE4_Vrik0lveh4HNJUk1B 
+#undef  mAwnIBmzoGA1R_JK770kK 
+#undef  mDWRa2VXHJyGtXnU3Z9De 
+#undef  mgAgf2KiVOzOHJDU4qKPI 
+#undef  mCBPKKFCRSbvDkZsS_B45 
+#undef  mmCJ670wA_VHgip7JZ1dW 
+#undef  myyhXEjkyqbh66A1Qwu0O 
+#undef  mNQatzTrxcdXGxcIUXU8h 
+#undef  mThelntXiwCutIvyMhNsD 
+#undef  mcstdE8Wwpam6tUMM45Sa 
+#undef  mv50Xfpo4ITZHLXGtKNlu 
+#undef  mLOAPVN3DUqvZfrHEsp7F 
+#undef  mJWlrLOowGXzksrQ1iOpo 
+#undef  mb7CDbA8OAKKL51zp5Kp2 
+#undef  mbHCSQc_uaLNP9Sf4Lz_n 
+#undef  moPdTa5HpJKbS1U6TqDjY 
+#undef  mxdAvfSsdzliezc0uyUMk 
+#undef  maCQ9r5fSln_CXgRXGFvO 
+#undef mU9VP3QJ9gv29uJkz1XdfyWFueNU0ox
+#undef  mPdHdcAZ6XJhwf8wLtULI 
+#undef m_7GcuKeh99wm21PzmE3XY0ABoZNB_w
+#undef  mbYMUxVFybbviIFqRhN2f 
+#undef  mEiOeyHRZlQujPqpgYY7u 
+#undef  mCpxQXTS3AV0wU8W7TGY0 
+#undef  ma9rnYFEs_TUiw_WyBflg 
+#undef  mlJqcdUT0sl1_64qaqDwc 
+#undef  miAr40ThvnnZei4PQ8nft 
+#undef  mpHTdkvfapV5_Igrm_XSs 
+#undef  mTAavMivNX5WuUrRQXoEf 
+#undef  mMRNM5hfPBWFjYCspldu3 
+#undef  mW1YUos9eL_9NmgJuSDH7 
+#undef mXFwkqyd3dyZLs7ksk6mRRA9u5tIcrz
+#undef  mRHNkLPwUSnx20pmLgrTq 
+#undef  muESrr63SaH81rmeBWzRi 
+#undef  myYaYWcsrnLoe6SxorDYt 
+#undef  mn7NaVKR8Eys8MRznQhqq 
+#undef  mILr1bxfFRdMH70QJkaPL 
+#undef  mgN2NPegMIWZaSlArqSpX 
+#undef  mpMWr23OozoNFIk9M3JRl 
+#undef mwsJhmv6J4dy4fPTvAhKZtmyi6b9kGU
+#undef  mUgRzGHHwu8B0HUYWcJfg 
+#undef  mUrLXSL7g29oB1gxfN8O0 
+#undef  mhxVrs8TRVT7m4DD0qJSy 
+#undef  mIMikP4zsPvXTvXr7Rfnr 
+#undef  msRrpu3bfxgN_CQlh5kGb 
+#undef  mbVacJ38Njfe_9kvqyl6v 
+#undef  mIt7rZ26ebLuaPjnQsvmi 
+#undef  mif4ZCBkqdiqSYkR9AD0r 
+#undef  mM0eyBFMShg9qdQPSMqiz 
+#undef  muh3toWhBpay0OfyCHmRI 
+#undef  mIzujDpHjrUPsW3ssOAji 
+#undef  mZiUSTfWjbMiMsmxNY2q9 
+#undef  mIM7YEc9Ba5XWDEr0m2YG 
+#undef  mhlQDh1wF6VsRTHY9MXvo 
+#undef  mycwFs63h7Mi3ggRkMEVm 
+#undef  mi0dc2wlXgNoHf9VPli9f 
+#undef  ma43zKzGwyDT5C3mNdj6s 
+#undef  mEmzu5ycY6iORBuT83fJe 
+#undef  mdWkXjuaPd4Se0r0SdY1e 
+#undef  mcJvl68QD2UYT9DPOREOj 
+#undef mexiex6yQ4W2cwOKYmh9Kok982mCBo0
+#undef  mJke9dzVx7gMdakG5cgU_ 
+#undef  mT_x8cqp5t43PgqNMR8gO 
+#undef  mbtXL8AfsmYGQ1waevjwS 
+#undef  mfge932GrgApRFyCExy_M 
+#undef  mCnIg_Afe_CAU6Bb6OxXH 
+#undef  mNMDyj9J1Nt8auTKwp8ze 
+#undef  mo8MRbS3DUX_ZOlgmUSna 
+#undef  mfx1fLYDWN4YRZNnQEsJN 
+#undef mjE2s1jSu76TqssWv5OkpQyTNcXDW0j
+#undef  mep87jMrgQZcK1mXjlt_w 
+#undef  mSBH4REv5nn8iXIXWLqFa 
+#undef  mv4kxLDTrK8Y14srOeMs9 
+#undef  mjxPa00ei9qkuuQmiGB3C 
+#undef  m_YnlLsKBlim0LDKxc0Xy 
+#undef  msFQPbyubcQTkvTYpFFPL 
+#undef msFedzwaZ2kcbRyPxAwvYLedNBp9XR1
+#undef  mlP1m6taP4mQVYA_j8Oxe 
+#undef  mabeHDqoCFUg5Mty5oLni 
+#undef  mwu5s8ye7pYEdPIYXjU5h 
+#undef  mnNakURRgCUtkCBzEeIbT 
+#undef  mBuRRlPSkgfIqW4MkJEkn 
+#undef  mFrnvKb629IAbveEQOTJk 
+#undef  mNDJrNgMXB1tBoFNaJO0d 
+#undef  mICILgDpdCTDSJqQAn06L 
+#undef  ma84ph1Q5xfgaPalqi72x 
+#undef  mbQuioGdvAG5jcbGdIlbv 
+#undef  mhDkJpX31vSJRGCWwJgDF 
+#undef mY5sdYpFBYIyIhGQfLZDo1ZYzmwnO9R
+#undef  mKqJtaKtNNFCDA9awnods 
+#undef mYw4kKgGPg9_7sRPuoSD2B2Tl35GJX3
+#undef  mH1xQMRmYb0Y4RDp2hARz 
+#undef  mqHHu9OC8XdQm9Yh7V7x0 
+#undef  mhpoAZakkKCTBIsnDg7v3 
+#undef  mSuHweZ8NLqp3TniIO9nc 
+#undef  mMNJIG0z6TLGgbjrhllmy 
+#undef  mukpDKZCMfw2TrxqBczvn 
+#undef  mgRihfujs8Yyx1O6Z75ze 
+#undef  mC854TxsErP91YgtWBjLs 
+#undef  migVyykpmr2io3DNlFdHK 
+#undef  meWm4MhzbcJwavtoh469w 
+#undef mkuXAnWhKAEZ7UQwHldfZw6MZuPCbu2
+#undef mJRcV3UxOoHUziTla6CTItAztGL9WSZ
+#undef  mhMsdnRaOV1FZ69nEgvbs 
+#undef mWDezrNMuTu4YMNJEcaeXH4_sZ0xnHt
+#undef  mwQUfI7G4pBH6IJQiBjmU 
+#undef  mT1nRBXOOPTe1uInaQg48 
+#undef  mIwyzOHEkeXgErUDD0EEp 
+#undef mBioKPjJ3XcQAkqpmrCnZooNbSgrnfF
+#undef muKLilOLbFZ3yJM00gLINUymjA4CZq_
+#undef  mhGXMe8LHJXydR9dMisHj 
+#undef  mu3VfwjYyEXmsa3FxHdyz 
+#undef  mN0TszoCQmyzxmobsgV2H 
+#undef  mWUoD50tT9HFGBNQCsjUC 
+#undef  muOzaq9SXefX6wOasanyX 
+#undef  mYONm1FLAyaMuB1zKpzHD 
+#undef mKb2gquqaqcZhKKuABYQAQTKDfCzCv8
+#undef  mWkGo8xUdRIKgJ1DEUvvn 
+#undef  mXAYJa6osZ6HNTIEEBnr0 
+#undef  mKui3FcBrQ5fUw3SS2JBl 
+#undef  mXRH4Jm901JGMftiW3Yi4 
+#undef  mHaUGkpJ3E2hPS8TahoVd 
+#undef  mtvEQgcnwdOR4zAMwLHDb 
+#undef  mNEkKASvjK_HgII9jzEu6 
+#undef  mneGB1iZsOWGhJroSY5fV 
+#undef  mP8l6554fUQhsCw2PetD2 
 #endif

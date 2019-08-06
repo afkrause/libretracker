@@ -1,4 +1,4 @@
-#pragma comment(lib, "opencv40/build/x64/vc15/lib/opencv_world401.lib")
+#pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411.lib")
 #pragma comment(lib, "labstreaminglayer/build/install/LSL/lib/liblsl64.lib")
 
 #include <iostream>
@@ -41,8 +41,7 @@ int main()
 
 
 	//////////////// load the AR markers ////////////////
-	const int marker_size = 100;
-	const int marker_border = 25;
+	const int marker_size = 150;
 	std::array<cv::Mat, 4> img_markers;
 	array<string, 4> marker_file_names{ "marker_1.jpg", "marker_5.jpg", "marker_10.jpg","marker_25.jpg" };
 
@@ -70,7 +69,7 @@ int main()
 		img_screen_background.copyTo(img);
 		const int w = screen_w;
 		const int h = screen_h;
-		const int b = marker_border; // marker border to leave between screen border and marker
+		const int b = 0;
 		const int s = marker_size;
 		img_markers[0].copyTo(img(Rect(b, b, s, s)));
 		img_markers[1].copyTo(img(Rect(w - s - b, b, s, s)));

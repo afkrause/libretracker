@@ -6,6 +6,6 @@
 #include "s/filters.h"
 #include "s/eigen_pseudoinverse.h"
 #include "s/simple_gui_fltk.h"
-#include "s/cv_camera_control.h"
+
 
 

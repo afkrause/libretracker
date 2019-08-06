@@ -141,7 +141,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>LSL_ENABLED;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv40\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
@@ -205,7 +205,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>LSL_ENABLED;WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv40\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <FloatingPointModel>Fast</FloatingPointModel>
@@ -232,7 +232,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>LSL_ENABLED;OPENCL_ENABLED;WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv40\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <FloatingPointModel>Fast</FloatingPointModel>
@@ -254,28 +254,37 @@
   <ItemGroup>
     <ClCompile Include="..\src\aruco_canvas.cpp" />
     <ClCompile Include="..\src\aruco_include.cpp" />
+    <ClCompile Include="..\src\calibration.cpp" />
     <ClCompile Include="..\src\deps\cpu_features\cpu_x86.cpp" />
     <ClCompile Include="..\src\deps\DeviceEnumerator.cpp" />
     <ClCompile Include="..\src\deps\s\cv_camera_control.cpp" />
     <ClCompile Include="..\src\deps\s\opencv_threaded_capture.cpp" />
     <ClCompile Include="..\src\deps\s\simple_gui_fltk.cpp" />
+    <ClCompile Include="..\src\deps\tuebingen_pure\pupil-tracking\PupilTrackingMethod.cpp" />
+    <ClCompile Include="..\src\deps\tuebingen_pure\pupil-tracking\PuReST.cpp" />
+    <ClCompile Include="..\src\deps\tuebingen_pure\PupilDetectionMethod.cpp" />
+    <ClCompile Include="..\src\deps\tuebingen_pure\PuRe.cpp" />
     <ClCompile Include="..\src\eyetracking_speller.cpp" />
+    <ClCompile Include="..\src\helpers.cpp" />
     <ClCompile Include="..\src\opencl_kernel.cpp" />
     <ClCompile Include="..\src\pupil_tracking.cpp" />
     <ClCompile Include="..\src\pupil_tracking.h" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\pupil_tracker_timm.cpp" />
     <ClCompile Include="..\src\speller_canvas.cpp" />
     <ClCompile Include="..\src\timm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\s\eigenlab.h" />
     <ClInclude Include="..\src\aruco_canvas.h" />
+    <ClInclude Include="..\src\calibration.h" />
     <ClInclude Include="..\src\cv_button.h" />
     <ClInclude Include="..\src\deps\cpu_features\cpu_x86.h" />
     <ClInclude Include="..\src\deps\dependencies.h" />
     <ClInclude Include="..\src\deps\s\opencv_threaded_capture.h" />
     <ClInclude Include="..\src\deps\s\simple_gui_fltk.h" />
     <ClInclude Include="..\src\eyetracking_speller.h" />
+    <ClInclude Include="..\src\helpers.h" />
     <ClInclude Include="..\src\speller_canvas.h" />
     <ClInclude Include="..\src\timm.h" />
     <ClInclude Include="..\src\timm_two_stage.h" />

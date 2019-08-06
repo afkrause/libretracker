@@ -15,8 +15,7 @@ class Aruco_canvas
 {
 protected:
 	std::array<cv::Mat, 4> img_markers_orig;
-	int marker_size_old = 100;
-	float min_marker_size_old = 0.0f;
+	int marker_size_old = 120;
 	std::vector< aruco::Marker > markers;
 
 	// ok == 4 if all four markers are detected.
@@ -26,6 +25,7 @@ protected:
 	aruco::CameraParameters CamParam;
 	aruco::MarkerDetector MDetector;
 	std::array<cv::Mat, 4> img_markers;
+
 
 public:
 	// active area in screen coordinates
@@ -49,17 +49,14 @@ public:
 		cv::Point2f(0,1)
 	};
 
-
-	int marker_size = 100;
-	int marker_border = 25;
-	double min_marker_size = 0.02f; // In order to be general and to adapt to any image size, the minimum marker size is expressed as a normalized value(0, 1) indicating the minimum area that a marker must occupy in the image to consider it valid.
-
+	int marker_size = 150;
 
 	bool valid() { return n_visible_markers == 4; }
 
 
-	void setup();
+	void setup(bool use_enclosed_markers = false);
 
+	// void set_detection_size(float minimum_procentual_marker_size);
 
 	void draw(cv::Mat& img, const int x, const int y, const int w, const int h);
 

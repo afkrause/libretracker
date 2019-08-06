@@ -81,7 +81,6 @@ vector<cv::Mat> solvePnP(const vector<cv::Point3f>& objPoints, const std::vector
     Solver.solveGeneric(objPoints,   imgPoints, cameraMatrix, distCoeffs, Rvec, Tvec, reprojErr1, Rvec2,
                         Tvec2, reprojErr2);
 
-
     return {getRTMatrix(Rvec, Tvec, CV_32F), getRTMatrix(Rvec2, Tvec2, CV_32F)};
 }
 
@@ -94,33 +93,36 @@ void solvePnP(const vector<cv::Point3f>& objPoints, const std::vector<cv::Point2
     IPPE::PoseSolver Solver;
     Solver.solveGeneric(objPoints,   imgPoints, cameraMatrix, distCoeffs, rvec, tvec, reprojErr1, Rvec2,
                         Tvec2, reprojErr2);
-
-
 }
+
 std::vector<std::pair<cv::Mat,double> > solvePnP_(float size,const  std::vector<cv::Point2f> &imgPoints, cv::InputArray cameraMatrix, cv::InputArray distCoeffs){
     cv::Mat   Rvec, Tvec, Rvec2,Tvec2;
      float reprojErr1, reprojErr2;
 
      IPPE::PoseSolver Solver;
      Solver.solveSquare(size,imgPoints,cameraMatrix,distCoeffs,   Rvec, Tvec,reprojErr1,Rvec2,Tvec2,reprojErr2);
-    return {make_pair(getRTMatrix(Rvec,Tvec,CV_32F),reprojErr1), make_pair(getRTMatrix(Rvec2,Tvec2,CV_32F),reprojErr2) } ;
 
 
+    return {make_pair(getRTMatrix(Rvec, Tvec, CV_32F), reprojErr1),
+                 make_pair(getRTMatrix(Rvec2, Tvec2, CV_32F), reprojErr2)};    
 }
+
 std::vector<std::pair<cv::Mat, double>> solvePnP_(const std::vector<cv::Point3f>& objPoints,
                                                         const std::vector<cv::Point2f>& imgPoints,
                                                         cv::InputArray cameraMatrix, cv::InputArray distCoeffs)
 {
     cv::Mat Rvec, Tvec;
-     float reprojErr1, reprojErr2;
+    float reprojErr1, reprojErr2;
     cv::Mat Rvec2, Tvec2;
 
     IPPE::PoseSolver Solver;
     Solver.solveGeneric(objPoints,   imgPoints, cameraMatrix, distCoeffs, Rvec, Tvec, reprojErr1, Rvec2,
                         Tvec2, reprojErr2);
 
+
     return {make_pair(getRTMatrix(Rvec, Tvec, CV_32F), reprojErr1),
-            make_pair(getRTMatrix(Rvec2, Tvec2, CV_32F), reprojErr2)};
+       make_pair(getRTMatrix(Rvec2, Tvec2, CV_32F), reprojErr2)};
+
 }
 }
 

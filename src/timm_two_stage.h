@@ -16,7 +16,6 @@ class Timm_two_stage
 private:
 
 	cv::Mat frame_gray_windowed;
-	cv::Mat frame_color;
 
 public:
 	int simd_width = USE_VEC256;
@@ -124,27 +123,25 @@ private:
 
 
 public:
-	void visualize_frame(cv::Mat frame, cv::Point2f pupil_pos, cv::Point2f pupil_pos_coarse, const cv::Point2f* ground_truth_pos = nullptr)
+	void visualize_frame(cv::Mat& frame, cv::Point2f pupil_pos, cv::Point2f pupil_pos_coarse, const cv::Point2f* ground_truth_pos = nullptr)
 	{
-		cv::cvtColor(frame, frame_color, cv::COLOR_GRAY2BGR);
-		auto rect = fit_rectangle(frame_color, pupil_pos_coarse, opt.window_width);
+		//cv::cvtColor(frame, frame_color, cv::COLOR_GRAY2BGR);
+		auto rect = fit_rectangle(frame, pupil_pos_coarse, opt.window_width);
 
 		// draw local processing rectangle
-		cv::rectangle(frame_color, rect, cv::Scalar(0, 0, 155));
+		cv::rectangle(frame, rect, cv::Scalar(0, 0, 155));
 		
 		// draw eye center coarse
 		//circle(frame_color, pupil_pos_coarse, 2, cv::Scalar(255, 0, 0), 1);
 		
 		// draw eye center fine
-		circle(frame_color, pupil_pos, 5, cv::Scalar(0, 255, 0), 2);
+		circle(frame, pupil_pos, 5, cv::Scalar(0, 255, 0), 2);
 
 		//if given a ground truth pos, draw this too
 		if (ground_truth_pos)
 		{
-			draw_cross(frame_color, *ground_truth_pos, 7, cv::Scalar(255, 0, 255));
+			draw_cross(frame, *ground_truth_pos, 7, cv::Scalar(255, 0, 255));
 		}
-
-		cv::imshow("eye_cam", frame_color);
 	}
 
 

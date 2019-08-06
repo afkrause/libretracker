@@ -277,39 +277,7 @@ private:
         std::vector<aruco::Marker> detect(const cv::Mat& input, const CameraParameters& camParams,
                                           float markerSizeMeters, bool setYPerperdicular = false);
 
-        /**Detects the markers in the image passed
-            *
-            * If you provide information about the camera parameters and the size of the marker, then, the extrinsics of
-         * the markers are detected
-            *
-            * @param input input color image
-            * @param detectedMarkers output vector with the markers detected
-            * @param camParams Camera parameters
-            * @param markerSizeMeters size of the marker sides expressed in meters
-            * @param setYPerperdicular If set the Y axis will be perpendicular to the surface. Otherwise, it will be the
-         * Z axis
-            */
-        void detect(const cv::Mat& input, std::vector<Marker>& detectedMarkers, CameraParameters camParams,
-                    float markerSizeMeters = -1, bool setYPerperdicular = false);
 
-        /**Detects the markers in the image passed
-         *
-         * If you provide information about the camera parameters and the size of the marker, then, the extrinsics of
-         * the markers are detected
-         *
-         * NOTE: be sure that the camera matrix is for this image size. If you do not know what I am talking about, use
-         * functions above and not this one
-         * @param input input color image
-         * @param detectedMarkers output vector with the markers detected
-         * @param camMatrix intrinsic camera information.
-         * @param distCoeff camera distorsion coefficient. If set Mat() if is assumed no camera distorion
-         * @param markerSizeMeters size of the marker sides expressed in meters
-         * @param setYPerperdicular If set the Y axis will be perpendicular to the surface. Otherwise, it will be the Z
-         * axis
-         */
-        void detect(const cv::Mat& input, std::vector<Marker>& detectedMarkers, cv::Mat camMatrix = cv::Mat(),
-                    cv::Mat distCoeff = cv::Mat(), float markerSizeMeters = -1,
-                    bool setYPerperdicular = false);
 
 
         /**Returns operating params

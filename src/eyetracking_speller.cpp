@@ -1,81 +1,6 @@
 #include "eyetracking_speller.h"
 
 
-
-
-
-// helper function. when pressing a button in the fltk gui, 
-// calling this function grabs the focus of the specified opencv window
-void grab_focus(const char* wname)
-{
-	cv::destroyWindow(wname); cv::namedWindow(wname);
-}
-
-
-
-void Eyetracking_speller::calibrate()
-{
-	using namespace Eigen;
-	using namespace EL;
-
-	// with 
-	// s = coordinates in screen space, 
-	// e = pupil center coordinates in eye-camera image space
-	// and feature vector 
-	// p(e) = [e.x, e.y, e.x*e.x, e.x*e.y, e.y*e.y]  
-	// we need to calculate linear regression weights W that minimise the squared error such that
-	// s = W * p(e)
-
-	auto s = calibration_targets;
-	auto e = calibration_points;
-
-
-	/*
-	// test data
-	MatrixXd s = MatrixXd::Zero(2, 4);
-	s << 257, 556, 551, 265,
-		 154, 151, 345, 334;
-
-	MatrixXd e = MatrixXd::Zero(2, 4);
-	e << 545, 485, 489, 551,
-		 235, 233, 263, 265;
-
-	cout << s << "\n\n";
-	cout << e << "\n\n";
-	//*/
-
-	int n_calib_points = s.cols();
-	MatrixXd pe = MatrixXd::Zero(4, n_calib_points);
-
-	// build a matrix containing all feature vectors
-	for (int i = 0; i < n_calib_points; i++)
-	{
-		pe.col(i) = polynomial_features(e(0, i), e(1, i));
-	}
-	cout << pe << "\n\n";
-
-	// does not work !! 
-	//auto pe_inv = (pe.transpose() * pe).inverse() * pe.transpose();
-	//cout << pe_inv << "\n\n";
-	//W_calib = s * pe_inv;
-
-	W_calib = linear_regression(pe, s); // precision: 2.75316e-12 // according to eigen docu also higher numerically robustness
-	//W_calib = s * pinv(pe);			// precision: 2.39319e-07 on test-data
-	//W_calib = s * pseudoInverse(pe);	// precision: 5.82143e-12
-
-	cout << "Calibration Matrix:\n" << W_calib << "\n\n";
-
-	//mapping error:
-	double err = 0;
-	for (int i = 0; i < s.cols(); i++)
-	{
-		auto v = s.col(i) - W_calib * pe.col(i);
-		err += v.norm();
-	}
-	cout << "mapping error: " << err << endl;
-}
-
-
 static void mouse_callback(int event, int x, int y, int, void* user_data)
 {
 	using namespace cv;
@@ -97,23 +22,21 @@ static void mouse_callback(int event, int x, int y, int, void* user_data)
 
 
 
-void Eyetracking_speller::setup(enum_simd_variant simd_width)
+void Eyetracking_speller::setup(enum_simd_variant simd_width, enum_pupil_tracking_variant ptracking)
 {
 	
-	Pupil_tracking::setup(simd_width);
+	Pupil_tracking::setup(simd_width, ptracking);
 
 	using namespace cv;
 	using namespace EL;
 
-	calibration_targets = calibration_points = MatrixXd::Zero(2, 4); // atm: 4 point calibration 
-	validation_points = MatrixXd::Zero(2, 5);
-	W_calib = MatrixXd::Zero(2, 4); // assuming 4 polynomial features
 
 	// TODO: load previous calibration matrix from file
 
 	speller.setup();
-	ar_canvas.setup();
+	calibration.setup();
 
+	/*
 	// setup gradient based pupil capture
 	opt = load_parameters(SETTINGS_LPW);
 	timm.set_options(opt);
@@ -121,6 +44,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	// prepare gui for gradient based pupil capture
 	params = set_params(opt);
 	//setup_gui();
+	*/
 
 	// GUI
 	//sg = Simple_gui(min(Fl::w() - 200, 1420), 180, 400, 600);
@@ -129,8 +53,9 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_separator_box("1. adjust canvas size and AR-marker tracking:");
 	sg.add_slider("canvas width", gui_param_w, 640, 5000, 10);
 	sg.add_slider("canvas height", gui_param_h, 480, 3000, 10);
-	sg.add_slider("AR marker size", gui_param_marker_size, 40, 400, 10, "Width and height of the AR marker in pixel.");
-	sg.add_slider("detection size", ar_canvas.min_marker_size, 0.005, 0.1, 0.001, "minimum detection size of a marker (in percent of total image area)");
+	sg.add_slider("AR marker size", gui_param_marker_size, 40, 400, 10, "Size of the AR markers in pixel.");
+	// sg.add_button("use enclosed markers", [&]() {calibration.ar_canvas.setup(true); },1,0,"use enclosed markers. corners jitter less, but markers need to be larger.");
+	// sg.add_slider("detection size", calibration.ar_canvas.min_marker_size, 0.005, 0.1, 0.001, "minimum detection size of a marker (in percent of total image area)");
 
 	sg.add_separator_box("2. adjust cameras and pupil tracking:");
 	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 3, 0);
@@ -147,11 +72,10 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	*/
 	
 	sg.add_separator_box("3. eyetracker calibration & validation:");
-	sg.add_button("calibrate", [&]() { grab_focus("screen"); calibration_counter = 0; state = STATE_CALIBRATION; }, 4, 0);
-	//sg.add_button("todo (9pt)", [&]() { calibration_counter = 0; state = STATE_CALIBRATION; }, 3, 1);
-	sg.add_button("visualize", [&]() { calibration_counter = 0; state = STATE_CALIBRATION_VISUALIZE; }, 4, 1);
-	sg.add_button("validate", [&]() { grab_focus("screen");  validation_counter = 0; state = STATE_VALIDATION;  }, 4, 2, "check the calibration by testing additional points.");
-	sg.add_button("fix offset", [&]() { offset = offset_validation; }, 4, 3, "remove a potential systematic offset found after validation.");
+	sg.add_button("5 point",	[&]() { grab_focus("screen"); calibration.setup(5); state = STATE_CALIBRATION; }, 4, 0, "perform a 5-point calibration.");
+	sg.add_button("9 point",	[&]() { grab_focus("screen"); calibration.setup(9); state = STATE_CALIBRATION; }, 4, 1, "perform a 9-point calibration. this takes a bit longer, but usually increases calibration accuracy.");
+	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 4, 2, "check the calibration by testing additional points. (optional)");
+	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 4, 3, "remove a potential systematic offset found after validation.");
 
 	sg.add_separator_box("jitter filter (double exponential filter)");
 	sg.add_slider("smoothing", filter_smoothing, 0, 1, 0.01);
@@ -175,7 +99,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	namedWindow("screen");// , WINDOW_OPENGL | WINDOW_AUTOSIZE);
 
 	// place the main window to the right side of the options gui
-	moveWindow("screen", 450, 60);
+	moveWindow("screen", 450, 10);
 	resizeWindow("screen", w, h);
 	
 	moveWindow("eye_cam", 20, 700);
@@ -183,161 +107,19 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	// uncomment to simulate gaze using mouse 
 	cv::setMouseCallback("screen", mouse_callback, this);
 
+	// code for special calibration marker
+	calibration.setup(4);
 }
 
-void Eyetracking_speller::draw_validation()
-{
-	using namespace cv;
-	auto sc = Point2f(0.5f*img_screen.cols, 0.5f*img_screen.rows); // screen center
-	int mb = ar_canvas.marker_size + ar_canvas.marker_border;
-
-	array<Point2f, 5> validation_targets = { Point2f(sc.x  , mb), Point2f(w - mb, sc.y), Point2f(sc.x, h - mb), Point2f(mb, sc.y), sc };
-
-	Point2f p1, p2; // arrow start- and end-point
-	if (validation_counter < 5)
-	{
-		if (ar_canvas.valid())
-		{
-			// point to the edge where the user has to look at
-			p2 = validation_targets[validation_counter];
-			if (p2 != sc)
-			{
-				p1 = p2 - 0.25 * (p2 - sc); // draw an arrow pointing from center towards validation target
-			}
-			else
-			{
-				p1 = p2 + Point2f(0, 0.25 * h); // draw the arrow differently for the circle at the center 
-			}
-			circle(img_screen, p2, 20, Scalar(0, 240, 255), FILLED);
-			arrowedLine(img_screen, p1, p2, Scalar(255, 0, 255), 6, 8, 0, 0.2);
-			ar_canvas.draw(img_screen, 0, 0, w, h);
-			putText(img_screen, "Please look exactly at the tip of the Arrow !", Point2i(mb + 20, mb + 50), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 170, 0), 2);
-			putText(img_screen, "Press space to confirm.", Point2i(mb + 20, mb + 50 + 40), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 170, 0), 2);
-		}
-		else
-		{
-			ar_canvas.draw(img_screen, 0, 0, w, h);
-			putText(img_screen, "Please point your head to the center of the screen,", Point2i(mb + 20, sc.y), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 0, 255), 2);
-			putText(img_screen, "such that all markers are visible to the scene camera.", Point2i(mb + 20, sc.y + 40), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 0, 255), 2);
-		}
-	}
-	else
-	{
-		putText(img_screen, "Validation finished !", Point2i(mb + 20, sc.y - 50), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
-		// todo: print validation pixel error
-		float error = 0.0f;
-		offset_validation = Point2f(0.0f, 0.0f);
-
-		for (size_t i = 0; i < validation_targets.size(); i++)
-		{
-			p1 = validation_targets[i];
-			p2 = Point2f(validation_points(0, i), validation_points(1, i)) - offset;
-			circle(img_screen, p1, 20, Scalar(0, 240, 255), FILLED);
-			circle(img_screen, p2, 5, Scalar(255, 200, 0), FILLED);
-			line(img_screen, p1, p2, Scalar(255, 200, 0));
-			error += norm(p2 - p1);
-			offset_validation += p2 - p1;
-		}
-		offset_validation /= float(validation_targets.size());
-		error /= float(validation_targets.size());
-		auto str_offset = "(" + to_string(offset_validation.x) + ", " + to_string(offset_validation.y) + ")";
-
-		putText(img_screen, "mean validation error:" + to_string(error), Point2i(mb + 20, sc.y - 20), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
-		putText(img_screen, "mean offset (x,y)    :" + str_offset      , Point2i(mb + 20, sc.y + 20), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
-
-		ar_canvas.draw(img_screen, 0, 0, w, h);
-		// draw gaze point after coordinate transformation		
-		circle(img_screen, p_projected, 8, Scalar(255, 0, 255), 4);
-
-	}
-
-	imshow("screen", img_screen);
-}
-
-void Eyetracking_speller::draw_calibration()
-{
-	using namespace cv;
-
-	auto screen_center = Point2f(0.5f*img_screen.cols, 0.5f*img_screen.rows);
-
-	int mb = ar_canvas.marker_size + ar_canvas.marker_border;
-
-	const int s = 4; // spacing of the arrow tip from the marker edge
-	array<Point2f, 4> look_pos = { Point2f(mb + s, mb + s),  Point2f(w - mb - s, mb + s), Point2f(w - mb - s, h - mb - s), Point2f(mb + s, h - mb - s) };
-	
-	ar_canvas.draw(img_screen, 0, 0, w, h);
-
-	if (ar_canvas.valid())
-	{
-		tracking_lost_counter--;
-		if (tracking_lost_counter < 0) { tracking_lost_counter = 0; } // avoid underflow
-	}
-	else
-	{
-		tracking_lost_counter++;
-		if (tracking_lost_counter > 20) { tracking_lost_counter = 20; }// avoid overflow
-	}
-
-
-	if (tracking_lost_counter < 10)
-	{
-		if (calibration_counter < 4)
-		{
-			// point to the edge where the user has to look at
-			auto p2 = look_pos[calibration_counter];
-			auto p1 = p2 - 0.25 * (p2 - screen_center);
-			arrowedLine(img_screen, p1, p2, Scalar(200, 100, 255), 2);
-			putText(img_screen, "Please look exactly at the corner of the Marker !", Point2i(mb, screen_center.y), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 170, 0), 2);
-			putText(img_screen, "Press space to confirm.", Point2i(mb, screen_center.y + 40), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 170, 0), 2);
-		}
-		else
-		{
-			putText(img_screen, "Calibration finished !", Point2i(mb, screen_center.y), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
-
-			// draw gaze point after coordinate transformation		
-			circle(img_screen, p_projected, 8, Scalar(255, 0, 255), 4);
-		}
-		float scaling = float(mb) / float(frame_scene_cam.rows);
-		draw_scene_cam_to_screen(scaling, -1, img_screen.rows - mb);
-	}
-	else
-	{
-		putText(img_screen, "Please point your head to the center of the screen,", Point2i(mb, mb+40), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 0, 255), 2);
-		putText(img_screen, "such that all markers are visible to the scene camera.", Point2i(mb, mb+40+40), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 0, 255), 2);
-		draw_scene_cam_to_screen(1.0f, -1, -1);
-	}
-
-	imshow("screen", img_screen);
-}
-
-
-void Eyetracking_speller::draw_scene_cam_to_screen(float scaling, int x, int y)
-{
-	if (scaling == 1.0f)
-	{
-		frame_scene_cam_scaled = frame_scene_cam;
-	}
-	else
-	{
-		cv::resize(frame_scene_cam, frame_scene_cam_scaled, cv::Size(), scaling, scaling);
-	}
-
-	if (img_screen.rows > frame_scene_cam_scaled.rows && img_screen.cols > frame_scene_cam_scaled.cols)
-	{
-		if (x == -1) { x = round(0.5f * (img_screen.cols - frame_scene_cam_scaled.cols)); }
-		if (y == -1) { y = round(0.5f * (img_screen.rows - frame_scene_cam_scaled.rows)); }
-		frame_scene_cam_scaled.copyTo(img_screen(cv::Rect(x, y, frame_scene_cam_scaled.cols, frame_scene_cam_scaled.rows)));
-	}
-}
 
 
 void Eyetracking_speller::draw_instructions()
 {
 	using namespace cv;
-	int mb = ar_canvas.marker_size + ar_canvas.marker_border;
+	int mb = calibration.ar_canvas.marker_size;
 	// auto screen_center = Point2f(0.5f*img_screen.cols, 0.5f*img_screen.rows);
 
-	ar_canvas.draw(img_screen, 0, 0, w, h);
+	calibration.ar_canvas.draw(img_screen, 0, 0, w, h);
 
 	int y = mb + 25;
 	auto print_txt = [&](const char * t)
@@ -351,7 +133,7 @@ void Eyetracking_speller::draw_instructions()
 	print_txt("2. Calibrate the eyetracker, then validate (optional).");
 	print_txt("3. Press the run button to start the speller.");
 
-	draw_scene_cam_to_screen(1.0);
+	draw_preview(frame_scene_cam, img_screen);
 
 	imshow("screen", img_screen);
 
@@ -360,9 +142,9 @@ void Eyetracking_speller::draw_instructions()
 void Eyetracking_speller::draw_speller(bool ssvep)
 {
 	using namespace cv;
-	int mb = ar_canvas.marker_size + ar_canvas.marker_border;
+	int mb = calibration.ar_canvas.marker_size;
 
-	ar_canvas.draw(img_screen, 0, 0, w, h);
+	calibration.ar_canvas.draw(img_screen, 0, 0, w, h);
 	// ********************************************************
 	// draw keyboard and handle events
 	if (ssvep)
@@ -382,35 +164,34 @@ void Eyetracking_speller::draw_speller(bool ssvep)
 
 	// imshow("scene_cam", frame_scene_cam_copy);
 	float scaling = float(mb) / float(frame_scene_cam.rows);
-	draw_scene_cam_to_screen(scaling, -1, img_screen.rows - mb);
+	draw_preview(frame_scene_cam, img_screen, scaling, -1, img_screen.rows - mb);
 }
 
 void Eyetracking_speller::draw()
 {
 	using namespace cv;
-	// ********************************************************
-	// draw markers on screen // and visualize gaze point after coordinate transformation
+
+	// clear canvas
 	img_screen_background.copyTo(img_screen);
 
-	// visualize marker detection 
-	ar_canvas.draw_detected_markers(frame_scene_cam);
+	// visualize marker detection // TODO: move to subfunctions for different states
+	calibration.ar_canvas.draw_detected_markers(frame_scene_cam);
 
 	switch (state)
 	{
-	case STATE_INSTRUCTIONS: draw_instructions();  break;
-	case STATE_CALIBRATION: draw_calibration(); break;
-	case STATE_CALIBRATION_VISUALIZE: draw_calibration_vis(); break;
-	case STATE_VALIDATION:  draw_validation(); break;
-	case STATE_RUNNING:		draw_speller(); break;
-		break;
-
+	case STATE_INSTRUCTIONS:	draw_instructions();  break;
+	case STATE_CALIBRATION:		calibration.draw(frame_scene_cam, img_screen); break;
+	case STATE_RUNNING:			draw_speller(); break; 
 	default: break;
 
 	}
 
+	pupil_tracker->draw(frame_eye_cam);
+	imshow("eye_cam", frame_eye_cam);
 	imshow("screen", img_screen);
-
 }
+
+
 
 
 // update function for all steps from camera setup, calibration, validation and single threaded speller
@@ -420,11 +201,11 @@ void Eyetracking_speller::update()
 	using namespace cv;
 
 
-
 	// update values that might have been changed via GUI sliders
 	gaze_filter_x.set_params(1.0 - filter_smoothing, filter_predictive);
 	gaze_filter_y.set_params(1.0 - filter_smoothing, filter_predictive);
 
+	// if the canvas size has changed, recreate the background image
 	w = gui_param_w;
 	h = gui_param_h;
 	if (w_old != w || h_old != h)
@@ -433,33 +214,40 @@ void Eyetracking_speller::update()
 		w_old = w; h_old = h;
 	}
 
-	ar_canvas.marker_size = round(gui_param_marker_size);
-	ar_canvas.marker_border = round(25.0f * ar_canvas.marker_size / 100.0f);
+	// update marker parameters
+	calibration.ar_canvas.marker_size = round(gui_param_marker_size);
 
 
 	//timer.tick();
 
+	// read image data from eye- and scene camera
 	eye_camera->read(frame_eye_cam);
 	scene_camera->read(frame_scene_cam);
 
 		
 	// ********************************************************
 	// get pupil position
+	/*
 	cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
 	if (opt.blur > 0) { GaussianBlur(frame_eye_gray, frame_eye_gray, cv::Size(opt.blur, opt.blur), 0); }
 	std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
 	
 	timm.visualize_frame(frame_eye_gray, pupil_pos, pupil_pos_coarse);
+	*/
+
+	pupil_tracker->update(frame_eye_cam);
+	pupil_pos = pupil_tracker->pupil_center();
 
 	// ********************************************************
 	// map pupil position to scene camera position using calibrated 2d to 2d mapping
-	p_calibrated = mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
+	p_calibrated = calibration.mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
 
 	// ********************************************************
-	ar_canvas.update(frame_scene_cam);
-	if (ar_canvas.valid())
+	calibration.ar_canvas.update(frame_scene_cam);
+	if (calibration.ar_canvas.valid())
 	{
-		p_projected = ar_canvas.transform(p_calibrated);
+		p_projected = calibration.ar_canvas.transform(p_calibrated);
+		p_projected -= calibration.offset;
 	}
 
 	// uncomment this to simulate gaze using the computer mouse
@@ -474,53 +262,23 @@ void Eyetracking_speller::update()
 	// event propagation and keyboard handling 
 	key_pressed = cv::waitKey(1);
 
-	if (ar_canvas.valid())
+
+	// ********************************************************
+	// call update functions specific to current state / task
+	switch (state)
 	{
-		//if (VK_SPACE == key_pressed)
-		if( int(' ') == key_pressed )
+	case STATE_CALIBRATION:
+		calibration.update(frame_scene_cam, pupil_pos, key_pressed);
+		break;
+	case STATE_RUNNING:
+		if (calibration.ar_canvas.valid() && int(' ') == key_pressed)
 		{
-			if (STATE_CALIBRATION == state)
-			{
-				if (calibration_counter < 4)
-				{
-					cout << "space pressed. submitting calibration point." << endl;
-					auto p = ar_canvas.image_plane;
-					calibration_targets(0, calibration_counter) = p[calibration_counter].x;
-					calibration_targets(1, calibration_counter) = p[calibration_counter].y;
-
-					calibration_points(0, calibration_counter) = pupil_pos.x;
-					calibration_points(1, calibration_counter) = pupil_pos.y;
-
-					if (calibration_counter == 3) { calibrate(); }
-					/*
-					for SMI
-					if (calibration_counter == 0) { etg.calibrate(p[0].x, p[0].y, frame_number); }
-					if (calibration_counter == 1) { etg.calibrate(p[1].x, p[1].y, frame_number); }
-					if (calibration_counter == 2) { etg.calibrate(p[2].x, p[2].y, frame_number); }
-					*/
-					calibration_counter++;
-				}
-				else
-				{
-					cout << "calibrated point = " << p_calibrated.x << "\t" << p_calibrated.y << endl;
-					eye_button_up = true;
-				}
-			}
-
-			if (STATE_VALIDATION == state)
-			{
-				validation_points(0, validation_counter) = p_projected.x;
-				validation_points(1, validation_counter) = p_projected.y;
-				validation_counter++;
-			}
-
-			if (STATE_RUNNING == state)
-			{
-				// use space as acknowledgement for a selected letter
-				eye_button_up = true;
-			}
+			// cout << "calibrated point = " << p_calibrated.x << "\t" << p_calibrated.y << endl;
+			// use space as acknowledgement for a selected letter
+			eye_button_up = true;
 		}
-	}
+		break;
+	};
 
 	sg.update();
 	eye_cam_controls.update();
@@ -528,7 +286,7 @@ void Eyetracking_speller::update()
 
 
 
-void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int scene_cam_id)
+void Eyetracking_speller::run(enum_simd_variant simd_width, enum_pupil_tracking_variant pupil_tracking, int eye_cam_id, int scene_cam_id)
 {
 	cv::setUseOptimized(true);
 	eye_camera = select_camera("select eye camera number (0..n):", eye_cam_id);
@@ -545,15 +303,19 @@ void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int 
 		cout << "\nautofocus disabled.\n";
 	}
 
-	setup(simd_width);
+	setup(simd_width, pupil_tracking);
 
 	// main loop
+	Timer timer(50);
 	while (is_running)
 	{
+		timer.tick();
 		// for gui stuff
-		opt = set_options(params);
-		timm.set_options(opt);
+		//opt = set_options(params);
+		//timm.set_options(opt);
 
+		Pupil_tracking::update();
+		//Pupil_tracking::draw();
 		update();
 		draw();
 
@@ -561,6 +323,7 @@ void Eyetracking_speller::run(enum_simd_variant simd_width, int eye_cam_id, int 
 		{
 			break;
 		}
+		timer.tock();
 	}
 }
 
@@ -638,14 +401,14 @@ void Eyetracking_speller::run_ssvep()
 			thread_scenecam.get_frame(frame_scene_cam);
 			thread_scenecam.new_frame = false;
 
-			ar_canvas.update(frame_scene_cam);
+			calibration.ar_canvas.update(frame_scene_cam);
 
 			// send marker data (helpful in the client for visualizing marker positions
 			marker_data[0] = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
-			for (int i = 0; i < ar_canvas.image_plane.size(); i++)
+			for (int i = 0; i < calibration.ar_canvas.image_plane.size(); i++)
 			{
-				marker_data[1 + 2 * i + 0] = double(ar_canvas.image_plane[i].x) / frame_scene_cam.cols;
-				marker_data[1 + 2 * i + 1] = double(ar_canvas.image_plane[i].y) / frame_scene_cam.rows;
+				marker_data[1 + 2 * i + 0] = double(calibration.ar_canvas.image_plane[i].x) / frame_scene_cam.cols;
+				marker_data[1 + 2 * i + 1] = double(calibration.ar_canvas.image_plane[i].y) / frame_scene_cam.rows;
 			}
 			lsl_out_marker.push_sample(marker_data);
 		}
@@ -658,16 +421,20 @@ void Eyetracking_speller::run_ssvep()
 
 			// ********************************************************
 			// get pupil position
+			/*
 			cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
 			if (opt.blur > 0) { GaussianBlur(frame_eye_gray, frame_eye_gray, cv::Size(opt.blur, opt.blur), 0); }
 			std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
+			*/
+			pupil_tracker->update(frame_eye_cam);
+			pupil_pos = pupil_tracker->pupil_center();
 
 			// ********************************************************
 			// map pupil position to scene camera position using calibrated 2d to 2d mapping
-			p_calibrated = mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
+			p_calibrated = calibration.mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
 
 			//std::nan
-			for (auto& x : eye_data) { x = std::numeric_limits<double>::quiet_NaN(); }
+			for (auto& x : eye_data) { x = nan(); }
 
 			eye_data[LT_TIMESTAMP] = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
 			eye_data[LT_PUPIL_X] = double(pupil_pos.x) / frame_eye_cam.cols;
@@ -675,9 +442,10 @@ void Eyetracking_speller::run_ssvep()
 			eye_data[LT_GAZE_X] = double(p_calibrated.x) / frame_scene_cam.cols;
 			eye_data[LT_GAZE_Y] = double(p_calibrated.y) / frame_scene_cam.rows;
 
-			if (ar_canvas.valid())
+			if (calibration.ar_canvas.valid())
 			{
-				p_projected = ar_canvas.transform(p_calibrated, ar_canvas.screen_plane_external);
+				p_projected = calibration.ar_canvas.transform(p_calibrated, calibration.ar_canvas.screen_plane_external);
+				p_projected -= calibration.offset;
 
 				// jitter filter (updated at eyecam fps)
 				eye_data[LT_SCREEN_X] = p_projected.x;
