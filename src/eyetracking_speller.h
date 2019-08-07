@@ -101,8 +101,8 @@ public:
 		cv::destroyAllWindows();
 	}
 
-	void run(enum_simd_variant simd_width, enum_pupil_tracking_variant ptracking, int eye_cam_id = -1, int scenen_cam_id=-1);
-	void setup(enum_simd_variant simd_width, enum_pupil_tracking_variant ptracking);
+	void run(enum_simd_variant simd_width, int eye_cam_id = -1, int scenen_cam_id=-1);
+	void setup(enum_simd_variant simd_width);
 	void update();
 
 	void draw_instructions();

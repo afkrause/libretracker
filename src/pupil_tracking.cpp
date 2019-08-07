@@ -16,9 +16,9 @@ void Pupil_tracking::setup(enum_simd_variant simd_width, enum_pupil_tracking_var
 }
 
 
-void Pupil_tracking::run(enum_simd_variant simd_width, enum_pupil_tracking_variant pupil_tracking_variant, int eye_cam_id)
+void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 {
-	setup(simd_width, pupil_tracking_variant);
+	setup(simd_width, PUPIL_TRACKING_PUREST);
 
 	// generate a random image
 	using namespace cv;

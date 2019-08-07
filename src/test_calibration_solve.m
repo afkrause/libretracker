@@ -8,7 +8,7 @@ close all;
 % camera
 a = pi*0/180;
 R = [cos(a), -sin(a);
-     sin(a),  cos(a)];ed
+     sin(a),  cos(a)];
 
 % 3 point calibration 
 %s = [0, 100, 100;
@@ -55,10 +55,10 @@ e = [545 485 489 551;
 %e
 
 % rotate data to simulate misalignment
-n_samples = size(e,2);
-for i = 1:n_samples
-    e(:,i) = R*e(:,i);
-end
+%n_samples = size(e,2);
+%for i = 1:n_samples
+%    e(:,i) = R*e(:,i);
+%end
 
 % s = W*e
 % what is W ??
@@ -72,6 +72,7 @@ W * (R*[50 50]')
 
 % now add nonlinearities
 
+n_samples =  size(e,2);
 tmp = poly_features(0,0);
 ee = zeros(size(tmp,1), n_samples);
 for i = 1 : n_samples

@@ -17,10 +17,10 @@ protected:
 	// auto polynomial_features(float x, float y) { Eigen::Matrix<double, 3, 1> v; v << 1.0f, x, y; return v; };
 
 	// best suited for 4-point calibration
-	auto polynomial_features(double x, double y) { Eigen::Matrix<double, 4, 1> v; v << 1.0f, x, y, x* y; return v; };
-
+	auto polynomial_features(double x, double y) { Eigen::Matrix<double, 10, 1> v; v << 1.0f, x, y, x* y, x* x, y* y, x* x* x, y* y* y, x* y* y, x* x* y; return v; };
+	double mapping_error = 0;
 public:
-	void calibrate();
+	void calibrate(int n_polynomial_features=4);
 	Eigen::MatrixXd validation_points, calibration_points, calibration_targets, W_calib;
 
 	cv::Point2f mapping_2d_to_2d(cv::Point2f p)
@@ -44,7 +44,7 @@ protected:
 	void draw_prep(cv::Mat& frame_scene_cam, cv::Mat& img_screen);
 	void draw_calibration(cv::Mat& frame_scene_cam, cv::Mat& img_screen);
 	void draw_validation(cv::Mat& frame_scene_cam, cv::Mat& img_screen);
-
+	void draw_visualization(cv::Mat& frame_scene_cam, cv::Mat& img_screen);
 	int n_calib_points = 4;
 	cv::Point2f p_calibrated, p_projected;
 
@@ -64,6 +64,7 @@ protected:
 	// the offset that was measured during validation
 	cv::Point2f offset_validation{ 0.0f, 0.0f };
 
+	int n_polynomial_features = 4;
 public:
 	Calibration();
 
@@ -94,4 +95,6 @@ public:
 	void setup_validation(int n_validation_points=5);
 
 	void update(cv::Mat& frame_scene_cam, cv::Point2f pupil_pos, int key_pressed);
+
+	void set_number_of_polynomial_features(int n) { n_polynomial_features = n; }
 };

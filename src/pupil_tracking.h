@@ -34,6 +34,7 @@ public:
 	virtual cv::Point2f pupil_center() = 0;
 	
 	virtual void draw(cv::Mat& img) { }
+	virtual void show_gui() {}
 };
 
 
@@ -43,7 +44,7 @@ class Pupil_tracker_pure : public Pupil_tracker_base
 {
 protected: 
 	PuRe pupil_detector;
-	Pupil pupil, pupil_previous;
+	Pupil pupil;
 
 public:
 	cv::Mat frame_gray;
@@ -76,22 +77,28 @@ public:
 class Pupil_tracker_purest : public Pupil_tracker_base
 {
 protected:
-	PuRe pupil_detector;
-	Pupil pupil, pupil_previous;
-
+	PuRe pupil_detect;
+	unique_ptr<PupilTrackingMethod> pupil_tracking;
+	Pupil pupil;
+	int frame_counter = 0;
 public:
 	cv::Mat frame_gray;
 
 public:
 	virtual void setup(enum_simd_variant simd_width)
 	{
-
+		pupil_tracking = make_unique<PuReST>();
+		frame_counter = 0;
 	}
 
 	virtual void update(cv::Mat& eye_cam_frame)
 	{
+		// for now, roi is as large as whole eye cam frame
+		// TODO: user selectabel roi
+		cv::Rect roi(0, 0, eye_cam_frame.cols, eye_cam_frame.rows);
 		cv::cvtColor(eye_cam_frame, frame_gray, cv::COLOR_BGR2GRAY);
-		pupil = pupil_detector.run(frame_gray);
+		pupil_tracking->run(frame_counter, frame_gray, roi, pupil, pupil_detect);
+		frame_counter++;
 	}
 
 	virtual void draw(cv::Mat& img)
@@ -159,6 +166,7 @@ public:
 	
 	virtual void draw(cv::Mat& img);
 	
+	virtual void show_gui() { sg.show(); }
 
 	virtual cv::Point2f pupil_center()
 	{
@@ -193,10 +201,9 @@ public:
 		// TODO !
 	}
 
-	void setup_gui() { }
 
 	// capture from the usb webcam 
-	void run(enum_simd_variant simd_width, enum_pupil_tracking_variant pupil_tracking_variant, int eye_cam_id = -1);
+	void run(enum_simd_variant simd_width, int eye_cam_id = -1);
 
 
 };

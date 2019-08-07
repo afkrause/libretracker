@@ -22,10 +22,10 @@ static void mouse_callback(int event, int x, int y, int, void* user_data)
 
 
 
-void Eyetracking_speller::setup(enum_simd_variant simd_width, enum_pupil_tracking_variant ptracking)
+void Eyetracking_speller::setup(enum_simd_variant simd_width)
 {
 	
-	Pupil_tracking::setup(simd_width, ptracking);
+	Pupil_tracking::setup(simd_width, PUPIL_TRACKING_PUREST);
 
 	using namespace cv;
 	using namespace EL;
@@ -57,11 +57,18 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width, enum_pupil_trackin
 	// sg.add_button("use enclosed markers", [&]() {calibration.ar_canvas.setup(true); },1,0,"use enclosed markers. corners jitter less, but markers need to be larger.");
 	// sg.add_slider("detection size", calibration.ar_canvas.min_marker_size, 0.005, 0.1, 0.001, "minimum detection size of a marker (in percent of total image area)");
 
-	sg.add_separator_box("2. adjust cameras and pupil tracking:");
+	sg.add_separator_box("2. select Pupil-Tracking algorithm:");
+	
+	sg.add_radio_button("Timm's algorithm", [&,s = simd_width]() { Pupil_tracking::setup(s, PUPIL_TRACKING_TIMM); });
+	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); });
+	auto button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); });
+	button->value(true);
+
+	sg.add_separator_box("3. adjust cameras and pupil-tracking:");
 	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 3, 0);
 	sg.add_button("eye-cam", [&]() { eye_cam_controls.setup(eye_camera, 20, 20, 400, 400, "Eye-Camera Controls"); }, 3, 1);
 	sg.add_button("scene-cam", [&]() { scene_cam_controls.setup(scene_camera, 20, 20, 400, 400, "Scene-Camera Controls"); }, 3, 2);
-	sg.add_button("adjust pupil tracking", [&]() { setup_gui(); sg.show(); }, 1, 0);
+	sg.add_button("adjust pupil-tracking", [&]() { pupil_tracker->show_gui(); }, 1, 0);
 
 	/*
 	// TODO TODO TODO !!
@@ -71,7 +78,8 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width, enum_pupil_trackin
 	sg.add_button("save", [&]() {}, 3, 2);
 	*/
 	
-	sg.add_separator_box("3. eyetracker calibration & validation:");
+	sg.add_separator_box("4. calibrate and validate the eyetracker:");
+	// TODO sg.add_slider("n poly features", []() {}, 4, 4, 10, "");
 	sg.add_button("5 point",	[&]() { grab_focus("screen"); calibration.setup(5); state = STATE_CALIBRATION; }, 4, 0, "perform a 5-point calibration.");
 	sg.add_button("9 point",	[&]() { grab_focus("screen"); calibration.setup(9); state = STATE_CALIBRATION; }, 4, 1, "perform a 9-point calibration. this takes a bit longer, but usually increases calibration accuracy.");
 	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 4, 2, "check the calibration by testing additional points. (optional)");
@@ -81,7 +89,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width, enum_pupil_trackin
 	sg.add_slider("smoothing", filter_smoothing, 0, 1, 0.01);
 	sg.add_slider("predictive", filter_predictive, 0, 1, 0.001);
 
-	sg.add_separator_box("4. run modules:");
+	sg.add_separator_box("5. run modules:");
 	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUNNING; }, 1, 0);
 	sg.add_button("record and stream to client", [&]() { run_ssvep(); }, 1, 0);
 	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 1, 0);
@@ -286,7 +294,7 @@ void Eyetracking_speller::update()
 
 
 
-void Eyetracking_speller::run(enum_simd_variant simd_width, enum_pupil_tracking_variant pupil_tracking, int eye_cam_id, int scene_cam_id)
+void Eyetracking_speller::run(enum_simd_variant simd_width,  int eye_cam_id, int scene_cam_id)
 {
 	cv::setUseOptimized(true);
 	eye_camera = select_camera("select eye camera number (0..n):", eye_cam_id);
@@ -303,7 +311,7 @@ void Eyetracking_speller::run(enum_simd_variant simd_width, enum_pupil_tracking_
 		cout << "\nautofocus disabled.\n";
 	}
 
-	setup(simd_width, pupil_tracking);
+	setup(simd_width);
 
 	// main loop
 	Timer timer(50);

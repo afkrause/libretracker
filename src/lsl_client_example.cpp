@@ -43,7 +43,12 @@ int main()
 	//////////////// load the AR markers ////////////////
 	const int marker_size = 150;
 	std::array<cv::Mat, 4> img_markers;
-	array<string, 4> marker_file_names{ "marker_1.jpg", "marker_5.jpg", "marker_10.jpg","marker_25.jpg" };
+	// array<string, 4> marker_file_names{ "marker_1.jpg", "marker_5.jpg", "marker_10.jpg","marker_25.jpg" };
+
+		// according to the aruco main developer, ARUCO_MIP_36h12 is the preferred dictionary. 
+		// https://stackoverflow.com/questions/50076117/what-are-the-advantages-disadvantages-between-the-different-predefined-aruco-d
+	array<string, 4> marker_file_names { "aruco_mip_36h12_00002.png", "aruco_mip_36h12_00004.png", "aruco_mip_36h12_00006.png", "aruco_mip_36h12_00008.png" };
+
 
 	for (size_t i = 0; i < marker_file_names.size(); i++)
 	{

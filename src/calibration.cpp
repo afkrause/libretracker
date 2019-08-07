@@ -20,14 +20,16 @@ void Calibration_base::setup(int n_calibration_points)
 
 }
 
-void Calibration_base::calibrate()
+void Calibration_base::calibrate(int n_polynomial_features)
 {
+	if (n_polynomial_features < 3) { n_polynomial_features = 3; }
+	if (n_polynomial_features > 10) { n_polynomial_features = 10; }
 	using namespace Eigen;
 	using namespace EL;
 	using namespace std;
 
 	// with 
-	// s = coordinates in screen space, 
+	// s = calibration marker coordinates in scene-cam space, 
 	// e = pupil center coordinates in eye-camera image space
 	// and feature vector 
 	// p(e) = [e.x, e.y, e.x*e.x, e.x*e.y, e.y*e.y]  
@@ -53,14 +55,14 @@ void Calibration_base::calibrate()
 	//*/
 
 	int n_calib_points = s.cols();
-	MatrixXd pe = MatrixXd::Zero(4, n_calib_points);
+	MatrixXd pe = MatrixXd::Zero(n_polynomial_features, n_calib_points);
 
 	// build a matrix containing all feature vectors
 	for (int i = 0; i < n_calib_points; i++)
 	{
-		pe.col(i) = polynomial_features(e(0, i), e(1, i));
+		pe.col(i) = polynomial_features(e(0, i), e(1, i)).block(0, 0, n_polynomial_features, 1);
 	}
-	cout << pe << "\n\n";
+	cout << "\n\npolynomial features:\n" << pe;
 
 	// does not work !! 
 	//auto pe_inv = (pe.transpose() * pe).inverse() * pe.transpose();
@@ -71,16 +73,18 @@ void Calibration_base::calibrate()
 	//W_calib = s * pinv(pe);			// precision: 2.39319e-07 on test-data
 	//W_calib = s * pseudoInverse(pe);	// precision: 5.82143e-12
 
-	cout << "Calibration Matrix:\n" << W_calib << "\n\n";
+	cout << "\n\nCalibration Matrix:\n" << W_calib;
 
-	//mapping error:
-	double err = 0;
+	//calc mapping error:	
+	mapping_error = 0;
 	for (int i = 0; i < s.cols(); i++)
 	{
 		auto v = s.col(i) - W_calib * pe.col(i);
-		err += v.norm();
+		mapping_error += v.norm();
 	}
-	cout << "mapping error: " << err << endl;
+	mapping_error /= double(s.cols());
+
+	cout << "\nmapping error: " << mapping_error << endl;
 }
 
 
@@ -134,7 +138,8 @@ void Calibration::draw(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 		draw_calibration(frame_scene_cam, img_screen);
 		break;
 	case Calibration::STATE_VISUALIZE:
-		cv::putText(img_screen, "Calibration finished !", Point2i(mb, screen_center.y), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
+		draw_visualization(frame_scene_cam, img_screen);
+		// cv::putText(img_screen, "Calibration finished !", Point2i(mb, screen_center.y), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
 		// draw gaze point after coordinate transformation		
 		//circle(img_screen, p_projected, 8, Scalar(255, 0, 255), 4);
 		break;
@@ -318,6 +323,7 @@ void Calibration::update_calibration(cv::Mat& frame_scene_cam, cv::Point2f pupil
 				if (calibration_counter == n_calib_points-1)
 				{
 					calibrate();
+					state = STATE_VISUALIZE;
 				}
 
 				calibration_counter++;
@@ -337,6 +343,11 @@ void Calibration::update(cv::Mat& frame_scene_cam,  cv::Point2f pupil_pos, int k
 		break;
 	case STATE_CALIBRATION:
 		update_calibration(frame_scene_cam, pupil_pos, key_pressed);
+		break;
+
+	case STATE_VISUALIZE:
+		if (int('+') == key_pressed) { n_polynomial_features++; calibrate(n_polynomial_features); }
+		if (int('-') == key_pressed) { n_polynomial_features--; calibrate(n_polynomial_features); }
 		break;
 
 	case STATE_VALIDATION:
@@ -397,6 +408,139 @@ void Calibration::draw_prep(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 	imshow("screen", img_screen);
 }
 
+void Calibration::draw_visualization(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
+{
+	using namespace cv;
+
+	// canvas width and hight
+	const int w = img_screen.cols;
+	const int h = img_screen.rows;
+
+	// scene cam width and hight
+	const int sw = frame_scene_cam.cols;
+	const int sh = frame_scene_cam.rows;
+	const int sx = 0.5 * w - 0.5 * sw;
+	const int sy = 0.5 * h - 0.5 * sh;
+
+	Point2f offset(sx, sy);
+	// draw a grid of linearly interpolated points to give an idea what the polynomial mapping does look like
+	{
+		/*
+		// todo get eye cam frame size
+		for (int x = 0; x < 640; x += 10)
+		{
+			for (int y = 0; y < 480; y += 10)
+			{
+				auto p1 = offset + mapping_2d_to_2d(Point2f(x, y));
+				auto p2 = offset + mapping_2d_to_2d(Point2f(x + 10, y));
+				auto p3 = offset + mapping_2d_to_2d(Point2f(x, y + 10));
+				auto p4 = offset + mapping_2d_to_2d(Point2f(x + 10, y + 10));
+				line(img_screen, p1, p2, Scalar(150, 150, 150), 1);
+				line(img_screen, p1, p3, Scalar(150, 150, 150), 1);
+				line(img_screen, p2, p4, Scalar(150, 150, 150), 1);
+				line(img_screen, p3, p4, Scalar(150, 150, 150), 1);
+				circle(img_screen, p1, 2, Scalar(50, 50, 50), 1);
+			}
+		}
+		*/
+
+		auto fn_draw_grid = [&](Point2f p1, Point2f p2, Point2f p3, Point2f p4, float n)
+		{
+			for (int i = 0; i <= n; i++)
+			{
+				auto pp1 = p1 + i * (p4 - p1) / n;
+				auto pp2 = p2 + i * (p3 - p2) / n;
+				for (int k = 0; k < n; k++)
+				{
+					auto ppp1 = offset + mapping_2d_to_2d(pp1 + k * (pp2 - pp1) / n);
+					auto ppp2 = offset + mapping_2d_to_2d(pp1 + (k + 1) * (pp2 - pp1) / n);
+					line(img_screen, ppp1, ppp2, Scalar(150, 150, 150), 1);
+					//circle(img_screen, ppp1, 2, Scalar(50, 50, 50), 1);
+				}
+			}
+			for (int i = 0; i <= n; i++)
+			{
+				auto pp1 = p1 + i * (p2 - p1) / n;
+				auto pp2 = p4 + i * (p3 - p4) / n;
+				for (int k = 0; k < n; k++)
+				{
+					auto ppp1 = offset + mapping_2d_to_2d(pp1 + k * (pp2 - pp1) / n);
+					auto ppp2 = offset + mapping_2d_to_2d(pp1 + (k + 1) * (pp2 - pp1) / n);
+					line(img_screen, ppp1, ppp2, Scalar(150, 150, 150), 1);
+					//circle(img_screen, ppp1, 2, Scalar(50, 50, 50), 1);
+				}
+			}
+		};
+
+		if (n_calib_points == 5)
+		{
+			auto p1 = Point2f(calibration_points(0, 0), calibration_points(1, 0));
+			auto p2 = Point2f(calibration_points(0, 1), calibration_points(1, 1));
+			auto p3 = Point2f(calibration_points(0, 2), calibration_points(1, 2));
+			auto p4 = Point2f(calibration_points(0, 3), calibration_points(1, 3));
+			fn_draw_grid(p1, p2, p3, p4, 25);
+		}
+
+		if (n_calib_points == 9)
+		{
+			Point2f p1, p2, p3, p4;
+			p1 = Point2f(calibration_points(0, 0), calibration_points(1, 0));
+			p2 = Point2f(calibration_points(0, 6), calibration_points(1, 6));
+			p3 = Point2f(calibration_points(0, 4), calibration_points(1, 4));
+			p4 = Point2f(calibration_points(0, 5), calibration_points(1, 5));
+			fn_draw_grid(p1, p2, p3, p4, 6);
+
+			p1 = Point2f(calibration_points(0, 6), calibration_points(1, 6));
+			p2 = Point2f(calibration_points(0, 1), calibration_points(1, 1));
+			p3 = Point2f(calibration_points(0, 7), calibration_points(1, 7));
+			p4 = Point2f(calibration_points(0, 4), calibration_points(1, 4));
+			fn_draw_grid(p1, p2, p3, p4, 6);
+
+			p1 = Point2f(calibration_points(0, 4), calibration_points(1, 4));
+			p2 = Point2f(calibration_points(0, 7), calibration_points(1, 7));
+			p3 = Point2f(calibration_points(0, 2), calibration_points(1, 2));
+			p4 = Point2f(calibration_points(0, 8), calibration_points(1, 8));
+			fn_draw_grid(p1, p2, p3, p4, 6);
+
+			p1 = Point2f(calibration_points(0, 5), calibration_points(1, 5));
+			p2 = Point2f(calibration_points(0, 4), calibration_points(1, 4));
+			p3 = Point2f(calibration_points(0, 8), calibration_points(1, 8));
+			p4 = Point2f(calibration_points(0, 3), calibration_points(1, 3));
+			fn_draw_grid(p1, p2, p3, p4, 6);
+		}
+	}
+
+
+
+
+	// first, draw size scene cam borders
+	auto scene_cam_rect = Rect(sx, sy, sw, sh);
+	rectangle(img_screen, scene_cam_rect, Scalar(0, 0, 255), 2);
+
+	// draw legend
+	const int co = 20; // cursor offset 
+	Point2i cursor( sx + co, sy+co); // text cursor coordinates
+	putText(img_screen, "scene cam area", cursor, FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0, 0, 255), 2); cursor.y += co;
+	putText(img_screen, "calibration marker positions", cursor, FONT_HERSHEY_SIMPLEX, 0.5, Scalar(255,   0,   0), 2); cursor.y += co;
+	putText(img_screen, "2d-2d mapped pupil positions", cursor, FONT_HERSHEY_SIMPLEX, 0.5, Scalar(  0, 200,   0), 2); cursor.y += co;
+	putText(img_screen, "n_poly_features (press +/- to change) = " + to_string(n_polynomial_features), cursor, FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0, 0, 0), 2); cursor.y += co;
+	putText(img_screen, "mapping error = " + to_string(int(round(mapping_error))), cursor, FONT_HERSHEY_SIMPLEX, 0.5, Scalar(0, 0, 0), 2); cursor.y += co;
+	
+
+	// next, draw detected calibration marker positions and corresponding detected pupil positions
+	
+	for (int i = 0; i < calibration_targets.cols(); i++)
+	{
+		auto pm = Point2f(calibration_targets(0, i), calibration_targets(1, i)); // marker positions in scene-cam coordinates
+		auto pp = Point2f(calibration_points(0, i), calibration_points(1, i)); // pupil positions on eye cam coordinates
+		auto ppm = mapping_2d_to_2d(pp); // 2d_to_2d mapped pupil positions in scene-cam coordinates
+		pm += offset; ppm += offset;
+		line(img_screen, pm, ppm, Scalar(0, 200, 0), 2);
+		circle(img_screen, pm, 5, Scalar(255, 0, 0), 2);
+		circle(img_screen, ppm, 3, Scalar(0, 200, 0), 2);
+	}
+
+}
 
 void Calibration::draw_validation(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 {
