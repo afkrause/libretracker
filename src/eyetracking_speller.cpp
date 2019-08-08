@@ -48,27 +48,27 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 
 	// GUI
 	//sg = Simple_gui(min(Fl::w() - 200, 1420), 180, 400, 600);
-	sg = Simple_gui(20, 60, 400, 600);
+	sg = Simple_gui(20, 60, 400, 620);
 
 	sg.add_separator_box("1. adjust canvas size and AR-marker tracking:");
-	sg.add_slider("canvas width", gui_param_w, 640, 5000, 10);
-	sg.add_slider("canvas height", gui_param_h, 480, 3000, 10);
-	sg.add_slider("AR marker size", gui_param_marker_size, 40, 400, 10, "Size of the AR markers in pixel.");
+	sg.add_slider("canvas width", gui_param_w, 640, 5000, 10, "Change the width of the canvas to fit your monitor size. Make sure that all screen-tracking markers fit into the field of view of the scene camera.");
+	sg.add_slider("canvas height", gui_param_h, 480, 3000, 10, "Change the height of the canvas.");
+	sg.add_slider("AR marker size", gui_param_marker_size, 40, 400, 10, "Size of the AR markers in pixel. Larger values increase the robustness of marker tracking, but reduce the available screen space for e.g. the speller application.");
 	// sg.add_button("use enclosed markers", [&]() {calibration.ar_canvas.setup(true); },1,0,"use enclosed markers. corners jitter less, but markers need to be larger.");
 	// sg.add_slider("detection size", calibration.ar_canvas.min_marker_size, 0.005, 0.1, 0.001, "minimum detection size of a marker (in percent of total image area)");
 
-	sg.add_separator_box("2. select Pupil-Tracking algorithm:");
-	
+	sg.add_separator_box("2. adjust cameras:");
+	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 3, 0, "swap eye- and scene camera.");
+	sg.add_button("eye-cam", [&]() { eye_cam_controls.setup(eye_camera, 20, 20, 400, 400, "Eye-Camera Controls"); }, 3, 1, "adjust the eye-camera settings.");
+	sg.add_button("scene-cam", [&]() { scene_cam_controls.setup(scene_camera, 20, 20, 400, 400, "Scene-Camera Controls"); }, 3, 2, "adjust the scene-camera settings.");
+
+	sg.add_separator_box("3. select Pupil-Tracking algorithm:");
 	sg.add_radio_button("Timm's algorithm", [&,s = simd_width]() { Pupil_tracking::setup(s, PUPIL_TRACKING_TIMM); });
 	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); });
 	auto button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); });
 	button->value(true);
+	sg.add_button("adjust settings", [&]() { pupil_tracker->show_gui(); }, 1, 0);
 
-	sg.add_separator_box("3. adjust cameras and pupil-tracking:");
-	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 3, 0);
-	sg.add_button("eye-cam", [&]() { eye_cam_controls.setup(eye_camera, 20, 20, 400, 400, "Eye-Camera Controls"); }, 3, 1);
-	sg.add_button("scene-cam", [&]() { scene_cam_controls.setup(scene_camera, 20, 20, 400, 400, "Scene-Camera Controls"); }, 3, 2);
-	sg.add_button("adjust pupil-tracking", [&]() { pupil_tracker->show_gui(); }, 1, 0);
 
 	/*
 	// TODO TODO TODO !!
@@ -78,21 +78,26 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_button("save", [&]() {}, 3, 2);
 	*/
 	
-	sg.add_separator_box("4. calibrate and validate the eyetracker:");
+	sg.add_separator_box("4. calibrate the eyetracker:");
 	// TODO sg.add_slider("n poly features", []() {}, 4, 4, 10, "");
-	sg.add_button("5 point",	[&]() { grab_focus("screen"); calibration.setup(5); state = STATE_CALIBRATION; }, 4, 0, "perform a 5-point calibration.");
-	sg.add_button("9 point",	[&]() { grab_focus("screen"); calibration.setup(9); state = STATE_CALIBRATION; }, 4, 1, "perform a 9-point calibration. this takes a bit longer, but usually increases calibration accuracy.");
-	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 4, 2, "check the calibration by testing additional points. (optional)");
-	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 4, 3, "remove a potential systematic offset found after validation.");
+	sg.add_button("5 point",	[&]() { grab_focus("screen"); calibration.setup(5); state = STATE_CALIBRATION; }, 3, 0, "perform a 5-point calibration.");
+	sg.add_button("9 point",	[&]() { grab_focus("screen"); calibration.setup(9); state = STATE_CALIBRATION; }, 3, 1, "perform a 9-point calibration. this takes a bit longer, but usually increases calibration accuracy.");
+	sg.add_button("visualize",	[&]() { state = STATE_CALIBRATION; calibration.state = Calibration::STATE_VISUALIZE; }, 3, 2, "Visualize the calibration result. Here, you can also try to optimize the polynomial 2d-to-2d mapping by changing the number of polynomial features.");
+	
+	sg.add_separator_box("5. validate the calibration (optional):");
+	double n_validation_points = 5;
+	sg.add_slider("validation points", n_validation_points, 4, 20, 1,"Select the number of validation points.");
+	sg.add_slider("randomness [px]", n_validation_points, 0, 50, 1, "Select here, how much the validation points randomly deviate from the default validation positions.");
+	sg.add_button("validate calibration",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 2, 0, "check the calibration by testing additional points. (optional)");
+	sg.add_button("fix potential offset", [&]() { calibration.fix_offset();  }, 2, 1, "remove a potential systematic offset found after validation.");
 
-	sg.add_separator_box("jitter filter (double exponential filter)");
-	sg.add_slider("smoothing", filter_smoothing, 0, 1, 0.01);
-	sg.add_slider("predictive", filter_predictive, 0, 1, 0.001);
 
-	sg.add_separator_box("5. run modules:");
-	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUNNING; }, 1, 0);
-	sg.add_button("record and stream to client", [&]() { run_ssvep(); }, 1, 0);
-	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 1, 0);
+	sg.add_separator_box("6. run modules and adjust jitter filter:");
+	sg.add_slider("smoothing", filter_smoothing, 0, 1, 0.01, "adjust the amount of smoothing of the jitter filter (double exponential filter). Larger values reduce jitter, but introduce noticable lag. this lag can partially compensated increasing the predictive value.");
+	sg.add_slider("predictive", filter_predictive, 0, 1, 0.001, "The predictive component can partially comensate the lag introduced by smoothing. Large values can cause overshooting and damped oscillations of the filter.");
+	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUNNING; }, 3, 0);
+	sg.add_button("stream to client", [&]() { run_ssvep(); }, 3, 1);
+	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 3, 2);
 
 
 	sg.finish();

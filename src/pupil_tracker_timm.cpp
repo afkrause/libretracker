@@ -27,6 +27,7 @@ void Pupil_tracker_timm::setup(enum_simd_variant simd_width)
 	params = set_params(opt);
 
 	setup_gui();
+	sg.hide(); // show only if asked by the user. otherwise its annoying 
 
 }
 
@@ -102,7 +103,7 @@ void Pupil_tracker_timm::setup_gui()
 	sg.add_button("load LPW settings", [&]() {opt = load_parameters(SETTINGS_LPW); params = set_params(opt); sg.update_widgets(); }, 2, 1);
 	//sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 3, 2);
 	sg.finish();
-	//sg.show();
+	sg.show();
 }
 
 
