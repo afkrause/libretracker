@@ -137,13 +137,16 @@ void Calibration::draw(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 	case Calibration::STATE_CALIBRATION:
 		draw_calibration(frame_scene_cam, img_screen);
 		break;
-	case Calibration::STATE_VISUALIZE:
+	case Calibration::STATE_VISUALIZE_CALIBRATION:
 		draw_visualization(frame_scene_cam, img_screen);
 		// cv::putText(img_screen, "Calibration finished !", Point2i(mb, screen_center.y), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
 		// draw gaze point after coordinate transformation		
 		//circle(img_screen, p_projected, 8, Scalar(255, 0, 255), 4);
 		break;
 	case Calibration::STATE_VALIDATION:
+		draw_validation(frame_scene_cam, img_screen);
+		break;
+	case Calibration::STATE_VISUALIZE_VALIDATION:
 		draw_validation(frame_scene_cam, img_screen);
 		break;
 	default:
@@ -273,11 +276,6 @@ void Calibration::draw_calibration(cv::Mat& frame_scene_cam, cv::Mat&  img_scree
 		if (img_marker_calib_scaled.size[0] != ms) { resize(img_marker_calib, img_marker_calib_scaled, Size(ms, ms)); }
 		img_marker_calib_scaled.copyTo(img_screen(Rect(p.x - 0.5f * ms, p.y - 0.5f * ms, ms, ms)));
 	}
-	else
-	{
-		state = STATE_VISUALIZE;
-	}
-
 
 	imshow("screen", img_screen);
 }
@@ -323,7 +321,7 @@ void Calibration::update_calibration(cv::Mat& frame_scene_cam, cv::Point2f pupil
 				if (calibration_counter == n_calib_points-1)
 				{
 					calibrate();
-					state = STATE_VISUALIZE;
+					state = STATE_VISUALIZE_CALIBRATION;
 				}
 
 				calibration_counter++;
@@ -345,7 +343,8 @@ void Calibration::update(cv::Mat& frame_scene_cam,  cv::Point2f pupil_pos, int k
 		update_calibration(frame_scene_cam, pupil_pos, key_pressed);
 		break;
 
-	case STATE_VISUALIZE:
+	case STATE_VISUALIZE_CALIBRATION:
+	// case STATE_VISUALIZE_VALIDATION: // TODO
 		if (int('+') == key_pressed) { n_polynomial_features++; calibrate(n_polynomial_features); }
 		if (int('-') == key_pressed) { n_polynomial_features--; calibrate(n_polynomial_features); }
 		break;
@@ -592,7 +591,12 @@ void Calibration::draw_validation(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 	}
 	else
 	{
-		putText(img_screen, "Validation finished !", Point2i(mb + 20, sc.y - 50), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
+
+		// draw legend
+		const int co = 40; // cursor offset 
+		Point2i cursor(mb + 40, mb + 40); // text cursor coordinates
+
+		putText(img_screen, "Validation finished !", cursor, FONT_HERSHEY_SIMPLEX, 1, Scalar(100, 255, 200), 2); cursor.y += co;
 		// todo: print validation pixel error
 		float error = 0.0f;
 		offset_validation = Point2f(0.0f, 0.0f);
@@ -611,8 +615,8 @@ void Calibration::draw_validation(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 		error /= float(val_targets.size());
 		auto str_offset = "(" + to_string(offset_validation.x) + ", " + to_string(offset_validation.y) + ")";
 
-		putText(img_screen, "mean validation error:" + to_string(error), Point2i(mb + 20, sc.y - 20), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
-		putText(img_screen, "mean offset (x,y)    :" + str_offset, Point2i(mb + 20, sc.y + 20), FONT_HERSHEY_SIMPLEX, 2, Scalar(100, 255, 200), 4);
+		putText(img_screen, "mean validation error:" + to_string(error), cursor, FONT_HERSHEY_SIMPLEX, 1, Scalar(100, 255, 200), 2);  cursor.y += co;
+		putText(img_screen, "mean offset (x,y)    :" + str_offset, cursor, FONT_HERSHEY_SIMPLEX, 1, Scalar(100, 255, 200), 2);  cursor.y += co;
 
 		ar_canvas.draw(img_screen, 0, 0, w, h);
 		// draw gaze point after coordinate transformation		

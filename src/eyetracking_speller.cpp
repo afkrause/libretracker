@@ -82,14 +82,15 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	// TODO sg.add_slider("n poly features", []() {}, 4, 4, 10, "");
 	sg.add_button("5 point",	[&]() { grab_focus("screen"); calibration.setup(5); state = STATE_CALIBRATION; }, 3, 0, "perform a 5-point calibration.");
 	sg.add_button("9 point",	[&]() { grab_focus("screen"); calibration.setup(9); state = STATE_CALIBRATION; }, 3, 1, "perform a 9-point calibration. this takes a bit longer, but usually increases calibration accuracy.");
-	sg.add_button("visualize",	[&]() { state = STATE_CALIBRATION; calibration.state = Calibration::STATE_VISUALIZE; }, 3, 2, "Visualize the calibration result. Here, you can also try to optimize the polynomial 2d-to-2d mapping by changing the number of polynomial features.");
+	sg.add_button("visualize",	[&]() { state = STATE_CALIBRATION; calibration.state = Calibration::STATE_VISUALIZE_CALIBRATION; }, 3, 2, "Visualize the calibration result. Here, you can also try to optimize the polynomial 2d-to-2d mapping by changing the number of polynomial features.");
 	
 	sg.add_separator_box("5. validate the calibration (optional):");
 	double n_validation_points = 5;
 	sg.add_slider("validation points", n_validation_points, 4, 20, 1,"Select the number of validation points.");
 	sg.add_slider("randomness [px]", n_validation_points, 0, 50, 1, "Select here, how much the validation points randomly deviate from the default validation positions.");
-	sg.add_button("validate calibration",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 2, 0, "check the calibration by testing additional points. (optional)");
-	sg.add_button("fix potential offset", [&]() { calibration.fix_offset();  }, 2, 1, "remove a potential systematic offset found after validation.");
+	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 3, 0, "check the calibration by testing additional points. (optional)");
+	sg.add_button("visualize", [&]() { calibration.state = Calibration::STATE_VISUALIZE_VALIDATION;  }, 3, 1, "Visalizes the results of the validation.");
+	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 3, 2, "remove a potential systematic offset found after validation.");
 
 
 	sg.add_separator_box("6. run modules and adjust jitter filter:");
