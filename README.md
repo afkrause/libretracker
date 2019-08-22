@@ -25,11 +25,11 @@ other cameras:
 This Software is licensed under the GPL 3. You can use it commercially, but you MUST make sure that end users have the freedom to run, study, share and modify the software. This means you have to release all of your code, tools and dependencies necessary to build your software if you use code from this Libretracker. For details see https://www.gnu.org/licenses/gpl-3.0.en.html , for a quick guide read https://www.gnu.org/licenses/quick-guide-gplv3.html .
 
 ## Downloads 
-64bit windows-executable:  http://andre-krause.de/libretracker/Libretracker_20190618.zip
+64bit windows-executable:  http://andre-krause.de/libretracker/Libretracker20190808.zip
 ```console
-Libretracker_20190618.zip
-SHA1: 4e1889ecdfd1ea11d5b3aa3d1b493a160c686e8b
-SHA3_512: dcc3b8fd449acc78f36de061c2fb3e7aa9ed6acf07fe9730f48f4a7e213dc966b8b42a2b837912f7961115f5c656d57b4e98c09c2739fef04b5eb230f58ca425
+Libretracker20190808.zip
+SHA1: c96630ffdf70124c09c2e0c4c7f82e89aa9234b5
+SHA3_512: 064f04cf9aed108019dbc9078c2f268e09c935ab185e719f3d0e48acf636074e5f33a1f98d9b8dd9de9019568329481f1f705c838cbb75195cc765815d6f5076
 ```
 
 ## Compiling
