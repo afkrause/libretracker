@@ -343,7 +343,7 @@ void Eyetracking_speller::run(enum_simd_variant simd_width,  int eye_cam_id, int
 
 
 #ifdef LSL_ENABLED
-#pragma comment(lib, "liblsl64.lib")
+#pragma comment(lib, "labstreaminglayer/build/install/LSL/lib/liblsl64.lib")
 #include <lsl_cpp.h>
 #include "lt_lsl_protocol.h"
 #include <limits>

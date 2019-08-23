@@ -95,7 +95,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\SDL2\include;$(MY_LIB_DIR)\opencv40\build\include\;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\SDL2\include;$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,7 +130,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\SDL2\include;$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\SDL2\include;$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\;$(MY_LIB_DIR)\eigen3\</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

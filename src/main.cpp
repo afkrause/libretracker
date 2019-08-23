@@ -1,9 +1,12 @@
-
-
-// requires the corresponding SDK. Nvidia: CUDA SDK, AMD: AMDGPU-PRO or ROCm drivers come bundled with OpenCL libs
-// #define ENABLE_OPENCL_CODE 
+// OpenCL acceleration for timms algorithm 
+// requires the corresponding SDK. 
+// Nvidia: CUDA SDK, AMD: AMDGPU-PRO or ROCm drivers come bundled with OpenCL libs
 
 // libraries + paths (specific for my setup, adjust to your own paths)
+#ifdef OPENCL_ENABLED
+#pragma comment(lib, "opencl_cu10/lib/x64/opencl.lib")
+#endif
+
 #ifdef _DEBUG
 #pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411d.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltkd.lib")
@@ -18,9 +21,6 @@
 //#pragma comment(lib, "SDL2/lib/x64/SDL2.lib")
 //#pragma comment(lib, "SDL2/lib/x64/SDL2main.lib")
 
-
-
-#pragma comment(lib, "opencl_cu10/lib/x64/opencl.lib")
 
 #ifdef _WIN32
 #pragma comment(lib, "wsock32.lib")
@@ -105,9 +105,11 @@ int main(int argc, char* argv[])
 		//*/
 
 		#ifdef _WIN32
-		// first, detect CPU and OS features
-		cout << "CPU Vendor String: " << cpu_feature_detector::cpu_x86::get_vendor_string() << endl;
-		cout << endl;
+		// first, detect CPU and OS features		
+		// disabled for now, because this crashes on Intel Atom x5 .. 
+//		cout << "CPU Vendor String: " << cpu_feature_detector::cpu_x86::get_vendor_string() << endl;
+//		cout << endl;
+		
 		cpu_feature_detector::cpu_x86 cpu_features;
 		cpu_features.detect_host();
 		cpu_features.print();
@@ -307,8 +309,3 @@ int main(int argc, char* argv[])
 
 	return EXIT_SUCCESS;
 }
-
-
-#ifdef USE_OPENCL
-#include "opencl_kernel.cpp"
-#endif
