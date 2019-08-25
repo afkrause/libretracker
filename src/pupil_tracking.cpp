@@ -18,6 +18,22 @@ void Pupil_tracking::setup(enum_simd_variant simd_width, enum_pupil_tracking_var
 
 void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 {
+	Camera_control eye_cam_controls;
+	auto eye_cam = select_camera("select the eye camera id:", eye_cam_id);
+
+	auto sg = Simple_gui(20, 60, 400, 300);
+
+	sg.add_separator_box("adjust camera:");
+	sg.add_button("eye-camera", [&]() { eye_cam_controls.setup(eye_cam, 20, 20, 400, 400, "Eye-Camera Controls"); }, 1, 0, "adjust the eye-camera settings.");
+
+	sg.add_separator_box("switch Pupil-Tracking algorithm:");
+	sg.add_radio_button("Timm's algorithm", [&, s = simd_width]() { setup(s, PUPIL_TRACKING_TIMM); },1,0, "Timms Algorithm is a gradient based algorithm. License: GPL3.");
+	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {setup(s, PUPIL_TRACKING_PURE); }, 1, 0, "PuRe is a high accuracy- and performance algorithm from the university of tübingen. License: research only! You are not allowed to use this algorithm and its code for commercial applications.");
+	auto button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {setup(s, PUPIL_TRACKING_PUREST); }, 1, 0, "PuReST is a high accuracy - and performance algorithm from the university of tübingen.License: research only!You are not allowed to use this algorithm and its code for commercial applications.");
+	button->value(true);
+	sg.add_button("adjust settings", [&]() { pupil_tracker->show_gui(); }, 1, 0);
+	sg.finish();
+
 	setup(simd_width, PUPIL_TRACKING_PUREST);
 
 	// generate a random image
@@ -29,7 +45,6 @@ void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 	cv::Mat frame;
 	cv::Mat frame_gray;
 	
-	auto capture = select_camera("select the eye camera id:", eye_cam_id);
 
 
 	Timer timer(100);
@@ -37,7 +52,7 @@ void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 	{
 
 		// read a frame from the camera
-		capture->read(frame);
+		eye_cam->read(frame);
 
 		// Apply the classifier to the frame
 		if (!frame.empty())
@@ -62,6 +77,7 @@ void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 			cv::imshow("eye_cam", frame);
 		}
 		cv::waitKey(1);
+		sg.update();
 	}
 }
 

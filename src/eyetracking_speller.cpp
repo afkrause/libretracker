@@ -63,9 +63,9 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_button("scene-cam", [&]() { scene_cam_controls.setup(scene_camera, 20, 20, 400, 400, "Scene-Camera Controls"); }, 3, 2, "adjust the scene-camera settings.");
 
 	sg.add_separator_box("3. select Pupil-Tracking algorithm:");
-	sg.add_radio_button("Timm's algorithm", [&,s = simd_width]() { Pupil_tracking::setup(s, PUPIL_TRACKING_TIMM); });
-	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); });
-	auto button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); });
+	sg.add_radio_button("Timm's algorithm", [&,s = simd_width]() { Pupil_tracking::setup(s, PUPIL_TRACKING_TIMM); },1,0, "Timms Algorithm is a gradient based algorithm. License: GPL3.");
+	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); }, 1, 0, "PuRe is a high accuracy- and performance algorithm from the university of tübingen. License: research only! You are not allowed to use this algorithm and its code for commercial applications.");
+	auto button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); }, 1, 0, "PuReST is a high accuracy - and performance algorithm from the university of tübingen.License: research only!You are not allowed to use this algorithm and its code for commercial applications.");
 	button->value(true);
 	sg.add_button("adjust settings", [&]() { pupil_tracker->show_gui(); }, 1, 0);
 
