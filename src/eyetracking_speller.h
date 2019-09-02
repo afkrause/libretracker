@@ -54,7 +54,7 @@ protected:
 	int tracking_lost_counter = 150;
 	
 
-	//Timer timer{50};
+	Timer timer{100,"\npupil tracking:"};
 
 	int key_pressed = -1;
 

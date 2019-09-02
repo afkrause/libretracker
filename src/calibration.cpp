@@ -256,7 +256,7 @@ void Calibration::draw_calibration(cv::Mat& frame_scene_cam, cv::Mat&  img_scree
 			}
 		}
 
-		// draw calibration marker animation effect (this is just eyecandy and has no relevance)
+		// draw calibration marker animation effect (this is just eyecandy and has little functional relevance)
 		// draws a "dust trail"
 		if (marker_calib_anim_fx > 0 && calibration_counter > 0)
 		{

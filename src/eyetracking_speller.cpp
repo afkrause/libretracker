@@ -137,14 +137,14 @@ void Eyetracking_speller::draw_instructions()
 
 	calibration.ar_canvas.draw(img_screen, 0, 0, w, h);
 
-	int y = mb + 25;
+	int y = 35;
 	auto print_txt = [&](const char * t)
 	{
-		putText(img_screen, t, Point2i(mb, y), FONT_HERSHEY_DUPLEX, 1, Scalar(255, 170, 0), 2);
+		putText(img_screen, t, Point2i(mb, y), FONT_HERSHEY_SIMPLEX, 1, Scalar(255, 170, 0), 2);
 		y += 35;
 	};
 
-	print_txt("1. Adjust the size of the window such that the scene camera");
+	print_txt("1. Adjust the window-size such that the scene camera");
 	print_txt("   can see all AR markers at your current distance.");
 	print_txt("2. Calibrate the eyetracker, then validate (optional).");
 	print_txt("3. Press the run button to start the speller.");
@@ -234,7 +234,7 @@ void Eyetracking_speller::update()
 	calibration.ar_canvas.marker_size = round(gui_param_marker_size);
 
 
-	//timer.tick();
+	
 
 	// read image data from eye- and scene camera
 	eye_camera->read(frame_eye_cam);
@@ -250,8 +250,10 @@ void Eyetracking_speller::update()
 	timm.visualize_frame(frame_eye_gray, pupil_pos, pupil_pos_coarse);
 	*/
 
+	timer.tick();
 	pupil_tracker->update(frame_eye_cam);
 	pupil_pos = pupil_tracker->pupil_center();
+	timer.tock();
 
 	// ********************************************************
 	// map pupil position to scene camera position using calibrated 2d to 2d mapping
@@ -321,14 +323,13 @@ void Eyetracking_speller::run(enum_simd_variant simd_width,  int eye_cam_id, int
 	setup(simd_width);
 
 	// main loop
-	Timer timer(50);
+	Timer timer(350,"\nmain loop:");
 	while (is_running)
 	{
 		timer.tick();
 		// for gui stuff
 		//opt = set_options(params);
 		//timm.set_options(opt);
-
 		Pupil_tracking::update();
 		//Pupil_tracking::draw();
 		update();
