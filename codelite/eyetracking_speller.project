@@ -25,8 +25,17 @@
     <File Name="../src/pupil_tracking.h"/>
     <File Name="../src/speller_canvas.h"/>
     <File Name="../src/deps/timms_algorithm/src/timm.cpp"/>
-	<File Name="../src/opencl_kernel_include.cpp"/>
+    <File Name="../src/opencl_kernel_include.cpp"/>
     <File Name="../src/deps/dependencies.h"/>
+    <File Name="../src/deps/tuebingen_pure/PupilDetectionMethod.cpp"/>
+    <File Name="../src/deps/tuebingen_pure/PuRe.cpp"/>
+    <File Name="../src/deps/tuebingen_pure/pupil-tracking/PupilTrackingMethod.cpp"/>
+    <File Name="../src/deps/tuebingen_pure/pupil-tracking/PuReST.cpp"/>
+    <File Name="../src/aruco_canvas.cpp"/>
+    <File Name="../src/helpers.cpp"/>
+    <File Name="../src/calibration.cpp"/>
+    <File Name="../src/pupil_tracker_timm.cpp"/>
+    <File Name="../src/calibration.h"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>
@@ -43,8 +52,9 @@
         <IncludePath Value="."/>
         <IncludePath Value="/usr/local/include/opencv4"/>
         <IncludePath Value="/usr/include/eigen3"/>
-        <IncludePath Value="~/cpp/compute/include"/>
-        <IncludePath Value="deps/aruco"/>
+        <IncludePath Value="../src/deps/compute/include"/>
+        <IncludePath Value="../src/deps/OpenCL-Headers"/>
+        <IncludePath Value="../src/deps/aruco"/>
       </Compiler>
       <Linker Options="" Required="yes">
         <Library Value="opencv_world"/>
@@ -163,6 +173,7 @@
         <Library Value="fltk_gl"/>
         <Library Value="GL"/>
         <Library Value="opencv_core"/>
+        <Library Value="opencv_video"/>
         <Library Value="opencv_videoio"/>
         <Library Value="opencv_imgcodecs"/>
         <Library Value="opencv_imgproc"/>

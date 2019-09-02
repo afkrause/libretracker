@@ -1,12 +1,13 @@
 
 #include "helpers.h"
-#include "deps/DeviceEnumerator.h"
 
 using namespace std;
 
 
 void draw_preview(cv::Mat& img_preview, cv::Mat& img_target, float scaling, int x, int y)
 {
+	if(img_preview.empty()){ return; }
+	
 	cv::Mat img_preview_scaled;
 	if (scaling == 1.0f)
 	{
@@ -26,6 +27,10 @@ void draw_preview(cv::Mat& img_preview, cv::Mat& img_target, float scaling, int 
 }
 
 
+
+#ifdef _WIN32
+#include "deps/DeviceEnumerator.h" 
+#endif
 
 shared_ptr<Camera> select_camera(string message, int id)
 {

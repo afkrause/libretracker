@@ -19,13 +19,14 @@ protected:
 	// best suited for 4-point calibration
 	auto polynomial_features(double x, double y) { Eigen::Matrix<double, 10, 1> v; v << 1.0f, x, y, x* y, x* x, y* y, x* x* x, y* y* y, x* y* y, x* x* y; return v; };
 	double mapping_error = 0;
+	int n_polynomial_features = 4;
 public:
 	void calibrate(int n_polynomial_features=4);
 	Eigen::MatrixXd validation_points, calibration_points, calibration_targets, W_calib;
 
 	cv::Point2f mapping_2d_to_2d(cv::Point2f p)
 	{
-		Eigen::Vector2d tmp = W_calib * polynomial_features(p.x, p.y);
+		Eigen::Vector2d tmp = W_calib * polynomial_features(p.x, p.y).block(0, 0, n_polynomial_features, 1);
 		return cv::Point2f(tmp(0), tmp(1));
 	}
 

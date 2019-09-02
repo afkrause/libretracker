@@ -20,8 +20,9 @@ void Calibration_base::setup(int n_calibration_points)
 
 }
 
-void Calibration_base::calibrate(int n_polynomial_features)
+void Calibration_base::calibrate(int n_polynomial_features_)
 {
+	n_polynomial_features = n_polynomial_features_;
 	if (n_polynomial_features < 3) { n_polynomial_features = 3; }
 	if (n_polynomial_features > 10) { n_polynomial_features = 10; }
 	using namespace Eigen;
@@ -90,6 +91,7 @@ void Calibration_base::calibrate(int n_polynomial_features)
 
 Calibration::Calibration()
 {
+	setup(5);
 	marker_detector_calib.setDictionary("assets/calibration_marker_5x5.dict");
 	img_marker_calib = imread("assets/calibration_marker.png");
 	resize(img_marker_calib, img_marker_calib_scaled, Size(marker_size, marker_size));
