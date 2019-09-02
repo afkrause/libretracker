@@ -5,8 +5,6 @@
 #include <Eigen/SVD>
 #include <Eigen/QR>
 
-#define EYETRACKING_SPELLER_DEMO
-
 #include "aruco_canvas.h"
 #include "speller_canvas.h"
 #include "pupil_tracking.h"
@@ -42,7 +40,7 @@ protected:
 	Speller_canvas speller;
 
 	//shared_ptr<cv::VideoCapture> eye_camera, scene_camera;
-	shared_ptr<Camera> scene_camera;
+	std::shared_ptr<Camera> scene_camera;
 
 
 

@@ -1,4 +1,8 @@
+#include "helpers.h"
 #include "pupil_tracking.h"
+#include "deps/s/cv_camera_control.h"
+
+using namespace std;
 
 
 void Pupil_tracking::setup(enum_simd_variant simd_width, enum_pupil_tracking_variant pupil_tracking_variant)
@@ -62,8 +66,6 @@ void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id)
 
 			/*
 			cv::cvtColor(frame, frame_gray, cv::COLOR_BGR2GRAY);
-
-			if (opt.blur > 0) { GaussianBlur(frame_gray, frame_gray, cv::Size(opt.blur, opt.blur), 0); }
 
 			timer.tick();
 			// auto[pupil_pos, pupil_pos_coarse] = ...  (structured bindings available with C++17)

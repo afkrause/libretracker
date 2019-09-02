@@ -1,5 +1,7 @@
+#include "helpers.h"
 #include "eyetracking_speller.h"
 
+using namespace std;
 
 static void mouse_callback(int event, int x, int y, int, void* user_data)
 {
@@ -243,7 +245,6 @@ void Eyetracking_speller::update()
 	// get pupil position
 	/*
 	cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
-	if (opt.blur > 0) { GaussianBlur(frame_eye_gray, frame_eye_gray, cv::Size(opt.blur, opt.blur), 0); }
 	std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
 	
 	timm.visualize_frame(frame_eye_gray, pupil_pos, pupil_pos_coarse);
@@ -437,7 +438,6 @@ void Eyetracking_speller::run_ssvep()
 			// get pupil position
 			/*
 			cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
-			if (opt.blur > 0) { GaussianBlur(frame_eye_gray, frame_eye_gray, cv::Size(opt.blur, opt.blur), 0); }
 			std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
 			*/
 			pupil_tracker->update(frame_eye_cam);

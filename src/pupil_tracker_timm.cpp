@@ -1,8 +1,9 @@
+#include "helpers.h"
 #include "pupil_tracking.h"
 
 #include <random>
 
-
+using namespace std;
 
 void Pupil_tracker_timm::draw(cv::Mat& img)
 {
@@ -16,6 +17,9 @@ void Pupil_tracker_timm::draw(cv::Mat& img)
 
 
 	timm.visualize_frame(img, pupil_pos, pupil_pos_coarse);
+
+	timm.stage1.visualize(50,  660, debug_toggles, "stage 1");
+	timm.stage2.visualize(50, 1000, debug_toggles, "stage 2");
 }
 
 void Pupil_tracker_timm::setup(enum_simd_variant simd_width)
@@ -47,13 +51,10 @@ void Pupil_tracker_timm::update(cv::Mat& eye_cam_frame)
 		do_init_windows = true;
 		cout << "reinit windows..\n";
 	}
-	timm.set_debug_toggles(debug_toggles);
 
 
 	// calc pupil center
 	cv::cvtColor(eye_cam_frame, frame_gray, cv::COLOR_BGR2GRAY);
-
-	if (opt.blur > 0) { GaussianBlur(frame_gray, frame_gray, cv::Size(opt.blur, opt.blur), 0); }
 
 	std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_gray);
 
@@ -68,7 +69,6 @@ void Pupil_tracker_timm::update(cv::Mat& eye_cam_frame)
 	//if ((char)c == 'f') { cv::imwrite("frame.png", frame); }
 	//if (c != -1) { cout << "key code: " << int(c) << endl; }
 
-	debug_window_pos_x = 20; // reset
 
 	Fl::check();
 
@@ -246,7 +246,8 @@ Eigen::VectorXf Pupil_tracker_timm_tests::eval_fitness(Eigen::VectorXf params, c
 		error[i] = cv::norm(ground_truth[idx[i]] - cv::Point2f(pupil_pos));
 
 		// temporary, for speed tests
-		timings_vector.push_back(timm.get_timings());
+		// timings_vector.push_back(timm.get_timings());
+
 		//*
 		if (visualize)
 		{

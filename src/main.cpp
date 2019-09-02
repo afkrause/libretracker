@@ -47,6 +47,7 @@
 #include "deps/cpu_features/cpu_x86.h"
 #include "deps/DeviceEnumerator.h"
 #endif
+using namespace std;
 
 
 // hack because openCV has no flexible window handling
@@ -85,6 +86,20 @@ PRINT_MENU:
 	case 5: f5(); break;
 	default: cerr << "wrong input. please try again:" << endl; goto PRINT_MENU;
 	}
+}
+
+
+
+#include <FL/fl_ask.H>
+
+// converts a string into for example a float value
+template <class T> T string2val(const char* s)
+{
+	stringstream conv;
+	conv.str(s);
+	T val;
+	conv >> val;
+	return val;
 }
 
 

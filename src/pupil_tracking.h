@@ -5,7 +5,8 @@
 #include "deps/DeviceEnumerator.h"
 #endif
 
-#include "timm_two_stage.h"
+#include "deps/timms_algorithm/src/timm_two_stage.h"
+#include "deps/s/cv_camera_control.h"
 #include <atomic>
 
 
@@ -78,7 +79,7 @@ class Pupil_tracker_purest : public Pupil_tracker_base
 {
 protected:
 	PuRe pupil_detect;
-	unique_ptr<PupilTrackingMethod> pupil_tracking;
+	std::unique_ptr<PupilTrackingMethod> pupil_tracking;
 	Pupil pupil;
 	int frame_counter = 0;
 public:
@@ -87,7 +88,7 @@ public:
 public:
 	virtual void setup(enum_simd_variant simd_width)
 	{
-		pupil_tracking = make_unique<PuReST>();
+		pupil_tracking = std::make_unique<PuReST>();
 		frame_counter = 0;
 	}
 
@@ -134,12 +135,12 @@ public:
 	};
 
 	using options_type = typename Timm_two_stage::options;
-	using params_type = array<double, 11>;
+	using params_type = std::array<double, 11>;
 
 
 	// allowed sizes for the kernels
-	const array<float, 5> sobel_kernel_sizes{ -1, 1, 3, 5, 7 };
-	const array<float, 16> blur_kernel_sizes{ 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29 };
+	const std::array<float, 5> sobel_kernel_sizes{ -1, 1, 3, 5, 7 };
+	const std::array<float, 16> blur_kernel_sizes{ 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29 };
 
 	// helper functions for the fltk gui
 	params_type  set_params(options_type opt);
@@ -149,9 +150,9 @@ public:
 	cv::Point pupil_pos, pupil_pos_coarse;
 
 	options_type opt;
-	array<double, 11> params;
-	array<bool, 4> debug_toggles{ false,false, false,false };
-	array<bool, 4> debug_toggles_old;
+	std::array<double, 11> params;
+	std::array<bool, 4> debug_toggles{ false,false, false,false };
+	std::array<bool, 4> debug_toggles_old;
 	bool do_init_windows = true;
 
 	
@@ -183,14 +184,14 @@ class Pupil_tracking
 {
 protected:
 	
-	shared_ptr<Pupil_tracker_base> pupil_tracker;
+	std::shared_ptr<Pupil_tracker_base> pupil_tracker;
 
 	std::atomic<bool> is_running; // must be atomic because it is later used to exit the asynchronous capture thread
 	
 public:
 
 	// TODO: proper encapsulation
-	shared_ptr<Camera> eye_camera;
+	std::shared_ptr<Camera> eye_camera;
 	cv::Mat frame_eye_cam;
 
 
@@ -218,7 +219,7 @@ public:
 	std::vector<std::array<float, 4>> timings_vector;
 
 	// fitness function
-	Eigen::VectorXf eval_fitness(Eigen::VectorXf params, const vector<int>& idx, const int n, const vector<cv::Mat>& images_all, const vector<cv::Point2f>& ground_truth, bool visualize, const int subsampling_width = 100);
+	Eigen::VectorXf eval_fitness(Eigen::VectorXf params, const std::vector<int>& idx, const int n, const std::vector<cv::Mat>& images_all, const std::vector<cv::Point2f>& ground_truth, bool visualize, const int subsampling_width = 100);
 
 	// evaluate the best parameter set over ALL images of the EXCUSE and ELSE dataset
 	// run tests on different datasets

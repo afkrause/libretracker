@@ -1,3 +1,3 @@
 #ifdef OPENCL_ENABLED
-#include "opencl_kernel.cpp"
+#include "deps/timms_algorithm/src/opencl_kernel.cpp"
 #endif
