@@ -107,6 +107,8 @@ endif()
 include_directories (${EIGEN3_INCLUDE_DIR})
 include_directories (${OPENCV_INCLUDE_DIR})
 include_directories (${FLTK_INCLUDE_DIR})
+include_directories ("/usr/local/include/opencv4/") # for some unknown reasons cmake and opencv4 do not get along well on raspberry pi 4.. 
+include_directories ("src/deps/aruco/")
 
 
 if (OPENCL_ENABLED)
@@ -143,7 +145,7 @@ add_executable(libretracker ${SOURCES})
 # target_compile_features(libretracker PUBLIC cxx_std_14) # this is the better way
 
 if (UNIX)
-target_link_libraries(libretracker GL pthread)
+target_link_libraries(libretracker GL pthread ${OpenCV_LIBS} ${FLTK_LIBRARIES})
 endif()
 
 if (OPENCL_ENABLED)
