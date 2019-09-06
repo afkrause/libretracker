@@ -4,30 +4,25 @@ include_directories(.)
 
 SET(sources
     cameraparameters.cpp  debug.cpp             dictionary.cpp       ippe.cpp    markerdetector.cpp       markerlabeler.cpp  posetracker.cpp
-    cvdrawingutils.cpp    dictionary_based.cpp   marker.cpp  markerdetector_impl.cpp  markermap.cpp
+    cvdrawingutils.cpp    dictionary_based.cpp   marker.cpp  markerdetector_impl.cpp  markermap.cpp  fractaldetector.cpp
     )
 SET(headers
     aruco_cvversioning.h  cameraparameters.h  dictionary_based.h  ippe.h            markerdetector_impl.h  markermap.h    timers.h
     aruco_export.h        cvdrawingutils.h    dictionary.h        levmarq.h         marker.h               picoflann.h
-    aruco.h               debug.h               markerdetector.h  markerlabeler.h        posetracker.h
+    aruco.h               debug.h               markerdetector.h  markerlabeler.h        posetracker.h fractaldetector.h
     )
-IF(BUILD_FRACTALS)
-set(fractal_sources
-    fractaldetector.cpp
+ set(fractal_sources
     fractallabelers/fractalposetracker.cpp
     fractallabelers/fractalmarkerset.cpp
     fractallabelers/fractalmarker.cpp
     fractallabelers/fractallabeler.cpp
     )
-set(fractal_headers
-
-    fractaldetector.h
+set(fractal_headers   
     fractallabelers/fractalposetracker.h
     fractallabelers/fractalmarkerset.h
     fractallabelers/fractalmarker.h
     fractallabelers/fractallabeler.h
     )
-ENDIF()
 
 add_library(${LIBNAME} ${sources} ${headers} ${fractal_sources} ${fractal_headers})
  
@@ -53,6 +48,7 @@ INSTALL(TARGETS ${LIBNAME}
     ARCHIVE DESTINATION lib COMPONENT main)			# Install the dll.a file in lib directory
 
 IF(ARUCO_DEVINSTALL)
-  install(FILES ${headers} ${fractal_headers} DESTINATION include/aruco)
+  install(FILES ${headers}  DESTINATION include/aruco)
+    install(FILES ${fractal_headers} DESTINATION include/aruco/fractallabelers)
 ENDIF()
  

@@ -7,3 +7,10 @@
 [submodule "src/deps/OpenCL-Headers"]
 	path = src/deps/OpenCL-Headers
 	url = https://github.com/KhronosGroup/OpenCL-Headers.git
+[submodule "src/deps/tuebingen_pure"]
+	path = src/deps/tuebingen_pure
+	url = https://github.com/afkrause/tuebingen_pure.git
+	branch = master
+[submodule "src/deps/timms_algorithm"]
+	path = src/deps/timms_algorithm
+	url = https://github.com/afkrause/timms_algorithm.git

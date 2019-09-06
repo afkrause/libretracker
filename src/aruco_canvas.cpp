@@ -2,7 +2,7 @@
 
 #include <limits>
 
-void Aruco_canvas::setup()
+void Aruco_canvas::setup(bool use_enclosed_markers)
 {
 
 	using namespace cv;
@@ -22,7 +22,19 @@ void Aruco_canvas::setup()
 
 
 	// load 4 markers
-	array<string, 4> marker_file_names{ "marker_1.jpg", "marker_5.jpg", "marker_10.jpg","marker_25.jpg" };
+	array<string, 4> marker_file_names;
+	if (use_enclosed_markers)
+	{
+		marker_file_names = array<string, 4>{ "aruco_00100_e.png", "aruco_00301_e.png", "aruco_00450_e.png", "aruco_00700_e.png" };
+	}
+	else
+	{
+		//marker_file_names = array<string, 4>{ "aruco_00100.png", "aruco_00301.png", "aruco_00450.png", "aruco_00700.png" };
+
+		// according to the aruco main developer, ARUCO_MIP_36h12 is the preferred dictionary. 
+		// https://stackoverflow.com/questions/50076117/what-are-the-advantages-disadvantages-between-the-different-predefined-aruco-d
+		marker_file_names = array<string, 4>{ "aruco_mip_36h12_00002.png", "aruco_mip_36h12_00004.png", "aruco_mip_36h12_00006.png", "aruco_mip_36h12_00008.png" };
+	}
 
 	for (size_t i = 0; i < marker_file_names.size(); i++)
 	{
@@ -31,6 +43,19 @@ void Aruco_canvas::setup()
 	}
 
 	for (auto& p : image_plane) { p = Point2f(NAN, NAN); }
+
+	// set_detection_size(0.008f);
+	using namespace aruco;
+	auto p = MarkerDetector::Params();
+	
+	//p.setDetectionMode(DM_NORMAL, 0.005f);// min_marker_size); // NORMAL mode is slow and it does not work with enclosed markers (bug?)
+	//p.setDetectionMode(DM_VIDEO_FAST, 0); // this mode sometimes seems to be a bit unreliable. but might better for raspberry pi (higher speed)
+	p.setDetectionMode(DM_FAST, 0.0f); // best option currently
+	p.setCornerRefinementMethod(CORNER_SUBPIX);
+	if (use_enclosed_markers) { p.detectEnclosedMarkers(true); } // with enclosed markers, corners jitter less, BUT markers need to be much larger to get detected..
+	MDetector.setParameters(p);
+	MDetector.setDictionary("ARUCO_MIP_36h12"); // according to the aruco main developer, ARUCO_MIP_36h12 is the preferred dictionary. 
+
 }
 
 
@@ -38,7 +63,7 @@ void Aruco_canvas::draw(cv::Mat& img, const int x, const int y, const int w, con
 {
 	using namespace cv;
 
-	const unsigned int b = marker_border; // marker border to leave between screen border and marker
+	const unsigned int b = 0; // marker border to leave between screen border and marker
 	const unsigned int s = marker_size;
 	img_markers[0].copyTo(img(Rect(b, b, s, s)));
 	img_markers[1].copyTo(img(Rect(w - s - b, b, s, s)));
@@ -48,7 +73,7 @@ void Aruco_canvas::draw(cv::Mat& img, const int x, const int y, const int w, con
 
 	// draw the active area
 	const int n_subdiv = 10;
-	auto mb = marker_size + marker_border;
+	auto mb = marker_size ;
 	float area_w = w - 2 * mb;
 	float area_h = h - 2 * mb;
 
@@ -95,6 +120,17 @@ void Aruco_canvas::draw_detected_markers(cv::Mat& img)
 
 }
 
+/*
+void Aruco_canvas::set_detection_size(float minimum_procentual_marker_size)
+{
+	using namespace aruco;
+	auto p = MarkerDetector::Params();
+	p.setDetectionMode(DM_VIDEO_FAST, minimum_procentual_marker_size); // this mode sometimes seems to be a bit unreliable. but might better for raspberry pi (higher speed)
+	//p.setDetectionMode(DM_FAST, min_marker_size);
+	MDetector.setParameters(p);
+}
+*/
+
 void Aruco_canvas::update(cv::Mat& img_cam)
 {
 	using namespace cv;
@@ -111,13 +147,12 @@ void Aruco_canvas::update(cv::Mat& img_cam)
 		marker_size_old = marker_size;
 	}
 
+	/*
 	if (min_marker_size != min_marker_size_old)
 	{
-		auto p = aruco::MarkerDetector::Params();
-		p.setDetectionMode(DM_VIDEO_FAST, min_marker_size);
-		MDetector.setParameters(p);
 		min_marker_size_old = min_marker_size;
 	}
+	*/
 
 	// detect aruco markers
 	// Ok, let's detect
@@ -132,10 +167,18 @@ void Aruco_canvas::update(cv::Mat& img_cam)
 	{
 		if (m.isValid() && m.size() == 4)
 		{
-			if (m.id == 1) { image_plane[0] = m[2]; n_visible_markers++; }
-			if (m.id == 5) { image_plane[1] = m[3]; n_visible_markers++; }
-			if (m.id == 10) { image_plane[2] = m[0]; n_visible_markers++; }
-			if (m.id == 25) { image_plane[3] = m[1]; n_visible_markers++; }
+			/*
+			if (m.id == 100) { image_plane[0] = m[2]; n_visible_markers++; }
+			if (m.id == 301) { image_plane[1] = m[3]; n_visible_markers++; }
+			if (m.id == 450) { image_plane[2] = m[0]; n_visible_markers++; }
+			if (m.id == 700) { image_plane[3] = m[1]; n_visible_markers++; }
+			//*/
+			//*
+			if (m.id == 2) { image_plane[0] = m[2]; n_visible_markers++; }
+			if (m.id == 4) { image_plane[1] = m[3]; n_visible_markers++; }
+			if (m.id == 6) { image_plane[2] = m[0]; n_visible_markers++; }
+			if (m.id == 8) { image_plane[3] = m[1]; n_visible_markers++; }
+			//*/
 		}
 	}
 }

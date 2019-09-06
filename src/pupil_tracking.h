@@ -1,40 +1,128 @@
 #pragma once
 
 #include "deps/dependencies.h"
-
 #ifdef _WIN32
 #include "deps/DeviceEnumerator.h"
 #endif
 
-#include "timm_two_stage.h"
-
-
+#include "deps/timms_algorithm/src/timm_two_stage.h"
+#include "deps/s/cv_camera_control.h"
 #include <atomic>
 
-class Pupil_tracking
+
+enum enum_pupil_tracking_variant
 {
+	PUPIL_TRACKING_TIMM,
+	PUPIL_TRACKING_PURE,
+	PUPIL_TRACKING_PUREST
+};
 
-protected:
+/*
+class Pupil
+{
+public:
+	cv::Point2f center{ nan(), nan() };
+	cv::RotatedRect ellipse{ cv::Point2f{nan(), nan()}, cv::Size2f{nan(), nan()}, nan() };
+};
+*/
 
-	Timm_two_stage timm;
+// todo - use class Pupil 
+class Pupil_tracker_base
+{
+public:
+	virtual void setup(enum_simd_variant simd_width) = 0;
+	virtual void update(cv::Mat& eye_cam_frame) = 0;	
+	virtual cv::Point2f pupil_center() = 0;
+	
+	virtual void draw(cv::Mat& img) { }
+	virtual void show_gui() {}
+};
 
 
-	std::vector<std::array<float, 4>> timings_vector;
-	//cv::RNG rng(12345);
+#include "deps/tuebingen_pure/PuRe.h"
+#include "deps/tuebingen_pure/pupil-tracking/PuReST.h"
+class Pupil_tracker_pure : public Pupil_tracker_base
+{
+protected: 
+	PuRe pupil_detector;
+	Pupil pupil;
 
-	// toggle a debug window
-	void toggle(bool& b)
+public:
+	cv::Mat frame_gray;
+
+public:
+	virtual void setup(enum_simd_variant simd_width)
 	{
-		if (b) { b = false; }
-		else { b = true; }
+
+	}
+
+	virtual void update(cv::Mat& eye_cam_frame)
+	{
+		cv::cvtColor(eye_cam_frame, frame_gray, cv::COLOR_BGR2GRAY);
+		pupil = pupil_detector.run(frame_gray);
+	}
+
+	virtual void draw(cv::Mat& img)
+	{
+		cv::circle(img, pupil.center, 4, cv::Scalar(255, 0, 255), 2);
 	}
 
 
+	virtual cv::Point2f pupil_center()
+	{
+		return pupil.center;
+	}
 
-	// fitness function
-	Eigen::VectorXf eval_fitness(Eigen::VectorXf params, const vector<int>& idx, const int n, const vector<cv::Mat>& images_all, const vector<cv::Point2f>& ground_truth, bool visualize, const int subsampling_width = 100);
+};
+
+class Pupil_tracker_purest : public Pupil_tracker_base
+{
+protected:
+	PuRe pupil_detect;
+	std::unique_ptr<PupilTrackingMethod> pupil_tracking;
+	Pupil pupil;
+	int frame_counter = 0;
+public:
+	cv::Mat frame_gray;
+
+public:
+	virtual void setup(enum_simd_variant simd_width)
+	{
+		pupil_tracking = std::make_unique<PuReST>();
+		frame_counter = 0;
+	}
+
+	virtual void update(cv::Mat& eye_cam_frame)
+	{
+		// for now, roi is as large as whole eye cam frame
+		// TODO: user selectabel roi
+		cv::Rect roi(0, 0, eye_cam_frame.cols, eye_cam_frame.rows);
+		cv::cvtColor(eye_cam_frame, frame_gray, cv::COLOR_BGR2GRAY);
+		pupil_tracking->run(frame_counter, frame_gray, roi, pupil, pupil_detect);
+		frame_counter++;
+	}
+
+	virtual void draw(cv::Mat& img)
+	{
+		cv::circle(img, pupil.center, 4, cv::Scalar(255, 0, 255), 2);
+	}
 
 
+	virtual cv::Point2f pupil_center()
+	{
+		return pupil.center;
+	}
+
+};
+
+class Pupil_tracker_timm : public Pupil_tracker_base
+{
+
+public:
+	Timm_two_stage timm; // todo.. move to protected 
+//protected: 
+	cv::Mat frame_gray;
+	
 
 	enum enum_parameter_settings
 	{
@@ -47,39 +135,67 @@ protected:
 	};
 
 	using options_type = typename Timm_two_stage::options;
-	using params_type = array<double, 11>;
+	using params_type = std::array<double, 11>;
 
-	options_type decode_genom(Eigen::VectorXf params);
-	options_type load_parameters(enum_parameter_settings s);
 
 	// allowed sizes for the kernels
-	const array<float, 5> sobel_kernel_sizes{ -1, 1, 3, 5, 7 };
-	const array<float, 16> blur_kernel_sizes{ 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29 };
+	const std::array<float, 5> sobel_kernel_sizes{ -1, 1, 3, 5, 7 };
+	const std::array<float, 16> blur_kernel_sizes{ 0, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29 };
 
 	// helper functions for the fltk gui
-	params_type  set_params (options_type opt);
+	params_type  set_params(options_type opt);
 	options_type set_options(params_type params);
 
 
-	// generic opencv camera selection dialog
-	// if provided an camera id != -1, it tries to open this id. 
-	// if that fails, the selection dialog is presented (win32: including a list of available cameras)
-	shared_ptr<Camera> select_camera(string message = "select video camera nr. (default=0):", int id = -1);
-
+	cv::Point pupil_pos, pupil_pos_coarse;
 
 	options_type opt;
-	array<double, 11> params;
-	array<bool, 4> debug_toggles{ false,false, false,false };
-	std::atomic<bool> is_running; // must be atomic because it is later used to exit the asynchronous capture thread
-	double n_threads = 1;
+	std::array<double, 11> params;
+	std::array<bool, 4> debug_toggles{ false,false, false,false };
+	std::array<bool, 4> debug_toggles_old;
+	bool do_init_windows = true;
+
 	
+	double n_threads = 1;
+
 	Simple_gui sg;
+	void setup_gui();
+public: 
+
+	virtual void setup(enum_simd_variant simd_width);
+	virtual void update(cv::Mat& eye_cam_frame);
+	
+	virtual void draw(cv::Mat& img);
+	
+	virtual void show_gui() { sg.show(); }
+
+	virtual cv::Point2f pupil_center()
+	{
+		return pupil_pos;
+	}
+
+	// special to timms algorithm
+	options_type decode_genom(Eigen::VectorXf params);
+	options_type load_parameters(enum_parameter_settings s);
+
+};
+
+class Pupil_tracking
+{
+protected:
+	
+	std::shared_ptr<Pupil_tracker_base> pupil_tracker;
+
+	std::atomic<bool> is_running; // must be atomic because it is later used to exit the asynchronous capture thread
 	
 public:
 
-	//void setup_gui();
+	// TODO: proper encapsulation
+	std::shared_ptr<Camera> eye_camera;
+	cv::Mat frame_eye_cam;
 
-	void setup(enum_simd_variant simd_width);
+
+	void setup(enum_simd_variant simd_width, enum_pupil_tracking_variant pupil_tracking_variant);
 
 	void update()
 	{
@@ -87,14 +203,23 @@ public:
 	}
 
 
-	template<size_t n> string add_leading_zeros(string s)
-	{ auto to_add = clip<size_t>(n - s.length(), 0, n); for (size_t a = 0; a < to_add; a++) { s = "0" + s; }; return s; }
-
-
-	void setup_gui();
-
 	// capture from the usb webcam 
 	void run(enum_simd_variant simd_width, int eye_cam_id = -1);
+
+
+};
+
+class Pupil_tracker_timm_tests : public Pupil_tracker_timm
+{
+
+protected:
+
+public:
+
+	std::vector<std::array<float, 4>> timings_vector;
+
+	// fitness function
+	Eigen::VectorXf eval_fitness(Eigen::VectorXf params, const std::vector<int>& idx, const int n, const std::vector<cv::Mat>& images_all, const std::vector<cv::Point2f>& ground_truth, bool visualize, const int subsampling_width = 100);
 
 	// evaluate the best parameter set over ALL images of the EXCUSE and ELSE dataset
 	// run tests on different datasets
@@ -104,4 +229,3 @@ public:
 	void run_differential_evolution_optim(enum_simd_variant simd_width);
 
 };
-

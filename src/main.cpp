@@ -1,15 +1,18 @@
-
-
-// requires the corresponding SDK. Nvidia: CUDA SDK, AMD: AMDGPU-PRO or ROCm drivers come bundled with OpenCL libs
-// #define ENABLE_OPENCL_CODE 
+// OpenCL acceleration for timms algorithm 
+// requires the corresponding SDK. 
+// Nvidia: CUDA SDK, AMD: AMDGPU-PRO or ROCm drivers come bundled with OpenCL libs
 
 // libraries + paths (specific for my setup, adjust to your own paths)
+#ifdef OPENCL_ENABLED
+#pragma comment(lib, "opencl_cu10/lib/x64/opencl.lib")
+#endif
+
 #ifdef _DEBUG
-#pragma comment(lib, "opencv40/build/x64/vc15/lib/opencv_world401d.lib")
+#pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411d.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltkd.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltk_gld.lib")
 #else
-#pragma comment(lib, "opencv40/build/x64/vc15/lib/opencv_world401.lib")
+#pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif
@@ -18,9 +21,6 @@
 //#pragma comment(lib, "SDL2/lib/x64/SDL2.lib")
 //#pragma comment(lib, "SDL2/lib/x64/SDL2main.lib")
 
-
-
-#pragma comment(lib, "opencl_cu10/lib/x64/opencl.lib")
 
 #ifdef _WIN32
 #pragma comment(lib, "wsock32.lib")
@@ -47,6 +47,7 @@
 #include "deps/cpu_features/cpu_x86.h"
 #include "deps/DeviceEnumerator.h"
 #endif
+using namespace std;
 
 
 // hack because openCV has no flexible window handling
@@ -67,13 +68,13 @@ PRINT_MENU:
 	
 	cout << "enter selection:\n";
 	int sel = 0; cin >> sel;
-
-	auto f0 = [&]() {Pupil_tracking p; p.run(simd_width); };
-	auto f1 = [&]() {Eyetracking_speller p; p.run(simd_width); };
-	auto f2 = [&]() {Pupil_tracking p; p.run_lpw_test_all(simd_width); };
-	auto f3 = [&]() {Pupil_tracking p; p.run_swirski_test(simd_width); };
-	auto f4 = [&]() {Pupil_tracking p; p.run_excuse_test(simd_width); };
-	auto f5 = [&]() {Pupil_tracking p; p.run_differential_evolution_optim(simd_width); };
+	// TODO - selection menu for pupil tracking algorithm
+	auto f0 = [&]() {Pupil_tracking p; p.run(simd_width, PUPIL_TRACKING_TIMM); };
+	auto f1 = [&]() {Eyetracking_speller p; p.run(simd_width, PUPIL_TRACKING_TIMM); };
+	auto f2 = [&]() {Pupil_tracker_timm_tests p; p.run_lpw_test_all(simd_width); };
+	auto f3 = [&]() {Pupil_tracker_timm_tests p; p.run_swirski_test(simd_width); };
+	auto f4 = [&]() {Pupil_tracker_timm_tests p; p.run_excuse_test(simd_width); };
+	auto f5 = [&]() {Pupil_tracker_timm_tests p; p.run_differential_evolution_optim(simd_width); };
 
 	switch (sel)
 	{
@@ -85,6 +86,20 @@ PRINT_MENU:
 	case 5: f5(); break;
 	default: cerr << "wrong input. please try again:" << endl; goto PRINT_MENU;
 	}
+}
+
+
+
+#include <FL/fl_ask.H>
+
+// converts a string into for example a float value
+template <class T> T string2val(const char* s)
+{
+	stringstream conv;
+	conv.str(s);
+	T val;
+	conv >> val;
+	return val;
 }
 
 
@@ -105,9 +120,11 @@ int main(int argc, char* argv[])
 		//*/
 
 		#ifdef _WIN32
-		// first, detect CPU and OS features
-		cout << "CPU Vendor String: " << cpu_feature_detector::cpu_x86::get_vendor_string() << endl;
-		cout << endl;
+		// first, detect CPU and OS features		
+		// disabled for now, because this crashes on Intel Atom x5 .. 
+//		cout << "CPU Vendor String: " << cpu_feature_detector::cpu_x86::get_vendor_string() << endl;
+//		cout << endl;
+		
 		cpu_feature_detector::cpu_x86 cpu_features;
 		cpu_features.detect_host();
 		cpu_features.print();
@@ -117,7 +134,7 @@ int main(int argc, char* argv[])
 		if (true)
 		{
 			// use graphical gui to select program options
-			Simple_gui sg(150, 150, 400, 550, "== Program Settings ==");
+			Simple_gui sg(150, 150, 400, 700, "== Program Settings ==");
 
 			enum_simd_variant simd_width = USE_NO_VEC;
 			sg.add_separator_box("Vectorization Level:");
@@ -244,7 +261,7 @@ int main(int argc, char* argv[])
 				sg.hide(); 
 				Fl::check(); 
 				Pupil_tracking p;
-				p.run(simd_width, eye_cam_id); 
+				p.run(simd_width, eye_cam_id);
 				is_running = false; 
 			});
 			
@@ -254,7 +271,7 @@ int main(int argc, char* argv[])
 				Fl::check(); 
 				Eyetracking_speller p;
 				cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
-				p.run(simd_width, eye_cam_id, scene_cam_id); 
+				p.run(simd_width, eye_cam_id, scene_cam_id);
 				is_running = false; 
 			});
 
@@ -307,8 +324,3 @@ int main(int argc, char* argv[])
 
 	return EXIT_SUCCESS;
 }
-
-
-#ifdef USE_OPENCL
-#include "opencl_kernel.cpp"
-#endif
