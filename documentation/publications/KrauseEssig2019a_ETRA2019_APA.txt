@@ -1,0 +1,1 @@
+Krause, A. F., & Essig, K. (2019, June). Boosting speed- and accuracy of gradient based dark pupil tracking using vectorization and differential evolution. In Proceedings of the 11th ACM Symposium on Eye Tracking Research & Applications (p. 34). ACM.
