@@ -197,10 +197,16 @@ For now, we are using a 30 Hz infrared Delock webcam that cost around 50 euro:
 A slip-free and very comfortable way to mount the eye- and scene-cameras  is to use a head-band for welding / gardening tasks.
 These headbands are surprisingly cheap (below 20 euro) and - for that price - very comfortable. 
 
-Here is the very first prototype:
-![Prototype 01](documentation/images/headmount_proto_01.png)
+Headmount:
+![Headmount](documentation/images/low_cost_head_mounted_eyetracker_small.jpg)
 
-TODO picture of Headmount Version 01 
+Eye Camera:
+![Eye-Camera](documentation/images/eye_cam_small.jpg)
+
+
+
+
+
 
 We greatly thank Javier Skorupski for designing the 3d printable part for mounting the camera to the headband. 
 If you like, Please drop him an email to thank him ! javier.skorupski@hsrw.org
