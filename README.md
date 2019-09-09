@@ -9,16 +9,28 @@ Hence, you can use any UVC compliant Webcam.
 It is important to disable the autofocus of both the eye- and scene camera using the built-in camera settings. 
 Otherwise, calibration won't work properly.
 A problem  is the poor standardisation among UVC webcams.
-For some cameras the OpenCV based camera controls might work, for others they might fail. 
+For some cameras the OpenCV based camera controls (focus, exposure, gain) might work, for others they might fail. 
 
-tested, working cameras:
+#### References, Papers
+If you would like to cite Libretracker, please use:
+
+Krause, A. F., & Essig, K. (2019). LibreTracker: A Free and Open-source Eyetracking Software for head-mounted Eyetrackers. In 20th European Conference on Eye Movements, (ECEM 2019) (p. 391)
+[KrauseEssig2019b_ECEM2019_APA.bib](documentation/publications/KrauseEssig2019b_ECEM2019_APA.bib), 
+[poster.pdf](documentation/publications/KrauseEssig2019b_poster_ecem2019_v2.pdf)
+
+
+Krause, A. F., & Essig, K. (2019). Boosting speed- and accuracy of gradient based dark pupil tracking using vectorization and differential evolution. In Proceedings of the 11th ACM Symposium on Eye Tracking Research & Applications (p. 34). ACM.
+[KrauseEssig2019a_ETRA2019.bib](documentation/publications/KrauseEssig2019a_ETRA2019.bib), 
+[KrauseEssig2019a_etra2019_paper130.pdf](documentation/publications/KrauseEssig2019a_etra2019_paper130.pdf)
+
+#### tested, working cameras:
 
 cameras of a usual DIY Pupil Labs Eyetracker: https://docs.pupil-labs.com/#diy
 * Microsoft Lifecam HD 6000
 * Logitech HD Webcam C615
-
-other cameras:
 * Logitech QuickCam Pro 9000
+* DeLock Infrared USB Camera 96371 (see [DIY Hardware](#hardware))
+
 
 
 ## License
