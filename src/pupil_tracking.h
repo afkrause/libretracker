@@ -65,6 +65,11 @@ public:
 	virtual void draw(cv::Mat& img)
 	{
 		cv::circle(img, pupil.center, 4, cv::Scalar(255, 0, 255), 2);
+
+		if (pupil.size.width > 0 && pupil.size.height > 0)
+		{
+			cv::ellipse(img, pupil, cv::Scalar(0, 255, 0), 1);
+		}
 	}
 
 
@@ -105,6 +110,10 @@ public:
 	virtual void draw(cv::Mat& img)
 	{
 		cv::circle(img, pupil.center, 4, cv::Scalar(255, 0, 255), 2);
+		if(pupil.size.width > 0 && pupil.size.height > 0)
+		{
+			cv::ellipse(img, pupil, cv::Scalar(0, 255, 0), 1);
+		}
 	}
 
 

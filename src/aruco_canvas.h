@@ -38,6 +38,8 @@ public:
 	// stores the points of the detected rectangle / image plane
 	plane_type image_plane;
 
+	std::array< std::array< cv::Point2f, 4>, 4> mutual_marker_offsets;
+
 	// use this plane definition with corners (0,0) - (1,1) 
 	// if an external application renders the AR Markers or of you use 
 	// "physical" / printed markers

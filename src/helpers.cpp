@@ -84,3 +84,15 @@ void grab_focus(const char* wname)
 	cv::destroyWindow(wname);
 	cv::namedWindow(wname);
 }
+
+
+string to_fourcc_string(int code)
+{
+	char fourCC[5];
+	for (int i = 0; i < 4; i++)
+	{
+		fourCC[3 - i] = code >> (i * 8);
+	}
+	fourCC[4] = '\0';
+	return string(fourCC);
+}

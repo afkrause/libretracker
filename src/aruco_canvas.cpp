@@ -162,10 +162,14 @@ void Aruco_canvas::update(cv::Mat& img_cam)
 
 	// check if all markers are visible 
 	n_visible_markers = 0;
-	for (auto& p : image_plane) { p = Point2f(std::numeric_limits<double>::quiet_NaN(), std::numeric_limits<double>::quiet_NaN()); }
+	std::array<bool, 4> marker_visible;
+
+	for (auto& p : image_plane) { p = Point2f(std::numeric_limits<float>::quiet_NaN(), std::numeric_limits<float>::quiet_NaN()); }
+	for (auto& b : marker_visible) { b = false; }
+	
 	for (auto& m : markers)
 	{
-		if (m.isValid() && m.size() == 4)
+		if (m.isValid() && m.size() == 4) // check if this marker is valid
 		{
 			/*
 			if (m.id == 100) { image_plane[0] = m[2]; n_visible_markers++; }
@@ -174,13 +178,63 @@ void Aruco_canvas::update(cv::Mat& img_cam)
 			if (m.id == 700) { image_plane[3] = m[1]; n_visible_markers++; }
 			//*/
 			//*
-			if (m.id == 2) { image_plane[0] = m[2]; n_visible_markers++; }
-			if (m.id == 4) { image_plane[1] = m[3]; n_visible_markers++; }
-			if (m.id == 6) { image_plane[2] = m[0]; n_visible_markers++; }
-			if (m.id == 8) { image_plane[3] = m[1]; n_visible_markers++; }
+			if (m.id == 2) { marker_visible[0] = true; image_plane[0] = m[2]; n_visible_markers++; } // lower right corner of the marker == top left edge of the image plane 
+			if (m.id == 4) { marker_visible[1] = true; image_plane[1] = m[3]; n_visible_markers++; } // lower left corner of the marker = top right edge of the image plane 
+			if (m.id == 6) { marker_visible[2] = true; image_plane[2] = m[0]; n_visible_markers++; } // upper  left corner of the marker = bottom right edge of the image plane 
+			if (m.id == 8) { marker_visible[3] = true; image_plane[3] = m[1]; n_visible_markers++; } // upper  right corner of the marker = bottom left edge of the image plane 
 			//*/
 		}
 	}
+
+	
+	//////////////////////////////////////////////////////////////////////////////
+	// calculate offsets and scalings to estimate position of invisible markers
+	// >> this is a coarse Heuristic, not a precise calculation ! <<
+	// TODO: extend heuristic to use direction vector from marker boarder + skaling + final offset correction	
+	
+	for (int i = 0; i < marker_visible.size(); i++)
+	{
+		if(marker_visible[i])
+		{
+			for (int k = 0; k < marker_visible.size(); k++)
+			{
+				if (k != i && marker_visible[k])
+				{
+					mutual_marker_offsets[i][k] = image_plane[k] - image_plane[i];
+				}
+			}
+		}
+	}
+
+	// apply offsets to estimate position of currently invisible markers
+	for (int i = 0; i < marker_visible.size(); i++)
+	{
+		if (!marker_visible[i])
+		{
+			Point2f average_position{ 0.0f, 0.0f };
+			int n = 0;
+			for (int k = 0; k < marker_visible.size(); k++)
+			{
+				if (k != i && marker_visible[k])
+				{
+					average_position += image_plane[k] - mutual_marker_offsets[i][k];
+					n++;
+				}
+			}
+
+			if (n > 0)
+			{
+				average_position /= float(n);
+				image_plane[i] = average_position;
+				// count up number of guestimated visible markers
+				n_visible_markers++;
+			}
+
+		}
+	}
+	// cout << "\n" << n_visible_markers; // debug
+	//////////////////////////////////////////////////////////////////////////////
+
 }
 
 

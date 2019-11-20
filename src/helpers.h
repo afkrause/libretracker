@@ -91,3 +91,5 @@ std::shared_ptr<Camera> select_camera(std::string message = "select video camera
 // helper function. when pressing a button in the fltk gui, 
 // calling this function grabs the focus of the specified opencv window
 void grab_focus(const char* wname);
+
+std::string to_fourcc_string(int code);
