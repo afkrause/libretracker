@@ -16,7 +16,10 @@ class Aruco_canvas
 protected:
 	std::array<cv::Mat, 4> img_markers_orig;
 	int marker_size_old = 120;
-	std::vector< aruco::Marker > markers;
+	
+	
+	// the relevant markers in this frame that have the proper ID for the canvas
+	std::array< aruco::Marker, 4> markers;
 
 	// ok == 4 if all four markers are detected.
 	int n_visible_markers = 0;
@@ -26,8 +29,45 @@ protected:
 	aruco::MarkerDetector MDetector;
 	std::array<cv::Mat, 4> img_markers;
 
+	// helpers for estimating the position of temporatily invisible / untrackable markers
+	/*
+	class Marker_estimation_features
+	{
+	public:
+		cv::Point2f offset; // the offset between two Markers (average over the difference between the 4 corresponding Corner Points)
+		cv::Vec2f direction_vector;
+		float scaling;
+	};
+	std::array< std::array<Marker_estimation_features, 4>, 4> marker_features;
+	*/
+	std::array< std::array<cv::Point2f, 4>, 4> mutual_marker_offsets;
+
+	void calc_canvas_plane_from_markers();
+
+	// track the canvas using all four markers, no marker prediction.
+	
+
+	// track the canvas and estimate the position of invisible / currently not trackable markers using a simple prediction:
+	// calculate the average over all marker offsets ( offsets = vectors from the non-trackable marker to the othe, still trackable markers)
+	void predict_markers_using_mutual_offsets();
+
+	// use the marker edges that point to the neighbouring markers and calculate the scaling that is required to let this edge vector point to the neighbouring marker
+	// this is better than the simple offset predictor, because it is mostly invariant to head rotations and distance changes,  
+	// but is prone to jitter if markers are too small. hence, here, larger markers should be used.
+	std::array< std::array<cv::Point2f, 4>, 4> edge_vec;
+	std::array< std::array<float, 4>, 4> edge_scale;
+	void predict_markers_using_edge_vectors();
 
 public:
+
+	enum enum_prediction_method
+	{
+		NO_MARKER_PREDICTION,
+		MARKER_PREDICTION_MUTUAL_OFFSETS,
+		MARKER_PREDICTION_EDGE_VECTORS
+	} prediction_method = MARKER_PREDICTION_EDGE_VECTORS;
+
+
 	// active area in screen coordinates
 	typedef std::array<cv::Point2f, 4> plane_type;
 
@@ -38,7 +78,6 @@ public:
 	// stores the points of the detected rectangle / image plane
 	plane_type image_plane;
 
-	std::array< std::array< cv::Point2f, 4>, 4> mutual_marker_offsets;
 
 	// use this plane definition with corners (0,0) - (1,1) 
 	// if an external application renders the AR Markers or of you use 

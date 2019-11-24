@@ -72,6 +72,7 @@ protected:
 		STATE_RUNNING
 	} state = STATE_INSTRUCTIONS;
 
+
 	// GUI
 	Simple_gui sg;
 	Camera_control eye_cam_controls;

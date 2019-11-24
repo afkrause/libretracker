@@ -50,7 +50,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 
 	// GUI
 	//sg = Simple_gui(min(Fl::w() - 200, 1420), 180, 400, 600);
-	sg = Simple_gui(20, 60, 400, 620);
+	sg = Simple_gui(20, 60, 400, 640);
 
 	sg.add_separator_box("1. adjust canvas size and AR-marker tracking:");
 	sg.add_slider("canvas width", gui_param_w, 640, 5000, 10, "Change the width of the canvas to fit your monitor size. Make sure that all screen-tracking markers fit into the field of view of the scene camera.");
@@ -58,6 +58,10 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_slider("AR marker size", gui_param_marker_size, 40, 400, 10, "Size of the AR markers in pixel. Larger values increase the robustness of marker tracking, but reduce the available screen space for e.g. the speller application.");
 	// sg.add_button("use enclosed markers", [&]() {calibration.ar_canvas.setup(true); },1,0,"use enclosed markers. corners jitter less, but markers need to be larger.");
 	// sg.add_slider("detection size", calibration.ar_canvas.min_marker_size, 0.005, 0.1, 0.001, "minimum detection size of a marker (in percent of total image area)");
+	sg.add_radio_button("no prediction", [&]() { calibration.ar_canvas.prediction_method = Aruco_canvas::NO_MARKER_PREDICTION; }, 3, 0, "No prediction of currently non-trackable / non-visible markers.");
+	sg.add_radio_button("mutual offsets", [&]() {calibration.ar_canvas.prediction_method = Aruco_canvas::MARKER_PREDICTION_MUTUAL_OFFSETS; }, 3, 1, "Marker Prediction using mutual offsets. Robust but inaccurate with head rotation and movements.");
+	auto button = sg.add_radio_button("edge vectors", [&]() {calibration.ar_canvas.prediction_method = Aruco_canvas::MARKER_PREDICTION_EDGE_VECTORS; }, 3, 2, "Marker Prediction using edge-vectors of visible markers. Robust to head movements- and rotations, but prone to jitter. Using larger markers reduces jitter.");
+	button->value(true);
 
 	sg.add_separator_box("2. adjust cameras:");
 	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 3, 0, "swap eye- and scene camera.");
@@ -67,7 +71,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_separator_box("3. select Pupil-Tracking algorithm:");
 	sg.add_radio_button("Timm's algorithm", [&,s = simd_width]() { Pupil_tracking::setup(s, PUPIL_TRACKING_TIMM); },1,0, "Timms Algorithm is a gradient based algorithm. License: GPL3.");
 	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); }, 1, 0, "PuRe is a high accuracy- and performance algorithm from the university of tübingen. License: research only! You are not allowed to use this algorithm and its code for commercial applications.");
-	auto button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); }, 1, 0, "PuReST is a high accuracy - and performance algorithm from the university of tübingen.License: research only!You are not allowed to use this algorithm and its code for commercial applications.");
+	button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); }, 1, 0, "PuReST is a high accuracy - and performance algorithm from the university of tübingen.License: research only!You are not allowed to use this algorithm and its code for commercial applications.");
 	button->value(true);
 	sg.add_button("adjust settings", [&]() { pupil_tracker->show_gui(); }, 1, 0);
 

@@ -2,6 +2,9 @@
 
 #include <limits>
 
+#include "helpers.h"
+
+
 void Aruco_canvas::setup(bool use_enclosed_markers)
 {
 
@@ -147,58 +150,78 @@ void Aruco_canvas::update(cv::Mat& img_cam)
 		marker_size_old = marker_size;
 	}
 
-	/*
-	if (min_marker_size != min_marker_size_old)
-	{
-		min_marker_size_old = min_marker_size;
-	}
-	*/
-
 	// detect aruco markers
-	// Ok, let's detect
-	markers = MDetector.detect(img_cam, CamParam, -1);
+	// Ok, let's detect all visible markers in this frame
+	auto all_markers = MDetector.detect(img_cam, CamParam, -1);
 
-
-
-	// check if all markers are visible 
-	n_visible_markers = 0;
-	std::array<bool, 4> marker_visible;
-
-	for (auto& p : image_plane) { p = Point2f(std::numeric_limits<float>::quiet_NaN(), std::numeric_limits<float>::quiet_NaN()); }
-	for (auto& b : marker_visible) { b = false; }
 	
-	for (auto& m : markers)
+	// find the relevant markers that define the canvas
+	for (auto& m : markers) { m = aruco::Marker(); }
+	n_visible_markers = 0; // count the number of visible markers
+	for (auto& m : all_markers)
 	{
-		if (m.isValid() && m.size() == 4) // check if this marker is valid
+		if (m.isValid())
 		{
-			/*
-			if (m.id == 100) { image_plane[0] = m[2]; n_visible_markers++; }
-			if (m.id == 301) { image_plane[1] = m[3]; n_visible_markers++; }
-			if (m.id == 450) { image_plane[2] = m[0]; n_visible_markers++; }
-			if (m.id == 700) { image_plane[3] = m[1]; n_visible_markers++; }
-			//*/
-			//*
-			if (m.id == 2) { marker_visible[0] = true; image_plane[0] = m[2]; n_visible_markers++; } // lower right corner of the marker == top left edge of the image plane 
-			if (m.id == 4) { marker_visible[1] = true; image_plane[1] = m[3]; n_visible_markers++; } // lower left corner of the marker = top right edge of the image plane 
-			if (m.id == 6) { marker_visible[2] = true; image_plane[2] = m[0]; n_visible_markers++; } // upper  left corner of the marker = bottom right edge of the image plane 
-			if (m.id == 8) { marker_visible[3] = true; image_plane[3] = m[1]; n_visible_markers++; } // upper  right corner of the marker = bottom left edge of the image plane 
-			//*/
+			if (m.id == 2) { markers[0] = m; n_visible_markers++; } 
+			if (m.id == 4) { markers[1] = m; n_visible_markers++; } 
+			if (m.id == 6) { markers[2] = m; n_visible_markers++; } 
+			if (m.id == 8) { markers[3] = m; n_visible_markers++; } 
 		}
 	}
-
 	
-	//////////////////////////////////////////////////////////////////////////////
-	// calculate offsets and scalings to estimate position of invisible markers
+
+	// first, calc the canvas plane coordinates from visible markers
+	calc_canvas_plane_from_markers();
+
+	switch (prediction_method)
+	{
+	case NO_MARKER_PREDICTION: break;
+	case MARKER_PREDICTION_MUTUAL_OFFSETS:  predict_markers_using_mutual_offsets(); break;
+	case MARKER_PREDICTION_EDGE_VECTORS: predict_markers_using_edge_vectors(); break;
+	default: cerr << "\n wrong marker prediction method."; break;
+	};
+	
+}
+
+void Aruco_canvas::calc_canvas_plane_from_markers()
+{
+	for (auto& p : image_plane)
+	{
+		p = cv::Point2f(std::numeric_limits<float>::quiet_NaN(), std::numeric_limits<float>::quiet_NaN());
+	}
+
+
+	// index values for the marker edges ( e.g. 0 == upper left marker corner)
+	// 0     1
+	// +-----+
+	// |     |
+	// |     |
+	// +-----+
+	// 3     2
+
+	// extract the relevant edges of the markers that define the canvas plane
+	if (markers[0].isValid()) { image_plane[0] = markers[0][2]; } // lower right corner of the marker == top left edge of the image plane 
+	if (markers[1].isValid()) { image_plane[1] = markers[1][3]; } // lower left corner of the marker = top right edge of the image plane 
+	if (markers[2].isValid()) { image_plane[2] = markers[2][0]; } // upper  left corner of the marker = bottom right edge of the image plane 
+	if (markers[3].isValid()) { image_plane[3] = markers[3][1]; } // upper  right corner of the marker = bottom left edge of the image plane 
+}
+
+
+void Aruco_canvas::predict_markers_using_mutual_offsets()
+{
+	using namespace cv;
+
+	// calculate offsets to estimate position of invisible markers
 	// >> this is a coarse Heuristic, not a precise calculation ! <<
 	// TODO: extend heuristic to use direction vector from marker boarder + skaling + final offset correction	
-	
-	for (int i = 0; i < marker_visible.size(); i++)
+
+	for (int i = 0; i < markers.size(); i++)
 	{
-		if(marker_visible[i])
+		if(markers[i].isValid())
 		{
-			for (int k = 0; k < marker_visible.size(); k++)
+			for (int k = 0; k < markers.size(); k++)
 			{
-				if (k != i && marker_visible[k])
+				if (markers[k].isValid())
 				{
 					mutual_marker_offsets[i][k] = image_plane[k] - image_plane[i];
 				}
@@ -207,15 +230,15 @@ void Aruco_canvas::update(cv::Mat& img_cam)
 	}
 
 	// apply offsets to estimate position of currently invisible markers
-	for (int i = 0; i < marker_visible.size(); i++)
+	for (int i = 0; i < markers.size(); i++)
 	{
-		if (!marker_visible[i])
+		if (!markers[i].isValid())
 		{
 			Point2f average_position{ 0.0f, 0.0f };
 			int n = 0;
-			for (int k = 0; k < marker_visible.size(); k++)
+			for (int k = 0; k < markers.size(); k++)
 			{
-				if (k != i && marker_visible[k])
+				if (markers[k].isValid())
 				{
 					average_position += image_plane[k] - mutual_marker_offsets[i][k];
 					n++;
@@ -233,10 +256,84 @@ void Aruco_canvas::update(cv::Mat& img_cam)
 		}
 	}
 	// cout << "\n" << n_visible_markers; // debug
-	//////////////////////////////////////////////////////////////////////////////
-
 }
 
+void Aruco_canvas::predict_markers_using_edge_vectors()
+{
+	using namespace cv;
+
+	// helper lambda
+	// update both edge-vectors and scalings, if possible
+	auto update_vals = [&](int i, int k, int edge_1, int edge_2)
+	{
+		if (markers[i].isValid())
+		{
+			edge_vec[i][k] = markers[i][edge_2] - markers[i][edge_1];
+
+			if (markers[k].isValid())
+			{
+				auto v = Vec2f(image_plane[k] - image_plane[i]); // offset vector 
+				edge_scale[i][k] = norm(v) / norm(edge_vec[i][k]);
+			}
+		}
+	};
+
+	// index values for the marker edges ( e.g. 0 == upper left marker corner)
+	// 0     1
+	// +-----+
+	// |     |
+	// |     |
+	// +-----+
+	// 3     2
+
+	// update all relevant edge-vectors and mutual scalings for markers that are visible
+	update_vals(0, 1, 3, 2);
+	update_vals(0, 3, 1, 2);
+	
+	
+	update_vals(1, 0, 1, 0);
+	update_vals(1, 2, 0, 3);
+
+	update_vals(2, 3, 1, 0);
+	update_vals(2, 1, 3, 0);
+
+	update_vals(3, 0, 2, 1);
+	update_vals(3, 2, 0, 1);
+	
+
+	// helper lambda
+	// accumulate and average in one run, respecting NaN
+	auto accum_avg = [](Point2f& img_plane_point, Point2f p)
+	{
+		if (isnan(img_plane_point.x))
+		{
+			img_plane_point = p;
+		}
+		else
+		{
+			img_plane_point = 0.5f * (img_plane_point + p);
+		}
+	};
+
+	// apply offsets to estimate position of currently invisible markers
+	for (int k = 0; k < markers.size(); k++)
+	{
+		if (!markers[k].isValid())
+		{
+			Point2f average_position{ NaNf(), NaNf() };
+			for (int i = 0; i < markers.size(); i++)
+			{
+				if (markers[i].isValid() && norm(edge_vec[i][k]) > 0.0001)
+				{
+					accum_avg(image_plane[k], image_plane[i] + edge_vec[i][k] * edge_scale[i][k]);
+				}
+			}
+			// count up number of guestimated visible markers
+			if (!isnan(image_plane[k].x)) { n_visible_markers++; }
+		}
+	}
+
+}
 
 Eigen::Matrix<float, 3, 3> Aruco_canvas::calc_perspective_matrix(const std::array<cv::Point2f, 4> & ip, const std::array<cv::Point2f, 4> & wp)
 {

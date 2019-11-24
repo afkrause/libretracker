@@ -10,6 +10,7 @@
 
 
 constexpr auto nan() { return std::numeric_limits<double>::quiet_NaN(); }
+constexpr auto NaNf() { return std::numeric_limits<float>::quiet_NaN(); }
 
 
 // given input value x, set the output value to the closest value to x found in allowed_values
