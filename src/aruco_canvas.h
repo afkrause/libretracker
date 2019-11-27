@@ -54,7 +54,6 @@ protected:
 	// use the marker edges that point to the neighbouring markers and calculate the scaling that is required to let this edge vector point to the neighbouring marker
 	// this is better than the simple offset predictor, because it is mostly invariant to head rotations and distance changes,  
 	// but is prone to jitter if markers are too small. hence, here, larger markers should be used.
-	std::array< std::array<cv::Point2f, 4>, 4> edge_vec;
 	std::array< std::array<float, 4>, 4> edge_scale;
 	void predict_markers_using_edge_vectors();
 
@@ -102,6 +101,9 @@ public:
 	void draw(cv::Mat& img, const int x, const int y, const int w, const int h);
 
 	void draw_detected_markers(cv::Mat& img);
+	
+	// blur markers in img such that there is no double-detection of e.g. markers in a  scenecam preview
+	void blur_detected_markers(cv::Mat& img); 
 
 	void update(cv::Mat& img_cam);
 

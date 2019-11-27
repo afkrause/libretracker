@@ -59,6 +59,8 @@ void Aruco_canvas::setup(bool use_enclosed_markers)
 	MDetector.setParameters(p);
 	MDetector.setDictionary("ARUCO_MIP_36h12"); // according to the aruco main developer, ARUCO_MIP_36h12 is the preferred dictionary. 
 
+
+	for (auto& es : edge_scale) { for (auto& s : es) { s = NaNf(); } }
 }
 
 
@@ -122,6 +124,29 @@ void Aruco_canvas::draw_detected_markers(cv::Mat& img)
 	}
 
 }
+
+void Aruco_canvas::blur_detected_markers(cv::Mat& img)
+{
+	using namespace cv;
+
+	// for each marker, draw info and its boundaries in the image
+	for (unsigned int i = 0; i < markers.size(); i++)
+	{
+		if (markers[i].isValid())
+		{
+			auto c = markers[i].getCenter();
+			auto r = markers[i].getRadius();
+			int x = c.x - r; if (x < 0) x = 0;
+			int y = c.y - r; if (y < 0) y = 0;
+			if (x + 2 * r > img.cols - 1) x = img.cols - 1 - 2 * r;
+			if (y + 2 * r > img.rows - 1) y = img.rows - 1 - 2 * r;
+			auto rect = Rect(x, y, 2 * r, 2 * r);
+			cv::GaussianBlur(img(rect), img(rect), Size(17, 17), 0); // in-place blur
+		}
+	}
+}
+
+
 
 /*
 void Aruco_canvas::set_detection_size(float minimum_procentual_marker_size)
@@ -261,9 +286,12 @@ void Aruco_canvas::predict_markers_using_mutual_offsets()
 void Aruco_canvas::predict_markers_using_edge_vectors()
 {
 	using namespace cv;
+	
+	std::array< std::array<cv::Point2f, 4>, 4> edge_vec;
+	for (auto& ev : edge_vec) { for (auto& v : ev) { v = Point2f(NaNf(), NaNf()); } }
 
 	// helper lambda
-	// update both edge-vectors and scalings, if possible
+	// calc edge-vectors and update scalings, if possible
 	auto update_vals = [&](int i, int k, int edge_1, int edge_2)
 	{
 		if (markers[i].isValid())
@@ -305,13 +333,13 @@ void Aruco_canvas::predict_markers_using_edge_vectors()
 	// accumulate and average in one run, respecting NaN
 	auto accum_avg = [](Point2f& img_plane_point, Point2f p)
 	{
-		if (isnan(img_plane_point.x))
+		if (isnan(img_plane_point.x)) // if NaN , first initialize using p
 		{
 			img_plane_point = p;
 		}
 		else
 		{
-			img_plane_point = 0.5f * (img_plane_point + p);
+			img_plane_point = 0.5f * (img_plane_point + p); // next, accumulate and average 
 		}
 	};
 

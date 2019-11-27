@@ -200,9 +200,15 @@ These headbands are surprisingly cheap (below 20 euro) and - for that price - ve
 Headmount:
 ![Headmount](documentation/images/low_cost_head_mounted_eyetracker_small.jpg)
 
+you can use a variety of headmounts for gardening work, welding or helmets. 
+One example:
+* https://www.ebay.de/itm/Gesichtsschutz-inkl-Klappvisier-Gesichtsschutzschirm-auch-im-Set-1-3-Visiere/171829030823
+
 Eye Camera:
 ![Eye-Camera](documentation/images/eye_cam_small.jpg)
 
+Close up of the Eye-Camera. Here you can see how we (currently suboptimally) added a small infrared LED to improve the eye - illumination. 
+We also placed a small piece of black, exposed photographic film over the camera. This serves as a basic infrared lowpass filter. 
 
 
 

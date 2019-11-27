@@ -70,8 +70,8 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 
 	sg.add_separator_box("3. select Pupil-Tracking algorithm:");
 	sg.add_radio_button("Timm's algorithm", [&,s = simd_width]() { Pupil_tracking::setup(s, PUPIL_TRACKING_TIMM); },1,0, "Timms Algorithm is a gradient based algorithm. License: GPL3.");
-	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); }, 1, 0, "PuRe is a high accuracy- and performance algorithm from the university of tübingen. License: research only! You are not allowed to use this algorithm and its code for commercial applications.");
-	button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); }, 1, 0, "PuReST is a high accuracy - and performance algorithm from the university of tübingen.License: research only!You are not allowed to use this algorithm and its code for commercial applications.");
+	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); }, 1, 0, "PuRe is a high accuracy- and performance algorithm from the university of tï¿½bingen. License: research only! You are not allowed to use this algorithm and its code for commercial applications.");
+	button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); }, 1, 0, "PuReST is a high accuracy - and performance algorithm from the university of tï¿½bingen.License: research only!You are not allowed to use this algorithm and its code for commercial applications.");
 	button->value(true);
 	sg.add_button("adjust settings", [&]() { pupil_tracker->show_gui(); }, 1, 0);
 
@@ -151,7 +151,16 @@ void Eyetracking_speller::draw_instructions()
 	print_txt("1. Adjust the window-size such that the scene camera");
 	print_txt("   can see all AR markers at your current distance.");
 	print_txt("2. Calibrate the eyetracker, then validate (optional).");
-	print_txt("3. Press the run button to start the speller.");
+	print_txt("3. Start the speller or stream the eyetracking data.");
+
+	// blur markers to avoid double detection of a marker inside the preview window
+	// TODO.. just blurring doesnt help..
+	// calibration.ar_canvas.blur_detected_markers(frame_scene_cam);
+	// TODO quick hack: just blur the border with a border width equal to the mean width of previously seen markers
+
+	// visualize marker detection 
+	calibration.ar_canvas.draw_detected_markers(frame_scene_cam);
+
 
 	draw_preview(frame_scene_cam, img_screen);
 
@@ -194,8 +203,6 @@ void Eyetracking_speller::draw()
 	// clear canvas
 	img_screen_background.copyTo(img_screen);
 
-	// visualize marker detection // TODO: move to subfunctions for different states
-	calibration.ar_canvas.draw_detected_markers(frame_scene_cam);
 
 	switch (state)
 	{
