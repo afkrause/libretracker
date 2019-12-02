@@ -17,6 +17,10 @@
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif
 
+#ifdef LSL_ENABLED
+#pragma comment(lib, "labstreaminglayer/build/install/LSL/lib/liblsl64.lib")
+#endif
+
 //#include<SDL2/SDL_main.h>
 //#pragma comment(lib, "SDL2/lib/x64/SDL2.lib")
 //#pragma comment(lib, "SDL2/lib/x64/SDL2main.lib")
