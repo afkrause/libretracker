@@ -46,6 +46,7 @@ protected:
 	void draw_calibration(cv::Mat& frame_scene_cam, cv::Mat& img_screen);
 	void draw_validation(cv::Mat& frame_scene_cam, cv::Mat& img_screen);
 	void draw_visualization(cv::Mat& frame_scene_cam, cv::Mat& img_screen);
+	void draw_observe(cv::Mat& frame_scene_cam, cv::Mat& img_screen);
 	int n_calib_points = 4;
 	cv::Point2f p_calibrated, p_projected;
 
@@ -77,6 +78,7 @@ public:
 		STATE_CALIBRATION,
 		STATE_VISUALIZE_CALIBRATION,
 		STATE_VISUALIZE_VALIDATION,
+		STATE_OBSERVE,
 		STATE_VALIDATION
 	} state = STATE_PREPARE;
 

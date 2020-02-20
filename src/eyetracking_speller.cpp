@@ -92,11 +92,12 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	
 	sg.add_separator_box("5. validate the calibration (optional):");
 	double n_validation_points = 5;
-	sg.add_slider("validation points", n_validation_points, 4, 20, 1,"Select the number of validation points.");
-	sg.add_slider("randomness [px]", n_validation_points, 0, 50, 1, "Select here, how much the validation points randomly deviate from the default validation positions.");
-	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 3, 0, "check the calibration by testing additional points. (optional)");
-	sg.add_button("visualize", [&]() { calibration.state = Calibration::STATE_VISUALIZE_VALIDATION;  }, 3, 1, "Visalizes the results of the validation.");
-	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 3, 2, "remove a potential systematic offset found after validation.");
+	sg.add_slider("validation points", n_validation_points, 4, 20, 1,"Select the number of validation-points.");
+	sg.add_slider("randomness [px]", n_validation_points, 0, 50, 1, "Select the random deviation of the generated validation-points from the default validation-point positions.");
+	sg.add_button("observe",	[&]() { calibration.state = Calibration::STATE_OBSERVE;  }, 4, 0, "Observe gaze relative to the scene camera. You can manually check if the calculated gaze point matches a fixated real world feature.");
+	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 4, 1, "Check the calibration by testing additional points. (optional)");
+	sg.add_button("visualize",	[&]() { calibration.state = Calibration::STATE_VISUALIZE_VALIDATION;  }, 4, 2, "Visalizes the results of the validation.");
+	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 4, 3, "Remove a potential systematic offset found after validation.");
 
 
 	sg.add_separator_box("6. run modules and adjust jitter filter:");
@@ -396,15 +397,15 @@ void Eyetracking_speller::run_ssvep()
 	//////////////////////////////
 
 
-
+	const int LT_N_MARKER_DATA = 1 + 4 * 2;
 	vector<double> eye_data(LT_N_EYE_DATA);
-	vector<double> marker_data(1+4*2);
+	vector<double> marker_data(LT_N_MARKER_DATA);
 
 	// labstreaming layer 
 	// todo: add correct sampling rate
 	cout << "creating labstreaming layer outlet for simulated EEG data..\n";
 	stream_outlet lsl_out_eye(stream_info("LT_EYE", "LT_EYE", LT_N_EYE_DATA, 30, cf_double64));
-	stream_outlet lsl_out_marker(stream_info("LT_MARKER", "LT_MARKER", 1 + 4 * 2, 30, cf_double64));
+	stream_outlet lsl_out_marker(stream_info("LT_MARKER", "LT_MARKER", LT_N_MARKER_DATA, 30, cf_double64));
 
 
 	auto time_start = chrono::high_resolution_clock::now();

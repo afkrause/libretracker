@@ -80,7 +80,8 @@ inline bool line_intersection(cv::Point2f o1, cv::Point2f p1, cv::Point2f o2, cv
 
 // draw a scaled copy of the one image (e.g. scene cam) to the a larger image (e.g. main canvas).
 // if x or y = -1 then the image is centered along the x or y axis
-void draw_preview(cv::Mat& img_preview, cv::Mat& img_target, float scaling = 1.0f, int x = -1, int y = -1);
+// returns the calculated scaling and x,y offsets if -1 was specified
+std::tuple<float, int, int> draw_preview(cv::Mat& img_preview, cv::Mat& img_target, float scaling = 1.0f, int x = -1, int y = -1);
 
 
 // generic opencv camera selection dialog

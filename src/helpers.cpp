@@ -4,11 +4,26 @@
 using namespace std;
 
 
-void draw_preview(cv::Mat& img_preview, cv::Mat& img_target, float scaling, int x, int y)
+std::tuple<float, int, int> draw_preview(cv::Mat& img_preview, cv::Mat& img_target, float scaling, int x, int y)
 {
-	if(img_preview.empty()){ return; }
+	if(img_preview.empty()){ return make_tuple(scaling, x, y); }
 	
 	cv::Mat img_preview_scaled;
+
+	if (scaling < 0.0f)
+	{
+		// fit img_preview into img_target while keeping the aspect ration of img_preview
+
+		// first, scale the image up/down to the target size based on both preview-and target width
+		scaling = float(img_target.cols) / float(img_preview.cols);
+
+		// now, check if the height of the scaled image is fitting into the target. if not, scale according to the height ratio. 		
+		if (scaling * img_preview.rows > img_target.rows)
+		{
+			scaling = float(img_target.rows) / float(img_preview.rows);
+		}
+	}
+
 	if (scaling == 1.0f)
 	{
 		img_preview_scaled = img_preview;
@@ -18,12 +33,14 @@ void draw_preview(cv::Mat& img_preview, cv::Mat& img_target, float scaling, int 
 		cv::resize(img_preview, img_preview_scaled, cv::Size(), scaling, scaling);
 	}
 
-	if (img_target.rows > img_preview_scaled.rows && img_target.cols > img_preview_scaled.cols)
+	if (img_target.rows >= img_preview_scaled.rows && img_target.cols >= img_preview_scaled.cols)
 	{
 		if (x == -1) { x = round(0.5f * (img_target.cols - img_preview_scaled.cols)); }
 		if (y == -1) { y = round(0.5f * (img_target.rows - img_preview_scaled.rows)); }
 		img_preview_scaled.copyTo(img_target(cv::Rect(x, y, img_preview_scaled.cols, img_preview_scaled.rows)));
 	}
+
+	return make_tuple(scaling, x, y);
 }
 
 
