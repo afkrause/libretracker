@@ -94,18 +94,18 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	double n_validation_points = 5;
 	sg.add_slider("validation points", n_validation_points, 4, 20, 1,"Select the number of validation-points.");
 	sg.add_slider("randomness [px]", n_validation_points, 0, 50, 1, "Select the random deviation of the generated validation-points from the default validation-point positions.");
-	sg.add_button("observe",	[&]() { calibration.state = Calibration::STATE_OBSERVE;  }, 4, 0, "Observe gaze relative to the scene camera. You can manually check if the calculated gaze point matches a fixated real world feature.");
-	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 4, 1, "Check the calibration by testing additional points. (optional)");
-	sg.add_button("visualize",	[&]() { calibration.state = Calibration::STATE_VISUALIZE_VALIDATION;  }, 4, 2, "Visalizes the results of the validation.");
-	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 4, 3, "Remove a potential systematic offset found after validation.");
+	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 3, 0, "Check the calibration by testing additional points. (optional)");
+	sg.add_button("visualize",	[&]() { calibration.state = Calibration::STATE_VISUALIZE_VALIDATION;  }, 3, 1, "Visalizes the results of the validation.");
+	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 3, 2, "Remove a potential systematic offset found after validation.");
 
 
 	sg.add_separator_box("6. run modules and adjust jitter filter:");
 	sg.add_slider("smoothing", filter_smoothing, 0, 1, 0.01, "adjust the amount of smoothing of the jitter filter (double exponential filter). Larger values reduce jitter, but introduce noticable lag. this lag can partially compensated increasing the predictive value.");
 	sg.add_slider("predictive", filter_predictive, 0, 1, 0.001, "The predictive component can partially comensate the lag introduced by smoothing. Large values can cause overshooting and damped oscillations of the filter.");
-	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUNNING; }, 3, 0);
-	sg.add_button("stream to client", [&]() { run_ssvep(); }, 3, 1);
-	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 3, 2);
+	sg.add_button("observe", [&]() { state = STATE_OBSERVE; }, 4, 0, "Observe gaze relative to the scene camera. You can manually check if the calculated gaze point matches a fixated real world feature.");
+	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUN_SPELLER; }, 4, 1);
+	sg.add_button("stream data", [&]() { run_ssvep(); }, 4, 2);
+	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 4, 3);
 
 
 	sg.finish();
@@ -169,6 +169,23 @@ void Eyetracking_speller::draw_instructions()
 
 }
 
+// manual validation: observe if the calculated gaze point (after calibration) matches a fixated real world feature.
+void Eyetracking_speller::draw_observe()
+{
+	const int w = img_screen.cols;
+	const int h = img_screen.rows;
+	using namespace cv;
+
+	//draw_preview(frame_scene_cam, img_screen, -1, -1, -1);
+	float scaling = 0, x = 0, y = 0;
+	//auto [scaling, x, y] = // requires C++17
+	tie(scaling, x, y) = draw_preview(frame_scene_cam, img_screen, -1.0f, -1, -1);
+	auto p = scaling * p_calibrated + Point2f(x, y);
+	cv::circle(img_screen, p, 12, Scalar(255, 0, 255), 2);
+	imshow("screen", img_screen);
+}
+
+
 void Eyetracking_speller::draw_speller(bool ssvep)
 {
 	using namespace cv;
@@ -207,9 +224,10 @@ void Eyetracking_speller::draw()
 
 	switch (state)
 	{
-	case STATE_INSTRUCTIONS:	draw_instructions();  break;
-	case STATE_CALIBRATION:		calibration.draw(frame_scene_cam, img_screen); break;
-	case STATE_RUNNING:			draw_speller(); break; 
+	case STATE_INSTRUCTIONS:		draw_instructions();  break;
+	case STATE_CALIBRATION:			calibration.draw(frame_scene_cam, img_screen); break;
+	case STATE_RUN_SPELLER:			draw_speller(); break; 
+	case STATE_OBSERVE:				draw_observe(); break;
 	default: break;
 
 	}
@@ -299,7 +317,10 @@ void Eyetracking_speller::update()
 	case STATE_CALIBRATION:
 		calibration.update(frame_scene_cam, pupil_pos, key_pressed);
 		break;
-	case STATE_RUNNING:
+
+	case STATE_OBSERVE:
+		break;
+	case STATE_RUN_SPELLER:
 		if (calibration.ar_canvas.valid() && int(' ') == key_pressed)
 		{
 			// cout << "calibrated point = " << p_calibrated.x << "\t" << p_calibrated.y << endl;

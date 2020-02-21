@@ -151,9 +151,6 @@ void Calibration::draw(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 	case Calibration::STATE_VISUALIZE_VALIDATION:
 		draw_validation(frame_scene_cam, img_screen);
 		break;
-	case Calibration::STATE_OBSERVE:
-		draw_observe(frame_scene_cam, img_screen);
-		break;
 	default:
 		break;
 	}
@@ -354,12 +351,6 @@ void Calibration::update(cv::Mat& frame_scene_cam,  cv::Point2f pupil_pos, int k
 		if (int('-') == key_pressed) { n_polynomial_features--; calibrate(n_polynomial_features); }
 		break;
 
-	// manual validation: observe if the calculated gaze point (after calibration) matches a fixated real world feature.
-	case STATE_OBSERVE:
-		// map pupil position to scene camera position using calibrated 2d to 2d mapping
-		p_calibrated = mapping_2d_to_2d(pupil_pos);
-		break;
-
 	case STATE_VALIDATION:
 		if (ar_canvas.valid() && int(' ') == key_pressed)
 		{
@@ -417,24 +408,6 @@ void Calibration::draw_prep(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 
 	imshow("screen", img_screen);
 }
-
-
-void Calibration::draw_observe(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
-{
-	const int w = img_screen.cols;
-	const int h = img_screen.rows;
-	using namespace cv;
-
-	//draw_preview(frame_scene_cam, img_screen, -1, -1, -1);
-	float scaling = 0, x = 0, y = 0;
-	//auto [scaling, x, y] = // requires C++17
-	tie(scaling, x, y) = draw_preview(frame_scene_cam, img_screen, -1.0f, -1, -1);
-	auto p = scaling * p_calibrated + Point2f(x, y);
-	cv::circle(img_screen, p, 12, Scalar(255, 0, 255), 2);
-	imshow("screen", img_screen);
-}
-
-
 
 void Calibration::draw_visualization(cv::Mat& frame_scene_cam, cv::Mat& img_screen)
 {

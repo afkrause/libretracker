@@ -69,7 +69,8 @@ protected:
 		STATE_CALIBRATION_SCENE_CAM,
 		STATE_CALIBRATION_EYE_CAM,
 		STATE_CALIBRATION,
-		STATE_RUNNING
+		STATE_OBSERVE,
+		STATE_RUN_SPELLER
 	} state = STATE_INSTRUCTIONS;
 
 
@@ -115,6 +116,7 @@ public:
 
 
 	void draw_speller(bool ssvep=false);
+	void draw_observe();
 	void draw();
 
 	void set_mouse(int x, int y, bool eye_button_up_, bool eye_button_down_) { mx = x; my = y; eye_button_up = eye_button_up_; eye_button_down = eye_button_down_; }
