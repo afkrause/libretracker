@@ -39,9 +39,7 @@ This Software is licensed under the GPL 3. You can use it commercially, but you 
 ## Downloads 
 64bit windows-executable:  http://andre-krause.de/libretracker/Libretracker20200221.zip
 
-Plase note, you may need to install the visual C++ runtime (vc_redist.x64.exe):
-[the visual C++ runtime from microsoft.com.](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
-[Direct link: vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe)
+Plase note, you may need to install [the visual C++ runtime from microsoft.com.](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) [Direct link: vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
 ```console
 Libretracker20200221.zip
