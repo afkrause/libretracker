@@ -258,6 +258,7 @@
     <ClCompile Include="..\src\deps\cpu_features\cpu_x86.cpp" />
     <ClCompile Include="..\src\deps\DeviceEnumerator.cpp" />
     <ClCompile Include="..\src\deps\s\cv_camera_control.cpp" />
+    <ClCompile Include="..\src\deps\s\cv_save_video.cpp" />
     <ClCompile Include="..\src\deps\s\opencv_threaded_capture.cpp" />
     <ClCompile Include="..\src\deps\s\simple_gui_fltk.cpp" />
     <ClCompile Include="..\src\deps\timms_algorithm\src\timm.cpp" />
@@ -281,6 +282,7 @@
     <ClInclude Include="..\src\cv_button.h" />
     <ClInclude Include="..\src\deps\cpu_features\cpu_x86.h" />
     <ClInclude Include="..\src\deps\dependencies.h" />
+    <ClInclude Include="..\src\deps\s\cv_save_video.h" />
     <ClInclude Include="..\src\deps\s\opencv_threaded_capture.h" />
     <ClInclude Include="..\src\deps\s\simple_gui_fltk.h" />
     <ClInclude Include="..\src\deps\timms_algorithm\timm.h" />

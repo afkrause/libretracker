@@ -3,6 +3,29 @@
 
 using namespace std;
 
+// create a string with date and time like this: 20080501123104  ( 01.05. 2008, 12:31.04 uhr)
+std::string date_time_str()
+{
+	time_t t = time(nullptr);
+	auto mytime = localtime(&t);
+
+	int year = mytime->tm_year - 100 + 2000;	// liefert mytime->tm_year ist z[2]. 103 - das steht für 2003  
+	int month = mytime->tm_mon + 1;			// monate werden anscheinend von 0-11 gezählt
+	int day = mytime->tm_mday;
+	int hour = mytime->tm_hour;
+	int minute = mytime->tm_min;
+	int second = mytime->tm_sec;
+
+	return
+		std::to_string(year) +
+		add_leading_zeros<2>(std::to_string(month)) +
+		add_leading_zeros<2>(std::to_string(day)) +
+		add_leading_zeros<2>(std::to_string(hour)) +
+		add_leading_zeros<2>(std::to_string(minute)) +
+		add_leading_zeros<2>(std::to_string(second));
+}
+
+
 
 std::tuple<float, int, int> draw_preview(cv::Mat& img_preview, cv::Mat& img_target, float scaling, int x, int y)
 {

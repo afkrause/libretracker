@@ -10,6 +10,7 @@
 #include "pupil_tracking.h"
 #include "deps/dependencies.h"
 #include "deps/s/opencv_threaded_capture.h"
+#include "deps/s/cv_save_video.h"
 #include "calibration.h"
 
 
@@ -76,6 +77,7 @@ protected:
 
 	// GUI
 	Simple_gui sg;
+	Simple_gui sg_stream_and_record;
 	Camera_control eye_cam_controls;
 	Camera_control scene_cam_controls;
 
@@ -89,10 +91,21 @@ protected:
 	Filter_double_exponential<double> gaze_filter_x;
 	Filter_double_exponential<double> gaze_filter_y;
 
-
+	////////////////////////////
+	// for scene camera video recording (maybe later: eye video recording)
+	Save_video scene_cam_video_saver;
+	Save_video eye_cam_video_saver;
+	bool stream_via_LSL = true;
+	bool save_scene_cam_video = true;
+	bool save_eye_cam_video = false;
+	bool save_gaze_data = true;
+	bool show_scene_cam_during_recording = false;
+	bool show_eye_cam_during_recording = false;
+	//std::fstream fstream_gaze_data;
+	//std::chrono::time_point<std::chrono::steady_clock> time_start_recording;
 
 	// special function for hybrid eyetracking+ssvep speller
-	void run_ssvep();
+	void run_multithreaded();
 
 public:	
 

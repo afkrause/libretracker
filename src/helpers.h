@@ -48,6 +48,11 @@ template<size_t n> std::string add_leading_zeros(std::string s)
 	auto to_add = clip<size_t>(n - s.length(), 0, n); for (size_t a = 0; a < to_add; a++) { s = "0" + s; }; return s;
 }
 
+// create a string with date and time like this: 20080501123104  ( 01.05. 2008, 12:31.04 uhr)
+std::string date_time_str();
+
+
+
 // toggle a boolean
 inline void toggle(bool& b)
 {

@@ -48,10 +48,27 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	//setup_gui();
 	*/
 
-	// GUI
-	//sg = Simple_gui(min(Fl::w() - 200, 1420), 180, 400, 600);
-	sg = Simple_gui(20, 60, 400, 640);
+	// GUIs
+	
+	sg_stream_and_record = Simple_gui(20, 60, 400, 400);
+	sg_stream_and_record.add_separator_box("Jitter Filter Settings");
+	sg_stream_and_record.add_slider("smoothing", filter_smoothing, 0, 1, 0.01, "adjust the amount of smoothing of the jitter filter (double exponential filter). Larger values reduce jitter, but introduce noticable lag. this lag can partially compensated increasing the predictive value.");
+	sg_stream_and_record.add_slider("predictive", filter_predictive, 0, 1, 0.001, "The predictive component can partially comensate the lag introduced by smoothing. Large values can cause overshooting and damped oscillations of the filter.");
+	sg_stream_and_record.add_separator_box("Recording and Streaming");
+	sg_stream_and_record.add_checkbox("stream data via labstreaming layer", stream_via_LSL, 1, 0, "Stream gaze- and marker data over the local network via labstreaming layer.");
+	sg_stream_and_record.add_checkbox("save gaze data", save_gaze_data, 1, 0, "Save gaze data to a text file.");
+	sg_stream_and_record.add_checkbox("save scene-camera video", save_scene_cam_video, 1, 0, "Save a video of the scene camera content.");
+	sg_stream_and_record.add_checkbox("save eye-camera video", save_eye_cam_video, 1, 0, "Save a video of the scene camera content.");	
+	sg_stream_and_record.add_checkbox("show scene-camera during recording", show_scene_cam_during_recording, 1, 0, "Show the scene-camera with gaze cursor during recording. Might slow down recording.");
+	sg_stream_and_record.add_checkbox("show eye-camera during recording", show_eye_cam_during_recording, 1, 0, "Show the eye-camera with gaze cursor during recording. Might slow down recording.");
+	sg_stream_and_record.add_button("Start!", [&](){sg_stream_and_record.hide(); sg.hide(); run_multithreaded(); }, 1, 0, "Start recording a mjpeg video."); //hide guis to avoid multithreading problems (especially with changing camera properties )
+	sg_stream_and_record.finish();
+	sg_stream_and_record.hide();
 
+	
+	
+	//sg = Simple_gui(min(Fl::w() - 200, 1420), 180, 400, 600);
+	sg = Simple_gui(20, 60, 400, 670);
 	sg.add_separator_box("1. adjust canvas size and AR-marker tracking:");
 	sg.add_slider("canvas width", gui_param_w, 640, 5000, 10, "Change the width of the canvas to fit your monitor size. Make sure that all screen-tracking markers fit into the field of view of the scene camera.");
 	sg.add_slider("canvas height", gui_param_h, 480, 3000, 10, "Change the height of the canvas.");
@@ -98,14 +115,11 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg.add_button("visualize",	[&]() { calibration.state = Calibration::STATE_VISUALIZE_VALIDATION;  }, 3, 1, "Visalizes the results of the validation.");
 	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 3, 2, "Remove a potential systematic offset found after validation.");
 
-
-	sg.add_separator_box("6. run modules and adjust jitter filter:");
-	sg.add_slider("smoothing", filter_smoothing, 0, 1, 0.01, "adjust the amount of smoothing of the jitter filter (double exponential filter). Larger values reduce jitter, but introduce noticable lag. this lag can partially compensated increasing the predictive value.");
-	sg.add_slider("predictive", filter_predictive, 0, 1, 0.001, "The predictive component can partially comensate the lag introduced by smoothing. Large values can cause overshooting and damped oscillations of the filter.");
-	sg.add_button("observe", [&]() { state = STATE_OBSERVE; }, 4, 0, "Observe gaze relative to the scene camera. You can manually check if the calculated gaze point matches a fixated real world feature.");
-	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUN_SPELLER; }, 4, 1);
-	sg.add_button("stream data", [&]() { run_ssvep(); }, 4, 2);
-	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 4, 3);
+	sg.add_separator_box("6. run modules");
+	sg.add_button("observe", [&]() { state = STATE_OBSERVE; }, 2, 0, "Observe gaze relative to the scene camera. You can manually check if the calculated gaze point matches a fixated real world feature.");
+	sg.add_button("stream / record", [&]() { sg_stream_and_record.show(); }, 2, 1, "Stream and/or record gaze- and marker data using the labstreaming layer middleware.");
+	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUN_SPELLER; }, 2, 0, "Run an eyetracking based speller demo. Press the space-bar to acknowledge a fixated letter.");
+	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 2, 1);
 
 
 	sg.finish();
@@ -182,7 +196,6 @@ void Eyetracking_speller::draw_observe()
 	tie(scaling, x, y) = draw_preview(frame_scene_cam, img_screen, -1.0f, -1, -1);
 	auto p = scaling * p_calibrated + Point2f(x, y);
 	cv::circle(img_screen, p, 12, Scalar(255, 0, 255), 2);
-	imshow("screen", img_screen);
 }
 
 
@@ -245,6 +258,8 @@ void Eyetracking_speller::draw()
 void Eyetracking_speller::update()
 {
 	using namespace cv;
+	using namespace std;
+	using namespace chrono;
 
 
 	// update values that might have been changed via GUI sliders
@@ -387,25 +402,33 @@ void Eyetracking_speller::run(enum_simd_variant simd_width,  int eye_cam_id, int
 
 // multithreaded capture and rendering to ensure flicker stimuli are presented with the monitor refresh rate
 // separate blocking function with a while loop
-void Eyetracking_speller::run_ssvep()
+void Eyetracking_speller::run_multithreaded()
 {
 	using namespace cv;
 	using namespace lsl;
 	using namespace chrono;
-	
+
+	auto fps_scene_cam = scene_camera->get(cv::CAP_PROP_FPS);
+	auto fps_eye_cam = eye_camera->get(cv::CAP_PROP_FPS);
+
+	string dts = date_time_str();
+	fstream fstream_gaze_data;
+	if (save_gaze_data)			{ fstream_gaze_data.open(dts + "_gaze_data.txt", ios::out); }
+	if (save_scene_cam_video)	{ scene_cam_video_saver.open(dts + "_scene_camera.avi", fps_scene_cam, Size(img_screen.cols, img_screen.rows)); }
+	if (save_eye_cam_video)		{ eye_cam_video_saver.open(dts + "_eye_camera.avi", fps_eye_cam, Size(frame_eye_cam.cols, frame_eye_cam.rows)); }
+
 	cv::destroyAllWindows();
 
-	//hide gui to avoid multithreading problems (especially with changing camera properties )
-	sg.hide();
 	bool run = true;
-	Simple_gui sg_local(50,50,150,100, "Record and Stream");
-	sg_local.add_button("stop streaming", [&](){ run = false;  });
+	Simple_gui sg_local(50, 50, 150, 100, "Record and Stream");
+	sg_local.add_button("stop recording / streaming", [&]() { run = false;  });
 	//sg_local.add_button("quit program", [&]() { exit(EXIT_SUCCESS);} );
 	sg_local.finish();
-	
+
 	// Sdl_opencv sdl;
 
-	
+
+	/*
 	//////////////////////////////
 	// launch the capture threads
 	thread_eyecam.setup(eye_camera, "eyecam");
@@ -416,96 +439,173 @@ void Eyetracking_speller::run_ssvep()
 	while (!(thread_eyecam.new_frame && thread_scenecam.new_frame)) { cout << "."; cv::waitKey(1); this_thread::sleep_for(150ms); }
 	cout << "\nthe first frame of both the eye- and scenecam has arrived.\n";
 	//////////////////////////////
-
+	*/
 
 	const int LT_N_MARKER_DATA = 1 + 4 * 2;
 	vector<double> eye_data(LT_N_EYE_DATA);
 	vector<double> marker_data(LT_N_MARKER_DATA);
 
-	// labstreaming layer 
-	// todo: add correct sampling rate
+	// labstreaming layer setup
 	cout << "creating labstreaming layer outlet for simulated EEG data..\n";
-	stream_outlet lsl_out_eye(stream_info("LT_EYE", "LT_EYE", LT_N_EYE_DATA, 30, cf_double64));
-	stream_outlet lsl_out_marker(stream_info("LT_MARKER", "LT_MARKER", LT_N_MARKER_DATA, 30, cf_double64));
+
+	stream_outlet lsl_out_eye(stream_info("LT_EYE", "LT_EYE", LT_N_EYE_DATA, fps_eye_cam, cf_double64));
+	stream_outlet lsl_out_marker(stream_info("LT_MARKER", "LT_MARKER", LT_N_MARKER_DATA, fps_scene_cam, cf_double64));
 
 
-	auto time_start = chrono::high_resolution_clock::now();
 	
-	Timer timer0(500, "\nframe :"); // man duration of individual frames. for 60 Hz monitor refresh rate, it should be close to 16.66 ms
+	Timer timer0(500, "\nframe :"); // mean duration of individual frames. for 60 Hz monitor refresh rate, it should be close to 16.66 ms
 	Timer timer1(500, "\nupdate:");
 	Timer timer2(500, "\nrender:");
 
+	// the projected gaze point is shared between both threads - hence it needs to be atomic. 
+	atomic<double> p_projected_x = 0.0;
+	atomic<double> p_projected_y = 0.0;
+
+	auto scn_cam_thread_func = [&]()
+	{
+		Timer timer(500, "\nscene cam :");
+		auto time_start = chrono::high_resolution_clock::now();
+		while (run)
+		{
+			timer.tick();
+			scene_camera->read(frame_scene_cam);
+			double timestamp = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
+			
+			//thread_scenecam.get_frame(frame_scene_cam);
+			//thread_scenecam.new_frame = false;
+
+			// for some strange reasons, the frame can still be empty.. 
+			if (!frame_scene_cam.empty())
+			{
+				calibration.ar_canvas.update(frame_scene_cam);
+
+				p_projected = calibration.ar_canvas.transform(p_calibrated, calibration.ar_canvas.screen_plane_external);
+				p_projected -= calibration.offset;
+				p_projected_x = p_projected.x;
+				p_projected_y = p_projected.y;
+
+
+				// send marker data (helpful in the client for visualizing marker positions
+				marker_data[0] = timestamp;
+				for (int i = 0; i < calibration.ar_canvas.image_plane.size(); i++)
+				{
+					marker_data[1 + 2 * i + 0] = double(calibration.ar_canvas.image_plane[i].x) / frame_scene_cam.cols;
+					marker_data[1 + 2 * i + 1] = double(calibration.ar_canvas.image_plane[i].y) / frame_scene_cam.rows;
+				}
+				lsl_out_marker.push_sample(marker_data);
+
+				// these potentially slow operations might slow down / cause framedrops a high-refresh rate eye camera streaming/recording
+				if (save_scene_cam_video)
+				{
+					img_screen_background.copyTo(img_screen); // clear canvas
+					draw_observe();
+					scene_cam_video_saver.write(img_screen);
+				}
+
+				if (show_scene_cam_during_recording)
+				{
+					if (!save_scene_cam_video) // still need to render if not already rendered in the save_scene_cam_video code block
+					{
+						img_screen_background.copyTo(img_screen); // clear canvas
+						draw_observe();
+					}
+					imshow("screen", img_screen);
+				}
+			}
+			cv::waitKey(1); // needed or not ?!
+			timer.tock();
+		}
+	};
+	
+	auto eye_cam_thread_func = [&]()
+	{
+		Timer timer(500, "\neye cam :");
+		auto time_start = chrono::high_resolution_clock::now();
+		while (run)
+		{
+			timer.tick();
+			//thread_eyecam.get_frame(frame_eye_cam);
+			//thread_eyecam.new_frame = false;
+			eye_camera->read(frame_eye_cam);
+			double timestamp = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
+
+			if (!frame_eye_cam.empty())
+			{
+				// ********************************************************
+				// get pupil position
+				/*
+				cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
+				std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
+				*/
+				pupil_tracker->update(frame_eye_cam);
+				pupil_pos = pupil_tracker->pupil_center();
+
+				// ********************************************************
+				// map pupil position to scene camera position using calibrated 2d to 2d mapping
+				p_calibrated = calibration.mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
+
+				//std::nan
+				for (auto& x : eye_data) { x = nan(); }
+
+
+				eye_data[LT_TIMESTAMP] = timestamp;
+				eye_data[LT_PUPIL_X] = double(pupil_pos.x) / frame_eye_cam.cols;
+				eye_data[LT_PUPIL_Y] = double(pupil_pos.y) / frame_eye_cam.rows;
+				eye_data[LT_GAZE_X] = double(p_calibrated.x) / frame_scene_cam.cols;
+				eye_data[LT_GAZE_Y] = double(p_calibrated.y) / frame_scene_cam.rows;
+
+
+				if (calibration.ar_canvas.valid())
+				{
+
+					// jitter filter (updated at eyecam fps)
+					eye_data[LT_SCREEN_X] = p_projected_x;
+					eye_data[LT_SCREEN_Y] = p_projected_y;
+					eye_data[LT_SCREEN_X_FILTERED] = gaze_filter_x(p_projected_x);
+					eye_data[LT_SCREEN_Y_FILTERED] = gaze_filter_y(p_projected_y);
+				}
+
+				lsl_out_eye.push_sample(eye_data);
+
+
+				// save eye tracking data to file.
+				if (fstream_gaze_data.is_open())
+				{
+					fstream_gaze_data << timestamp << "\t" <<
+						pupil_pos.x << "\t" <<
+						pupil_pos.y << "\t" <<
+						p_calibrated.x << "\t" <<
+						p_calibrated.y << "\t" <<
+						p_projected_x << "\t" <<
+						p_projected_y << "\t" <<
+						"\n";
+				}
+
+				if (save_eye_cam_video)
+				{
+					eye_cam_video_saver.write(frame_eye_cam);
+				}
+
+				if (show_eye_cam_during_recording)
+				{
+					pupil_tracker->draw(frame_eye_cam);
+					imshow("eye_cam", frame_eye_cam);
+				}
+			}
+			cv::waitKey(1); // needed or not ?!
+			timer.tock();
+		}
+	};
+
+	thread scn_cam_thread(scn_cam_thread_func);
+	thread eye_cam_thread(eye_cam_thread_func);
+	
 	while (run)
 	{
-		//timer0.tick();
-		//timer1.tick();
-
 		// process events
 		//if (sdl.waitKey().sym == SDLK_ESCAPE) { break; }
 
-		// ********************************************************
-		// copy camera data from the capture threads
-		if (thread_scenecam.new_frame)
-		{
-			thread_scenecam.get_frame(frame_scene_cam);
-			thread_scenecam.new_frame = false;
 
-			calibration.ar_canvas.update(frame_scene_cam);
-
-			// send marker data (helpful in the client for visualizing marker positions
-			marker_data[0] = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
-			for (int i = 0; i < calibration.ar_canvas.image_plane.size(); i++)
-			{
-				marker_data[1 + 2 * i + 0] = double(calibration.ar_canvas.image_plane[i].x) / frame_scene_cam.cols;
-				marker_data[1 + 2 * i + 1] = double(calibration.ar_canvas.image_plane[i].y) / frame_scene_cam.rows;
-			}
-			lsl_out_marker.push_sample(marker_data);
-		}
-
-		// TODO: if the eye cam has a higher FPS than the render thread, the pupil center calculation should be in a separate thread !
-		if (thread_eyecam.new_frame)
-		{
-			thread_eyecam.get_frame(frame_eye_cam);
-			thread_eyecam.new_frame = false;
-
-			// ********************************************************
-			// get pupil position
-			/*
-			cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
-			std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
-			*/
-			pupil_tracker->update(frame_eye_cam);
-			pupil_pos = pupil_tracker->pupil_center();
-
-			// ********************************************************
-			// map pupil position to scene camera position using calibrated 2d to 2d mapping
-			p_calibrated = calibration.mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
-
-			//std::nan
-			for (auto& x : eye_data) { x = nan(); }
-
-			eye_data[LT_TIMESTAMP] = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
-			eye_data[LT_PUPIL_X] = double(pupil_pos.x) / frame_eye_cam.cols;
-			eye_data[LT_PUPIL_Y] = double(pupil_pos.y) / frame_eye_cam.rows;
-			eye_data[LT_GAZE_X] = double(p_calibrated.x) / frame_scene_cam.cols;
-			eye_data[LT_GAZE_Y] = double(p_calibrated.y) / frame_scene_cam.rows;
-
-			if (calibration.ar_canvas.valid())
-			{
-				p_projected = calibration.ar_canvas.transform(p_calibrated, calibration.ar_canvas.screen_plane_external);
-				p_projected -= calibration.offset;
-
-				// jitter filter (updated at eyecam fps)
-				eye_data[LT_SCREEN_X] = p_projected.x;
-				eye_data[LT_SCREEN_Y] = p_projected.y;
-				eye_data[LT_SCREEN_X_FILTERED] = gaze_filter_x(p_projected.x);
-				eye_data[LT_SCREEN_Y_FILTERED] = gaze_filter_y(p_projected.y);
-			}
-
-			lsl_out_eye.push_sample(eye_data);
-		}
-
-		
 		/*
 		// uncomment this to simulate gaze using the computer mouse
 		//p_projected = Point2f(mx, my);
@@ -531,15 +631,24 @@ void Eyetracking_speller::run_ssvep()
 		*/
 
 		sg_local.update();
+		this_thread::sleep_for(100ms);
 	}
 
+	// wait for threads to finish
+	scn_cam_thread.join();
+	eye_cam_thread.join();
 
-	thread_scenecam.stop();
-	thread_eyecam.stop();
+
+	//thread_scenecam.stop();
+	//thread_eyecam.stop();
+
+	scene_cam_video_saver.close();
+	eye_cam_video_saver.close();
+	fstream_gaze_data.close();
+
 	sg.show();
 
 	// todo restore all other windows 
-
 }
 
 #else
