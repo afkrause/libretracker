@@ -347,6 +347,7 @@ void Eyetracking_speller::update()
 	};
 
 	sg.update();
+	sg_stream_and_record.update();
 	eye_cam_controls.update();
 }
 
@@ -415,8 +416,8 @@ void Eyetracking_speller::run_multithreaded()
 	string dts = date_time_str();
 	fstream fstream_gaze_data;
 	if (save_gaze_data)			{ fstream_gaze_data.open(dts + "_gaze_data.txt", ios::out); }
-	if (save_scene_cam_video)	{ scene_cam_video_saver.open(dts + "_scene_camera.avi", fps_scene_cam, Size(img_screen.cols, img_screen.rows), int(video_writer_buffer_size)); }
-	if (save_eye_cam_video)		{ eye_cam_video_saver.open(dts + "_eye_camera.avi", fps_eye_cam, Size(frame_eye_cam.cols, frame_eye_cam.rows), int(video_writer_buffer_size)); }
+	if (save_scene_cam_video)	{ scene_cam_video_saver.open(dts + "_scene_camera.avi", dts + "_scene_camera_timestamps.txt", fps_scene_cam, Size(img_screen.cols, img_screen.rows), int(video_writer_buffer_size)); }
+	if (save_eye_cam_video)		{ eye_cam_video_saver.open(dts + "_eye_camera.avi", dts + "_eye_camera_timestamps.txt", fps_eye_cam, Size(frame_eye_cam.cols, frame_eye_cam.rows), int(video_writer_buffer_size)); }
 
 	cv::destroyAllWindows();
 
@@ -500,7 +501,7 @@ void Eyetracking_speller::run_multithreaded()
 				{
 					img_screen_background.copyTo(img_screen); // clear canvas
 					draw_observe();
-					scene_cam_video_saver.write(img_screen);
+					scene_cam_video_saver.write(img_screen, timestamp);
 				}
 
 				if (show_scene_cam_during_recording)
@@ -584,7 +585,7 @@ void Eyetracking_speller::run_multithreaded()
 
 				if (save_eye_cam_video)
 				{
-					eye_cam_video_saver.write(frame_eye_cam);
+					eye_cam_video_saver.write(frame_eye_cam, timestamp);
 				}
 
 				if (show_eye_cam_during_recording)

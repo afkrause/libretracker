@@ -269,7 +269,7 @@ int main(int argc, char* argv[])
 				is_running = false; 
 			});
 			
-			sg.add_button("Eyetracking - Speller", [&]()
+			sg.add_button("Eyetracking", [&]()
 			{ 
 				sg.hide(); 
 				Fl::check(); 
