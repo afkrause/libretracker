@@ -101,6 +101,7 @@ protected:
 	bool save_gaze_data = true;
 	bool show_scene_cam_during_recording = false;
 	bool show_eye_cam_during_recording = false;
+	double video_writer_buffer_size = 25;
 	//std::fstream fstream_gaze_data;
 	//std::chrono::time_point<std::chrono::steady_clock> time_start_recording;
 

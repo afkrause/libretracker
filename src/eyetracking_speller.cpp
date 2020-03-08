@@ -61,6 +61,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 	sg_stream_and_record.add_checkbox("save eye-camera video", save_eye_cam_video, 1, 0, "Save a video of the scene camera content.");	
 	sg_stream_and_record.add_checkbox("show scene-camera during recording", show_scene_cam_during_recording, 1, 0, "Show the scene-camera with gaze cursor during recording. Might slow down recording.");
 	sg_stream_and_record.add_checkbox("show eye-camera during recording", show_eye_cam_during_recording, 1, 0, "Show the eye-camera with gaze cursor during recording. Might slow down recording.");
+	sg_stream_and_record.add_slider("buffer size:", video_writer_buffer_size, 0, 250, 1, "adjust the buffer size for the video writer. For fast SSD and HDD a buffer size of 25 should be sufficient. If you experience framedrops, you can increase this value, but you will need more free RAM. Ultimately, the storage medium must be fast enough to save the video at the requested frame rate, no matter what the buffer size is set to.");
 	sg_stream_and_record.add_button("Start!", [&](){sg_stream_and_record.hide(); sg.hide(); run_multithreaded(); }, 1, 0, "Start recording a mjpeg video."); //hide guis to avoid multithreading problems (especially with changing camera properties )
 	sg_stream_and_record.finish();
 	sg_stream_and_record.hide();
@@ -414,8 +415,8 @@ void Eyetracking_speller::run_multithreaded()
 	string dts = date_time_str();
 	fstream fstream_gaze_data;
 	if (save_gaze_data)			{ fstream_gaze_data.open(dts + "_gaze_data.txt", ios::out); }
-	if (save_scene_cam_video)	{ scene_cam_video_saver.open(dts + "_scene_camera.avi", fps_scene_cam, Size(img_screen.cols, img_screen.rows)); }
-	if (save_eye_cam_video)		{ eye_cam_video_saver.open(dts + "_eye_camera.avi", fps_eye_cam, Size(frame_eye_cam.cols, frame_eye_cam.rows)); }
+	if (save_scene_cam_video)	{ scene_cam_video_saver.open(dts + "_scene_camera.avi", fps_scene_cam, Size(img_screen.cols, img_screen.rows), int(video_writer_buffer_size)); }
+	if (save_eye_cam_video)		{ eye_cam_video_saver.open(dts + "_eye_camera.avi", fps_eye_cam, Size(frame_eye_cam.cols, frame_eye_cam.rows), int(video_writer_buffer_size)); }
 
 	cv::destroyAllWindows();
 
