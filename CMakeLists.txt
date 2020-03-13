@@ -73,7 +73,7 @@ set(SOURCES
 src/helpers.cpp
 src/main.cpp
 src/aruco_include.cpp
-src/eyetracking_speller.cpp
+src/eyetracking.cpp
 src/speller_canvas.cpp
 src/aruco_canvas.cpp
 src/calibration.cpp
@@ -81,7 +81,7 @@ src/pupil_tracking.cpp
 src/pupil_tracker_timm.cpp
 src/deps/s/simple_gui_fltk.cpp
 src/deps/s/cv_camera_control.cpp 
-src/deps/s/opencv_threaded_capture.cpp
+src/deps/s/cv_save_video.cpp
 src/deps/tuebingen_pure/PuRe.cpp
 src/deps/tuebingen_pure/PupilDetectionMethod.cpp
 src/deps/tuebingen_pure/pupil-tracking/PupilTrackingMethod.cpp
