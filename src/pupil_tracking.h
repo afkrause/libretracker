@@ -202,6 +202,8 @@ public:
 	// TODO: proper encapsulation
 	std::shared_ptr<Camera> eye_camera;
 	cv::Mat frame_eye_cam;
+	std::vector<cv::VideoCapture> cameras; // list of active cameras. required for cv::VideoCapture:waitAny
+	std::vector<int> camera_ready{ 0, 0 };
 
 
 	void setup(enum_simd_variant simd_width, enum_pupil_tracking_variant pupil_tracking_variant);

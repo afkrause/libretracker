@@ -1,5 +1,5 @@
 #include "helpers.h"
-#include "eyetracking_speller.h"
+#include "eyetracking.h"
 
 using namespace std;
 
@@ -7,7 +7,7 @@ static void mouse_callback(int event, int x, int y, int, void* user_data)
 {
 	using namespace cv;
 
-	Eyetracking_speller* ptr = static_cast<Eyetracking_speller*>(user_data);
+	Eyetracking* ptr = static_cast<Eyetracking*>(user_data);
 
 	/*
 	bool eye_button_up = false, eye_button_down = false;
@@ -24,9 +24,15 @@ static void mouse_callback(int event, int x, int y, int, void* user_data)
 
 
 
-void Eyetracking_speller::setup(enum_simd_variant simd_width)
+void Eyetracking::setup(enum_simd_variant simd_width)
 {
 	
+	// initialize with a random image
+	using namespace cv;
+	frame_scene_cam = Mat(480, 640, CV_8UC3);
+	randu(frame_scene_cam, Scalar::all(0), Scalar::all(255));
+
+
 	Pupil_tracking::setup(simd_width, PUPIL_TRACKING_PUREST);
 
 	using namespace cv;
@@ -149,7 +155,7 @@ void Eyetracking_speller::setup(enum_simd_variant simd_width)
 
 
 
-void Eyetracking_speller::draw_instructions()
+void Eyetracking::draw_instructions()
 {
 	using namespace cv;
 	int mb = calibration.ar_canvas.marker_size;
@@ -185,7 +191,7 @@ void Eyetracking_speller::draw_instructions()
 }
 
 // manual validation: observe if the calculated gaze point (after calibration) matches a fixated real world feature.
-void Eyetracking_speller::draw_observe()
+void Eyetracking::draw_observe()
 {
 	const int w = img_screen.cols;
 	const int h = img_screen.rows;
@@ -200,7 +206,7 @@ void Eyetracking_speller::draw_observe()
 }
 
 
-void Eyetracking_speller::draw_speller(bool ssvep)
+void Eyetracking::draw_speller(bool ssvep)
 {
 	using namespace cv;
 	int mb = calibration.ar_canvas.marker_size;
@@ -228,7 +234,7 @@ void Eyetracking_speller::draw_speller(bool ssvep)
 	draw_preview(frame_scene_cam, img_screen, scaling, -1, img_screen.rows - mb);
 }
 
-void Eyetracking_speller::draw()
+void Eyetracking::draw()
 {
 	using namespace cv;
 
@@ -255,8 +261,11 @@ void Eyetracking_speller::draw()
 
 
 // update function for all steps from camera setup, calibration, validation and single threaded speller
-// multithreaded eyetracking / speller use a different function
-void Eyetracking_speller::update()
+// this cannot be easily multithreaded because of gui interactions.
+// yet, starting from opencv 4.2, we can use cv::waitAny for improved multicamera capturing
+// the multithreaded code for recording / streaming is in function "run_multithreaded"
+
+void Eyetracking::update()
 {
 	using namespace cv;
 	using namespace std;
@@ -282,43 +291,72 @@ void Eyetracking_speller::update()
 
 	
 
-	// read image data from eye- and scene camera
+	// read image data from eye- and scene camera	
+	#ifdef _WIN32	
+	// old code prior to opencv 4.2 - these blocking functions can cause mutual frame drops
 	eye_camera->read(frame_eye_cam);
 	scene_camera->read(frame_scene_cam);
+	bool got_frame = true;
+	camera_ready[0] = 1;
+	camera_ready[1] = 1;
+	#else	
+	// new code for opencv 4.2 - but currently only for linux
+	cameras.clear();
+	cameras.push_back(*eye_camera);
+	cameras.push_back(*scene_camera);
+	bool got_frame = VideoCapture::waitAny(cameras, camera_ready, 1e6); // blocks for max. 1ms (timeout argument for waitAny is in nanoseconds)
+	#endif
 
-		
-	// ********************************************************
-	// get pupil position
-	/*
-	cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
-	std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
-	
-	timm.visualize_frame(frame_eye_gray, pupil_pos, pupil_pos_coarse);
-	*/
-
-	timer.tick();
-	pupil_tracker->update(frame_eye_cam);
-	pupil_pos = pupil_tracker->pupil_center();
-	timer.tock();
-
-	// ********************************************************
-	// map pupil position to scene camera position using calibrated 2d to 2d mapping
-	p_calibrated = calibration.mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
-
-	// ********************************************************
-	calibration.ar_canvas.update(frame_scene_cam);
-	if (calibration.ar_canvas.valid())
+	if (got_frame)
 	{
-		p_projected = calibration.ar_canvas.transform(p_calibrated);
-		p_projected -= calibration.offset;
+		if (camera_ready[0])
+		{
+			eye_camera->read(frame_eye_cam);
+			if (!frame_eye_cam.empty())
+			{
+				// ********************************************************
+				// get pupil position
+				/*
+				cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
+				std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
+
+				timm.visualize_frame(frame_eye_gray, pupil_pos, pupil_pos_coarse);
+				*/
+
+				timer.tick();
+				pupil_tracker->update(frame_eye_cam);
+				pupil_pos = pupil_tracker->pupil_center();
+				timer.tock();
+
+				// map pupil position to scene camera position using calibrated 2d to 2d mapping
+				p_calibrated = calibration.mapping_2d_to_2d(Point2f(pupil_pos.x, pupil_pos.y));
+			}
+		}
+
+		if (camera_ready[1])
+		{
+			scene_camera->read(frame_scene_cam);
+			if (!frame_scene_cam.empty())
+			{
+				calibration.ar_canvas.update(frame_scene_cam);
+				if (calibration.ar_canvas.valid())
+				{
+					p_projected = calibration.ar_canvas.transform(p_calibrated);
+					p_projected -= calibration.offset;
+
+					// jitter filter
+					p_projected.x = gaze_filter_x(p_projected.x);
+					p_projected.y = gaze_filter_y(p_projected.y);
+
+				}
+			}
+		}
 	}
+
 
 	// uncomment this to simulate gaze using the computer mouse
 	// p_projected = Point2f(mx, my);
 
-	// jitter filter
-	p_projected.x = gaze_filter_x(p_projected.x);
-	p_projected.y = gaze_filter_y(p_projected.y);
 
 
 	// ********************************************************
@@ -353,7 +391,7 @@ void Eyetracking_speller::update()
 
 
 
-void Eyetracking_speller::run(enum_simd_variant simd_width,  int eye_cam_id, int scene_cam_id)
+void Eyetracking::run(enum_simd_variant simd_width,  int eye_cam_id, int scene_cam_id)
 {
 	cv::setUseOptimized(true);
 	eye_camera = select_camera("select eye camera number (0..n):", eye_cam_id);
@@ -404,7 +442,7 @@ void Eyetracking_speller::run(enum_simd_variant simd_width,  int eye_cam_id, int
 
 // multithreaded capture and rendering to ensure flicker stimuli are presented with the monitor refresh rate
 // separate blocking function with a while loop
-void Eyetracking_speller::run_multithreaded()
+void Eyetracking::run_multithreaded()
 {
 	using namespace cv;
 	using namespace lsl;

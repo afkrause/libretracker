@@ -141,7 +141,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>USE_FLTK_GUI;LSL_ENABLED;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv42\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost.compute\include;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
@@ -205,7 +205,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>LSL_ENABLED;WIN32;NDEBUG;_CONSOLE;_LIB;USE_FLTK_GUI;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv42\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <FloatingPointModel>Fast</FloatingPointModel>
@@ -232,7 +232,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>USE_FLTK_GUI;LSL_ENABLED;OPENCL_ENABLED;WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv41\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MY_LIB_DIR);$(MY_LIB_DIR)\opencv42\build\include\;$(MY_LIB_DIR)\eigen3\;$(MY_LIB_DIR)\fltk14;$(MY_LIB_DIR)\opencl_cu10\include\;$(MY_LIB_DIR)\boost\;$(MY_LIB_DIR)\aruco\src;$(MY_LIB_DIR)\labstreaminglayer\LSL\liblsl\include\</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <FloatingPointModel>Fast</FloatingPointModel>
@@ -266,7 +266,7 @@
     <ClCompile Include="..\src\deps\tuebingen_pure\pupil-tracking\PuReST.cpp" />
     <ClCompile Include="..\src\deps\tuebingen_pure\PupilDetectionMethod.cpp" />
     <ClCompile Include="..\src\deps\tuebingen_pure\PuRe.cpp" />
-    <ClCompile Include="..\src\eyetracking_speller.cpp" />
+    <ClCompile Include="..\src\eyetracking.cpp" />
     <ClCompile Include="..\src\helpers.cpp" />
     <ClCompile Include="..\src\opencl_kernel_include.cpp" />
     <ClCompile Include="..\src\pupil_tracking.cpp" />
@@ -287,7 +287,7 @@
     <ClInclude Include="..\src\deps\s\simple_gui_fltk.h" />
     <ClInclude Include="..\src\deps\timms_algorithm\timm.h" />
     <ClInclude Include="..\src\deps\timms_algorithm\timm_two_stage.h" />
-    <ClInclude Include="..\src\eyetracking_speller.h" />
+    <ClInclude Include="..\src\eyetracking.h" />
     <ClInclude Include="..\src\helpers.h" />
     <ClInclude Include="..\src\speller_canvas.h" />
   </ItemGroup>

@@ -7,6 +7,12 @@ using namespace std;
 
 void Pupil_tracking::setup(enum_simd_variant simd_width, enum_pupil_tracking_variant pupil_tracking_variant)
 {
+
+	// initialize with a random image
+	using namespace cv;
+	frame_eye_cam = Mat(480, 640, CV_8UC3);
+	randu(frame_eye_cam, Scalar::all(0), Scalar::all(255));
+
 	switch (pupil_tracking_variant)
 	{
 	case PUPIL_TRACKING_TIMM:	pupil_tracker = make_shared<Pupil_tracker_timm>(); break;

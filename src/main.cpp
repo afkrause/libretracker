@@ -8,11 +8,11 @@
 #endif
 
 #ifdef _DEBUG
-#pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411d.lib")
+#pragma comment(lib, "opencv42/build/x64/vc15/lib/opencv_world420d.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltkd.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltk_gld.lib")
 #else
-#pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411.lib")
+#pragma comment(lib, "opencv42/build/x64/vc15/lib/opencv_world420.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif
@@ -44,7 +44,7 @@
 #pragma comment(lib, "advapi32.lib")
 #endif
 
-#include "eyetracking_speller.h"
+#include "eyetracking.h"
 
 // detects capabilites of the CPU and OS. Helps in selecting the suitable vectorization option.
 #ifdef _WIN32
@@ -74,7 +74,7 @@ PRINT_MENU:
 	int sel = 0; cin >> sel;
 	// TODO - selection menu for pupil tracking algorithm
 	auto f0 = [&]() {Pupil_tracking p; p.run(simd_width, PUPIL_TRACKING_TIMM); };
-	auto f1 = [&]() {Eyetracking_speller p; p.run(simd_width, PUPIL_TRACKING_TIMM); };
+	auto f1 = [&]() {Eyetracking p; p.run(simd_width, PUPIL_TRACKING_TIMM); };
 	auto f2 = [&]() {Pupil_tracker_timm_tests p; p.run_lpw_test_all(simd_width); };
 	auto f3 = [&]() {Pupil_tracker_timm_tests p; p.run_swirski_test(simd_width); };
 	auto f4 = [&]() {Pupil_tracker_timm_tests p; p.run_excuse_test(simd_width); };
@@ -273,7 +273,7 @@ int main(int argc, char* argv[])
 			{ 
 				sg.hide(); 
 				Fl::check(); 
-				Eyetracking_speller p;
+				Eyetracking p;
 				cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
 				p.run(simd_width, eye_cam_id, scene_cam_id);
 				is_running = false; 

@@ -15,7 +15,7 @@
 
 
 
-class Eyetracking_speller : public Pupil_tracking
+class Eyetracking : public Pupil_tracking
 {
 protected:
 
@@ -110,7 +110,7 @@ protected:
 
 public:	
 
-	~Eyetracking_speller()
+	~Eyetracking()
 	{
 		cv::destroyAllWindows();
 	}
