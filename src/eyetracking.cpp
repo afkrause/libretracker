@@ -293,14 +293,11 @@ void Eyetracking::update()
 
 	// read image data from eye- and scene camera	
 	#ifdef _WIN32	
-	// old code prior to opencv 4.2 - these blocking functions can cause mutual frame drops
-	eye_camera->read(frame_eye_cam);
-	scene_camera->read(frame_scene_cam);
-	bool got_frame = true;
-	camera_ready[0] = 1;
-	camera_ready[1] = 1;
+	bool got_frame = false;
+	if (eye_camera->grab())		{ camera_ready[0] = 1; got_frame = true; }
+	if (scene_camera->grab())	{ camera_ready[1] = 1; got_frame = true; }
 	#else	
-	// new code for opencv 4.2 - but currently only for linux
+	// new code for opencv 4.2 - but currently available only for linux
 	cameras.clear();
 	cameras.push_back(*eye_camera);
 	cameras.push_back(*scene_camera);
@@ -311,7 +308,7 @@ void Eyetracking::update()
 	{
 		if (camera_ready[0])
 		{
-			eye_camera->read(frame_eye_cam);
+			eye_camera->retrieve(frame_eye_cam);
 			if (!frame_eye_cam.empty())
 			{
 				// ********************************************************
@@ -335,7 +332,7 @@ void Eyetracking::update()
 
 		if (camera_ready[1])
 		{
-			scene_camera->read(frame_scene_cam);
+			scene_camera->retrieve(frame_scene_cam);
 			if (!frame_scene_cam.empty())
 			{
 				calibration.ar_canvas.update(frame_scene_cam);
