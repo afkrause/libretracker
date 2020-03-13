@@ -292,17 +292,18 @@ void Eyetracking::update()
 	
 
 	// read image data from eye- and scene camera	
-	#ifdef _WIN32	
+	//#ifdef _WIN32	
 	bool got_frame = false;
 	if (eye_camera->grab())		{ camera_ready[0] = 1; got_frame = true; }
 	if (scene_camera->grab())	{ camera_ready[1] = 1; got_frame = true; }
-	#else	
+	
+	//#else	
 	// new code for opencv 4.2 - but currently available only for linux
-	cameras.clear();
-	cameras.push_back(*eye_camera);
-	cameras.push_back(*scene_camera);
-	bool got_frame = VideoCapture::waitAny(cameras, camera_ready, 1e6); // blocks for max. 1ms (timeout argument for waitAny is in nanoseconds)
-	#endif
+	//cameras.clear();
+	//cameras.push_back(*eye_camera);
+	//cameras.push_back(*scene_camera);
+	//bool got_frame = VideoCapture::waitAny(cameras, camera_ready, 1e6); // blocks for max. 1ms (timeout argument for waitAny is in nanoseconds)
+	//#endif
 
 	if (got_frame)
 	{
@@ -689,7 +690,7 @@ void Eyetracking::run_multithreaded()
 }
 
 #else
-void Eyetracking_speller::run_ssvep()
+void Eyetracking::run_multithreaded()
 {
 }
 #endif
