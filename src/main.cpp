@@ -139,6 +139,7 @@ int main(int argc, char* argv[])
 		{
 			// use graphical gui to select program options
 			Simple_gui sg(150, 150, 400, 700, "== Program Settings ==");
+			sg.num_columns(1);
 
 			enum_simd_variant simd_width = USE_NO_VEC;
 			sg.add_separator_box("Vectorization Level:");
@@ -245,7 +246,8 @@ int main(int argc, char* argv[])
 				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {eye_cam_id = i; });
 				if (eye_cam_id == -1) { eye_cam_id = i; b->value(true); } // preselect
 			}
-			sg.add_button("preview camera", [&]() {preview_cam(eye_cam_id); }, 1, 0);
+			sg.num_columns(1);
+			sg.add_button("preview camera", [&]() {preview_cam(eye_cam_id); });
 
 			sg.add_separator_box("Select the scene-camera:");
 			for (int i = 0; i < str_video_devices.size(); i++)
@@ -253,7 +255,7 @@ int main(int argc, char* argv[])
 				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {scene_cam_id = i; });
 				if(i==1) { scene_cam_id = 1; b->value(true); } // preselect
 			}
-			sg.add_button("preview camera", [&]() {preview_cam(scene_cam_id); }, 1, 0);
+			sg.add_button("preview camera", [&]() {preview_cam(scene_cam_id); });
 			// end camera selection
 			///////////////////////
 			
@@ -281,6 +283,7 @@ int main(int argc, char* argv[])
 
 
 			sg.finish();
+			sg.show();
 
 			while (Fl::check() && is_running)
 			{

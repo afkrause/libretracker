@@ -92,15 +92,17 @@ void Pupil_tracker_timm::setup_gui()
 	sg.add_slider("subsampling width", params[10], 10, 85, 5);
 
 	sg.add_separator_box("debug output switches");
-	sg.add_checkbox("show gradients", debug_toggles[0], 2, 0);
-	sg.add_checkbox("show weighted grad.", debug_toggles[1], 2, 1);
-	sg.add_checkbox("show output sum", debug_toggles[2], 2, 0);
-	sg.add_checkbox("show postproc. mask", debug_toggles[3], 2, 1);
+	sg.num_columns(2);
+	sg.add_checkbox("show gradients", debug_toggles[0]);
+	sg.add_checkbox("show weighted grad.", debug_toggles[1]);
+	sg.add_checkbox("show output sum", debug_toggles[2]);
+	sg.add_checkbox("show postproc. mask", debug_toggles[3]);
 
 	sg.add_separator_box("program functionality");
+	sg.num_columns(2);
 	sg.add_slider("number of threads", n_threads, 1, 16, 1);
-	sg.add_button("load defaults", [&]() {opt = load_parameters(SETTINGS_DEFAULT); params = set_params(opt); sg.update_widgets(); }, 2, 0);
-	sg.add_button("load LPW settings", [&]() {opt = load_parameters(SETTINGS_LPW); params = set_params(opt); sg.update_widgets(); }, 2, 1);
+	sg.add_button("load defaults", [&]() {opt = load_parameters(SETTINGS_DEFAULT); params = set_params(opt); sg.update_widgets(); });
+	sg.add_button("load LPW settings", [&]() {opt = load_parameters(SETTINGS_LPW); params = set_params(opt); sg.update_widgets(); });
 	//sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 3, 2);
 	sg.finish();
 	sg.show();

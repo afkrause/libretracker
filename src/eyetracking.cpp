@@ -61,14 +61,15 @@ void Eyetracking::setup(enum_simd_variant simd_width)
 	sg_stream_and_record.add_slider("smoothing", filter_smoothing, 0, 1, 0.01, "adjust the amount of smoothing of the jitter filter (double exponential filter). Larger values reduce jitter, but introduce noticable lag. this lag can partially compensated increasing the predictive value.");
 	sg_stream_and_record.add_slider("predictive", filter_predictive, 0, 1, 0.001, "The predictive component can partially comensate the lag introduced by smoothing. Large values can cause overshooting and damped oscillations of the filter.");
 	sg_stream_and_record.add_separator_box("Recording and Streaming");
-	sg_stream_and_record.add_checkbox("stream data via labstreaming layer", stream_via_LSL, 1, 0, "Stream gaze- and marker data over the local network via labstreaming layer.");
-	sg_stream_and_record.add_checkbox("save gaze data", save_gaze_data, 1, 0, "Save gaze data to a text file.");
-	sg_stream_and_record.add_checkbox("save scene-camera video", save_scene_cam_video, 1, 0, "Save a video of the scene camera content.");
-	sg_stream_and_record.add_checkbox("save eye-camera video", save_eye_cam_video, 1, 0, "Save a video of the scene camera content.");	
-	sg_stream_and_record.add_checkbox("show scene-camera during recording", show_scene_cam_during_recording, 1, 0, "Show the scene-camera with gaze cursor during recording. Might slow down recording.");
-	sg_stream_and_record.add_checkbox("show eye-camera during recording", show_eye_cam_during_recording, 1, 0, "Show the eye-camera with gaze cursor during recording. Might slow down recording.");
+	sg.num_columns(1);
+	sg_stream_and_record.add_checkbox("stream data via labstreaming layer", stream_via_LSL, "Stream gaze- and marker data over the local network via labstreaming layer.");
+	sg_stream_and_record.add_checkbox("save gaze data", save_gaze_data, "Save gaze data to a text file.");
+	sg_stream_and_record.add_checkbox("save scene-camera video", save_scene_cam_video, "Save a video of the scene camera content.");
+	sg_stream_and_record.add_checkbox("save eye-camera video", save_eye_cam_video, "Save a video of the scene camera content.");	
+	sg_stream_and_record.add_checkbox("show scene-camera during recording", show_scene_cam_during_recording, "Show the scene-camera with gaze cursor during recording. Might slow down recording.");
+	sg_stream_and_record.add_checkbox("show eye-camera during recording", show_eye_cam_during_recording, "Show the eye-camera with gaze cursor during recording. Might slow down recording.");
 	sg_stream_and_record.add_slider("buffer size:", video_writer_buffer_size, 0, 250, 1, "adjust the buffer size for the video writer. For fast SSD and HDD a buffer size of 25 should be sufficient. If you experience framedrops, you can increase this value, but you will need more free RAM. Ultimately, the storage medium must be fast enough to save the video at the requested frame rate, no matter what the buffer size is set to.");
-	sg_stream_and_record.add_button("Start!", [&](){sg_stream_and_record.hide(); sg.hide(); run_multithreaded(); }, 1, 0, "Start recording a mjpeg video."); //hide guis to avoid multithreading problems (especially with changing camera properties )
+	sg_stream_and_record.add_button("Start!", [&](){sg_stream_and_record.hide(); sg.hide(); run_multithreaded(); }, "Start recording a mjpeg video."); //hide guis to avoid multithreading problems (especially with changing camera properties )
 	sg_stream_and_record.finish();
 	sg_stream_and_record.hide();
 
@@ -82,22 +83,25 @@ void Eyetracking::setup(enum_simd_variant simd_width)
 	sg.add_slider("AR marker size", gui_param_marker_size, 40, 400, 10, "Size of the AR markers in pixel. Larger values increase the robustness of marker tracking, but reduce the available screen space for e.g. the speller application.");
 	// sg.add_button("use enclosed markers", [&]() {calibration.ar_canvas.setup(true); },1,0,"use enclosed markers. corners jitter less, but markers need to be larger.");
 	// sg.add_slider("detection size", calibration.ar_canvas.min_marker_size, 0.005, 0.1, 0.001, "minimum detection size of a marker (in percent of total image area)");
-	sg.add_radio_button("no prediction", [&]() { calibration.ar_canvas.prediction_method = Aruco_canvas::NO_MARKER_PREDICTION; }, 3, 0, "No prediction of currently non-trackable / non-visible markers.");
-	sg.add_radio_button("mutual offsets", [&]() {calibration.ar_canvas.prediction_method = Aruco_canvas::MARKER_PREDICTION_MUTUAL_OFFSETS; }, 3, 1, "Marker Prediction using mutual offsets. Robust but inaccurate with head rotation and movements.");
-	auto button = sg.add_radio_button("edge vectors", [&]() {calibration.ar_canvas.prediction_method = Aruco_canvas::MARKER_PREDICTION_EDGE_VECTORS; }, 3, 2, "Marker Prediction using edge-vectors of visible markers. Robust to head movements- and rotations, but prone to jitter. Using larger markers reduces jitter.");
+	sg.num_columns(3);
+	sg.add_radio_button("no prediction", [&]() { calibration.ar_canvas.prediction_method = Aruco_canvas::NO_MARKER_PREDICTION; }, "No prediction of currently non-trackable / non-visible markers.");
+	sg.add_radio_button("mutual offsets", [&]() {calibration.ar_canvas.prediction_method = Aruco_canvas::MARKER_PREDICTION_MUTUAL_OFFSETS; }, "Marker Prediction using mutual offsets. Robust but inaccurate with head rotation and movements.");
+	auto button = sg.add_radio_button("edge vectors", [&]() {calibration.ar_canvas.prediction_method = Aruco_canvas::MARKER_PREDICTION_EDGE_VECTORS; }, "Marker Prediction using edge-vectors of visible markers. Robust to head movements- and rotations, but prone to jitter. Using larger markers reduces jitter.");
 	button->value(true);
 
 	sg.add_separator_box("2. adjust cameras:");
-	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, 3, 0, "swap eye- and scene camera.");
-	sg.add_button("eye-cam", [&]() { eye_cam_controls.setup(eye_camera, 20, 20, 400, 400, "Eye-Camera Controls"); }, 3, 1, "adjust the eye-camera settings.");
-	sg.add_button("scene-cam", [&]() { scene_cam_controls.setup(scene_camera, 20, 20, 400, 400, "Scene-Camera Controls"); }, 3, 2, "adjust the scene-camera settings.");
+	sg.num_columns(3);
+	sg.add_button("swap cameras", [&]() { auto tmp = scene_camera; scene_camera = eye_camera; eye_camera = tmp; }, "swap eye- and scene camera.");
+	sg.add_button("eye-cam", [&]() { eye_cam_controls.setup(eye_camera, 20, 20, 400, 400, "Eye-Camera Controls"); }, "adjust the eye-camera settings.");
+	sg.add_button("scene-cam", [&]() { scene_cam_controls.setup(scene_camera, 20, 20, 400, 400, "Scene-Camera Controls"); }, "adjust the scene-camera settings.");
 
 	sg.add_separator_box("3. select Pupil-Tracking algorithm:");
-	sg.add_radio_button("Timm's algorithm", [&,s = simd_width]() { Pupil_tracking::setup(s, PUPIL_TRACKING_TIMM); },1,0, "Timms Algorithm is a gradient based algorithm. License: GPL3.");
-	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); }, 1, 0, "PuRe is a high accuracy- and performance algorithm from the university of t�bingen. License: research only! You are not allowed to use this algorithm and its code for commercial applications.");
-	button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); }, 1, 0, "PuReST is a high accuracy - and performance algorithm from the university of t�bingen.License: research only!You are not allowed to use this algorithm and its code for commercial applications.");
+	sg.num_columns(1);
+	sg.add_radio_button("Timm's algorithm", [&,s = simd_width]() { Pupil_tracking::setup(s, PUPIL_TRACKING_TIMM); }, "Timms Algorithm is a gradient based algorithm. License: GPL3.");
+	sg.add_radio_button("PuRe (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PURE); }, "PuRe is a high accuracy- and performance algorithm from the university of t�bingen. License: research only! You are not allowed to use this algorithm and its code for commercial applications.");
+	button = sg.add_radio_button("PuReST (for research only!)", [&, s = simd_width]() {Pupil_tracking::setup(s, PUPIL_TRACKING_PUREST); }, "PuReST is a high accuracy - and performance algorithm from the university of t�bingen.License: research only!You are not allowed to use this algorithm and its code for commercial applications.");
 	button->value(true);
-	sg.add_button("adjust settings", [&]() { pupil_tracker->show_gui(); }, 1, 0);
+	sg.add_button("adjust settings", [&]() { pupil_tracker->show_gui(); });
 
 
 	/*
@@ -110,23 +114,26 @@ void Eyetracking::setup(enum_simd_variant simd_width)
 	
 	sg.add_separator_box("4. calibrate the eyetracker:");
 	// TODO sg.add_slider("n poly features", []() {}, 4, 4, 10, "");
-	sg.add_button("5 point",	[&]() { grab_focus("screen"); calibration.setup(5); state = STATE_CALIBRATION; }, 3, 0, "perform a 5-point calibration.");
-	sg.add_button("9 point",	[&]() { grab_focus("screen"); calibration.setup(9); state = STATE_CALIBRATION; }, 3, 1, "perform a 9-point calibration. this takes a bit longer, but usually increases calibration accuracy.");
-	sg.add_button("visualize",	[&]() { state = STATE_CALIBRATION; calibration.state = Calibration::STATE_VISUALIZE_CALIBRATION; }, 3, 2, "Visualize the calibration result. Here, you can also try to optimize the polynomial 2d-to-2d mapping by changing the number of polynomial features.");
+	sg.num_columns(3);
+	sg.add_button("5 point",	[&]() { grab_focus("screen"); calibration.setup(5); state = STATE_CALIBRATION; }, "perform a 5-point calibration.");
+	sg.add_button("9 point",	[&]() { grab_focus("screen"); calibration.setup(9); state = STATE_CALIBRATION; }, "perform a 9-point calibration. this takes a bit longer, but usually increases calibration accuracy.");
+	sg.add_button("visualize",	[&]() { state = STATE_CALIBRATION; calibration.state = Calibration::STATE_VISUALIZE_CALIBRATION; }, "Visualize the calibration result. Here, you can also try to optimize the polynomial 2d-to-2d mapping by changing the number of polynomial features.");
 	
 	sg.add_separator_box("5. validate the calibration (optional):");
 	double n_validation_points = 5;
 	sg.add_slider("validation points", n_validation_points, 4, 20, 1,"Select the number of validation-points.");
 	sg.add_slider("randomness [px]", n_validation_points, 0, 50, 1, "Select the random deviation of the generated validation-points from the default validation-point positions.");
-	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, 3, 0, "Check the calibration by testing additional points. (optional)");
-	sg.add_button("visualize",	[&]() { calibration.state = Calibration::STATE_VISUALIZE_VALIDATION;  }, 3, 1, "Visalizes the results of the validation.");
-	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, 3, 2, "Remove a potential systematic offset found after validation.");
+	sg.num_columns(3);
+	sg.add_button("validate",	[&]() { grab_focus("screen"); calibration.setup_validation(); calibration.state = Calibration::STATE_VALIDATION;  }, "Check the calibration by testing additional points. (optional)");
+	sg.add_button("visualize",	[&]() { calibration.state = Calibration::STATE_VISUALIZE_VALIDATION;  }, "Visalizes the results of the validation.");
+	sg.add_button("fix offset", [&]() { calibration.fix_offset();  }, "Remove a potential systematic offset found after validation.");
 
 	sg.add_separator_box("6. run modules");
-	sg.add_button("observe", [&]() { state = STATE_OBSERVE; }, 2, 0, "Observe gaze relative to the scene camera. You can manually check if the calculated gaze point matches a fixated real world feature.");
-	sg.add_button("stream / record", [&]() { sg_stream_and_record.show(); }, 2, 1, "Stream and/or record gaze- and marker data using the labstreaming layer middleware.");
-	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUN_SPELLER; }, 2, 0, "Run an eyetracking based speller demo. Press the space-bar to acknowledge a fixated letter.");
-	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; }, 2, 1);
+	sg.num_columns(2);
+	sg.add_button("observe", [&]() { state = STATE_OBSERVE; }, "Observe gaze relative to the scene camera. You can manually check if the calculated gaze point matches a fixated real world feature.");
+	sg.add_button("stream / record", [&]() { sg_stream_and_record.show(); },  "Stream and/or record gaze- and marker data using the labstreaming layer middleware.");
+	sg.add_button("run speller", [&]() { grab_focus("screen"); state = STATE_RUN_SPELLER; }, "Run an eyetracking based speller demo. Press the space-bar to acknowledge a fixated letter.");
+	sg.add_button("quit", [&]() { sg.hide(); Fl::check(); is_running = false; });
 
 
 	sg.finish();
@@ -462,6 +469,7 @@ void Eyetracking::run_multithreaded()
 	sg_local.add_button("stop recording / streaming", [&]() { run = false;  });
 	//sg_local.add_button("quit program", [&]() { exit(EXIT_SUCCESS);} );
 	sg_local.finish();
+	sg_local.show();
 
 	// Sdl_opencv sdl;
 
@@ -684,6 +692,7 @@ void Eyetracking::run_multithreaded()
 	eye_cam_video_saver.close();
 	fstream_gaze_data.close();
 
+	sg_local.hide();
 	sg.show();
 
 	// todo restore all other windows 
