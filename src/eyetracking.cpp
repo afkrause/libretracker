@@ -396,11 +396,11 @@ void Eyetracking::update()
 
 
 
-void Eyetracking::run(enum_simd_variant simd_width,  int eye_cam_id, int scene_cam_id)
+void Eyetracking::run(enum_simd_variant simd_width,  int eye_cam_id, int scene_cam_id, cv::VideoCaptureAPIs eye_cam_backend, cv::VideoCaptureAPIs scene_cam_backend)
 {
 	cv::setUseOptimized(true);
-	eye_camera = select_camera("select eye camera number (0..n):", eye_cam_id);
-	scene_camera = select_camera("select scene camera number (0..n):", scene_cam_id);
+	eye_camera = select_camera("select eye camera number (0..n):", eye_cam_id, eye_cam_backend);
+	scene_camera = select_camera("select scene camera number (0..n):", scene_cam_id, scene_cam_backend);
 
 
 	cout << "\nTo improve calibration results, the autofocus of both eye- and scene camera will be disabled.\n";

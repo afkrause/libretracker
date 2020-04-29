@@ -72,13 +72,13 @@ std::tuple<float, int, int> draw_preview(cv::Mat& img_preview, cv::Mat& img_targ
 #include "deps/DeviceEnumerator.h" 
 #endif
 
-shared_ptr<Camera> select_camera(string message, int id)
+shared_ptr<Camera> select_camera(string message, int id, cv::VideoCaptureAPIs backend)
 {
 	// first try the provided id
 	shared_ptr<Camera> capture = nullptr;
 	if (id != -1)
 	{
-		capture = make_shared<Camera>(id);
+		capture = make_shared<Camera>(id, backend);
 		if (capture->isOpened())
 		{
 			return capture;

@@ -191,22 +191,27 @@ int main(int argc, char* argv[])
 
 			///////////////////////
 			// camera selection
-			auto preview_cam = [&](int id)
+			auto preview_cam = [&](int id, cv::VideoCaptureAPIs backend)
 			{
 				try
 				{
 					using namespace cv;
 					cv::Mat img;
 					const int n_frames = 200;
-					auto capture = VideoCapture(id);					
+					auto capture = VideoCapture(id, backend);
 					if (capture.isOpened())
 					{
+						cout << "\n selected or auto-detected video capture backend = " << capture.getBackendName();
 						for (int i = 0; i < 200; i++)
 						{
 							capture.read(img);
 							imshow("camera_preview", img);
 							if (waitKey(1) == 27) { break; }
 						}
+					}
+					else
+					{
+						cerr << "\n could not open VideoCapture with id=" << id << " and backend=" << backend;
 					}
 					capture.release();
 					destroyWindow("camera_preview");
@@ -240,22 +245,40 @@ int main(int argc, char* argv[])
 			}
 			#endif			
 
-			sg.add_separator_box("Select the eye-camera:");			
+			auto videocap_backend_eye_cam = cv::CAP_ANY;
+			auto videocap_backend_scene_cam = cv::CAP_ANY;
+			auto backend_selection_func = [&](auto& backend)
+			{
+				sg.num_columns(2);
+				auto b = sg.add_radio_button("Auto Detect", [&]() {backend = cv::CAP_ANY; }, "OpenCV tries to autmatically detect the appropriate backend for video capture.");
+				b->value(true);
+				sg.add_radio_button("Direct Show", [&]() {backend = cv::CAP_DSHOW; }, "select the direct show backend for video capture.");
+				sg.add_radio_button("MS Media Foundation", [&]() {backend = cv::CAP_MSMF; }, "select the Microsoft Media Foundation backend for video capture.");
+				sg.add_radio_button("MS Windows Runtime", [&]() {backend = cv::CAP_WINRT; }, "select the Microsoft Windows Runtime backend for video capture.");
+			};
+
+			sg.add_separator_box("Select the eye-camera video-capture backend:");			
+			backend_selection_func(videocap_backend_eye_cam);
+			sg.add_separator_box("Select the eye-camera:");
+			sg.num_columns(1);
 			for (int i = 0; i< str_video_devices.size();i++)
 			{
 				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {eye_cam_id = i; });
 				if (eye_cam_id == -1) { eye_cam_id = i; b->value(true); } // preselect
-			}
-			sg.num_columns(1);
-			sg.add_button("preview camera", [&]() {preview_cam(eye_cam_id); });
+			}			
+			sg.add_button("preview camera", [&]() {preview_cam(eye_cam_id, videocap_backend_eye_cam); });
 
-			sg.add_separator_box("Select the scene-camera:");
+
+			sg.add_separator_box("Select the scene-camera video-capture backend:");
+			backend_selection_func(videocap_backend_scene_cam);
+			sg.add_separator_box("Select the scene-camera:");			
+			sg.num_columns(1);
 			for (int i = 0; i < str_video_devices.size(); i++)
 			{
 				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {scene_cam_id = i; });
 				if(i==1) { scene_cam_id = 1; b->value(true); } // preselect
 			}
-			sg.add_button("preview camera", [&]() {preview_cam(scene_cam_id); });
+			sg.add_button("preview camera", [&]() {preview_cam(scene_cam_id, videocap_backend_scene_cam); });
 			// end camera selection
 			///////////////////////
 			
@@ -267,7 +290,7 @@ int main(int argc, char* argv[])
 				sg.hide(); 
 				Fl::check(); 
 				Pupil_tracking p;
-				p.run(simd_width, eye_cam_id);
+				p.run(simd_width, eye_cam_id, videocap_backend_eye_cam);
 				is_running = false; 
 			});
 			
@@ -277,7 +300,7 @@ int main(int argc, char* argv[])
 				Fl::check(); 
 				Eyetracking p;
 				cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
-				p.run(simd_width, eye_cam_id, scene_cam_id);
+				p.run(simd_width, eye_cam_id, scene_cam_id, videocap_backend_eye_cam, videocap_backend_scene_cam);
 				is_running = false; 
 			});
 

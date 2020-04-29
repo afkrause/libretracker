@@ -115,7 +115,7 @@ public:
 		cv::destroyAllWindows();
 	}
 
-	void run(enum_simd_variant simd_width, int eye_cam_id = -1, int scenen_cam_id=-1);
+	void run(enum_simd_variant simd_width, int eye_cam_id = -1, int scenen_cam_id=-1, cv::VideoCaptureAPIs eye_cam_backend = cv::CAP_ANY, cv::VideoCaptureAPIs scene_cam_backend = cv::CAP_ANY);
 	void setup(enum_simd_variant simd_width);
 	void update();
 

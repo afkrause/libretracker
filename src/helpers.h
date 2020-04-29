@@ -92,7 +92,7 @@ std::tuple<float, int, int> draw_preview(cv::Mat& img_preview, cv::Mat& img_targ
 // generic opencv camera selection dialog
 // if provided an camera id != -1, it tries to open this id. 
 // if that fails, the selection dialog is presented (win32: including a list of available cameras)
-std::shared_ptr<Camera> select_camera(std::string message = "select video camera nr. (default=0):", int id = -1);
+std::shared_ptr<Camera> select_camera(std::string message = "select video camera nr. (default=0):", int id = -1, cv::VideoCaptureAPIs backend = cv::CAP_ANY);
 
 
 // helper function. when pressing a button in the fltk gui, 
