@@ -43,8 +43,8 @@ Plase note, you may need to install [the visual C++ runtime from microsoft.com.]
 
 ```console
 Libretracker20200502.zip
-SHA1: b8116ba8280078a8ab683387320baf571b14980a
-SHA3_512: cfb74a30ecb1d99da1da5b1c1a19c2f8b35a87f1c6433e7ada0736549da279188581c08b1b6907dac0fc5000a1a1f73a07bd14a14672fa6d823b7d50d7b0936d
+SHA1: d7e286f790f4f0d21f33af5629c0db327fcc69fd
+SHA3_512: 3f63db11227fa2c25c76d48cad2be02772c566358a610b67ddc54c3e958818ccb61a7f15e8122001b740480a874640dd6ddc6255d798ed0e7899c61dbb7d8938
 ```
 
 ## Compiling
