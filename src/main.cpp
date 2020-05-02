@@ -155,12 +155,12 @@ int main(int argc, char* argv[])
 			bool preview_scene_cam = false;
 			Camera_control eye_cam_control;
 			shared_ptr<Camera> eye_cam;
-			eye_cam_control.setup(eye_cam, 460, 50, 400, 400, "Eye Camera Configuration");
+			eye_cam_control.setup(eye_cam, 460, 50, 400, 460, "Eye Camera Configuration");
 			eye_cam_control.hide();
 			
 			Camera_control scene_cam_control;
 			shared_ptr<Camera> scene_cam;
-			scene_cam_control.setup(scene_cam, 460, 500, 400, 400, "Scene Camera Configuration");
+			scene_cam_control.setup(scene_cam, 460, 500, 400, 460, "Scene Camera Configuration");
 			scene_cam_control.hide();
 
 			// use graphical gui to select program options
@@ -214,35 +214,6 @@ int main(int argc, char* argv[])
 			// TODO: create another menu to select the OpenCL accelerator (GPU / CPU / special hardware)
 			/////////////////
 
-
-			auto preview_cam = [&](int id, cv::VideoCaptureAPIs backend)
-			{
-				try
-				{
-					using namespace cv;
-					cv::Mat img;
-					const int n_frames = 200;
-					auto capture = VideoCapture(id, backend);
-					if (capture.isOpened())
-					{
-						cout << "\n selected or auto-detected video capture backend = " << capture.getBackendName();
-						for (int i = 0; i < 200; i++)
-						{
-							capture.read(img);
-							imshow("camera_preview", img);
-							if (waitKey(1) == 27) { break; }
-						}
-					}
-					else
-					{
-						cerr << "\n could not open VideoCapture with id=" << id << " and backend=" << backend;
-					}
-					capture.release();
-					destroyWindow("camera_preview");
-				}
-				catch (exception & e) { cerr << "\n error previewing camera output: " << e.what(); }
-			};
-
 			int eye_cam_id = -1; int scene_cam_id = -1;
 			vector<string> str_video_devices;
 			for (int i = 0; i < 4; i++)
@@ -285,8 +256,6 @@ int main(int argc, char* argv[])
 
 
 			sg.add_separator_box("Select and configure the eye-camera:");			
-			//backend_selection_func(videocap_backend_eye_cam);
-			//sg.add_separator_box("Select the eye-camera:");
 			sg.num_columns(1);
 			for (int i = 0; i< str_video_devices.size();i++)
 			{
@@ -315,8 +284,6 @@ int main(int argc, char* argv[])
 
 
 			sg.add_separator_box("Select the scene-camera video-capture backend:");
-			//backend_selection_func(videocap_backend_scene_cam);
-			//sg.add_separator_box("Select the scene-camera:");			
 			sg.num_columns(1);
 			for (int i = 0; i < str_video_devices.size(); i++)
 			{
@@ -356,7 +323,7 @@ int main(int argc, char* argv[])
 				sg.hide();
 				Fl::check();
 				Pupil_tracking p;
-				p.run(simd_width, eye_cam);// _id, videocap_backend_eye_cam);
+				p.run(simd_width, eye_cam);
 				is_running = false; 
 			});
 			
@@ -451,3 +418,37 @@ int main(int argc, char* argv[])
 
 	return EXIT_SUCCESS;
 }
+
+
+
+/* old code
+
+			auto preview_cam = [&](int id, cv::VideoCaptureAPIs backend)
+			{
+				try
+				{
+					using namespace cv;
+					cv::Mat img;
+					const int n_frames = 200;
+					auto capture = VideoCapture(id, backend);
+					if (capture.isOpened())
+					{
+						cout << "\n selected or auto-detected video capture backend = " << capture.getBackendName();
+						for (int i = 0; i < 200; i++)
+						{
+							capture.read(img);
+							imshow("camera_preview", img);
+							if (waitKey(1) == 27) { break; }
+						}
+					}
+					else
+					{
+						cerr << "\n could not open VideoCapture with id=" << id << " and backend=" << backend;
+					}
+					capture.release();
+					destroyWindow("camera_preview");
+				}
+				catch (exception & e) { cerr << "\n error previewing camera output: " << e.what(); }
+			};
+
+*/
