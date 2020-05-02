@@ -215,7 +215,9 @@ public:
 
 
 	// capture from the usb webcam 
-	void run(enum_simd_variant simd_width, int eye_cam_id = -1, cv::VideoCaptureAPIs eye_cam_backend=cv::CAP_ANY);
+	//void run(enum_simd_variant simd_width, int eye_cam_id = -1, cv::VideoCaptureAPIs eye_cam_backend=cv::CAP_ANY);
+	void run(enum_simd_variant simd_width, std::shared_ptr<Camera> eye_camera);
+	
 
 
 };

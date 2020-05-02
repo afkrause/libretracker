@@ -12,7 +12,17 @@
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltkd.lib")
 #pragma comment(lib, "fltk14/bin/lib/Debug/fltk_gld.lib")
 #else
-#pragma comment(lib, "opencv42/build/x64/vc15/lib/opencv_world420.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_core430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_imgcodecs430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_imgproc430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_highgui430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_videoio430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_calib3d430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_video430.lib")
+
+
+
+
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk.lib")
 #pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif
@@ -57,10 +67,12 @@ using namespace std;
 // hack because openCV has no flexible window handling
 int debug_window_pos_x = 10;
 
-void main_menu(enum_simd_variant simd_width)
-{
-	
 
+void main_menu(enum_simd_variant simd_width)
+{ }
+
+/*
+// old code.. 
 PRINT_MENU:
 	cout << "\n=== Menu ===\n";
 	cout << "[0] Eye Cam pupil tracking\n";
@@ -91,8 +103,7 @@ PRINT_MENU:
 	default: cerr << "wrong input. please try again:" << endl; goto PRINT_MENU;
 	}
 }
-
-
+*/
 
 #include <FL/fl_ask.H>
 
@@ -137,8 +148,23 @@ int main(int argc, char* argv[])
 
 		if (true)
 		{
+
+			///////////////////////
+			// camera selection and configuration variables
+			bool preview_eye_cam = false;
+			bool preview_scene_cam = false;
+			Camera_control eye_cam_control;
+			shared_ptr<Camera> eye_cam;
+			eye_cam_control.setup(eye_cam, 460, 50, 400, 400, "Eye Camera Configuration");
+			eye_cam_control.hide();
+			
+			Camera_control scene_cam_control;
+			shared_ptr<Camera> scene_cam;
+			scene_cam_control.setup(scene_cam, 460, 500, 400, 400, "Scene Camera Configuration");
+			scene_cam_control.hide();
+
 			// use graphical gui to select program options
-			Simple_gui sg(150, 150, 400, 700, "== Program Settings ==");
+			Simple_gui sg(30, 50, 400, 600, "== Program Settings ==");
 			sg.num_columns(1);
 
 			enum_simd_variant simd_width = USE_NO_VEC;
@@ -189,8 +215,6 @@ int main(int argc, char* argv[])
 			/////////////////
 
 
-			///////////////////////
-			// camera selection
 			auto preview_cam = [&](int id, cv::VideoCaptureAPIs backend)
 			{
 				try
@@ -245,62 +269,107 @@ int main(int argc, char* argv[])
 			}
 			#endif			
 
-			auto videocap_backend_eye_cam = cv::CAP_ANY;
-			auto videocap_backend_scene_cam = cv::CAP_ANY;
-			auto backend_selection_func = [&](auto& backend)
+			auto create_cam_func = [&](shared_ptr<Camera>& cam, int id, shared_ptr<Camera>& the_other_cam)
 			{
-				sg.num_columns(2);
-				auto b = sg.add_radio_button("Auto Detect", [&]() {backend = cv::CAP_ANY; }, "OpenCV tries to autmatically detect the appropriate backend for video capture.");
-				b->value(true);
-				sg.add_radio_button("Direct Show", [&]() {backend = cv::CAP_DSHOW; }, "select the direct show backend for video capture.");
-				sg.add_radio_button("MS Media Foundation", [&]() {backend = cv::CAP_MSMF; }, "select the Microsoft Media Foundation backend for video capture.");
-				sg.add_radio_button("MS Windows Runtime", [&]() {backend = cv::CAP_WINRT; }, "select the Microsoft Windows Runtime backend for video capture.");
+				if (the_other_cam && id == the_other_cam->get_index())
+				{
+					fl_message("the eye- and scene cameras must be different. please change the camera selection, close the other camera if necessary and try again.");
+					return;
+				}
+				bool msg = false;
+				if (!cam) { cam = make_shared<Camera>(id); msg = true; }
+				if (cam->get_index() != id) { cam->release(); cam = make_shared<Camera>(id); msg = true; }
+				if (msg) { cout << "\nCamera object created. id=" << cam->get_index(); }
 			};
 
-			sg.add_separator_box("Select the eye-camera video-capture backend:");			
-			backend_selection_func(videocap_backend_eye_cam);
-			sg.add_separator_box("Select the eye-camera:");
+
+
+			sg.add_separator_box("Select and configure the eye-camera:");			
+			//backend_selection_func(videocap_backend_eye_cam);
+			//sg.add_separator_box("Select the eye-camera:");
 			sg.num_columns(1);
 			for (int i = 0; i< str_video_devices.size();i++)
 			{
 				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {eye_cam_id = i; });
 				if (eye_cam_id == -1) { eye_cam_id = i; b->value(true); } // preselect
-			}			
-			sg.add_button("preview camera", [&]() {preview_cam(eye_cam_id, videocap_backend_eye_cam); });
+			}
+			sg.num_columns(3);
+			auto create_eye_cam_func = [&]() {create_cam_func(eye_cam, eye_cam_id, scene_cam); };
+			sg.add_button("preview", [&]() {create_eye_cam_func(); });
+			sg.add_button("setup", [&]()
+			{
+				create_eye_cam_func();
+				eye_cam_control.set_camera(eye_cam);
+				eye_cam_control.show();
+
+			});
+			sg.add_button("close", [&]()
+				{
+					eye_cam_control.hide();
+					if (eye_cam)
+					{
+						eye_cam->release();
+						eye_cam = nullptr;
+					}
+				});
 
 
 			sg.add_separator_box("Select the scene-camera video-capture backend:");
-			backend_selection_func(videocap_backend_scene_cam);
-			sg.add_separator_box("Select the scene-camera:");			
+			//backend_selection_func(videocap_backend_scene_cam);
+			//sg.add_separator_box("Select the scene-camera:");			
 			sg.num_columns(1);
 			for (int i = 0; i < str_video_devices.size(); i++)
 			{
 				auto b = sg.add_radio_button(str_video_devices[i].c_str(), [&,i]() {scene_cam_id = i; });
 				if(i==1) { scene_cam_id = 1; b->value(true); } // preselect
 			}
-			sg.add_button("preview camera", [&]() {preview_cam(scene_cam_id, videocap_backend_scene_cam); });
+			sg.num_columns(3);
+			auto create_scene_cam_func = [&]() {create_cam_func(scene_cam, scene_cam_id, eye_cam); };
+			sg.add_button("preview", [&]() {create_scene_cam_func(); });
+			sg.add_button("setup", [&]()
+			{
+					create_scene_cam_func();
+					scene_cam_control.set_camera(scene_cam);
+					scene_cam_control.show();
+			});
+			sg.add_button("close camera", [&]()
+				{
+					scene_cam_control.hide();
+					if (scene_cam)
+					{
+						scene_cam->release();
+						scene_cam = nullptr;
+					}
+				});
+
 			// end camera selection
 			///////////////////////
 			
 
 			bool is_running = true;
 			sg.add_separator_box("Start a Module:");
-			sg.add_button("Eyecam Pupil-Tracking", [&]() 
-			{ 
-				sg.hide(); 
-				Fl::check(); 
+			sg.num_columns(2);
+			sg.add_button("Eyecam Pupil-Tracking", [&]()
+			{
+				cv::destroyAllWindows();
+				create_eye_cam_func();
+				sg.hide();
+				Fl::check();
 				Pupil_tracking p;
-				p.run(simd_width, eye_cam_id, videocap_backend_eye_cam);
+				p.run(simd_width, eye_cam);// _id, videocap_backend_eye_cam);
 				is_running = false; 
 			});
 			
 			sg.add_button("Eyetracking", [&]()
-			{ 
+			{
+				cv::destroyAllWindows();
+				create_eye_cam_func();
+				create_scene_cam_func();
 				sg.hide(); 
 				Fl::check(); 
 				Eyetracking p;
-				cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
-				p.run(simd_width, eye_cam_id, scene_cam_id, videocap_backend_eye_cam, videocap_backend_scene_cam);
+				//cout << "eye cam id, scene cam id: " << eye_cam_id << ", " << scene_cam_id << endl;
+				p.run(simd_width, eye_cam, scene_cam);
 				is_running = false; 
 			});
 
@@ -308,9 +377,37 @@ int main(int argc, char* argv[])
 			sg.finish();
 			sg.show();
 
+			cv::Mat eye_img;
+			cv::Mat scene_img;
 			while (Fl::check() && is_running)
 			{
-				Fl::wait();
+				if (eye_cam)
+				{ 
+					if (eye_cam->isOpened())
+					{
+						eye_cam->read(eye_img);
+						if (!eye_img.empty()) { cv::imshow("Eye camera preview", eye_img); }
+					}
+				}
+				else { cv::destroyWindow("Eye camera preview"); }
+
+				if (scene_cam)
+				{ 
+					if (scene_cam->isOpened())
+					{
+						scene_cam->read(scene_img);
+						if (!scene_img.empty()) { cv::imshow("Scene camera preview", scene_img); }
+					}
+				}
+				else { cv::destroyWindow("Scene camera preview"); }
+
+				eye_cam_control.update();
+				scene_cam_control.update();
+
+				//Fl::wait();
+				//Fl::wait(0.001);
+				Fl::check();
+				cv::waitKey(1);
 			}
 		}
 		else

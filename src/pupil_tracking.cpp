@@ -26,10 +26,10 @@ void Pupil_tracking::setup(enum_simd_variant simd_width, enum_pupil_tracking_var
 }
 
 
-void Pupil_tracking::run(enum_simd_variant simd_width, int eye_cam_id, cv::VideoCaptureAPIs eye_cam_backend)
+void Pupil_tracking::run(enum_simd_variant simd_width, shared_ptr<Camera> eye_camera)//int eye_cam_id, cv::VideoCaptureAPIs eye_cam_backend)
 {
 	Camera_control eye_cam_controls;
-	auto eye_cam = select_camera("select the eye camera id:", eye_cam_id, eye_cam_backend);
+	auto eye_cam = eye_camera;//select_camera("select the eye camera id:", eye_cam_id, eye_cam_backend);
 
 	// test xtal video
 	//auto eye_cam = make_shared<Camera>("d:/temp/xtal_eye_videos/2019-09-06_142643_470_b.avi");
