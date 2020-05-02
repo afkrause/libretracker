@@ -37,14 +37,14 @@ cameras of a usual DIY Pupil Labs Eyetracker: https://docs.pupil-labs.com/#diy
 This Software is licensed under the GPL 3. You can use it commercially, but you MUST make sure that end users have the freedom to run, study, share and modify the software. This means you have to release all of your code, tools and dependencies necessary to build your software if you use code from this Libretracker. For details see https://www.gnu.org/licenses/gpl-3.0.en.html , for a quick guide read https://www.gnu.org/licenses/quick-guide-gplv3.html .
 
 ## Downloads 
-64bit windows-executable:  http://andre-krause.de/libretracker/Libretracker20200429.zip
+64bit windows-executable:  http://andre-krause.de/libretracker/Libretracker20200502.zip
 
 Plase note, you may need to install [the visual C++ runtime from microsoft.com.](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) [Direct link: vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
 ```console
-Libretracker20200429.zip
-SHA1: a53fd2bd7ed7154b2a0cc690583786bfd363a96e
-SHA3_512: 3f60bd5d9c49d4e23a5a494fb1132b09eeae747de78f7969262f7afc657c5decffbec7d76834a8b97e1696915861ae273ef308fa499c911ca2930b806a6992e5
+Libretracker20200502.zip
+SHA1: b8116ba8280078a8ab683387320baf571b14980a
+SHA3_512: cfb74a30ecb1d99da1da5b1c1a19c2f8b35a87f1c6433e7ada0736549da279188581c08b1b6907dac0fc5000a1a1f73a07bd14a14672fa6d823b7d50d7b0936d
 ```
 
 ## Compiling
