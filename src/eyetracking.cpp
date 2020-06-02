@@ -456,10 +456,17 @@ void Eyetracking::run_multithreaded()
 	auto fps_scene_cam = scene_camera->get(cv::CAP_PROP_FPS);
 	auto fps_eye_cam = eye_camera->get(cv::CAP_PROP_FPS);
 
+	// fix for opencv problem: 
+	// some video capture backends do not properly report the camera FPS value
+	if (fps_scene_cam == 0) { fps_scene_cam = 30; }
+	if (fps_eye_cam == 0) { fps_eye_cam = 30; }
+	cout << "\neye fps_scene_cam fps = " << fps_scene_cam;
+	cout << "\neye camera fps = " << fps_eye_cam;
+
 	string dts = date_time_str();
 	fstream fstream_gaze_data;
 	if (save_gaze_data)			{ fstream_gaze_data.open(dts + "_gaze_data.txt", ios::out); }
-	if (save_scene_cam_video)	{ scene_cam_video_saver.open(dts + "_scene_camera.avi", dts + "_scene_camera_timestamps.txt", fps_scene_cam, Size(img_screen.cols, img_screen.rows), int(video_writer_buffer_size)); }
+	if (save_scene_cam_video)	{ scene_cam_video_saver.open(dts + "_scene_camera.avi", dts + "_scene_camera_timestamps.txt", fps_scene_cam, Size(frame_scene_cam.cols , frame_scene_cam.rows), int(video_writer_buffer_size)); }
 	if (save_eye_cam_video)		{ eye_cam_video_saver.open(dts + "_eye_camera.avi", dts + "_eye_camera_timestamps.txt", fps_eye_cam, Size(frame_eye_cam.cols, frame_eye_cam.rows), int(video_writer_buffer_size)); }
 
 	cv::destroyAllWindows();
@@ -516,9 +523,6 @@ void Eyetracking::run_multithreaded()
 			timer.tick();
 			scene_camera->read(frame_scene_cam);
 			double timestamp = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
-			
-			//thread_scenecam.get_frame(frame_scene_cam);
-			//thread_scenecam.new_frame = false;
 
 			// for some strange reasons, the frame can still be empty.. 
 			if (!frame_scene_cam.empty())
@@ -543,22 +547,22 @@ void Eyetracking::run_multithreaded()
 				// these potentially slow operations might slow down / cause framedrops a high-refresh rate eye camera streaming/recording
 				if (save_scene_cam_video)
 				{
-					img_screen_background.copyTo(img_screen); // clear canvas
-					draw_observe();
-					scene_cam_video_saver.write(img_screen, timestamp);
+					cv::circle(frame_scene_cam, p_calibrated, 12, Scalar(255, 0, 255), 2);
+					scene_cam_video_saver.write(frame_scene_cam, timestamp);
 				}
 
 				if (show_scene_cam_during_recording)
 				{
-					if (!save_scene_cam_video) // still need to render if not already rendered in the save_scene_cam_video code block
+					//if (!save_scene_cam_video) // still need to render if not already rendered in the save_scene_cam_video code block
 					{
 						img_screen_background.copyTo(img_screen); // clear canvas
 						draw_observe();
 					}
 					imshow("screen", img_screen);
+					cv::waitKey(1); // needed or not ?!
 				}
 			}
-			cv::waitKey(1); // needed or not ?!
+			
 			timer.tock();
 		}
 	};
@@ -570,8 +574,7 @@ void Eyetracking::run_multithreaded()
 		while (run)
 		{
 			timer.tick();
-			//thread_eyecam.get_frame(frame_eye_cam);
-			//thread_eyecam.new_frame = false;
+
 			eye_camera->read(frame_eye_cam);
 			double timestamp = duration_cast<duration<double>>(high_resolution_clock::now() - time_start).count();
 
@@ -636,9 +639,9 @@ void Eyetracking::run_multithreaded()
 				{
 					pupil_tracker->draw(frame_eye_cam);
 					imshow("eye_cam", frame_eye_cam);
+					cv::waitKey(1); // needed or not ?!
 				}
-			}
-			cv::waitKey(1); // needed or not ?!
+			}			
 			timer.tock();
 		}
 	};
