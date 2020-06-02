@@ -279,6 +279,7 @@ int main(int argc, char* argv[])
 					{
 						eye_cam->release();
 						eye_cam = nullptr;
+						cv::destroyWindow("Eye camera preview");
 					}
 				});
 
@@ -299,13 +300,14 @@ int main(int argc, char* argv[])
 					scene_cam_control.set_camera(scene_cam);
 					scene_cam_control.show();
 			});
-			sg.add_button("close camera", [&]()
+			sg.add_button("close", [&]()
 				{
 					scene_cam_control.hide();
 					if (scene_cam)
 					{
 						scene_cam->release();
 						scene_cam = nullptr;
+						cv::destroyWindow("Scene camera preview");
 					}
 				});
 
@@ -356,7 +358,6 @@ int main(int argc, char* argv[])
 						if (!eye_img.empty()) { cv::imshow("Eye camera preview", eye_img); }
 					}
 				}
-				else { cv::destroyWindow("Eye camera preview"); }
 
 				if (scene_cam)
 				{ 
@@ -366,7 +367,7 @@ int main(int argc, char* argv[])
 						if (!scene_img.empty()) { cv::imshow("Scene camera preview", scene_img); }
 					}
 				}
-				else { cv::destroyWindow("Scene camera preview"); }
+
 
 				eye_cam_control.update();
 				scene_cam_control.update();
