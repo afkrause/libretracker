@@ -1,4 +1,4 @@
-# Libretracker: Free- and Open-Source Eyetracking ![](https://github.com/afkrause/libretracker/workflows/cpp_ci/badge.svg)
+# Libretracker: Free- and Open-Source Eyetracking ![](https://github.com/afkrause/libretracker/workflows/ubuntu/badge.svg)
 
 ## Menu: [Downloads](#downloads) | [Compiling](#compiling) | [Documentation](#documentation) | [DIY Hardware](#hardware)
 
