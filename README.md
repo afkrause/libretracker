@@ -1,4 +1,4 @@
-# Libretracker: Libre, Free and Open-Source Eyetracking
+# Libretracker: Free- and Open-Source Eyetracking ![](https://github.com/afkrause/libretracker/workflows/cpp_ci/badge.svg)
 
 ## Menu: [Downloads](#downloads) | [Compiling](#compiling) | [Documentation](#documentation) | [DIY Hardware](#hardware)
 
@@ -10,6 +10,8 @@ It is important to disable the autofocus of both the eye- and scene camera using
 Otherwise, calibration won't work properly.
 A problem  is the poor standardisation among UVC webcams.
 For some cameras the OpenCV based camera controls (focus, exposure, gain) might work, for others they might fail. 
+
+
 
 #### References, Papers
 If you would like to cite Libretracker, please use:
