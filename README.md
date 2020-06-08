@@ -56,7 +56,6 @@ SHA3_512: 3f63db11227fa2c25c76d48cad2be02772c566358a610b67ddc54c3e958818ccb61a7f
 This Eyetracking Software requires only a few dependencies: OpenCV, Labstreaming Layer, Eigen and the Fast Light Toolkit (FLK).
 If you activate OpenCL support, you also need the header-only library https://github.com/boostorg/compute and boost.
 
-```
 qick build hint: Libretracker depends on submodules. recursively clone the project:
 ```console
 git clone --recursive https://github.com/afkrause/libretracker.git
