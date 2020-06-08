@@ -4,7 +4,7 @@
 
 ## Introduction
 Libretracker is a free and open-source software for tracking your eye-movements using one ore more head-mounted webcams. 
-It uses OpenCV to capture the scene-camera and eye-camera videostreams.
+It uses [OpenCV 4](https://opencv.org/) to capture the scene-camera and eye-camera videostreams.
 Hence, you can use any UVC compliant Webcam.
 It is important to disable the autofocus of both the eye- and scene camera using the built-in camera settings. 
 Otherwise, calibration won't work properly.
