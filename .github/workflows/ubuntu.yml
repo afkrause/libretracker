@@ -1,4 +1,4 @@
-name: cpp_ci
+name: ubuntu
 
 on:
   push:
