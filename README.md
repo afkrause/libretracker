@@ -27,11 +27,13 @@ Krause, A. F., & Essig, K. (2019). Boosting speed- and accuracy of gradient base
 
 #### tested, working cameras:
 
-cameras of a usual DIY Pupil Labs Eyetracker: https://docs.pupil-labs.com/#diy
-* Microsoft Lifecam HD 6000
+* [Pupil Labs 200 Hz Camera](https://pupil-labs.com/products/core/accessories/) (you need to select the direct show backend)
+* Microsoft Lifecam HD 6000 (see also https://docs.pupil-labs.com/#diy)
+* Logitech HD Webcam C270
 * Logitech HD Webcam C615
 * Logitech QuickCam Pro 9000
-* DeLock Infrared USB Camera 96371 (see [DIY Hardware](#hardware))
+* Creative Live! Cam Chat HD 
+* [DeLock Infrared USB Camera 96371](https://www.reichelt.de/kameramodul-usb-5-mp-ir-48-v5-fixfokus-delock-96371-p176586.html) (see [DIY Hardware](#hardware))
 
 
 
