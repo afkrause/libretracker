@@ -183,11 +183,17 @@ cmake . -DLIBLSL_ENABLED=ON
 
 ### User Interface
 
-The Userinterface allows to perform calibration, validation and running a module. Currently implemented is an Eyetracking Speller.
+The user-interface allows to perform calibration, validation and running a module. Available modules: a) a recording and streaming module; b) an eyetracking speller prototype.
 
 ![Screenshot](documentation/images/screenshot01.png)
 
-more to come .. 
+Screenshot 1 shows the initial user-dialog directly after startup. You can select the level of hardware acceleration (this setting is only relevant for timms's pupil tracking algorithm) and camera settings.
+If you are running Libretracker under windows, you access "extended camera settings" by switching to the direct-show backend.
+
+![Screenshot](documentation/images/screenshot02.png)
+
+Screenshot 2 shows the main user interface. Here you can adjust the canvas size, marker tracking and pupil tracking. Next, you can calibrate and validate the eyetracker. Finally, you can record / stream the data or try out the speller prototype.
+
 
 ## Hardware
 

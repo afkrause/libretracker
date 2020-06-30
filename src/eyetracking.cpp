@@ -316,17 +316,13 @@ void Eyetracking::update()
 	{
 		if (camera_ready[0])
 		{
+			//frame_eye_cam = imread("assets/lpw_01_sample_eye_image.png"); cv::resize(frame_eye_cam, frame_eye_cam, Size(), 0.5, 0.5);// for debugging
 			eye_camera->retrieve(frame_eye_cam);
+			
 			if (!frame_eye_cam.empty())
 			{
 				// ********************************************************
 				// get pupil position
-				/*
-				cv::cvtColor(frame_eye_cam, frame_eye_gray, cv::COLOR_BGR2GRAY);
-				std::tie(pupil_pos, pupil_pos_coarse) = timm.pupil_center(frame_eye_gray);
-
-				timm.visualize_frame(frame_eye_gray, pupil_pos, pupil_pos_coarse);
-				*/
 
 				timer.tick();
 				pupil_tracker->update(frame_eye_cam);

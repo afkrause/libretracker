@@ -1,5 +1,9 @@
-#pragma comment(lib, "opencv41/build/x64/vc15/lib/opencv_world411.lib")
 #pragma comment(lib, "labstreaminglayer/build/install/LSL/lib/liblsl64.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_core430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_imgcodecs430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_imgproc430.lib")
+#pragma comment(lib, "opencv43/build/lib/opencv_highgui430.lib")
+
 
 #include <iostream>
 #include<array>
