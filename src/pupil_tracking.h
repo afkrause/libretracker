@@ -26,27 +26,31 @@ public:
 };
 */
 
+#include "deps/tuebingen_pure/PuRe.h"
+#include "deps/tuebingen_pure/pupil-tracking/PuReST.h"
+
 // todo - use class Pupil 
 class Pupil_tracker_base
 {
 public:
+	Pupil pupil;
 	virtual void setup(enum_simd_variant simd_width) = 0;
 	virtual void update(cv::Mat& eye_cam_frame) = 0;	
 	virtual cv::Point2f pupil_center() = 0;
 	
-	virtual void draw(cv::Mat& img) { }
 	virtual void show_gui() {}
+
+	
+	virtual void draw(cv::Mat& img) {}
+
 };
 
 
-#include "deps/tuebingen_pure/PuRe.h"
-#include "deps/tuebingen_pure/pupil-tracking/PuReST.h"
+
 class Pupil_tracker_pure : public Pupil_tracker_base
 {
 protected: 
 	PuRe pupil_detector;
-	Pupil pupil;
-
 public:
 	cv::Mat frame_gray;
 
@@ -62,6 +66,11 @@ public:
 		pupil = pupil_detector.run(frame_gray);
 	}
 
+	virtual cv::Point2f pupil_center()
+	{
+		return pupil.center;
+	}
+
 	virtual void draw(cv::Mat& img)
 	{
 		cv::circle(img, pupil.center, 4, cv::Scalar(255, 0, 255), 2);
@@ -73,19 +82,13 @@ public:
 	}
 
 
-	virtual cv::Point2f pupil_center()
-	{
-		return pupil.center;
-	}
-
 };
 
 class Pupil_tracker_purest : public Pupil_tracker_base
 {
 protected:
 	PuRe pupil_detect;
-	std::unique_ptr<PupilTrackingMethod> pupil_tracking;
-	Pupil pupil;
+	std::unique_ptr<PupilTrackingMethod> pupil_tracking;	
 	int frame_counter = 0;
 public:
 	cv::Mat frame_gray;
@@ -107,20 +110,21 @@ public:
 		frame_counter++;
 	}
 
-	virtual void draw(cv::Mat& img)
-	{
-		cv::circle(img, pupil.center, 4, cv::Scalar(255, 0, 255), 2);
-		if(pupil.size.width > 0 && pupil.size.height > 0)
-		{
-			cv::ellipse(img, pupil, cv::Scalar(0, 255, 0), 1);
-		}
-	}
-
-
 	virtual cv::Point2f pupil_center()
 	{
 		return pupil.center;
 	}
+
+	virtual void draw(cv::Mat& img)
+	{
+		cv::circle(img, pupil.center, 4, cv::Scalar(255, 0, 255), 2);
+
+		if (pupil.size.width > 0 && pupil.size.height > 0 && pupil.confidence != -1.0)
+		{
+			cv::ellipse(img, pupil, cv::Scalar(0, double(pupil.confidence) * 255, 0), 1);
+		}
+	}
+
 
 };
 

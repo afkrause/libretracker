@@ -465,6 +465,21 @@ void Eyetracking::run_multithreaded()
 	if (save_scene_cam_video)	{ scene_cam_video_saver.open(dts + "_scene_camera.avi", dts + "_scene_camera_timestamps.txt", fps_scene_cam, Size(frame_scene_cam.cols , frame_scene_cam.rows), int(video_writer_buffer_size)); }
 	if (save_eye_cam_video)		{ eye_cam_video_saver.open(dts + "_eye_camera.avi", dts + "_eye_camera_timestamps.txt", fps_eye_cam, Size(frame_eye_cam.cols, frame_eye_cam.rows), int(video_writer_buffer_size)); }
 
+	// write header
+	if (save_gaze_data && fstream_gaze_data.is_open())
+	{
+		fstream_gaze_data << 
+			"timestamp" << "\t" <<
+			"pupil_pos_x" << "\t" <<
+			"pupil_pos_y" << "\t" <<
+			"pupil_diameter" << "\t" <<
+			"confidence" << "\t" <<
+			"p_calibrated_x" << "\t" <<
+			"p_calibrated_y" << "\t" <<
+			"p_projected_x" << "\t" <<
+			"p_projected_y" << "\n";
+	}
+
 	cv::destroyAllWindows();
 
 	bool run = true;
@@ -619,6 +634,8 @@ void Eyetracking::run_multithreaded()
 					fstream_gaze_data << timestamp << "\t" <<
 						pupil_pos.x << "\t" <<
 						pupil_pos.y << "\t" <<
+						pupil_tracker->pupil.diameter() << "\t" <<
+						pupil_tracker->pupil.confidence << "\t" <<						
 						p_calibrated.x << "\t" <<
 						p_calibrated.y << "\t" <<
 						p_projected_x << "\t" <<

@@ -8,23 +8,23 @@
 #endif
 
 #ifdef _DEBUG
-#pragma comment(lib, "opencv42/build/x64/vc15/lib/opencv_world420d.lib")
-#pragma comment(lib, "fltk14/bin/lib/Debug/fltkd.lib")
-#pragma comment(lib, "fltk14/bin/lib/Debug/fltk_gld.lib")
+	#pragma comment(lib, "opencv42/build/x64/vc15/lib/opencv_world420d.lib")
+	#pragma comment(lib, "fltk14/bin/lib/Debug/fltkd.lib")
+	#pragma comment(lib, "fltk14/bin/lib/Debug/fltk_gld.lib")
 #else
-#pragma comment(lib, "opencv43/build/lib/opencv_core430.lib")
-#pragma comment(lib, "opencv43/build/lib/opencv_imgcodecs430.lib")
-#pragma comment(lib, "opencv43/build/lib/opencv_imgproc430.lib")
-#pragma comment(lib, "opencv43/build/lib/opencv_highgui430.lib")
-#pragma comment(lib, "opencv43/build/lib/opencv_videoio430.lib")
-#pragma comment(lib, "opencv43/build/lib/opencv_calib3d430.lib")
-#pragma comment(lib, "opencv43/build/lib/opencv_video430.lib")
-
-
-
-
-#pragma comment(lib, "fltk14/bin/lib/Release/fltk.lib")
-#pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
+	#if false // individual dlls
+		#pragma comment(lib, "opencv43/build/lib/opencv_core450.lib")
+		#pragma comment(lib, "opencv43/build/lib/opencv_imgcodecs450.lib")
+		#pragma comment(lib, "opencv43/build/lib/opencv_imgproc450.lib")
+		#pragma comment(lib, "opencv43/build/lib/opencv_highgui450.lib")
+		#pragma comment(lib, "opencv43/build/lib/opencv_videoio450.lib")
+		#pragma comment(lib, "opencv43/build/lib/opencv_calib3d450.lib")
+		#pragma comment(lib, "opencv43/build/lib/opencv_video450.lib")
+	#else
+		#pragma comment(lib, "opencv45/build/x64/vc15/lib/opencv_world450.lib")
+	#endif
+	#pragma comment(lib, "fltk14/bin/lib/Release/fltk.lib")
+	#pragma comment(lib, "fltk14/bin/lib/Release/fltk_gl.lib")
 #endif
 
 #ifdef LSL_ENABLED

@@ -41,14 +41,14 @@ Krause, A. F., & Essig, K. (2019). Boosting speed- and accuracy of gradient base
 This Software is licensed under the GPL 3. You can use it commercially, but you MUST make sure that end users have the freedom to run, study, share and modify the software. This means you have to release all of your code, tools and dependencies necessary to build your software if you use code from this Libretracker. For details see https://www.gnu.org/licenses/gpl-3.0.en.html , for a quick guide read https://www.gnu.org/licenses/quick-guide-gplv3.html .
 
 ## Downloads 
-64bit windows-executable:  http://andre-krause.de/libretracker/Libretracker20200502.zip
+64bit windows-executable:  http://andre-krause.de/libretracker/Libretracker20201027.zip
 
 Plase note, you may need to install [the visual C++ runtime from microsoft.com.](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) [Direct link: vc_redist.x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
 ```console
-Libretracker20200502.zip
-SHA1: d7e286f790f4f0d21f33af5629c0db327fcc69fd
-SHA3_512: 3f63db11227fa2c25c76d48cad2be02772c566358a610b67ddc54c3e958818ccb61a7f15e8122001b740480a874640dd6ddc6255d798ed0e7899c61dbb7d8938
+Libretracker20201027.zip
+SHA1: f269091ce8f522a85c36263fefad4d14699cd0a5
+SHA3_512: 9905d86620ac723aae5ce91cfaf2182ac3765c8370977161cf08ac7a3918d933c5af965e4ebc76bad21f5a44d00750a3dc000c603e0e334e9e9a4bf530cf0a45
 ```
 
 ## Compiling
