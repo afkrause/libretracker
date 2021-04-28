@@ -169,8 +169,8 @@ cmake . -DLIBLSL_ENABLED=ON
 6. position your head such that the scene camera can see all AR markers. 
    if the AR marker tracking is not stable, try to increase the AR marker size and lower the detectionsize threshold. 
 
-7. click calibrate. look at the corners of the AR markers where the arrow is pointing. 
-   press space bar if you precisely look at the corner. 
+7. click calibrate. look precisely into the center (purple colour) of the calibration marker. 
+   press the space bar to submit the calibration point.
    only move your eyes during calibration, not the head.
    
 8. optional: validate the calibration. 
