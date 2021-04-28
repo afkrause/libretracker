@@ -214,7 +214,7 @@ Headmount:
 
 you can use a variety of headmounts for gardening work, welding or helmets. 
 One example:
-* https://www.ebay.de/itm/Gesichtsschutz-inkl-Klappvisier-Gesichtsschutzschirm-auch-im-Set-1-3-Visiere/171829030823
+* https://www.ebay.de/itm/183709735517 from [abs-schwarzmann](https://www.ebay.de/usr/abs-schwarzmann)
 
 Eye Camera:
 ![Eye-Camera](documentation/images/eye_cam_small.jpg)
